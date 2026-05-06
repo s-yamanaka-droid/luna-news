@@ -1,0 +1,202 @@
+[
+  {
+    "title": "大企業がAI導入で差をつける、使用深度で3.5倍の差に",
+    "category": "業界動向",
+    "source": "OpenAI Blog",
+    "lede": "OpenAIの調査で、先進的なAI活用企業は一般的な企業の3.5倍のAI利用量を実現。チャット支援から自動化タスク（エージェント）への移行が競争優位の鍵。",
+    "keypoints": [
+      "先進企業の利用量は一般企業の3.5倍（前年は2倍）",
+      "メッセージ量ではなく使用の深さが競争差を生む",
+      "Codex（AIコーディングエージェント）使用が最大16倍",
+      "チャット支援から自動化タスクへの移行が必須"
+    ],
+    "pull": "AIの差別化は『誰が使っているか』から『どこまで深く使うか』へシフト。自動化タスク領域での活用が次の競争軸になる。",
+    "bizapp": {
+      "summary": "自社のAI活用が『ツール利用』に止まっていないか確認し、意思決定や自動化タスクへの拡張を急ぐべき時期",
+      "actions": [
+        "Codexなど自動化ツールの導入で営業提案資料作成やデータ分析を自動化、生産性3倍を目指す",
+        "中小企業向け：Claudeで請求書処理や顧客対応を自動化し、事務作業を50%削減する提案",
+        "競合がエージェント導入を進めている中、導入遅延は競争力喪失につながるリスク"
+      ]
+    },
+    "links": [
+      "https://openai.com/index/introducing-b2b-signals"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AnthropicがSpaceXの大規模DC買収、22万GPUでClaudeを加速",
+    "category": "業界動向",
+    "source": "The Decoder",
+    "lede": "Anthropic（AI企業）がSpaceXのColossus 1データセンター（300MW超）全容量を取得。22万基のNVIDIA GPUでClaudeの処理能力が大幅拡張、API制限が5～10倍に引き上げ。",
+    "keypoints": [
+      "22万GPU以上の処理能力を確保、1ヶ月以内に稼働予定",
+      "Claude Code の5時間制限が倍増、ピーク時の速度制限も廃止",
+      "API利用率制限が5～10倍に引き上げ（Opus モデル）",
+      "SpaceXとの軌道上AI計算の共同研究も開始"
+    ],
+    "pull": "大規模AIの実用化には『モデル開発』と同等かそれ以上に『計算インフラの確保』が重要。キャパ確保の差が実用化スピードの差になる。",
+    "bizapp": {
+      "summary": "Claudeの大幅な速度向上・容量拡張により、企業向けAI導入の実用性が一段上がる。API制限の引き上げで大量処理ユースケースが現実化。",
+      "actions": [
+        "Claudeを使った大量文書処理・翻訳業務を本格化、従来API制限で難しかった案件受注が可能に",
+        "中小企業向け：顧客サポートを24時間自動化、応答遅延を解消して満足度向上と人件費削減を同時実現",
+        "処理能力の拡張でOpenAI（ChatGPT）との競争が本格化、各企業の機能選定が急務"
+      ]
+    },
+    "links": [
+      "https://the-decoder.com/anthropic-taps-spacexs-colossus-1-data-center-for-220000-gpus-to-power-claude/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "OpenAIとAMD・Intel・NVIDIAがAI向け通信技術開発、GPU間遅延を革新",
+    "category": "業界動向",
+    "source": "The Decoder",
+    "lede": "OpenAIが主導し、AMD・Broadcom・Intel・Microsoft・NVIDIAと共同開発した「MRC」（マルチパス信頼通信）技術。AI学習の大規模GPUクラスタで通信ボトルネックを解消。",
+    "keypoints": [
+      "複数経路同時転送で通信混雑を削減",
+      "ネットワーク障害時の復旧がミリ秒単位で完了（従来は秒～十秒単位）",
+      "10万GPU以上を2層スイッチで接続可能（従来は3～4層必要）",
+      "電力消費・コンポーネント数・総コストを大幅削減"
+    ],
+    "pull": "AI学習の『計算能力の差』から『通信インフラの最適化』へシフト。業界統一プロトコルの確立で、データセンター構築コストが低下。",
+    "bizapp": {
+      "summary": "AI学習基盤の構築・運用コスト低下により、大規模AI導入のハードルが下がる。中堅企業の独自AI開発も現実化。",
+      "actions": [
+        "自社AI導入時、大規模計算が必要な場合はMRC対応クラウド選択で総所有コスト削減",
+        "AI学習基盤の構築・運用を得意とする新規サービス企画（クラウドプロバイダーとの協業推奨）",
+        "業界標準プロトコル決定により、複数AIベンダー・クラウド間の相互運用が加速、乗り換え容易化"
+      ]
+    },
+    "links": [
+      "https://the-decoder.com/openai-built-a-networking-protocol-with-amd-broadcom-intel-microsoft-and-nvidia-to-fix-ai-supercomputer-bottlenecks/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "ChatGPT広告が中小企業向け全面開放、最低予算撤廃で敷居低く",
+    "category": "ツール更新",
+    "source": "The Decoder",
+    "lede": "OpenAIがChatGPT広告「Ads Manager」をベータ公開。従来の最低予算50万ドル撤廃、クリック課金制（CPC）導入で、米国の小規模事業者も参入可能に。",
+    "keypoints": [
+      "最低予算5万ドルから撤廃、自社管理で広告出稿可能",
+      "クリック課金（CPC）とインプレッション課金（CPM）の選択制",
+      "Adobe・Criteo・StackAdaptなど大手代理店8社との統合対応",
+      "OpenAI、2026年の広告収益目標は25億ドル（2030年は1000億ドル）"
+    ],
+    "pull": "Googleを補完する新しい広告プラットフォームが登場。AIユーザー層への直接訴求が可能に。",
+    "bizapp": {
+      "summary": "ChatGPT利用者向けの低コスト広告出稿で、AIユーザー層への新規顧客獲得チャネルが開拓。",
+      "actions": [
+        "ChatGPTで日常的に検索する層向けの商品広告試運用、Google検索と異なるユーザー心理に対応",
+        "B2B・SaaS企業向け提案：開発者・技術者が使うChatGPTに直接出稿、質の高いリード獲得",
+        "GoogleやMetaと異なる広告生態系の立ち上がりで、広告費の最適配分が複雑化。運用体制の構築急務"
+      ]
+    },
+    "links": [
+      "https://the-decoder.com/chatgpt-ads-are-now-open-to-small-businesses-as-openai-builds-a-full-self-serve-ad-platform/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Googleの軽量AI「Gemma 4」を3倍高速化、スマホでも動作",
+    "category": "新モデル発表",
+    "source": "The Decoder",
+    "lede": "GoogleがGemma 4向けに「多トークン予測」（MTP）技術をリリース。小型のAIが次の複数単語を先読みし、メインモデルの処理効率を3倍に向上。品質低下なし。",
+    "keypoints": [
+      "補助モデルが数トークン先読み、メインモデルが一度に検証",
+      "スマートフォン・PC・クラウドで最大3倍の処理速度化",
+      "品質・精度の低下なし（事前検証済み）",
+      "Apache 2.0ライセンスでHugging Face・Kaggleで無料公開"
+    ],
+    "pull": "AIの処理ボトルネックは『計算量』から『データ転送』へシフト。この洞察が次の効率化を生む。",
+    "bizapp": {
+      "summary": "オンデバイスAIの実用性が大幅向上。データセンター不要で、プライバシー重視の企業向けAI導入が加速。",
+      "actions": [
+        "Gemma 4をスマホアプリに組み込み、ローカルで顧客対応・提案を自動生成。クラウド不要でコスト削減",
+        "中小企業向け：自社PCで翻訳・文書作成AI導入、オンプレ環境での即導入が可能に",
+        "クラウド依存のGoogle・OpenAIと異なる軽量ローカルAIが台頭。ベンダー戦略の見直し機会"
+      ]
+    },
+    "links": [
+      "https://the-decoder.com/google-speeds-up-gemma-4-threefold-with-multi-token-prediction/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "トランプ政権、AI安全テスト方針を180度転換、Mythos問題で合意",
+    "category": "業界動向",
+    "source": "Ars Technica",
+    "lede": "トランプ政権がAI安全規制を撤廃方針から転換。Google DeepMind・Microsoft・xAIと政府安全テストで合意。Claude最新版Mythosのセキュリティ懸念が転機に。",
+    "keypoints": [
+      "Anthropic の Claude Mythos、高度なサイバー能力悪用のリスクで未リリース",
+      "政府による先制的安全テスト（リリース前後）で3社と合意",
+      "AI安全研究所が「AI標準・イノベーション中核」へ改称（安全を外す）",
+      "今後の大規模AIモデルリリースは政府事前テスト対象に"
+    ],
+    "pull": "AI安全の『規制』から『協力テスト』へ転換。業界と政府の共同検証モデルが確立。",
+    "bizapp": {
+      "summary": "AI企業の規制リスク低下で大規模モデル投資が加速。一方、データセキュリティ要件の厳格化で企業側の対応強化が必要。",
+      "actions": [
+        "自社AI導入時、政府テスト済みモデルの採用で法的リスク低減。テスト対象外の低コストAIは避ける判断",
+        "AI開発企業向け提案：安全テスト・監査サービスの需要増加、コンプライアンス支援ビジネス立ち上げ",
+        "規制不確実性の低下で大型AI投資が正当化されやすく。マイナス企業の今期中導入判断が企業価値に影響"
+      ]
+    },
+    "links": [
+      "https://arstechnica.com/tech-policy/2026/05/everything-that-could-go-wrong-with-trumps-ai-safety-tests-according-to-experts/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AnthropicがClaudeで『夢を見る』機能、エージェント型AIの記憶強化",
+    "category": "ツール更新",
+    "source": "Ars Technica",
+    "lede": "AnthropicがManaged Agents向けに「ドリーミング」機能を追加。複数タスク実行中のAIが定期的に重要な情報を記憶に蓄積、長期プロジェクトでの文脈喪失を防止。",
+    "keypoints": [
+      "過去のセッション・タスク履歴を定期的に分析・要約",
+      "重要な情報のみ長期記憶に保存、文脈ウィンドウの制限を克服",
+      "複数エージェント協働での数時間～数日単位プロジェクトが現実化",
+      "研究プレビュー段階、Managed Agents環境でのみ利用可"
+    ],
+    "pull": "AI エージェントが『瞬間的な判断』から『経験の蓄積と学習』への段階へ進化。複雑な長期タスク自動化が可能に。",
+    "bizapp": {
+      "summary": "AI エージェント型が複数日単位の経営支援・プロジェクト管理に適用可能に。企業のバックオフィス自動化が本格化。",
+      "actions": [
+        "Managed Agents で月単位のプロジェクト進捗管理・経営判断サポート自動化（営業・事業企画部門向け）",
+        "中小企業向け提案：複数のAIが顧客対応・在庫管理を1ヶ月単位で協働、人手不要の運用体制確立",
+        "記憶機能のあるAIが登場で、企業ナレッジ管理・引き継ぎプロセスが AI 化される転換点"
+      ]
+    },
+    "links": [
+      "https://arstechnica.com/ai/2026/05/anthropics-claude-can-now-dream-sort-of/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "中国DeepSeek、初の大型調達で450億ドル評価へ、低コスト高性能の脅威",
+    "category": "業界動向",
+    "source": "TechCrunch",
+    "lede": "DeepSeek（中国AI企業）が初の投資ラウンドで評価額を200億ドルから450億ドルに急騰。米国AI企業の1/10のコストで世界レベルのモデルを開発する競争力に投資家が殺到。",
+    "keypoints": [
+      "わずか数週間で評価額が225%上昇（20億→45億ドル）",
+      "米国モデル比で1/10のコスト・少ない計算量で同等性能を実現",
+      "Huawei の低性能チップでも高速動作するよう最適化",
+      "中国国家投資ファンドが主導で調達、米国技術制限の迂回を加速"
+    ],
+    "pull": "AIの『計算量競争』から『効率化の競争』へシフト。低コスト高性能の中国モデルが市場に激震。",
+    "bizapp": {
+      "summary": "米国AIの価格競争圧力が高まる。選択肢の多様化で企業のAI調達コストが大幅低下、導入敷居が急低下。",
+      "actions": [
+        "OpenAI・Google より低コスト・処理速度の DeepSeek 活用で、AI導入総コスト30～50%削減提案可能に",
+        "中小企業向け提案：オープンウェイトの DeepSeek で自社向けAI 開発、ベンダーロックイン回避が実現",
+        "米国モデルの価格低下・機能強化が急速化。2026年のAI調達戦略を今期中に再評価すべき時期"
+      ]
+    },
+    "links": [
+      "https://techcrunch.com/2026/05/06/deepseek-could-hit-45b-valuation-from-its-first-investment-round/"
+    ],
+    "likes": 0
+  }
+]
