@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>2026-05-08 Morning Dispatch — Now on AIr</title>
+<meta name="description" content="2026-05-08 の Now on AIr モーニングディスパッチ — 8本のAI業界ニュース。" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../assets/vigil.css?v4" />
+</head>
+<body>
+<style>
+.date-huge{font-family:'JetBrains Mono',monospace;font-weight:800;font-size:clamp(48px,10vw,112px);line-height:.9;letter-spacing:-.03em;margin:8px 0 20px;}
+.date-huge .dot{color:var(--red)}
+.strap{display:flex;gap:28px;flex-wrap:wrap;font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--mute);}
+.strap .count{color:var(--ink);font-weight:700}
+.container{max-width:1400px;margin:0 auto;padding:0 40px}
+.daily-topic{padding:52px 0;border-bottom:1px solid var(--rule);position:relative;opacity:0;transform:translateY(20px);transition:opacity .5s,transform .5s;}
+.daily-topic.is-visible{opacity:1;transform:none}
+.daily-topic::before{content:"";position:absolute;left:0;top:0;width:3px;height:0;background:var(--red);transition:height .4s}
+.daily-topic:hover::before{height:100%}
+.daily-topic .container{display:grid;grid-template-columns:72px 1fr 240px;gap:36px}
+.numeral{font-family:'JetBrains Mono',monospace;font-weight:800;font-size:64px;line-height:1;color:var(--rule-2);position:relative;top:-6px;transition:color .2s}
+.daily-topic:hover .numeral{color:var(--red)}
+.numeral .ord{display:block;font-size:9px;letter-spacing:.16em;color:var(--mute);margin-top:8px;line-height:1.4;white-space:nowrap}
+.cat-line{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--red);margin-bottom:14px}
+.cat-line .sep{color:var(--mute);margin:0 8px}
+.main h2{font-family:'JetBrains Mono',monospace;font-weight:700;font-size:26px;line-height:1.3;margin:0 0 18px;letter-spacing:-.01em}
+.lede{font-family:'Noto Serif JP',serif;font-size:16px;line-height:1.75;margin:0 0 24px;color:var(--ink-2)}
+.main h3{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.2em;text-transform:uppercase;margin:24px 0 10px;color:var(--mute)}
+.keypoints{list-style:none;padding:0;margin:0 0 24px}
+.keypoints li{padding:10px 14px 10px 44px;margin-bottom:2px;background:var(--paper-2);border-left:2px solid transparent;position:relative;font-size:14px;line-height:1.6;transition:border-color .15s,transform .2s}
+.keypoints li:hover{border-left-color:var(--red);transform:translateX(4px)}
+.keypoints li::before{content:attr(data-i);position:absolute;left:14px;top:10px;font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--red);letter-spacing:.1em}
+.pull{padding:18px 22px;border-left:3px solid var(--red);background:var(--paper-2);font-size:14px;line-height:1.7;color:var(--ink-2);font-style:italic;margin-top:24px;transition:border-left-width .2s,padding-left .2s}
+.pull:hover{border-left-width:6px;padding-left:19px}
+.bizapp-block{margin-top:28px;border:1px solid var(--red);padding:20px 22px;}
+.bizapp-block .biz-label{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:.22em;text-transform:uppercase;color:#fff;background:var(--red);display:inline-block;padding:3px 10px;margin-bottom:12px;font-weight:700;}
+.bizapp-block .biz-summary{font-size:14px;font-weight:700;color:var(--ink);line-height:1.65;margin-bottom:10px;font-family:'Noto Serif JP',serif;}
+.bizapp-block ul{list-style:none;padding:0;margin:0;}
+.bizapp-block li{padding:8px 10px 8px 32px;margin-bottom:2px;background:var(--paper-2);border-left:2px solid var(--red);position:relative;font-size:13px;line-height:1.6;color:var(--ink-2);}
+.bizapp-block li .bi{position:absolute;left:8px;top:8px;font-size:12px;}
+.slide-img{margin:20px 0;border:1px solid var(--rule-2);overflow:hidden;cursor:zoom-in;position:relative;transition:border-color .2s}
+.slide-img:hover{border-color:var(--red)}
+.slide-img img{width:100%;display:block;transition:transform .5s}
+.slide-img:hover img{transform:scale(1.02)}
+.side{font-size:13px}
+.side dl{margin:0}
+.side dt{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:.18em;text-transform:uppercase;color:var(--mute);margin:18px 0 4px}
+.side dt:first-child{margin-top:0}
+.side dd{margin:0;word-break:break-all}
+.side dd a:hover{color:var(--red)}
+.likes{font-family:'JetBrains Mono',monospace;font-weight:700;font-size:28px;color:var(--red)}
+.likes-label{font-size:11px;color:var(--mute);letter-spacing:.1em;text-transform:uppercase}
+.lightbox-overlay{display:flex;align-items:center;justify-content:center;position:fixed;inset:0;padding:24px;background:rgba(14,13,11,0);z-index:1000;pointer-events:none;transition:background .3s}
+.lightbox-overlay.is-open{background:rgba(14,13,11,.93);pointer-events:auto}
+.lightbox-overlay img{max-width:100%;max-height:90vh;object-fit:contain;opacity:0;transform:scale(.93);transition:opacity .35s,transform .35s}
+.lightbox-overlay.is-open img{opacity:1;transform:scale(1)}
+.lightbox-close{position:absolute;top:20px;right:24px;font-family:'JetBrains Mono',monospace;font-size:12px;color:#F7F5F2;cursor:pointer;background:none;border:1px solid rgba(247,245,242,.3);padding:6px 14px;transition:background .2s}
+.lightbox-close:hover{background:var(--red)}
+@media(max-width:900px){.daily-topic .container{grid-template-columns:1fr}.numeral{font-size:36px}.side{border-top:1px solid var(--rule);padding-top:20px}}
+</style>
+<div class="dispatch">
+  <span class="tick">NOW ON AIr</span>
+  <span class="sep">/</span>
+  <span>№0508</span>
+  <span class="sep">/</span>
+  <span>2026-05-08</span>
+  <span class="sep">/</span>
+  <span>MORNING EDITION</span>
+  <span class="sep">/</span>
+  <span>8 ITEMS</span>
+  <span class="sep">/</span>
+  <span class="live"><span class="dot"></span>LIVE</span>
+  <div class="right">
+    <span class="jst"><b>06:30</b> JST</span>
+    <span>FRI</span>
+  </div>
+</div>
+<nav class="main">
+  <div class="brand"><em class="dot-r">●</em>Now on <em class="brand-ai">AI</em><span class="brand-r">r</span></div>
+  <ul>
+    <li><a href="../../">HOME</a></li>
+    <li><a href="./" class="active">TODAY</a></li>
+    <li><a href="../../#archive">ARCHIVE</a></li>
+    <li><a href="../../#about">ABOUT</a></li>
+  </ul>
+  <button class="subscribe" onclick="return false">SUBSCRIBE · 06:30 DAILY →</button>
+</nav>
+<div class="hero-wrap">
+  <div class="edition-line">
+    MORNING DISPATCH
+    <span class="sep">//</span>
+    FRIDAY, MAY 8, 2026
+    <span class="sep">//</span>
+    ISSUE N°0508
+  </div>
+  <h1 class="date-huge">2026<span class="dot">.</span>05<span class="dot">.</span>08</h1>
+  <div class="strap">
+    <span><span class="count">08</span>&nbsp;ITEMS</span>
+    <span>AI MORNING INTELLIGENCE</span>
+  </div>
+</div>
+
+<article class="daily-topic" id="topic-1">
+  <div class="container">
+    <aside class="numeral">01<span class="ord">TOPIC 01 · THE DECODER / TECHCRUNCH AI</span></aside>
+    <div class="main">
+      <div class="cat-line">
+        新モデル発表 <span class="sep">/</span> The Decoder / TechCrunch AI <span class="sep">/</span> NEWS
+      </div>
+      <h2>OpenAI、GPT-5級の推論能力を持つ音声AI「GPT-Realtime-2」を発表</h2>
+      <div class="slide-img zoom-image" data-src="../../assets/images/2026-05-08/topic_1.png" data-alt="OpenAI、GPT-5級の推論能力を持つ音声AI「GPT-Realtime-2」を発表" role="button" tabindex="0">
+        <img src="../../assets/images/2026-05-08/topic_1.png" alt="OpenAI、GPT-5級の推論能力を持つ音声AI「GPT-Realtime-2」を発表" loading="lazy" />
+      </div>
+      <p class="lede">OpenAIが高度な推論能力を備えた3つの新しい音声モデルを発表。リアルタイムで会話・翻訳・文字起こしを同時処理でき、カスタマーサービスなど多岐にわたる業界での活用が可能に。</p>
+      <h3>キーポイント</h3>
+      <ul class="keypoints">
+        <li data-i="01">GPT-Realtime-2は複数ツールの同時利用と5段階の推論強度調整が可能</li>
+        <li data-i="02">70以上の入力言語と13の出力言語でのリアルタイム翻訳に対応</li>
+        <li data-i="03">ライブ文字起こし機能により会話中のリアルタイムテキスト化を実現</li>
+        <li data-i="04">APIを通じて開発者が即座に利用可能な構成</li>
+      </ul>
+      <div class="pull">「音声インターフェースが単なる質疑応答から実際の仕事をこなすツールへと進化した。聞き、推論し、翻訳し、文字起こしし、会話の中でアクションを取る」</div>
+      <div class="bizapp-block">
+        <div class="biz-label">💡 ビジネス活用ポイント</div>
+        <div class="biz-summary">カスタマーサービス・営業支援・多言語対応などの現場業務が自動化・高度化。APIで即実装可能なため競争優位の確保が急務。</div>
+        <ul>
+        <li><span class="bi">🏢</span>Claude・Cursorと組み合わせ、社内コールセンターシステムにGPT-Realtime-2を統合し24時間多言語対応を実現</li>        <li><span class="bi">🤝</span>中小企業向けに多言語グローバル営業の自動応答化を提案。導入コスト低でグローバル展開が加速</li>        <li><span class="bi">👁</span>競合もAPI化を急ぐ段階。先行者優位を得るため月内の検証開始が重要</li>
+        </ul>
+      </div>
+    </div>
+    <aside class="side">
+      <dl>
+
+        <dt>SOURCE</dt>
+        <dd>The Decoder / TechCrunch AI</dd>
+        <dt>PUBLISHED</dt>
+        <dd>2026-05-08</dd>
+        <dt>CATEGORY</dt>
+        <dd>新モデル発表</dd>
+        <dt>LINKS</dt>
+        <dd><a href="https://the-decoder.com/openais-new-voice-model-brings-gpt-5-level-reasoning-to-real-time-conversations/">https://the-decoder.com/openais-new-voice-model-brings-…</a></dd>
+        <dd><a href="https://techcrunch.com/2026/05/07/openai-launches-new-voice-intelligence-features-in-its-api/">https://techcrunch.com/2026/05/07/openai-launches-new-v…</a></dd>
+      </dl>
+    </aside>
+  </div>
+</article>
+<article class="daily-topic" id="topic-2">
+  <div class="container">
+    <aside class="numeral">02<span class="ord">TOPIC 02 · THE DECODER / ARS TECHNICA AI</span></aside>
+    <div class="main">
+      <div class="cat-line">
+        業界動向 <span class="sep">/</span> The Decoder / Ars Technica AI <span class="sep">/</span> NEWS
+      </div>
+      <h2>Anthropic、ムスク傘下のデータセンター利用で計算量を大幅拡張</h2>
+      <div class="slide-img zoom-image" data-src="../../assets/images/2026-05-08/topic_2.png" data-alt="Anthropic、ムスク傘下のデータセンター利用で計算量を大幅拡張" role="button" tabindex="0">
+        <img src="../../assets/images/2026-05-08/topic_2.png" alt="Anthropic、ムスク傘下のデータセンター利用で計算量を大幅拡張" loading="lazy" />
+      </div>
+      <p class="lede">Anthropic が Elon Musk の SpaceX データセンター「Colossus 1」の全計算能力（22万個の GPU）を利用する契約を締結。急速な成長に伴う計算能力不足を解消し、ユーザーの利用制限を緩和。</p>
+      <h3>キーポイント</h3>
+      <ul class="keypoints">
+        <li data-i="01">年間売上が90億ドルから300億ドル超へと急拡大、インフラが追いつかず</li>
+        <li data-i="02">ムスク氏は1月に Anthropic を『悪質』と批判していたが、IPO控えた経済的理由で方針転換</li>
+        <li data-i="03">スペースX は料金収入でColossus1の経済性を正当化、双方の利益が一致</li>
+        <li data-i="04">Claude Code利用枠の倍増など、ユーザー向けサービス改善を即実施</li>
+      </ul>
+      <div class="pull">「ムスク氏が批判から提携へ。AI企業の成長速度がクラウドインフラの限界を露呈させた」</div>
+      <div class="bizapp-block">
+        <div class="biz-label">💡 ビジネス活用ポイント</div>
+        <div class="biz-summary">Claude利用制限が緩和される。導入企業は大規模プロジェクトの実行が加速でき、Anthropicの市場競争力が強化される局面。</div>
+        <ul>
+        <li><span class="bi">🏢</span>Claude APIで実装中の大規模データ分析・コード生成業務の拡大が可能に。Cursor連携で開発スピード向上を実現</li>        <li><span class="bi">🤝</span>中小企業向けに『利用枠拡大版Claude』の提案が有効。従来は制限で断念していた案件が今月から実行可能</li>        <li><span class="bi">👁</span>データセンター確保競争が激化。AWS・Google・Microsoft以外の選択肢が出現し、ベンダーロックイン回避の動きが活発化へ</li>
+        </ul>
+      </div>
+    </div>
+    <aside class="side">
+      <dl>
+
+        <dt>SOURCE</dt>
+        <dd>The Decoder / Ars Technica AI</dd>
+        <dt>PUBLISHED</dt>
+        <dd>2026-05-08</dd>
+        <dt>CATEGORY</dt>
+        <dd>業界動向</dd>
+        <dt>LINKS</dt>
+        <dd><a href="https://the-decoder.com/how-anthropics-80x-growth-blew-past-its-own-infrastructure-and-straight-into-musks-data-center/">https://the-decoder.com/how-anthropics-80x-growth-blew-…</a></dd>
+        <dd><a href="https://arstechnica.com/ai/2026/05/anthropic-raises-claude-code-usage-limits-credits-new-deal-with-spacex/">https://arstechnica.com/ai/2026/05/anthropic-raises-cla…</a></dd>
+      </dl>
+    </aside>
+  </div>
+</article>
+<article class="daily-topic" id="topic-3">
+  <div class="container">
+    <aside class="numeral">03<span class="ord">TOPIC 03 · THE DECODER</span></aside>
+    <div class="main">
+      <div class="cat-line">
+        業界動向 <span class="sep">/</span> The Decoder <span class="sep">/</span> NEWS
+      </div>
+      <h2>DeepL、『AI-native企業』へ転換で250人リストラ実行</h2>
+      <div class="slide-img zoom-image" data-src="../../assets/images/2026-05-08/topic_3.png" data-alt="DeepL、『AI-native企業』へ転換で250人リストラ実行" role="button" tabindex="0">
+        <img src="../../assets/images/2026-05-08/topic_3.png" alt="DeepL、『AI-native企業』へ転換で250人リストラ実行" loading="lazy" />
+      </div>
+      <p class="lede">翻訳AI企業DeepLが組織改編を発表。250人の人員削減で『AI-native組織』に転換し、従来は部門規模で対応していた業務をAIで処理。リアルタイム音声翻訳の強化に経営資源をシフト。</p>
+      <h3>キーポイント</h3>
+      <ul class="keypoints">
+        <li data-i="01">小規模チームがAIを活用して大規模業務を処理する体制に再編</li>
+        <li data-i="02">リアルタイム音声翻訳に注力するため、音声技術企業Mixhaloのチーム買収</li>
+        <li data-i="03">サンフランシスコに新オフィス開設し研究開発を加速</li>
+        <li data-i="04">CEO自ら改革タスクフォースを率いる体制で経営責任を明確化</li>
+      </ul>
+      <div class="pull">「既存事業の効率化で浮いた人員を高成長分野に集中投下する構造転換」</div>
+      <div class="bizapp-block">
+        <div class="biz-label">💡 ビジネス活用ポイント</div>
+        <div class="biz-summary">翻訳・ローカライズ業務の完全自動化が急加速。多言語対応を課題としていた企業の事業効率が数ヶ月で向上する可能性。</div>
+        <ul>
+        <li><span class="bi">🏢</span>Claudeの多言語能力を活用し、DeepL API統合の代替案を社内構築。翻訳精度と速度を両立したシステムを開発可能</li>        <li><span class="bi">🤝</span>採用企業向け：グローバル営業・カスタマーサポートの完全自動化を提案。人員削減による経営効率化のモデルケース提示</li>        <li><span class="bi">👁</span>AI-native組織への転換が相次ぐ予兆。従来の部門制から機能別チームへの組織改革が加速する業界トレンド始まり</li>
+        </ul>
+      </div>
+    </div>
+    <aside class="side">
+      <dl>
+
+        <dt>SOURCE</dt>
+        <dd>The Decoder</dd>
+        <dt>PUBLISHED</dt>
+        <dd>2026-05-08</dd>
+        <dt>CATEGORY</dt>
+        <dd>業界動向</dd>
+        <dt>LINKS</dt>
+        <dd><a href="https://the-decoder.com/ai-translation-company-deepl-cuts-around-250-jobs-to-rebuild-as-an-ai-native-organization/">https://the-decoder.com/ai-translation-company-deepl-cu…</a></dd>
+      </dl>
+    </aside>
+  </div>
+</article>
+<article class="daily-topic" id="topic-4">
+  <div class="container">
+    <aside class="numeral">04<span class="ord">TOPIC 04 · THE DECODER</span></aside>
+    <div class="main">
+      <div class="cat-line">
+        業界動向 <span class="sep">/</span> The Decoder <span class="sep">/</span> NEWS
+      </div>
+      <h2>EU、AI規制の複雑さに直面し実装期限を大幅延長</h2>
+      <div class="slide-img zoom-image" data-src="../../assets/images/2026-05-08/topic_4.png" data-alt="EU、AI規制の複雑さに直面し実装期限を大幅延長" role="button" tabindex="0">
+        <img src="../../assets/images/2026-05-08/topic_4.png" alt="EU、AI規制の複雑さに直面し実装期限を大幅延長" loading="lazy" />
+      </div>
+      <p class="lede">EU が AI 規制（AI Act）の改正案で、高リスク領域の規制実装期限を2027年12月、製品向けルールを2028年8月に延期。中小企業の負担軽減と『イノベーション重視』を掲げるが、業界からは複雑性の先延ばしと批判。</p>
+      <h3>キーポイント</h3>
+      <ul class="keypoints">
+        <li data-i="01">バイオメトリクス・重要インフラ・教育・移民関連のAI規制が2027年12月まで猶予</li>
+        <li data-i="02">玩具やエレベーターなど製品搭載AIのルール適用は2028年8月に延期</li>
+        <li data-i="03">750人以下・売上1.5億ユーロ以下の中小企業に登録・書類要件を緩和</li>
+        <li data-i="04">同意なき性的画像生成AI（ディープフェイク）は即座に禁止</li>
+      </ul>
+      <div class="pull">「本来の期限は実現不可能だったため、延期は既定路線。規制の不確実性が2年以上継続」</div>
+      <div class="bizapp-block">
+        <div class="biz-label">💡 ビジネス活用ポイント</div>
+        <div class="biz-summary">EU進出企業は2年のAI規制空白期間を得た。この間に欧州仕様システムの構築を前倒しすれば、競合より早期に適合可能。</div>
+        <ul>
+        <li><span class="bi">🏢</span>Claude・Cursorを活用し、EU規制対応システムの試験運用を即開始。2027年実装期限に余裕を持たせたポジショニング</li>        <li><span class="bi">🤝</span>中小企業向けに『規制リスク先読み支援』を営業ツールに。延期期間を利用した準備提案で受注機会を創出</li>        <li><span class="bi">👁</span>複雑性の先延ばしが続く中、独自の倫理基準・監査体制を確立する企業が市場信用を獲得する局面到来</li>
+        </ul>
+      </div>
+    </div>
+    <aside class="side">
+      <dl>
+
+        <dt>SOURCE</dt>
+        <dd>The Decoder</dd>
+        <dt>PUBLISHED</dt>
+        <dd>2026-05-08</dd>
+        <dt>CATEGORY</dt>
+        <dd>業界動向</dd>
+        <dt>LINKS</dt>
+        <dd><a href="https://the-decoder.com/europes-answer-to-ai-regulation-complexity-is-to-just-delay-most-of-it/">https://the-decoder.com/europes-answer-to-ai-regulation…</a></dd>
+      </dl>
+    </aside>
+  </div>
+</article>
+<article class="daily-topic" id="topic-5">
+  <div class="container">
+    <aside class="numeral">05<span class="ord">TOPIC 05 · ARS TECHNICA AI</span></aside>
+    <div class="main">
+      <div class="cat-line">
+        研究 <span class="sep">/</span> Ars Technica AI <span class="sep">/</span> NEWS
+      </div>
+      <h2>Anthropic、AIでソフトウェア脆弱性271件を高精度検出——ハルシネーション問題を解決</h2>
+      <div class="slide-img zoom-image" data-src="../../assets/images/2026-05-08/topic_5.png" data-alt="Anthropic、AIでソフトウェア脆弱性271件を高精度検出——ハルシネーション問題を解決" role="button" tabindex="0">
+        <img src="../../assets/images/2026-05-08/topic_5.png" alt="Anthropic、AIでソフトウェア脆弱性271件を高精度検出——ハルシネーション問題を解決" loading="lazy" />
+      </div>
+      <p class="lede">Mozilla が Anthropic の脆弱性検出AI「Mythos」を用いて Firefox の脆弱性271件を発見。従来の AI 検出の課題である『幻覚（ハルシネーション）』をほぼ排除し、ゼロデイ脆弱性対策の実用段階への進展を示唆。</p>
+      <h3>キーポイント</h3>
+      <ul class="keypoints">
+        <li data-i="01">2ヶ月間でFirefoxの271個のセキュリティ欠陥を検出、誤検知がほぼなし</li>
+        <li data-i="02">従来はAIが信ぴょう性の高い偽のバグレポートを大量生成する課題があった</li>
+        <li data-i="03">Mozilla独自の『ハーネス』という解析支援ツールとMythosモデル改善の組み合わせで実現</li>
+        <li data-i="04">人間の検証者が実際のバグ率を大幅に向上させ品質を確保</li>
+      </ul>
+      <div class="pull">「AIが生成するテキストの信頼性問題が、システム設計と継続的改善で解決された具体例」</div>
+      <div class="bizapp-block">
+        <div class="biz-label">💡 ビジネス活用ポイント</div>
+        <div class="biz-summary">セキュリティ監査・脆弱性スキャンが自動化される段階へ進行。開発企業は検査コスト削減と発見精度の向上を同時に実現可能に。</div>
+        <ul>
+        <li><span class="bi">🏢</span>Cursorとエンタープライズ版Claude Codeを組み合わせ、社内コードの脆弱性自動検査を実装。セキュリティ監査人員を削減しながら精度向上</li>        <li><span class="bi">🤝</span>ソフトウェア開発受託企業が『AI脆弱性検査サービス』を新規事業化。顧客のセキュリティコスト削減を提案</li>        <li><span class="bi">👁</span>セキュリティ業界がAI駆動に転換する局面。従来型の監査サービスの価値低下が加速し、高度な解釈・対応支援がニーズ化へ</li>
+        </ul>
+      </div>
+    </div>
+    <aside class="side">
+      <dl>
+
+        <dt>SOURCE</dt>
+        <dd>Ars Technica AI</dd>
+        <dt>PUBLISHED</dt>
+        <dd>2026-05-08</dd>
+        <dt>CATEGORY</dt>
+        <dd>研究</dd>
+        <dt>LINKS</dt>
+        <dd><a href="https://arstechnica.com/information-technology/2026/05/mozilla-says-271-vulnerabilities-found-by-mythos-have-almost-no-false-positives/">https://arstechnica.com/information-technology/2026/05/…</a></dd>
+      </dl>
+    </aside>
+  </div>
+</article>
+<article class="daily-topic" id="topic-6">
+  <div class="container">
+    <aside class="numeral">06<span class="ord">TOPIC 06 · TECHCRUNCH AI</span></aside>
+    <div class="main">
+      <div class="cat-line">
+        ツール更新 <span class="sep">/</span> TechCrunch AI <span class="sep">/</span> NEWS
+      </div>
+      <h2>Perplexity、ローカルAIエージェント『Personal Computer』をMac全ユーザーに開放</h2>
+      <div class="slide-img zoom-image" data-src="../../assets/images/2026-05-08/topic_6.png" data-alt="Perplexity、ローカルAIエージェント『Personal Computer』をMac全ユーザーに開放" role="button" tabindex="0">
+        <img src="../../assets/images/2026-05-08/topic_6.png" alt="Perplexity、ローカルAIエージェント『Personal Computer』をMac全ユーザーに開放" loading="lazy" />
+      </div>
+      <p class="lede">Perplexity が『Personal Computer』を Mac デスクトップアプリで全ユーザーに提供開始。ローカルファイル・アプリケーション・ウェブにアクセスできるAIエージェントで、OpenClaw よりセキュアな環境を実現。</p>
+      <h3>キーポイント</h3>
+      <ul class="keypoints">
+        <li data-i="01">ウェイトリスト廃止、Pro/Max契約者なら即座にローカルAIエージェントが利用可能</li>
+        <li data-i="02">クラウド依存を脱却し、ユーザーのデバイス上で個人業務の自動化を実行</li>
+        <li data-i="03">OpenClawの権限昇格リスクを軽減した設計。ローカル実行でセキュリティ向上</li>
+        <li data-i="04">個人向けマルチステップワークフロー自動化に特化したポジショニング</li>
+      </ul>
+      <div class="pull">「AIエージェントの民主化。クラウド制限を脱し、個人デバイスで日常業務が自動化される段階へ」</div>
+      <div class="bizapp-block">
+        <div class="biz-label">💡 ビジネス活用ポイント</div>
+        <div class="biz-summary">個人・中小企業の事務作業が自動化される。ローカル実行でセキュリティ懸念も軽減され、導入ハードルが大幅低下。</div>
+        <ul>
+        <li><span class="bi">🏢</span>Claude/Cursorと組み合わせ、複数ファイル処理・スケジュール管理・報告書自動生成を Personal Computer で実装</li>        <li><span class="bi">🤝</span>営業担当者向けに『提案資料自動生成エージェント』の導入支援。ローカル保存データを活用した定型化業務の完全自動化</li>        <li><span class="bi">👁</span>ローカルAI実行が標準化される転換点。クラウド利用料の削減・データ流出リスク低減が経営課題化する組織が増加へ</li>
+        </ul>
+      </div>
+    </div>
+    <aside class="side">
+      <dl>
+
+        <dt>SOURCE</dt>
+        <dd>TechCrunch AI</dd>
+        <dt>PUBLISHED</dt>
+        <dd>2026-05-08</dd>
+        <dt>CATEGORY</dt>
+        <dd>ツール更新</dd>
+        <dt>LINKS</dt>
+        <dd><a href="https://techcrunch.com/2026/05/07/perplexitys-personal-computer-is-now-available-everyone-on-mac/">https://techcrunch.com/2026/05/07/perplexitys-personal-…</a></dd>
+      </dl>
+    </aside>
+  </div>
+</article>
+<article class="daily-topic" id="topic-7">
+  <div class="container">
+    <aside class="numeral">07<span class="ord">TOPIC 07 · TECHCRUNCH AI</span></aside>
+    <div class="main">
+      <div class="cat-line">
+        ツール更新 <span class="sep">/</span> TechCrunch AI <span class="sep">/</span> NEWS
+      </div>
+      <h2>OpenAI、チャットボットの『自殺念慮対策』で信頼できる連絡先への通知機能を新設</h2>
+      <div class="slide-img zoom-image" data-src="../../assets/images/2026-05-08/topic_7.png" data-alt="OpenAI、チャットボットの『自殺念慮対策』で信頼できる連絡先への通知機能を新設" role="button" tabindex="0">
+        <img src="../../assets/images/2026-05-08/topic_7.png" alt="OpenAI、チャットボットの『自殺念慮対策』で信頼できる連絡先への通知機能を新設" loading="lazy" />
+      </div>
+      <p class="lede">OpenAI が新機能『Trusted Contact』で自殺念慮の兆候を検出すれば、ユーザーが事前指定した信頼できる人物に自動通知。訴訟多発への対応。自動判定と人間による1時間以内の審査体制を整備。</p>
+      <h3>キーポイント</h3>
+      <ul class="keypoints">
+        <li data-i="01">ユーザーが家族・友人を『信頼できる連絡先』として事前登録</li>
+        <li data-i="02">会話で自殺念慮の兆候検出時、自動で通知者へメール・SMS・アプリ通知を送付</li>
+        <li data-i="03">OpenAI人員が1時間以内にリスク判定し、深刻なら通知者に直接連絡</li>
+        <li data-i="04">ChatGPT利用者の自殺後の訴訟多発に対する自殺幇助責任回避の措置</li>
+      </ul>
+      <div class="pull">「AIの安全性強化と法的責任回避を同時に実現。第三者監視による信頼構築と業界スタンダード化の可能性」</div>
+      <div class="bizapp-block">
+        <div class="biz-label">💡 ビジネス活用ポイント</div>
+        <div class="biz-summary">企業責任リスク管理が強化される。AI導入時のメンタルヘルス対応ガイドラインが経営課題化し、導入企業も類似機能の構築を迫られる局面。</div>
+        <ul>
+        <li><span class="bi">🏢</span>企業向けClaude/Cursorの内部利用で、メンタルヘルス検知・通知機能をカスタム実装。HR部門との連携で従業員心身管理を高度化</li>        <li><span class="bi">🤝</span>人材採用・教育支援サービス企業が『AIメンタルヘルス監視ツール』を営業ツール化。大企業向けコンプライアンス対応提案で差別化</li>        <li><span class="bi">👁</span>AI利用時の法的責任・安全基準が明確化の段階。企業内でのAI利用ガイドライン整備が経営リスク管理の必須項目化へ</li>
+        </ul>
+      </div>
+    </div>
+    <aside class="side">
+      <dl>
+
+        <dt>SOURCE</dt>
+        <dd>TechCrunch AI</dd>
+        <dt>PUBLISHED</dt>
+        <dd>2026-05-08</dd>
+        <dt>CATEGORY</dt>
+        <dd>ツール更新</dd>
+        <dt>LINKS</dt>
+        <dd><a href="https://techcrunch.com/2026/05/07/openai-introduces-new-trusted-contact-safeguard-for-cases-of-possible-self-harm/">https://techcrunch.com/2026/05/07/openai-introduces-new…</a></dd>
+      </dl>
+    </aside>
+  </div>
+</article>
+<article class="daily-topic" id="topic-8">
+  <div class="container">
+    <aside class="numeral">08<span class="ord">TOPIC 08 · TECHCRUNCH AI</span></aside>
+    <div class="main">
+      <div class="cat-line">
+        新モデル発表 <span class="sep">/</span> TechCrunch AI <span class="sep">/</span> NEWS
+      </div>
+      <h2>ストックホルム発、Voi創業者の新AI企業『Pit』がa16z支援で注目——エンタープライズAIエージェント市場へ</h2>
+      <div class="slide-img zoom-image" data-src="../../assets/images/2026-05-08/topic_8.png" data-alt="ストックホルム発、Voi創業者の新AI企業『Pit』がa16z支援で注目——エンタープライズAIエージェント市場へ" role="button" tabindex="0">
+        <img src="../../assets/images/2026-05-08/topic_8.png" alt="ストックホルム発、Voi創業者の新AI企業『Pit』がa16z支援で注目——エンタープライズAIエージェント市場へ" loading="lazy" />
+      </div>
+      <p class="lede">スウェーデンのスタートアップ『Pit』が a16z のシリーズA『1600万ドル』を調達。スクーター企業『Voi』の創業者が率い、企業の業務を学習してカスタムソフトウェアを自動生成するAIエージェントで市場開拓。</p>
+      <h3>キーポイント</h3>
+      <ul class="keypoints">
+        <li data-i="01">Voi元CEO・CTO が率いるエンタープライズAI企業が『AI product team as a service』を提唱</li>
+        <li data-i="02">企業の既存SaaSツール・ワークフロー分析から独自の社内アプリを自動生成</li>
+        <li data-i="03">モデルの『エージェント化』が実現し、テキスト生成から『実行可能なアクション』段階へ進化</li>
+        <li data-i="04">a16zがストックホルムのAIユニコーン候補として投資——ヨーロッパのエコシステム強化</li>
+      </ul>
+      <div class="pull">「汎用AIが『企業固有の業務専門家』へと進化。自社カスタマイズの手間が消滅する段階へ」</div>
+      <div class="bizapp-block">
+        <div class="biz-label">💡 ビジネス活用ポイント</div>
+        <div class="biz-summary">企業のカスタムソフトウェア開発が『営業・マーケ部門自身で実行可能』に転換。開発スタッフに頼らない業務自動化が加速する局面。</div>
+        <ul>
+        <li><span class="bi">🏢</span>Claude Code/Cursorを活用し、営業・バックオフィス業務の自動化アプリを非技術者が開発。Pit等の台頭で顧客が独自ツール構築へ転換</li>        <li><span class="bi">🤝</span>SaaS企業向けに『AI-native業務自動化サービス』を提案。スタートアップが既存SaaSスタック置き換えを加速させる競合関係を提示</li>        <li><span class="bi">👁</span>エンタープライズAIエージェント市場が1年以内に確立される予兆。従来のERPソリューション・BPOが再編される競争激化へ</li>
+        </ul>
+      </div>
+    </div>
+    <aside class="side">
+      <dl>
+
+        <dt>SOURCE</dt>
+        <dd>TechCrunch AI</dd>
+        <dt>PUBLISHED</dt>
+        <dd>2026-05-08</dd>
+        <dt>CATEGORY</dt>
+        <dd>新モデル発表</dd>
+        <dt>LINKS</dt>
+        <dd><a href="https://techcrunch.com/2026/05/07/voi-founders-new-ai-startup-pit-has-become-the-latest-rising-star-out-of-stockholm/">https://techcrunch.com/2026/05/07/voi-founders-new-ai-s…</a></dd>
+      </dl>
+    </aside>
+  </div>
+</article>
+<div class="colophon">
+  <div class="left"><b>Now on <span class="brand-ai">AI</span>r</b> · AI Morning Intelligence · 山中秀斗 / TREPRO</div>
+  <div class="right">2026-05-08 DISPATCH</div>
+</div>
+
+<!-- Article Modal -->
+<div id="article-modal">
+  <div id="modal-box">
+    <div class="modal-head">
+      <span id="modal-cat"></span>
+      <button id="modal-close">✕ CLOSE</button>
+    </div>
+    <div id="modal-slide-wrap" style="display:none;margin:0;overflow:hidden;border-bottom:1px solid var(--rule-2);">
+      <img id="modal-slide-img" src="" alt="" style="width:100%;display:block;" />
+    </div>
+    <div class="modal-body">
+      <h2 id="modal-title"></h2>
+      <p id="modal-lede"></p>
+      <div id="modal-kp"></div>
+      <div id="modal-pull"></div>
+      <div id="modal-bizapp">
+        <div class="bizapp-head">💡 ビジネス活用ポイント</div>
+        <div class="bizapp-summary" id="modal-bizapp-summary"></div>
+        <ul class="bizapp-actions" id="modal-bizapp-actions"></ul>
+      </div>
+      <div id="modal-quickstart">
+        <div class="qs-head">⚡ 明日からできる｜個人事業主・社長向け</div>
+        <div class="qs-headline" id="qs-headline"></div>
+        <div class="qs-meta">
+          <div class="qs-tool"><span class="qs-label">推奨ツール</span> <a id="qs-tool-link" href="#" target="_blank" rel="noopener"></a> <span id="qs-cost" class="qs-cost"></span></div>
+          <div class="qs-time"><span class="qs-label">所要時間</span> <span id="qs-time"></span></div>
+        </div>
+        <div class="qs-steps-wrap">
+          <div class="qs-section-label">3ステップで試す</div>
+          <ol class="qs-steps" id="qs-steps"></ol>
+        </div>
+        <div class="qs-prompt-wrap">
+          <div class="qs-section-label">📋 コピペで使えるプロンプト</div>
+          <div class="qs-prompt" id="qs-prompt"></div>
+          <button class="qs-copy-btn" id="qs-copy-btn">📋 プロンプトをコピー</button>
+        </div>
+        <div class="qs-roi" id="qs-roi"></div>
+      </div>
+      <div class="modal-foot">
+        <span id="modal-src"></span>
+        <a id="modal-link" href="#" target="_blank" rel="noopener">元記事を読む →</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Image Lightbox -->
+<div class="lightbox-overlay" id="lightbox">
+  <button class="lightbox-close" id="lightbox-close">× CLOSE</button>
+  <img src="" id="lightbox-img" alt="" />
+</div>
+
+<script>
+(function(){
+  /* ── modal ── */
+  var modal=document.getElementById('article-modal');
+  var box=document.getElementById('modal-box');
+
+  function openModal(card){
+    var d=card.dataset;
+    document.getElementById('modal-cat').textContent=d.category||'';
+    document.getElementById('modal-title').textContent=d.title||'';
+    document.getElementById('modal-lede').textContent=d.lede||'';
+    document.getElementById('modal-src').textContent='SOURCE: '+(d.source||'');
+    var linkEl=document.getElementById('modal-link');
+    linkEl.href=d.link||'#';
+
+    /* Gemini slide image */
+    var slideWrap=document.getElementById('modal-slide-wrap');
+    var slideImg=document.getElementById('modal-slide-img');
+    if(d.slide){
+      slideImg.src=d.slide; slideImg.alt=d.title||'';
+      slideWrap.style.display='block';
+    } else { slideWrap.style.display='none'; slideImg.src=''; }
+
+    /* keypoints */
+    var kpEl=document.getElementById('modal-kp');
+    kpEl.innerHTML='';
+    try{
+      var kps=JSON.parse(d.keypoints||'[]');
+      if(kps.length){
+        var ul=document.createElement('ul');
+        kps.forEach(function(kp,i){
+          var li=document.createElement('li');
+          var num=document.createElement('span');
+          num.className='kp-num';
+          num.textContent=String(i+1).padStart(2,'0');
+          li.appendChild(num);
+          li.appendChild(document.createTextNode(kp));
+          ul.appendChild(li);
+        });
+        kpEl.appendChild(ul);
+      }
+    }catch(e){}
+
+    /* pull */
+    var pullEl=document.getElementById('modal-pull');
+    if(d.pull){pullEl.textContent='「'+d.pull+'」';pullEl.style.display='block';}
+    else{pullEl.style.display='none';}
+
+    /* bizapp */
+    var bizEl=document.getElementById('modal-bizapp');
+    try{
+      var biz=JSON.parse(d.bizapp||'null');
+      if(biz&&biz.summary){
+        document.getElementById('modal-bizapp-summary').textContent=biz.summary;
+        var baList=document.getElementById('modal-bizapp-actions');
+        baList.innerHTML='';
+        var icons=['🏢','🤝','👁'];
+        (biz.actions||[]).forEach(function(act,i){
+          var li=document.createElement('li');
+          var ic=document.createElement('span');
+          ic.className='ba-icon';ic.textContent=icons[i]||'→';
+          li.appendChild(ic);li.appendChild(document.createTextNode(act));
+          baList.appendChild(li);
+        });
+        bizEl.style.display='block';
+      } else { bizEl.style.display='none'; }
+    }catch(e){ bizEl.style.display='none'; }
+
+    /* quickstart */
+    var qsEl=document.getElementById('modal-quickstart');
+    try{
+      var qs=JSON.parse(d.quickstart||'null');
+      if(qs&&qs.headline){
+        document.getElementById('qs-headline').textContent=qs.headline;
+        var toolLink=document.getElementById('qs-tool-link');
+        toolLink.textContent=(qs.tool&&qs.tool.name)||'';
+        toolLink.href=(qs.tool&&qs.tool.url)||'#';
+        document.getElementById('qs-cost').textContent=(qs.tool&&qs.tool.cost)?'· '+qs.tool.cost:'';
+        document.getElementById('qs-time').textContent=qs.time||'';
+        var stepsEl=document.getElementById('qs-steps');
+        stepsEl.innerHTML='';
+        (qs.steps||[]).forEach(function(step){
+          var li=document.createElement('li');
+          li.textContent=step;
+          stepsEl.appendChild(li);
+        });
+        var promptEl=document.getElementById('qs-prompt');
+        promptEl.textContent=qs.prompt||'';
+        var copyBtn=document.getElementById('qs-copy-btn');
+        copyBtn.onclick=function(){
+          navigator.clipboard.writeText(qs.prompt||'').then(function(){
+            copyBtn.textContent='✓ コピー完了';
+            setTimeout(function(){copyBtn.textContent='📋 プロンプトをコピー';},1800);
+          });
+        };
+        document.getElementById('qs-roi').textContent=qs.roi?'💰 想定効果：'+qs.roi:'';
+        qsEl.style.display='block';
+      } else { qsEl.style.display='none'; }
+    }catch(e){ qsEl.style.display='none'; }
+
+    modal.style.display='flex';
+    modal.style.pointerEvents='auto';
+    requestAnimationFrame(function(){
+      modal.style.background='rgba(0,0,0,.72)';
+      box.classList.add('is-open');
+    });
+    document.body.style.overflow='hidden';
+  }
+
+  function closeModal(){
+    modal.style.background='rgba(0,0,0,0)';
+    box.classList.remove('is-open');
+    setTimeout(function(){modal.style.display='none';modal.style.pointerEvents='none';},280);
+    document.body.style.overflow='';
+  }
+
+  document.getElementById('modal-close').addEventListener('click',closeModal);
+  modal.addEventListener('click',function(e){if(e.target===modal)closeModal();});
+
+  /* card click → modal */
+  document.querySelectorAll('.img-card[data-title],.tcard[data-title]').forEach(function(card){
+    card.addEventListener('click',function(e){
+      if(e.target.tagName==='A')return;
+      openModal(card);
+    });
+  });
+
+  /* ── category filter ── */
+  document.querySelectorAll('.filter-pill').forEach(function(pill){
+    pill.addEventListener('click',function(){
+      var cat=pill.dataset.cat;
+      document.querySelectorAll('.filter-pill').forEach(function(p){p.classList.remove('active');});
+      pill.classList.add('active');
+      document.querySelectorAll('.tcard').forEach(function(c){
+        if(!cat||c.dataset.category===cat||cat==='ALL'){
+          c.style.opacity='1'; c.style.pointerEvents=''; c.style.transform='';
+        } else {
+          c.style.opacity='.2'; c.style.pointerEvents='none'; c.style.transform='scale(.97)';
+        }
+      });
+    });
+  });
+
+  /* ── image lightbox ── */
+  var overlay=document.getElementById('lightbox');
+  var img=document.getElementById('lightbox-img');
+  var close=document.getElementById('lightbox-close');
+  document.querySelectorAll('.zoom-image').forEach(function(el){
+    el.addEventListener('click',function(e){e.stopPropagation();
+      img.src=''; overlay.classList.add('is-open');
+      setTimeout(function(){ img.src=el.dataset.src; img.alt=el.dataset.alt||''; },20);
+    });
+  });
+  function closeBox(){
+    img.style.opacity='0'; img.style.transform='scale(0.93)';
+    setTimeout(function(){ overlay.classList.remove('is-open'); img.src=''; img.style.opacity=''; img.style.transform=''; },300);
+  }
+  close.addEventListener('click',closeBox);
+  overlay.addEventListener('click',function(e){if(e.target===overlay)closeBox();});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'){closeBox();closeModal();}});
+
+  /* ── scroll fade-in: .daily-topic (デイリーページ専用) ── */
+  var fadeEls=document.querySelectorAll('.daily-topic');
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(entries){
+      entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('is-visible');io.unobserve(e.target);}});
+    },{threshold:0.05,rootMargin:'0px 0px -24px 0px'});
+    fadeEls.forEach(function(el){io.observe(el);});
+  } else { fadeEls.forEach(function(el){el.classList.add('is-visible');}); }
+
+  /* ── dispatch ticker ── */
+  var row=document.querySelector('.dispatch');
+  if(row && row.dataset.ticker!=='off'){
+    var inner=row.innerHTML; row.innerHTML=inner+inner;
+    var pos=0,spd=0.4;
+    (function tick(){pos+=spd;if(pos>=row.scrollWidth/2)pos=0;row.scrollLeft=pos;requestAnimationFrame(tick);})();
+  }
+})();
+</script>
+
+</body>
+</html>
