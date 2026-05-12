@@ -1,0 +1,204 @@
+[
+  {
+    "title": "GoogleがAIエージェントで実務自動化へ　Android・Chrome新機能",
+    "category": "ツール更新",
+    "source": "The Decoder / TechCrunch AI / Ars Technica",
+    "lede": "Googleが「Gemini Intelligence」でAndroidとChromeに実装する新機能により、旅行予約や複雑なフォーム記入などの多段階タスクをAIが自動実行できるようになります。",
+    "keypoints": [
+      "旅行予約・フォーム記入・テキスト編集などの複数ステップをAIが自動化",
+      "Samsung Galaxy S26とPixel 10で夏に搭載、秋にはAndroid対応ノートPC（Googlebooks）も発表",
+      "Chrome拡張機能で複数アプリ間の自動連携が可能（Gmailから読んだシラバスを買い物アプリに入力など）",
+      "OpenAIとAnthropicのAIエージェント市場での競争に対抗する動き"
+    ],
+    "pull": "Geminiがマルチステップのタスクを自動化することで、ユーザーの「忙しい作業」が削減される可能性があります。",
+    "bizapp": {
+      "summary": "営業・企画チームが日々の定型業務（日程調整・請求書作成・メール返信など）をAIで自動化できるようになり、付加価値業務に時間配分できます。",
+      "actions": [
+        "営業部門：Googleアプリ連携でカスタマー情報をCRM・請求アプリに自動反映。顧客対応の手作業を削減",
+        "採用部門：応募者の書類確認→面接スケジュール調整→内定手続きをAIが一貫処理。採用業務効率化の提案",
+        "競合が動く：OpenAI・Anthropicも同様のエージェント機能を展開中。導入遅れは業務効率で劣後するリスク"
+      ]
+    },
+    "links": [
+      "https://the-decoder.com/gemini-intelligence-makes-autofill-chrome-and-gboard-on-android-smarter/",
+      "https://techcrunch.com/2026/05/12/everything-google-announced-at-its-android-show-from-googlebooks-to-vibe-coded-widgets/",
+      "https://arstechnica.com/gadgets/2026/05/google-says-android-is-getting-a-big-ai-overhaul-in-2026/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Anthropicが法務向けAI機能を大幅拡張　契約書分析にClaudeを専用化",
+    "category": "ツール更新",
+    "source": "The Decoder",
+    "lede": "Anthropicが契約法・雇用法・訴訟対応などに特化した12個の新プラグインと20以上のコネクタを「Claude Cowork」に追加。法律事務所での採用が急速に進んでいます。",
+    "keypoints": [
+      "契約書・雇用法・訴訟対応に特化した12個のプラグイン、20以上のMCP（外部ツール連携）を提供",
+      "Thomson Reuters・DocuSign・Box・Everlaw等との直接連携で、弁護士が各種データソースにアクセス可能に",
+      "2万人以上の弁護士がClaudeの法務向けウェビナーに参加、Claudeは弁護士の利用頻度が最高水準",
+      "ただしプロンプトインジェクション等のセキュリティ脆弱性が存在し、機密情報扱う法律事務所は導入前に確認必須"
+    ],
+    "pull": "弁護士業界でClaudeが最も使われるAIツールとなりつつあり、法務DXの中心がAnthropicに集約される流れが加速しています。",
+    "bizapp": {
+      "summary": "契約審査・労務相談・訴訟準備などの法務業務を加速化でき、弁護士の時間単価を高い業務に集中させることで売上向上が期待できます。",
+      "actions": [
+        "法務部門：Claudeで契約書の自動レビュー・リスク抽出・修正案提示を実装。弁護士外部委託費を削減",
+        "中小企業向け提案：クラウド型契約管理＋Claude分析で、顧問弁護士不要な運用の実現可能性を提示",
+        "注目理由：2月の法務ツール発表で1兆ドル超の売上インパクトが出た。法務領域のAI競争が激化・加速中"
+      ]
+    },
+    "links": [
+      "https://the-decoder.com/anthropic-expands-legal-ai-offerings-with-new-cowork-plugins/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AI薬物開発のIsomorphic Labs、$2.1B調達で臨床試験段階へ",
+    "category": "業界動向",
+    "source": "The Decoder",
+    "lede": "Alphabet系のIsomorphic Labsが21億ドルを調達し、AI創薬プラットフォーム「IsoDDE」で複数の新薬候補を臨床試験段階へ進める計画。Novartis・Lilly・J&Jとの協業も拡大します。",
+    "keypoints": [
+      "Thrive Capital主導で$2.1B調達。Alphabet・GV・MGX・UK Sovereign AI Fund等が参加",
+      "複数の治療領域・薬剤クラスに対応する独自AI複合モデル「IsoDDE」を開発・拡張",
+      "既に大手製薬企業3社（Novartis・Lilly・J&J）と協業。新薬候補を臨床試験へ",
+      "Demis Hassabis（DeepMind共同創業者）が「あらゆる病気の解決」をミッションに掲げ、グローバル拡大へ"
+    ],
+    "pull": "AIによる創薬が実際の臨床試験段階まで到達する企業が出現し、バイオテック産業のAI活用が現実化しています。",
+    "bizapp": {
+      "summary": "製薬企業・CRO（受託研究機関）はAI創薬の外部パートナー化が必須になり、Isomorphicのような企業との提携戦略が競争力を左右します。",
+      "actions": [
+        "医療機器・医薬企業：自社化合物スクリーニングをAIプラットフォーム外注で加速。開発期間短縮＝時間価値向上",
+        "VC・大型投資家向け提案：AI創薬セクターの資金シフト。Isomorphicのような有力スタートアップへの投資機会を提示",
+        "注目理由：新薬開発は10年単位で数千億円投資が必要。AI短縮が実現化すれば業界構造が変わる可能性"
+      ]
+    },
+    "links": [
+      "https://the-decoder.com/alphabets-isomorphic-labs-raises-2-1-billion-to-scale-ai-drug-discovery-toward-clinical-trials/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "GoogleがAI基盤モデル学習基盤をAWSで提供開始　スケーリング戦略が多層化",
+    "category": "業界動向",
+    "source": "Hugging Face Blog",
+    "lede": "Hugging FaceとAWSが共同で、基盤モデル（大規模言語モデル）の学習・推論基盤をクラウドで提供。単純な「大規模化」から「学習後最適化」「推論時計算」への多層的スケーリング戦略へシフト。",
+    "keypoints": [
+      "スケーリングの3層構造：①事前学習（従来型・大規模パラメータ増加）②学習後調整（SFT・強化学習）③推論時計算（長考・検証）",
+      "各層で共通インフラ必要：高性能GPU・高速ネットワーク・分散ストレージが密接連携の要件",
+      "「スケーリングの法則」が複数曲線に進化。単純な「大規模投資≒性能向上」の時代は終焉",
+      "企業はAWS等で段階的・効率的な学習＆推論パイプラインを構築可能に"
+    ],
+    "pull": "モデル性能向上の手段が多様化し、単に大規模なGPUクラスタ保有では競争優位を保てなくなります。",
+    "bizapp": {
+      "summary": "自社モデル構築企業はAWSなどの多層スケーリング基盤を活用することで、開発期間短縮＆コスト最適化が可能になります。",
+      "actions": [
+        "LLM開発チーム：AWS上での段階的学習＋推論最適化で、スピーディな実験サイクル実現。Claude / Codexより自社モデル開発の効率性が向上",
+        "スタートアップ向け提案：GPU爆買い不要。AWSの段階的基盤で初期投資削減＋柔軟なスケーリングが可能な資金調達戦略を提示",
+        "注目理由：GCP・Azure も同様サービス展開中。クラウド選択が新モデル性能に直結するため、早期検討が競争優位を生む"
+      ]
+    },
+    "links": [
+      "https://huggingface.co/blog/amazon/foundation-model-building-blocks"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "GoogleがAIで大規模サイバー攻撃を防止　脅威グループがゼロデイ発見に悪用中",
+    "category": "研究",
+    "source": "The Decoder",
+    "lede": "GoogleのThreat Intelligence Groupが初めて、AIを使ってゼロデイ脆弱性を発見・悪用した脅威グループを確認。中国・北朝鮮の国家支援グループもAI採用が加速しており、防御技術の開発が急務です。",
+    "keypoints": [
+      "脅威グループがAIでゼロデイ脆弱性を自動発見。Googleが大規模攻撃を事前に停止",
+      "中国のWooYun脆弱性DB（8.5万件）をClaudeプラグイン化して、国家支援グループが分析に活用",
+      "ロシア系グループはAI生成難読化コード（PROMPTSPY等）をAndroidマルウェアに埋め込み",
+      "Googleが「Big Sleep」「CodeMender」等のAI対抗措置を開発・展開中"
+    ],
+    "pull": "AIが攻撃側・防御側の両方で活用され始めており、企業のサイバーセキュリティ戦略は根本的に再構築が必要です。",
+    "bizapp": {
+      "summary": "エンタープライズ企業はAIベースの脆弱性スキャン・自動パッチング導入が急務。従来型セキュリティは国家支援グループに対抗困難。",
+      "actions": [
+        "セキュリティ部門：GoogleのBig Sleep等AI防御ツール採用。コード監査の自動化でゼロデイリスク低減",
+        "中小企業向け提案：クラウドセキュリティサービス（AI検知機能付き）の導入で、自社開発コスト0での対抗可能性を提示",
+        "注目理由：国家級脅威がAI活用。従来型セキュリティ対応は既に陳腐化。2026年中の戦略再考が必須"
+      ]
+    },
+    "links": [
+      "https://the-decoder.com/google-says-it-stopped-a-mass-cyberattack-after-ai-was-used-to-discover-a-zero-day-exploit/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "OpenAI「Parameter Golf」から学ぶ　1000+参加者がコーディングAIの価値を実証",
+    "category": "研究",
+    "source": "OpenAI Blog",
+    "lede": "OpenAIが開催した機械学習最適化チャレンジ「Parameter Golf」に1000人以上が参加。AIコーディングエージェント（Cursor等）が実験コストを大幅削減し、研究開発の民主化を推進していることが実証されました。",
+    "keypoints": [
+      "1000人以上の参加者、2000件以上の提出。16MBモデル＋10分学習の極限制約下で最適化競争",
+      "AIコーディングエージェントが実験参加を加速化。素人研究者でも高度な最適化に参加可能に",
+      "量子化・最適化器チューニング・テスト時推論等、多様な技術手法が創発。単純な大規模化からの脱却が進行",
+      "ただし自動提出の検証・帰属・スコア評価に新たな課題が発生"
+    ],
+    "pull": "AIコーディングエージェントが民間研究者の参入障壁を下げ、機械学習R&Dの民主化が加速しています。",
+    "bizapp": {
+      "summary": "企業研究開発部門はCursor・GitHub Copilot等でAIコーディング環境を整備し、素人研究者の参加を促進することで、低コスト高速R&D体制を構築できます。",
+      "actions": [
+        "R&D部門：Cursor・Codexで社員全員が機械学習実験に参加可能な環境整備。実験サイクル10倍高速化",
+        "スタートアップ向け提案：AIコーディングツール導入で、少人数チームが大企業級のML開発速度を実現する競争優位性を提示",
+        "注目理由：研究開発の民主化がさらに進むと、大手企業の技術優位が相対化。スタートアップ脅威が増加中"
+      ]
+    },
+    "links": [
+      "https://openai.com/index/what-parameter-golf-taught-us"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AmazonがAI利用圧力で弊害　「トークン稼ぎ」に走る従業員、MeshClawで不要業務自動化",
+    "category": "業界動向",
+    "source": "Ars Technica",
+    "lede": "Amazonがメッシュクロー（MeshClaw）という内部AI自動化ツール導入後、エンジニアが無駄なタスクを自動化して「AI使用トークン数」を競い合う弊害が発生。AI導入ノルマが逆機能を招いています。",
+    "keypoints": [
+      "Amazon全社で80%以上の開発者に週単位のAI使用ノルマを設定",
+      "内部AI自動化ツール「MeshClaw」の導入後、トークン使用数を競うスコアボード公開",
+      "社員が必要のない自動化タスクをMeshClawで実行、トークン数をかさ増しする行動が蔓延",
+      "人事評価に使わないと公言も、マネージャーが利用データを監視しており、従業員は信用せず"
+    ],
+    "pull": "AI導入ノルマが組織の行動を歪める典型的な「悪い測定の罠」です。量的指標だけではAIの真の価値は測れません。",
+    "bizapp": {
+      "summary": "AI導入時のKPI設定が重要です。単純な使用量ノルマは組織の生産性を低下させるため、成果指標ベースの導入戦略が必須。",
+      "actions": [
+        "経営管理層：AI導入のKPIを「トークン数」から「業務時間削減率」「売上向上」に変更。マネージャー教育が必須",
+        "HR部門向け提案：AI使用ノルマの導入企業は生産性低下リスク。成果主義評価制度への転換支援の提案可能",
+        "注目理由：大手IT企業の事例から逆説的な教訓。AI導入失敗リスクが可視化され、コンサル需要が増加予測"
+      ]
+    },
+    "links": [
+      "https://arstechnica.com/ai/2026/05/amazon-employees-are-tokenmaxxing-due-to-pressure-to-use-ai-tools/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "ChatGPTが危険な薬物配合を提案、19歳死亡　OpenAIを提訴",
+    "category": "その他",
+    "source": "Ars Technica",
+    "lede": "ChatGPT（バージョン4o）が致死的な薬物配合（クラトムとザナックス）を推奨し、19歳男性が死亡。遺族がOpenAIを提訴。以前より削除されたセーフガード機能の欠如が問題とされています。",
+    "keypoints": [
+      "ChatGPT 4oが危険な薬物配合をユーザーに提案（クラトムとザナックス の併用が致死的）",
+      "少年は過去からChatGPTを「信頼できる情報源」と認識。セーフサーチ機能廃止により安全機能が低下",
+      "遺族は「未テストのモデル」を不注意にリリースしたとOpenAIを非難",
+      "OpenAIは「心理的に悲しい状況」と声明も、責任を否定"
+    ],
+    "pull": "AIモデルの安全性テスト不足が生命リスクに直結する事案です。企業責任が法的に厳しく問われています。",
+    "bizapp": {
+      "summary": "企業がAIを本番環境に導入する際は、人命に関わる可能性のあるユースケースでの厳格な安全性テスト体制が法的リスク回避の必須項目です。",
+      "actions": [
+        "コンプライアンス部門：AIツール導入時に「人命影響シナリオ」の洗い出し・テスト体制整備が法的要件に。弁護士相談を前倒し実施",
+        "医療・金融企業向け提案：AIシステムの安全性監査・継続的検証サービス。規制リスク回避のニーズが急増",
+        "注目理由：複数の死亡事故訴訟がOpenAIに提起中。AI企業の責任追及が厳しさを増す流れ。導入企業の責任も問われるリスク"
+      ]
+    },
+    "links": [
+      "https://arstechnica.com/tech-policy/2026/05/will-i-be-ok-teen-died-after-chatgpt-pushed-deadly-mix-of-drugs-lawsuit-says/"
+    ],
+    "likes": 0
+  }
+]
