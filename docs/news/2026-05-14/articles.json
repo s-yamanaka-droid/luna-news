@@ -1,0 +1,202 @@
+[
+  {
+    "title": "Anthropic、OpenAIを初めて抜く B2B採用で逆転",
+    "category": "業界動向",
+    "source": "The Decoder",
+    "lede": "企業向けAI採用で、Anthropicが初めてOpenAIを上回った。決済プラットフォームRampの調査によると、Anthropicは34.4%、OpenAIは32.3%の企業に導入されている。",
+    "keypoints": [
+      "Anthropicが過去1年で採用率を4倍に拡大",
+      "OpenAIは0.3%しか成長していない",
+      "高額モデル利用時の利益構造が価格競争の課題に",
+      "クラウド品質低下やサービス障害が課題として指摘"
+    ],
+    "pull": "AIマーケットは流動的。Anthropicが大手企業の信頼を勝ち取った背景には、Claude（AIアシスタント）の信頼性と柔軟性にある。",
+    "bizapp": {
+      "summary": "企業のAI導入先の選択肢が広がる。コスト削減とパフォーマンスを比較検討する時期。",
+      "actions": [
+        "Claude・ChatGPTの両者を試運用し、営業資料作成やデータ分析の効率を実測比較する",
+        "中小企業が複数のAIツールを使い分けるモデル構築。定額制で複数の選択肢を利用可能に",
+        "OpenAIへの過度な依存リスク。競争環境の激化で値下げや機能改善が加速"
+      ]
+    },
+    "links": [
+      "https://the-decoder.com/anthropic-overtakes-openai-in-b2b-adoption-for-the-first-time-according-to-ramp-spending-data/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Anthropic、中小企業向けAIを発表 既存ツールに組み込み",
+    "category": "新モデル発表",
+    "source": "The Decoder",
+    "lede": "Anthropicが「Claude for Small Business」を発表。QuickBooks・PayPal・HubSpot等の既存ツールに直接統合でき、会計・営業・マーケ業務を自動化。",
+    "keypoints": [
+      "QuickBooks・PayPal・HubSpot等15プラットフォームに対応",
+      "15個のAgent（自動実行AI）ワークフロー搭載",
+      "会計・営業・マーケ・HR・オペレーション業務が対象",
+      "全米でのワークショップツアー・無料トレーニング含む"
+    ],
+    "pull": "中小企業のAI導入は『ツール選び』から『既存ツールの強化』へシフト。使い慣れたシステムの中でAIが動く時代が来た。",
+    "bizapp": {
+      "summary": "中小企業はAI導入の心理的ハードルが劇的に下がる。既存ツールの延長で業務効率化が可能に。",
+      "actions": [
+        "QuickBooksやHubSpotユーザーは、Claude統合版へ段階的に移行。請求書作成・顧客管理の自動化で事務作業を50%削減",
+        "BPO事業者向け提案：QuickBooks統合のClaudeで中小企業向け給与計算・経費精算サービスを低コスト提供",
+        "アップセル機会。既存ERP・CRMベンダーがClaudeを組み込む動き加速。API統合のトレンド化"
+      ]
+    },
+    "links": [
+      "https://the-decoder.com/anthropic-launches-claude-for-small-business-to-embed-ai-into-the-tools-you-forgot-you-pay-for/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "金融チームがCodexで財務分析を自動化 OpenAIが事例公開",
+    "category": "ツール更新",
+    "source": "OpenAI Blog",
+    "lede": "OpenAIがCodex（AIコーディングエージェント）を使った金融チームの活用例を公開。MBR・予算分析・差異分析を自動生成で業務時間を短縮。",
+    "keypoints": [
+      "MBR（月次ビジネスレビュー）自動作成",
+      "差異分析・予算シナリオ分析を自動化",
+      "モデル検証・監査レポート生成に対応",
+      "実務データから直接レポートを生成"
+    ],
+    "pull": "金融業務は『手作業のExcel脱却』がAIで現実化。データ入力から分析・報告まで一気通貫で自動化可能。",
+    "bizapp": {
+      "summary": "財務部門の生産性が大幅向上。月次報告書作成の時間を数日短縮できる。",
+      "actions": [
+        "Codexで月次決算報告書自動生成。経理・FPA部門で既存Excel処理をCodex置き換え化",
+        "監査法人向け提案：Codexで監査証跡・差異分析を自動生成。顧客監査コスト30%削減",
+        "CFOの戦略時間確保。単純計算・集計作業をCodexに任せ、経営判断に注力可能"
+      ]
+    },
+    "links": [
+      "https://openai.com/academy/how-finance-teams-use-codex"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "NVIDIAエンジニア、Codexで研究を実装 本番システム構築",
+    "category": "ツール更新",
+    "source": "OpenAI Blog",
+    "lede": "NVIDIAがCodexとGPT-5.5を使い、研究アイデアを本番システムに変換。開発サイクルを大幅に短縮。",
+    "keypoints": [
+      "Codexで研究実装の時間短縮",
+      "実験→本番化を高速化",
+      "GPT-5.5との組み合わせで精度向上",
+      "複雑な物理演算コードも自動生成可能"
+    ],
+    "pull": "AI×ハードウェア開発の最前線。研究→プロダクト化のサイクルがAIで2倍以上に加速。",
+    "bizapp": {
+      "summary": "R&D部門の開発速度が加速。論文から実装まで数ヶ月短縮。競争優位性向上。",
+      "actions": [
+        "研究開発チームがCodexで数値解析・シミュレーションコードを自動生成。プロトタイプ製作を1/3に短縮",
+        "AI応用サービス企業向け：Codexで顧客カスタムモデルの実装を自動化。受託開発コスト削減",
+        "大学・研究機関との技術格差拡大。企業のAI活用が競争力の分水嶺に"
+      ]
+    },
+    "links": [
+      "https://openai.com/index/nvidia"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Windowsでも安全に Codexが本番運用へ OpenAIがサンドボックス公開",
+    "category": "ツール更新",
+    "source": "OpenAI Blog",
+    "lede": "OpenAIがWindows環境でCodex（AIコーディング）を安全に実行するサンドボックス技術を公開。ファイルアクセス・ネットワーク通信を制限した閉じた環境を提供。",
+    "keypoints": [
+      "Windows対応でエンタープライズ利用が加速",
+      "ファイルシステムへのアクセス制限可能",
+      "ネットワーク通信を遮断した安全な実行環境",
+      "本番システムへの統合が容易に"
+    ],
+    "pull": "セキュリティの問題が解決。企業のIT部門が安心してCodexを導入できる環境が整った。",
+    "bizapp": {
+      "summary": "大企業のWindowsベース開発チームがCodex採用しやすく。ガバナンス要件をクリア。",
+      "actions": [
+        "Windows環境のソフト開発チームがCodexを試導入。セキュリティポリシー適合化で承認取得短縮",
+        "SI企業向け提案：Codexを顧客企業に提供するサービス化。セキュアな実行環境をマネージドサービス化",
+        "エンタープライズAI導入の障壁が低下。信頼性とセキュリティの両立で採用拡大"
+      ]
+    },
+    "links": [
+      "https://openai.com/index/building-codex-windows-sandbox"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Tencent、AI投資を大幅拡大 中国製チップ供給改善で年後半へ",
+    "category": "業界動向",
+    "source": "The Decoder",
+    "lede": "中国の大手Tencentが2026年後半のAIインフラ投資を大幅増加する計画。国内半導体メーカーの供給が月ごとに改善されている。",
+    "keypoints": [
+      "Tencentが中国製AIチップの購入拡大を計画",
+      "Bytedanceも300億ドル超のAI基盤投資を予定",
+      "米国との競争激化で投資加速",
+      "Bloomberg報道では部品不足が続く可能性も指摘"
+    ],
+    "pull": "中国のAI投資が加速。米中競争の中で、AIアクセス格差が今後さらに拡大する可能性。",
+    "bizapp": {
+      "summary": "中国のAI産業が急速に成長。日本企業は中国企業との差別化が急務。",
+      "actions": [
+        "日本AI企業は、Tencent・Bytedanceとの提携検討。受託開発やコンサル型サービス拡大",
+        "SaaS企業向け提案：中国市場での代理店モデル強化。ローカライズ版AIツール展開加速",
+        "国内AI競争力維持が課題。政府支援・大学研究との連携で国産AIモデル開発強化"
+      ]
+    },
+    "links": [
+      "https://the-decoder.com/tencent-plans-to-ramp-up-ai-spending-as-chinas-chip-supply-allegedly-improves/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "MetaのAI、プライベートモード搭載 会話データを一切保存しない",
+    "category": "ツール更新",
+    "source": "The Decoder",
+    "lede": "MetaがAIアシスタントに「Incognito Chat」機能を追加。会話ログをサーバーに保存せず、信頼できる実行環境（TEE）内で処理。WhatsApp・Meta AIで展開開始。",
+    "keypoints": [
+      "サーバーにデータを保存しない設計",
+      "信頼できる実行環境（TEE）で処理",
+      "デバイスからの削除時点で消去",
+      "Google・OpenAIより強いプライバシー保証"
+    ],
+    "pull": "AIの信頼課題解決へ。プライバシーが『機能ではなく基盤』になる時代へシフト。",
+    "bizapp": {
+      "summary": "企業・個人のプライバシー不安が軽減。AI導入の心理的障壁が低下。",
+      "actions": [
+        "法務・人事部門がMeta AIのIncognito機能採用。機密情報入力時の安全性向上",
+        "医療・金融企業向け提案：プライベートモード搭載AIサービス。規制要件対応を売り文句に",
+        "Google・OpenAI対抗馬として Metaが台頭。企業選択肢が増え、競争激化加速"
+      ]
+    },
+    "links": [
+      "https://the-decoder.com/meta-ai-gets-a-private-mode-where-no-conversation-data-is-stored-on-servers/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AIが個人の電話番号を勝手に漏らす Google Geminiで多発",
+    "category": "その他",
+    "source": "MIT Tech Review",
+    "lede": "GoogleのAIアシスタント・Geminiが個人の電話番号を誤って返してしまう事例が多発。訓練データに含まれた個人情報が露出。防ぐ手段がない状態。",
+    "keypoints": [
+      "Geminiが他人の携帯番号を誤提示する事例相次ぐ",
+      "弁護士・ロックスミス等の専門家の連絡先が誤配信",
+      "訓練データに含まれた個人識別情報（PII）が根本原因",
+      "ユーザーレベルでの対策手段が不足"
+    ],
+    "pull": "AIのプライバシーリスクはサービス品質の問題ではなく、データ根本にある。規制と技術の綱引きが始まる。",
+    "bizapp": {
+      "summary": "AIの信頼性が問われ始めた。企業導入時の個人情報保護基準強化が急務。",
+      "actions": [
+        "企業がGemini採用時、個人情報を一切入力しないルール設定。法務チック確認の負担増",
+        "セキュリティコンサル企業向け提案：AI利用時のPII保護ガイドライン策定サービス化",
+        "AI規制強化リスク。GDPR類似の「生成AIデータ使用規制」が各国で検討加速か"
+      ]
+    },
+    "links": [
+      "https://www.technologyreview.com/2026/05/13/1137203/ai-chatbots-are-giving-out-peoples-real-phone-numbers/"
+    ],
+    "likes": 0
+  }
+]
