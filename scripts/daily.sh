@@ -23,11 +23,14 @@ python scripts/gen_quickstart.py "$TODAY" 2>&1 | tee -a "$LOG"
 echo "[3/4] weekly digest 更新" | tee -a "$LOG"
 python scripts/gen_weekly.py 2>&1 | tee -a "$LOG"
 
-echo "[4/4] HTML 再ビルド + push" | tee -a "$LOG"
+echo "[4/5] HTML 再ビルド + push" | tee -a "$LOG"
 python scripts/rebuild_all.py 2>&1 | tee -a "$LOG"
 cd /Users/yamanakashuto/apps/vigil-news
 git add -A 2>&1 | tee -a "$LOG"
 git commit -m "daily: $TODAY — quickstart + weekly refresh" 2>&1 | tee -a "$LOG" || echo "no changes" | tee -a "$LOG"
 git push origin main 2>&1 | tee -a "$LOG"
+
+echo "[5/5] Slack #朝刊 通知" | tee -a "$LOG"
+python scripts/notify_slack.py "$TODAY" 2>&1 | tee -a "$LOG" || echo "Slack送信失敗（処理は継続）" | tee -a "$LOG"
 
 echo "=== 完了 $TODAY ===" | tee -a "$LOG"
