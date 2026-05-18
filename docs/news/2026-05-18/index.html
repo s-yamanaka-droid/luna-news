@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>2026-05-18 Morning Dispatch — Now on AIr</title>
+<meta name="description" content="2026-05-18 の Now on AIr モーニングディスパッチ — 8本のAI業界ニュース。" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../assets/vigil.css?v4" />
+</head>
+<body>
+<style>
+.date-huge{font-family:'JetBrains Mono',monospace;font-weight:800;font-size:clamp(48px,10vw,112px);line-height:.9;letter-spacing:-.03em;margin:8px 0 20px;}
+.date-huge .dot{color:var(--red)}
+.strap{display:flex;gap:28px;flex-wrap:wrap;font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--mute);}
+.strap .count{color:var(--ink);font-weight:700}
+.container{max-width:1400px;margin:0 auto;padding:0 40px}
+.daily-topic{padding:52px 0;border-bottom:1px solid var(--rule);position:relative;opacity:0;transform:translateY(20px);transition:opacity .5s,transform .5s;}
+.daily-topic.is-visible{opacity:1;transform:none}
+.daily-topic::before{content:"";position:absolute;left:0;top:0;width:3px;height:0;background:var(--red);transition:height .4s}
+.daily-topic:hover::before{height:100%}
+.daily-topic .container{display:grid;grid-template-columns:72px 1fr 240px;gap:36px}
+.numeral{font-family:'JetBrains Mono',monospace;font-weight:800;font-size:64px;line-height:1;color:var(--rule-2);position:relative;top:-6px;transition:color .2s}
+.daily-topic:hover .numeral{color:var(--red)}
+.numeral .ord{display:block;font-size:9px;letter-spacing:.16em;color:var(--mute);margin-top:8px;line-height:1.4;white-space:nowrap}
+.cat-line{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--red);margin-bottom:14px}
+.cat-line .sep{color:var(--mute);margin:0 8px}
+.main h2{font-family:'JetBrains Mono',monospace;font-weight:700;font-size:26px;line-height:1.3;margin:0 0 18px;letter-spacing:-.01em}
+.lede{font-family:'Noto Serif JP',serif;font-size:16px;line-height:1.75;margin:0 0 24px;color:var(--ink-2)}
+.main h3{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.2em;text-transform:uppercase;margin:24px 0 10px;color:var(--mute)}
+.keypoints{list-style:none;padding:0;margin:0 0 24px}
+.keypoints li{padding:10px 14px 10px 44px;margin-bottom:2px;background:var(--paper-2);border-left:2px solid transparent;position:relative;font-size:14px;line-height:1.6;transition:border-color .15s,transform .2s}
+.keypoints li:hover{border-left-color:var(--red);transform:translateX(4px)}
+.keypoints li::before{content:attr(data-i);position:absolute;left:14px;top:10px;font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--red);letter-spacing:.1em}
+.pull{padding:18px 22px;border-left:3px solid var(--red);background:var(--paper-2);font-size:14px;line-height:1.7;color:var(--ink-2);font-style:italic;margin-top:24px;transition:border-left-width .2s,padding-left .2s}
+.pull:hover{border-left-width:6px;padding-left:19px}
+.bizapp-block{margin-top:28px;border:1px solid var(--red);padding:20px 22px;}
+.bizapp-block .biz-label{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:.22em;text-transform:uppercase;color:#fff;background:var(--red);display:inline-block;padding:3px 10px;margin-bottom:12px;font-weight:700;}
+.bizapp-block .biz-summary{font-size:14px;font-weight:700;color:var(--ink);line-height:1.65;margin-bottom:10px;font-family:'Noto Serif JP',serif;}
+.bizapp-block ul{list-style:none;padding:0;margin:0;}
+.bizapp-block li{padding:8px 10px 8px 32px;margin-bottom:2px;background:var(--paper-2);border-left:2px solid var(--red);position:relative;font-size:13px;line-height:1.6;color:var(--ink-2);}
+.bizapp-block li .bi{position:absolute;left:8px;top:8px;font-size:12px;}
+.slide-img{margin:20px 0;border:1px solid var(--rule-2);overflow:hidden;cursor:zoom-in;position:relative;transition:border-color .2s}
+.slide-img:hover{border-color:var(--red)}
+.slide-img img{width:100%;display:block;transition:transform .5s}
+.slide-img:hover img{transform:scale(1.02)}
+.side{font-size:13px}
+.side dl{margin:0}
+.side dt{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:.18em;text-transform:uppercase;color:var(--mute);margin:18px 0 4px}
+.side dt:first-child{margin-top:0}
+.side dd{margin:0;word-break:break-all}
+.side dd a:hover{color:var(--red)}
+.likes{font-family:'JetBrains Mono',monospace;font-weight:700;font-size:28px;color:var(--red)}
+.likes-label{font-size:11px;color:var(--mute);letter-spacing:.1em;text-transform:uppercase}
+.lightbox-overlay{display:flex;align-items:center;justify-content:center;position:fixed;inset:0;padding:24px;background:rgba(14,13,11,0);z-index:1000;pointer-events:none;transition:background .3s}
+.lightbox-overlay.is-open{background:rgba(14,13,11,.93);pointer-events:auto}
+.lightbox-overlay img{max-width:100%;max-height:90vh;object-fit:contain;opacity:0;transform:scale(.93);transition:opacity .35s,transform .35s}
+.lightbox-overlay.is-open img{opacity:1;transform:scale(1)}
+.lightbox-close{position:absolute;top:20px;right:24px;font-family:'JetBrains Mono',monospace;font-size:12px;color:#F7F5F2;cursor:pointer;background:none;border:1px solid rgba(247,245,242,.3);padding:6px 14px;transition:background .2s}
+.lightbox-close:hover{background:var(--red)}
+@media(max-width:900px){.daily-topic .container{grid-template-columns:1fr}.numeral{font-size:36px}.side{border-top:1px solid var(--rule);padding-top:20px}}
+</style>
+<div class="dispatch">
+  <span class="tick">NOW ON AIr</span>
+  <span class="sep">/</span>
+  <span>№0518</span>
+  <span class="sep">/</span>
+  <span>2026-05-18</span>
+  <span class="sep">/</span>
+  <span>MORNING EDITION</span>
+  <span class="sep">/</span>
+  <span>8 ITEMS</span>
+  <span class="sep">/</span>
+  <span class="live"><span class="dot"></span>LIVE</span>
+  <div class="right">
+    <span class="jst"><b>06:30</b> JST</span>
+    <span>MON</span>
+  </div>
+</div>
+<nav class="main">
+  <div class="brand"><em class="dot-r">●</em>Now on <em class="brand-ai">AI</em><span class="brand-r">r</span></div>
+  <ul>
+    <li><a href="../../">HOME</a></li>
+    <li><a href="./" class="active">TODAY</a></li>
+    <li><a href="../../#archive">ARCHIVE</a></li>
+    <li><a href="../../#about">ABOUT</a></li>
+  </ul>
+  <button class="subscribe" onclick="return false">SUBSCRIBE · 06:30 DAILY →</button>
+</nav>
+<div class="hero-wrap">
+  <div class="edition-line">
+    MORNING DISPATCH
+    <span class="sep">//</span>
+    MONDAY, MAY 18, 2026
+    <span class="sep">//</span>
+    ISSUE N°0518
+  </div>
+  <h1 class="date-huge">2026<span class="dot">.</span>05<span class="dot">.</span>18</h1>
+  <div class="strap">
+    <span><span class="count">08</span>&nbsp;ITEMS</span>
+    <span>AI MORNING INTELLIGENCE</span>
+  </div>
+</div>
+
+<article class="daily-topic" id="topic-1">
+  <div class="container">
+    <aside class="numeral">01<span class="ord">TOPIC 01 · OPENAI BLOG</span></aside>
+    <div class="main">
+      <div class="cat-line">
+        業界動向 <span class="sep">/</span> OpenAI Blog <span class="sep">/</span> NEWS
+      </div>
+      <h2>マルタ、全国民にChatGPT Plus無料提供　AI教育と併行</h2>
+      <div class="slide-img zoom-image" data-src="../../assets/images/2026-05-18/topic_1.png" data-alt="マルタ、全国民にChatGPT Plus無料提供　AI教育と併行" role="button" tabindex="0">
+        <img src="../../assets/images/2026-05-18/topic_1.png" alt="マルタ、全国民にChatGPT Plus無料提供　AI教育と併行" loading="lazy" />
+      </div>
+      <p class="lede">OpenAIとマルタ政府が世界初のパートナーシップを締結し、全マルタ市民にChatGPT Plus 1年分を無料提供。AI基礎教育も同時実施。</p>
+      <h3>キーポイント</h3>
+      <ul class="keypoints">
+        <li data-i="01">全市民対象のAI教育プログラム（マルタ大学開発）と ChatGPT Plus無料アクセスをセット提供</li>
+        <li data-i="02">責任あるAI活用を学ぶコースが前提で、修了後に1年間無料利用可能</li>
+        <li data-i="03">政府主導でAIを「電力のような社会インフラ」化する初の試み</li>
+        <li data-i="04">5月から段階的に展開開始</li>
+      </ul>
+      <div class="pull">インテリジェンスを全員に届けることが我々のビジョン。教育と実利用をセットで国民に提供する施策は、AI導入の新しいモデルケース</div>
+      <div class="bizapp-block">
+        <div class="biz-label">💡 ビジネス活用ポイント</div>
+        <div class="biz-summary">政府レベルでのAI民主化戦略で、日本の企業向けAI教育プログラム設計の参考になる</div>
+        <ul>
+        <li><span class="bi">🏢</span>社内向け：ChatGPT Plusでスキル育成プログラムを設計し、営業・企画チームのAI活用を加速</li>        <li><span class="bi">🤝</span>他社提案：中小企業向けにAI基礎講座と実利用セットの導入支援サービス企画</li>        <li><span class="bi">👁</span>注目理由：政府主導のAI普及は規制環境や人材育成ニーズを示す先行指標</li>
+        </ul>
+      </div>
+    </div>
+    <aside class="side">
+      <dl>
+
+        <dt>SOURCE</dt>
+        <dd>OpenAI Blog</dd>
+        <dt>PUBLISHED</dt>
+        <dd>2026-05-18</dd>
+        <dt>CATEGORY</dt>
+        <dd>業界動向</dd>
+        <dt>LINKS</dt>
+        <dd><a href="https://openai.com/index/malta-chatgpt-plus-partnership">https://openai.com/index/malta-chatgpt-plus-partnership</a></dd>
+      </dl>
+    </aside>
+  </div>
+</article>
+<article class="daily-topic" id="topic-2">
+  <div class="container">
+    <aside class="numeral">02<span class="ord">TOPIC 02 · OPENAI BLOG</span></aside>
+    <div class="main">
+      <div class="cat-line">
+        新モデル発表 <span class="sep">/</span> OpenAI Blog <span class="sep">/</span> NEWS
+      </div>
+      <h2>GPT-5.5、複雑な企業文書処理で精度50%超え　エラー46%削減</h2>
+      <div class="slide-img zoom-image" data-src="../../assets/images/2026-05-18/topic_2.png" data-alt="GPT-5.5、複雑な企業文書処理で精度50%超え　エラー46%削減" role="button" tabindex="0">
+        <img src="../../assets/images/2026-05-18/topic_2.png" alt="GPT-5.5、複雑な企業文書処理で精度50%超え　エラー46%削減" loading="lazy" />
+      </div>
+      <p class="lede">Databricksがエンタープライズ向けAIエージェント向けGPT-5.5を導入。スキャンPDFや古いファイル処理で業界初の50%精度達成。</p>
+      <h3>キーポイント</h3>
+      <ul class="keypoints">
+        <li data-i="01">OfficeQA Pro ベンチマークで業界最高精度（50%）を初達成</li>
+        <li data-i="02">前モデル（GPT-5.4）比でエラーを46%削減</li>
+        <li data-i="03">スキャン文書・レガシーファイル・長文書の処理に強化</li>
+        <li data-i="04">企業エージェントワークフロー向けに提供開始</li>
+      </ul>
+      <div class="pull">スキャンや古いファイル形式の処理で微小な抽出エラーが後続プロセスを狂わせるリスクが低減。実務的な正確性の向上が実現した</div>
+      <div class="bizapp-block">
+        <div class="biz-label">💡 ビジネス活用ポイント</div>
+        <div class="biz-summary">企業の大量バックアップ文書・請求書処理などのデジタル化が劇的に効率化される</div>
+        <ul>
+        <li><span class="bi">🏢</span>社内向け：Codexで経理・人事の過去文書デジタル化プロジェクトを自動化試行</li>        <li><span class="bi">🤝</span>他社提案：印刷物・FAX書類が多い製造業・金融業向けの自動化ソリューション提案</li>        <li><span class="bi">👁</span>注目理由：エラー削減率46%は業務品質改善に直結し、コンプライアンスリスク低減も実現</li>
+        </ul>
+      </div>
+    </div>
+    <aside class="side">
+      <dl>
+
+        <dt>SOURCE</dt>
+        <dd>OpenAI Blog</dd>
+        <dt>PUBLISHED</dt>
+        <dd>2026-05-18</dd>
+        <dt>CATEGORY</dt>
+        <dd>新モデル発表</dd>
+        <dt>LINKS</dt>
+        <dd><a href="https://openai.com/index/databricks">https://openai.com/index/databricks</a></dd>
+      </dl>
+    </aside>
+  </div>
+</article>
+<article class="daily-topic" id="topic-3">
+  <div class="container">
+    <aside class="numeral">03<span class="ord">TOPIC 03 · THE DECODER</span></aside>
+    <div class="main">
+      <div class="cat-line">
+        業界動向 <span class="sep">/</span> The Decoder <span class="sep">/</span> NEWS
+      </div>
+      <h2>OpenAI経営再編　「エージェント化」へ製品統合　Codex中心に</h2>
+      <div class="slide-img zoom-image" data-src="../../assets/images/2026-05-18/topic_3.png" data-alt="OpenAI経営再編　「エージェント化」へ製品統合　Codex中心に" role="button" tabindex="0">
+        <img src="../../assets/images/2026-05-18/topic_3.png" alt="OpenAI経営再編　「エージェント化」へ製品統合　Codex中心に" loading="lazy" />
+      </div>
+      <p class="lede">OpenAIのGreg Brockman会長が製品戦略を統括。CodexをコアにしたChatGPT・Atlas統合「スーパーアプリ」化で、エージェント時代に移行する組織体制。</p>
+      <h3>キーポイント</h3>
+      <ul class="keypoints">
+        <li data-i="01">Greg Brockman が製品戦略を正式統括、CEOはFidji Simo が復帰予定</li>
+        <li data-i="02">CodexとChatGPT、Atlasブラウザを統合した「スーパーアプリ」化を計画</li>
+        <li data-i="03">Thibault Sottiaux がCodex CEOとして統合チーム主導</li>
+        <li data-i="04">IPO前に製品ポートフォリオを「最大効率化」戦略に転換</li>
+      </ul>
+      <div class="pull">消費者向けと企業向けを統一した製品戦略で勝つ。エージェント(自律的に判断・行動するAI)への進化に最大リソースを集中させる組織転換</div>
+      <div class="bizapp-block">
+        <div class="biz-label">💡 ビジネス活用ポイント</div>
+        <div class="biz-summary">OpenAIのツール戦略が「単品→統合プラットフォーム」へシフト。企業導入側は戦略パートナーとしての重要性が高まる</div>
+        <ul>
+        <li><span class="bi">🏢</span>社内向け：Codex導入検討時に統合ロードマップを確認し、ChatGPT連携の長期価値を評価</li>        <li><span class="bi">🤝</span>他社提案：エージェント対応が迫られる業務（BPO・カスタマーサクセス）の顧客に先制提案</li>        <li><span class="bi">👁</span>注目理由：競合他社（Google・Claude）の統合戦略と比較し、導入判断のパラダイムシフトが起こる可能性</li>
+        </ul>
+      </div>
+    </div>
+    <aside class="side">
+      <dl>
+
+        <dt>SOURCE</dt>
+        <dd>The Decoder</dd>
+        <dt>PUBLISHED</dt>
+        <dd>2026-05-18</dd>
+        <dt>CATEGORY</dt>
+        <dd>業界動向</dd>
+        <dt>LINKS</dt>
+        <dd><a href="https://the-decoder.com/greg-brockman-consolidates-openais-product-teams-to-build-an-agentic-future/">https://the-decoder.com/greg-brockman-consolidates-open…</a></dd>
+      </dl>
+    </aside>
+  </div>
+</article>
+<article class="daily-topic" id="topic-4">
+  <div class="container">
+    <aside class="numeral">04<span class="ord">TOPIC 04 · ARS TECHNICA</span></aside>
+    <div class="main">
+      <div class="cat-line">
+        研究 <span class="sep">/</span> Ars Technica <span class="sep">/</span> NEWS
+      </div>
+      <h2>医療現場のAI記述者、基本情報を改ざん　50%以上が記入漏れ</h2>
+      <div class="slide-img zoom-image" data-src="../../assets/images/2026-05-18/topic_4.png" data-alt="医療現場のAI記述者、基本情報を改ざん　50%以上が記入漏れ" role="button" tabindex="0">
+        <img src="../../assets/images/2026-05-18/topic_4.png" alt="医療現場のAI記述者、基本情報を改ざん　50%以上が記入漏れ" loading="lazy" />
+      </div>
+      <p class="lede">カナダ・オンタリオ州の監査で、医療現場向けAI記述ツール（医師の診察を自動記録）が多数の誤りや情報捏造を発生。20ベンダー全て問題あり。</p>
+      <h3>キーポイント</h3>
+      <ul class="keypoints">
+        <li data-i="01">政府承認の20ベンダー全てで精度・完全性の問題を確認</li>
+        <li data-i="02">9ベンダーが患者情報を捏造、12が誤記入、17が精神衛生関連の重要情報を漏れ漏れ</li>
+        <li data-i="03">存在しない治療紹介や誤った処方を記録する事例多数</li>
+        <li data-i="04">患者の治療方針に悪影響をもたらす可能性が指摘</li>
+      </ul>
+      <div class="pull">複雑な医療会話を正確に記録するAIは仕組み上難しい。自動化の効率性だけに頼り、医師の最終確認が不可欠だ</div>
+      <div class="bizapp-block">
+        <div class="biz-label">💡 ビジネス活用ポイント</div>
+        <div class="biz-summary">医療・法律など高精度が必須の業界では、AI全自動化が危険。人間検証プロセスの設計が導入条件に</div>
+        <ul>
+        <li><span class="bi">🏢</span>社内向け：医療・金融など規制業界ではClaudeでラフ作成→人間確認の二重プロセス標準化</li>        <li><span class="bi">🤝</span>他社提案：AI導入時の「人間検証」コスト・工数提示で、無批判な自動化を阻止し利益構造を提案</li>        <li><span class="bi">👁</span>注目理由：医療訴訟リスク増加で規制強化が確実→AI導入ハードルが上がり、検証サービスの需要拡大</li>
+        </ul>
+      </div>
+    </div>
+    <aside class="side">
+      <dl>
+
+        <dt>SOURCE</dt>
+        <dd>Ars Technica</dd>
+        <dt>PUBLISHED</dt>
+        <dd>2026-05-18</dd>
+        <dt>CATEGORY</dt>
+        <dd>研究</dd>
+        <dt>LINKS</dt>
+        <dd><a href="https://arstechnica.com/health/2026/05/your-doctors-ai-notetaker-may-be-making-things-up-ontario-audit-finds/">https://arstechnica.com/health/2026/05/your-doctors-ai-…</a></dd>
+      </dl>
+    </aside>
+  </div>
+</article>
+<article class="daily-topic" id="topic-5">
+  <div class="container">
+    <aside class="numeral">05<span class="ord">TOPIC 05 · THE DECODER</span></aside>
+    <div class="main">
+      <div class="cat-line">
+        研究 <span class="sep">/</span> The Decoder <span class="sep">/</span> NEWS
+      </div>
+      <h2>生成AI研究、不可能な問題も自信持って解答　数学検証で露呈</h2>
+      <div class="slide-img zoom-image" data-src="../../assets/images/2026-05-18/topic_5.png" data-alt="生成AI研究、不可能な問題も自信持って解答　数学検証で露呈" role="button" tabindex="0">
+        <img src="../../assets/images/2026-05-18/topic_5.png" alt="生成AI研究、不可能な問題も自信持って解答　数学検証で露呈" loading="lazy" />
+      </div>
+      <p class="lede">新ベンチマーク「SOOHAK」で最大級モデル（Google Gemini 3 Pro）も研究レベル数学で精度30%。矛盾した問題を「解けない」と判断できない致命的欠陥判明。</p>
+      <h3>キーポイント</h3>
+      <ul class="keypoints">
+        <li data-i="01">Gemini 3 Pro・Claude最新版が研究レベル数学で30%以下の精度</li>
+        <li data-i="02">重要な欠陥：解けない問題を「解けない」と判断できず、自信持って誤答生成</li>
+        <li data-i="03">438タスクで教授陣が一から問題を作成、AIなし検証で信頼性確保</li>
+        <li data-i="04">IMOゴールドレベルのタスクすら難しく、シリーズ続く</li>
+      </ul>
+      <div class="pull">AIは「問題が矛盾している」ことに気づけず、あたかも解いたように見せる。信頼性が必須の分野ではこの欠陥は致命的</div>
+      <div class="bizapp-block">
+        <div class="biz-label">💡 ビジネス活用ポイント</div>
+        <div class="biz-summary">AI単独での法的判断・科学仮説評価・複雑問題解決は危険。検証層を組み込まない限り事業リスクが高い</div>
+        <ul>
+        <li><span class="bi">🏢</span>社内向け：Codexで問題解決型システム構築時は、『解けない判定』のロジックを人間が明示的に装備</li>        <li><span class="bi">🤝</span>他社提案：法務・研究向けAIツール導入時に『反例検出』『矛盾認識』の限界を明示し契約に組み込む</li>        <li><span class="bi">👁</span>注目理由：AI過信による判断誤り訴訟が増える前に、企業側の『知っていた』責任が問われるリスク段階へ</li>
+        </ul>
+      </div>
+    </div>
+    <aside class="side">
+      <dl>
+
+        <dt>SOURCE</dt>
+        <dd>The Decoder</dd>
+        <dt>PUBLISHED</dt>
+        <dd>2026-05-18</dd>
+        <dt>CATEGORY</dt>
+        <dd>研究</dd>
+        <dt>LINKS</dt>
+        <dd><a href="https://the-decoder.com/new-math-benchmark-reveals-ai-models-confidently-solve-problems-that-have-no-solution/">https://the-decoder.com/new-math-benchmark-reveals-ai-m…</a></dd>
+      </dl>
+    </aside>
+  </div>
+</article>
+<article class="daily-topic" id="topic-6">
+  <div class="container">
+    <aside class="numeral">06<span class="ord">TOPIC 06 · TECHCRUNCH</span></aside>
+    <div class="main">
+      <div class="cat-line">
+        業界動向 <span class="sep">/</span> TechCrunch <span class="sep">/</span> NEWS
+      </div>
+      <h2>GM、IT人員600人削減し『AI人材』へ転職　業界全体で人材争奪戦へ</h2>
+      <div class="slide-img zoom-image" data-src="../../assets/images/2026-05-18/topic_6.png" data-alt="GM、IT人員600人削減し『AI人材』へ転職　業界全体で人材争奪戦へ" role="button" tabindex="0">
+        <img src="../../assets/images/2026-05-18/topic_6.png" alt="GM、IT人員600人削減し『AI人材』へ転職　業界全体で人材争奪戦へ" loading="lazy" />
+      </div>
+      <p class="lede">自動車業界でAI人材への急速なシフト加速。GMはIT部門の10%削減（600人）で、自動運転・エージェント開発人材を採用。Ford・GM・Stellantisで計2万人削減中。</p>
+      <h3>キーポイント</h3>
+      <ul class="keypoints">
+        <li data-i="01">GM が IT部門 10%（約600人）を削減、AI開発人材採用で置き換え中</li>
+        <li data-i="02">求人スキル：AI-native開発、データエンジニアリング、エージェント・モデル開発、プロンプト工学</li>
+        <li data-i="03">Ford・GM・Stellantis が計2万人以上削減、その多くはAI転換に伴う人員調整</li>
+        <li data-i="04">『生産性ツール利用』ではなく『システム設計から訓練・パイプライン構築』できる人材が必須</li>
+      </ul>
+      <div class="pull">AIスキルがある層とない層で年収格差が急速に広がる。自動車は製造業の次の戦場へ</div>
+      <div class="bizapp-block">
+        <div class="biz-label">💡 ビジネス活用ポイント</div>
+        <div class="biz-summary">人材紹介・教育企業にとって『AI人材育成・転職支援』が急成長セグメント。業界変化に追従できない社員は失業リスク</div>
+        <ul>
+        <li><span class="bi">🏢</span>社内向け：営業・企画チームで『プロンプト工学』『簡易データ分析』研修を急ぎ実施し、人員リストラ対象から外す防衛策</li>        <li><span class="bi">🤝</span>他社提案：製造業・自動車部品メーカー向けに『AI人材転職支援』『社内リスキリング』をセットで受注機会化</li>        <li><span class="bi">👁</span>注目理由：後発企業は人材確保に3～5年遅れが致命傷に。採用競争の局面転換が既に始まっている</li>
+        </ul>
+      </div>
+    </div>
+    <aside class="side">
+      <dl>
+
+        <dt>SOURCE</dt>
+        <dd>TechCrunch</dd>
+        <dt>PUBLISHED</dt>
+        <dd>2026-05-18</dd>
+        <dt>CATEGORY</dt>
+        <dd>業界動向</dd>
+        <dt>LINKS</dt>
+        <dd><a href="https://techcrunch.com/2026/05/17/techcrunch-mobility-the-ai-skills-arms-race-is-coming-for-automotive/">https://techcrunch.com/2026/05/17/techcrunch-mobility-t…</a></dd>
+      </dl>
+    </aside>
+  </div>
+</article>
+<article class="daily-topic" id="topic-7">
+  <div class="container">
+    <aside class="numeral">07<span class="ord">TOPIC 07 · TECHCRUNCH</span></aside>
+    <div class="main">
+      <div class="cat-line">
+        ツール更新 <span class="sep">/</span> TechCrunch <span class="sep">/</span> NEWS
+      </div>
+      <h2>Appleの新Siri、プライバシー強化　Google Gemini搭載で30日自動削除機能</h2>
+      <div class="slide-img zoom-image" data-src="../../assets/images/2026-05-18/topic_7.png" data-alt="Appleの新Siri、プライバシー強化　Google Gemini搭載で30日自動削除機能" role="button" tabindex="0">
+        <img src="../../assets/images/2026-05-18/topic_7.png" alt="Appleの新Siri、プライバシー強化　Google Gemini搭載で30日自動削除機能" loading="lazy" />
+      </div>
+      <p class="lede">AppleがWWDCで発表予定の新Siri、Google Gemini搭載で単独アプリ化。Messages同様に会話を30日・1年後に自動削除するプライバシー機能を装備。</p>
+      <h3>キーポイント</h3>
+      <ul class="keypoints">
+        <li data-i="01">初の独立Siri アプリ、Google Gemini をバックエンドに採用</li>
+        <li data-i="02">ChatGPT・Geminiに比べてデータ保有期間に制限、Messages型自動削除機能装備</li>
+        <li data-i="03">30日・1年・無期限からユーザー選択</li>
+        <li data-i="04">6月WWDC で発表。プライバシー訴求が差別化戦略</li>
+      </ul>
+      <div class="pull">プライバシーは Siriの弱点を隠すための言い訳の可能性もあるが、企業向けには信頼軸として機能する</div>
+      <div class="bizapp-block">
+        <div class="biz-label">💡 ビジネス活用ポイント</div>
+        <div class="biz-summary">プライバシー重視企業（法務・金融・医療）のAI採用が進む可能性。GoogleやOpenAIとの差別化ポイント</div>
+        <ul>
+        <li><span class="bi">🏢</span>社内向け：社員向け音声AI で Siri選定時にデータ保有制限を明示し、情報漏洩リスク低減をアピール</li>        <li><span class="bi">🤝</span>他社提案：患者情報・顧客機密多い業界（医療・金融・法律）に『プライバシー仕様Siri統合』で営業差別化</li>        <li><span class="bi">👁</span>注目理由：GDPR・個人情報保護法の強化で、データ削除保証がAI導入の前提条件化する流れ</li>
+        </ul>
+      </div>
+    </div>
+    <aside class="side">
+      <dl>
+
+        <dt>SOURCE</dt>
+        <dd>TechCrunch</dd>
+        <dt>PUBLISHED</dt>
+        <dd>2026-05-18</dd>
+        <dt>CATEGORY</dt>
+        <dd>ツール更新</dd>
+        <dt>LINKS</dt>
+        <dd><a href="https://techcrunch.com/2026/05/17/apples-siri-revamp-could-include-auto-deleting-chats/">https://techcrunch.com/2026/05/17/apples-siri-revamp-co…</a></dd>
+      </dl>
+    </aside>
+  </div>
+</article>
+<article class="daily-topic" id="topic-8">
+  <div class="container">
+    <aside class="numeral">08<span class="ord">TOPIC 08 · THE DECODER</span></aside>
+    <div class="main">
+      <div class="cat-line">
+        業界動向 <span class="sep">/</span> The Decoder <span class="sep">/</span> NEWS
+      </div>
+      <h2>Mistral CEO、フランスに警告　AnthropicのMythos軍事コード スキャン禁止を主張</h2>
+      <div class="slide-img zoom-image" data-src="../../assets/images/2026-05-18/topic_8.png" data-alt="Mistral CEO、フランスに警告　AnthropicのMythos軍事コード スキャン禁止を主張" role="button" tabindex="0">
+        <img src="../../assets/images/2026-05-18/topic_8.png" alt="Mistral CEO、フランスに警告　AnthropicのMythos軍事コード スキャン禁止を主張" loading="lazy" />
+      </div>
+      <p class="lede">Mistral の Arthur Mensch が仏議会に証言。Anthropic の『Mythos』AIが軍事コード基盤をスキャンすると、脆弱性検出・攻撃提案が可能で、依存リスクが逆転不可能になると警告。</p>
+      <h3>キーポイント</h3>
+      <ul class="keypoints">
+        <li data-i="01">Mythos など最新モデルは脆弱性検出・攻撃提案・攻撃調整が可能</li>
+        <li data-i="02">米企業に軍事コード を任せると依存を脱却不可能に</li>
+        <li data-i="03">EUとOpenAI・Anthropic がセキュリティモデル提供で交渉中</li>
+        <li data-i="04">Mistral は米出資30%未満、EU独立企業として競合的立場</li>
+      </ul>
+      <div class="pull">サイバーセキュリティは防衛・国家主権の核心。米企業任せは地政学的リスク</div>
+      <div class="bizapp-block">
+        <div class="biz-label">💡 ビジネス活用ポイント</div>
+        <div class="biz-summary">欧州での規制・調達が米国AI企業に逆風。日本企業が『非米系AI』提携を求める流れは確実</div>
+        <ul>
+        <li><span class="bi">🏢</span>社内向け：政府・防衛関連案件の AI導入時に『供給元国』『データ保有地』を明確化し、地政学リスク評価を標準化</li>        <li><span class="bi">🤝</span>他社提案：官公庁・重要インフラ企業に『地政学的に安全なAI提携モデル』（日本・EU拠点企業）を先制提案</li>        <li><span class="bi">👁</span>注目理由：ウクライナ・中東紛争で『技術的に敵国に依存』するリスクが政治化。調達ルール厳格化の序章</li>
+        </ul>
+      </div>
+    </div>
+    <aside class="side">
+      <dl>
+
+        <dt>SOURCE</dt>
+        <dd>The Decoder</dd>
+        <dt>PUBLISHED</dt>
+        <dd>2026-05-18</dd>
+        <dt>CATEGORY</dt>
+        <dd>業界動向</dd>
+        <dt>LINKS</dt>
+        <dd><a href="https://the-decoder.com/mistral-ceo-arthur-mensch-warns-france-against-letting-anthropics-mythos-scan-military-code-bases/">https://the-decoder.com/mistral-ceo-arthur-mensch-warns…</a></dd>
+      </dl>
+    </aside>
+  </div>
+</article>
+<div class="colophon">
+  <div class="left"><b>Now on <span class="brand-ai">AI</span>r</b> · AI Morning Intelligence · 山中秀斗 / TREPRO</div>
+  <div class="right">2026-05-18 DISPATCH</div>
+</div>
+
+<!-- Article Modal -->
+<div id="article-modal">
+  <div id="modal-box">
+    <div class="modal-head">
+      <span id="modal-cat"></span>
+      <button id="modal-close">✕ CLOSE</button>
+    </div>
+    <div id="modal-slide-wrap" style="display:none;margin:0;overflow:hidden;border-bottom:1px solid var(--rule-2);">
+      <img id="modal-slide-img" src="" alt="" style="width:100%;display:block;" />
+    </div>
+    <div class="modal-body">
+      <h2 id="modal-title"></h2>
+      <p id="modal-lede"></p>
+      <div id="modal-kp"></div>
+      <div id="modal-pull"></div>
+      <div id="modal-bizapp">
+        <div class="bizapp-head">💡 ビジネス活用ポイント</div>
+        <div class="bizapp-summary" id="modal-bizapp-summary"></div>
+        <ul class="bizapp-actions" id="modal-bizapp-actions"></ul>
+      </div>
+      <div id="modal-quickstart">
+        <div class="qs-head">⚡ 明日からできる｜個人事業主・社長向け</div>
+        <div class="qs-headline" id="qs-headline"></div>
+        <div class="qs-meta">
+          <div class="qs-tool"><span class="qs-label">推奨ツール</span> <a id="qs-tool-link" href="#" target="_blank" rel="noopener"></a> <span id="qs-cost" class="qs-cost"></span></div>
+          <div class="qs-time"><span class="qs-label">所要時間</span> <span id="qs-time"></span></div>
+        </div>
+        <div class="qs-steps-wrap">
+          <div class="qs-section-label">3ステップで試す</div>
+          <ol class="qs-steps" id="qs-steps"></ol>
+        </div>
+        <div class="qs-prompt-wrap">
+          <div class="qs-section-label">📋 コピペで使えるプロンプト</div>
+          <div class="qs-prompt" id="qs-prompt"></div>
+          <button class="qs-copy-btn" id="qs-copy-btn">📋 プロンプトをコピー</button>
+        </div>
+        <div class="qs-roi" id="qs-roi"></div>
+      </div>
+      <div class="modal-foot">
+        <span id="modal-src"></span>
+        <a id="modal-link" href="#" target="_blank" rel="noopener">元記事を読む →</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Image Lightbox -->
+<div class="lightbox-overlay" id="lightbox">
+  <button class="lightbox-close" id="lightbox-close">× CLOSE</button>
+  <img src="" id="lightbox-img" alt="" />
+</div>
+
+<script>
+(function(){
+  /* ── modal ── */
+  var modal=document.getElementById('article-modal');
+  var box=document.getElementById('modal-box');
+
+  function openModal(card){
+    var d=card.dataset;
+    document.getElementById('modal-cat').textContent=d.category||'';
+    document.getElementById('modal-title').textContent=d.title||'';
+    document.getElementById('modal-lede').textContent=d.lede||'';
+    document.getElementById('modal-src').textContent='SOURCE: '+(d.source||'');
+    var linkEl=document.getElementById('modal-link');
+    linkEl.href=d.link||'#';
+
+    /* Gemini slide image */
+    var slideWrap=document.getElementById('modal-slide-wrap');
+    var slideImg=document.getElementById('modal-slide-img');
+    if(d.slide){
+      slideImg.src=d.slide; slideImg.alt=d.title||'';
+      slideWrap.style.display='block';
+    } else { slideWrap.style.display='none'; slideImg.src=''; }
+
+    /* keypoints */
+    var kpEl=document.getElementById('modal-kp');
+    kpEl.innerHTML='';
+    try{
+      var kps=JSON.parse(d.keypoints||'[]');
+      if(kps.length){
+        var ul=document.createElement('ul');
+        kps.forEach(function(kp,i){
+          var li=document.createElement('li');
+          var num=document.createElement('span');
+          num.className='kp-num';
+          num.textContent=String(i+1).padStart(2,'0');
+          li.appendChild(num);
+          li.appendChild(document.createTextNode(kp));
+          ul.appendChild(li);
+        });
+        kpEl.appendChild(ul);
+      }
+    }catch(e){}
+
+    /* pull */
+    var pullEl=document.getElementById('modal-pull');
+    if(d.pull){pullEl.textContent='「'+d.pull+'」';pullEl.style.display='block';}
+    else{pullEl.style.display='none';}
+
+    /* bizapp */
+    var bizEl=document.getElementById('modal-bizapp');
+    try{
+      var biz=JSON.parse(d.bizapp||'null');
+      if(biz&&biz.summary){
+        document.getElementById('modal-bizapp-summary').textContent=biz.summary;
+        var baList=document.getElementById('modal-bizapp-actions');
+        baList.innerHTML='';
+        var icons=['🏢','🤝','👁'];
+        (biz.actions||[]).forEach(function(act,i){
+          var li=document.createElement('li');
+          var ic=document.createElement('span');
+          ic.className='ba-icon';ic.textContent=icons[i]||'→';
+          li.appendChild(ic);li.appendChild(document.createTextNode(act));
+          baList.appendChild(li);
+        });
+        bizEl.style.display='block';
+      } else { bizEl.style.display='none'; }
+    }catch(e){ bizEl.style.display='none'; }
+
+    /* quickstart */
+    var qsEl=document.getElementById('modal-quickstart');
+    try{
+      var qs=JSON.parse(d.quickstart||'null');
+      if(qs&&qs.headline){
+        document.getElementById('qs-headline').textContent=qs.headline;
+        var toolLink=document.getElementById('qs-tool-link');
+        toolLink.textContent=(qs.tool&&qs.tool.name)||'';
+        toolLink.href=(qs.tool&&qs.tool.url)||'#';
+        document.getElementById('qs-cost').textContent=(qs.tool&&qs.tool.cost)?'· '+qs.tool.cost:'';
+        document.getElementById('qs-time').textContent=qs.time||'';
+        var stepsEl=document.getElementById('qs-steps');
+        stepsEl.innerHTML='';
+        (qs.steps||[]).forEach(function(step){
+          var li=document.createElement('li');
+          li.textContent=step;
+          stepsEl.appendChild(li);
+        });
+        var promptEl=document.getElementById('qs-prompt');
+        promptEl.textContent=qs.prompt||'';
+        var copyBtn=document.getElementById('qs-copy-btn');
+        copyBtn.onclick=function(){
+          navigator.clipboard.writeText(qs.prompt||'').then(function(){
+            copyBtn.textContent='✓ コピー完了';
+            setTimeout(function(){copyBtn.textContent='📋 プロンプトをコピー';},1800);
+          });
+        };
+        document.getElementById('qs-roi').textContent=qs.roi?'💰 想定効果：'+qs.roi:'';
+        qsEl.style.display='block';
+      } else { qsEl.style.display='none'; }
+    }catch(e){ qsEl.style.display='none'; }
+
+    modal.style.display='flex';
+    modal.style.pointerEvents='auto';
+    requestAnimationFrame(function(){
+      modal.style.background='rgba(0,0,0,.72)';
+      box.classList.add('is-open');
+    });
+    document.body.style.overflow='hidden';
+  }
+
+  function closeModal(){
+    modal.style.background='rgba(0,0,0,0)';
+    box.classList.remove('is-open');
+    setTimeout(function(){modal.style.display='none';modal.style.pointerEvents='none';},280);
+    document.body.style.overflow='';
+  }
+
+  document.getElementById('modal-close').addEventListener('click',closeModal);
+  modal.addEventListener('click',function(e){if(e.target===modal)closeModal();});
+
+  /* card click → modal */
+  document.querySelectorAll('.img-card[data-title],.tcard[data-title]').forEach(function(card){
+    card.addEventListener('click',function(e){
+      if(e.target.tagName==='A')return;
+      openModal(card);
+    });
+  });
+
+  /* ── category filter ── */
+  document.querySelectorAll('.filter-pill').forEach(function(pill){
+    pill.addEventListener('click',function(){
+      var cat=pill.dataset.cat;
+      document.querySelectorAll('.filter-pill').forEach(function(p){p.classList.remove('active');});
+      pill.classList.add('active');
+      document.querySelectorAll('.tcard').forEach(function(c){
+        if(!cat||c.dataset.category===cat||cat==='ALL'){
+          c.style.opacity='1'; c.style.pointerEvents=''; c.style.transform='';
+        } else {
+          c.style.opacity='.2'; c.style.pointerEvents='none'; c.style.transform='scale(.97)';
+        }
+      });
+    });
+  });
+
+  /* ── image lightbox ── */
+  var overlay=document.getElementById('lightbox');
+  var img=document.getElementById('lightbox-img');
+  var close=document.getElementById('lightbox-close');
+  document.querySelectorAll('.zoom-image').forEach(function(el){
+    el.addEventListener('click',function(e){e.stopPropagation();
+      img.src=''; overlay.classList.add('is-open');
+      setTimeout(function(){ img.src=el.dataset.src; img.alt=el.dataset.alt||''; },20);
+    });
+  });
+  function closeBox(){
+    img.style.opacity='0'; img.style.transform='scale(0.93)';
+    setTimeout(function(){ overlay.classList.remove('is-open'); img.src=''; img.style.opacity=''; img.style.transform=''; },300);
+  }
+  close.addEventListener('click',closeBox);
+  overlay.addEventListener('click',function(e){if(e.target===overlay)closeBox();});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'){closeBox();closeModal();}});
+
+  /* ── scroll fade-in: .daily-topic (デイリーページ専用) ── */
+  var fadeEls=document.querySelectorAll('.daily-topic');
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(entries){
+      entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('is-visible');io.unobserve(e.target);}});
+    },{threshold:0.05,rootMargin:'0px 0px -24px 0px'});
+    fadeEls.forEach(function(el){io.observe(el);});
+  } else { fadeEls.forEach(function(el){el.classList.add('is-visible');}); }
+
+  /* ── dispatch ticker ── */
+  var row=document.querySelector('.dispatch');
+  if(row && row.dataset.ticker!=='off'){
+    var inner=row.innerHTML; row.innerHTML=inner+inner;
+    var pos=0,spd=0.4;
+    (function tick(){pos+=spd;if(pos>=row.scrollWidth/2)pos=0;row.scrollLeft=pos;requestAnimationFrame(tick);})();
+  }
+})();
+</script>
+
+</body>
+</html>
