@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週のAI市場は、企業向けAI導入の実用化段階へ移行。Anthropicが企業採用でOpenAIを初めて上回り、中小企業向けツール統合（Claude for Small Business）やCodex活用の事例報告が相次いだ。一方、医療・法務など高精度が必須の領域でAIの誤り・捏造が顕著化し、『人間検証プロセスの設計』が必須要件として浮上。学習コスト低下（Baidu Ernie 5.1で94%削減）とエージェント市場の競争激化により、導入企業は選定基準が『モデル性能』から『統合体験・信頼性・運用体制』へシフト中。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-05-14",
+      "title": "Anthropic、中小企業向けAIを発表 既存ツールに組み込み",
+      "category": "新モデル発表",
+      "source": "The Decoder",
+      "why_picked": "QuickBooks・PayPal・HubSpot等の既存ツールに直統合で、AI導入の心理的ハードルが劇的に低下。即導入可能な実装型ソリューション。",
+      "tldr": "15個のプラットフォームに統合したClaudeで会計・営業・マーケ業務を自動化。既存ツール延長で導入可能。",
+      "action": "今使っているQuickBooks・HubSpot・PayPalのClaudeプラグイン利用を30分で試す。",
+      "image": "../assets/images/2026-05-14/topic_2.png",
+      "link": "../news/2026-05-14/#topic-2"
+    },
+    {
+      "rank": 2,
+      "date": "2026-05-12",
+      "title": "Baidu「Ernie 5.1」、学習コスト94%削減でトップモデル並の性能を実現",
+      "category": "新モデル発表",
+      "source": "The Decoder",
+      "why_picked": "学習コスト6%で世界4位性能。API利用料金交渉・自社開発判断の説得材料に即座に活用できる。競争力強化の切札。",
+      "tldr": "学習コスト1/17で同等性能を実現。中国モデルの低価格化でAPI選定基準が変わる可能性。",
+      "action": "現在使用のGPT-4・Claude利用料を試算し、Baiduコスト提案資料で社内稟議を提出。",
+      "image": "../assets/images/2026-05-12/topic_2.png",
+      "link": "../news/2026-05-12/#topic-2"
+    },
+    {
+      "rank": 3,
+      "date": "2026-05-18",
+      "title": "GPT-5.5、複雑な企業文書処理で精度50%超え　エラー46%削減",
+      "category": "新モデル発表",
+      "source": "OpenAI Blog",
+      "why_picked": "過去文書のデジタル化・請求書処理が劇的に効率化。営業事務の時間浮く・差別化につながる即実行性が高い。",
+      "tldr": "スキャンPDF・レガシー文書処理でエラー46%削減。請求書・契約書の電子化が2週間で完了可能に。",
+      "action": "過去3年の請求書100枚をGPT-5.5でスキャン・電子化試行。手作業削減効果を計測。",
+      "image": "../assets/images/2026-05-18/topic_2.png",
+      "link": "../news/2026-05-18/#topic-2"
+    }
+  ]
+}

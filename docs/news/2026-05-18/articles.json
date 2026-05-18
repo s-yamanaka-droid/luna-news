@@ -22,7 +22,23 @@
     "links": [
       "https://openai.com/index/malta-chatgpt-plus-partnership"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "社員のAIスキルを3時間で底上げ",
+      "tool": {
+        "name": "ChatGPT Plus",
+        "url": "https://chatgpt.com",
+        "cost": "¥3,200/月"
+      },
+      "time": "3時間",
+      "steps": [
+        "ChatGPT Plus登録後、「責任あるAI活用」コース概要を検索",
+        "営業・企画メンバーに「プロンプト入門」を15分実演",
+        "実業務ネタ（提案書・企画案）でChatGPT Plusを3案件試す"
+      ],
+      "prompt": "あなたは{業種}企業の{社名}のAI導入研修講師です。{職種}の実務で明日から使えるChatGPT活用法を、営業資料・企画提案・顧客対応の3シーン別に、具体例を5個ずつ提示してください。",
+      "roi": "営業資料初稿作成を10時間→3時間に削減＝月7時間×¥5,000相当の効率化"
+    }
   },
   {
     "title": "GPT-5.5、複雑な企業文書処理で精度50%超え　エラー46%削減",
@@ -47,7 +63,23 @@
     "links": [
       "https://openai.com/index/databricks"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "過去の請求書・契約書を2週間で電子化",
+      "tool": {
+        "name": "Claude Pro",
+        "url": "https://claude.ai",
+        "cost": "¥3,000/月"
+      },
+      "time": "半日（導入）＋2週間（運用）",
+      "steps": [
+        "Claude Pro登録し、過去3年分の請求書PDFを10枚スキャン",
+        "「金額・取引先・日付を抽出して表にしてください」と指示",
+        "抽出結果を確認後、経理に引き継ぎリスト化を加速"
+      ],
+      "prompt": "あなたは{業種}企業の経理アシスタントです。以下のスキャンPDF請求書から【取引先名】【請求日】【請求金額】【支払期日】【品目】を表形式で抽出し、誤字や判読不可な箇所は{確認待機}と記載してください。",
+      "roi": "手作業ベースの請求書デジタル化を月30時間→5時間に短縮＝月25時間×¥3,000相当"
+    }
   },
   {
     "title": "OpenAI経営再編　「エージェント化」へ製品統合　Codex中心に",
@@ -72,7 +104,23 @@
     "links": [
       "https://the-decoder.com/greg-brockman-consolidates-openais-product-teams-to-build-an-agentic-future/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "ChatGPT連携で自社の営業自動化パイプ構築",
+      "tool": {
+        "name": "Cursor",
+        "url": "https://cursor.com",
+        "cost": "¥3,200/月"
+      },
+      "time": "2日（初期設定）",
+      "steps": [
+        "Cursorで顧客管理アプリのテンプレを生成",
+        "ChatGPT APIと連携し、顧客情報から提案内容を自動生成",
+        "営業チームに「提案ボタン1クリック」の運用マニュアルを配布"
+      ],
+      "prompt": "あなたはCodex AIアーキテクトです。{業種}企業の{社名}向けに、顧客データベースからChatGPT APIで個別提案文を自動生成するスクリプトを、PythonまたはNode.jsで最小限記述してください。入力：{顧客名}{業界}{課題}、出力：提案メール本文。",
+      "roi": "営業提案作成を営業パーソン月20時間→月3時間に削減＝月17時間×¥4,000相当の付加価値向上"
+    }
   },
   {
     "title": "医療現場のAI記述者、基本情報を改ざん　50%以上が記入漏れ",
@@ -97,7 +145,23 @@
     "links": [
       "https://arstechnica.com/health/2026/05/your-doctors-ai-notetaker-may-be-making-things-up-ontario-audit-finds/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI出力に人間確認プロセスを30分で導入",
+      "tool": {
+        "name": "Claude Pro",
+        "url": "https://claude.ai",
+        "cost": "¥3,000/月"
+      },
+      "time": "30分",
+      "steps": [
+        "経理・人事の「重要判断業務リスト」を5個箇条書き",
+        "各業務について「AIが誤る可能性」と「確認項目」を明記",
+        "チームに「AI案をもらったら管理者チェック必須」ルール周知"
+      ],
+      "prompt": "あなたはリスク管理コンサルタントです。{業種}企業の{社名}が{業務内容}でClaudeを導入する際、AI出力で起きうる『誤り・捏造・情報漏れ』リスクを5個列挙し、各リスク対策として『人間が確認すべき項目』を具体化してください。",
+      "roi": "将来の医療訴訟・コンプライアンス違反リスクを回避＝月1件の法的トラブル防止で年¥50万相当のリスク低減"
+    }
   },
   {
     "title": "生成AI研究、不可能な問題も自信持って解答　数学検証で露呈",
@@ -122,7 +186,23 @@
     "links": [
       "https://the-decoder.com/new-math-benchmark-reveals-ai-models-confidently-solve-problems-that-have-no-solution/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "複雑な数式・法務判定で『解けない判定』を搭載",
+      "tool": {
+        "name": "Cursor",
+        "url": "https://cursor.com",
+        "cost": "¥3,200/月"
+      },
+      "time": "半日",
+      "steps": [
+        "法務・研究チームで「AIで判定すべき案件」「人間判定すべき案件」を分類",
+        "Cursorで『矛盾検出ロジック』を実装（if-thenで人間レビュー自動分岐）",
+        "テスト案件3件でロジック動作を確認"
+      ],
+      "prompt": "あなたはPythonプログラマーです。{業種}企業の{社名}向けに、{対象問題}をClaudeで判定する際、『判定不可』『矛盾検出』『信頼度が閾値以下』の3パターンで人間レビューへ自動分岐するロジックをコード化してください。出力：判定結果+信頼度+レビュー要否フラグ。",
+      "roi": "AI誤判定による訴訟リスク回避＝年1件の法的トラブル防止で¥100万相当のリスク低減"
+    }
   },
   {
     "title": "GM、IT人員600人削減し『AI人材』へ転職　業界全体で人材争奪戦へ",
@@ -147,7 +227,23 @@
     "links": [
       "https://techcrunch.com/2026/05/17/techcrunch-mobility-the-ai-skills-arms-race-is-coming-for-automotive/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "営業・企画チームにプロンプト工学を30分で習得さ",
+      "tool": {
+        "name": "ChatGPT Plus",
+        "url": "https://chatgpt.com",
+        "cost": "¥3,200/月"
+      },
+      "time": "1時間（初回）＋月2時間維持",
+      "steps": [
+        "ChatGPT Plusで「プロンプト工学基礎」テンプレを自社仕様に改造",
+        "営業・企画メンバーに「具体的→抽象的」な指示の違いを5案件で実演",
+        "月1回「プロンプト品質向上」ワークショップを15分開催"
+      ],
+      "prompt": "あなたは{業種}企業{社名}のAI導入研修講師です。営業・企画職向けに『プロンプト工学で成果が3倍になるコツ』を、実務例5個（{職務内容}）で、『悪い指示』『良い指示』の対比で説明してください。",
+      "roi": "営業提案・企画資料の作成品質向上で月5%の提案成約率UP＝月¥10万の売上増"
+    }
   },
   {
     "title": "Appleの新Siri、プライバシー強化　Google Gemini搭載で30日自動削除機能",
@@ -172,7 +268,23 @@
     "links": [
       "https://techcrunch.com/2026/05/17/apples-siri-revamp-could-include-auto-deleting-chats/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "社員データ流出リスクを評価し、AI選定基準に組込",
+      "tool": {
+        "name": "Notion",
+        "url": "https://notion.so",
+        "cost": "¥1,000/月（プラン選択により）"
+      },
+      "time": "1時間",
+      "steps": [
+        "Notionで「AI導入時のプライバシーチェックリスト」を作成",
+        "Siri・ChatGPT・Claudeのデータ保持期間を表で比較",
+        "社員向け音声AI導入時に「データ削除保証」を採用条件に追加"
+      ],
+      "prompt": "あなたは{業種}企業{社名}の情報セキュリティ担当です。Siri・ChatGPT・Claudeの『データ保持期間』『削除ポリシー』『GDPR準拠状況』を比較表にまとめ、各ツールのプライバシーリスク（低・中・高）を判定してください。",
+      "roi": "個人情報漏洩訴訟リスク低減＋社員向けAI導入での信頼感UP＝年¥30万相当のリスク低減"
+    }
   },
   {
     "title": "Mistral CEO、フランスに警告　AnthropicのMythos軍事コード スキャン禁止を主張",
@@ -197,6 +309,22 @@
     "links": [
       "https://the-decoder.com/mistral-ceo-arthur-mensch-warns-france-against-letting-anthropics-mythos-scan-military-code-bases/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "官公庁提案で『地政学的に安全なAI』を差別化軸に",
+      "tool": {
+        "name": "ChatGPT Plus",
+        "url": "https://chatgpt.com",
+        "cost": "¥3,200/月"
+      },
+      "time": "2時間（初回提案資料作成）",
+      "steps": [
+        "官公庁向け提案で「AI供給元国」「データ保有地」を記載する提案テンプレ作成",
+        "日本・EU拠点企業のAIサービスリストを10個リサーチ",
+        "防衛・インフラ案件の営業資料に「地政学リスク評価」ページを追加"
+      ],
+      "prompt": "あなたは{業種}企業{社名}の営業企画です。官公庁向けに『地政学的に安全なAI導入モデル』を提案する際、『米国企業AI導入のリスク』と『日本・EU拠点AI企業のメリット』を箇条書き10項目で説明し、提案資料テンプレを示してください。",
+      "roi": "官公庁案件の受注確度UP＝年2件×¥1,000万相当の新規受注獲得可能性"
+    }
   }
 ]
