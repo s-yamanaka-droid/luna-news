@@ -78,7 +78,11 @@ def generate_articles(raw_articles: list[dict]) -> list[dict]:
     text = msg.content[0].text.strip()
     start = text.find("[")
     end   = text.rfind("]") + 1
-    return json.loads(text[start:end])
+    raw = text[start:end]
+    # Claude が末尾カンマを出すケースの修復
+    import re
+    raw = re.sub(r",\s*([}\]])", r"\1", raw)
+    return json.loads(raw)
 
 
 if __name__ == "__main__":
