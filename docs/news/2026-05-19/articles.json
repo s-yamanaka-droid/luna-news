@@ -22,7 +22,23 @@
     "links": [
       "https://the-decoder.com/cursors-composer-2-5-matches-opus-4-7-and-gpt-5-5-benchmarks-at-a-fraction-of-the-cost/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "Cursor導入で開発コスト月30万→3万に",
+      "tool": {
+        "name": "Cursor",
+        "url": "https://www.cursor.com",
+        "cost": "¥3,000/月（Pro）"
+      },
+      "time": "30分",
+      "steps": [
+        "Cursorをインストール。VS Codeプロジェクトをそのままインポート",
+        "Composer 2.5を有効化。既存コード100行をCtrl+Kで貼り付け",
+        "「このコードにテスト関数を追加」と指示。生成されたコードを確認"
+      ],
+      "prompt": "あなたは{自社名}の{プログラム言語}開発者です。以下のコードに対し、単体テストを50行以内で追加してください。関数名・変数名は現在のものを保持し、エラーハンドリングを含めてください：\n{既存コード}",
+      "roi": "月10時間削減＝3万円相当。年36万円コスト削減"
+    }
   },
   {
     "title": "OpenAI、DellとCodexを統合。オンプレミス環境でAIコーディング実装へ",
@@ -47,7 +63,23 @@
     "links": [
       "https://openai.com/index/dell-codex-enterprise-partnership"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "セキュリティ重視企業向けCodex導入提案",
+      "tool": {
+        "name": "OpenAI API + Dell Infrastructure",
+        "url": "https://platform.openai.com",
+        "cost": "要見積（Dell経由）"
+      },
+      "time": "半日",
+      "steps": [
+        "Dell営業に『オンプレミスCodex導入』の相談。現行システムの構成図を準備",
+        "Codex API仕様書をDellソリューションアーキテクトに提示",
+        "パイロット開発（10時間分の小タスク）でセキュリティ・速度を検証"
+      ],
+      "prompt": "あなたは{自社名}のシステムセキュリティ担当者です。金融規制で『データが外部クラウドに出てはいけない』という制約があります。Dell経由のオンプレミスCodex導入で、このコード生成タスクを60%高速化する提案書を作成してください：\n{課題タスク説明}",
+      "roi": "金融・製造企業向け新規案件化＝月5～10万円の追加売上"
+    }
   },
   {
     "title": "営業チームがCodexで業務効率化。提案書・会議準備を数分で作成",
@@ -72,7 +104,23 @@
     "links": [
       "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "営業会議準備を90分→15分に短縮",
+      "tool": {
+        "name": "ChatGPT Plus（またはClaude Pro）",
+        "url": "https://chatgpt.com",
+        "cost": "¥3,000/月"
+      },
+      "time": "10分",
+      "steps": [
+        "CRMから顧客の過去メール・通話記録3件をテキスト形式でコピー",
+        "プロンプトに貼り付けて「提案資料の骨子を作成」と指示",
+        "ChatGPTが生成したスライド構成をGoogleスライドに貼り付け。5分で完成"
+      ],
+      "prompt": "あなたは{自社名}の営業支援者です。以下の顧客情報から、初回提案資料（3スライド）の概要を営業向けに作成してください。顧客課題→貴社ソリューション→投資対効果の順で、各スライド30字以内にまとめてください：\n【顧客名】{顧客名}\n【業種】{業種}\n【課題】{課題内容}\n【過去メール要点】{メール内容}\n【通話メモ】{通話内容}",
+      "roi": "営業が顧客接触に月5時間余裕が生まれる。新規提案数が15%増"
+    }
   },
   {
     "title": "Anthropic、開発ツール企業Stainlessを$300M超で買収。競合の開発基盤を掌握",
@@ -97,7 +145,23 @@
     "links": [
       "https://techcrunch.com/2026/05/18/anthropic-has-acquired-the-dev-tools-startup-used-by-openai-google-and-cloudflare/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "OpenAI→Claudeへの乗り換えコスト精査",
+      "tool": {
+        "name": "Claude API / Cursor",
+        "url": "https://claude.ai",
+        "cost": "¥3,000～/月"
+      },
+      "time": "2時間",
+      "steps": [
+        "現在のOpenAI API利用状況（月額・トークン数）をダッシュボードで確認",
+        "Claude APIの価格表と照らし合わせ。トークンコストを計算表で試算",
+        "既存SDK管理コスト（開発者時間）をタスク単位で算出。移行ROIを判定"
+      ],
+      "prompt": "あなたは{自社名}のCTO補佐です。現在OpenAI APIを月額{月額費用}で利用し、月{月トークン数}トークンを消費しています。ClaudeへのAPI移行で、以下の影響を定量評価してください：\n1)APIコストの増減\n2)既存SDK管理の自動化による人件費削減\n3)乗り換え工数\n移行判定の結論（乗り換え有利/現状維持）を理由付きで示してください。",
+      "roi": "月5～20万円のコスト削減可能性を早期把握。競合動向に先手対応"
+    }
   },
   {
     "title": "SandboxAQの創薬AIがClaudeに統合。専門知識なしに分子設計が可能に",
@@ -122,7 +186,23 @@
     "links": [
       "https://techcrunch.com/2026/05/18/sandboxaq-brings-its-drug-discovery-models-to-claude-no-phd-in-computing-required/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "創薬ベンチャー向けClaudeの活用デモ",
+      "tool": {
+        "name": "Claude Pro（SandboxAQ統合）",
+        "url": "https://claude.ai",
+        "cost": "¥3,200/月"
+      },
+      "time": "30分",
+      "steps": [
+        "Claude Pro登録。SandboxAQ LQMの統合機能を確認",
+        "分子式を1つClaude画面に入力。「この化合物の安定性を予測」と指示",
+        "返された分子動力学シミュレーション結果を記録。従来手法との速度比較"
+      ],
+      "prompt": "あなたは{自社名}の研究開発責任者です。以下の候補化合物について、物理ベースの分子シミュレーションを実行してください。pH 7.4・体温37℃での安定性予測と、毒性リスク評価を提供してください：\n【分子式】{分子式}\n【目的】{治療対象疾患}\n【既知制約】{既知の物理化学的制約}",
+      "roi": "計算化学者1名分の生産性向上（月30時間削減≒75万円相当）。Ph.D人材採用の急がしさが緩和"
+    }
   },
   {
     "title": "バグ報告プログラムがAI出力で過負荷。Curlは受付を一時停止",
@@ -147,7 +227,23 @@
     "links": [
       "https://arstechnica.com/ai/2026/05/bug-bounty-businesses-bombarded-with-ai-slop/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "バグ報告プログラムのAIノイズ対策システム化",
+      "tool": {
+        "name": "ChatGPT Plus（または自社LLM）",
+        "url": "https://chatgpt.com",
+        "cost": "¥3,000/月＋フィルタリング開発費"
+      },
+      "time": "2時間",
+      "steps": [
+        "過去30日のバグ報告100件をCSVで取得。一線のAI生成疑い報告を目視マーク",
+        "プロンプトで『AI生成疑い度スコア』を自動判定するルール作成",
+        "スコア0.7以上のものを手動二次審査に回すワークフローを導入"
+      ],
+      "prompt": "あなたは{自社名}のセキュリティスクリーニング担当者です。以下のバグ報告が『AI自動生成の疑い』を0～1スケールで評価してください。評価軸は：\n1)技術用語の不正確さ\n2)再現手順の曖昧さ\n3)未存在の脆弱性データベース参照\n4)同一テンプレートの繰り返し\nレポート：\n{バグ報告内容}",
+      "roi": "報告評価の人手を月20時間削減。本物の脆弱性見落とし防止で企業リスク低減"
+    }
   },
   {
     "title": "Open Agent Leaderboard公開。AIエージェント、性能だけでなくコストで比較可能に",
@@ -172,7 +268,23 @@
     "links": [
       "https://huggingface.co/blog/ibm-research/open-agent-leaderboard"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI導入システムコストを性能で比較選定",
+      "tool": {
+        "name": "Open Agent Leaderboard（参照）+ Claude Pro/ChatGPT Plus",
+        "url": "https://huggingface.co/spaces/allenai/WildBench",
+        "cost": "無料（参照）+ ¥3,000/月（実装ツール）"
+      },
+      "time": "1時間",
+      "steps": [
+        "Open Agent Leaderboardにアクセス。自社課題に近いタスクカテゴリを検索",
+        "『性能スコア』と『実装コスト（ドル/実行）』の両軸データを抽出",
+        "上位3ソリューションについて、年間実行コスト×効果を試算シートで比較"
+      ],
+      "prompt": "あなたは{自社名}の購買部門です。以下の業務プロセスを自動化するAIエージェント導入を検討しています。Open Agent Leaderboardのベンチマークデータを踏まえ、導入コスト（初期投資＋年間実行費）と精度のバランスから、推奨ベンダー1社を理由付きで選定してください：\n【自動化プロセス】{プロセス説明}\n【現在の手作業コスト】月{時間}時間×{単価}\n【要求精度】{精度要件}",
+      "roi": "AI導入の投資判断ミスを防止。年30～100万円の無駄な導入コストを回避"
+    }
   },
   {
     "title": "Amazonの新Alexa、AI生成ポッドキャストを数分で自動作成。パーソナル放送局化へ",
@@ -197,6 +309,22 @@
     "links": [
       "https://techcrunch.com/2026/05/18/amazons-new-alexa-powered-feature-can-generate-podcast-episodes/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "社内研修動画を音声指示で自動作成",
+      "tool": {
+        "name": "Amazon Alexa+（またはChatGPT + TTS）",
+        "url": "https://www.amazon.com/b?node=21576267001",
+        "cost": "月額無料～¥980/月（Alexa+）"
+      },
+      "time": "10分",
+      "steps": [
+        "Alexa+アプリを開く。「新人向けセールスフロー研修ポッドキャストを10分版で作成」と音声指示",
+        "AI生成画面でトーン（カジュアル/フォーマル）と焦点（営業技法/顧客心理）を選択",
+        "生成完了後、社内イントラのLMS（Moodle等）に自動アップロード"
+      ],
+      "prompt": "あなたはAlexa+の音声指示を受けて、企業研修ポッドカストを制作します。{自社名}の{研修テーマ}について、新入社員向けに10分間のスクリプトを作成してください。含めるべき内容：\n1)背景・重要性（2分）\n2)具体的な手順・ケーススタディ（5分）\n3)よくある失敗・対策（3分）\nトーンはカジュアル、最後に「質問は上司までお願いします」で〆てください。",
+      "roi": "研修動画制作の外注費月5～10万円を削減。新入社員の自習環境が即整備可能"
+    }
   }
 ]
