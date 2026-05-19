@@ -6,8 +6,8 @@ set -e
 cd /Users/yamanakashuto/apps/vigil-news
 source venv/bin/activate
 
-export ANTHROPIC_API_KEY="${ANTHROPIC_API_KEY:-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}"
-export GEMINI_API_KEY="${GEMINI_API_KEY:-AIzaSyDc5WQWXjQOLvisJue5cwskk95lpVBg794}"
+export ANTHROPIC_API_KEY="${ANTHROPIC_API_KEY:?ANTHROPIC_API_KEY is not set}"
+export GEMINI_API_KEY="${GEMINI_API_KEY:?GEMINI_API_KEY is not set}"
 
 TODAY=$(date +%Y-%m-%d)
 LOG=/Users/yamanakashuto/apps/vigil-news/logs/daily_${TODAY}.log
