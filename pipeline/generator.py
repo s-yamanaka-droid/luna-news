@@ -55,7 +55,7 @@ SYSTEM = """あなたはAI業界ニュースを「日本人ビジネスパーソ
 
 
 def generate_articles(raw_articles: list[dict]) -> list[dict]:
-    client = anthropic.Anthropic()
+    from llm import chat_json, extract_json
     # 記事ごとに元本文を含めた情報を構築
     blocks = []
     for a in raw_articles[:24]:
@@ -68,21 +68,12 @@ def generate_articles(raw_articles: list[dict]) -> list[dict]:
         )
     digest = "\n\n---\n\n".join(blocks)
 
-    msg = client.messages.create(
-        model="claude-haiku-4-5-20251001",
-        max_tokens=6000,
+    text = chat_json(
         system=SYSTEM,
-        messages=[{"role": "user", "content": f"今日のAI関連記事:\n\n{digest}"}],
+        user=f"今日のAI関連記事:\n\n{digest}",
+        max_tokens=6000,
     )
-
-    text = msg.content[0].text.strip()
-    start = text.find("[")
-    end   = text.rfind("]") + 1
-    raw = text[start:end]
-    # Claude が末尾カンマを出すケースの修復
-    import re
-    raw = re.sub(r",\s*([}\]])", r"\1", raw)
-    return json.loads(raw)
+    return json.loads(extract_json(text, "array"))
 
 
 if __name__ == "__main__":

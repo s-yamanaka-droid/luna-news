@@ -119,7 +119,29 @@ def generate_slide(
             if attempt < 2:
                 time.sleep(5 * (attempt + 1))
 
-    return False
+    # Gemini が全失敗 → OpenAI gpt-image-1 にフォールバック
+    print("  [fallback] OpenAI gpt-image-1 で再試行")
+    try:
+        return _openai_image_fallback(prompt, output_path)
+    except Exception as e:
+        print(f"  [fallback] OpenAI失敗: {e}")
+        return False
+
+
+def _openai_image_fallback(prompt: str, output_path) -> bool:
+    """OpenAI gpt-image-1 で 16:9 図解を生成"""
+    from openai import OpenAI
+    client = OpenAI()
+    resp = client.images.generate(
+        model="gpt-image-1",
+        prompt=prompt,
+        size="1536x1024",  # 16:9 近似
+        n=1,
+    )
+    img_b64 = resp.data[0].b64_json
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    output_path.write_bytes(base64.b64decode(img_b64))
+    return True
 
 
 if __name__ == "__main__":

@@ -21,7 +21,23 @@
     "links": [
       "https://openai.com/index/model-disproves-discrete-geometry-conjecture"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "社内の数学研究にAI活用を",
+      "tool": {
+        "name": "ChatGPT Plus",
+        "url": "https://chat.openai.com",
+        "cost": "¥2,900/月"
+      },
+      "time": "30分",
+      "steps": [
+        "ステップ1：必要な数学問題をリスト化する",
+        "ステップ2：AIに解決を依頼する",
+        "ステップ3：得られた結果をチームで検討する"
+      ],
+      "prompt": "あなたは数学研究者です。{自社名}の{業種}で抱えている{課題}に関してAIの力を借りて解決策を提案してください。",
+      "roi": "新しい解法により研究時間を短縮"
+    }
   },
   {
     "title": "RampがCodexを活用したコードレビューの加速法",
@@ -45,7 +61,23 @@
     "links": [
       "https://openai.com/index/ramp"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "自動コードレビューを導入しよう",
+      "tool": {
+        "name": "GitHub Copilot",
+        "url": "https://github.com/features/copilot",
+        "cost": "¥2,200/月"
+      },
+      "time": "10分",
+      "steps": [
+        "ステップ1：対象のコードリポジトリを準備する",
+        "ステップ2：Copilotを起動しコードをレビューさせる",
+        "ステップ3：結果を基にコードを修正する"
+      ],
+      "prompt": "あなたはソフトウェア開発者です。{自社名}の{業種}で使用するコードをレビューしますので、問題点を指摘してください。",
+      "roi": "コードレビュー時間を80%短縮"
+    }
   },
   {
     "title": "OpenAIがシンガポール向けにAIパートナーシップ提携",
@@ -69,7 +101,23 @@
     "links": [
       "https://openai.com/index/introducing-openai-for-singapore"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AIで業務改善提案を検討",
+      "tool": {
+        "name": "ChatGPT Plus",
+        "url": "https://chat.openai.com",
+        "cost": "¥2,900/月"
+      },
+      "time": "30分",
+      "steps": [
+        "ステップ1：現在の業務フローを整理する",
+        "ステップ2：AIに改善案を求める",
+        "ステップ3：提案を基に実行可能な施策を議論する"
+      ],
+      "prompt": "あなたは経営コンサルタントです。{自社名}の{業種}において、どのようにAIを活用して提出された{課題}を改善できるかを提案してください。",
+      "roi": "業務改善によりコスト削減"
+    }
   },
   {
     "title": "GoogleがI/O 2026でAIを活用した新機能を発表",
@@ -93,6 +141,22 @@
     "links": [
       "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "データ分析をAIで効率化",
+      "tool": {
+        "name": "Google BigQuery",
+        "url": "https://cloud.google.com/bigquery",
+        "cost": "¥3,000/月"
+      },
+      "time": "1時間",
+      "steps": [
+        "ステップ1：分析したいデータを収集する",
+        "ステップ2：BigQueryにデータをアップロードする",
+        "ステップ3：AIによる分析結果を確認する"
+      ],
+      "prompt": "あなたはデータアナリストです。{自社名}の{業種}において、{課題}を解決するためのデータ分析を行ってください。",
+      "roi": "分析時間を50%短縮"
+    }
   }
 ]

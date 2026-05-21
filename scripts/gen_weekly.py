@@ -6,9 +6,12 @@ docs/weekly/YYYY-MM-DD.json と docs/weekly.html を出力。
 import json
 import os
 import re
+import sys
 from datetime import date, timedelta
 from pathlib import Path
-import anthropic
+
+sys.path.insert(0, str(Path(__file__).parent.parent / "pipeline"))
+from llm import chat_json, extract_json
 
 ROOT = Path(__file__).parent.parent
 NEWS_DIR = ROOT / "docs" / "news"
@@ -74,7 +77,6 @@ def collect_recent_articles(days: int = 7) -> list[dict]:
 
 
 def pick_top3(items: list[dict]) -> dict:
-    client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
     digest_parts = []
     for it in items:
         kp = "; ".join(it["keypoints"][:3])
@@ -90,18 +92,12 @@ def pick_top3(items: list[dict]) -> dict:
         )
     digest = "\n\n".join(digest_parts)
 
-    msg = client.messages.create(
-        model="claude-haiku-4-5-20251001",
+    text = chat_json(
+        system="あなたは日本のAI活用コンサルタントです。指示に従って厳密にJSONを返してください。",
+        user=f"{DIGEST_PROMPT}\n\n記事:\n{digest}",
         max_tokens=2500,
-        messages=[{"role": "user", "content": f"{DIGEST_PROMPT}\n\n記事:\n{digest}"}],
     )
-
-    text = msg.content[0].text.strip()
-    start = text.find("{")
-    end = text.rfind("}") + 1
-    raw = text[start:end]
-    raw = re.sub(r",\s*([}\]])", r"\1", raw)
-    return json.loads(raw)
+    return json.loads(extract_json(text, "object"))
 
 
 def render_html(week_start: str, week_end: str, digest: dict) -> str:

@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週のAIニュースでは、即実行可能なツールやアプローチが注目された。特に営業や開発チームの生産性を向上させるためのAI活用法が多く示された。小規模事業者にとっても有益な情報が揃ったため、導入の一歩を踏み出す良い機会となる。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-05-19",
+      "title": "営業チームがCodexで業務効率化。提案書・会議準備を数分で作成",
+      "category": "ツール更新",
+      "source": "OpenAI Blog",
+      "why_picked": "営業事務作業を大幅に削減し、効率UP。",
+      "tldr": "Codex活用で営業資料を短時間で作成。",
+      "action": "営業会議準備を90分→15分に短縮",
+      "image": "../assets/images/2026-05-19/topic-1.png",
+      "link": "../news/2026-05-19/#topic-1"
+    },
+    {
+      "rank": 2,
+      "date": "2026-05-18",
+      "title": "Appleの新Siri、プライバシー強化　Google Gemini搭載で30日自動削除機能",
+      "category": "ツール更新",
+      "source": "TechCrunch",
+      "why_picked": "プライバシー重視企業向けの差別化ツール。",
+      "tldr": "新Siri、厳しいプライバシー管理機能を提供。",
+      "action": "社員データ流出リスクを評価",
+      "image": "../assets/images/2026-05-18/topic-1.png",
+      "link": "../news/2026-05-18/#topic-1"
+    },
+    {
+      "rank": 3,
+      "date": "2026-05-21",
+      "title": "RampがCodexを活用したコードレビューの加速法",
+      "category": "ツール更新",
+      "source": "OpenAI Blog",
+      "why_picked": "開発効率を飛躍的に向上させる手法。",
+      "tldr": "Codexで迅速なコードレビューを実現。",
+      "action": "自動コードレビューを導入しよう",
+      "image": "../assets/images/2026-05-21/topic-2.png",
+      "link": "../news/2026-05-21/#topic-2"
+    }
+  ]
+}

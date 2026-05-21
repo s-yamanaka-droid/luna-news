@@ -5,8 +5,11 @@
 import json
 import os
 import re
-import anthropic
+import sys
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).parent.parent / "pipeline"))
+from llm import chat_json, extract_json
 
 QUICKSTART_PROMPT = """以下のAIニュース記事リストに対して、各記事に「個人事業主・小さな会社の社長が明日から自社で試せるアクション」を quickstart フィールドとして追加してください。
 
@@ -47,8 +50,6 @@ quickstart の構造:
 
 
 def generate_quickstart(articles: list[dict]) -> list[dict]:
-    client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
-
     digest_parts = []
     for i, a in enumerate(articles):
         kp = "\n".join(f"  - {k}" for k in a.get("keypoints", []))
@@ -64,18 +65,12 @@ def generate_quickstart(articles: list[dict]) -> list[dict]:
         )
     digest = "\n\n".join(digest_parts)
 
-    msg = client.messages.create(
-        model="claude-haiku-4-5-20251001",
+    text = chat_json(
+        system="あなたは日本のAI活用コンサルタントです。指示に従って厳密にJSONを返してください。",
+        user=f"{QUICKSTART_PROMPT}\n\n記事リスト:\n{digest}",
         max_tokens=4500,
-        messages=[{"role": "user", "content": f"{QUICKSTART_PROMPT}\n\n記事リスト:\n{digest}"}],
     )
-
-    text = msg.content[0].text.strip()
-    start = text.find("[")
-    end = text.rfind("]") + 1
-    raw = text[start:end]
-    raw = re.sub(r",\s*([}\]])", r"\1", raw)
-    return json.loads(raw)
+    return json.loads(extract_json(text, "array"))
 
 
 def process_file(path: Path, force: bool = False) -> bool:
