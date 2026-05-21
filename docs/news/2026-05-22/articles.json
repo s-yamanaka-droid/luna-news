@@ -1,0 +1,177 @@
+[
+  {
+    "title": "AdventHealthがChatGPTで医療現場の効率化を実現",
+    "category": "業界動向",
+    "source": "OpenAI Blog",
+    "lede": "AdventHealthはChatGPTを導入し、医療スタッフの負担を軽減し、患者ケアに注力できる環境を整えた。",
+    "keypoints": [
+      "80%の行政業務削減",
+      "医師が患者に集中できる時間を確保",
+      "業務効率化によるアクセス向上",
+      "患者体験の向上を実現"
+    ],
+    "pull": "ChatGPT導入で医療現場の効率が劇的に向上。",
+    "bizapp": {
+      "summary": "医療機関の業務改善に直結する",
+      "actions": [
+        "社内活用例：ChatGPTで文書作成支援",
+        "他社提案例：中小病院向けの業務支援提案",
+        "注目理由：効率化が進む医療業界の流れに乗るため"
+      ]
+    },
+    "links": [
+      "https://openai.com/index/adventhealth"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AI生成コンテンツの出所を明確にする新機能をOpenAIが発表",
+    "category": "研究",
+    "source": "OpenAI Blog",
+    "lede": "OpenAIは、AI生成メディアの信頼性を向上させるための新しいコンテンツ起源確認機能を導入した。",
+    "keypoints": [
+      "コンテンツ認証の強化",
+      "透明性のあるメディア流通促進",
+      "信頼性向上のためのツール導入",
+      "業界標準を意識した開発"
+    ],
+    "pull": "コンテンツの信頼性を高める新機能の導入。",
+    "bizapp": {
+      "summary": "メディア企業に必要な信頼性を提供する",
+      "actions": [
+        "社内活用例：自社メディアの起源確認システム構築",
+        "他社提案例：広告代理店向けの信頼性向上提案",
+        "注目理由：偽情報対策としての重要性が増す"
+      ]
+    },
+    "links": [
+      "https://openai.com/index/advancing-content-provenance"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Google、AIモードで検索の利用法が変化する",
+    "category": "業界動向",
+    "source": "Google AI Blog",
+    "lede": "GoogleのAIモードが利用者の検索方法を根本的に変化させ、月間アクティブユーザー数が10億を超えた。",
+    "keypoints": [
+      "検索に音声や画像を使用するケースが増加",
+      "質問が長文化する傾向が顕著",
+      "AI機能が利用者の行動を変える",
+      "検索体験の革新が進行中"
+    ],
+    "pull": "AIが検索の定義を大きく変えつつある。",
+    "bizapp": {
+      "summary": "顧客の検索体験を最適化する",
+      "actions": [
+        "社内活用例：製品検索の音声認識導入",
+        "他社提案例：ECサイトでの検索体験強化提案",
+        "注目理由：検索行動の変化を掴むため"
+      ]
+    },
+    "links": [
+      "https://blog.google/products-and-platforms/products/search/ai-mode-us-insights/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Google Workspaceに新しいAI機能が追加",
+    "category": "ツール更新",
+    "source": "Google AI Blog",
+    "lede": "Google Workspaceが新しいAI機能を追加し、ユーザーの創造性をさらに引き出す。",
+    "keypoints": [
+      "GmailやDocsでの音声機能追加",
+      "画像の生成・編集ツール『Google Pics』登場",
+      "新しいAIインボックスで効率的管理",
+      "パーソナルAIエージェントも提供開始"
+    ],
+    "pull": "Google Workspaceが新たな機能で生産性を向上させる。",
+    "bizapp": {
+      "summary": "ビジネスの効率を高める新機能",
+      "actions": [
+        "社内活用例：音声機能で議事録作成支援",
+        "他社提案例：中小企業向けドキュメント管理提案",
+        "注目理由：業務効率化の潮流に乗るため"
+      ]
+    },
+    "links": [
+      "https://blog.google/products-and-platforms/products/workspace/workspace-updates/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AIのエージェント時代が到来、Google I/Oで発表",
+    "category": "業界動向",
+    "source": "Google AI Blog",
+    "lede": "GoogleがI/O 2026で、エージェントAIの新モデルGeminiを発表し、ビジネスの効率化を目指す。",
+    "keypoints": [
+      "AIが提供する新たな価値に注目",
+      "迅速なイノベーションを促進",
+      "カスタムシリコンを活用した基盤",
+      "人々の生活を向上させるアプローチ"
+    ],
+    "pull": "AIの進化がビジネスの未来を変える。",
+    "bizapp": {
+      "summary": "ビジネスでのAI活用が加速する",
+      "actions": [
+        "社内活用例：Geminiを活用した業務改善",
+        "他社提案例：AIツールを導入した顧客管理",
+        "注目理由：競争が激化するこの時期に差別化を図る"
+      ]
+    },
+    "links": [
+      "https://blog.google/innovation-and-ai/sundar-pichai-io-2026/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Gemini 3.5が複雑な作業をサポート",
+    "category": "ツール更新",
+    "source": "Google AI Blog",
+    "lede": "Gemini 3.5が新たなAIエージェントとして登場し、効率的な実行が可能に。",
+    "keypoints": [
+      "複雑なタスクの効率的な処理",
+      "全方位的なAI支援機能の提供",
+      "ユーザー向けに拡張された機能",
+      "アプリケーションとの統合が加速"
+    ],
+    "pull": "Gemini 3.5は新しい時代のAIエージェント。",
+    "bizapp": {
+      "summary": "業務の効率を大幅に向上させる",
+      "actions": [
+        "社内活用例：Gemini 3.5でプログラミング支援",
+        "他社提案例：業務アプリでのAI統合を提案",
+        "注目理由：省力化や効率化が今後の鍵"
+      ]
+    },
+    "links": [
+      "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Googleの新しいエージェントの取り組みを紹介",
+    "category": "研究",
+    "source": "The Decoder",
+    "lede": "Googleがlms.txtファイルを使った新しい‘エージェントブラウジング’監査を開始し、ウェブサイトの適合性をチェックする。",
+    "keypoints": [
+      "エージェントブラウジングの実験テスト",
+      "ウェブサイトのAI対応評価",
+      "開発者向けのガイダンス提供",
+      "動的な検索環境の確立を目指す"
+    ],
+    "pull": "新しいウェブ環境に向けて、Googleが適切な基準を設ける。",
+    "bizapp": {
+      "summary": "ウェブサイトの最適化が求められる時代",
+      "actions": [
+        "社内活用例：自社サイトのAI対応チェック",
+        "他社提案例：SEO戦略にAI要素を組み込む",
+        "注目理由：AIエコシステム強化の必要性"
+      ]
+    },
+    "links": [
+      "https://the-decoder.com/google-tests-websites-for-llms-txt-and-agent-compatibility/"
+    ],
+    "likes": 0
+  }
+]
