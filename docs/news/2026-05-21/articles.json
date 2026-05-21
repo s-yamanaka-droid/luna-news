@@ -1,0 +1,98 @@
+[
+  {
+    "title": "OpenAIのモデルが離散幾何学の中心的予想を覆す",
+    "category": "研究",
+    "source": "OpenAI Blog",
+    "lede": "OpenAIのモデルが80年の時を経て単位距離問題を解決し、AIが数学に新たな道を切り拓いた。",
+    "keypoints": [
+      "単位距離問題を解決",
+      "長年の予想を覆す",
+      "数学の進展に貢献"
+    ],
+    "pull": "AIの進化が数学の新たな扉を開いた。",
+    "bizapp": {
+      "summary": "AIの進歩が数学研究にも変革をもたらす。",
+      "actions": [
+        "社内活用：数理最適化のアルゴリズム開発に応用",
+        "他社提案例：教育機関での数学教育の新展開",
+        "注目理由：AI技術の進展が今後の研究に影響"
+      ]
+    },
+    "links": [
+      "https://openai.com/index/model-disproves-discrete-geometry-conjecture"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "RampがCodexを活用したコードレビューの加速法",
+    "category": "ツール更新",
+    "source": "OpenAI Blog",
+    "lede": "Ramp社がCodexを利用し、数分でのコードレビューを実現し開発者の生産性を向上させる。",
+    "keypoints": [
+      "Codexによる迅速なコードレビュー",
+      "開発者体験の向上",
+      "生産性の向上に寄与"
+    ],
+    "pull": "速さと質を両立するCodexの活用が鍵。",
+    "bizapp": {
+      "summary": "開発業務の効率化に使える。",
+      "actions": [
+        "社内活用：Codexでの自動コードレビュー導入",
+        "他社提案例：開発プロセスの見直し提案",
+        "注目理由：業界全体での開発効率向上の潮流"
+      ]
+    },
+    "links": [
+      "https://openai.com/index/ramp"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "OpenAIがシンガポール向けにAIパートナーシップ提携",
+    "category": "業界動向",
+    "source": "OpenAI Blog",
+    "lede": "OpenAIがシンガポール政府と共同でAI戦略を推進し、地域経済に貢献する。",
+    "keypoints": [
+      "AI活用に向けた国家戦略",
+      "地域の人材育成を目指す",
+      "企業や公共サービスへの支援"
+    ],
+    "pull": "シンガポールのAI戦略を支える新たな取り組み。",
+    "bizapp": {
+      "summary": "地域経済の活性化に寄与する。",
+      "actions": [
+        "社内活用：AIによる現業務改善提案",
+        "他社提案例：地域イベントやセミナーにおけるAI技術の活用",
+        "注目理由：政府主導の経済戦略が影響を及ぼすため"
+      ]
+    },
+    "links": [
+      "https://openai.com/index/introducing-openai-for-singapore"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "GoogleがI/O 2026でAIを活用した新機能を発表",
+    "category": "ツール更新",
+    "source": "Google AI Blog",
+    "lede": "Google I/O 2026で新たなAIモデルと機能を公開し、利用者の利便性向上に寄与する。",
+    "keypoints": [
+      "Gemini 3.5 Flashの概要",
+      "AIエージェントの新機能",
+      "ユーザー体験の向上"
+    ],
+    "pull": "新たなAIモデルで未来の使い方を提案。",
+    "bizapp": {
+      "summary": "業務の生産性向上に貢献する。",
+      "actions": [
+        "社内活用：Geminiを用いたデータ分析業務への活用",
+        "他社提案例：顧客サービスのAI活用による効率化",
+        "注目理由：業界競争が激化する中での最新技術の導入"
+      ]
+    },
+    "links": [
+      "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/"
+    ],
+    "likes": 0
+  }
+]
