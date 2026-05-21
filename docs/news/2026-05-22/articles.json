@@ -22,7 +22,23 @@
     "links": [
       "https://openai.com/index/adventhealth"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "医療文書の自動作成を10分に",
+      "tool": {
+        "name": "ChatGPT Plus",
+        "url": "https://chat.openai.com",
+        "cost": "¥3,000/月"
+      },
+      "time": "10分",
+      "steps": [
+        "ステップ1：ChatGPTを開く",
+        "ステップ2：医療文書の種類を指定する",
+        "ステップ3：完成した文書の内容を確認する"
+      ],
+      "prompt": "あなたは医療スタッフです。{業種}の文書を急いで作成したいです。具体的には{課題}に関する内容で、適切なフォーマットで作成してください。",
+      "roi": "月10時間削減＝3万円相当"
+    }
   },
   {
     "title": "AI生成コンテンツの出所を明確にする新機能をOpenAIが発表",
@@ -47,7 +63,23 @@
     "links": [
       "https://openai.com/index/advancing-content-provenance"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "自社メディアの信頼性向上を即実行",
+      "tool": {
+        "name": "ChatGPT Plus",
+        "url": "https://chat.openai.com",
+        "cost": "¥3,000/月"
+      },
+      "time": "30分",
+      "steps": [
+        "ステップ1：自社メディアの最近のコンテンツを整理する",
+        "ステップ2：ChatGPTに起源確認のプロンプトを投げる",
+        "ステップ3：得られた応答を元に改善点を策定する"
+      ],
+      "prompt": "あなたはメディア運営者です。{自社名}の最近のコンテンツ{課題}についての出所を明確にする方法を提案してください。",
+      "roi": "信頼性向上により顧客の関心を向上"
+    }
   },
   {
     "title": "Google、AIモードで検索の利用法が変化する",
@@ -72,7 +104,23 @@
     "links": [
       "https://blog.google/products-and-platforms/products/search/ai-mode-us-insights/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "音声検索機能の導入を迅速に",
+      "tool": {
+        "name": "Google Cloud Speech-to-Text",
+        "url": "https://cloud.google.com/speech-to-text",
+        "cost": "無料プランあり"
+      },
+      "time": "半日",
+      "steps": [
+        "ステップ1：Google Cloudアカウントを作成する",
+        "ステップ2：音声認識APIを設定する",
+        "ステップ3：自社製品の検索を音声で行うテストをする"
+      ],
+      "prompt": "あなたはECサイトの運営者です。{自社名}のために音声検索機能を実装したいです。どう進めればいいか教えてください。",
+      "roi": "顧客の検索体験向上に繋がる"
+    }
   },
   {
     "title": "Google Workspaceに新しいAI機能が追加",
@@ -97,7 +145,23 @@
     "links": [
       "https://blog.google/products-and-platforms/products/workspace/workspace-updates/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "音声機能で議事録作成を簡素化",
+      "tool": {
+        "name": "Google Workspace",
+        "url": "https://workspace.google.com",
+        "cost": "¥2,000/月"
+      },
+      "time": "30分",
+      "steps": [
+        "ステップ1：Google Docsを開く",
+        "ステップ2：音声入力機能をオンにする",
+        "ステップ3：会議中に内容を声で記録する"
+      ],
+      "prompt": "あなたは会議の司会者です。次の会議の議事録をAIを使って記録したいです。指示内容をリアルタイムで聞き取れますか？",
+      "roi": "議事録作成時間を70%短縮"
+    }
   },
   {
     "title": "AIのエージェント時代が到来、Google I/Oで発表",
@@ -122,7 +186,23 @@
     "links": [
       "https://blog.google/innovation-and-ai/sundar-pichai-io-2026/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "Geminiで業務効率化を体験する",
+      "tool": {
+        "name": "Gemini",
+        "url": "https://www.google.com/ai/gemini",
+        "cost": "無料"
+      },
+      "time": "30分",
+      "steps": [
+        "ステップ1：Geminiにアクセスする",
+        "ステップ2：ビジネスに関するタスクを指定する",
+        "ステップ3：生成された提案を確認・実行する"
+      ],
+      "prompt": "あなたは中小企業の経営者です。{自社名}の業務を効率化したいと考えています。Geminiを使って提案を得るにはどうすればいいですか？",
+      "roi": "業務効率20%向上"
+    }
   },
   {
     "title": "Gemini 3.5が複雑な作業をサポート",
@@ -147,7 +227,23 @@
     "links": [
       "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "複雑タスクを簡略化する支援",
+      "tool": {
+        "name": "Gemini 3.5",
+        "url": "https://www.google.com/ai/gemini",
+        "cost": "無料"
+      },
+      "time": "30分",
+      "steps": [
+        "ステップ1：Gemini 3.5を起動する",
+        "ステップ2：支援が必要なタスクを入力する",
+        "ステップ3：得られた結果を活用する"
+      ],
+      "prompt": "あなたはIT関連の事業を運営する社長です。{業種}で直面している{課題}についてGemini 3.5に支援を求めたい。どんな指示を出せばいいですか？",
+      "roi": "タスク効率化でコスト削減"
+    }
   },
   {
     "title": "Googleの新しいエージェントの取り組みを紹介",
@@ -172,6 +268,22 @@
     "links": [
       "https://the-decoder.com/google-tests-websites-for-llms-txt-and-agent-compatibility/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "自社サイトのAI対応を確認する",
+      "tool": {
+        "name": "Google Search Console",
+        "url": "https://search.google.com/search-console/about",
+        "cost": "無料"
+      },
+      "time": "30分",
+      "steps": [
+        "ステップ1：Google Search Consoleにサインインする",
+        "ステップ2：自社サイトの状態をチェックする",
+        "ステップ3：結果を元にAI対応の改善策を考える"
+      ],
+      "prompt": "あなたはウェブ管理者です。{自社名}のウェブサイトがAIに対応しているか確認したいです。どのステップを踏めば良いですか？",
+      "roi": "サイトのSEO効果を向上"
+    }
   }
 ]

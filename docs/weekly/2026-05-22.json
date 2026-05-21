@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週は特に小規模事業者にとって即実行可能なAIツールや技術が注目された。業務効率化、コスト削減、差別化を実現するアプローチが多数紹介されており、早急な導入が期待される。特にCodexやAI音声機能の活用は、個人事業主にとって有益な選択肢となる。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-05-19",
+      "title": "営業チームがCodexで業務効率化。提案書・会議準備を数分で作成",
+      "category": "ツール更新",
+      "source": "OpenAI Blog",
+      "why_picked": "営業の事務作業を大幅に削減できるから。",
+      "tldr": "Codexで営業プロセスを高速化。",
+      "action": "提案資料を自動生成する",
+      "image": "../assets/images/2026-05-19/topic-3.png",
+      "link": "../news/2026-05-19/#topic-3"
+    },
+    {
+      "rank": 2,
+      "date": "2026-05-22",
+      "title": "Google Workspaceに新しいAI機能が追加",
+      "category": "ツール更新",
+      "source": "Google AI Blog",
+      "why_picked": "業務を効率化し、生産性を向上させるから。",
+      "tldr": "Google WorkspaceがAI機能を強化。",
+      "action": "音声機能で議事録を作成",
+      "image": "../assets/images/2026-05-22/topic-4.png",
+      "link": "../news/2026-05-22/#topic-4"
+    },
+    {
+      "rank": 3,
+      "date": "2026-05-19",
+      "title": "Cursor、コーディングAIで大手に対抗。性能同等で価格は10分の1",
+      "category": "ツール更新",
+      "source": "The Decoder",
+      "why_picked": "開発コストを大幅に削減できるから。",
+      "tldr": "CursorがAIコーディングエディタを発表。",
+      "action": "Cursorを導入しコスト削減",
+      "image": "../assets/images/2026-05-19/topic-1.png",
+      "link": "../news/2026-05-19/#topic-1"
+    }
+  ]
+}
