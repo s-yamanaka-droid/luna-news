@@ -32,7 +32,10 @@ git add -A 2>&1 | tee -a "$LOG"
 git commit -m "daily: $TODAY — quickstart + weekly refresh" 2>&1 | tee -a "$LOG" || echo "no changes" | tee -a "$LOG"
 git push origin main 2>&1 | tee -a "$LOG"
 
-echo "[5/5] Slack #朝刊 通知" | tee -a "$LOG"
+echo "[5/6] Slack #朝刊 通知" | tee -a "$LOG"
 python scripts/notify_slack.py "$TODAY" 2>&1 | tee -a "$LOG" || echo "Slack送信失敗（処理は継続）" | tee -a "$LOG"
+
+echo "[6/6] Obsidian vault 同期" | tee -a "$LOG"
+python scripts/sync_obsidian.py "$TODAY" 2>&1 | tee -a "$LOG" || echo "Obsidian同期失敗（処理は継続）" | tee -a "$LOG"
 
 echo "=== 完了 $TODAY ===" | tee -a "$LOG"
