@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週は、AIに基づく業務効率化やコスト削減に関する具体的なツールが多数リリースされました。特に、個人事業主向けの即実行性の高いソリューションが注目されています。これにより、時間の短縮や差別化が可能となるでしょう。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-05-19",
+      "title": "営業チームがCodexで業務効率化。提案書・会議準備を数分で作成",
+      "category": "ツール更新",
+      "source": "OpenAI Blog",
+      "why_picked": "営業の事務作業を大幅に削減できるから。",
+      "tldr": "Codexが営業資料を自動生成。",
+      "action": "提案資料の作成をCodexに任せてみる。",
+      "image": "../assets/images/2026-05-19/topic-3.png",
+      "link": "../news/2026-05-19/#topic-3"
+    },
+    {
+      "rank": 2,
+      "date": "2026-05-22",
+      "title": "Google Workspaceに新しいAI機能が追加",
+      "category": "ツール更新",
+      "source": "Google AI Blog",
+      "why_picked": "業務の創造性と効率が向上するから。",
+      "tldr": "Workspaceで新AI機能追加。",
+      "action": "音声機能で議事録を作成する。",
+      "image": "../assets/images/2026-05-22/topic-4.png",
+      "link": "../news/2026-05-22/#topic-4"
+    },
+    {
+      "rank": 3,
+      "date": "2026-05-23",
+      "title": "OpenAI、PowerPointプラグインを発表",
+      "category": "ツール更新",
+      "source": "The Decoder",
+      "why_picked": "プレゼン制作が格段にスピードアップするから。",
+      "tldr": "PowerPoint用プラグインで効率化。",
+      "action": "プレゼン資料作成をプラグインで行う。",
+      "image": "../assets/images/2026-05-23/topic-4.png",
+      "link": "../news/2026-05-23/#topic-4"
+    }
+  ]
+}

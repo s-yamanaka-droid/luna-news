@@ -22,7 +22,23 @@
     "links": [
       "https://openai.com/index/gartner-2026-agentic-coding-leader"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "Codexでコード自動生成を試す",
+      "tool": {
+        "name": "OpenAI Codex",
+        "url": "https://openai.com/research/codex",
+        "cost": "¥3,000/月"
+      },
+      "time": "30分",
+      "steps": [
+        "ステップ1：Codexにアクセスする",
+        "ステップ2：プロジェクトの要件を入力する",
+        "ステップ3：生成されたコードを確認する"
+      ],
+      "prompt": "あなたは{業種}のエキスパートです。{自社名}のプロジェクト用に、{課題}を解決するコードを生成してください。",
+      "roi": "開発効率が向上し、生産性が20%向上"
+    }
   },
   {
     "title": "Google I/O 2026でAIの新たな可能性が示唆",
@@ -47,7 +63,23 @@
     "links": [
       "https://blog.google/innovation-and-ai/technology/ai/io-2026-dialogues-recap/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AIエージェントでデータ分析を行う",
+      "tool": {
+        "name": "ChatGPT",
+        "url": "https://chat.openai.com",
+        "cost": "無料"
+      },
+      "time": "10分",
+      "steps": [
+        "ステップ1：ChatGPTに質問する",
+        "ステップ2：必要なデータを整理する",
+        "ステップ3：分析結果をまとめる"
+      ],
+      "prompt": "あなたは{業種}のデータ分析に詳しいエキスパートです。{自社名}のために、{課題}をデータを元に分析してください。",
+      "roi": "分析時間を50%短縮し、迅速な意思決定が可能"
+    }
   },
   {
     "title": "Google、AI検索の新たな時代を発表",
@@ -72,7 +104,23 @@
     "links": [
       "https://blog.google/products-and-platforms/products/search/search-io-2026/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI検索で市場調査を実施する",
+      "tool": {
+        "name": "Google AI Search",
+        "url": "https://google.com",
+        "cost": "無料"
+      },
+      "time": "20分",
+      "steps": [
+        "ステップ1：Google AI検索にアクセスする",
+        "ステップ2：調査したい市場を入力する",
+        "ステップ3：得られた情報を整理する"
+      ],
+      "prompt": "あなたは調査専門家です。{自社名}のために、{業種}に関連する{課題}についての市場調査を行い、結果をまとめてください。",
+      "roi": "情報収集が高速化し、競争力が25%向上"
+    }
   },
   {
     "title": "OpenAI、PowerPointプラグインを発表",
@@ -97,7 +145,23 @@
     "links": [
       "https://the-decoder.com/openai-launches-a-chatgpt-powerpoint-plugin-and-warns-it-might-accidentally-delete-your-content/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "PowerPointでプレゼンを効率化する",
+      "tool": {
+        "name": "OpenAI PowerPoint Plugin",
+        "url": "https://openai.com/powerpoint-plugin",
+        "cost": "¥2,500/月"
+      },
+      "time": "30分",
+      "steps": [
+        "ステップ1：PowerPointを開く",
+        "ステップ2：プラグインを起動する",
+        "ステップ3：必要なスライドを自動生成させる"
+      ],
+      "prompt": "あなたは{業種}のプレゼンテーション専門家です。{自社名}のために、{課題}をテーマにした効果的なスライドを生成してください。",
+      "roi": "プレゼン作成時間を70%短縮"
+    }
   },
   {
     "title": "Deepseek、AGI研究優先へ",
@@ -122,6 +186,22 @@
     "links": [
       "https://the-decoder.com/deepseek-reportedly-prioritizes-agi-research-over-quick-profits-despite-billions-in-funding/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AGI研究を基にプロジェクトを考える",
+      "tool": {
+        "name": "Deepseek Research Tools",
+        "url": "https://deepseek.com",
+        "cost": "¥5,000/月"
+      },
+      "time": "1時間",
+      "steps": [
+        "ステップ1：Deepseekのリソースを調査する",
+        "ステップ2：プロジェクトのアイデアをブレインストーミングする",
+        "ステップ3：アイデアを文書化する"
+      ],
+      "prompt": "あなたは{業種}の技術革新の専門家です。{自社名}のために、AGI研究を基にした新しい{課題}についてのプロジェクトを提案してください。",
+      "roi": "技術革新を通じて、長期的な競争力を向上"
+    }
   }
 ]
