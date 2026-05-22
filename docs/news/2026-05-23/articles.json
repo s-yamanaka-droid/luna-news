@@ -1,0 +1,127 @@
+[
+  {
+    "title": "OpenAI、Gartnerが評価する企業向けコーディングエージェントのリーダーに",
+    "category": "業界動向",
+    "source": "OpenAI Blog",
+    "lede": "OpenAIは、Gartnerの2026年企業向けAIコーディングエージェントのマジック・クアドラントにて、リーダーに選出されました。",
+    "keypoints": [
+      "Codexが企業での利用拡大を実現",
+      "週に400万人以上がCodexを使用",
+      "GPT-5.5で生産性向上",
+      "企業ソフトウェア開発の強化"
+    ],
+    "pull": "企業の開発スピードと安全性を両立するCodexが評価されました。",
+    "bizapp": {
+      "summary": "Codexを活用して開発効率を高めるチャンス。",
+      "actions": [
+        "社内活用例：Codexでのコード自動生成やバグ修正",
+        "他社提案例：開発チームの生産性向上に寄与・営業資料作成に使用",
+        "注目理由：業界での競争優位性の確保が期待できる"
+      ]
+    },
+    "links": [
+      "https://openai.com/index/gartner-2026-agentic-coding-leader"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Google I/O 2026でAIの新たな可能性が示唆",
+    "category": "その他",
+    "source": "Google AI Blog",
+    "lede": "Google I/O 2026では、AIが創造性や生産性をどう変えるかが議論されました。",
+    "keypoints": [
+      "CEOがAIエージェントの影響を解説",
+      "量子コンピューティングとAIの関係に言及",
+      "AIによる科学的問題解決の強調",
+      "映像制作におけるAIの役割について議論"
+    ],
+    "pull": "AIが多岐にわたる分野での変革を促進しています。",
+    "bizapp": {
+      "summary": "AI活用を進めることで業務の効率化が図れる。",
+      "actions": [
+        "社内活用例：AIエージェントを用いたデータ分析",
+        "他社提案例：創造的なマーケティング戦略の策定",
+        "注目理由：AI技術の進歩による新市場への対応"
+      ]
+    },
+    "links": [
+      "https://blog.google/innovation-and-ai/technology/ai/io-2026-dialogues-recap/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Google、AI検索の新たな時代を発表",
+    "category": "ツール更新",
+    "source": "Google AI Blog",
+    "lede": "GoogleはAIの力で検索を強化し、これまでにない体験を提供します。",
+    "keypoints": [
+      "AIによるユーザー体験の向上",
+      "新しいインターフェースの導入",
+      "月間10億人以上がAIモードを活用",
+      "利用増加に伴い新機能を追加"
+    ],
+    "pull": "AIによる新しい検索体験を提供し、利用者の利便性を向上させています。",
+    "bizapp": {
+      "summary": "マーケティングや営業での情報収集が効率化される。",
+      "actions": [
+        "社内活用例：新しいAI検索を用いた市場調査",
+        "他社提案例：顧客情報収集の簡略化",
+        "注目理由：情報取得のスピードアップが競争力に"
+      ]
+    },
+    "links": [
+      "https://blog.google/products-and-platforms/products/search/search-io-2026/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "OpenAI、PowerPointプラグインを発表",
+    "category": "ツール更新",
+    "source": "The Decoder",
+    "lede": "OpenAIがPowerPoint用のプラグインを公開。プレゼン制作が容易に。",
+    "keypoints": [
+      "PowerPoint内で直接利用可能",
+      "スライドの編集や新規作成が可能",
+      "業務フローの効率化に寄与",
+      "特定の条件下での注意喚起"
+    ],
+    "pull": "プレゼン資料作成の新たな支援ツールが登場しました。",
+    "bizapp": {
+      "summary": "プレゼン制作の効率が大幅に向上する。",
+      "actions": [
+        "社内活用例：月次報告や戦略プレゼンに使用",
+        "他社提案例：営業プレゼンの迅速化",
+        "注目理由：業務フローのデジタル化が進む"
+      ]
+    },
+    "links": [
+      "https://the-decoder.com/openai-launches-a-chatgpt-powerpoint-plugin-and-warns-it-might-accidentally-delete-your-content/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Deepseek、AGI研究優先へ",
+    "category": "研究",
+    "source": "The Decoder",
+    "lede": "Deepseekが短期利益よりAGI研究を重視する方針を示しました。",
+    "keypoints": [
+      "AGI研究に数十億の資金を投資予定",
+      "オープンソースモデルの開発継続",
+      "短期利益への圧力が増す中の選択",
+      "パートナー企業の支援を受ける"
+    ],
+    "pull": "AGI研究が今後のAI産業を牽引する可能性に注目が集まります。",
+    "bizapp": {
+      "summary": "長期的な技術革新を期待できる。",
+      "actions": [
+        "社内活用例：研究成果を基にしたプロジェクト展開",
+        "他社提案例：競争力を高めるための技術提携",
+        "注目理由：次世代技術に向けた投資が求められる"
+      ]
+    },
+    "links": [
+      "https://the-decoder.com/deepseek-reportedly-prioritizes-agi-research-over-quick-profits-despite-billions-in-funding/"
+    ],
+    "likes": 0
+  }
+]
