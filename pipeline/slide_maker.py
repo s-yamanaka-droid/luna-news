@@ -47,7 +47,7 @@ LAYOUT (top to bottom):
 
 DESIGN SYSTEM:
 - Background: Pure white (#FFFFFF)
-- Primary accent: Jordan Chicago Red (#CE1141) — borders, badges, category label, accents
+- Primary accent: Estate Brown (#6D4C41) — borders, badges, category label, accents
 - Black (#0D0D0D) for main text
 - Gray (#888) for secondary text
 - Typography: Heavy condensed sans-serif for headline, clean sans-serif for labels, monospace for metadata
@@ -120,22 +120,49 @@ def generate_slide(
                 time.sleep(5 * (attempt + 1))
 
     # Gemini が全失敗 → OpenAI gpt-image-1 にフォールバック
-    print("  [fallback] OpenAI gpt-image-1 で再試行")
+    print("  [fallback] OpenAI gpt-image-1 で再試行（日本語文字化け回避モード）")
     try:
-        return _openai_image_fallback(prompt, output_path)
+        return _openai_image_fallback(prompt, output_path, title=title)
     except Exception as e:
         print(f"  [fallback] OpenAI失敗: {e}")
         return False
 
 
-def _openai_image_fallback(prompt: str, output_path) -> bool:
-    """OpenAI gpt-image-1 で 16:9 図解を生成"""
+OPENAI_IMAGE_PROMPT = """Create a 16:9 minimalist editorial INFOGRAPHIC for a news topic.
+
+TOPIC CONTEXT (do NOT render this Japanese text in the image — use it only to choose appropriate icons):
+{title}
+
+CRITICAL DESIGN RULES (this is the most important part):
+- ABSOLUTELY NO Japanese characters anywhere in the image. NO kanji, NO hiragana, NO katakana.
+- Use ONLY simple ENGLISH words if any text is needed (1-3 word labels max, e.g., "MARKET", "AI", "GROWTH", "DATA").
+- Prefer pure icons/symbols over any text. The image should communicate visually.
+- If you cannot render text perfectly, render NO text at all — pure icons only.
+
+VISUAL STYLE:
+- Background: pure white (#FFFFFF)
+- Primary accent color: #CE1141 (Chicago Red) — for borders, accents, key shapes
+- Secondary: black (#0D0D0D) for outlines
+- 3 to 4 icon boxes arranged horizontally, each with a flat minimalist icon (gear, building, chart, arrow, lock, person, etc.)
+- Each box has a thin red border, a small numbered badge (1, 2, 3, 4) in the corner
+- A thick red horizontal rule at the top
+- A bold red vertical accent bar on the left edge
+- Style: flat geometric, athletic, magazine editorial — like a sports brand applied to news graphics
+
+NO photorealistic imagery. NO gradients. NO pastels. NO dark backgrounds. NO Japanese text. EVER."""
+
+
+def _openai_image_fallback(prompt: str, output_path, title: str = "") -> bool:
+    """OpenAI gpt-image-1 で 16:9 図解を生成（日本語文字化け回避版）"""
     from openai import OpenAI
     client = OpenAI()
+    # 日本語入りの長文プロンプトをそのまま渡すと文字化け頻発
+    # → OpenAI 専用にアイコン主体・英語ラベル限定のプロンプトに置換
+    safe_prompt = OPENAI_IMAGE_PROMPT.format(title=title or "news topic")
     resp = client.images.generate(
         model="gpt-image-1",
-        prompt=prompt,
-        size="1536x1024",  # 16:9 近似
+        prompt=safe_prompt,
+        size="1536x1024",
         n=1,
     )
     img_b64 = resp.data[0].b64_json

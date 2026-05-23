@@ -7,7 +7,7 @@ cd /Users/yamanakashuto/apps/vigil-news
 source venv/bin/activate
 
 export ANTHROPIC_API_KEY="${ANTHROPIC_API_KEY:-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}"
-export GEMINI_API_KEY="${GEMINI_API_KEY:-AIzaSyDc5WQWXjQOLvisJue5cwskk95lpVBg794}"
+export GEMINI_API_KEY="${GEMINI_API_KEY:-AIzaSyB_YxhSIVU7titeZ7BSIlQGjAQPD3y-NKg}"
 export OPENAI_API_KEY="${OPENAI_API_KEY:-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}"
 export LLM_PROVIDER="${LLM_PROVIDER:-openai}"
 
