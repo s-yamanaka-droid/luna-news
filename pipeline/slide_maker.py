@@ -4,7 +4,10 @@ ChatGPT Plus サブスク経由で Codex CLI を呼び、PILで日本語完璧�
 API課金ゼロ・文字化けゼロ・editorial品質。
 """
 import os
+import shutil
 import subprocess
+import tempfile
+import uuid
 from pathlib import Path
 
 BRAND_NAME = os.environ.get("NOW_ON_BRAND", "AIr")
@@ -71,21 +74,27 @@ def generate_slide(
     if output_path.exists():
         output_path.unlink()
 
-    prompt = _build_prompt(title, category, source, summary, keypoints, output_path)
+    # Codex のサンドボックスは /tmp 配下しか書けないので、tmp に生成→移動
+    tmp_out = Path(tempfile.gettempdir()) / f"nowonair_slide_{uuid.uuid4().hex}.png"
+    prompt = _build_prompt(title, category, source, summary, keypoints, tmp_out)
     try:
         proc = subprocess.run(
             [CODEX_BIN, "exec", "--skip-git-repo-check",
              "--sandbox", "workspace-write", prompt],
-            cwd="/tmp",
+            cwd=tempfile.gettempdir(),
             capture_output=True, text=True, timeout=420,
         )
-        if output_path.exists() and output_path.stat().st_size > 5000:
+        if tmp_out.exists() and tmp_out.stat().st_size > 5000:
+            shutil.move(str(tmp_out), str(output_path))
             return True
-        print(f"  [codex] 画像未生成 rc={proc.returncode}\n{proc.stdout[-500:]}\n{proc.stderr[-300:]}")
+        print(f"  [codex] 画像未生成 rc={proc.returncode}\n{proc.stdout[-400:]}\n{proc.stderr[-200:]}")
         return False
     except subprocess.TimeoutExpired:
+        if tmp_out.exists() and tmp_out.stat().st_size > 5000:
+            shutil.move(str(tmp_out), str(output_path))
+            return True
         print("  [codex] タイムアウト(420s)")
-        return output_path.exists() and output_path.stat().st_size > 5000
+        return False
     except Exception as e:
         print(f"  [codex] error: {e}")
         return False

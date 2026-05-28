@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週は検索・資料作成・業務分担のAIが実務寄りに進みました。小規模事業者は、大規模な基盤投資より営業資料、調査、定型報告の時短から始めるのが有効です。まずは売上に近い作業へAIを入れる週です。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-05-23",
+      "title": "OpenAI、PowerPointプラグインを発表",
+      "category": "ツール更新",
+      "source": "The Decoder",
+      "why_picked": "営業資料作成をすぐ時短できる",
+      "tldr": "プレゼン作成をAI化",
+      "action": "営業資料を1本AI作成",
+      "image": "../assets/images/2026-05-23/topic_4.png",
+      "link": "../news/2026-05-23/#topic-4"
+    },
+    {
+      "rank": 2,
+      "date": "2026-05-29",
+      "title": "Google、AI検索と新モデルを一斉発表",
+      "category": "新モデル発表",
+      "source": "Google AI Blog",
+      "why_picked": "資料探しと提案動画を即時短できる",
+      "tldr": "検索と動画作成が高速化",
+      "action": "提案動画を10分試作",
+      "image": "../assets/images/2026-05-29/topic_1.png",
+      "link": "../news/2026-05-29/#topic-1"
+    },
+    {
+      "rank": 3,
+      "date": "2026-05-29",
+      "title": "Claude新版、作業エージェント機能を強化",
+      "category": "新モデル発表",
+      "source": "The Decoder",
+      "why_picked": "調査や文書作成を人手不足対策に使える",
+      "tldr": "AIに仕事を分担",
+      "action": "調査タスクを3件任せる",
+      "image": "../assets/images/2026-05-29/topic_2.png",
+      "link": "../news/2026-05-29/#topic-2"
+    }
+  ]
+}

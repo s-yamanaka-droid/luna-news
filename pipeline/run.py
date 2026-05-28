@@ -46,26 +46,24 @@ def run(date_str: str = None, dry_run: bool = False, skip_slides: bool = False, 
     articles = generate_articles(raw)
     log.info(f"   {len(articles)}件生成")
 
-    # 3. Geminiスライド生成（並列）
+    # 3. スライド生成（Codex CLI・直列。並列は stream disconnect するため）
     if not skip_slides:
-        log.info("3. スライド生成（Gemini 3.1 Flash）")
+        log.info("3. スライド生成（Codex CLI）")
         img_dir = SITE_DIR / "assets" / "images" / date_str
         img_dir.mkdir(parents=True, exist_ok=True)
 
-        def make_slide(args):
-            i, a = args
+        results = []
+        for i, a in enumerate(articles, 1):
             out = img_dir / f"topic_{i}.png"
             if out.exists():
-                return i, True
+                results.append((i, True)); continue
             ok = generate_slide(
                 title=a["title"], category=a.get("category",""),
                 source=a.get("source",""), summary=a.get("lede",""),
                 keypoints=a.get("keypoints",[]), output_path=out,
             )
-            return i, ok
-
-        with concurrent.futures.ThreadPoolExecutor(max_workers=4) as ex:
-            results = list(ex.map(make_slide, enumerate(articles, 1)))
+            log.info(f"   slide {i}/{len(articles)}: {'OK' if ok else 'FAIL'}")
+            results.append((i, ok))
         ok_count = sum(1 for _, ok in results if ok)
         log.info(f"   {ok_count}/{len(articles)}枚生成完了")
 
