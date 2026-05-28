@@ -22,7 +22,23 @@
     "links": [
       "https://openai.com/index/cisco"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "バグ修正を10倍速に",
+      "tool": {
+        "name": "ChatGPT Plus",
+        "url": "https://chatgpt.com",
+        "cost": "約¥3,000/月"
+      },
+      "time": "30分",
+      "steps": [
+        "エラー文を貼り付けろ",
+        "該当コードを添付しろ",
+        "修正案を実行しろ"
+      ],
+      "prompt": "あなたは{業種}の小規模開発チームのAIレビュアーです。{自社名}の{不具合内容}について、原因候補、修正コード、確認手順を順に出してください。",
+      "roi": "不具合調査を70%短縮"
+    }
   },
   {
     "title": "Devin開発元、評価額260億ドル超に",
@@ -47,7 +63,23 @@
     "links": [
       "https://the-decoder.com/ai-coding-agent-devin-maker-cognition-more-than-doubles-its-valuation-to-26-billion-in-under-nine-months/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "外注前に試作する",
+      "tool": {
+        "name": "Devin",
+        "url": "https://devin.ai",
+        "cost": "要問い合わせ"
+      },
+      "time": "半日",
+      "steps": [
+        "作りたい機能を書け",
+        "既存資料を渡せ",
+        "試作品を確認しろ"
+      ],
+      "prompt": "あなたは{業種}向けのAI開発者です。{自社名}が欲しい{機能名}を、最小構成の画面、データ項目、実装手順に分けて作ってください。",
+      "roi": "外注見積もり前の試作費を削減"
+    }
   },
   {
     "title": "AIエージェントが株売買を実行へ",
@@ -72,7 +104,23 @@
     "links": [
       "https://the-decoder.com/robinhood-lets-ai-agents-trade-shares-and-make-credit-card-purchases-for-customers/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI操作の承認表",
+      "tool": {
+        "name": "Claude Pro",
+        "url": "https://claude.ai",
+        "cost": "約¥3,000/月"
+      },
+      "time": "30分",
+      "steps": [
+        "金融作業を列挙しろ",
+        "AI禁止操作を決めろ",
+        "承認ルールを作れ"
+      ],
+      "prompt": "あなたは{業種}の社内統制担当です。{自社名}でAIに任せる{金融業務}について、許可、要承認、禁止の基準表を作ってください。",
+      "roi": "誤送金・誤発注リスクを低減"
+    }
   },
   {
     "title": "Snowflake、AWSと60億ドル契約",
@@ -97,7 +145,23 @@
     "links": [
       "https://techcrunch.com/2026/05/27/in-more-good-news-for-amazon-snowflake-signs-6b-deal-with-aws-for-ai-cpu-chips/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "社内データ検索化",
+      "tool": {
+        "name": "ChatGPT Plus",
+        "url": "https://chatgpt.com",
+        "cost": "約¥3,000/月"
+      },
+      "time": "30分",
+      "steps": [
+        "売上CSVを用意しろ",
+        "質問を5つ作れ",
+        "回答精度を確認しろ"
+      ],
+      "prompt": "あなたは{業種}のデータ分析担当です。{自社名}の売上データから、{知りたいこと}を調べ、根拠となる行と次の打ち手を示してください。",
+      "roi": "集計作業を月5時間削減"
+    }
   },
   {
     "title": "YouTube、AI動画の自動表示を開始",
@@ -123,7 +187,23 @@
       "https://the-decoder.com/youtube-will-try-to-automatically-flag-ai-videos-starting-this-month/",
       "https://arstechnica.com/google/2026/05/youtube-to-begin-automatically-labeling-ai-videos/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI動画ラベル確認",
+      "tool": {
+        "name": "YouTube Studio",
+        "url": "https://studio.youtube.com",
+        "cost": "無料"
+      },
+      "time": "20分",
+      "steps": [
+        "AI使用動画を洗い出せ",
+        "説明文を修正しろ",
+        "申告手順を記録しろ"
+      ],
+      "prompt": "あなたは{業種}の広報担当です。{自社名}の{動画内容}について、AI利用を視聴者に誠実に伝える説明文と確認チェックリストを作ってください。",
+      "roi": "ブランド毀損リスクを低減"
+    }
   },
   {
     "title": "Remote、AI導入で社員当たり収益5割増",
@@ -148,7 +228,23 @@
     "links": [
       "https://techcrunch.com/2026/05/27/payroll-startup-remote-says-it-grew-revenue-50-per-employee-without-adding-headcount/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "社員別AI時短表",
+      "tool": {
+        "name": "Notion AI",
+        "url": "https://www.notion.com/product/ai",
+        "cost": "約¥1,500/月"
+      },
+      "time": "30分",
+      "steps": [
+        "全員の定型業務を書け",
+        "AI化候補を選べ",
+        "削減時間を記録しろ"
+      ],
+      "prompt": "あなたは{業種}の業務改善コンサルです。{自社名}の{従業員数}人の定型業務から、AIで時短できる順に表で提案してください。",
+      "roi": "月20時間削減＝6万円相当"
+    }
   },
   {
     "title": "企業ITのAI、最先端でも正答5割未満",
@@ -173,7 +269,23 @@
     "links": [
       "https://huggingface.co/blog/ibm-research/itbench-aa"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "障害対応を下書き",
+      "tool": {
+        "name": "Claude Pro",
+        "url": "https://claude.ai",
+        "cost": "約¥3,000/月"
+      },
+      "time": "20分",
+      "steps": [
+        "障害ログを貼れ",
+        "原因候補を出せ",
+        "人が検証しろ"
+      ],
+      "prompt": "あなたは{業種}のIT運用補助です。{自社名}の{障害内容}について、根本原因候補、確認コマンド、復旧手順を人間確認前提で出してください。",
+      "roi": "初動調査を50%短縮"
+    }
   },
   {
     "title": "Codexで税務AIが自ら改善",
@@ -198,6 +310,22 @@
     "links": [
       "https://openai.com/index/building-self-improving-tax-agents-with-codex"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "税務FAQを育てる",
+      "tool": {
+        "name": "Claude Pro",
+        "url": "https://claude.ai",
+        "cost": "約¥3,000/月"
+      },
+      "time": "30分",
+      "steps": [
+        "過去質問を集めろ",
+        "回答草案を作れ",
+        "税理士修正を残せ"
+      ],
+      "prompt": "あなたは{業種}の税務業務補助です。{自社名}の{税務質問}について、確認事項、回答草案、税理士に聞くべき点を分けて出してください。",
+      "roi": "税理士相談前の整理を半減"
+    }
   }
 ]

@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週はAIエージェントより、日常業務に直結するAI機能の実装が目立ちました。資料作成、検索、メール・文書処理は小規模事業者でもすぐ時短できます。一方でAI生成物の表示や信頼性確認も商用利用の前提になりつつあります。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-05-23",
+      "title": "OpenAI、PowerPointプラグインを発表",
+      "category": "ツール更新",
+      "source": "The Decoder",
+      "why_picked": "営業資料作成をすぐ時短できる",
+      "tldr": "PowerPoint作成をAI化",
+      "action": "提案資料1本をAIで作る",
+      "image": "../assets/images/2026-05-23/topic_4.png",
+      "link": "../news/2026-05-23/#topic-4"
+    },
+    {
+      "rank": 2,
+      "date": "2026-05-22",
+      "title": "Google Workspaceに新しいAI機能が追加",
+      "category": "ツール更新",
+      "source": "Google AI Blog",
+      "why_picked": "メール・文書・議事録の時短に直結",
+      "tldr": "Workspace作業がAI化",
+      "action": "議事録作成をAIに任せる",
+      "image": "../assets/images/2026-05-22/topic_4.png",
+      "link": "../news/2026-05-22/#topic-4"
+    },
+    {
+      "rank": 3,
+      "date": "2026-05-23",
+      "title": "Google、AI検索の新たな時代を発表",
+      "category": "ツール更新",
+      "source": "Google AI Blog",
+      "why_picked": "集客と市場調査のやり方が変わる",
+      "tldr": "AI検索が本格普及",
+      "action": "自社名をAI検索で調べる",
+      "image": "../assets/images/2026-05-23/topic_3.png",
+      "link": "../news/2026-05-23/#topic-3"
+    }
+  ]
+}

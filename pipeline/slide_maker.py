@@ -1,61 +1,58 @@
 """
-Now on AIr — Slide Maker (OpenAI gpt-image-2 版)
-リッチ図解 + 日本語完璧。quality 切替で品質/コスト調整可能。
+Now on AIr — Slide Maker (Codex CLI 版)
+ChatGPT Plus サブスク経由で Codex CLI を呼び、PILで日本語完璧な図解PNGを生成。
+API課金ゼロ・文字化けゼロ・editorial品質。
 """
 import os
-import base64
+import subprocess
 from pathlib import Path
 
 BRAND_NAME = os.environ.get("NOW_ON_BRAND", "AIr")
 PRIMARY_COLOR = os.environ.get("NOW_ON_PRIMARY_COLOR", "#CE1141")
-IMAGE_MODEL = os.environ.get("OPENAI_IMAGE_MODEL", "gpt-image-2")
-IMAGE_QUALITY = os.environ.get("OPENAI_IMAGE_QUALITY", "medium")  # low / medium / high
+CODEX_BIN = os.environ.get("CODEX_BIN", "/opt/homebrew/bin/codex")
 
-SLIDE_PROMPT_TEMPLATE = """A 16:9 editorial INFOGRAPHIC news card slide, magazine-quality Japanese editorial design with RICH ILLUSTRATED scenes.
+PROMPT_TEMPLATE = """Write and run a Python script (using PIL/Pillow) that renders ONE 1536x1024 PNG infographic and saves it to exactly this path: {output_path}
 
-ARTICLE DATA:
-- Title (render exactly in Japanese): {title}
-- Category (render exactly in Japanese): {category}
-- Summary (render exactly in Japanese): {summary}
+This is a Japanese editorial news-card infographic for the media brand "Now on {brand}".
+
+ARTICLE DATA (use this text EXACTLY, render Japanese perfectly with a CJK font like Hiragino Sans / Noto Sans CJK):
+- Category label: {category}
+- Title: {title}
+- Summary: {summary}
 - Source: {source}
-- Key points (each becomes one illustrated box, render Japanese exactly):
+- Four key points (each becomes one card):
 {keypoints}
 
-LAYOUT (top to bottom, on pure white #FFFFFF):
-1. THIN top border line in {primary_color} (3 px tall)
-2. TOP-LEFT: solid filled pill in {primary_color} with white uppercase category text "{category}"
-3. TOP-RIGHT: brand mark "Now on {brand}" — "{brand_main}" in {primary_color} bold larger, "{brand_sub}" in muted gray smaller
-4. CENTER: the article TITLE in very large bold black Japanese type, 2-3 lines max
-5. BELOW title: the SUMMARY in a thin-bordered horizontal box, smaller Japanese
-6. LOWER HALF: 3 to 4 ILLUSTRATED CONCEPT BOXES side-by-side. Each box contains:
-   a. A unique RICH ILLUSTRATED SCENE (NOT a flat single icon) combining 2-4 visual elements that represent the key point — e.g. building + dollar sign + arrows, AI chip + network nodes + person, cogs + chart + briefcase, lock + cloud + people, etc. Use {primary_color} for accents, black line work, subtle gray fills.
-   b. Number badge "01" "02" "03" "04" in top-right corner of the box (filled {primary_color} background, white text)
-   c. A BOLD black Japanese label (8-12 chars) below the illustration
-   d. A small Japanese sub-label (10-16 chars) under the bold label
-   e. Thin gray border around the box, with {primary_color} top accent stripe
-7. BOTTOM-RIGHT: "Source: {source}" badge with thin border
+DESIGN SPEC (follow precisely):
+- Pure white background (#FFFFFF)
+- Primary accent color: {primary_color}
+- Thin horizontal accent line across the very top (4px, in {primary_color})
+- Top-left: small SOLID PILL filled with {primary_color}, white bold text = the category label
+- Top-right: brand mark "Now on {brand_main}{brand_sub}" — "{brand_main}" in {primary_color} bold, "{brand_sub}" smaller gray
+- Center-upper: the TITLE in large bold black Japanese (use a large font size, wrap to max 2 lines)
+- Below title: the SUMMARY in a light gray rounded box, smaller black Japanese text
+- Lower half: FOUR cards in a horizontal row (or 2x2 grid), each card:
+   * thin light-gray border, a {primary_color} top accent line
+   * a number badge 01/02/03/04 in a corner ({primary_color} bg, white)
+   * a SIMPLE FLAT VECTOR-STYLE ICON drawn with PIL primitives (each card a DIFFERENT icon: shield, network nodes, bar chart, lock, gear, cloud, document, rocket, etc.) in {primary_color}
+   * the key point's Japanese text below the icon, bold black, wrapped
+- Bottom corners: tiny monospace footer marks (gray)
+- Style: refined Swiss / magazine editorial, generous whitespace, NO gradients, NO photos, only white/black/{primary_color}/gray
+- MUST find and use an installed Japanese-capable TTF font (search /System/Library/Fonts and /Library/Fonts; Hiragino, Noto, or similar). Render all Japanese crisply — no tofu/boxes.
 
-VISUAL STYLE:
-- Strictly limited palette: pure white background, black for type, {primary_color} as primary accent, light gray for secondary lines
-- Magazine editorial / Swiss design feel — refined, not amateurish
-- Generous whitespace
-- Each illustrated box must show a DIFFERENT visual scene (no duplicate icons)
-- Render Japanese characters PERFECTLY — no garbled text, no random shapes
-- Numbers, English words, percentages must render crisply
-- No gradients, no photorealism, no pastels, no dark backgrounds
-
-Output an image that looks like a high-end Japanese magazine infographic page."""
+After saving, verify the file exists and print ONLY the absolute file path. Do not ask questions. Do not stop for confirmation."""
 
 
-def _build_prompt(title, category, source, summary, keypoints):
+def _build_prompt(title, category, source, summary, keypoints, output_path):
     kp_text = "\n".join(f"   {i+1}. {k}" for i, k in enumerate(keypoints[:4]))
-    return SLIDE_PROMPT_TEMPLATE.format(
+    return PROMPT_TEMPLATE.format(
         title=title, category=category, source=source,
         summary=summary[:160], keypoints=kp_text,
         primary_color=PRIMARY_COLOR,
         brand=BRAND_NAME,
         brand_main=BRAND_NAME[:-1],
         brand_sub=BRAND_NAME[-1],
+        output_path=str(output_path),
     )
 
 
@@ -68,61 +65,45 @@ def generate_slide(
     output_path: Path,
     size: str = "1536x1024",
 ) -> bool:
-    """OpenAI gpt-image-2 で 1536x1024 の図解スライドを生成"""
-    from openai import OpenAI
-    client = OpenAI()
-    prompt = _build_prompt(title, category, source, summary, keypoints)
+    """Codex CLI 経由で 1536x1024 の図解PNGを生成（ChatGPT Plus課金・API課金ゼロ）"""
+    output_path = Path(output_path)
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    if output_path.exists():
+        output_path.unlink()
+
+    prompt = _build_prompt(title, category, source, summary, keypoints, output_path)
     try:
-        resp = client.images.generate(
-            model=IMAGE_MODEL,
-            prompt=prompt,
-            size="1536x1024",
-            quality=IMAGE_QUALITY,
-            n=1,
+        proc = subprocess.run(
+            [CODEX_BIN, "exec", "--skip-git-repo-check",
+             "--sandbox", "workspace-write", prompt],
+            cwd="/tmp",
+            capture_output=True, text=True, timeout=420,
         )
-        img_b64 = resp.data[0].b64_json
-        output_path.parent.mkdir(parents=True, exist_ok=True)
-        output_path.write_bytes(base64.b64decode(img_b64))
-        return True
+        if output_path.exists() and output_path.stat().st_size > 5000:
+            return True
+        print(f"  [codex] 画像未生成 rc={proc.returncode}\n{proc.stdout[-500:]}\n{proc.stderr[-300:]}")
+        return False
+    except subprocess.TimeoutExpired:
+        print("  [codex] タイムアウト(420s)")
+        return output_path.exists() and output_path.stat().st_size > 5000
     except Exception as e:
-        print(f"  [{IMAGE_MODEL}/{IMAGE_QUALITY}] error: {e}")
+        print(f"  [codex] error: {e}")
         return False
 
 
 if __name__ == "__main__":
-    # 3 quality レベル比較
-    import sys
-    sample = {
-        "title": "OpenAI、企業向けAI導入子会社「DeployCo」を立ち上げ──40億ドル調達",
-        "category": "業界動向",
-        "source": "OpenAI Blog",
-        "summary": "OpenAI傘下のDeployCo、企業向けAI導入コンサルを開始。40億ドル超調達、Palantir流現地駐在型展開。",
-        "keypoints": [
+    out = Path("/tmp/test_slide_codex.png")
+    ok = generate_slide(
+        title="OpenAI、企業向けAI導入子会社「DeployCo」を立ち上げ──40億ドル調達",
+        category="業界動向",
+        source="OpenAI Blog",
+        summary="OpenAI傘下のDeployCo、企業向けAI導入コンサルを開始。40億ドル超調達、Palantir流現地駐在型展開。",
+        keypoints=[
             "巨額投資で設立 TPG主導で40億ドル超調達",
             "現地駐在型導入 顧客データとAIを統合",
             "統合が競争力 ワークフロー設計で差別化",
             "戦略的フィードバック 現場知見をモデル開発へ",
         ],
-    }
-    for q in (sys.argv[1:] or ["low", "medium", "high"]):
-        os.environ["OPENAI_IMAGE_QUALITY"] = q
-        # 再import で IMAGE_QUALITY 更新
-        import importlib, sys as _sys
-        if "pipeline.slide_maker" in _sys.modules:
-            del _sys.modules["pipeline.slide_maker"]
-        out = Path(f"/tmp/test_slide_img2_{q}.png")
-        ok = generate_slide(
-            title=sample["title"], category=sample["category"],
-            source=sample["source"], summary=sample["summary"],
-            keypoints=sample["keypoints"], output_path=out,
-        )
-        # quality を強制適用するため re-call
-        from openai import OpenAI
-        client = OpenAI()
-        resp = client.images.generate(
-            model=IMAGE_MODEL,
-            prompt=_build_prompt(sample["title"], sample["category"], sample["source"], sample["summary"], sample["keypoints"]),
-            size="1536x1024", quality=q, n=1,
-        )
-        out.write_bytes(base64.b64decode(resp.data[0].b64_json))
-        print(f"  quality={q}: {out}")
+        output_path=out,
+    )
+    print(f"生成: {ok} → {out}")
