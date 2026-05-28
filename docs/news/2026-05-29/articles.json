@@ -1,331 +1,102 @@
 [
   {
-    "title": "Google、AI検索と新モデルを一斉発表",
-    "category": "新モデル発表",
-    "source": "Google AI Blog",
-    "lede": "GoogleはI/O 2026で、動画から作れるGemini Omniや、文字・画像・ファイルを横断する新検索を発表した。",
-    "keypoints": [
-      "Gemini Omniを発表",
-      "動画生成を会話で編集",
-      "検索が複数入力に対応",
-      "日常業務への実装が進む"
-    ],
-    "pull": "検索と生成AIが、同じ仕事画面に近づいている。",
-    "bizapp": {
-      "summary": "資料探しと動画作成の業務短縮に使える",
-      "actions": [
-        "Geminiで提案動画を試作",
-        "営業資料検索をAI化提案",
-        "検索体験の変化に備える"
-      ]
-    },
-    "links": [
-      "https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos/"
-    ],
-    "likes": 0,
-    "quickstart": {
-      "headline": "提案動画を10分試作",
-      "tool": {
-        "name": "Google AI Pro",
-        "url": "https://gemini.google.com",
-        "cost": "¥2,900/月"
-      },
-      "time": "30分",
-      "steps": [
-        "商品説明を1つ選ぶ",
-        "既存資料を添付する",
-        "30秒動画案を作る"
-      ],
-      "prompt": "あなたは{業種}の営業動画編集者です。{自社名}の{商品}を30秒で伝える構成、画面案、会話で直す指示文を作ってください。",
-      "roi": "提案動画の初稿作成を80%短縮"
-    }
-  },
-  {
-    "title": "Claude新版、作業エージェント機能を強化",
-    "category": "新モデル発表",
+    "title": "Anthropic、650億ドルの資金調達でトリリオン企業へ接近",
+    "category": "業界動向",
     "source": "The Decoder",
-    "lede": "AnthropicはClaude Opus 4.8を公開し、並列作業や回答努力の調整など、仕事向けAI機能を強めた。",
+    "lede": "Anthropicは650億ドルの資金調達を経て、評価額9650億ドルに達し、トリリオン企業へと近づいている。",
     "keypoints": [
-      "Opus 4.8を公開",
-      "並列サブエージェント対応",
-      "回答努力を調整可能",
-      "API価格は前世代と同じ"
+      "Anthropicが650億ドルを調達",
+      "評価額は9650億ドルに達する",
+      "AIモデルClaudeを強化する計画",
+      "年間収益は470億ドルを超える"
     ],
-    "pull": "AIは回答する道具から、複数作業を任せる同僚へ進む。",
+    "pull": "AI企業の資金調達が評価額に直接影響を与えている。",
     "bizapp": {
-      "summary": "調査・開発・文書作成の分担役に使える",
+      "summary": "AIモデルの資金調達を活用してビジネスを強化。",
       "actions": [
-        "Claudeで市場調査を分担",
-        "採用資料作成をAI化提案",
-        "競合AIの進化が速い"
+        "Claudeを利用した業務効率化を検討する",
+        "AIによるプロダクト開発を中小企業向けに提案",
+        "業界の最新動向を把握し競争力を維持"
       ]
     },
     "links": [
-      "https://the-decoder.com/anthropic-ships-claude-opus-4-8-as-a-modest-but-tangible-improvement-that-tops-gpt-5-5-in-most-benchmarks/"
+      "https://the-decoder.com/claude-company-anthropic-nears-a-trillion-dollar-valuation-after-raising-65-billion-in-series-h/"
     ],
-    "likes": 0,
-    "quickstart": {
-      "headline": "調査をAIに分担",
-      "tool": {
-        "name": "Claude Pro",
-        "url": "https://claude.ai",
-        "cost": "約¥3,000/月"
-      },
-      "time": "30分",
-      "steps": [
-        "調査テーマを決める",
-        "条件を3つ書く",
-        "Claudeへ貼る"
-      ],
-      "prompt": "あなたは{業種}専門の調査主任です。{自社名}の{課題}について、顧客・競合・施策を分担調査し、実行順に表でまとめてください。",
-      "roi": "市場調査の下調べを月8時間削減"
-    }
+    "likes": 0
   },
   {
-    "title": "Anthropic、巨額調達でIPO接近",
-    "category": "業界動向",
-    "source": "TechCrunch AI",
-    "lede": "Anthropicは650億ドルを調達し、評価額は9650億ドルに達した。Claude需要拡大に向け計算資源も増やす。",
-    "keypoints": [
-      "650億ドルを調達",
-      "評価額は9650億ドル",
-      "IPO前の調達の可能性",
-      "Claude需要拡大に投資"
-    ],
-    "pull": "生成AIは研究競争から、資本力の競争に移っている。",
-    "bizapp": {
-      "summary": "主要AI企業の勢力図を読む材料になる",
-      "actions": [
-        "Claude活用計画を再点検",
-        "AI導入先選定を支援",
-        "資本集中が競争を左右"
-      ]
-    },
-    "links": [
-      "https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo"
-    ],
-    "likes": 0,
-    "quickstart": {
-      "headline": "AI契約を見直す",
-      "tool": {
-        "name": "Claude Pro",
-        "url": "https://claude.ai",
-        "cost": "約¥3,000/月"
-      },
-      "time": "30分",
-      "steps": [
-        "AI利用一覧を集める",
-        "業務別効果を書く",
-        "継続可否を判定する"
-      ],
-      "prompt": "あなたは{自社名}のAI導入顧問です。{業種}で使う{AIツール一覧}を、重要度・代替可否・費用対効果で棚卸ししてください。",
-      "roi": "不要なAI支出を月1万円削減"
-    }
-  },
-  {
-    "title": "AI安全規制、企業対応が本格化",
-    "category": "業界動向",
-    "source": "OpenAI Blog / Ars Technica AI",
-    "lede": "OpenAIは安全管理の枠組みを公表し、米イリノイ州でも先端AIの安全計画提出を求める法案が進んだ。",
-    "keypoints": [
-      "OpenAIが枠組み公表",
-      "EUと加州規制に対応",
-      "イリノイ州法案も進展",
-      "安全試験の報告を重視"
-    ],
-    "pull": "AI活用は性能だけでなく、説明責任も競争条件になる。",
-    "bizapp": {
-      "summary": "AI導入時のリスク説明と社内規程に使える",
-      "actions": [
-        "Claude利用ルールを整備",
-        "中小企業DXに監査提案",
-        "規制対応が取引条件化"
-      ]
-    },
-    "links": [
-      "https://openai.com/index/openai-frontier-governance-framework",
-      "https://arstechnica.com/tech-policy/2026/05/trump-loses-more-control-over-ai-regulation-as-illinois-passes-landmark-law/"
-    ],
-    "likes": 0,
-    "quickstart": {
-      "headline": "AI利用規程を作る",
-      "tool": {
-        "name": "ChatGPT Plus",
-        "url": "https://chatgpt.com",
-        "cost": "約¥3,000/月"
-      },
-      "time": "30分",
-      "steps": [
-        "利用中AIを書き出す",
-        "禁止事項を決める",
-        "社内ルールを作る"
-      ],
-      "prompt": "あなたは中小企業のAI統制担当です。{自社名}が{業種}で{利用AI}を使う際の禁止事項、承認手順、記録方法を1ページ規程にしてください。",
-      "roi": "取引先への説明準備を半日短縮"
-    }
-  },
-  {
-    "title": "Google、AIで脆弱性を自動修正へ",
+    "title": "MetaがAIアプリを月額制で提供開始",
     "category": "ツール更新",
     "source": "The Decoder",
-    "lede": "Google Cloudは、AI攻撃の高速化に対抗し、脆弱性の発見から修正までを自動化する基盤を発表した。",
+    "lede": "MetaはInstagramやFacebook、WhatsApp向けにAI機能を含む有料プランを発表し、広告収益依存から脱却を目指す。",
     "keypoints": [
-      "AI Threat Defense発表",
-      "脆弱性を自動で発見",
-      "修正コードも生成",
-      "手作業の警告対応を減らす"
+      "Instagram PlusとFacebook Plusを発表",
+      "AIに基づく新たな課金モデルの導入",
+      "収益モデルを広告からサブスクリプションへシフト",
+      "クリエイター向けプランの展開も予定"
     ],
-    "pull": "サイバー防御も、人の確認待ちから自動修正へ進む。",
+    "pull": "AI機能を通じた収益化戦略が加速している。",
     "bizapp": {
-      "summary": "開発とセキュリティ運用の省力化に使える",
+      "summary": "サブスクリプションモデルで顧客獲得を強化。",
       "actions": [
-        "Codexで修正案を検証",
-        "情シス向け自動防御提案",
-        "AI攻撃の速度に備える"
+        "AI機能を活用したマーケティング戦略を実施",
+        "プラットフォームの特性を生かしたサービスを開発",
+        "サブスクリプションの動向を市場で把握"
       ]
     },
     "links": [
-      "https://the-decoder.com/google-cloud-responds-to-ai-accelerated-cyberattacks-with-a-platform-that-aims-to-close-security-gaps-in-minutes/"
+      "https://the-decoder.com/meta-one-zuckerberg-finally-puts-a-price-tag-on-all-that-ai-spending/"
     ],
-    "likes": 0,
-    "quickstart": {
-      "headline": "脆弱性をAI確認",
-      "tool": {
-        "name": "Cursor Pro",
-        "url": "https://cursor.com",
-        "cost": "約¥3,000/月"
-      },
-      "time": "1時間",
-      "steps": [
-        "対象コードを開く",
-        "警告内容を貼る",
-        "修正案をテストする"
-      ],
-      "prompt": "あなたは{自社名}のセキュリティ担当です。{対象システム}の脆弱性{警告内容}を読み、原因、修正コード、確認テストを示してください。",
-      "roi": "修正調査を1件あたり2時間削減"
-    }
+    "likes": 0
   },
   {
-    "title": "ネット基盤、AIエージェント向けに再設計",
-    "category": "業界動向",
-    "source": "TechCrunch AI",
-    "lede": "AWSなどは、AIエージェントが大量処理を一気に行う時代に向け、検索・データ基盤を作り直している。",
+    "title": "Amazon、自社AI制作プラットフォームを構築",
+    "category": "新モデル発表",
+    "source": "The Decoder",
+    "lede": "AmazonがAIを活用した映画制作プラットフォームを発表し、制作時間を大幅短縮することを目指す。",
     "keypoints": [
-      "AWSが新基盤を発表",
-      "AI作業量に即時対応",
-      "未使用時はゼロへ縮小",
-      "機械アクセスが増加"
+      "新しいAI制作プラットフォーム「Project Nara」を導入",
+      "AI制作基金で制作時間を短縮",
+      "３つのアニメシリーズが進行中",
+      "フィルム製作のプロセスをAIで改善"
     ],
-    "pull": "これからのネットは、人間のクリックだけを前提にできない。",
+    "pull": "制作の効率化が新たな映像制作の形を生み出す。",
     "bizapp": {
-      "summary": "社内AI基盤の負荷設計を見直す機会になる",
+      "summary": "AIを活用して制作プロセスを革新可能。",
       "actions": [
-        "Codex運用の負荷を測定",
-        "営業DB検索AIを提案",
-        "AI利用増で基盤費が変動"
+        "制作にAIを導入してコスト削減を図る",
+        "クリエイターへAIツールの提供を推進",
+        "制作効率化のトレンドを業界に提案"
       ]
     },
     "links": [
-      "https://techcrunch.com/2026/05/28/the-internet-is-being-rebuilt-for-machines/"
+      "https://the-decoder.com/amazon-builds-its-own-ai-production-platform-and-greenlights-three-ai-animated-series-for-prime-video/"
     ],
-    "likes": 0,
-    "quickstart": {
-      "headline": "AI作業量を測る",
-      "tool": {
-        "name": "ChatGPT Plus",
-        "url": "https://chatgpt.com",
-        "cost": "約¥3,000/月"
-      },
-      "time": "30分",
-      "steps": [
-        "AI作業を列挙する",
-        "回数と時間を記録する",
-        "月額上限を決める"
-      ],
-      "prompt": "あなたは{自社名}のクラウド費用担当です。{業種}のAIエージェント利用で増える検索・DB・API負荷を洗い出し、月額上限案を作ってください。",
-      "roi": "AI利用増による想定外費用を予防"
-    }
+    "likes": 0
   },
   {
-    "title": "Asana、AI業務自動化企業を買収",
-    "category": "業界動向",
-    "source": "TechCrunch AI",
-    "lede": "AsanaはStackAIを7500万ドルで買収し、人とAIエージェントが働く職場基盤づくりを進める。",
-    "keypoints": [
-      "StackAIを買収",
-      "買収額は7500万ドル",
-      "既存業務システムと連携",
-      "AI職場基盤を狙う"
-    ],
-    "pull": "業務管理ツールは、AIに仕事を渡す入口になりつつある。",
-    "bizapp": {
-      "summary": "定型業務のAI自動化提案に使える",
-      "actions": [
-        "Asanaで進捗報告を自動化",
-        "バックオフィス自動化提案",
-        "既存業務連携が差になる"
-      ]
-    },
-    "links": [
-      "https://techcrunch.com/2026/05/28/asana-acquires-no-code-agent-builder-stack-ai/"
-    ],
-    "likes": 0,
-    "quickstart": {
-      "headline": "進捗報告を自動化",
-      "tool": {
-        "name": "Asana",
-        "url": "https://asana.com",
-        "cost": "無料〜約¥1,500/月/人"
-      },
-      "time": "30分",
-      "steps": [
-        "定型業務を選ぶ",
-        "担当と期限を入れる",
-        "報告文生成を試す"
-      ],
-      "prompt": "あなたは{自社名}の業務設計者です。{業種}の定型業務{業務名}を、人とAIで分担するAsanaタスク手順に分解してください。",
-      "roi": "進捗確認と報告作成を週2時間削減"
-    }
-  },
-  {
-    "title": "Virgin、Codexでアプリ刷新を加速",
+    "title": "ElevenLabs、新AIモデルで音楽生成を進化",
     "category": "ツール更新",
-    "source": "OpenAI Blog",
-    "lede": "Virgin AtlanticはCodexを使い、モバイルアプリ刷新でテスト強化や古いコードの整理を進めた。",
+    "source": "The Decoder",
+    "lede": "ElevenLabsが音楽生成モデル「Music v2」を発表し、さまざまなジャンルの音楽を自然に生成可能に。",
     "keypoints": [
-      "Codexで開発を高速化",
-      "単体テストを大幅強化",
-      "重大欠陥ゼロで公開",
-      "古いコード整理も短縮"
+      "新モデルが音楽のジャンルを自在に変更",
+      "特定の楽曲部分を再生成する機能追加",
+      "マルチリンガル対応が強化",
+      "APIでの利用料金は分単位で提供"
     ],
-    "pull": "AIコーディングは、速さだけでなく品質管理にも効く。",
+    "pull": "音楽制作におけるAIの導入が新たな可能性を開く。",
     "bizapp": {
-      "summary": "既存システム改修と品質向上に使える",
+      "summary": "AI音楽生成を活用してクリエイティブ業界をサポート。",
       "actions": [
-        "Codexでテスト作成を支援",
-        "レガシー改修を提案",
-        "開発納期の圧縮に直結"
+        "マーケティングにおける音源生成に利用",
+        "ブランドのイメージ向上に向けて活用を提案",
+        "AI音楽生成の可能性を業界に広める"
       ]
     },
     "links": [
-      "https://openai.com/index/virgin-atlantic"
+      "https://the-decoder.com/elevenlabs-music-v2-promises-opera-to-metal-transitions-without-losing-musical-coherence/"
     ],
-    "likes": 0,
-    "quickstart": {
-      "headline": "古いコードを整理",
-      "tool": {
-        "name": "OpenAI Codex",
-        "url": "https://openai.com/codex/",
-        "cost": "約¥3,000/月〜"
-      },
-      "time": "1時間",
-      "steps": [
-        "古い機能を1つ選ぶ",
-        "テスト不足を探す",
-        "改修順を作る"
-      ],
-      "prompt": "あなたは{自社名}の品質担当エンジニアです。{機能名}の既存コードを読み、単体テスト案、危険な変更点、リファクタ順を出してください。",
-      "roi": "改修前調査とテスト作成を50%短縮"
-    }
+    "likes": 0
   }
 ]
