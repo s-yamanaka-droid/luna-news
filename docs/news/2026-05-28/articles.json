@@ -1,0 +1,203 @@
+[
+  {
+    "title": "シスコ、Codexで開発工程を刷新",
+    "category": "ツール更新",
+    "source": "OpenAI Blog",
+    "lede": "CiscoはCodexを本番開発に組み込み、新AI機能の95％超をCodexで作成した。",
+    "keypoints": [
+      "新AI機能の95％超を作成",
+      "欠陥対応は10〜15倍に",
+      "月1500時間超を削減",
+      "AI Defense開発も短縮"
+    ],
+    "pull": "AIは補助ツールから企業開発の同僚へ進んでいる。",
+    "bizapp": {
+      "summary": "大規模開発の速度と品質改善に使える。",
+      "actions": [
+        "Codexを不具合修正に試す",
+        "開発部門のAI導入を提案",
+        "競合の開発速度が上がる"
+      ]
+    },
+    "links": [
+      "https://openai.com/index/cisco"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Devin開発元、評価額260億ドル超に",
+    "category": "業界動向",
+    "source": "The Decoder",
+    "lede": "AIソフト開発者DevinのCognitionが10億ドル超を調達し、評価額は260億ドル超となった。",
+    "keypoints": [
+      "評価額は260億ドル超",
+      "年換算収益は4.92億ドル",
+      "企業利用は今年10倍",
+      "自社コードの89％を作成"
+    ],
+    "pull": "AIコーディングエージェントへの投資熱はなお強い。",
+    "bizapp": {
+      "summary": "開発外注や内製化の前提が変わる。",
+      "actions": [
+        "Devinの開発補助を検証",
+        "中小企業の開発内製を提案",
+        "投資と実用の差に注目"
+      ]
+    },
+    "links": [
+      "https://the-decoder.com/ai-coding-agent-devin-maker-cognition-more-than-doubles-its-valuation-to-26-billion-in-under-nine-months/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AIエージェントが株売買を実行へ",
+    "category": "業界動向",
+    "source": "The Decoder",
+    "lede": "RobinhoodはClaudeやCursorなどのAIエージェントを投資口座に接続できる機能を導入した。",
+    "keypoints": [
+      "AIが株の売買を実行",
+      "MCPで外部サービス接続",
+      "現在は株取引のみ対応",
+      "取引責任は利用者にある"
+    ],
+    "pull": "AIに任せる範囲が、助言から実行へ広がる。",
+    "bizapp": {
+      "summary": "金融業務の自動化と責任設計が焦点になる。",
+      "actions": [
+        "Claude連携の承認範囲を確認",
+        "営業で金融DXリスクを提案",
+        "誤操作リスクが現実化する"
+      ]
+    },
+    "links": [
+      "https://the-decoder.com/robinhood-lets-ai-agents-trade-shares-and-make-credit-card-purchases-for-customers/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Snowflake、AWSと60億ドル契約",
+    "category": "業界動向",
+    "source": "TechCrunch AI",
+    "lede": "SnowflakeはAI利用拡大を背景に、AWSと5年60億ドルの契約を結んだ。",
+    "keypoints": [
+      "契約額は60億ドル",
+      "期間は5年間",
+      "Cortex AI利用が背景",
+      "Gravitonへのアクセス拡大"
+    ],
+    "pull": "AI活用はGPUだけでなくCPU需要も押し上げている。",
+    "bizapp": {
+      "summary": "社内データ活用のAI基盤選びに関係する。",
+      "actions": [
+        "Cortex AIで検索業務を試す",
+        "データ基盤刷新を提案",
+        "AI運用コストが増える"
+      ]
+    },
+    "links": [
+      "https://techcrunch.com/2026/05/27/in-more-good-news-for-amazon-snowflake-signs-6b-deal-with-aws-for-ai-cpu-chips/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "YouTube、AI動画の自動表示を開始",
+    "category": "業界動向",
+    "source": "The Decoder / Ars Technica AI",
+    "lede": "YouTubeはAI生成や大幅加工された動画の表示を目立たせ、自動検出も始める。",
+    "keypoints": [
+      "AIラベルを目立つ位置へ",
+      "自動検出を順次導入",
+      "異議申し立ても可能",
+      "収益化には影響しない"
+    ],
+    "pull": "AI動画は隠すより、明示する運用へ向かう。",
+    "bizapp": {
+      "summary": "広告・広報動画の表示ルール確認に使える。",
+      "actions": [
+        "AI動画の申告手順を整備",
+        "採用動画の透明性を提案",
+        "ブランド信頼に直結する"
+      ]
+    },
+    "links": [
+      "https://the-decoder.com/youtube-will-try-to-automatically-flag-ai-videos-starting-this-month/",
+      "https://arstechnica.com/google/2026/05/youtube-to-begin-automatically-labeling-ai-videos/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Remote、AI導入で社員当たり収益5割増",
+    "category": "業界動向",
+    "source": "TechCrunch AI",
+    "lede": "Remoteは全社的なAI導入により、人員を増やさず社員当たり収益を50％高めたという。",
+    "keypoints": [
+      "ARRは3億ドル超",
+      "キャッシュフロー黒字化",
+      "社員当たり収益が50％増",
+      "社内マーケットを構築"
+    ],
+    "pull": "AI活用は一部門ではなく全社の生産性課題になった。",
+    "bizapp": {
+      "summary": "人員を増やさず売上効率を上げる参考になる。",
+      "actions": [
+        "ClaudeでSlack要約を試す",
+        "バックオフィス自動化を提案",
+        "全社導入で差が出る"
+      ]
+    },
+    "links": [
+      "https://techcrunch.com/2026/05/27/payroll-startup-remote-says-it-grew-revenue-50-per-employee-without-adding-headcount/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "企業ITのAI、最先端でも正答5割未満",
+    "category": "研究",
+    "source": "Hugging Face Blog",
+    "lede": "IBMとArtificial AnalysisのITBench-AAで、企業IT作業は最先端モデルでも50％未満にとどまった。",
+    "keypoints": [
+      "SRE作業を評価",
+      "最上位は47％",
+      "GPT-5.5は46％",
+      "根本原因の特定を測る"
+    ],
+    "pull": "企業ITの現場では、AI任せにできない領域がまだ大きい。",
+    "bizapp": {
+      "summary": "IT運用AIの導入判断に使える。",
+      "actions": [
+        "Codex活用は人の確認前提",
+        "運用監視AIの限界を提案",
+        "過信による障害リスクがある"
+      ]
+    },
+    "links": [
+      "https://huggingface.co/blog/ibm-research/itbench-aa"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Codexで税務AIが自ら改善",
+    "category": "ツール更新",
+    "source": "OpenAI Blog",
+    "lede": "OpenAIとThriveはCreteの会計士向けに、利用結果を改善につなげるTax AIを開発した。",
+    "keypoints": [
+      "30超の会計事務所で活用",
+      "複雑な税務申告を支援",
+      "本番利用を改善信号に",
+      "Codexで自律改善を促進"
+    ],
+    "pull": "現場の失敗を学習材料に変えるAI業務化が進む。",
+    "bizapp": {
+      "summary": "専門業務の品質改善サイクルに使える。",
+      "actions": [
+        "Codexで税務手順を検証",
+        "士業向け業務AIを提案",
+        "現場知識のAI化が進む"
+      ]
+    },
+    "links": [
+      "https://openai.com/index/building-self-improving-tax-agents-with-codex"
+    ],
+    "likes": 0
+  }
+]
