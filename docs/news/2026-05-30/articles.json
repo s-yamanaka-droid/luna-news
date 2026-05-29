@@ -22,7 +22,30 @@
     "links": [
       "https://techcrunch.com/2026/05/29/coders-are-refusing-to-work-without-ai-and-that-could-come-back-to-bite-them/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI生成コードの品質を守る",
+      "tool": {
+        "name": "Cursor",
+        "url": "https://cursor.com",
+        "cost": "¥3,200/月"
+      },
+      "time": "30分",
+      "steps": [
+        "Cursorを導入し既存コードを読み込む",
+        "AI生成コードを必ずdiffで目視確認する",
+        "テスト生成もAIに依頼し品質を担保する"
+      ],
+      "prompt": "あなたは{業種}専門のシニアエンジニアです。以下のコードをレビューし、①バグの有無②セキュリティリスク③改善案を箇条書きで指摘してください。社名は{自社名}、用途は{用途}です。\n\nコード:\n{レビュー対象コード}",
+      "roi": "コードレビュー工数を50%削減＝月5時間相当"
+    },
+    "icebreak": {
+      "hook": "AIでコード書くの速くなったけど、直す時間も増えてるらしいですよ",
+      "punchline": "自己申告では生産性2倍なのに、実測だと怪しいって話で。速さと品質、どっちを取るか問われてますね",
+      "ctx_meeting": "開発体制の見直し提案時に",
+      "ctx_chat": "エンジニアとのランチで",
+      "share_text": "AIコーディング、書く速度は確かに上がった。でも「直す時間」も増えてない？ 自己申告の生産性2倍と実態のギャップ、そろそろ正直に向き合う時期かも"
+    }
   },
   {
     "title": "小型AIエージェント「MagenticLite」発表、ローカル実行可能に",
@@ -47,7 +70,30 @@
     "links": [
       "https://www.microsoft.com/en-us/research/blog/magenticlite-magenticbrain-fara1-5-an-agentic-experience-optimized-for-small-models/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "PC上で定型業務を自動化",
+      "tool": {
+        "name": "Claude Pro",
+        "url": "https://claude.ai",
+        "cost": "¥3,200/月"
+      },
+      "time": "30分",
+      "steps": [
+        "毎日繰り返す作業を3つ書き出す",
+        "Claudeに手順書を作らせ自動化案を出す",
+        "最も簡単な1つからスクリプト化を試す"
+      ],
+      "prompt": "あなたは{業種}の業務改善コンサルタントです。{自社名}で毎日行っている以下の定型作業を分析し、①自動化の優先順位②具体的な自動化手順③必要なツールを提案してください。作業者はITに詳しくない社員です。\n\n定型作業:\n{作業リスト}",
+      "roi": "定型作業を月15時間削減＝5万円相当"
+    },
+    "icebreak": {
+      "hook": "MicrosoftがローカルPCで動くAIエージェント出したの知ってます？",
+      "punchline": "クラウドに送らず手元で完結するので、機密データを扱う業務でも使いやすくなりますね",
+      "ctx_meeting": "情報セキュリティが厳しい顧客への提案で",
+      "ctx_chat": "社内のPC環境の話題が出た時に",
+      "share_text": "AIエージェントがローカルPCで動く時代に。MicrosoftのMagenticLite、データを外に出さず手元で処理できるのが肝。セキュリティ重視の現場ほど刺さりそう"
+    }
   },
   {
     "title": "デザインセンスを持つ画像生成AI「Recraft V4」登場",
@@ -72,7 +118,30 @@
     "links": [
       "https://replicate.com/blog/recraft-v4"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "広告バナーを5分で作成",
+      "tool": {
+        "name": "Recraft",
+        "url": "https://www.recraft.ai",
+        "cost": "無料〜$20/月"
+      },
+      "time": "10分",
+      "steps": [
+        "Recraftに無料登録しプロジェクト作成",
+        "商品写真やロゴを参考にバナーを生成",
+        "SVGで出力し自社サイトやSNSに設置"
+      ],
+      "prompt": "あなたは{業種}専門のグラフィックデザイナーです。{自社名}の{商品・サービス名}を宣伝するSNS投稿用バナーの指示文を作成してください。ターゲットは{ターゲット層}、トーンは{雰囲気}、必須テキストは{キャッチコピー}です。画像生成AIへの英語プロンプトも併記してください。",
+      "roi": "デザイン外注費を月2〜5万円削減"
+    },
+    "icebreak": {
+      "hook": "画像生成AIに「デザインセンス」が搭載されたらしいですよ",
+      "punchline": "構図や照明まで意図的に組み立てるので、アートディレクターがいなくても整った画像が出るんです",
+      "ctx_meeting": "クリエイティブ制作コスト削減の話で",
+      "ctx_chat": "デザイナーとの雑談で",
+      "share_text": "Recraft V4、構図・照明・色をAIが自分で「設計」して画像を作る。SVGでも出せるのが実務的。プロンプトを投げるだけでアートディレクションされた絵が出る世界、もう来てる"
+    }
   },
   {
     "title": "NVIDIAがケルト語対応LLM開発、地域サービスに貢献",
@@ -97,7 +166,30 @@
     "links": [
       "https://blogs.nvidia.com/blog/uk-llm-nemotron/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "多言語の顧客対応を整備",
+      "tool": {
+        "name": "ChatGPT Plus",
+        "url": "https://chat.openai.com",
+        "cost": "¥3,000/月"
+      },
+      "time": "30分",
+      "steps": [
+        "外国人顧客からの問合せ文面を収集する",
+        "ChatGPTで多言語FAQ・返信テンプレを作成",
+        "頻出パターンをコピペ集として社内共有"
+      ],
+      "prompt": "あなたは{業種}に精通した多言語カスタマーサポート担当です。{自社名}の{サービス内容}について、外国人顧客からよくある問合せトップ5を想定し、日本語・英語・中国語の3言語で回答テンプレートを作成してください。敬語レベルは丁寧、各回答は100字以内にしてください。",
+      "roi": "多言語対応の外注・翻訳費を月2万円削減"
+    },
+    "icebreak": {
+      "hook": "NVIDIAがウェールズ語対応のAI作ってるの知ってます？",
+      "punchline": "少数言語でも医療や行政でAIが使えるようにする動きで、日本の方言対応にもヒントになりそうです",
+      "ctx_meeting": "多言語対応や地方DXの文脈で",
+      "ctx_chat": "海外ニュースの話題で",
+      "share_text": "NVIDIAがケルト語対応のAIモデルを開発中。話者が少ない言語でも医療・教育で使えるようにする取り組み。言語の壁をAIが壊すって、こういう地道な話なんだな"
+    }
   },
   {
     "title": "Anthropic、金融特化型AIエージェントをClaudeに導入",
@@ -122,7 +214,30 @@
     "links": [
       "https://www.theregister.com/software/2026/05/05/anthropic-unleashes-finance-agents-for-claude/5225868"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "財務分析レポートを自動作成",
+      "tool": {
+        "name": "Claude Pro",
+        "url": "https://claude.ai",
+        "cost": "¥3,200/月"
+      },
+      "time": "10分",
+      "steps": [
+        "直近3ヶ月の売上・経費データを用意する",
+        "Claudeに数値を貼り付け分析を依頼する",
+        "生成されたレポートを月次会議資料に転用"
+      ],
+      "prompt": "あなたは{業種}専門の財務アドバイザーです。{自社名}の以下の月次データを分析し、①収益トレンド②コスト削減ポイント③来月の注意点を経営者向けに簡潔にまとめてください。専門用語は避け、具体的なアクションを含めてください。\n\n月次データ:\n{売上・経費データ}",
+      "roi": "月次レポート作成を3時間→15分に短縮"
+    },
+    "icebreak": {
+      "hook": "Anthropicが金融特化のAIエージェント出したの聞きました？",
+      "punchline": "テンプレートとして公開されてるので、金融業務の自動化がかなり手軽に始められるようになってます",
+      "ctx_meeting": "金融業界向けAI導入提案の冒頭で",
+      "ctx_chat": "フィンテック系の話題で",
+      "share_text": "AnthropicがClaude向けに金融特化エージェントのテンプレを公開。スキルとコネクタを組み合わせる構成で、金融業務の自動化がぐっと身近になった感がある"
+    }
   },
   {
     "title": "Google DeepMind、マルチモーダルAI「Gemini Omni」発表",
@@ -147,7 +262,30 @@
     "links": [
       "https://deepmind.google/blog/introducing-gemini-omni/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "動画プロモを自力で制作",
+      "tool": {
+        "name": "Google Flow（Gemini）",
+        "url": "https://gemini.google.com",
+        "cost": "無料〜¥2,900/月"
+      },
+      "time": "半日",
+      "steps": [
+        "商品写真と伝えたい要点を3つ用意する",
+        "Geminiで動画の構成案とナレーション生成",
+        "生成された動画をSNSやLPに掲載する"
+      ],
+      "prompt": "あなたは{業種}専門の動画マーケターです。{自社名}の{商品・サービス名}を紹介する30秒のSNS動画の構成を作成してください。ターゲットは{ターゲット層}、訴求ポイントは{強み3つ}です。①シーン割り②各シーンのテロップ文③ナレーション原稿を出力してください。",
+      "roi": "動画制作の外注費10〜30万円を自社内で代替"
+    },
+    "icebreak": {
+      "hook": "Googleが動画も画像も音声もまとめて扱えるAI出しましたね",
+      "punchline": "動画を言葉で編集できるので、映像制作のハードルが一気に下がりそうです",
+      "ctx_meeting": "動画マーケティングの提案時に",
+      "ctx_chat": "YouTube好きな人との会話で",
+      "share_text": "Google DeepMindのGemini Omni、動画を自然言語で編集できるのがすごい。「ここの照明を明るくして」で映像が変わる世界。YouTube Shortsにも展開されるらしく、動画制作の民主化が加速しそう"
+    }
   },
   {
     "title": "AI時代のデジタル本人確認、プライバシー保護技術「Vega」",
@@ -172,6 +310,29 @@
     "links": [
       "https://www.microsoft.com/en-us/research/blog/vega-zero-knowledge-proofs-for-digital-identity-in-the-age-of-ai/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "本人確認の安全性を見直す",
+      "tool": {
+        "name": "Claude Pro",
+        "url": "https://claude.ai",
+        "cost": "¥3,200/月"
+      },
+      "time": "30分",
+      "steps": [
+        "自社の本人確認フローを書き出す",
+        "Claudeに個人情報の過剰取得を診断させる",
+        "必要最小限の確認項目に絞り込み改善する"
+      ],
+      "prompt": "あなたはプライバシー保護の専門家です。{業種}の{自社名}が顧客登録時に取得している以下の個人情報を診断してください。①法的に不要な項目②漏洩時のリスクが高い項目③最小限に絞った推奨フォーム案を提示してください。業界は{業種}、顧客数は約{顧客数}名です。\n\n現在の取得項目:\n{取得項目リスト}",
+      "roi": "個人情報漏洩リスク低減＋顧客離脱率改善"
+    },
+    "icebreak": {
+      "hook": "身分証明書の必要な部分だけ見せる技術、Microsoftが出しましたよ",
+      "punchline": "年齢確認で住所まで見せなくて済むんです。ゼロ知識証明が0.1秒で動くので実用レベルですね",
+      "ctx_meeting": "本人確認やKYCの話題で",
+      "ctx_chat": "個人情報の出し過ぎが気になる場面で",
+      "share_text": "Microsoftの「Vega」、身分証から必要な項目だけ相手に証明できる技術。年齢確認で住所まで晒す必要がなくなる。ゼロ知識証明が100ミリ秒未満で動くって、ようやく実用段階だ"
+    }
   }
 ]

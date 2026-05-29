@@ -147,16 +147,38 @@ def generate_articles(raw_articles: list[dict]) -> list[dict]:
         )
     digest = "\n\n---\n\n".join(blocks)
 
-    log.info("   [Stage2] 記事生成（Gemini Flash）")
+    log.info("   [Stage2] 記事生成（Gemini Flash・JSON mode）")
     resp = model.generate_content(
         f"{SYSTEM}\n\n今日のAI関連記事:\n\n{digest}",
         generation_config=genai.GenerationConfig(
-            max_output_tokens=6000,
+            max_output_tokens=8000,
             temperature=0.3,
+            response_mime_type="application/json",
         ),
     )
-    text = resp.text
-    return json.loads(extract_json(text, "array"))
+    text = (resp.text or "").strip()
+    if not text:
+        log.error(f"   [Stage2] 空応答 finish={resp.candidates[0].finish_reason if resp.candidates else 'N/A'}")
+        raise RuntimeError("Stage2: Gemini returned empty response")
+    # 1回目試行
+    try:
+        return json.loads(extract_json(text, "array"))
+    except json.JSONDecodeError as e:
+        log.warning(f"   [Stage2] JSON parse error: {e} → 末尾切り詰めて再試行")
+        # 末尾が壊れてる可能性。最後の完全な } まで切り詰めて閉じる
+        last_close = text.rfind("}")
+        if last_close > 0:
+            patched = text[:last_close+1] + "]"
+            try:
+                return json.loads(extract_json(patched, "array"))
+            except Exception as e2:
+                log.error(f"   [Stage2] 再試行も失敗: {e2}")
+        # それでもダメなら raw を保存して例外
+        from pathlib import Path
+        dbg = Path("/tmp/stage2_raw.txt")
+        dbg.write_text(text, encoding="utf-8")
+        log.error(f"   [Stage2] raw 応答を {dbg} に保存")
+        raise
 
 
 if __name__ == "__main__":
