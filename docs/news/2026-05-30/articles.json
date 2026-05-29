@@ -1,0 +1,177 @@
+[
+  {
+    "title": "AIコーディング依存に警鐘、生産性向上も品質低下リスク",
+    "category": "業界動向",
+    "source": "TechCrunch AI",
+    "lede": "開発者の多くがAIコーディングツールなしでは作業を拒否する一方、AIがコード生成を高速化しても品質低下やエラー修正に時間を要するリスクが指摘されています。",
+    "keypoints": [
+      "開発者の多くがAIなしでのコーディングを拒否",
+      "AIはコード生成を高速化するが品質は未保証",
+      "エラー修正やAI制御に余計な時間がかかる場合も",
+      "自己申告では生産性2倍も実態は不明瞭"
+    ],
+    "pull": "「AIはコード生成を高速化するが、品質は必ずしも向上しない。将来的に問題を引き起こす可能性がある。」",
+    "bizapp": {
+      "summary": "AIコーディングツールの導入は慎重に、品質と効率のバランスが重要。",
+      "actions": [
+        "社内活用例：Cursor導入時はAI生成コードの品質チェック体制を強化",
+        "他社提案例：開発効率化提案時にAIのメリット・デメリットを両面提示",
+        "注目理由：AIツール導入時のリスク管理と効果測定の重要性が高まる"
+      ]
+    },
+    "links": [
+      "https://techcrunch.com/2026/05/29/coders-are-refusing-to-work-without-ai-and-that-could-come-back-to-bite-them/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "小型AIエージェント「MagenticLite」発表、ローカル実行可能に",
+    "category": "ツール更新",
+    "source": "Microsoft Research Blog",
+    "lede": "Microsoft Researchが、ブラウザとローカルファイルシステムで動作し、小型モデルに最適化されたAIエージェントシステム「MagenticLite」を発表しました。",
+    "keypoints": [
+      "ブラウザとローカルで動くAIエージェントシステム",
+      "小型モデルに最適化され効率的に動作",
+      "MagenticBrainとFara1.5が推論とPC操作を担う",
+      "ユーザーデバイス上でデータ処理、プライバシー保護"
+    ],
+    "pull": "「エージェントの能力は知識だけでなく、ツール連携と行動に依存する。小型モデルでも高い能力を発揮できる。」",
+    "bizapp": {
+      "summary": "小型AIエージェントで業務自動化を推進、データプライバシーも確保。",
+      "actions": [
+        "社内活用例：MagenticLiteでPC上の定型業務を自動化し効率向上",
+        "他社提案例：中小企業向けに低コストでセキュアな業務自動化を提案",
+        "注目理由：データが外部に出ないため、セキュリティ重視の企業に最適"
+      ]
+    },
+    "links": [
+      "https://www.microsoft.com/en-us/research/blog/magenticlite-magenticbrain-fara1-5-an-agentic-experience-optimized-for-small-models/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "デザインセンスを持つ画像生成AI「Recraft V4」登場",
+    "category": "ツール更新",
+    "source": "Replicate Blog",
+    "lede": "新しい画像生成モデル「Recraft V4」は、構図や色、照明に意図的な「デザインセンス」を持ち、高品質なアートディレクションされた画像を生成します。",
+    "keypoints": [
+      "構図、照明、色に「デザインセンス」を持つAI",
+      "アートディレクションされた高品質な画像を生成",
+      "複雑なタイポグラフィや詳細な素材表現も可能",
+      "ラスタ形式と編集可能なSVG形式で出力可能"
+    ],
+    "pull": "「Recraft V4は、単なる画像生成を超え、意図的なデザインセンスでアートディレクションされたビジュアルを生み出す。」",
+    "bizapp": {
+      "summary": "マーケティング素材やコンテンツ制作の質と速度を飛躍的に向上させる。",
+      "actions": [
+        "社内活用例：マーケティング部で広告バナーやSNS投稿画像を高速生成",
+        "他社提案例：デザインリソースが不足する中小企業へ高品質コンテンツ制作を提案",
+        "注目理由：デザイン品質がAIで担保され、クリエイティブ業務の効率が劇的に変わる"
+      ]
+    },
+    "links": [
+      "https://replicate.com/blog/recraft-v4"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "NVIDIAがケルト語対応LLM開発、地域サービスに貢献",
+    "category": "新モデル発表",
+    "source": "NVIDIA AI Blog",
+    "lede": "英国の「UK-LLM」プロジェクトがNVIDIA Nemotronを基盤に、ウェールズ語を含むケルト語に対応したAIモデルを開発し、公共サービスの多言語化を推進します。",
+    "keypoints": [
+      "英国のUK-LLMがNVIDIA NemotronでAIモデル開発",
+      "ウェールズ語を含むケルト語に対応し推論可能に",
+      "医療・教育・法律など公共サービスの多言語化を支援",
+      "文化遺産保護と地域機会創出に貢献"
+    ],
+    "pull": "「AIがウェールズ語で推論できるようになることで、公共サービスが誰もが利用できるものになる。」",
+    "bizapp": {
+      "summary": "多言語対応AIは、地域に根ざしたサービス提供と文化保護の鍵となる。",
+      "actions": [
+        "社内活用例：多言語対応AIで海外拠点とのコミュニケーションを円滑化",
+        "他社提案例：地方自治体向けに地域言語での情報提供AIサービスを提案",
+        "注目理由：多様な言語・文化圏へのAI展開が新たな市場と価値を生む"
+      ]
+    },
+    "links": [
+      "https://blogs.nvidia.com/blog/uk-llm-nemotron/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Anthropic、金融特化型AIエージェントをClaudeに導入",
+    "category": "ツール更新",
+    "source": "The Register AI/ML",
+    "lede": "Anthropicが、金融タスクを支援するための金融特化型AIエージェントのテンプレートをClaudeにリリースし、金融業務の効率化と自動化を推進します。",
+    "keypoints": [
+      "AnthropicがClaude向け金融エージェントを公開",
+      "スキル、コネクタ、サブエージェントで構成",
+      "金融業務の効率化と自動化を目的",
+      "モデルが目標達成のためツールやデータを利用"
+    ],
+    "pull": "「Claudeの金融エージェントは、スキル、データ接続、サブエージェントを組み合わせ、金融業務を効率化する。」",
+    "bizapp": {
+      "summary": "金融業務の高度な自動化と意思決定支援で競争力を強化。",
+      "actions": [
+        "社内活用例：Claudeで財務分析レポート作成や市場調査を自動化",
+        "他社提案例：金融機関向けにリスク評価や顧客対応のAI化を提案",
+        "注目理由：専門性の高い金融分野でAI活用が進み、業務効率が大幅向上"
+      ]
+    },
+    "links": [
+      "https://www.theregister.com/software/2026/05/05/anthropic-unleashes-finance-agents-for-claude/5225868"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Google DeepMind、マルチモーダルAI「Gemini Omni」発表",
+    "category": "新モデル発表",
+    "source": "Google DeepMind Blog",
+    "lede": "Google DeepMindが、動画を始めとするあらゆる入力からコンテンツを生成できるマルチモーダルAI「Gemini Omni」を発表し、動画編集などを自然言語で可能にします。",
+    "keypoints": [
+      "あらゆる入力からコンテンツ生成可能なAIモデル",
+      "動画、画像、音声、テキストを組み合わせて入力",
+      "高品質な動画生成と自然言語での編集が可能",
+      "Geminiアプリ、Google Flow、YouTube Shortsで展開"
+    ],
+    "pull": "「Gemini Omniは、Geminiの推論能力と創造能力を融合させ、動画を始めとするあらゆる入力からコンテンツを生成できる。」",
+    "bizapp": {
+      "summary": "コンテンツ制作の民主化と効率化を加速し、新たな表現を可能にする。",
+      "actions": [
+        "社内活用例：マーケティング部で動画広告やプロモーション動画を迅速に作成",
+        "他社提案例：動画制作会社向けにAIを活用した制作効率化ソリューションを提案",
+        "注目理由：動画コンテンツの需要が高まる中、制作コストと時間を大幅削減"
+      ]
+    },
+    "links": [
+      "https://deepmind.google/blog/introducing-gemini-omni/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AI時代のデジタル本人確認、プライバシー保護技術「Vega」",
+    "category": "研究",
+    "source": "Microsoft Research Blog",
+    "lede": "Microsoft Researchが、政府発行の身分証明書から必要な情報のみを共有し、プライバシーを保護しながらデジタル本人確認を行う「Vega」を発表しました。",
+    "keypoints": [
+      "政府発行の身分証明書から必要な情報のみ提示",
+      "証明書自体はデバイスから離れずプライバシー保護",
+      "ゼロ知識証明を100ミリ秒未満で生成、実用的な速度",
+      "EUデジタルIDウォレットなど実世界フォーマットに対応"
+    ],
+    "pull": "「Vegaは、AI時代におけるデジタル本人確認において、必要な情報のみを共有し、プライバシーを保護する画期的な技術だ。」",
+    "bizapp": {
+      "summary": "AI連携サービスでの本人確認を安全かつ効率的に実現し、信頼性を向上。",
+      "actions": [
+        "社内活用例：AIエージェント利用時の本人確認にVegaを導入しセキュリティ強化",
+        "他社提案例：金融・行政サービス向けにプライバシー重視の本人確認システムを提案",
+        "注目理由：AIの普及に伴い、安全で信頼性の高いデジタルIDの重要性が増す"
+      ]
+    },
+    "links": [
+      "https://www.microsoft.com/en-us/research/blog/vega-zero-knowledge-proofs-for-digital-identity-in-the-age-of-ai/"
+    ],
+    "likes": 0
+  }
+]
