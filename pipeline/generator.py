@@ -78,26 +78,38 @@ def _rank_articles(raw_articles: list[dict]) -> list[int]:
     from llm import extract_json
     import google.generativeai as genai
     import os
+    import logging
 
+    log = logging.getLogger(__name__)
     genai.configure(api_key=os.environ.get("GEMINI_API_KEY"))
     model = genai.GenerativeModel("gemini-2.5-flash")
 
-    # タイトル+要約だけの軽量ダイジェストを作成
+    # 入力上限：title 短縮 + 200件まで（Geminiの安定応答のため）
+    cap = min(len(raw_articles), 200)
     lines = []
-    for i, a in enumerate(raw_articles):
-        lines.append(f"[{i}] [{a['source']}] {a['title']} — {a.get('summary','')[:150]}")
+    for i, a in enumerate(raw_articles[:cap]):
+        lines.append(f"[{i}] [{a['source']}] {a['title'][:90]} — {a.get('summary','')[:100]}")
     digest = "\n".join(lines)
 
-    resp = model.generate_content(
-        f"{RANK_SYSTEM}\n\n記事一覧（{len(raw_articles)}件）:\n\n{digest}",
-        generation_config=genai.GenerationConfig(
-            max_output_tokens=1000,
-            temperature=0.3,
-        ),
-    )
-    text = resp.text
-    parsed = json.loads(extract_json(text, "object"))
-    return parsed.get("top_indices", list(range(min(30, len(raw_articles)))))
+    try:
+        resp = model.generate_content(
+            f"{RANK_SYSTEM}\n\n記事一覧（{cap}件・最初の{cap}件）:\n\n{digest}",
+            generation_config=genai.GenerationConfig(
+                max_output_tokens=2000,
+                temperature=0.3,
+                response_mime_type="application/json",
+            ),
+        )
+        text = resp.text or ""
+        if not text.strip():
+            log.warning(f"   [Stage1] Gemini empty response (finish={resp.candidates[0].finish_reason if resp.candidates else 'N/A'}) → 先頭30件で代替")
+            return list(range(min(30, cap)))
+        parsed = json.loads(extract_json(text, "object"))
+        idx = parsed.get("top_indices", [])
+        return idx if idx else list(range(min(30, cap)))
+    except Exception as e:
+        log.warning(f"   [Stage1] エラー: {e} → 先頭30件で代替")
+        return list(range(min(30, cap)))
 
 
 def generate_articles(raw_articles: list[dict]) -> list[dict]:
