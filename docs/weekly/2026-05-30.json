@@ -1,5 +1,5 @@
 {
-  "trend_summary": "生成AIモデルの性能・コスパが急速に改善し、小規模事業者でも本格導入の敷居が下がった週。Remote社の事例が示すように「人を増やさずAIで売上効率を上げる」流れが加速。税務・会計など専門業務のAI支援も実用段階に入り、士業コスト削減の道が開けている。",
+  "trend_summary": "最新AIモデルの性能・コスパが急速に改善し、小規模事業者でも即導入できる水準に到達。少人数チームがAIで売上効率を5割伸ばした実例も出始め、「人を増やさず伸ばす」戦略が現実味を帯びた。専門業務（税務・会計）でもAIが自己改善するフェーズに入り、士業連携の在り方が変わりつつある。",
   "top3": [
     {
       "rank": 1,
@@ -7,9 +7,9 @@
       "title": "Anthropicの新AIモデル「Claude Opus 4.8」公開",
       "category": "新モデル発表",
       "source": "CNET Japan",
-      "why_picked": "コスパ改善で小規模でも高性能AIが即日使える",
-      "tldr": "Claude最新版、性能UP・コスト減",
-      "action": "現行AIをOpus 4.8に切替えて業務テスト",
+      "why_picked": "性能UP＋コスト減。今日切り替えるだけで業務AIの質が上がる",
+      "tldr": "Claude最新版、性能とコスパ両方向上",
+      "action": "利用中のAIをOpus 4.8に切り替える",
       "image": "../assets/images/2026-05-29/topic_2.png",
       "link": "../news/2026-05-29/#topic-2"
     },
@@ -19,9 +19,9 @@
       "title": "Remote、AI導入で社員当たり収益5割増",
       "category": "業界動向",
       "source": "TechCrunch AI",
-      "why_picked": "人を増やさず売上効率5割増は少人数経営の理想形",
-      "tldr": "全社AI化で一人当たり収益50%増",
-      "action": "社員ごとのAI活用時間を計測開始",
+      "why_picked": "人を増やさず売上効率50%増の実例。少人数経営の希望",
+      "tldr": "全社AI活用で社員あたり収益が1.5倍に",
+      "action": "各メンバーのAI時短効果を1週間記録する",
       "image": "../assets/images/2026-05-28/topic_6.png",
       "link": "../news/2026-05-28/#topic-6"
     },
@@ -31,9 +31,9 @@
       "title": "Codexで税務AIが自ら改善",
       "category": "ツール更新",
       "source": "OpenAI Blog",
-      "why_picked": "税務・会計は全事業者必須、AI化で士業コスト削減",
+      "why_picked": "税務・会計は全事業者共通。AIが使うほど賢くなる仕組み",
       "tldr": "会計士向け税務AIが実運用で自己改善",
-      "action": "顧問税理士へのFAQをAIで下書き整備",
+      "action": "顧問税理士にAI活用状況を確認する",
       "image": "../assets/images/2026-05-28/topic_8.png",
       "link": "../news/2026-05-28/#topic-8"
     }

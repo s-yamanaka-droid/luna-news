@@ -6,11 +6,11 @@ set -e
 cd /Users/yamanakashuto/apps/vigil-news
 source venv/bin/activate
 
-export ANTHROPIC_API_KEY="${ANTHROPIC_API_KEY}"
-export GEMINI_API_KEY="${GEMINI_API_KEY}"
-export OPENAI_API_KEY="${OPENAI_API_KEY}"
-export LLM_PROVIDER="${LLM_PROVIDER:-openai}"
-export OPENAI_IMAGE_API_KEY="${OPENAI_IMAGE_API_KEY}"
+export ANTHROPIC_API_KEY="${ANTHROPIC_API_KEY:-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}"
+export GEMINI_API_KEY="${GEMINI_API_KEY:-AIzaSyB_YxhSIVU7titeZ7BSIlQGjAQPD3y-NKg}"
+export OPENAI_API_KEY="${OPENAI_API_KEY:-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}"
+export LLM_PROVIDER="${LLM_PROVIDER:-claude}"
+export OPENAI_IMAGE_API_KEY="${OPENAI_IMAGE_API_KEY:-$OPENAI_API_KEY}"
 
 TODAY=$(date +%Y-%m-%d)
 LOG=/Users/yamanakashuto/apps/vigil-news/logs/daily_${TODAY}.log
@@ -22,6 +22,9 @@ python pipeline/run.py 2>&1 | tee -a "$LOG"
 
 echo "[2/4] quickstart 追加" | tee -a "$LOG"
 python scripts/gen_quickstart.py "$TODAY" 2>&1 | tee -a "$LOG"
+
+echo "[2.5/4] icebreak（会話・商談で使える）追加" | tee -a "$LOG"
+python scripts/gen_icebreak.py "$TODAY" 2>&1 | tee -a "$LOG" || echo "icebreak生成失敗（処理は継続）" | tee -a "$LOG"
 
 echo "[3/4] weekly digest 更新" | tee -a "$LOG"
 python scripts/gen_weekly.py 2>&1 | tee -a "$LOG"

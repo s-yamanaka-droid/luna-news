@@ -473,6 +473,20 @@
         </div>
         <div class="qs-roi" id="qs-roi"></div>
       </div>
+      <div id="modal-icebreak">
+        <div class="ib-head">会話・商談で使える</div>
+        <div class="ib-hook" id="ib-hook"></div>
+        <div class="ib-punch" id="ib-punch"></div>
+        <div class="ib-ctx">
+          <div class="ib-ctx-item"><span class="ib-ctx-label">商談シーン</span><span id="ib-ctx-meeting"></span></div>
+          <div class="ib-ctx-item"><span class="ib-ctx-label">雑談シーン</span><span id="ib-ctx-chat"></span></div>
+        </div>
+        <div class="ib-share-wrap">
+          <div class="ib-share-label">SNSでそのまま使える一文</div>
+          <div class="ib-share" id="ib-share"></div>
+          <button class="ib-copy-btn" id="ib-copy-btn">この一文をコピー</button>
+        </div>
+      </div>
       <div class="modal-foot">
         <span id="modal-src"></span>
         <a id="modal-link" href="#" target="_blank" rel="noopener">元記事を読む →</a>
@@ -586,6 +600,27 @@
         qsEl.style.display='block';
       } else { qsEl.style.display='none'; }
     }catch(e){ qsEl.style.display='none'; }
+
+    /* icebreak */
+    var ibEl=document.getElementById('modal-icebreak');
+    try{
+      var ib=JSON.parse(d.icebreak||'null');
+      if(ib&&ib.hook){
+        document.getElementById('ib-hook').textContent='「'+ib.hook+'」';
+        document.getElementById('ib-punch').textContent=ib.punchline||'';
+        document.getElementById('ib-ctx-meeting').textContent=ib.ctx_meeting||'';
+        document.getElementById('ib-ctx-chat').textContent=ib.ctx_chat||'';
+        document.getElementById('ib-share').textContent=ib.share_text||'';
+        var ibBtn=document.getElementById('ib-copy-btn');
+        ibBtn.onclick=function(){
+          navigator.clipboard.writeText(ib.share_text||'').then(function(){
+            ibBtn.textContent='コピー完了';
+            setTimeout(function(){ibBtn.textContent='この一文をコピー';},1800);
+          });
+        };
+        ibEl.style.display='block';
+      } else { ibEl.style.display='none'; }
+    }catch(e){ ibEl.style.display='none'; }
 
     modal.style.display='flex';
     modal.style.pointerEvents='auto';

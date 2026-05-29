@@ -66,6 +66,20 @@ INTERACTIVE_JS = """
         </div>
         <div class="qs-roi" id="qs-roi"></div>
       </div>
+      <div id="modal-icebreak">
+        <div class="ib-head">会話・商談で使える</div>
+        <div class="ib-hook" id="ib-hook"></div>
+        <div class="ib-punch" id="ib-punch"></div>
+        <div class="ib-ctx">
+          <div class="ib-ctx-item"><span class="ib-ctx-label">商談シーン</span><span id="ib-ctx-meeting"></span></div>
+          <div class="ib-ctx-item"><span class="ib-ctx-label">雑談シーン</span><span id="ib-ctx-chat"></span></div>
+        </div>
+        <div class="ib-share-wrap">
+          <div class="ib-share-label">SNSでそのまま使える一文</div>
+          <div class="ib-share" id="ib-share"></div>
+          <button class="ib-copy-btn" id="ib-copy-btn">この一文をコピー</button>
+        </div>
+      </div>
       <div class="modal-foot">
         <span id="modal-src"></span>
         <a id="modal-link" href="#" target="_blank" rel="noopener">元記事を読む →</a>
@@ -179,6 +193,27 @@ INTERACTIVE_JS = """
         qsEl.style.display='block';
       } else { qsEl.style.display='none'; }
     }catch(e){ qsEl.style.display='none'; }
+
+    /* icebreak */
+    var ibEl=document.getElementById('modal-icebreak');
+    try{
+      var ib=JSON.parse(d.icebreak||'null');
+      if(ib&&ib.hook){
+        document.getElementById('ib-hook').textContent='「'+ib.hook+'」';
+        document.getElementById('ib-punch').textContent=ib.punchline||'';
+        document.getElementById('ib-ctx-meeting').textContent=ib.ctx_meeting||'';
+        document.getElementById('ib-ctx-chat').textContent=ib.ctx_chat||'';
+        document.getElementById('ib-share').textContent=ib.share_text||'';
+        var ibBtn=document.getElementById('ib-copy-btn');
+        ibBtn.onclick=function(){
+          navigator.clipboard.writeText(ib.share_text||'').then(function(){
+            ibBtn.textContent='コピー完了';
+            setTimeout(function(){ibBtn.textContent='この一文をコピー';},1800);
+          });
+        };
+        ibEl.style.display='block';
+      } else { ibEl.style.display='none'; }
+    }catch(e){ ibEl.style.display='none'; }
 
     modal.style.display='flex';
     modal.style.pointerEvents='auto';
@@ -632,6 +667,7 @@ def _build_today_grid(articles, date_str, img_dir, root="../../"):
         pull_esc   = a.get("pull","").replace('"','&quot;')
         bizapp_json = _json.dumps(a.get("bizapp", {}), ensure_ascii=False).replace('"', '&quot;')
         quickstart_json = _json.dumps(a.get("quickstart", {}), ensure_ascii=False).replace('"', '&quot;')
+        icebreak_json   = _json.dumps(a.get("icebreak", {}), ensure_ascii=False).replace('"', '&quot;')
         data_attrs = (
             f'data-title="{title.replace(chr(34), "&quot;")}" '
             f'data-category="{category}" '
@@ -641,6 +677,7 @@ def _build_today_grid(articles, date_str, img_dir, root="../../"):
             f'data-pull="{pull_esc}" '
             f'data-bizapp="{bizapp_json}" '
             f'data-quickstart="{quickstart_json}" '
+            f'data-icebreak="{icebreak_json}" '
             f'data-link="{detail_url}" '
             f'data-slide="{slide_rel if slide_exists else ""}"'
         )
@@ -981,6 +1018,20 @@ INDEX_CSS = """
   font-size:13px;font-weight:700;color:#E65100;padding:10px 14px;
   background:#fff;border-left:4px solid #FF9800;
 }
+
+/* ── icebreak（会話・商談で使える）── */
+#modal-icebreak{display:none;margin:24px 0;padding:20px 22px;background:#E8F4FD;border:2px solid #64B5F6;border-left:6px solid #1976D2;}
+.ib-head{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:#0D47A1;font-weight:800;margin-bottom:14px;}
+.ib-hook{font-family:'Noto Serif JP',serif;font-size:18px;font-weight:700;line-height:1.55;color:var(--ink);margin-bottom:10px;}
+.ib-punch{font-size:14px;line-height:1.7;color:var(--ink-2);margin-bottom:16px;}
+.ib-ctx{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:16px;}
+.ib-ctx-item{background:#fff;padding:6px 12px;border:1px solid #64B5F6;font-size:12px;}
+.ib-ctx-label{font-family:'JetBrains Mono',monospace;font-size:9px;color:#0D47A1;letter-spacing:.1em;text-transform:uppercase;margin-right:6px;font-weight:700;}
+.ib-share-wrap{margin-top:8px;}
+.ib-share-label{font-family:'JetBrains Mono',monospace;font-size:10px;color:#0D47A1;letter-spacing:.12em;text-transform:uppercase;font-weight:700;margin-bottom:8px;}
+.ib-share{background:#fff;padding:14px 16px;font-size:13px;line-height:1.7;color:var(--ink);border:1px solid #BBDEFB;margin-bottom:8px;font-family:'Noto Sans JP',sans-serif;}
+.ib-copy-btn{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;letter-spacing:.08em;background:#1976D2;color:#fff;border:none;padding:9px 20px;cursor:pointer;transition:background .15s;}
+.ib-copy-btn:hover{background:#0D47A1;}
 </style>"""
 
 # vigil.css にない detail ページ専用スタイル（inline で追加）
