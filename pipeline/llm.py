@@ -17,7 +17,7 @@ def chat_json(system: str, user: str, max_tokens: int = 4000, model: str | None 
     if PROVIDER == "openai":
         return _openai(system, user, max_tokens, model or "gpt-4o-mini")
     if PROVIDER == "gemini":
-        return _gemini(system, user, max_tokens, model or "gemini-2.5-flash-preview-05-20")
+        return _gemini(system, user, max_tokens, model or "gemini-2.5-flash")
     raise ValueError(f"Unknown LLM_PROVIDER: {PROVIDER}")
 
 

@@ -80,7 +80,7 @@ def _rank_articles(raw_articles: list[dict]) -> list[int]:
     import os
 
     genai.configure(api_key=os.environ.get("GEMINI_API_KEY"))
-    model = genai.GenerativeModel("gemini-2.5-flash-preview-05-20")
+    model = genai.GenerativeModel("gemini-2.5-flash")
 
     # タイトル+要約だけの軽量ダイジェストを作成
     lines = []
@@ -114,7 +114,7 @@ def generate_articles(raw_articles: list[dict]) -> list[dict]:
     log = logging.getLogger(__name__)
 
     genai.configure(api_key=os.environ.get("GEMINI_API_KEY"))
-    model = genai.GenerativeModel("gemini-2.5-flash-preview-05-20")
+    model = genai.GenerativeModel("gemini-2.5-flash")
 
     # Stage 1: スコアリング（Gemini Flash・無料枠）
     log.info("   [Stage1] 全記事スコアリング（Gemini Flash）")
