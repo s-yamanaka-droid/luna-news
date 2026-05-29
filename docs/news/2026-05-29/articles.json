@@ -1,101 +1,201 @@
 [
   {
-    "title": "Anthropic、650億ドルの資金調達でトリリオン企業へ接近",
+    "title": "富士通がOpenAIとAnthropicと提携",
     "category": "業界動向",
-    "source": "The Decoder",
-    "lede": "Anthropicは650億ドルの資金調達を経て、評価額9650億ドルに達し、トリリオン企業へと近づいている。",
+    "source": "ITmedia AI+",
+    "lede": "富士通はAI企業OpenAIとAnthropicと提携し、AIサービスの強化を目指す方針を示した。",
     "keypoints": [
-      "Anthropicが650億ドルを調達",
-      "評価額は9650億ドルに達する",
-      "AIモデルClaudeを強化する計画",
-      "年間収益は470億ドルを超える"
+      "OpenAIとAnthropicと提携",
+      "AI技術の拡充を目指す",
+      "企業連携で競争力強化",
+      "次世代サービスの提供"
     ],
-    "pull": "AI企業の資金調達が評価額に直接影響を与えている。",
+    "pull": "AI企業との提携で市場競争力を強化し、新サービス展開を視野に。",
     "bizapp": {
-      "summary": "AIモデルの資金調達を活用してビジネスを強化。",
+      "summary": "新たなAI技術を駆使して、競争力あるサービスを提供可能に。",
       "actions": [
-        "Claudeを利用した業務効率化を検討する",
-        "AIによるプロダクト開発を中小企業向けに提案",
-        "業界の最新動向を把握し競争力を維持"
+        "Claudeでの新しいサービス提案に応用する",
+        "中小企業へのAIソリューション提案を強化",
+        "AI競争が激化し、早期参入が重要"
       ]
     },
     "links": [
-      "https://the-decoder.com/claude-company-anthropic-nears-a-trillion-dollar-valuation-after-raising-65-billion-in-series-h/"
+      "https://www.itmedia.co.jp/enterprise/articles/2605/29/news067.html"
     ],
     "likes": 0
   },
   {
-    "title": "MetaがAIアプリを月額制で提供開始",
-    "category": "ツール更新",
-    "source": "The Decoder",
-    "lede": "MetaはInstagramやFacebook、WhatsApp向けにAI機能を含む有料プランを発表し、広告収益依存から脱却を目指す。",
-    "keypoints": [
-      "Instagram PlusとFacebook Plusを発表",
-      "AIに基づく新たな課金モデルの導入",
-      "収益モデルを広告からサブスクリプションへシフト",
-      "クリエイター向けプランの展開も予定"
-    ],
-    "pull": "AI機能を通じた収益化戦略が加速している。",
-    "bizapp": {
-      "summary": "サブスクリプションモデルで顧客獲得を強化。",
-      "actions": [
-        "AI機能を活用したマーケティング戦略を実施",
-        "プラットフォームの特性を生かしたサービスを開発",
-        "サブスクリプションの動向を市場で把握"
-      ]
-    },
-    "links": [
-      "https://the-decoder.com/meta-one-zuckerberg-finally-puts-a-price-tag-on-all-that-ai-spending/"
-    ],
-    "likes": 0
-  },
-  {
-    "title": "Amazon、自社AI制作プラットフォームを構築",
+    "title": "Anthropicの新AIモデル「Claude Opus 4.8」公開",
     "category": "新モデル発表",
-    "source": "The Decoder",
-    "lede": "AmazonがAIを活用した映画制作プラットフォームを発表し、制作時間を大幅短縮することを目指す。",
+    "source": "CNET Japan",
+    "lede": "Anthropicは生成AIモデル「Claude Opus 4.8」を公開、性能とコスト効率を向上させた。",
     "keypoints": [
-      "新しいAI制作プラットフォーム「Project Nara」を導入",
-      "AI制作基金で制作時間を短縮",
-      "３つのアニメシリーズが進行中",
-      "フィルム製作のプロセスをAIで改善"
+      "Opus 4.8の発表",
+      "性能とコスト効率が改善",
+      "AI応用範囲を拡大",
+      "サイバー安全性を強化"
     ],
-    "pull": "制作の効率化が新たな映像制作の形を生み出す。",
+    "pull": "新モデルはより迅速で経済的なAI応用を可能にし、ビジネス支援を強化。",
     "bizapp": {
-      "summary": "AIを活用して制作プロセスを革新可能。",
+      "summary": "コスト効率が高いため、AIサービスの採用が加速。",
       "actions": [
-        "制作にAIを導入してコスト削減を図る",
-        "クリエイターへAIツールの提供を推進",
-        "制作効率化のトレンドを業界に提案"
+        "Cursorを用いたAIプロジェクトの効率化に貢献",
+        "採用業務でのAI支援の導入提案が有効",
+        "コスト削減と性能向上で先行者利益が得られる"
       ]
     },
     "links": [
-      "https://the-decoder.com/amazon-builds-its-own-ai-production-platform-and-greenlights-three-ai-animated-series-for-prime-video/"
+      "https://japan.cnet.com/article/35248186/"
     ],
     "likes": 0
   },
   {
-    "title": "ElevenLabs、新AIモデルで音楽生成を進化",
+    "title": "NVIDIAの「Vera」CPUが超越的性能を発揮",
     "category": "ツール更新",
-    "source": "The Decoder",
-    "lede": "ElevenLabsが音楽生成モデル「Music v2」を発表し、さまざまなジャンルの音楽を自然に生成可能に。",
+    "source": "GIGAZINE",
+    "lede": "NVIDIAのAI向けCPU「Vera」が、業界スタンダードを超える性能を示した。",
     "keypoints": [
-      "新モデルが音楽のジャンルを自在に変更",
-      "特定の楽曲部分を再生成する機能追加",
-      "マルチリンガル対応が強化",
-      "APIでの利用料金は分単位で提供"
+      "業界トップのAI性能",
+      "Armベースのコアを採用",
+      "高メモリ帯域幅",
+      "ハードウェア革新"
     ],
-    "pull": "音楽制作におけるAIの導入が新たな可能性を開く。",
+    "pull": "Veraの性能はAI計算力を次の水準へ引き上げる可能性を秘めている。",
     "bizapp": {
-      "summary": "AI音楽生成を活用してクリエイティブ業界をサポート。",
+      "summary": "高性能CPUでAI処理を一段と迅速化し、業務効率を向上。",
       "actions": [
-        "マーケティングにおける音源生成に利用",
-        "ブランドのイメージ向上に向けて活用を提案",
-        "AI音楽生成の可能性を業界に広める"
+        "Codexを活用し、大規模データセットの処理を効率化",
+        "AIサーバーアップグレード提案が競業優位に",
+        "Veraの投入でハードウェア性能が飛躍的に進化"
       ]
     },
     "links": [
-      "https://the-decoder.com/elevenlabs-music-v2-promises-opera-to-metal-transitions-without-losing-musical-coherence/"
+      "https://gigazine.net/news/20260529-nvidia-vera-benchmark/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Google、環境リスクに対応するAIプログラム開始",
+    "category": "その他",
+    "source": "Google DeepMind Blog",
+    "lede": "Google DeepMindがアジア太平洋地域で環境問題解決を目指す新プログラムを立ち上げた。",
+    "keypoints": [
+      "環境リスクに挑む",
+      "AI資源の提供",
+      "地域限定の取り組み開始",
+      "プログラム参加者を募集中"
+    ],
+    "pull": "環境問題は今後のビジネスにも不可欠な要素として大きな影響を与える。",
+    "bizapp": {
+      "summary": "環境対応技術を導入し、持続可能なビジネスモデル構築へ。",
+      "actions": [
+        "AI技術を用いた環境配慮型ビジネスの提案",
+        "中小企業向けに持続可能性評価を提供",
+        "環境問題は長期的な競争力強化の鍵"
+      ]
+    },
+    "links": [
+      "https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "新しいAWS Resilience Hubの発表",
+    "category": "ツール更新",
+    "source": "Amazon AWS News Blog",
+    "lede": "AWSは、新しいレジリエンスハブでアプリケーションの耐障害性を可視化する機能を強化した。",
+    "keypoints": [
+      "レジリエンスハブの強化",
+      "AI利用で障害の分析を改善",
+      "組織全体の耐障害性を確認可能",
+      "モジュール型ポリシーで対応"
+    ],
+    "pull": "新機能により、SREチームが組織の耐障害性の評価を容易に実施可能。",
+    "bizapp": {
+      "summary": "組織の障害対応力強化に直結し、運用リスクを低減。",
+      "actions": [
+        "Claudeを用いた障害予測モデルの構築に活用",
+        "中堅企業向けに耐障害性評価の導入を提案",
+        "レジリエンスが競争力の一環として注目される"
+      ]
+    },
+    "links": [
+      "https://aws.amazon.com/blogs/aws/introducing-the-next-generation-of-aws-resilience-hub-for-generative-ai-based-sre-resilience-journey/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AI面接官導入も業務再設計で効率化",
+    "category": "業界動向",
+    "source": "日経ビジネス テクノロジー",
+    "lede": "AI面接官の導入が進む中、業務効率の向上にはさらなる業務再設計が必要とされている。",
+    "keypoints": [
+      "AI面接官の普及",
+      "業務再設計の必要性",
+      "人手削減の模索",
+      "AIと業務改善の調和"
+    ],
+    "pull": "AI導入だけでは解決しない業務再設計の重要性が浮き彫りに。",
+    "bizapp": {
+      "summary": "業務再設計でAI面接官の効果を最大化。",
+      "actions": [
+        "AIを活用した採用プロセス再構築に活用",
+        "効率化提案で社内コミュニケーション改善を",
+        "AI導入が必要な課題として注目される"
+      ]
+    },
+    "links": [
+      "https://business.nikkei.com/atcl/gen/19/00636/052700091/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Anthropic、ミトス級AIモデル今後数週間で提供へ",
+    "category": "新モデル発表",
+    "source": "CNET Japan",
+    "lede": "Anthropicはミトス級AIモデルの一般提供を数週間以内に開始すると発表。",
+    "keypoints": [
+      "ミトス級モデル発表",
+      "サイバー安全性を確保",
+      "数週間以内に提供開始",
+      "技術的改善を継続"
+    ],
+    "pull": "新型AIモデルはより高い安全性とパフォーマンスを持つ。",
+    "bizapp": {
+      "summary": "新世代AIモデルで攻守の両面を強化。",
+      "actions": [
+        "Cursorでの高度なセキュリティ対策に応用",
+        "高度サイバー防衛提案で営業強化",
+        "AI技術の安全性がビジネスの鍵"
+      ]
+    },
+    "links": [
+      "https://japan.cnet.com/article/35248186/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "OpenAI、安全なMCPサーバー接続を支援",
+    "category": "ツール更新",
+    "source": "Gihyo.jp",
+    "lede": "OpenAIは、セキュリティを確保しつつプライベートMCPサーバーを安全に接続するトンネルサービスを提供開始。",
+    "keypoints": [
+      "MCPトンネルサービス提供",
+      "プライベートネットのセキュリティ強化",
+      "簡易なAPI接続",
+      "ネットワーク開放不要"
+    ],
+    "pull": "プライベートMCPサーバーのセキュリティを保ちながら、OpenAI製品との簡易接続を実現。",
+    "bizapp": {
+      "summary": "セキュリティ強化と利便性の両立で業務に貢献。",
+      "actions": [
+        "Codexとの安全なデータ通信に応用",
+        "採用部門へのセキュリティ提案を強化",
+        "データセキュリティの需要に対応"
+      ]
+    },
+    "links": [
+      "https://gihyo.jp/article/2026/05/openai-secure-mcp-tunnel?utm_source=feed"
     ],
     "likes": 0
   }
