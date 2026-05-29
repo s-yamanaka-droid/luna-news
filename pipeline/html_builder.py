@@ -33,7 +33,7 @@ INTERACTIVE_JS = """
   <div id="modal-box">
     <div class="modal-head">
       <span id="modal-cat"></span>
-      <button id="modal-close">✕ CLOSE</button>
+      <button id="modal-close">CLOSE</button>
     </div>
     <div id="modal-slide-wrap" style="display:none;margin:0;overflow:hidden;border-bottom:1px solid var(--rule-2);">
       <img id="modal-slide-img" src="" alt="" style="width:100%;display:block;" />
@@ -44,12 +44,12 @@ INTERACTIVE_JS = """
       <div id="modal-kp"></div>
       <div id="modal-pull"></div>
       <div id="modal-bizapp">
-        <div class="bizapp-head">💡 ビジネス活用ポイント</div>
+        <div class="bizapp-head">ビジネス活用ポイント</div>
         <div class="bizapp-summary" id="modal-bizapp-summary"></div>
         <ul class="bizapp-actions" id="modal-bizapp-actions"></ul>
       </div>
       <div id="modal-quickstart">
-        <div class="qs-head">⚡ 明日からできる｜個人事業主・社長向け</div>
+        <div class="qs-head">明日からできる｜個人事業主・社長向け</div>
         <div class="qs-headline" id="qs-headline"></div>
         <div class="qs-meta">
           <div class="qs-tool"><span class="qs-label">推奨ツール</span> <a id="qs-tool-link" href="#" target="_blank" rel="noopener"></a> <span id="qs-cost" class="qs-cost"></span></div>
@@ -60,9 +60,9 @@ INTERACTIVE_JS = """
           <ol class="qs-steps" id="qs-steps"></ol>
         </div>
         <div class="qs-prompt-wrap">
-          <div class="qs-section-label">📋 コピペで使えるプロンプト</div>
+          <div class="qs-section-label">コピペで使えるプロンプト</div>
           <div class="qs-prompt" id="qs-prompt"></div>
-          <button class="qs-copy-btn" id="qs-copy-btn">📋 プロンプトをコピー</button>
+          <button class="qs-copy-btn" id="qs-copy-btn">プロンプトをコピー</button>
         </div>
         <div class="qs-roi" id="qs-roi"></div>
       </div>
@@ -136,7 +136,7 @@ INTERACTIVE_JS = """
         document.getElementById('modal-bizapp-summary').textContent=biz.summary;
         var baList=document.getElementById('modal-bizapp-actions');
         baList.innerHTML='';
-        var icons=['🏢','🤝','👁'];
+        var icons=['','',''];
         (biz.actions||[]).forEach(function(act,i){
           var li=document.createElement('li');
           var ic=document.createElement('span');
@@ -171,11 +171,11 @@ INTERACTIVE_JS = """
         var copyBtn=document.getElementById('qs-copy-btn');
         copyBtn.onclick=function(){
           navigator.clipboard.writeText(qs.prompt||'').then(function(){
-            copyBtn.textContent='✓ コピー完了';
-            setTimeout(function(){copyBtn.textContent='📋 プロンプトをコピー';},1800);
+            copyBtn.textContent='コピー完了';
+            setTimeout(function(){copyBtn.textContent='プロンプトをコピー';},1800);
           });
         };
-        document.getElementById('qs-roi').textContent=qs.roi?'💰 想定効果：'+qs.roi:'';
+        document.getElementById('qs-roi').textContent=qs.roi?'想定効果：'+qs.roi:'';
         qsEl.style.display='block';
       } else { qsEl.style.display='none'; }
     }catch(e){ qsEl.style.display='none'; }
@@ -759,13 +759,13 @@ def build_daily_page(date_str: str, articles: list[dict], issue_num: int = None)
         biz = a.get("bizapp", {})
         biz_html = ""
         if isinstance(biz, dict) and biz.get("summary"):
-            icons = ["🏢", "🤝", "👁"]
+            icons = ["", "", ""]
             biz_actions = "".join(
                 f'        <li><span class="bi">{icons[j] if j < len(icons) else "→"}</span>{act}</li>'
                 for j, act in enumerate(biz.get("actions", [])[:3])
             )
             biz_html = f"""      <div class="bizapp-block">
-        <div class="biz-label">💡 ビジネス活用ポイント</div>
+        <div class="biz-label">ビジネス活用ポイント</div>
         <div class="biz-summary">{biz["summary"]}</div>
         <ul>
 {biz_actions}
