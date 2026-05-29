@@ -1,41 +1,41 @@
 {
-  "trend_summary": "今週はClaude Opus 4.8やCodex税務AIなど「すぐ使える高性能AI」が続々登場。Remote社の事例が示すように、少人数チームほどAI導入の収益インパクトが大きい。大企業の提携ニュースが目立つが、小規模事業者こそ最新モデルを即導入して差をつけるチャンス。",
+  "trend_summary": "画像・動画生成AIが「デザインセンス」を獲得し、小規模事業者でもプロ品質の販促素材を内製できる時代が到来。同時にAI全社導入で人員増なしに収益5割増の実例が出ており、ツール単体ではなく業務全体のAI再設計が差別化の鍵となっている。まず販促素材のAI化から着手し、浮いた時間で業務フロー全体のAI化を進めるのが今週の最適戦略。",
   "top3": [
     {
       "rank": 1,
-      "date": "2026-05-29",
-      "title": "Anthropicの新AIモデル「Claude Opus 4.8」公開",
-      "category": "新モデル発表",
-      "source": "CNET Japan",
-      "why_picked": "コスト効率向上で小規模でも高性能AIが即使える",
-      "tldr": "Claude最新版、性能UP＆コスト減",
-      "action": "現行AIをOpus 4.8に切り替えて比較",
-      "image": "../assets/images/2026-05-29/topic_2.png",
-      "link": "../news/2026-05-29/#topic-2"
+      "date": "2026-05-30",
+      "title": "デザインセンスを持つ画像生成AI「Recraft V4」登場",
+      "category": "ツール更新",
+      "source": "Replicate Blog",
+      "why_picked": "デザイナー不在でもプロ品質の販促画像を即日量産できる",
+      "tldr": "構図・配色まで考えるAI画像生成が登場",
+      "action": "自社の販促バナーを1枚Recraft V4で作成",
+      "image": "../assets/images/2026-05-30/topic_3.png",
+      "link": "../news/2026-05-30/#topic-3"
     },
     {
       "rank": 2,
-      "date": "2026-05-28",
-      "title": "Remote、AI導入で社員当たり収益5割増",
-      "category": "業界動向",
-      "source": "TechCrunch AI",
-      "why_picked": "人を増やさず売上5割増は少人数経営の理想形",
-      "tldr": "全社AI化で一人当たり収益50%増",
-      "action": "社員ごとのAI活用時短を可視化する",
-      "image": "../assets/images/2026-05-28/topic_6.png",
-      "link": "../news/2026-05-28/#topic-6"
+      "date": "2026-05-30",
+      "title": "Google DeepMind、マルチモーダルAI「Gemini Omni」発表",
+      "category": "新モデル発表",
+      "source": "Google DeepMind Blog",
+      "why_picked": "テキスト指示だけで販促動画が作れ、制作外注が不要に",
+      "tldr": "自然言語で動画生成・編集できるAI",
+      "action": "商品紹介の30秒動画をAIで試作する",
+      "image": "../assets/images/2026-05-30/topic_6.png",
+      "link": "../news/2026-05-30/#topic-6"
     },
     {
       "rank": 3,
       "date": "2026-05-28",
-      "title": "Codexで税務AIが自ら改善",
-      "category": "ツール更新",
-      "source": "OpenAI Blog",
-      "why_picked": "税務・会計の自動化は全事業者に直結する実務",
-      "tldr": "使うほど賢くなる税務AI登場",
-      "action": "税務FAQリストを作りAIに回答させる",
-      "image": "../assets/images/2026-05-28/topic_8.png",
-      "link": "../news/2026-05-28/#topic-8"
+      "title": "Remote、AI導入で社員当たり収益5割増",
+      "category": "業界動向",
+      "source": "TechCrunch AI",
+      "why_picked": "人を増やさず売上効率5割増の実例は小規模こそ再現しやすい",
+      "tldr": "全社AI化で人員増なし収益50%増",
+      "action": "社員ごとのAI時短効果を1週間計測する",
+      "image": "../assets/images/2026-05-28/topic_6.png",
+      "link": "../news/2026-05-28/#topic-6"
     }
   ]
 }
