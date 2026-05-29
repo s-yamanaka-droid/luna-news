@@ -1,43 +1,41 @@
 """
-LLM 抽象レイヤー — Codex CLI（ChatGPT Plus・API課金ゼロ）を優先。
-OpenAI API / Anthropic にも切替可能。
+LLM 抽象レイヤー — Claude Code CLI をデフォルトに使用（サブスク内・API課金ゼロ）。
+OpenAI / Anthropic API にもフォールバック切替可能。
 """
 import os
 import re
-import subprocess
 
-PROVIDER = os.environ.get("LLM_PROVIDER", "codex").lower()
-CODEX_BIN = os.environ.get("CODEX_BIN", "/opt/homebrew/bin/codex")
+PROVIDER = os.environ.get("LLM_PROVIDER", "openai").lower()
 
 
 def chat_json(system: str, user: str, max_tokens: int = 4000, model: str | None = None):
     """システム+ユーザープロンプトを送り、本文テキストを返す（JSON抽出は呼び出し側）"""
+    if PROVIDER == "claude":
+        return _claude_code(system, user)
     if PROVIDER == "anthropic":
         return _anthropic(system, user, max_tokens, model or "claude-haiku-4-5-20251001")
     if PROVIDER == "openai":
         return _openai(system, user, max_tokens, model or "gpt-4o-mini")
-    return _codex(system, user)
+    if PROVIDER == "gemini":
+        return _gemini(system, user, max_tokens, model or "gemini-2.5-flash-preview-05-20")
+    raise ValueError(f"Unknown LLM_PROVIDER: {PROVIDER}")
 
 
-def _codex(system: str, user: str) -> str:
-    """Codex CLI 経由（ChatGPT Plus 課金・API課金ゼロ）。JSONのみ出力させる。"""
-    prompt = (
-        f"{system}\n\n{user}\n\n"
-        "【最重要】出力はJSONのみ。説明文・マークダウン記号(```)・前置きは一切禁止。"
-        "JSONテキストだけを返すこと。ファイル作成も不要、標準出力にJSONを書くだけ。"
-    )
+def _claude_code(system: str, user: str) -> str:
+    """Claude Code CLI 経由（サブスク内・API課金ゼロ）"""
+    import subprocess
+    prompt = f"{system}\n\n{user}"
+    # 長文プロンプトは stdin パイプ経由で渡す（引数長制限回避）
     proc = subprocess.run(
-        [CODEX_BIN, "exec", "--skip-git-repo-check", prompt],
-        cwd="/tmp", capture_output=True, text=True, timeout=300,
+        ["claude", "-p", "--output-format", "text"],
+        input=prompt,
+        capture_output=True, text=True, timeout=180,
     )
-    out = proc.stdout
-    # codex exec は最後に「tokens used\nN\n<最終回答>」を出す。最終回答だけ取り出す
-    if "tokens used" in out:
-        tail = out.rsplit("tokens used", 1)[1]
-        # 次行(数値)以降が回答本体
-        lines = tail.splitlines()
-        out = "\n".join(lines[2:]) if len(lines) > 2 else tail
-    return out
+    if proc.returncode != 0:
+        # stderr が空なら stdout にエラーが出てる可能性
+        err = proc.stderr or proc.stdout[:300]
+        raise RuntimeError(f"claude CLI error (rc={proc.returncode}): {err[:300]}")
+    return proc.stdout
 
 
 def _openai(system: str, user: str, max_tokens: int, model: str) -> str:
@@ -52,6 +50,20 @@ def _openai(system: str, user: str, max_tokens: int, model: str) -> str:
         ],
     )
     return resp.choices[0].message.content or ""
+
+
+def _gemini(system: str, user: str, max_tokens: int, model: str) -> str:
+    import google.generativeai as genai
+    genai.configure(api_key=os.environ.get("GEMINI_API_KEY"))
+    m = genai.GenerativeModel(model)
+    resp = m.generate_content(
+        f"{system}\n\n{user}",
+        generation_config=genai.GenerationConfig(
+            max_output_tokens=max_tokens,
+            temperature=0.3,
+        ),
+    )
+    return resp.text
 
 
 def _anthropic(system: str, user: str, max_tokens: int, model: str) -> str:

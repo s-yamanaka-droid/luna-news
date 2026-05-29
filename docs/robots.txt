@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://s-yamanaka-droid.github.io/nowonair/sitemap.xml

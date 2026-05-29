@@ -262,9 +262,22 @@ INTERACTIVE_JS = """
 """
 
 
-CSS_VER = "v4"
+CSS_VER = "v5"
 
-def _head(title, desc, css_path, fonts):
+SITE_URL = "https://s-yamanaka-droid.github.io/nowonair/"
+OG_IMAGE = SITE_URL + "assets/og-cover.png"  # 1200x630 OGPカバー
+
+def _head(title, desc, css_path, fonts, canonical=None, og_image=None, asset_prefix="./"):
+    canonical = canonical or SITE_URL
+    og_image = og_image or OG_IMAGE
+    jsonld = (
+        '{"@context":"https://schema.org","@type":"NewsMediaOrganization",'
+        '"name":"Now on AIr","alternateName":"ナウオンエアー",'
+        f'"url":"{SITE_URL}","logo":"{OG_IMAGE}",'
+        '"description":"AI業界のモーニングインテリジェンス。毎朝6:30に最新AIニュースを図解で配信。",'
+        '"founder":{"@type":"Person","name":"山中秀斗"},'
+        '"publisher":{"@type":"Organization","name":"TREPRO"}}'
+    )
     return f"""<!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -272,6 +285,28 @@ def _head(title, desc, css_path, fonts):
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <title>{title}</title>
 <meta name="description" content="{desc}" />
+<link rel="canonical" href="{canonical}" />
+<meta name="robots" content="index,follow" />
+<meta name="theme-color" content="#CE1141" />
+<meta name="referrer" content="strict-origin-when-cross-origin" />
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: https:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; script-src 'self' 'unsafe-inline'; base-uri 'self'" />
+<!-- OGP -->
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Now on AIr" />
+<meta property="og:title" content="{title}" />
+<meta property="og:description" content="{desc}" />
+<meta property="og:url" content="{canonical}" />
+<meta property="og:image" content="{og_image}" />
+<meta property="og:locale" content="ja_JP" />
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="{title}" />
+<meta name="twitter:description" content="{desc}" />
+<meta name="twitter:image" content="{og_image}" />
+<!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="{asset_prefix}assets/favicon.svg" />
+<link rel="apple-touch-icon" href="{asset_prefix}assets/favicon.svg" />
+<script type="application/ld+json">{jsonld}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="{fonts}" rel="stylesheet">
@@ -499,11 +534,20 @@ def build_index(all_dates: list[str], today_articles: list[dict], today_str: str
   </div>
 </div>"""
 
-    # ── colophon ──
+    # ── colophon + 運営者フッター（法的対応）──
     colophon = f"""<div class="colophon">
   <div class="left"><b>Now on <span class="brand-ai">AI</span>r</b> · AI Morning Intelligence · 山中秀斗 / TREPRO</div>
   <div class="right">{today_str} · BUILD {dt.strftime('%Y%m%d')}.0715</div>
-</div>"""
+</div>
+<footer class="site-footer" style="border-top:1px solid var(--rule-2);padding:32px 24px;margin-top:40px;font-family:'JetBrains Mono',monospace;font-size:12px;color:var(--mute);line-height:1.9;text-align:center;">
+  <div style="margin-bottom:10px;">
+    <a href="./privacy.html" style="color:var(--mute);margin:0 10px;text-decoration:none;border-bottom:1px solid var(--rule-2);">プライバシーポリシー</a>
+    <a href="./cases.html" style="color:var(--mute);margin:0 10px;text-decoration:none;border-bottom:1px solid var(--rule-2);">AI活用事例</a>
+    <a href="./weekly.html" style="color:var(--mute);margin:0 10px;text-decoration:none;border-bottom:1px solid var(--rule-2);">週次ダイジェスト</a>
+  </div>
+  <div>運営：株式会社TREPRO（編集責任者：山中秀斗）</div>
+  <div>© {dt.strftime('%Y')} Now on AIr / TREPRO. All rights reserved.</div>
+</footer>"""
 
     html = _head(
         "Now on AIr — AI Morning Intelligence",
@@ -534,27 +578,39 @@ def _build_today_grid(articles, date_str, img_dir, root="../../"):
     img_root = f"{root}assets/images/{date_str}"
 
     html = """<style>
-/* ── Image Gallery ── */
+/* ── News Card Grid ── */
 .ig-wrap{max-width:1400px;margin:0 auto;padding:0 24px 40px;}
 .ig-featured{margin-bottom:20px;}
-.ig-featured .ig-img-link{display:block;cursor:pointer;}
-.ig-featured img{width:100%;display:block;border:2px solid var(--rule-2);transition:border-color .2s;}
-.ig-featured .ig-img-link:hover img{border-color:var(--red);}
-.ig-featured .ig-bar{display:flex;align-items:center;gap:10px;padding:10px 0 0;}
 .ig-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;}
 @media(max-width:900px){.ig-grid{grid-template-columns:repeat(2,1fr);}}
 @media(max-width:560px){.ig-grid{grid-template-columns:1fr;}}
-.ig-card{cursor:pointer;border:1px solid var(--rule-2);transition:border-color .2s,transform .18s,box-shadow .2s;}
-.ig-card:hover{border-color:var(--red);transform:translate(-2px,-2px);box-shadow:4px 4px 0 var(--red);}
-.ig-card .ig-img-link{display:block;}
-.ig-card img{width:100%;display:block;}
-.ig-bar{display:flex;align-items:center;gap:8px;padding:8px 10px;border-top:1px solid var(--rule-2);}
-.ig-num{font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:800;color:var(--red);}
-.ig-cat{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--mute);}
-.ig-src{font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--mute);margin-left:auto;}
-.ig-no-img{padding:28px 20px;background:var(--paper-2);border:1px solid var(--rule-2);}
-.ig-no-img .ig-no-cat{font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--red);margin-bottom:8px;letter-spacing:.1em;text-transform:uppercase;}
-.ig-no-img .ig-no-title{font-family:'Barlow Condensed','Noto Sans JP',sans-serif;font-size:22px;font-weight:900;line-height:1.25;}
+
+/* カード共通 */
+.nc{cursor:pointer;border:1px solid var(--rule-2);transition:border-color .2s,transform .18s,box-shadow .2s;overflow:hidden;background:var(--paper);}
+.nc:hover{border-color:var(--red);transform:translate(-2px,-2px);box-shadow:4px 4px 0 var(--red);}
+.nc a{display:block;text-decoration:none;color:inherit;}
+
+/* カード内部 */
+.nc-head{background:linear-gradient(135deg,#0d0d1a 0%,#1a1a2e 60%,#16213e 100%);padding:24px 24px 20px;position:relative;overflow:hidden;}
+.nc-head::after{content:'';position:absolute;top:-40px;right:-30px;width:140px;height:140px;border-radius:50%;background:radial-gradient(circle,rgba(206,17,65,.1),transparent 70%);}
+.nc-meta{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;position:relative;z-index:1;}
+.nc-num{font-family:var(--mono);font-size:11px;font-weight:800;color:rgba(255,255,255,.35);letter-spacing:.1em;}
+.nc-cat{font-family:var(--mono);font-size:9px;font-weight:700;color:#CE1141;letter-spacing:1.5px;text-transform:uppercase;background:rgba(206,17,65,.15);border:1px solid rgba(206,17,65,.25);padding:3px 10px;border-radius:100px;}
+.nc-title{font-family:var(--display),var(--sans);font-size:20px;font-weight:900;color:#fff;line-height:1.3;position:relative;z-index:1;}
+.nc-body{padding:16px 20px 12px;}
+.nc-lede{font-size:13px;color:var(--mute);line-height:1.6;margin-bottom:10px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;}
+.nc-kps{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px;}
+.nc-kp{font-family:var(--mono);font-size:9px;letter-spacing:.05em;color:var(--ink-2);background:var(--paper-2);padding:3px 8px;border-radius:3px;border-left:2px solid var(--red);}
+.nc-foot{display:flex;align-items:center;gap:8px;padding:8px 16px;border-top:1px solid var(--rule);}
+.nc-src{font-family:var(--mono);font-size:10px;color:var(--mute);}
+.nc-read{font-family:var(--mono);font-size:10px;font-weight:700;color:var(--red);margin-left:auto;letter-spacing:.08em;}
+
+/* フィーチャード（1番目） */
+.nc-feat .nc-head{padding:36px 36px 28px;}
+.nc-feat .nc-title{font-size:28px;}
+.nc-feat .nc-body{padding:20px 28px 14px;}
+.nc-feat .nc-lede{font-size:15px;-webkit-line-clamp:3;}
+.nc-feat .nc-kp{font-size:10px;}
 </style>
 <div class="ig-wrap">\n"""
 
@@ -586,53 +642,35 @@ def _build_today_grid(articles, date_str, img_dir, root="../../"):
             f'data-slide="{slide_rel if slide_exists else ""}"'
         )
 
+        # キーポイントタグ（最大3つ）
+        kps = a.get("keypoints", [])[:3]
+        kp_tags = "".join(f'<span class="nc-kp">{k[:20]}</span>' for k in kps)
+        lede_esc = lede.replace('"', '&quot;')
+        num = str(i).zfill(2)
+
+        card_inner = f"""<a href="{detail_url}">
+      <div class="nc-head">
+        <div class="nc-meta"><span class="nc-num">{num}</span><span class="nc-cat">{category}</span></div>
+        <div class="nc-title">{title}</div>
+      </div>
+      <div class="nc-body">
+        <div class="nc-lede">{lede_esc}</div>
+        <div class="nc-kps">{kp_tags}</div>
+      </div>
+    </a>
+    <div class="nc-foot">
+      <span class="nc-src">{source}</span>
+      <span class="nc-read">READ →</span>
+    </div>"""
+
         if i == 1:
-            # ── フィーチャード（画面幅フル） ──
-            if slide_exists:
-                html += f"""<div class="ig-featured" {data_attrs}>
-  <a href="{detail_url}" class="ig-img-link zoom-image" data-src="{slide_rel}" data-alt="{title}">
-    <img src="{slide_rel}" alt="{title}" loading="lazy" />
-  </a>
-  <div class="ig-bar">
-    <span class="ig-num">01</span>
-    <span class="ig-cat">{category}</span>
-    <span class="ig-src">{source}</span>
-    <a href="{detail_url}" style="margin-left:16px;font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;color:var(--red);text-decoration:none;letter-spacing:.08em;">READ →</a>
-  </div>
-</div>
-<div class="ig-grid">\n"""
-            else:
-                html += f"""<div class="ig-featured" {data_attrs}>
-  <a href="{detail_url}" style="display:block;text-decoration:none;color:inherit;">
-    <div class="ig-no-img"><div class="ig-no-cat">{category}</div><div class="ig-no-title">{title}</div></div>
-  </a>
-  <div class="ig-bar"><span class="ig-num">01</span><span class="ig-cat">{category}</span><span class="ig-src">{source}</span></div>
+            html += f"""<div class="nc nc-feat ig-featured" {data_attrs}>
+    {card_inner}
 </div>
 <div class="ig-grid">\n"""
         else:
-            # ── グリッドカード ──
-            if slide_exists:
-                html += f"""  <div class="ig-card" {data_attrs}>
-    <a href="{detail_url}" class="ig-img-link zoom-image" data-src="{slide_rel}" data-alt="{title}">
-      <img src="{slide_rel}" alt="{title}" loading="lazy" />
-    </a>
-    <div class="ig-bar">
-      <span class="ig-num">{str(i).zfill(2)}</span>
-      <span class="ig-cat">{category}</span>
-      <span class="ig-src">{source}</span>
-    </div>
-  </div>
-"""
-            else:
-                html += f"""  <div class="ig-card" {data_attrs}>
-    <a href="{detail_url}" style="display:block;text-decoration:none;color:inherit;">
-      <div class="ig-no-img"><div class="ig-no-cat">{category}</div><div class="ig-no-title">{title}</div></div>
-    </a>
-    <div class="ig-bar">
-      <span class="ig-num">{str(i).zfill(2)}</span>
-      <span class="ig-cat">{category}</span>
-      <span class="ig-src">{source}</span>
-    </div>
+            html += f"""  <div class="nc ig-card" {data_attrs}>
+    {card_inner}
   </div>
 """
 
@@ -785,6 +823,9 @@ def build_daily_page(date_str: str, articles: list[dict], issue_num: int = None)
         f"{date_str} の Now on AIr モーニングディスパッチ — {len(articles)}本のAI業界ニュース。",
         "../../assets/vigil.css",
         FONTS_VIGIL,
+        canonical=f"{SITE_URL}news/{date_str}/",
+        og_image=f"{SITE_URL}assets/images/{date_str}/topic_1.png",
+        asset_prefix="../../",
     ) + DAILY_CSS + f"""
 {dispatch}
 {nav}

@@ -1,20 +1,17 @@
 """
 VIGIL — Main Pipeline
-RSS → Haiku要約 → Geminiスライド → HTML生成 → GitHub push
+RSS(329) + API(HN/Reddit/GitHub/PH) → Gemini要約 → CSSカード → HTML → push
+スライド画像生成廃止。CSSカードで直接表示。コスト $0。
 """
 import sys
 import logging
 from datetime import datetime
 from pathlib import Path
-import concurrent.futures
 
-RESEARCHER_PATH = Path.home() / "agents/cmo/x_agent"
-sys.path.insert(0, str(RESEARCHER_PATH))
 sys.path.insert(0, str(Path(__file__).parent))
 
-from researcher import fetch_latest, mark_seen
+from collector import fetch_all, mark_seen
 from generator import generate_articles
-from slide_maker import generate_slide
 from html_builder import build_daily_page, build_index, SITE_DIR
 from deploy import git_push
 from social_poster import post_dispatch
@@ -36,36 +33,17 @@ def run(date_str: str = None, dry_run: bool = False, skip_slides: bool = False, 
     date_str = date_str or datetime.now().strftime("%Y-%m-%d")
     log.info(f"=== VIGIL {date_str} ===")
 
-    # 1. RSS収集（元記事本文も取得）
-    log.info("1. RSS収集 + 本文取得")
-    raw = fetch_latest(max_per_feed=4, fetch_body=True)
-    log.info(f"   {len(raw)}件取得（本文付き）")
+    # 1. 多層ソース収集（RSS 329件 + API 4ソース・並列）
+    log.info("1. ソース収集（RSS 329 + HN/Reddit/GitHub/PH）")
+    raw = fetch_all(max_per_feed=2, fetch_body=True)
 
-    # 2. Haiku要約
-    log.info("2. 記事生成（Haiku）")
+    # 2. 記事要約（Gemini Flash）
+    log.info("2. 記事生成（Gemini Flash）")
     articles = generate_articles(raw)
     log.info(f"   {len(articles)}件生成")
 
-    # 3. スライド生成（Codex CLI・直列。並列は stream disconnect するため）
-    if not skip_slides:
-        log.info("3. スライド生成（Codex CLI）")
-        img_dir = SITE_DIR / "assets" / "images" / date_str
-        img_dir.mkdir(parents=True, exist_ok=True)
-
-        results = []
-        for i, a in enumerate(articles, 1):
-            out = img_dir / f"topic_{i}.png"
-            if out.exists():
-                results.append((i, True)); continue
-            ok = generate_slide(
-                title=a["title"], category=a.get("category",""),
-                source=a.get("source",""), summary=a.get("lede",""),
-                keypoints=a.get("keypoints",[]), output_path=out,
-            )
-            log.info(f"   slide {i}/{len(articles)}: {'OK' if ok else 'FAIL'}")
-            results.append((i, ok))
-        ok_count = sum(1 for _, ok in results if ok)
-        log.info(f"   {ok_count}/{len(articles)}枚生成完了")
+    # 3. CSSカード表示（画像生成不要・コスト$0）
+    log.info("3. スライド画像生成スキップ（CSSカードに移行済み）")
 
     # 4. HTML生成
     log.info("4. HTML生成")
@@ -113,6 +91,5 @@ def run(date_str: str = None, dry_run: bool = False, skip_slides: bool = False, 
 
 if __name__ == "__main__":
     dry          = "--dry" in sys.argv
-    skip         = "--skip-slides" in sys.argv
     skip_social  = "--skip-social" in sys.argv
-    run(dry_run=dry, skip_slides=skip, skip_social=skip_social)
+    run(dry_run=dry, skip_social=skip_social)
