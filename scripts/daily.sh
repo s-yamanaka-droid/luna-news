@@ -26,17 +26,21 @@ python scripts/gen_quickstart.py "$TODAY" 2>&1 | tee -a "$LOG"
 echo "[3/4] weekly digest 更新" | tee -a "$LOG"
 python scripts/gen_weekly.py 2>&1 | tee -a "$LOG"
 
-echo "[4/5] HTML 再ビルド + push" | tee -a "$LOG"
+echo "[4/7] HTML 再ビルド" | tee -a "$LOG"
 python scripts/rebuild_all.py 2>&1 | tee -a "$LOG"
+
+echo "[5/7] GitHub push" | tee -a "$LOG"
 cd /Users/yamanakashuto/apps/vigil-news
 git add -A 2>&1 | tee -a "$LOG"
 git commit -m "daily: $TODAY — quickstart + weekly refresh" 2>&1 | tee -a "$LOG" || echo "no changes" | tee -a "$LOG"
 git push origin main 2>&1 | tee -a "$LOG"
 
-echo "[5/6] Slack #朝刊 通知" | tee -a "$LOG"
-python scripts/notify_slack.py "$TODAY" 2>&1 | tee -a "$LOG" || echo "Slack送信失敗（処理は継続）" | tee -a "$LOG"
+echo "[6/7] Vercel 本番デプロイ" | tee -a "$LOG"
+export PATH="$HOME/.npm-global/bin:$PATH"
+vercel deploy --prod --yes 2>&1 | tee -a "$LOG" || echo "Vercelデプロイ失敗（処理は継続）" | tee -a "$LOG"
 
-echo "[6/6] Obsidian vault 同期" | tee -a "$LOG"
+echo "[7/7] Slack #朝刊 通知 + Obsidian同期" | tee -a "$LOG"
+python scripts/notify_slack.py "$TODAY" 2>&1 | tee -a "$LOG" || echo "Slack送信失敗（処理は継続）" | tee -a "$LOG"
 python scripts/sync_obsidian.py "$TODAY" 2>&1 | tee -a "$LOG" || echo "Obsidian同期失敗（処理は継続）" | tee -a "$LOG"
 
 echo "=== 完了 $TODAY ===" | tee -a "$LOG"
