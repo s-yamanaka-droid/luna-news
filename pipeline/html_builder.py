@@ -311,6 +311,9 @@ def _head(title, desc, css_path, fonts, canonical=None, og_image=None, asset_pre
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="{fonts}" rel="stylesheet">
 <link rel="stylesheet" href="{css_path}?{CSS_VER}" />
+<!-- Vercel Analytics + Speed Insights（Cookie不要・プライバシー準拠）-->
+<script defer src="/_vercel/insights/script.js"></script>
+<script defer src="/_vercel/speed-insights/script.js"></script>
 </head>
 <body>"""
 
