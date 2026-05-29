@@ -32,7 +32,7 @@ p_idx = build_index(all_dates, latest_articles, latest_date)
 print(f"\nIndex → {p_idx}")
 
 # ── sitemap.xml 自動生成（SEO）──
-SITE = "https://s-yamanaka-droid.github.io/nowonair/"
+SITE = "https://nowonair.vercel.app/"
 from datetime import date as _date
 urls = [
     (SITE, "daily", "1.0"),

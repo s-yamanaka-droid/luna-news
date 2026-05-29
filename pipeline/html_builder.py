@@ -264,7 +264,7 @@ INTERACTIVE_JS = """
 
 CSS_VER = "v5"
 
-SITE_URL = "https://s-yamanaka-droid.github.io/nowonair/"
+SITE_URL = "https://nowonair.vercel.app/"
 OG_IMAGE = SITE_URL + "assets/og-cover.png"  # 1200x630 OGPカバー
 
 def _head(title, desc, css_path, fonts, canonical=None, og_image=None, asset_prefix="./"):
