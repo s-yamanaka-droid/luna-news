@@ -1,0 +1,41 @@
+{
+  "trend_summary": "生成AIモデルの性能・コスパが急速に改善し、小規模事業者でも本格導入の敷居が下がった週。Remote社の事例が示すように「人を増やさずAIで売上効率を上げる」流れが加速。税務・会計など専門業務のAI支援も実用段階に入り、士業コスト削減の道が開けている。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-05-29",
+      "title": "Anthropicの新AIモデル「Claude Opus 4.8」公開",
+      "category": "新モデル発表",
+      "source": "CNET Japan",
+      "why_picked": "コスパ改善で小規模でも高性能AIが即日使える",
+      "tldr": "Claude最新版、性能UP・コスト減",
+      "action": "現行AIをOpus 4.8に切替えて業務テスト",
+      "image": "../assets/images/2026-05-29/topic_2.png",
+      "link": "../news/2026-05-29/#topic-2"
+    },
+    {
+      "rank": 2,
+      "date": "2026-05-28",
+      "title": "Remote、AI導入で社員当たり収益5割増",
+      "category": "業界動向",
+      "source": "TechCrunch AI",
+      "why_picked": "人を増やさず売上効率5割増は少人数経営の理想形",
+      "tldr": "全社AI化で一人当たり収益50%増",
+      "action": "社員ごとのAI活用時間を計測開始",
+      "image": "../assets/images/2026-05-28/topic_6.png",
+      "link": "../news/2026-05-28/#topic-6"
+    },
+    {
+      "rank": 3,
+      "date": "2026-05-28",
+      "title": "Codexで税務AIが自ら改善",
+      "category": "ツール更新",
+      "source": "OpenAI Blog",
+      "why_picked": "税務・会計は全事業者必須、AI化で士業コスト削減",
+      "tldr": "会計士向け税務AIが実運用で自己改善",
+      "action": "顧問税理士へのFAQをAIで下書き整備",
+      "image": "../assets/images/2026-05-28/topic_8.png",
+      "link": "../news/2026-05-28/#topic-8"
+    }
+  ]
+}
