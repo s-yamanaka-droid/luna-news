@@ -1,0 +1,77 @@
+[
+  {
+    "title": "GitHub Copilot、従量課金制へ移行でコスト急増の懸念",
+    "category": "ツール更新",
+    "source": "TechCrunch AI",
+    "lede": "AIコーディング支援ツールGitHub Copilotが定額制からトークン従量課金制へ移行し、一部ユーザーから大幅なコスト増への不満が噴出しています。",
+    "keypoints": [
+      "GitHub Copilotの課金が6月1日から変更。",
+      "定額制からトークン使用量に応じた従量課金制に。",
+      "一部ユーザーは月額費用が最大25倍以上に急増と報告。",
+      "大企業は対応可能だが中小企業や個人開発者に影響大。"
+    ],
+    "pull": "AIツールのコスト構造変化は、企業のAI導入戦略や予算編成に直接的な影響を与えます。",
+    "bizapp": {
+      "summary": "AIツール導入時のコスト構造変化に注意し、費用対効果を再評価。",
+      "actions": [
+        "Copilot利用部署は新料金体系で試算し予算見直し。",
+        "AIツール導入検討企業へコスト変動リスクを提案。",
+        "AIツールのコスト最適化が事業継続の鍵となる。"
+      ]
+    },
+    "links": [
+      "https://techcrunch.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Amazon Bedrock、プロンプト最適化・移行ツールを発表",
+    "category": "ツール更新",
+    "source": "Amazon AWS News Blog",
+    "lede": "Amazon Bedrockが高度なプロンプト最適化・移行ツールを導入し、AIモデルの性能向上やコスト削減、マルチモーダル入力対応を支援します。",
+    "keypoints": [
+      "Amazon Bedrockにプロンプト最適化ツールが追加。",
+      "複数のAIモデルでプロンプト性能を比較・最適化可能。",
+      "画像やPDFなどのマルチモーダル入力にも対応。",
+      "評価指標に基づき、コストや応答速度も考慮し最適化。"
+    ],
+    "pull": "AIの性能とコスト効率を両立させるには、プロンプトの最適化が不可欠です。",
+    "bizapp": {
+      "summary": "AI活用時のプロンプト改善で、業務効率とコスト削減を両立。",
+      "actions": [
+        "ClaudeなどLLM利用部署でプロンプトを最適化し精度向上。",
+        "AI導入企業へプロンプト設計・最適化サービスを提案。",
+        "AIの費用対効果を最大化する実用的な機能。"
+      ]
+    },
+    "links": [
+      "https://aws.amazon.com/blogs/aws/amazon-bedrock-introduces-new-advanced-prompt-optimization-and-migration-tool/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AWS Transform 1周年、Claude PlatformがAWSで利用可能に",
+    "category": "ツール更新",
+    "source": "Amazon AWS News Blog",
+    "lede": "AWS Transformが1周年を迎え、企業アプリケーションのモダナイゼーションを加速。さらに、AnthropicのAIモデル「Claude Platform」がAWS上で一般提供を開始しました。",
+    "keypoints": [
+      "AWS Transformが1周年、大規模アプリのモダナイゼーションを支援。",
+      "1年間で数千社が160万時間以上を節約、45億行のコードを処理。",
+      "AWS TransformエージェントがClaudeやCursorなどに対応。",
+      "AnthropicのClaude PlatformがAWSで一般提供開始。"
+    ],
+    "pull": "企業がAIを活用して既存システムを刷新し、新たな価値を創出する動きが加速しています。",
+    "bizapp": {
+      "summary": "既存システムのAI活用による刷新と、最新AIモデルの導入を検討。",
+      "actions": [
+        "レガシーシステムをAWS TransformでAI活用し刷新。",
+        "中小企業へClaudeを活用した業務自動化を提案。",
+        "AIによるシステム刷新と最新AIモデル利用が容易に。"
+      ]
+    },
+    "links": [
+      "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-transform-at-1-year-claude-platform-on-aws-ec2-m3-ultra-mac-instances-and-more-may-18-2026/"
+    ],
+    "likes": 0
+  }
+]
