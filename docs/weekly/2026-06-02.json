@@ -1,0 +1,41 @@
+{
+  "trend_summary": "大手AIモデルのクラウド展開が加速し、中小でも高性能AIが手軽に使える環境が整った。画像生成AIの品質が飛躍的に向上し、販促コンテンツ制作のコストが激減。日常業務ツールへのAI統合が進み、専門知識なしでもAI活用が可能になった週。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-06-02",
+      "title": "Microsoft 365 Copilot新デザインでExcel利用33%増",
+      "category": "ツール更新",
+      "source": "ITmedia Enterprise",
+      "why_picked": "Excel集計は全事業者共通。AI補助で即日から時短効果が出る",
+      "tldr": "Excel AIが刷新、利用率33%増",
+      "action": "ExcelでCopilotを有効化し集計を試す",
+      "image": "../assets/images/2026-06-02/topic_6.png",
+      "link": "../news/2026-06-02/#topic-6"
+    },
+    {
+      "rank": 2,
+      "date": "2026-05-30",
+      "title": "デザインセンスを持つ画像生成AI「Recraft V4」登場",
+      "category": "ツール更新",
+      "source": "Replicate Blog",
+      "why_picked": "デザイナー不要でプロ品質の販促画像が即日作れる",
+      "tldr": "構図と色彩を理解する画像生成AI登場",
+      "action": "Recraft V4で自社の販促画像を1枚作る",
+      "image": "../assets/images/2026-05-30/topic_3.png",
+      "link": "../news/2026-05-30/#topic-3"
+    },
+    {
+      "rank": 3,
+      "date": "2026-05-30",
+      "title": "Anthropic、金融特化型AIエージェントをClaudeに導入",
+      "category": "ツール更新",
+      "source": "The Register AI/ML",
+      "why_picked": "月次の売上・経費分析を自動化し経営判断が速くなる",
+      "tldr": "Claude向け金融AIエージェント公開",
+      "action": "月次の財務レポート作成をClaudeで試す",
+      "image": "../assets/images/2026-05-30/topic_5.png",
+      "link": "../news/2026-05-30/#topic-5"
+    }
+  ]
+}
