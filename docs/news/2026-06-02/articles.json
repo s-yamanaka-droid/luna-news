@@ -1,0 +1,205 @@
+[
+  {
+    "title": "OpenAIの最新AIモデルがAWSで利用可能に",
+    "category": "ツール更新",
+    "source": "Amazon AWS News Blog / OpenAI Blog",
+    "lede": "OpenAIの最新大規模言語モデル（LLM）GPT-5.5/5.4とコーディングAI「Codex」が、Amazon Bedrockを通じてAWS環境で利用可能になりました。",
+    "keypoints": [
+      "GPT-5.5/5.4がAWS Bedrockで提供開始",
+      "コーディングAI「Codex」も利用可能に",
+      "企業は既存AWS環境でOpenAIモデルを導入",
+      "セキュリティ、コンプライアンス、請求連携が容易"
+    ],
+    "pull": "企業は既存のAWS環境とセキュリティでOpenAIの最先端AIを導入でき、AI活用の障壁が大きく下がります。",
+    "bizapp": {
+      "summary": "企業がOpenAIの最新AIを安全かつ迅速に導入し、開発効率を大幅に向上できます。",
+      "actions": [
+        "社内活用例：Codexで開発業務のコード生成・レビューを効率化",
+        "他社提案例：AWS利用企業へOpenAIモデル活用によるDX推進を提案",
+        "注目理由：主要AIモデルの導入障壁が下がり、開発競争が加速するため"
+      ]
+    },
+    "links": [
+      "https://aws.amazon.com/blogs/aws/get-started-with-openai-gpt-5-5-gpt-5-4-models-and-codex-on-amazon-bedrock",
+      "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AnthropicのClaude Opus 4.8がAWSで提供開始",
+    "category": "ツール更新",
+    "source": "Amazon AWS News Blog",
+    "lede": "Anthropicの高性能大規模言語モデル（LLM）「Claude Opus 4.8」がAmazon Bedrockを通じてAWSで利用可能となり、AIを活用した開発サイクルを加速させます。",
+    "keypoints": [
+      "Anthropicの最上位モデルがAWSに登場",
+      "Amazon Bedrock経由で利用可能",
+      "AIを活用した開発（AI-DLC）を加速",
+      "ソフトウェア開発チームの変革を促進"
+    ],
+    "pull": "Anthropicの最先端AIがAWSで使えることで、企業はAIを活用した開発をさらに加速させ、ビジネスの変革を推進できます。",
+    "bizapp": {
+      "summary": "主要なAIモデルをAWS上で活用し、開発プロセスや業務効率を飛躍的に向上できます。",
+      "actions": [
+        "社内活用例：Claude Codeで複雑なコード生成やデバッグを支援",
+        "他社提案例：AWS顧客にClaude Opus 4.8を活用した新サービス開発を提案",
+        "注目理由：主要AIモデルの選択肢が広がり、企業競争力に直結するため"
+      ]
+    },
+    "links": [
+      "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-claude-opus-4-8-on-aws-aurora-mysql-with-kiro-powers-and-more-june-1-2026/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Alphabet、AIインフラ投資で800億ドル調達へ",
+    "category": "業界動向",
+    "source": "TechCrunch AI / The Information / CNBC Tech",
+    "lede": "Googleの親会社Alphabetが、AIインフラと計算能力の増強のため、株式売却で800億ドル（約12.5兆円）を調達する計画を発表しました。",
+    "keypoints": [
+      "AIインフラ構築に巨額投資を計画",
+      "株式売却で800億ドルを調達予定",
+      "AIソリューションへの需要が供給を上回る",
+      "バークシャー・ハサウェイが100億ドル投資"
+    ],
+    "pull": "AIへの需要が供給を上回る中、Alphabetの巨額投資はAI市場の成長性と競争の激化を示しています。",
+    "bizapp": {
+      "summary": "AI市場の急成長と競争激化を理解し、自社のAI戦略と投資計画を見直す機会です。",
+      "actions": [
+        "社内活用例：AI関連予算の確保や投資計画の再検討を経営層に提案",
+        "他社提案例：AIインフラ関連企業へ協業やソリューション提供を提案",
+        "注目理由：AIが今後のビジネス成長の最重要ドライバーであるため"
+      ]
+    },
+    "links": [
+      "https://techcrunch.com/2026/06/01/alphabet-plans-to-raise-80-billion-to-pay-for-ai-buildout/",
+      "https://www.theinformation.com/briefings/google-raise-80-billion-ai-spending-employee-equity",
+      "https://www.cnbc.com/2026/06/01/alphabet-to-raise-80-billion-from-stock-sales-to-fund-ai-buildout.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Anthropic、史上最大規模のIPOを秘密裏に申請",
+    "category": "業界動向",
+    "source": "Wired AI",
+    "lede": "大規模言語モデル「Claude」を開発するAnthropicが、評価額9650億ドル（約150兆円）規模となる可能性のある新規株式公開（IPO）を秘密裏に申請しました。",
+    "keypoints": [
+      "AnthropicがIPOの秘密裏申請を発表",
+      "評価額は9650億ドルに達する可能性",
+      "AI研究開発の巨額資金調達競争が激化",
+      "OpenAIやxAIもIPOを計画中"
+    ],
+    "pull": "AI企業の評価額が天文学的な数字に達し、巨額の資金調達が業界の競争をさらに加速させます。",
+    "bizapp": {
+      "summary": "AI業界への資金流入の勢いを把握し、自社のAI投資や提携戦略を検討する上で重要です。",
+      "actions": [
+        "社内活用例：AI関連市場の動向分析を経営企画部門と連携して実施",
+        "他社提案例：AIスタートアップへの投資やM&Aの可能性を提案",
+        "注目理由：AI企業の成長が経済全体に大きな影響を与えるため"
+      ]
+    },
+    "links": [
+      "https://www.wired.com/story/anthropic-files-s1-ipo-sec/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "フロリダ州、OpenAIとCEOを提訴「ChatGPTは危険」",
+    "category": "業界動向",
+    "source": "ITmedia News",
+    "lede": "米フロリダ州がOpenAIとサム・アルトマンCEOを提訴し、ChatGPTが安全警告を無視して導入され、未成年者を危険にさらしたと主張しています。",
+    "keypoints": [
+      "フロリダ州がOpenAIとCEOを提訴",
+      "ChatGPTが未成年者を危険にさらすと主張",
+      "自殺誘導や銃乱射事件幇助の可能性を指摘",
+      "安全に関する警告を無視したと非難"
+    ],
+    "pull": "AIの安全性と倫理に関する法的リスクが顕在化。企業はAI導入時のリスク管理を徹底する必要があります。",
+    "bizapp": {
+      "summary": "AI導入における法的・倫理的リスクを認識し、適切なガバナンス体制構築の必要性を再確認すべきです。",
+      "actions": [
+        "社内活用例：AI利用ガイドラインの策定や従業員への倫理研修を強化",
+        "他社提案例：AIの安全性評価やコンプライアンス支援サービスを提案",
+        "注目理由：AIの規制強化や訴訟リスクがビジネスに直結するため"
+      ]
+    },
+    "links": [
+      "https://www.itmedia.co.jp/news/articles/2606/02/news063.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Microsoft 365 Copilot新デザインでExcel利用33%増",
+    "category": "ツール更新",
+    "source": "ITmedia Enterprise",
+    "lede": "Microsoft 365 Copilotの新デザインが発表され、操作性向上と特化型エージェントの導入により、ExcelでのCopilot利用率が33%増加しました。",
+    "keypoints": [
+      "Microsoft 365 Copilotが新デザインに",
+      "操作性向上と特化型エージェントを導入",
+      "ExcelでのCopilot利用率が33%増加",
+      "ユーザーの業務効率化を加速"
+    ],
+    "pull": "日常業務で使うExcelでのAI活用が大幅に進展。ビジネスパーソンの生産性向上に直結する変化です。",
+    "bizapp": {
+      "summary": "Microsoft 365 Copilotの活用で、Excelをはじめとする日常業務の生産性を大幅に向上できます。",
+      "actions": [
+        "社内活用例：Copilotを活用したExcelデータ分析・レポート作成を推進",
+        "他社提案例：中小企業向けにCopilot導入によるバックオフィス効率化を提案",
+        "注目理由：既存ツールでのAI活用が業務変革の鍵となるため"
+      ]
+    },
+    "links": [
+      "https://www.itmedia.co.jp/enterprise/articles/2606/02/news028.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Nvidia、AIエージェントPC向け新CPU「RTX Spark」発表",
+    "category": "業界動向",
+    "source": "TechCrunch AI",
+    "lede": "NvidiaがAIエージェントを安全に実行できる新CPU「RTX Spark」を発表し、Microsoft、Dell、HPなどが対応AI PCを今秋発売予定です。",
+    "keypoints": [
+      "Nvidiaが新CPU「RTX Spark」を発表",
+      "AIエージェントPC市場に本格参入",
+      "Microsoft、Dell、HPなどが対応PC発売",
+      "ローカルでのAIエージェント安全実行を強化"
+    ],
+    "pull": "AIエージェントがPCで安全かつ高速に動く時代が到来。私たちの働き方が根本から変わる可能性を秘めています。",
+    "bizapp": {
+      "summary": "AIエージェントを搭載したPCの普及により、個人の生産性向上と新たなビジネス機会が生まれます。",
+      "actions": [
+        "社内活用例：AIエージェントPCの導入検討と業務効率化への応用を検証",
+        "他社提案例：AIエージェントを活用した業務支援ソリューションを提案",
+        "注目理由：エッジAIの進化が働き方やビジネスモデルを変革するため"
+      ]
+    },
+    "links": [
+      "https://techcrunch.com/2026/06/01/nvidia-chases-200b-cpu-market-with-ai-agent-pcs-from-microsoft-dell-and-hp/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "ServiceNow CEO「AIはSaaSの敵ではない」と強調",
+    "category": "業界動向",
+    "source": "ITmedia Enterprise",
+    "lede": "ServiceNowのビル・マクダーモットCEOは、「AIはSaaSを不要にするものではなく、むしろSaaSがなければ企業はAIを活用できない」とSaaS終焉論に反論しました。",
+    "keypoints": [
+      "AIによるSaaS終焉論に反論",
+      "AIは思考するが行動作為はできないと指摘",
+      "SaaSがAI活用に不可欠と主張",
+      "他社製AIも一元管理する新構想を発表"
+    ],
+    "pull": "AIはSaaSを代替するのではなく、SaaSがAIの行動を管理し、企業に価値をもたらすための基盤となるのです。",
+    "bizapp": {
+      "summary": "AIとSaaSは共存し、SaaSがAIの行動を管理する基盤となるため、既存SaaSの価値は高まります。",
+      "actions": [
+        "社内活用例：既存SaaSとAI連携による業務自動化の可能性を検討",
+        "他社提案例：SaaS導入企業へAI連携による付加価値向上を提案",
+        "注目理由：AI時代におけるSaaSの役割とビジネスモデルを理解するため"
+      ]
+    },
+    "links": [
+      "https://www.itmedia.co.jp/enterprise/articles/2606/02/news027.html"
+    ],
+    "likes": 0
+  }
+]
