@@ -100,10 +100,13 @@ def _codex_generate(title, category, source, summary, keypoints, output_path):
         output_path.unlink()
     prompt = _build_prompt(title, category, source, summary, keypoints, output_path)
     try:
+        # cwd を output_path の親のさらに親（リポルート相当）にして workspace-write の書込許可範囲に含める
+        codex_cwd = str(output_path.parent.parent.parent)  # docs/assets/images/<date>/topic_X.png → リポ直下
         proc = subprocess.run(
             [CODEX_BIN, "exec", "--skip-git-repo-check",
-             "--sandbox", "workspace-write", prompt],
-            cwd="/tmp", capture_output=True, text=True, timeout=CODEX_TIMEOUT,
+             "--sandbox", "workspace-write",
+             "--cd", codex_cwd, prompt],
+            cwd=codex_cwd, capture_output=True, text=True, timeout=CODEX_TIMEOUT,
         )
         if output_path.exists() and output_path.stat().st_size > 8000:
             return True
