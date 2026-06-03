@@ -148,6 +148,18 @@ RSS_FEEDS: list[tuple[str, str]] = [
     ("Forbes JAPAN テック",          "https://forbesjapan.com/feat/tech/feed/atom"),
     ("Wired Japan",                 "https://wired.jp/feed/"),
     ("AMP (現代ビジネスxテック)",     "https://ampmedia.jp/feed/"),
+    ("Business Insider Japan",       "https://www.businessinsider.jp/feed/index.xml"),
+
+    # ── 日本語AI/DX専門メディア（追加 2026-06-03 国内強化）──
+    ("AIsmiley (AI業界専門)",         "https://aismiley.co.jp/feed/"),
+    ("MarkeZine (マーケ×AI)",         "https://markezine.jp/rss/new/index.xml"),
+    ("MONOist (製造業AI/DX)",         "https://rss.itmedia.co.jp/rss/2.0/monoist.xml"),
+    ("ビジネス+IT (BIT/SBクリエイティブ)", "https://www.sbbit.jp/rss/HotTopics.rss"),
+    ("WirelessWire News (技術×政策)",  "https://wirelesswire.jp/feed/"),
+    ("DXマガジン",                     "https://dxmagazine.jp/feed/"),
+    ("BRIDGE AIカテゴリ",             "https://thebridge.jp/category/ai/feed"),
+    ("RIKEN AIP (理研AI研究)",        "https://aip.riken.jp/feed/"),
+    ("日経電子版 AI検索",              "https://www.nikkei.com/news/category/?bn=10&kw=AI&via=rss"),
 
     # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
     # 開発者・エンジニア向け
