@@ -67,7 +67,7 @@ def _build_prompt(title, category, source, summary, keypoints, output_path):
 
 def _codex_generate(title, category, source, summary, keypoints, output_path):
     """Codex CLI 経由で PIL/Python コード生成 → PNG 保存"""
-    output_path = Path(output_path)
+    output_path = Path(output_path).resolve()   # ← 絶対パスに強制（cwd=/tmp 罠回避）
     output_path.parent.mkdir(parents=True, exist_ok=True)
     if output_path.exists():
         output_path.unlink()
