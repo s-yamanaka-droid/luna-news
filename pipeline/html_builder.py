@@ -660,8 +660,10 @@ def _build_today_grid(articles, date_str, img_dir, root="../../"):
         source     = a.get("source", "")
         lede       = a.get("lede", "")
         detail_url = f"{root}news/{date_str}/#topic-{i}"
-        slide_rel  = f"{img_root}/topic_{i}.png"
-        slide_exists = (img_dir / f"topic_{i}.png").exists()
+        slide_path = img_dir / f"topic_{i}.png"
+        slide_exists = slide_path.exists()
+        slide_ver  = int(slide_path.stat().st_mtime) if slide_exists else 0
+        slide_rel  = f"{img_root}/topic_{i}.png?v={slide_ver}"
 
         kp_json    = _json.dumps(a.get("keypoints", []), ensure_ascii=False).replace('"', '&quot;')
         pull_esc   = a.get("pull","").replace('"','&quot;')
@@ -781,8 +783,10 @@ def build_daily_page(date_str: str, articles: list[dict], issue_num: int = None)
     # ── articles ──
     topics_html = ""
     for i, a in enumerate(articles, 1):
-        slide_rel    = f"../../assets/images/{date_str}/topic_{i}.png"
-        slide_exists = (img_dir / f"topic_{i}.png").exists()
+        slide_path   = img_dir / f"topic_{i}.png"
+        slide_exists = slide_path.exists()
+        slide_ver    = int(slide_path.stat().st_mtime) if slide_exists else 0
+        slide_rel    = f"../../assets/images/{date_str}/topic_{i}.png?v={slide_ver}"
         slide_html   = ""
         if slide_exists:
             slide_html = (
@@ -864,7 +868,7 @@ def build_daily_page(date_str: str, articles: list[dict], issue_num: int = None)
         "../../assets/vigil.css",
         FONTS_VIGIL,
         canonical=f"{SITE_URL}news/{date_str}/",
-        og_image=f"{SITE_URL}assets/images/{date_str}/topic_1.png",
+        og_image=f"{SITE_URL}assets/images/{date_str}/topic_1.png?v={int((img_dir / 'topic_1.png').stat().st_mtime) if (img_dir / 'topic_1.png').exists() else 0}",
         asset_prefix="../../",
     ) + DAILY_CSS + f"""
 {dispatch}
