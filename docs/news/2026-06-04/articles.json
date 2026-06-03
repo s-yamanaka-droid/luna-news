@@ -1,0 +1,79 @@
+[
+  {
+    "title": "Google、AI事業に過去最高の850億ドル投資へ",
+    "category": "業界動向",
+    "source": "TechCrunch AI",
+    "lede": "Googleの親会社AlphabetがAI事業向けに850億ドル（約13兆円）という記録的な資金調達を計画しており、投資家のAIへの旺盛な食欲を示しています。",
+    "keypoints": [
+      "当初400億ドルを予定も応募殺到で450億ドル調達",
+      "バークシャー・ハサウェイも100億ドル出資",
+      "来四半期にさらに400億ドル調達し総額850億ドルに",
+      "AI分野への大規模な資金流入を示唆"
+    ],
+    "pull": "「Alphabetの記録的な資金調達は、投資家がAI関連事業に飢えていることを明確に示している。」",
+    "bizapp": {
+      "summary": "AI市場への大規模投資が加速し、競争激化と技術革新を促す。",
+      "actions": [
+        "Google Cloud AIの最新機能動向を注視し、業務効率化に活用",
+        "AI関連スタートアップへの投資機会を検討、技術提携を提案",
+        "AI市場の成長性が改めて確認され、競合も追随する可能性"
+      ]
+    },
+    "links": [
+      "https://techcrunch.com/2026/06/03/alphabets-record-breaking-85b-raise-for-googles-ai-business-is-a-helluva-good-signal/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "MicrosoftとNVIDIA、AI特化型次世代PCを発表",
+    "category": "新モデル発表",
+    "source": "ITmedia Enterprise / The Verge / Impress PC Watch",
+    "lede": "MicrosoftとNVIDIAが共同で、最大1ペタフロップス級のAI処理性能を持つ「NVIDIA RTX Spark」搭載の次世代Windows PCを発表。ローカルAI活用を加速させます。",
+    "keypoints": [
+      "NVIDIA RTX Sparkチップ搭載でAI処理能力が大幅向上",
+      "Windows OSもAI処理に最適化され、ローカルAIエージェントを強化",
+      "開発者やクリエイターだけでなく一般ユーザーも対象",
+      "NVIDIAは将来のN2X、N3Xチップも計画し「スター・トレック」のようなAIを目指す"
+    ],
+    "pull": "「AIエージェントをローカルで動かす新PCは、ビジネスの現場に新たな効率と可能性をもたらすだろう。」",
+    "bizapp": {
+      "summary": "高性能AI PCの登場で、機密データを社内処理するAI活用が加速。",
+      "actions": [
+        "RTX Spark搭載PCを導入し、機密文書の要約やデータ分析をローカルAIで実行",
+        "中小企業向けにAI PCを活用したデータ分析支援サービスを提案",
+        "データセキュリティを確保しつつ、AI活用を全社展開する基盤となる"
+      ]
+    },
+    "links": [
+      "https://www.itmedia.co.jp/enterprise/articles/2606/04/news017.html",
+      "https://www.theverge.com/tech/942588/nvidia-rtx-spark-n2x-n3x-r2-d2-star-trek-star-wars-plan",
+      "https://pc.watch.impress.co.jp/docs/news/event/2114260.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "SpaceX、AI資金調達含む750億ドルIPOを計画",
+    "category": "業界動向",
+    "source": "Bloomberg Technology",
+    "lede": "イーロン・マスク氏率いるSpaceXが、AI事業への資金調達を含む史上最大規模となる750億ドル（約11.5兆円）の新規株式公開（IPO）を計画していることが明らかになりました。",
+    "keypoints": [
+      "史上最大のIPOとなる可能性",
+      "調達資金はAI事業とロケット打ち上げに充当",
+      "イーロン・マスク氏のAIへの注力が明確に",
+      "宇宙産業とAIの融合が加速する兆候"
+    ],
+    "pull": "「SpaceXの巨額IPOは、AIが宇宙開発という壮大なビジョンの中核を担うことを示している。」",
+    "bizapp": {
+      "summary": "宇宙産業とAIの融合が進み、新たなビジネス機会が創出される。",
+      "actions": [
+        "AIを活用した衛星データ分析で新規事業の可能性を模索",
+        "宇宙関連企業に対し、AI技術導入による業務効率化を提案",
+        "AIが既存産業の枠を超え、新たなフロンティアを切り開く可能性"
+      ]
+    },
+    "links": [
+      "https://www.bloomberg.com/news/articles/2026-06-03/spacex-seeks-75-billion-in-record-ipo-plan-to-fund-ai-launch"
+    ],
+    "likes": 0
+  }
+]
