@@ -33,8 +33,13 @@ STYLE — high-end Japanese magazine editorial infographic:
 - Title in HUGE bold black Japanese type, prominent at top
 - Below title: a thin red category pill on the left, brand mark "Now on AIr" on the right
 - A thin-bordered summary strip under the title with the Japanese summary
-- Lower 60% of the canvas: FOUR illustrated CARDS in a single horizontal row, each card showing:
-   * A UNIQUE rich illustration combining 2-4 visual elements that represent that key point (e.g. building + dollar signs + arrows / AI chip + network nodes + person / people in meeting room with charts / growth chart + plants + money stacks)
+- Lower 60% of the canvas: FOUR illustrated CARDS in a single horizontal row.
+- ⚠ EACH CARD MUST BE A MINI EDITORIAL SCENE — NOT A SINGLE FLAT ICON. Compose 3-5 distinct visual elements per card into a small narrative scene. Examples of acceptable card richness:
+   * Card showing budget overspend: tall office building + multiple dollar signs floating + upward red arrow piercing through + small calendar with X marks + people walking out
+   * Card showing AI productivity: laptop with glowing AI chip on screen + person typing + speech bubble with code + network nodes radiating outward + small chart in corner
+   * Card showing meeting automation: conference room with table + 3-4 stylized people + screen showing a bar chart + floating document icons + microphone
+   * Card showing cost control: balance scale with money on one side and AI chip on the other + downward green arrow + magnifying glass examining receipt
+- ABSOLUTELY AVOID: single centered flat icon (robot/gear/shield/lock logos alone) — those look amateur. Cards MUST tell a story with multiple objects, people, and contextual environment.
    * A red number badge "01"/"02"/"03"/"04" in the corner
    * The key point text in BOLD Japanese below the illustration
 - Color palette: strictly white background, {pri} red as primary accent, black text, light gray borders
