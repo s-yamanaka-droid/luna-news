@@ -6,6 +6,8 @@ Codex 失敗時は slide_maker_playwright.py で安全フォールバック。
 """
 from __future__ import annotations
 import os
+import re
+import shutil
 import subprocess
 from pathlib import Path
 
@@ -13,43 +15,68 @@ BRAND = os.environ.get("NOW_ON_BRAND", "AIr")
 PRI = os.environ.get("NOW_ON_PRIMARY_COLOR", "#CE1141")
 CODEX_BIN = os.environ.get("CODEX_BIN", "/opt/homebrew/bin/codex")
 SLIDE_PROVIDER = os.environ.get("SLIDE_PROVIDER", "codex").lower()  # codex / playwright
-CODEX_TIMEOUT = int(os.environ.get("CODEX_SLIDE_TIMEOUT", "300"))
+CODEX_TIMEOUT = int(os.environ.get("CODEX_SLIDE_TIMEOUT", "600"))   # 内蔵画像生成は3-5分かかる
 
-PROMPT_TEMPLATE = """Generate ONE 1536x1024 editorial infographic PNG using Python PIL/Pillow. Save EXACTLY to: {output}
+PROMPT_TEMPLATE = """Use your built-in image generation tool (the one that produces files in ~/.codex/generated_images) to create ONE 1536x1024 magazine-editorial illustrated infographic about the article below. Do NOT use Python PIL. Use the image generation capability and then copy the result to EXACTLY: {output}
 
-ARTICLE (render Japanese with a CJK-capable TTF — search /System/Library/Fonts (e.g. ヒラギノ角ゴシック W7.ttc, ヒラギノ角ゴ ProN W6.ttc) or /System/Library/Fonts/Supplemental for Noto / Hiragino. Try multiple until one works):
+ARTICLE:
 - Category: {category}
-- Title: {title}
-- Summary: {summary}
+- Title (Japanese, render it on the image): {title}
+- Summary (Japanese, render briefly on the image): {summary}
 - Source: {source}
-- Four key points (each = 1 card):
+- Four key points (each becomes ONE illustrated card with its own scene):
 {keypoints}
 
-DESIGN SPEC (follow precisely — be deterministic, no AI-randomness):
-- 1536x1024, pure white background (#FFFFFF)
-- TOP: solid 5px horizontal bar across the very top in {pri}
-- TOP-LEFT (x=80, y=70): a ROUNDED PILL filled {pri} 38px tall, padding-x 22px, contains the category in BOLD WHITE Hiragino 18px
-- TOP-RIGHT (right-aligned at x=1456, y=78): brand mark "Now on AIr" — render "Now on " in gray 22px, "AI" in {pri} BOLD 28px, "r" in gray 18px
-- CENTER-UPPER (x=80, y=190): TITLE in Hiragino BOLD #111 size 64px, wrap to MAX 2 lines, max width 1376px, line spacing 1.15
-- BELOW TITLE (x=80, y=410): SUMMARY box — light gray rounded rectangle (fill #F4F4F6, no border, radius 8px, height 86px, width 1376px, padding 24px), Japanese 22px #333 inside, single line truncated if too long
-- LOWER HALF — exactly FOUR cards in one horizontal row:
-    * Each card: 320x420 px, white fill, 1px gray border #DDDDDD, top 4px solid bar in {pri}
-    * Row positioned: cards x = 80, 416, 752, 1088 ; y = 560
-    * Card padding 22px
-    * Number badge in top-right corner of each card: filled {pri} rectangle 56x32, white BOLD monospace "01"/"02"/"03"/"04" centered
-    * Center of card: A SIMPLE FLAT VECTOR ICON drawn with PIL primitives in {pri} (40x40 area centered at x=card_left+160, y=card_top+150). Each card MUST use a DIFFERENT icon shape; pick from: shield-with-check, three connected nodes (network), bar-chart, padlock, gear, cloud, document, rocket, target, lightbulb. Use thick strokes (3-4px) and clean geometry.
-    * Below icon (y=card_top+220): the key point text in Hiragino BOLD #111 22px, centered, wrap to 2-3 lines max, ellipsis if longer
-- BOTTOM-LEFT (x=80, y=970): "NOW ON AIR // EDITORIAL" monospace 14px #888 (uppercase)
-- BOTTOM-RIGHT (right-aligned at x=1456, y=970): "SOURCE: {source}" monospace 14px #444 (truncate source if too long)
+STYLE — high-end Japanese magazine editorial infographic:
+- 1536x1024, pure white background
+- THIN solid horizontal bar across the very top in {pri}
+- Title in HUGE bold black Japanese type, prominent at top
+- Below title: a thin red category pill on the left, brand mark "Now on AIr" on the right
+- A thin-bordered summary strip under the title with the Japanese summary
+- Lower 60% of the canvas: FOUR illustrated CARDS in a single horizontal row, each card showing:
+   * A UNIQUE rich illustration combining 2-4 visual elements that represent that key point (e.g. building + dollar signs + arrows / AI chip + network nodes + person / people in meeting room with charts / growth chart + plants + money stacks)
+   * A red number badge "01"/"02"/"03"/"04" in the corner
+   * The key point text in BOLD Japanese below the illustration
+- Color palette: strictly white background, {pri} red as primary accent, black text, light gray borders
+- Japanese characters must render PERFECTLY and crisply — no garbled text, no random shapes
+- Editorial / Swiss / magazine feel — refined, NOT amateurish, NOT photorealistic, NOT cartoon
+- No gradients, no decorative emoji, no dark backgrounds
 
-STYLE RULES:
-- Strictly limited palette: white background, {pri} accents, black/dark gray for text, light gray for borders
-- No gradients, no shadows, no photos, no decorative emoji
-- Japanese characters MUST render correctly — fall back through multiple CJK fonts if first fails
-- Numbers/English in monospace where specified
-- Refined, magazine editorial / Swiss design feel
+After image generation completes, locate the generated file in ~/.codex/generated_images and copy it to: {output}
+Then print ONLY the final absolute path. Do not ask questions."""
 
-OUTPUT: After saving, verify the file exists and print ONLY the absolute file path. Do not ask questions, do not stop for confirmation. If a font load fails, retry with another CJK font automatically."""
+
+def _recover_from_codex_output(text: str, output_path: Path) -> bool:
+    """Codex の標準出力から '~/.codex/generated_images/.../ig_xxx.png' を抽出して手動コピー"""
+    m = re.search(r"(/[\w./\-]*\.codex/generated_images/[\w\-]+/ig_[\w]+\.png)", text)
+    if not m:
+        return False
+    src = Path(m.group(1))
+    if src.exists() and src.stat().st_size > 8000:
+        try:
+            shutil.copyfile(src, output_path)
+            print(f"  [codex] 手動コピー回復: {src.name} → {output_path.name}")
+            return True
+        except Exception as e:
+            print(f"  [codex] 手動コピー失敗: {e}")
+    return False
+
+
+def _recover_latest_codex_image(output_path: Path) -> bool:
+    """タイムアウト時、最近1分以内の Codex 生成画像を拾う最後の手段"""
+    import time
+    base = Path.home() / ".codex" / "generated_images"
+    if not base.exists():
+        return False
+    pngs = sorted(base.glob("*/ig_*.png"), key=lambda p: p.stat().st_mtime, reverse=True)
+    if pngs and (time.time() - pngs[0].stat().st_mtime) < 600 and pngs[0].stat().st_size > 8000:
+        try:
+            shutil.copyfile(pngs[0], output_path)
+            print(f"  [codex] timeout後回復: {pngs[0].name} → {output_path.name}")
+            return True
+        except Exception as e:
+            print(f"  [codex] timeout後回復失敗: {e}")
+    return False
 
 
 def _build_prompt(title, category, source, summary, keypoints, output_path):
@@ -80,11 +107,14 @@ def _codex_generate(title, category, source, summary, keypoints, output_path):
         )
         if output_path.exists() and output_path.stat().st_size > 8000:
             return True
+        # サンドボックスで Codex がコピー失敗した場合、stdout/stderr から生成画像パスを拾って手動コピー
+        if _recover_from_codex_output((proc.stdout or "") + "\n" + (proc.stderr or ""), output_path):
+            return True
         print(f"  [codex] 画像未生成 rc={proc.returncode}\n{(proc.stderr or proc.stdout)[-400:]}")
         return False
     except subprocess.TimeoutExpired:
-        print(f"  [codex] timeout ({CODEX_TIMEOUT}s)")
-        return output_path.exists() and output_path.stat().st_size > 8000
+        print(f"  [codex] timeout ({CODEX_TIMEOUT}s) → 直近の生成画像を探す")
+        return _recover_latest_codex_image(output_path)
     except Exception as e:
         print(f"  [codex] error: {e}")
         return False
