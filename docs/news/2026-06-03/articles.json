@@ -1,1 +1,106 @@
-[]
+[
+  {
+    "title": "Microsoft、常時稼働AI「Scout」で業務を自動化",
+    "category": "ツール更新",
+    "source": "Microsoft / Wired AI / Impress Watch AI / NVIDIA Developer Blog / Publickey",
+    "lede": "MicrosoftがCopilotに統合される常時稼働AIエージェント「Scout」を発表し、TeamsやOutlookなどでの業務自動化を推進、Windows PCでの開発環境も強化します。",
+    "keypoints": [
+      "Teams等で動作し、会議調整や資料作成をAIが代行",
+      "ユーザーの優先順位を学習し、指示なしで自律的に行動",
+      "セキュリティを確保する「MXC」環境で安全に利用可能",
+      "NVIDIAと連携し、Windows PCでのAIエージェント開発を支援"
+    ],
+    "pull": "「あなたの会社は基本的にあなたのアシスタントを雇うようなものです。パーソナルアシスタントのポイントは、あなたが働いていない時も彼らが働いていることです。」",
+    "bizapp": {
+      "summary": "Microsoft 365業務の自動化で生産性が向上",
+      "actions": [
+        "社内活用例：TeamsでScoutに会議調整を依頼し、議事録作成を自動化",
+        "他社提案例：バックオフィス業務のAI自動化ソリューションを提案",
+        "注目理由：MicrosoftがAIエージェントを本格導入し、業務効率が激変する"
+      ]
+    },
+    "links": [
+      "https://www.wired.com/story/meet-microsoft-scout-your-ai-coworker-that-never-logs-off/",
+      "https://www.watch.impress.co.jp/docs/news/2113945.html",
+      "https://developer.nvidia.com/blog/build-personal-ai-agents-on-windows-pcs-with-new-tools-from-microsoft-and-nvidia/",
+      "https://www.publickey1.jp/blog/26/aimicrosoft_execution_containers_mxc.html",
+      "https://www.publickey1.jp/blog/26/7aimicrosoft_ai_models.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Uber、AI予算を4ヶ月で使い切り利用制限へ",
+    "category": "業界動向",
+    "source": "TechCrunch AI",
+    "lede": "Uberが従業員のAI利用を奨励した結果、年間予算をわずか4ヶ月で使い果たし、一人あたり月1,500ドルの利用上限を設定しました。",
+    "keypoints": [
+      "AI利用を推奨した結果、年間予算を大幅に超過",
+      "従業員一人あたり月1,500ドルの利用上限を設定",
+      "AIの生産性向上効果には疑問の声も上がる",
+      "AI導入におけるコスト管理の重要性が浮き彫りに"
+    ],
+    "pull": "「AIの利用と新たな消費者機能の間に線を引くのは非常に難しい」",
+    "bizapp": {
+      "summary": "AI導入はコスト管理が重要、費用対効果を注視",
+      "actions": [
+        "社内活用例：Claude利用時はコストを意識し、費用対効果を検証",
+        "他社提案例：AI導入支援でコスト最適化コンサルティングを提案",
+        "注目理由：AI導入はコスト増大リスクがあり、予算管理が必須となる"
+      ]
+    },
+    "links": [
+      "https://techcrunch.com/2026/06/02/uber-caps-employee-ai-spending-after-blowing-through-budget-in-four-months/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "OpenAI Codex、開発者以外も業務効率化に活用",
+    "category": "ツール更新",
+    "source": "OpenAI Blog",
+    "lede": "OpenAIのCodexが開発者だけでなく、アナリストやマーケターなど非開発者の間で利用が急増し、プラグインやウェブアプリ化で多様な業務を効率化しています。",
+    "keypoints": [
+      "毎週500万人以上がCodexを利用中",
+      "非開発者の利用が開発者の3倍以上の速さで増加",
+      "内部アプリ構築、資料作成、ダッシュボード作成等に活用",
+      "役割に応じたプラグインやウェブアプリ化でさらに進化"
+    ],
+    "pull": "「Codexは、チームが使用するツールに接続され、必要な資料を作成する準備ができていれば、最も役立つ。」",
+    "bizapp": {
+      "summary": "専門知識不要でAIを業務に活用し生産性向上",
+      "actions": [
+        "社内活用例：Codexでマーケティング資料の初稿を自動生成",
+        "他社提案例：中小企業向けにCodexを活用した業務効率化を提案",
+        "注目理由：非開発者でもAIを使いこなし、業務改革のチャンスとなる"
+      ]
+    },
+    "links": [
+      "https://openai.com/index/codex-for-every-role-tool-workflow"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "中小企業こそAI活用で業務効率を劇的に改善",
+    "category": "業界動向",
+    "source": "MIT Tech Review AI",
+    "lede": "大企業のように専門家を雇えない中小企業にとって、AIは会計からデザイン、市場調査まで幅広い業務を「十分なレベル」でこなし、時間とコストを節約する強力なツールとなります。",
+    "keypoints": [
+      "専門人材が不足する中小企業にAIは有効",
+      "事務作業、市場調査、製品開発など多岐にわたる業務に適用",
+      "個人事業主の事務作業自動化事例を紹介",
+      "AIの得意分野と限界を理解し活用することが重要"
+    ],
+    "pull": "「今日のAIモデルはこれらのタスクをかなりうまくこなす。中小企業にとっての秘訣は、AIが十分なレベルで機能する場所とそうでない場所を理解することだ。」",
+    "bizapp": {
+      "summary": "AIで人手不足を解消し、中小企業の競争力を強化",
+      "actions": [
+        "社内活用例：ChatGPTで議事録作成やメール返信文のドラフト作成",
+        "他社提案例：中小企業向けにAI導入によるバックオフィスDXを提案",
+        "注目理由：AIは中小企業の生産性向上とコスト削減に直結する"
+      ]
+    },
+    "links": [
+      "https://www.technologyreview.com/2026/06/02/1138227/how-small-businesses-can-leverage-ai/"
+    ],
+    "likes": 0
+  }
+]
