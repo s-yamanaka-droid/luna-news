@@ -1,257 +1,131 @@
 """
-Now on AIr — Slide Maker v9 (HTML/CSS → Playwright)
-60:40 split — ダークヘッダー + ホワイトカードグリッド。コスト $0。
+Now on AIr — Slide Maker v10 (Codex CLI 主・Playwright fallback)
+ChatGPT Plus サブスク経由で Codex CLI を呼び、リッチ図解 PNG を生成。
+API課金ゼロ・記事ごとにレイアウト/アイコンが変わる editorial 品質。
+Codex 失敗時は slide_maker_playwright.py で安全フォールバック。
 """
 from __future__ import annotations
-import os, html
+import os
+import subprocess
 from pathlib import Path
 
 BRAND = os.environ.get("NOW_ON_BRAND", "AIr")
 PRI = os.environ.get("NOW_ON_PRIMARY_COLOR", "#CE1141")
+CODEX_BIN = os.environ.get("CODEX_BIN", "/opt/homebrew/bin/codex")
+SLIDE_PROVIDER = os.environ.get("SLIDE_PROVIDER", "codex").lower()  # codex / playwright
+CODEX_TIMEOUT = int(os.environ.get("CODEX_SLIDE_TIMEOUT", "300"))
 
-W, H = 1536, 1024
-HEADER_H = 560
-CARD_H = H - HEADER_H
+PROMPT_TEMPLATE = """Generate ONE 1536x1024 editorial infographic PNG using Python PIL/Pillow. Save EXACTLY to: {output}
 
-CARD_COLORS = ["#CE1141", "#2563EB", "#059669", "#7C3AED"]
+ARTICLE (render Japanese with a CJK-capable TTF — search /System/Library/Fonts (e.g. ヒラギノ角ゴシック W7.ttc, ヒラギノ角ゴ ProN W6.ttc) or /System/Library/Fonts/Supplemental for Noto / Hiragino. Try multiple until one works):
+- Category: {category}
+- Title: {title}
+- Summary: {summary}
+- Source: {source}
+- Four key points (each = 1 card):
+{keypoints}
 
+DESIGN SPEC (follow precisely — be deterministic, no AI-randomness):
+- 1536x1024, pure white background (#FFFFFF)
+- TOP: solid 5px horizontal bar across the very top in {pri}
+- TOP-LEFT (x=80, y=70): a ROUNDED PILL filled {pri} 38px tall, padding-x 22px, contains the category in BOLD WHITE Hiragino 18px
+- TOP-RIGHT (right-aligned at x=1456, y=78): brand mark "Now on AIr" — render "Now on " in gray 22px, "AI" in {pri} BOLD 28px, "r" in gray 18px
+- CENTER-UPPER (x=80, y=190): TITLE in Hiragino BOLD #111 size 64px, wrap to MAX 2 lines, max width 1376px, line spacing 1.15
+- BELOW TITLE (x=80, y=410): SUMMARY box — light gray rounded rectangle (fill #F4F4F6, no border, radius 8px, height 86px, width 1376px, padding 24px), Japanese 22px #333 inside, single line truncated if too long
+- LOWER HALF — exactly FOUR cards in one horizontal row:
+    * Each card: 320x420 px, white fill, 1px gray border #DDDDDD, top 4px solid bar in {pri}
+    * Row positioned: cards x = 80, 416, 752, 1088 ; y = 560
+    * Card padding 22px
+    * Number badge in top-right corner of each card: filled {pri} rectangle 56x32, white BOLD monospace "01"/"02"/"03"/"04" centered
+    * Center of card: A SIMPLE FLAT VECTOR ICON drawn with PIL primitives in {pri} (40x40 area centered at x=card_left+160, y=card_top+150). Each card MUST use a DIFFERENT icon shape; pick from: shield-with-check, three connected nodes (network), bar-chart, padlock, gear, cloud, document, rocket, target, lightbulb. Use thick strokes (3-4px) and clean geometry.
+    * Below icon (y=card_top+220): the key point text in Hiragino BOLD #111 22px, centered, wrap to 2-3 lines max, ellipsis if longer
+- BOTTOM-LEFT (x=80, y=970): "NOW ON AIR // EDITORIAL" monospace 14px #888 (uppercase)
+- BOTTOM-RIGHT (right-aligned at x=1456, y=970): "SOURCE: {source}" monospace 14px #444 (truncate source if too long)
 
-def _html(title: str, category: str, source: str, summary: str,
-          keypoints: list[str]) -> str:
-    t = html.escape(title)
-    cat = html.escape(category or "AI")
-    src = html.escape(source or "")
-    summ = html.escape(summary or "")
-    kps = (keypoints or ["—"])[:4]
+STYLE RULES:
+- Strictly limited palette: white background, {pri} accents, black/dark gray for text, light gray for borders
+- No gradients, no shadows, no photos, no decorative emoji
+- Japanese characters MUST render correctly — fall back through multiple CJK fonts if first fails
+- Numbers/English in monospace where specified
+- Refined, magazine editorial / Swiss design feel
 
-    kp_html = ""
-    for i, kp in enumerate(kps):
-        parts = kp.split(None, 1) if len(kp) > 6 else [kp]
-        kp_t = html.escape(parts[0])
-        kp_d = html.escape(parts[1]) if len(parts) > 1 else ""
-        c = CARD_COLORS[i % len(CARD_COLORS)]
-        kp_html += f"""
-        <div class="card" style="--c:{c}">
-          <div class="card-num" style="color:{c}">{i+1:02d}</div>
-          <div class="card-title">{kp_t}</div>
-          <div class="card-desc">{kp_d}</div>
-        </div>"""
-
-    return f"""<!DOCTYPE html>
-<html><head><meta charset="utf-8">
-<style>
-  * {{ margin: 0; padding: 0; box-sizing: border-box; }}
-  body {{
-    width: {W}px; height: {H}px;
-    font-family: 'Hiragino Kaku Gothic ProN', 'Noto Sans CJK JP', sans-serif;
-    overflow: hidden;
-  }}
-
-  /* ===== ダークヘッダー ===== */
-  .header {{
-    width: {W}px;
-    height: {HEADER_H}px;
-    background: linear-gradient(160deg, #0d0d1a 0%, #1a1a2e 50%, #16213e 100%);
-    padding: 0 80px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    padding-bottom: 40px;
-    position: relative;
-    overflow: hidden;
-  }}
-  .header::before {{
-    content: '';
-    position: absolute;
-    top: 0; left: 0; right: 0;
-    height: 5px;
-    background: linear-gradient(90deg, {PRI}, #ff6b6b);
-  }}
-  .header::after {{
-    content: '';
-    position: absolute;
-    top: -80px; right: -60px;
-    width: 320px; height: 320px;
-    border-radius: 50%;
-    background: radial-gradient(circle, rgba(206,17,65,0.08) 0%, transparent 70%);
-  }}
-
-  .top-row {{
-    position: absolute;
-    top: 32px; left: 80px; right: 80px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }}
-  .brand {{
-    font-size: 15px; color: #6a6a7e;
-  }}
-  .brand strong {{
-    font-size: 20px; font-weight: 900; color: {PRI};
-  }}
-  .category {{
-    background: rgba(206,17,65,0.15);
-    border: 1px solid rgba(206,17,65,0.3);
-    color: {PRI};
-    font-size: 11px; font-weight: 700;
-    padding: 5px 18px;
-    border-radius: 100px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-  }}
-
-  .title {{
-    font-size: 42px;
-    font-weight: 900;
-    color: #ffffff;
-    line-height: 1.35;
-    letter-spacing: -0.5px;
-    margin-bottom: 20px;
-    position: relative; z-index: 1;
-  }}
-
-  .summary-wrap {{
-    display: flex; gap: 14px;
-    position: relative; z-index: 1;
-  }}
-  .summary-bar {{
-    width: 3px;
-    background: linear-gradient(180deg, {PRI}, rgba(206,17,65,0.2));
-    border-radius: 2px; flex-shrink: 0;
-  }}
-  .summary {{
-    font-size: 17px;
-    color: #8a8aa0;
-    line-height: 1.7;
-  }}
-
-  /* ===== カードグリッド ===== */
-  .cards {{
-    width: {W}px;
-    height: {CARD_H}px;
-    background: #f5f5f7;
-    padding: 24px 80px 20px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 14px;
-  }}
-
-  .card {{
-    background: #ffffff;
-    border-radius: 12px;
-    box-shadow: 0 1px 8px rgba(0,0,0,0.04), 0 0 1px rgba(0,0,0,0.06);
-    padding: 20px 24px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    border-top: 3px solid var(--c);
-    overflow: hidden;
-  }}
-
-  .card-num {{
-    font-size: 13px;
-    font-weight: 900;
-    margin-bottom: 8px;
-    letter-spacing: 1px;
-  }}
-
-  .card-title {{
-    font-size: 20px;
-    font-weight: 700;
-    color: #1a1a2e;
-    line-height: 1.4;
-    margin-bottom: 6px;
-  }}
-
-  .card-desc {{
-    font-size: 15px;
-    color: #6b6b80;
-    line-height: 1.5;
-    overflow: hidden;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-  }}
-
-  .footer {{
-    position: absolute;
-    bottom: 8px; left: 80px; right: 80px;
-    display: flex;
-    justify-content: space-between;
-  }}
-  .footer span {{
-    font-size: 11px; color: #c0c0c8;
-  }}
-</style>
-</head>
-<body>
-
-<div class="header">
-  <div class="top-row">
-    <div class="brand">Now on <strong>{BRAND}</strong></div>
-    <div class="category">{cat}</div>
-  </div>
-  <div class="title">{t}</div>
-  <div class="summary-wrap">
-    <div class="summary-bar"></div>
-    <div class="summary">{summ}</div>
-  </div>
-</div>
-
-<div class="cards" style="position:relative">{kp_html}
-  <div class="footer">
-    <span>Now on {BRAND}</span>
-    <span>Source: {src}</span>
-  </div>
-</div>
-
-</body></html>"""
+OUTPUT: After saving, verify the file exists and print ONLY the absolute file path. Do not ask questions, do not stop for confirmation. If a font load fails, retry with another CJK font automatically."""
 
 
-def generate_slide(
-    title: str, category: str, source: str, summary: str,
-    keypoints: list[str], output_path: Path, size: str = "1536x1024",
-) -> bool:
+def _build_prompt(title, category, source, summary, keypoints, output_path):
+    kp_text = "\n".join(f"   {i+1}. {k}" for i, k in enumerate((keypoints or [])[:4]))
+    return PROMPT_TEMPLATE.format(
+        output=str(output_path),
+        category=(category or "AI")[:12],
+        title=(title or "")[:80],
+        summary=(summary or "")[:160],
+        source=(source or "")[:32],
+        keypoints=kp_text,
+        pri=PRI,
+    )
+
+
+def _codex_generate(title, category, source, summary, keypoints, output_path):
+    """Codex CLI 経由で PIL/Python コード生成 → PNG 保存"""
+    output_path = Path(output_path)
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    if output_path.exists():
+        output_path.unlink()
+    prompt = _build_prompt(title, category, source, summary, keypoints, output_path)
     try:
-        from playwright.sync_api import sync_playwright
-        from PIL import Image as PILImage
-
-        page_html = _html(title, category, source, summary, keypoints)
-
-        with sync_playwright() as p:
-            browser = p.chromium.launch()
-            page = browser.new_page(viewport={"width": W, "height": H})
-            page.set_content(page_html, wait_until="load")
-            output_path.parent.mkdir(parents=True, exist_ok=True)
-            body = page.query_selector("body")
-            body.screenshot(path=str(output_path), type="png")
-            browser.close()
-
-        # 正確に 1536x1024 に合わせる
-        img = PILImage.open(str(output_path))
-        if img.size != (W, H):
-            canvas = PILImage.new("RGB", (W, H), (245, 245, 247))
-            canvas.paste(img, (0, 0))
-            canvas.save(str(output_path), "PNG")
-
-        return True
+        proc = subprocess.run(
+            [CODEX_BIN, "exec", "--skip-git-repo-check",
+             "--sandbox", "workspace-write", prompt],
+            cwd="/tmp", capture_output=True, text=True, timeout=CODEX_TIMEOUT,
+        )
+        if output_path.exists() and output_path.stat().st_size > 8000:
+            return True
+        print(f"  [codex] 画像未生成 rc={proc.returncode}\n{(proc.stderr or proc.stdout)[-400:]}")
+        return False
+    except subprocess.TimeoutExpired:
+        print(f"  [codex] timeout ({CODEX_TIMEOUT}s)")
+        return output_path.exists() and output_path.stat().st_size > 8000
     except Exception as e:
-        print(f"  [slide_maker] error: {e}")
-        import traceback; traceback.print_exc()
+        print(f"  [codex] error: {e}")
         return False
 
 
+def _playwright_fallback(title, category, source, summary, keypoints, output_path):
+    """Playwright HTML→PNG（高速・確実）にフォールバック"""
+    try:
+        from slide_maker_playwright import generate_slide as _pw
+        return _pw(title, category, source, summary, keypoints, output_path)
+    except Exception as e:
+        print(f"  [fallback playwright] 失敗: {e}")
+        return False
+
+
+def generate_slide(title, category, source, summary, keypoints, output_path, size="1536x1024"):
+    """主：Codex CLI / 副：Playwright（Codex 失敗時の安全網）"""
+    output_path = Path(output_path)
+    if SLIDE_PROVIDER == "playwright":
+        return _playwright_fallback(title, category, source, summary, keypoints, output_path)
+    # Codex 主
+    ok = _codex_generate(title, category, source, summary, keypoints, output_path)
+    if ok:
+        return True
+    print("  [slide_maker] Codex 失敗 → Playwright fallback")
+    return _playwright_fallback(title, category, source, summary, keypoints, output_path)
+
+
 if __name__ == "__main__":
-    out = Path("/tmp/test_slide_pillow.png")
+    out = Path("/tmp/test_slide_codex_v10.png")
     ok = generate_slide(
         title="OpenAI、企業向けAI導入子会社「DeployCo」を立ち上げ──40億ドル調達",
-        category="業界動向", source="OpenAI Blog",
-        summary="OpenAI傘下のDeployCo、企業向けAI導入コンサルを開始。40億ドル超調達、Palantir流現地駐在型展開。Fortune 500企業を中心にパイロット契約を複数獲得済み。",
-        keypoints=["巨額投資で設立 TPG主導で40億ドル超調達", "現地駐在型導入 顧客データとAIを統合",
-                   "統合が競争力 ワークフロー設計で差別化", "戦略的フィードバック 現場知見をモデル開発へ"],
+        category="業界動向",
+        source="OpenAI Blog",
+        summary="OpenAI傘下のDeployCo、企業向けAI導入コンサルを開始。40億ドル超調達、Palantir流現地駐在型展開。",
+        keypoints=[
+            "巨額投資で設立 TPG主導で40億ドル超調達",
+            "現地駐在型導入 顧客データとAIを統合",
+            "統合が競争力 ワークフロー設計で差別化",
+            "戦略的フィードバック 現場知見をモデル開発へ",
+        ],
         output_path=out,
     )
-    if ok:
-        print(f"Generated: {out}")
-        import subprocess; subprocess.run(["open", str(out)])
+    print(f"生成: {ok} → {out}")

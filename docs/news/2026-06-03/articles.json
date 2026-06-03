@@ -26,7 +26,30 @@
       "https://www.publickey1.jp/blog/26/aimicrosoft_execution_containers_mxc.html",
       "https://www.publickey1.jp/blog/26/7aimicrosoft_ai_models.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "Teams会議の議事録を自動化",
+      "tool": {
+        "name": "Microsoft 365 Copilot",
+        "url": "https://www.microsoft.com/ja-jp/microsoft-365/copilot",
+        "cost": "¥4,497/月（Business Standard + Copilot）"
+      },
+      "time": "30分",
+      "steps": [
+        "Microsoft 365管理画面でCopilotを有効化",
+        "Teamsの会議でCopilotによる文字起こしをON",
+        "会議後に要約・タスク抽出を自動生成させる"
+      ],
+      "prompt": "あなたは{業種}の業務効率化アシスタントです。以下の会議メモから、①決定事項 ②各担当のタスク（期限付き） ③次回までの宿題を箇条書きで整理してください。会議メモ：{会議の内容をペースト}",
+      "roi": "週2時間の議事録作成が不要＝月4万円相当の工数削減"
+    },
+    "icebreak": {
+      "hook": "Microsoftが「指示しなくても動くAI秘書」を発表したの知ってます？",
+      "punchline": "会議の日程調整や資料準備を、頼まなくても勝手にやってくれる時代がもう来てるんですよ",
+      "ctx_meeting": "業務自動化・DX提案の導入で",
+      "ctx_chat": "「秘書ほしい」という話題で",
+      "share_text": "Microsoftの新AI「Scout」、指示しなくても会議調整や資料作成を勝手にやるらしい。秘書を雇うか、AIに任せるか、来年にはガチで選ぶ時代になりそう"
+    }
   },
   {
     "title": "Uber、AI予算を4ヶ月で使い切り利用制限へ",
@@ -51,7 +74,30 @@
     "links": [
       "https://techcrunch.com/2026/06/02/uber-caps-employee-ai-spending-after-blowing-through-budget-in-four-months/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI月額コストを見える化",
+      "tool": {
+        "name": "Claude Pro",
+        "url": "https://claude.ai",
+        "cost": "¥3,200/月"
+      },
+      "time": "10分",
+      "steps": [
+        "現在契約中のAIツールと月額を全て書き出す",
+        "各ツールの利用頻度と成果を1週間記録する",
+        "費用対効果の低いツールを解約し1本に集約する"
+      ],
+      "prompt": "あなたは{業種}のコスト管理アドバイザーです。当社{自社名}では以下のAIツールを契約中です：{ツール名と月額を列挙}。各ツールの用途重複を指摘し、月額合計を最小化する統合プランを提案してください。削減額の試算も出してください。",
+      "roi": "AI関連の月額費用を30〜50%削減（月5,000〜15,000円節約）"
+    },
+    "icebreak": {
+      "hook": "Uberが社員にAI使い放題にしたら、年間予算を4ヶ月で溶かしたらしいですよ",
+      "punchline": "結局ひとり月1,500ドルの上限をかけたそうで、「AI導入=コスト削減」とは限らないという教訓ですね",
+      "ctx_meeting": "AI導入のコスト計画の話で",
+      "ctx_chat": "AI使いすぎの話題が出た時",
+      "share_text": "UberがAI使い放題にしたら年間予算を4ヶ月で使い切ったの、笑い話じゃなくて明日は我が身。導入前に「月いくらまで」を決めておかないと本当に危ない"
+    }
   },
   {
     "title": "OpenAI Codex、開発者以外も業務効率化に活用",
@@ -76,7 +122,30 @@
     "links": [
       "https://openai.com/index/codex-for-every-role-tool-workflow"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "営業資料の初稿を10分で作成",
+      "tool": {
+        "name": "ChatGPT Plus",
+        "url": "https://chat.openai.com",
+        "cost": "¥3,000/月"
+      },
+      "time": "10分",
+      "steps": [
+        "ChatGPTに自社サービス概要を入力する",
+        "提案先の業種を指定し提案書の構成を生成",
+        "出力をGoogleスライドに貼り付け体裁を整える"
+      ],
+      "prompt": "あなたは{業種}専門の営業資料ライターです。{自社名}のサービス「{サービス内容}」を{提案先の業種}の企業に提案する資料を作成してください。構成：①相手の課題 ②解決策 ③導入効果（数値入り） ④料金 ⑤導入ステップ。各スライド3行以内で。",
+      "roi": "提案書作成を3時間→30分に短縮＝月5件で12.5時間削減"
+    },
+    "icebreak": {
+      "hook": "OpenAIのCodex、今いちばん使ってるのエンジニアじゃないって知ってます？",
+      "punchline": "アナリストやマーケターの利用がエンジニアの3倍の速さで伸びてて、もう「技術者向けツール」じゃないんですよ",
+      "ctx_meeting": "非エンジニア部門へのAI提案で",
+      "ctx_chat": "「プログラミングわからない」と言う人に",
+      "share_text": "OpenAI Codexの利用者、非エンジニアの伸びがエンジニアの3倍以上だそう。ダッシュボードや社内アプリを自分で作る営業やマーケターが増えてるらしい。職種の壁が溶けてきてる"
+    }
   },
   {
     "title": "中小企業こそAI活用で業務効率を劇的に改善",
@@ -101,6 +170,29 @@
     "links": [
       "https://www.technologyreview.com/2026/06/02/1138227/how-small-businesses-can-leverage-ai/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "経理・事務を週5時間削減",
+      "tool": {
+        "name": "Claude Pro",
+        "url": "https://claude.ai",
+        "cost": "¥3,200/月"
+      },
+      "time": "15分",
+      "steps": [
+        "毎週繰り返す事務作業を全て書き出す",
+        "最も時間がかかる作業のプロンプトを作成",
+        "1週間試し、削減できた時間を記録する"
+      ],
+      "prompt": "あなたは{業種}の事務効率化コンサルタントです。{自社名}（従業員{人数}名）で毎月発生する以下の事務作業があります：{作業リスト}。各作業について①AIで自動化できる部分 ②具体的な手順 ③想定削減時間を表形式で提案してください。",
+      "roi": "月20時間の事務作業を半減＝月10時間・3万円相当の削減"
+    },
+    "icebreak": {
+      "hook": "中小企業こそAI使うべきって話、最近リアルに実感してまして",
+      "punchline": "専門家を雇えない分野をAIに「70点の仕事」で埋めるだけで、時間もコストもかなり浮くんですよね",
+      "ctx_meeting": "中小企業向けAI導入提案の冒頭で",
+      "ctx_chat": "人手不足の愚痴が出た時に",
+      "share_text": "大企業みたいに専門家を何人も雇えない中小企業こそAIの恩恵が大きい。100点じゃなくても70点の仕事を即座に出せるだけで、一人社長の事務作業が激減する"
+    }
   }
 ]

@@ -1,0 +1,41 @@
+{
+  "trend_summary": "非エンジニアのAI活用が爆発的に拡大し、Codex利用者500万人超・Excel Copilot利用率33%増と「誰でも使えるAI」が現実に。一方Uberの年間予算4ヶ月消化が示す通り、コスト管理が新たな経営課題として浮上。小規模事業者は画像生成AI×業務自動化で、今週から大企業との差を一気に縮められる。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-06-03",
+      "title": "OpenAI Codex、開発者以外も業務効率化に活用",
+      "category": "ツール更新",
+      "source": "OpenAI Blog",
+      "why_picked": "非エンジニアでも営業資料・ダッシュボードを即作成できる",
+      "tldr": "Codex利用者500万人超、非開発者の伸びが3倍",
+      "action": "営業資料の初稿をCodexで10分作成",
+      "image": "../assets/images/2026-06-03/topic_3.png",
+      "link": "../news/2026-06-03/#topic-3"
+    },
+    {
+      "rank": 2,
+      "date": "2026-06-03",
+      "title": "中小企業こそAI活用で業務効率を劇的に改善",
+      "category": "業界動向",
+      "source": "MIT Tech Review AI",
+      "why_picked": "専門人材なしでも経理・調査・デザインをAIで代替可能",
+      "tldr": "中小企業の人手不足をAIが「十分な水準」で解消",
+      "action": "経理・事務作業から週5時間をAIで削減",
+      "image": "../assets/images/2026-06-03/topic_4.png",
+      "link": "../news/2026-06-03/#topic-4"
+    },
+    {
+      "rank": 3,
+      "date": "2026-05-30",
+      "title": "デザインセンスを持つ画像生成AI「Recraft V4」登場",
+      "category": "ツール更新",
+      "source": "Replicate Blog",
+      "why_picked": "デザイナー不要で販促画像をプロ品質で即日作成",
+      "tldr": "構図・配色・照明を理解するデザイン特化AI",
+      "action": "今週の販促画像1枚をRecraft V4で作成",
+      "image": "../assets/images/2026-05-30/topic_3.png",
+      "link": "../news/2026-05-30/#topic-3"
+    }
+  ]
+}
