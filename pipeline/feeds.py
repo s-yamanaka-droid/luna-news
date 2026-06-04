@@ -141,6 +141,28 @@ RSS_FEEDS: list[tuple[str, str]] = [
     ("CodeZine",                    "https://codezine.jp/rss/new/index.xml"),
     ("ThinkIT",                     "https://thinkit.co.jp/rss.xml"),
 
+    # ── 国内LLM/生成AIスタートアップ（2026-06-04 追加・実証済） ──
+    ("AI Watch (Impress)",          "https://ai.watch.impress.co.jp/data/rss/1.0/aiw/feed.rdf"),
+    ("ELYZA Tech Blog (Zenn)",      "https://zenn.dev/p/elyza/feed"),
+    ("Turing Tech Blog (Zenn)",     "https://zenn.dev/p/turing_motors/feed"),
+    ("Turing 公式",                  "https://tur.ing/feed"),
+    ("Stockmark Tech Blog",         "https://stockmark-tech.hatenablog.com/feed"),
+    ("HEROZ Tech Blog",             "https://techblog.heroz.jp/feed"),
+    ("Algomatic Tech Blog",         "https://tech.algomatic.jp/feed"),
+
+    # ── 大手SIer・研究所 AI/DX ブログ ──
+    ("富士通研究所 fltech",          "https://blog.fltech.dev/feed"),
+    ("NRIネットコム Blog",           "https://tech.nri-net.com/feed"),
+
+    # ── 国内SaaS Tech Blog（AI実装・RAG事例） ──
+    ("LayerX エンジニアブログ",      "https://tech.layerx.co.jp/feed"),
+    ("SmartHR Tech Blog",           "https://tech.smarthr.jp/feed"),
+    ("弁護士ドットコム Creators Blog","https://creators.bengo4.com/feed"),
+
+    # ── AI評論・著名人 ──
+    ("落合陽一 note",                "https://note.com/ochyai/rss"),
+    ("安宅和人 note",                "https://note.com/kaz_ataka/rss"),
+
     # ── 日本語ビジネス系 ──
     ("東洋経済オンライン テクノロジー", "https://toyokeizai.net/list/genre/tech/feed"),
     ("ダイヤモンドオンライン IT",     "https://diamond.jp/ud/genre/it/rss/index.xml"),
