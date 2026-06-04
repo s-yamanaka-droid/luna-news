@@ -16,28 +16,19 @@ RSS_FEEDS: list[tuple[str, str]] = [
 
     # ── 大手AIラボ ──
     ("OpenAI Blog",                 "https://openai.com/blog/rss.xml"),
-    ("Anthropic Blog",              "https://www.anthropic.com/rss.xml"),
     ("Google AI Blog",              "https://blog.google/technology/ai/rss/"),
     ("Google DeepMind Blog",        "https://deepmind.google/blog/rss.xml"),
-    ("Microsoft AI Blog",           "https://blogs.microsoft.com/ai/feed/"),
+    ("Microsoft AI Blog",           "https://news.microsoft.com/source/topics/ai/feed/"),
     ("Microsoft Research Blog",     "https://www.microsoft.com/en-us/research/feed/"),
-    ("Meta AI Blog",                "https://ai.meta.com/blog/rss/"),
     ("Apple Machine Learning",      "https://machinelearning.apple.com/rss.xml"),
     ("Amazon AWS AI Blog",          "https://aws.amazon.com/blogs/machine-learning/feed/"),
     ("Amazon AWS News Blog",        "https://aws.amazon.com/blogs/aws/feed/"),
     ("Hugging Face Blog",           "https://huggingface.co/blog/feed.xml"),
-    ("Stability AI Blog",           "https://stability.ai/blog/rss.xml"),
-    ("Mistral AI Blog",             "https://mistral.ai/feed/"),
-    ("Cohere Blog",                 "https://cohere.com/blog/rss.xml"),
     ("NVIDIA AI Blog",              "https://blogs.nvidia.com/blog/category/deep-learning/feed/"),
     ("NVIDIA Developer Blog",       "https://developer.nvidia.com/blog/feed/"),
-    ("Intel AI Blog",               "https://community.intel.com/t5/Blogs/ct-p/blogs/rss/board-id/tech-innovation"),
-    ("IBM Research Blog",           "https://research.ibm.com/blog/rss"),
-    ("Salesforce AI Research",      "https://blog.salesforceairesearch.com/rss/"),
-    ("Databricks Blog",             "https://www.databricks.com/blog/feed"),
+    ("Salesforce AI Research",      "https://www.salesforce.com/blog/feed/"),
+    ("Databricks Blog",             "https://www.databricks.com/blog/feed.xml"),
     ("Weights & Biases Blog",       "https://wandb.ai/fully-connected/rss.xml"),
-    ("LangChain Blog",              "https://blog.langchain.dev/rss/"),
-    ("Runway ML Blog",              "https://runwayml.com/blog/rss.xml"),
     ("Replicate Blog",              "https://replicate.com/blog/rss"),
 
     # ── クラウド・プラットフォーム ──
@@ -45,7 +36,7 @@ RSS_FEEDS: list[tuple[str, str]] = [
     ("Azure AI Blog",               "https://techcommunity.microsoft.com/t5/ai-azure-ai-services-blog/bg-p/Azure-AI-Services-blog/rss"),
     ("Cloudflare Blog",             "https://blog.cloudflare.com/rss/"),
     ("Vercel Blog",                 "https://vercel.com/blog/rss.xml"),
-    ("Supabase Blog",               "https://supabase.com/blog/rss.xml"),
+    ("Supabase Blog",               "https://supabase.com/feed.xml"),
 
     # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
     # AI専門ニュース（英語）
@@ -57,12 +48,11 @@ RSS_FEEDS: list[tuple[str, str]] = [
     ("TechCrunch AI",               "https://techcrunch.com/category/artificial-intelligence/feed/"),
     ("Ars Technica AI",             "https://arstechnica.com/ai/feed/"),
     ("MIT Tech Review AI",          "https://www.technologyreview.com/topic/artificial-intelligence/feed"),
-    ("The Verge AI",                "https://www.theverge.com/ai-artificial-intelligence/rss/index.xml"),
+    ("The Verge AI",                "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"),
     ("Wired AI",                    "https://www.wired.com/feed/tag/ai/latest/rss"),
     ("CNBC Tech",                   "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=19854910"),
-    ("Reuters Tech",                "https://www.reutersagency.com/feed/?taxonomy=best-topics&post_type=best"),
     ("The Information",             "https://www.theinformation.com/feed"),
-    ("Engadget AI",                 "https://www.engadget.com/ai/rss.xml"),
+    ("Engadget AI",                 "https://www.engadget.com/rss.xml"),
     ("ZDNet AI",                    "https://www.zdnet.com/topic/artificial-intelligence/rss.xml"),
     ("InfoWorld AI/ML",             "https://www.infoworld.com/category/artificial-intelligence/index.rss"),
     ("The Register AI/ML",          "https://www.theregister.com/software/ai_ml/headlines.atom"),
@@ -86,7 +76,7 @@ RSS_FEEDS: list[tuple[str, str]] = [
     ("The Verge",                   "https://www.theverge.com/rss/index.xml"),
     ("Ars Technica",                "https://feeds.arstechnica.com/arstechnica/index"),
     ("Fast Company Tech",           "https://www.fastcompany.com/technology/rss"),
-    ("Forbes AI",                   "https://www.forbes.com/ai/feed/"),
+    ("Forbes AI",                   "https://www.forbes.com/innovation/ai/feed/"),
     ("Business Insider Tech",       "https://www.businessinsider.com/sai/rss"),
     ("Protocol",                    "https://www.protocol.com/feeds/feed.rss"),
 
@@ -106,18 +96,11 @@ RSS_FEEDS: list[tuple[str, str]] = [
     ("GIGAZINE",                    "https://gigazine.net/news/rss_2.0/"),
     ("Publickey",                   "https://www.publickey1.jp/atom.xml"),
     ("Gihyo.jp",                    "https://gihyo.jp/feed/rss2"),
-    ("CNET Japan",                  "https://japan.cnet.com/rss/index.rdf"),
-    ("ZDNet Japan",                 "https://japan.zdnet.com/rss/index.rdf"),
-    ("TechCrunch Japan",            "https://jp.techcrunch.com/feed/"),
-    ("Engadget Japan",              "https://japanese.engadget.com/rss.xml"),
     ("Mogura VR",                   "https://www.moguravr.com/feed/"),
-    ("Ledge.ai",                    "https://ledge.ai/feed"),
     ("AINOW",                       "https://ainow.ai/feed/"),
-    ("AI-SCHOLAR",                  "https://ai-scholar.tech/feed"),
-
     # ── 日経系 ──
     ("日経クロステック",              "https://xtech.nikkei.com/rss/index.rdf"),
-    ("日経クロステック AI",           "https://xtech.nikkei.com/atcl/nxt/column/18/00001/rss/index.rdf"),
+    ("日経クロステック AI",           "https://xtech.nikkei.com/rss/xtech-it.rdf"),
     ("日経ビジネス テクノロジー",      "https://business.nikkei.com/rss/sns/nb.rdf"),
 
     # ── その他日本語 ──
@@ -126,18 +109,16 @@ RSS_FEEDS: list[tuple[str, str]] = [
     ("はてなブックマーク テクノロジー", "https://b.hatena.ne.jp/hotentry/it.rss"),
     ("Hatena Developer Blog",       "https://developer.hatenastaff.com/rss"),
     ("Yahoo! JAPAN Tech Blog",      "https://techblog.yahoo.co.jp/index.xml"),
-    ("LINE Engineering",            "https://engineering.linecorp.com/ja/feed/index.xml"),
+    ("LINE Engineering",            "https://techblog.lycorp.co.jp/ja/feed/index.xml"),
     ("Mercari Engineering",         "https://engineering.mercari.com/blog/feed.xml"),
     ("CyberAgent Engineering",      "https://developers.cyberagent.co.jp/blog/feed/"),
-    ("DeNA Engineering",            "https://engineering.dena.com/blog/atom.xml"),
+    ("DeNA Engineering",            "https://engineering.dena.com/index.xml"),
     ("SmartNews Engineering",       "https://developer.smartnews.com/blog/feed"),
     ("Preferred Networks Blog",     "https://tech.preferred.jp/ja/feed/"),
-    ("Sakana AI Blog",              "https://sakana.ai/blog/feed.xml"),
+    ("Sakana AI Blog",              "https://sakana.ai/feed.xml"),
     ("ABEJA Tech Blog",             "https://tech-blog.abeja.asia/rss"),
-    ("NTTデータ テクノロジー",        "https://www.nttdata.com/jp/ja/trends/data-insight/feed/"),
     ("JDLA 日本ディープラーニング協会", "https://www.jdla.org/feed/"),
-    ("ロボスタ (RoboStart)",         "https://robotstart.info/feed"),
-    ("Tech Feed",                   "https://techfeed.io/feeds/all/rss.xml"),
+    ("ロボスタ (RoboStart)",         "https://robotstart.info/rss20/index.rdf"),
     ("CodeZine",                    "https://codezine.jp/rss/new/index.xml"),
     ("ThinkIT",                     "https://thinkit.co.jp/rss.xml"),
 
@@ -164,11 +145,8 @@ RSS_FEEDS: list[tuple[str, str]] = [
     ("安宅和人 note",                "https://note.com/kaz_ataka/rss"),
 
     # ── 日本語ビジネス系 ──
-    ("東洋経済オンライン テクノロジー", "https://toyokeizai.net/list/genre/tech/feed"),
-    ("ダイヤモンドオンライン IT",     "https://diamond.jp/ud/genre/it/rss/index.xml"),
-    ("NewsPicks テクノロジー",       "https://newspicks.com/topic/tech/feed"),
-    ("Forbes JAPAN テック",          "https://forbesjapan.com/feat/tech/feed/atom"),
-    ("Wired Japan",                 "https://wired.jp/feed/"),
+    ("東洋経済オンライン テクノロジー", "https://toyokeizai.net/list/feed/rss"),
+    ("Wired Japan",                 "https://wired.jp/feed/rss"),
     ("AMP (現代ビジネスxテック)",     "https://ampmedia.jp/feed/"),
     ("Business Insider Japan",       "https://www.businessinsider.jp/feed/index.xml"),
 
@@ -200,7 +178,7 @@ RSS_FEEDS: list[tuple[str, str]] = [
     ("The New Stack AI",            "https://thenewstack.io/category/ai/feed/"),
     ("Simon Willison's Blog",       "https://simonwillison.net/atom/everything/"),
     ("Chip Huyen",                  "https://huyenchip.com/feed.xml"),
-    ("Sebastian Raschka",           "https://sebastianraschka.com/rss_feed.xml"),
+    ("Sebastian Raschka",           "https://magazine.sebastianraschka.com/feed"),
     ("Lilian Weng (OpenAI)",        "https://lilianweng.github.io/index.xml"),
     ("Jay Alammar",                 "https://jalammar.github.io/feed.xml"),
     ("Andrej Karpathy",             "https://karpathy.github.io/feed.xml"),
@@ -216,7 +194,6 @@ RSS_FEEDS: list[tuple[str, str]] = [
     ("MLflow Blog",                 "https://mlflow.org/blog/rss.xml"),
 
     # ── Medium 系 (公式パブリケーション) ──
-    ("Towards Data Science",        "https://towardsdatascience.com/feed"),
     ("Towards AI",                  "https://pub.towardsai.net/feed"),
     ("Google Developers (Medium)",  "https://medium.com/feed/google-developers"),
     ("Netflix Tech Blog",           "https://netflixtechblog.com/feed"),
@@ -253,9 +230,6 @@ RSS_FEEDS: list[tuple[str, str]] = [
     # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
     # VC・ビジネス・投資
     # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-    ("a16z Blog",                   "https://a16z.com/feed/"),
-    ("a16z AI",                     "https://a16z.com/ai/feed/"),
     ("Sequoia Capital Blog",        "https://www.sequoiacap.com/feed/"),
     ("Y Combinator Blog",           "https://www.ycombinator.com/blog/rss/"),
     ("First Round Review",          "https://review.firstround.com/feed.xml"),
@@ -274,10 +248,9 @@ RSS_FEEDS: list[tuple[str, str]] = [
 
     # ── 日本 VC / スタートアップ ──
     ("BRIDGE (THE BRIDGE)",         "https://thebridge.jp/feed"),
-    ("TechCrunch Japan",            "https://jp.techcrunch.com/feed/"),
     ("INITIAL (ユーザベース)",       "https://initial.inc/articles/feed"),
     ("ASCII スタートアップ",          "https://ascii.jp/startup/rss.xml"),
-    ("PR TIMES テクノロジー",        "https://prtimes.jp/topics/keyword/AI/feed"),
+    ("PR TIMES テクノロジー",        "https://prtimes.jp/index.rdf"),
 
     # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
     # 研究機関・大学・論文
@@ -299,13 +272,13 @@ RSS_FEEDS: list[tuple[str, str]] = [
     # ── 大学・研究機関ブログ ──
     ("Stanford HAI",                "https://hai.stanford.edu/news/rss.xml"),
     ("Stanford AI Lab (SAIL)",      "https://ai.stanford.edu/blog/feed.xml"),
-    ("MIT CSAIL",                   "https://www.csail.mit.edu/news/rss.xml"),
+    ("MIT CSAIL",                   "https://www.csail.mit.edu/rss.xml"),
     ("MIT News AI",                 "https://news.mit.edu/topic/mitartificial-intelligence2-rss.xml"),
     ("Berkeley AI Research (BAIR)", "https://bair.berkeley.edu/blog/feed.xml"),
     ("CMU Machine Learning",        "https://blog.ml.cmu.edu/feed/"),
     ("Oxford AI Blog",              "https://www.ox.ac.uk/research/research-in-conversation/rss"),
     ("Allen Institute for AI (AI2)","https://blog.allenai.org/feed"),
-    ("EleutherAI Blog",             "https://blog.eleuther.ai/rss/"),
+    ("EleutherAI Blog",             "https://blog.eleuther.ai/index.xml"),
     ("MIRI Blog",                   "https://intelligence.org/blog/feed/"),
 
     # ── 学術誌 / 論文サービス ──
@@ -314,14 +287,9 @@ RSS_FEEDS: list[tuple[str, str]] = [
     ("JMLR (Journal of ML Research)", "https://jmlr.org/jmlr.xml"),
     ("Semantic Scholar AI Feed",    "https://api.semanticscholar.org/feed/ai"),
     ("Connected Papers Blog",      "https://www.connectedpapers.com/blog/feed"),
-    ("Hugging Face Daily Papers",   "https://huggingface.co/papers/rss"),
-
     # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
     # セキュリティ・倫理・ガバナンス・政策
     # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-    ("NIST AI",                     "https://www.nist.gov/artificial-intelligence/rss.xml"),
-    ("Center for AI Safety",        "https://www.safe.ai/blog/rss.xml"),
     ("Future of Life Institute",    "https://futureoflife.org/feed/"),
     ("Partnership on AI",           "https://partnershiponai.org/feed/"),
     ("AI Now Institute",            "https://ainowinstitute.org/feed"),
@@ -338,7 +306,6 @@ RSS_FEEDS: list[tuple[str, str]] = [
     ("Schneier on Security",        "https://www.schneier.com/feed/atom/"),
     ("Dark Reading AI",             "https://www.darkreading.com/rss.xml"),
     ("The Hacker News",             "https://feeds.feedburner.com/TheHackersNews"),
-    ("BleepingComputer",            "https://www.bleepingcomputer.com/feed/"),
     ("Naked Security (Sophos)",     "https://nakedsecurity.sophos.com/feed/"),
 
     # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -346,19 +313,14 @@ RSS_FEEDS: list[tuple[str, str]] = [
     # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
     ("OpenAI Cookbook (GitHub)",     "https://github.com/openai/openai-cookbook/releases.atom"),
-    ("LlamaIndex Blog",             "https://www.llamaindex.ai/blog/rss.xml"),
-    ("Pinecone Blog",               "https://www.pinecone.io/blog/rss.xml"),
-    ("Weaviate Blog",               "https://weaviate.io/blog/feed.xml"),
+    ("Weaviate Blog",               "https://weaviate.io/blog/rss.xml"),
     ("Chroma Blog",                 "https://www.trychroma.com/blog/rss.xml"),
-    ("Modal Blog",                  "https://modal.com/blog/feed.xml"),
-    ("Cursor Blog",                 "https://www.cursor.com/blog/rss.xml"),
+    ("Modal Blog",                  "https://modal.com/blog/atom.xml"),
     ("Replit Blog",                 "https://blog.replit.com/feed.xml"),
-    ("Notion Blog",                 "https://www.notion.so/blog/feed"),
     ("Figma Blog",                  "https://www.figma.com/blog/feed/"),
     ("Linear Blog",                 "https://linear.app/blog/rss"),
     ("Deno Blog",                   "https://deno.com/blog/rss.xml"),
-    ("Bun Blog",                    "https://bun.sh/blog/rss.xml"),
-    ("Next.js Blog",                "https://nextjs.org/blog/rss.xml"),
+    ("Next.js Blog",                "https://nextjs.org/feed.xml"),
     ("Astro Blog",                  "https://astro.build/rss.xml"),
     ("Tailwind CSS Blog",           "https://tailwindcss.com/feeds/feed.xml"),
     ("Docker Blog",                 "https://www.docker.com/blog/feed/"),
@@ -377,7 +339,6 @@ RSS_FEEDS: list[tuple[str, str]] = [
     ("WikiChip Blog",               "https://fuse.wikichip.org/feed/"),
     ("Next Platform",               "https://www.nextplatform.com/feed/"),
     ("Serve The Home",              "https://www.servethehome.com/feed/"),
-    ("PC Watch 半導体",              "https://pc.watch.impress.co.jp/data/rss/1.0/pcw/feed.rdf"),
 
     # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
     # ロボティクス・自動運転・エッジAI
@@ -397,13 +358,11 @@ RSS_FEEDS: list[tuple[str, str]] = [
     ("Import AI (Jack Clark)",      "https://importai.substack.com/feed"),
     ("AI Snake Oil",                "https://aisnakeoil.substack.com/feed"),
     ("Interconnects (Nathan Lambert)", "https://www.interconnects.ai/feed"),
-    ("Ahead of AI (Sebastian Raschka)", "https://magazine.sebastianraschka.com/feed"),
     ("The Neuron",                  "https://www.theneurondaily.com/feed"),
     ("AI Supremacy",                "https://aisupremacy.substack.com/feed"),
     ("Latent Space",                "https://www.latent.space/feed"),
     ("Last Week in AI",             "https://lastweekin.ai/feed"),
     ("Davis Summarizes Papers",     "https://dblalock.substack.com/feed"),
-    ("The Batch (Andrew Ng)",       "https://www.deeplearning.ai/the-batch/feed/"),
     ("Gary Marcus (The Road to AI We Can Trust)", "https://garymarcus.substack.com/feed"),
     ("Noahpinion (Noah Smith)",     "https://www.noahpinion.blog/feed"),
     ("Matt Shumer AI",              "https://mattshumer.substack.com/feed"),
@@ -464,7 +423,6 @@ RSS_FEEDS: list[tuple[str, str]] = [
     ("Sentdex",                     "https://www.youtube.com/feeds/videos.xml?channel_id=UCfzlCWGWYyIQ0aLC5w48gBQ"),
     ("Corey Schafer",               "https://www.youtube.com/feeds/videos.xml?channel_id=UCCezIgC97PvUuR4_gbFUs5g"),
     ("NetworkChuck",                "https://www.youtube.com/feeds/videos.xml?channel_id=UC9-y-6csu5WGm29I7JiwpnA"),
-    ("Computerphile",               "https://www.youtube.com/feeds/videos.xml?channel_id=UC9-y-6csu5WGm29I7JiwpnA"),
     ("TheAIGRID",                   "https://www.youtube.com/feeds/videos.xml?channel_id=UCJHnlmaSdrFGDJTvUb0I0Mw"),
 
     # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -479,10 +437,9 @@ RSS_FEEDS: list[tuple[str, str]] = [
     # 法務・規制・コンプライアンス（日本）
     # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-    ("経済産業省 AI戦略",            "https://www.meti.go.jp/press/index_rss.xml"),
-    ("総務省 情報通信",              "https://www.soumu.go.jp/main_content/rss.xml"),
-    ("デジタル庁",                   "https://www.digital.go.jp/feed"),
-    ("IPA (情報処理推進機構)",       "https://www.ipa.go.jp/feed/index.rdf"),
+    ("経済産業省 AI戦略",            "https://journal.meti.go.jp/feed/"),
+    ("デジタル庁",                   "https://www.digital.go.jp/rss/news.xml"),
+    ("IPA (情報処理推進機構)",       "https://www.ipa.go.jp/security/alert-rss.rdf"),
     ("JPCERT/CC",                   "https://www.jpcert.or.jp/rss/jpcert-all.rdf"),
 ]
 
