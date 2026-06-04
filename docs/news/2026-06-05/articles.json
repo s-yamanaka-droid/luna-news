@@ -1,0 +1,202 @@
+[
+  {
+    "title": "AI半導体、供給不足深刻化か TSMCが需要に対応困難",
+    "category": "業界動向",
+    "source": "The Verge AI",
+    "lede": "世界最大の半導体メーカーTSMCが、AI需要の急増により顧客のニーズに応えきれていない状況を表明し、半導体不足が長期化する可能性が示唆された。",
+    "keypoints": [
+      "TSMCがAI半導体の需要増に対応困難",
+      "CEOは「ボトルネックにならないよう最善」",
+      "AIブームで半導体市場は2027年に1兆ドル規模",
+      "RAMやNAND Flashの不足は数年続く見込み"
+    ],
+    "pull": "「顧客からの需要は非常に高く、我々がサポートできる量には限りがある。TSMCがボトルネックにならないよう最善を尽くしている。」",
+    "bizapp": {
+      "summary": "AI関連事業の計画見直しやサプライチェーン強化が急務",
+      "actions": [
+        "AI活用計画のロードマップを再評価する",
+        "半導体調達先の多様化や代替策を検討する",
+        "AI関連投資のタイミングと規模を再検討する"
+      ]
+    },
+    "links": [
+      "https://www.theverge.com/tech/943066/tsmc-ai-demand-struggles"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Amazon、AI搭載倉庫ロボット「Proteus」を自律化",
+    "category": "新モデル発表",
+    "source": "Engadget AI",
+    "lede": "AmazonがAIアップグレードにより、倉庫ロボット「Proteus」を自然言語で指示できる完全自律型に進化させ、倉庫内の作業効率と柔軟性を大幅に向上させる。",
+    "keypoints": [
+      "ProteusロボットがAIで自然言語制御可能に",
+      "従業員が会話形式でタスク指示可能",
+      "倉庫全体での重いカート移動や運搬を自律実行",
+      "2027年前半に欧州で導入開始予定"
+    ],
+    "pull": "「何をすべきか指示すれば、優先順位、ルート、タイミングをロボットが判断する。」",
+    "bizapp": {
+      "summary": "物流・倉庫業務の自動化と効率化をAIで加速できる",
+      "actions": [
+        "倉庫内の搬送・ピッキング作業にAIロボット導入を検討",
+        "AIによる自然言語指示で現場作業員の負担軽減",
+        "物流コスト削減とリードタイム短縮の提案に活用"
+      ]
+    },
+    "links": [
+      "https://www.engadget.com/2187338/amazons-new-proteus-warehouse-robot-is-fully-autonomous/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "SupabaseがChatGPT公式アプリに データベースを会話で操作",
+    "category": "ツール更新",
+    "source": "Supabase Blog",
+    "lede": "SupabaseがChatGPTの公式アプリとなり、ユーザーはChatGPTとの会話を通じてデータベースの管理、スキーマ変更、SQL実行などが可能になり、開発効率が飛躍的に向上する。",
+    "keypoints": [
+      "SupabaseがChatGPTの公式アプリとして連携",
+      "ChatGPTでデータベース操作やスキーマ変更が可能",
+      "SQLクエリ実行、Edge Functionsデプロイも対応",
+      "セキュリティ勧告チェックや問題修正も会話で指示"
+    ],
+    "pull": "「ChatGPTとの会話を離れることなく、SQLクエリの実行、スキーマの変更、Edge Functionsのデプロイ、プロジェクトのトラブルシューティングが可能になる。」",
+    "bizapp": {
+      "summary": "データベース管理の効率化と開発スピードを大幅に向上",
+      "actions": [
+        "Claudeでデータベース設計の相談やSQL生成を自動化",
+        "開発チームにAIを活用したDB管理効率化を提案",
+        "開発コスト削減と市場投入期間短縮の可能性を探る"
+      ]
+    },
+    "links": [
+      "https://supabase.com/blog/supabase-is-now-an-official-chatgpt-app"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AI活用FinTech「Ramp」が7.5億ドル調達 評価額440億ドルに",
+    "category": "業界動向",
+    "source": "TechCrunch",
+    "lede": "経費管理プラットフォームのRampがAIストーリーを武器に7.5億ドルを調達し、評価額が440億ドルに急上昇、AIを活用したFinTech企業への投資熱の高まりを示した。",
+    "keypoints": [
+      "Rampが7.5億ドルを調達し評価額440億ドル",
+      "AIを活用した経費管理プラットフォームを提供",
+      "年間収益は10億ドル超、顧客数7万社以上",
+      "AIエージェント向け法人クレジットカードも提供"
+    ],
+    "pull": "「投資家はAIストーリーを持つFinTech企業に飢えており、Rampはわずか1年で評価額を約3倍にした。」",
+    "bizapp": {
+      "summary": "AIを活用した業務効率化が資金調達の鍵となる時代",
+      "actions": [
+        "自社サービスにAI機能を組み込み、付加価値を高める",
+        "AIを活用したバックオフィス業務効率化を他社に提案",
+        "AIが投資判断に与える影響と市場トレンドを注視"
+      ]
+    },
+    "links": [
+      "https://techcrunch.com/2026/06/04/ramp-raises-750m-at-44b-valuation-as-investors-hunger-for-fintechs-with-an-ai-story/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AI生成訴訟が急増 米裁判所が対応に苦慮",
+    "category": "業界動向",
+    "source": "MIT Tech Review AI",
+    "lede": "AI（人工知能）が生成した訴訟書類の急増により、米国の裁判所が対応に苦慮しており、AIが司法アクセスを拡大する一方で、その責任や信頼性に関する新たな課題が浮上している。",
+    "keypoints": [
+      "AI利用による自己代理訴訟が急増",
+      "裁判官はAI生成文書の識別に苦慮",
+      "幻覚（ハルシネーション）や捏造された判例も確認",
+      "AIチャットボットの法的責任が議論の的に"
+    ],
+    "pull": "「AIは司法へのアクセスを拡大しているように見えるが、勝訴の可能性を高めているわけではない。」",
+    "bizapp": {
+      "summary": "AI活用における法的リスクと倫理的課題への対応が必須",
+      "actions": [
+        "AI利用ガイドラインを策定し、ハルシネーション対策",
+        "法務部門向けにAIツールの正確性検証プロセスを導入",
+        "AI生成コンテンツの責任所在に関する議論を注視"
+      ]
+    },
+    "links": [
+      "https://www.technologyreview.com/2026/06/04/1138391/courts-coping-ai-lawsuits/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "NVIDIA、AIエージェント向け「Nemotron 3 Ultra」発表",
+    "category": "新モデル発表",
+    "source": "NVIDIA Developer Blog",
+    "lede": "NVIDIAが、複雑で長期にわたるAIエージェントのワークフローを効率的にオーケストレーションするための大規模言語モデル「Nemotron 3 Ultra」を発表し、AIエージェントの推論能力と処理速度を大幅に向上させる。",
+    "keypoints": [
+      "NVIDIAがAIエージェント向け新モデルを発表",
+      "複雑な長期ワークフローの効率化に特化",
+      "推論能力とスループットを大幅に向上",
+      "オープンなレシピと重みで広範な利用を促進"
+    ],
+    "pull": "「シングルターンチャットボットは、複雑なワークフローを完了するために、推論し、コンテキストを維持し、ツールを使用し、効率的に多くのターンを実行できる長期実行エージェントへと進化している。」",
+    "bizapp": {
+      "summary": "業務自動化のAIエージェント活用がさらに現実的に",
+      "actions": [
+        "ClaudeやCodexで複雑な業務プロセス自動化を検討",
+        "AIエージェントによる顧客対応やバックオフィス効率化を提案",
+        "AIエージェントの導入による生産性向上効果を評価"
+      ]
+    },
+    "links": [
+      "https://developer.nvidia.com/blog/nvidia-nemotron-3-ultra-powers-faster-more-efficient-reasoning-for-long-running-agents/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Endava、AIエージェントでソフトウェア開発を再設計",
+    "category": "業界動向",
+    "source": "OpenAI Blog",
+    "lede": "グローバルテクノロジーサービス企業Endavaが、OpenAIのChatGPT EnterpriseとCodexを活用し、AIエージェント中心のソフトウェア開発プロセスを構築することで、開発期間の短縮と業務変革を実現している。",
+    "keypoints": [
+      "EndavaがAIエージェント中心の開発に移行",
+      "ChatGPT EnterpriseとCodexを全社的に活用",
+      "ソフトウェア開発の加速とワークフロー変革",
+      "「AIネイティブ」な文化を醸成し、実験を奨励"
+    ],
+    "pull": "「AIを日常業務の一部とすることで、Endavaはソフトウェアデリバリーを加速し、エンタープライズワークフローを再構築している。」",
+    "bizapp": {
+      "summary": "AIエージェントがソフトウェア開発の生産性を劇的に向上",
+      "actions": [
+        "Codexを活用し、開発チームのコーディング効率を向上",
+        "AIエージェントによるテスト自動化やデバッグ支援を導入",
+        "顧客企業へAIを活用した開発プロセス改善を提案"
+      ]
+    },
+    "links": [
+      "https://openai.com/index/endava-frontiers"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "豪介護施設Regis、AIで事務作業を効率化し入居者ケアに注力",
+    "category": "業界動向",
+    "source": "Microsoft AI Blog",
+    "lede": "オーストラリアの介護施設RegisがMicrosoft Copilot Studioを活用し、AIアシスタント「RegiCare Assist」を導入。これにより、膨大な事務作業を効率化し、スタッフが入居者ケアに集中できる環境を構築した。",
+    "keypoints": [
+      "豪介護施設RegisがAIアシスタント導入",
+      "Microsoft Copilot Studioで「RegiCare Assist」開発",
+      "日報や報告書をAIが要約し、懸念事項を抽出",
+      "スタッフの事務作業負担を軽減し、ケアに集中"
+    ],
+    "pull": "「AIアシスタントは膨大な記録を要約し、懸念事項を特定し、臨床上の問題ごとに分類する。」",
+    "bizapp": {
+      "summary": "介護現場の事務負担をAIで軽減し、本質業務に集中",
+      "actions": [
+        "Claudeで日報や会議議事録の要約を自動化する",
+        "介護・医療業界向けにAIによる記録業務効率化を提案",
+        "バックオフィス業務のAI自動化で人手不足を解消"
+      ]
+    },
+    "links": [
+      "https://news.microsoft.com/source/asia/features/at-aged-care-provider-regis-ai-takes-on-paperwork-so-staff-can-focus-on-residents/"
+    ],
+    "likes": 0
+  }
+]
