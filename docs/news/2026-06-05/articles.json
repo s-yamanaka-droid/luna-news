@@ -1,291 +1,202 @@
 [
   {
-    "title": "AI大手、生物兵器開発防止へ規制強化を要請",
-    "category": "業界動向",
-    "source": "Wired AI / The Verge AI",
-    "lede": "OpenAI、Anthropic、Google DeepMind、Microsoft AIなど主要AI企業のトップが、AI悪用による生物兵器開発を防ぐため、合成DNA販売企業への規制強化を米議会に求める共同書簡を送付しました。",
-    "keypoints": [
-      "主要AI企業が生物兵器開発リスクに警鐘",
-      "合成DNA販売企業への顧客審査強化を要求",
-      "AI悪用で危険な病原体設計が容易になる懸念",
-      "AI技術の急速な進展が知識障壁を低下"
-    ],
-    "pull": "「AI技術の進展により、悪意ある者が生物兵器を入手する障壁が低下する現実的な可能性がある。」",
-    "bizapp": {
-      "summary": "AIの安全性確保はビジネス継続の最重要課題に",
-      "actions": [
-        "社内活用例：AI利用ガイドラインに安全保障視点追加",
-        "他社提案例：AI倫理・リスク管理コンサルティング",
-        "注目理由：AIの社会受容性、規制動向に直結"
-      ]
-    },
-    "links": [
-      "https://www.wired.com/story/openai-anthropic-letter-ai-biological-weapons/",
-      "https://www.theverge.com/ai-artificial-intelligence/942956/ai-biological-weapons-open-letter-congress"
-    ],
-    "likes": 0,
-    "quickstart": {
-      "headline": "AI利用ルールを1枚で整備",
-      "tool": {
-        "name": "Claude Pro",
-        "url": "https://claude.ai",
-        "cost": "¥3,200/月"
-      },
-      "time": "30分",
-      "steps": [
-        "自社のAI利用状況を箇条書きで整理",
-        "Claudeで業種別ガイドライン案を生成",
-        "社内共有し全員の署名を取得する"
-      ],
-      "prompt": "あなたは中小企業のコンプライアンス専門家です。{業種}の{自社名}（従業員{人数}名）向けに、AI利用ガイドラインを作成してください。含める項目：①利用許可ツール一覧 ②入力禁止情報（顧客データ・機密情報）③出力の確認ルール ④違反時の対応。A4一枚で簡潔に。",
-      "roi": "情報漏洩リスク低減＋取引先への信頼向上"
-    },
-    "icebreak": {
-      "hook": "OpenAIとかAnthropicが連名で議会に手紙出したの知ってます？",
-      "punchline": "AIで危険な病原体の設計が簡単になってきたから、DNA合成の販売先チェックを厳しくしてくれって話なんです",
-      "ctx_meeting": "AI導入時のリスク管理の話題で",
-      "ctx_chat": "AIの怖い面が話題になったとき",
-      "share_text": "AI企業のトップが揃って「生物兵器リスク」に声を上げた。競合同士が手を組むくらい切迫してるということ。技術の進歩と安全のバランス、作る側が一番危機感を持ってるのかもしれない"
-    }
-  },
-  {
-    "title": "急成長AI企業Lovable、Google Cloudと大型契約",
+    "title": "メタ、AIデータセンターを「テント」で高速建設",
     "category": "業界動向",
     "source": "TechCrunch AI",
-    "lede": "急成長中のAIスタートアップLovableがGoogle Cloudとの複数年契約を拡大し、AI利用を5倍に増やすと報じられました。AnthropicのClaudeとGoogleのGeminiモデルへのアクセスも強化されます。",
+    "lede": "メタはAIデータセンター建設の期間を半減するため、テスラの手法を取り入れ、仮設テント型データセンターを導入し、大規模なAIインフラ整備を加速させている。",
     "keypoints": [
-      "LovableがGoogle Cloud利用を5倍に拡大",
-      "AnthropicのClaudeとGoogle Gemini活用強化",
-      "AIモデルをコーディングタスクに広く利用",
-      "Lovableは欧州で最速成長のスタートアップ"
+      "建設期間半減のため「急速展開構造物（テント）」を導入",
+      "オハイオ州に12万5千平方フィートのテントを5棟建設済み",
+      "テスラの工場建設やxAIの電源戦略から着想",
+      "数十億ドル規模のAIチップを収容し、オフグリッド電源で稼働"
     ],
-    "pull": "「この契約により、LovableはAnthropicのClaudeとGoogleのGeminiモデルへのアクセスを拡大する。」",
+    "pull": "「AIデータセンターの建設ブームがこれ以上クレイジーにならないと思った矢先、メタはテントでデータセンターを建設した。」",
     "bizapp": {
-      "summary": "クラウドとAIモデル活用で事業成長を加速させる事例",
+      "summary": "AIインフラ投資の効率化とスピードアップのヒントに",
       "actions": [
-        "社内活用例：Claudeで開発効率向上、Geminiでデータ分析",
-        "他社提案例：中小企業向けAI導入・クラウド移行支援",
-        "注目理由：AI活用が事業成長に直結する成功例"
+        "社内活用例：AIプロジェクトのインフラ調達計画を再検討",
+        "他社提案例：データセンター建設・運用コスト削減策を提案",
+        "注目理由：AI競争激化でインフラ整備の速度が重要に"
       ]
     },
     "links": [
-      "https://techcrunch.com/2026/06/03/lovable-signs-multi-year-deal-with-google-cloud-to-up-usage-5x-source-says/"
+      "https://techcrunch.com/2026/06/04/meta-steals-a-tactic-from-tesla-and-builds-data-centers-in-tents/"
     ],
-    "likes": 0,
-    "quickstart": {
-      "headline": "ノーコードで業務アプリ作成",
-      "tool": {
-        "name": "Lovable",
-        "url": "https://lovable.dev",
-        "cost": "無料〜$20/月"
-      },
-      "time": "1時間",
-      "steps": [
-        "Lovableに無料登録しプロジェクト作成",
-        "日本語で欲しいアプリの機能を指示する",
-        "生成されたアプリを修正し公開する"
-      ],
-      "prompt": "あなたはWebアプリ設計者です。{業種}の{自社名}が抱える「{課題}」を解決する業務用Webアプリの要件定義を作ってください。画面構成・主要機能・データ項目を箇条書きで。ユーザーは{想定ユーザー}、技術知識なしで使える前提で。",
-      "roi": "外注費50〜100万円の簡易アプリを自作＝コスト90%削減"
-    },
-    "icebreak": {
-      "hook": "欧州最速成長のAIスタートアップ、知ってます？",
-      "punchline": "LovableっていうAI企業がGoogle Cloudの利用を5倍に拡大したんですけど、ClaudeとGemini両方使い分けてるのが面白いんですよ",
-      "ctx_meeting": "マルチモデル戦略の提案時に",
-      "ctx_chat": "海外のAIスタートアップの話で",
-      "share_text": "欧州最速成長のAI企業Lovable、Google Cloudを5倍に拡大しつつClaudeもGeminiも使うらしい。1社に賭けるんじゃなく複数モデルを使い分ける時代、もう来てる"
-    }
+    "likes": 0
   },
   {
-    "title": "Apple、WWDCでAI戦略を大々的に発表か",
-    "category": "業界動向",
-    "source": "Engadget AI",
-    "lede": "Appleが年次開発者会議WWDC 2026で、SiriのAI駆動モデルなど、人工知能に関する大きな発表を行うと予告しており、業界の注目が集まっています。",
+    "title": "Appleがビジネス向けメッセージで初のAIエージェントを承認",
+    "category": "ツール更新",
+    "source": "TechCrunch AI",
+    "lede": "Appleはビジネス向けメッセージプラットフォームで、テキストメッセージでAIエージェントを利用できる「Poke」を初の外部AIエージェントとして承認し、企業と顧客のコミュニケーションを革新する。",
     "keypoints": [
-      "AppleがWWDC 2026でAI関連の発表を予告",
-      "SiriのAI駆動モデルがOSに深く統合される見込み",
-      "長らく噂されたAI分野での「大胆な動き」に期待",
-      "ティム・クックCEO最後の基調講演となる可能性"
+      "PokeがApple Messages for Businessで初のAIエージェントに",
+      "これまで企業と顧客間のチャットに限定されていた",
+      "日常的な計画、カレンダー管理、健康管理などをテキストで支援",
+      "SMS、Telegram、WhatsAppに加えiMessageに対応"
     ],
-    "pull": "「Appleは今年の会議で人工知能に関する大きな動きを発表する準備ができていると誓っている。」",
+    "pull": "「Pokeは、AIエージェントの利用をテキストメッセージを送るのと同じくらいシンプルにするスタートアップだ。」",
     "bizapp": {
-      "summary": "AppleのAI戦略は、今後のビジネス環境を大きく変える",
+      "summary": "顧客コミュニケーションのAI化で顧客体験を向上",
       "actions": [
-        "社内活用例：Apple製品のAI機能活用を検討",
-        "他社提案例：Appleエコシステム向けAIアプリ開発提案",
-        "注目理由：競合他社のAI戦略にも影響を与える"
+        "社内活用例：Claudeで顧客対応FAQを自動生成しPoke連携を検討",
+        "他社提案例：中小企業の顧客サポート自動化を提案",
+        "注目理由：大手プラットフォームでのAI活用が本格化"
       ]
     },
     "links": [
-      "https://www.engadget.com/2186944/how-to-watch-apple-wwdc-2026-keynote/"
+      "https://techcrunch.com/2026/06/04/apple-approves-poke-as-the-first-ai-agent-on-its-messages-for-business-platform/"
     ],
-    "likes": 0,
-    "quickstart": {
-      "headline": "Apple AI機能の活用計画策定",
-      "tool": {
-        "name": "Apple Intelligence（iPhone/Mac標準）",
-        "url": "https://www.apple.com/apple-intelligence/",
-        "cost": "無料（対応デバイス所有者）"
-      },
-      "time": "15分",
-      "steps": [
-        "iPhone/Macの設定でApple Intelligenceを有効化",
-        "メール要約・文章校正機能を業務メールで試す",
-        "Siriに業務タスクの整理を音声で依頼する"
-      ],
-      "prompt": "あなたは業務効率化コンサルタントです。{業種}の小規模事業者（{人数}名）が、Apple Intelligence（メール要約・文章校正・Siri音声指示・画像生成）を日常業務で活用するプランを作成してください。朝・昼・夕の時間帯別に、具体的な活用シーンと手順を示してください。",
-      "roi": "メール処理時間を1日30分短縮＝月10時間削減"
-    },
-    "icebreak": {
-      "hook": "来週のWWDC、Appleがかなり本気でAI出してくるらしいですよ",
-      "punchline": "SiriがOSに深く統合されるみたいで、ティム・クック最後の基調講演になるかもって噂もあるんです",
-      "ctx_meeting": "モバイル戦略やUX改善の議論で",
-      "ctx_chat": "iPhone好きな人との雑談で",
-      "share_text": "AppleがWWDCでAIの大胆な動きを予告。Siriが本気で変わるなら、スマホとの付き合い方がまた変わりそう。ティム・クック最後の基調講演説もあって、今年は見逃せない"
-    }
+    "likes": 0
   },
   {
-    "title": "Hugging Face CLI、AIエージェント向けに進化",
+    "title": "Databricks、AIアシスタントの検索を3倍高速化",
+    "category": "ツール更新",
+    "source": "Databricks Blog",
+    "lede": "Databricksは「Instructed-Retriever-1」により、AIアシスタント「Agent Bricks Knowledge Assistant」の検索時間を3倍、回答生成時間を2倍高速化し、企業でのAI活用を加速させる。",
+    "keypoints": [
+      "AIアシスタントの検索時間が3倍、回答生成時間が2倍に短縮",
+      "「Instructed-Retriever-1」は検索に特化したモデル",
+      "クエリ生成と再ランキングを並列処理し、低遅延を実現",
+      "企業向けワークロードで検索遅延と検索品質を改善"
+    ],
+    "pull": "「Knowledge Assistantのユーザーは、再設定なしで、品質を損なうことなく、より速い回答を得られるようになる。」",
+    "bizapp": {
+      "summary": "企業内AI検索の高速化で業務効率を大幅改善",
+      "actions": [
+        "社内活用例：RAG（AIが資料を参照して回答する仕組み）導入時の性能指標に",
+        "他社提案例：社内ナレッジ検索AIの高速化ソリューションを提案",
+        "注目理由：AIの回答速度はユーザー体験に直結する"
+      ]
+    },
+    "links": [
+      "https://www.databricks.com/blog/3x-faster-search-parallel-test-time-scaling-instructed-retriever-1"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "NVIDIA、企業向けAIのコンテンツ安全性を強化",
     "category": "ツール更新",
     "source": "Hugging Face Blog",
-    "lede": "Hugging Faceの公式CLIツール「hf CLI」がAIエージェント向けに最適化され、複雑なタスクでのトークン使用量を最大6分の1に削減し、開発効率とコストパフォーマンスを大幅に向上させます。",
+    "lede": "NVIDIAは「Nemotron 3.5 Content Safety」を発表し、マルチモーダル入力、多言語対応、企業ポリシー適用、監査可能な推論を統合することで、企業AIのコンテンツ安全管理を高度化する。",
     "keypoints": [
-      "hf CLIがAIエージェント向けに再構築",
-      "Claude CodeやCodexなどのエージェントが利用",
-      "複雑なタスクでトークン使用量を最大6分の1削減",
-      "モデルやデータセットのダウンロード・アップロードが容易に"
+      "マルチモーダル入力（テキスト、画像）の統合評価が可能に",
+      "多言語対応を強化し、グローバル企業での利用を想定",
+      "企業独自の安全ポリシーを適用できるカスタマイズ性",
+      "AIの判断理由を監査できる機能を提供"
     ],
-    "pull": "「複雑な多段階タスクにおいて、hf CLIは手動でcurlやPython SDKを使う場合に比べ、最大6倍少ないトークンで済む。」",
+    "pull": "「Nemotron 3.5 Content Safetyは、マルチモーダル入力、多言語対応、カスタム企業ポリシー適用、監査可能な推論を単一の推論呼び出しに統合する。」",
     "bizapp": {
-      "summary": "AI開発の効率とコストを大幅に改善する新機能",
+      "summary": "企業AI導入時のリスク管理と信頼性向上に貢献",
       "actions": [
-        "社内活用例：AI開発チームでhf CLI導入を検討",
-        "他社提案例：AI開発コスト削減ソリューションを提案",
-        "注目理由：AI開発の生産性向上とコスト削減に直結"
+        "社内活用例：生成AI利用ガイドライン策定時の安全基準に",
+        "他社提案例：AI導入企業へリスクマネジメントソリューションを提案",
+        "注目理由：AIの不適切出力リスクは企業活動に直結"
       ]
     },
     "links": [
-      "https://huggingface.co/blog/hf-cli-for-agents"
+      "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety"
     ],
-    "likes": 0,
-    "quickstart": {
-      "headline": "AI開発コストを6分の1に削減",
-      "tool": {
-        "name": "Claude Code",
-        "url": "https://claude.ai/download",
-        "cost": "$20/月（Pro）"
-      },
-      "time": "30分",
-      "steps": [
-        "Claude Codeをインストールし起動する",
-        "自社の定型作業をAIエージェントに指示する",
-        "出力結果を確認し業務フローに組み込む"
-      ],
-      "prompt": "あなたはAI活用の業務改善コンサルタントです。{業種}の{自社名}で毎日発生する定型作業「{作業内容}」を、AIエージェント（Claude Code等）で自動化する手順書を作ってください。①現状の手作業フロー ②AIに任せる範囲 ③人間が確認する範囲 ④導入ステップを具体的に。",
-      "roi": "定型作業の処理時間を月20時間削減＝6万円相当"
-    },
-    "icebreak": {
-      "hook": "AIエージェントのトークン代、6分の1に減らせる方法が出たんですよ",
-      "punchline": "Hugging FaceのCLIがエージェント向けに最適化されて、Claude CodeやCodexでの作業コストが激減するんです",
-      "ctx_meeting": "AI開発コスト削減の提案で",
-      "ctx_chat": "エンジニアとの技術雑談で",
-      "share_text": "Hugging FaceのCLIがエージェント最適化されてトークン消費が最大6分の1に。Claude CodeやCodexと組み合わせると開発コストが全然違ってくる。地味だけどこういう基盤の進化が一番効く"
-    }
+    "likes": 0
   },
   {
-    "title": "医療請求業務をAIで自動化、効率大幅向上",
-    "category": "業界動向",
-    "source": "Databricks Blog",
-    "lede": "DatabricksとGenpactが、医療機関の請求業務にAI（Claude）を導入し、データ解析から異議申し立て書作成までを自動化する運用ワークベンチを開発。手作業を大幅に削減し、効率化を実現します。",
-    "keypoints": [
-      "医療請求業務のデータ処理とワークフローをAIで改善",
-      "DatabricksとGenpactが運用ワークベンチを構築",
-      "AI（Claude）が異議申し立て書を自動作成",
-      "請求担当者の手作業を削減し、生産性向上"
-    ],
-    "pull": "「GenAIは、CARCコードを読み取り、元の837をプルし、臨床文書を確認し、異議申し立て書を自動作成する。」",
-    "bizapp": {
-      "summary": "医療分野のバックオフィス業務をAIで効率化する具体例",
-      "actions": [
-        "社内活用例：経理・法務などバックオフィス業務にAI導入検討",
-        "他社提案例：医療機関向けAI活用による業務改善提案",
-        "注目理由：特定業界の課題解決にAIが貢献する実例"
-      ]
-    },
-    "links": [
-      "https://www.databricks.com/blog/beyond-parsing-x12-closing-gap-revenue-cycle-workflows-healthcare"
-    ],
-    "likes": 0,
-    "quickstart": {
-      "headline": "請求書・異議申立を自動作成",
-      "tool": {
-        "name": "Claude Pro",
-        "url": "https://claude.ai",
-        "cost": "¥3,200/月"
-      },
-      "time": "20分",
-      "steps": [
-        "過去の請求書・異議申立書を1件PDF化する",
-        "Claudeにアップロードしテンプレ生成を依頼",
-        "新規案件の情報を入力し書類を自動生成する"
-      ],
-      "prompt": "あなたは{業種}専門の事務代行のプロです。添付した書類をテンプレートとして学習し、以下の情報から新しい{書類種別}を作成してください。宛先：{宛先} 案件：{案件名} 請求額：{金額} 根拠：{根拠}。フォーマットは元の書類を踏襲し、法的に適切な表現を使ってください。",
-      "roi": "書類作成1件あたり2時間→15分＝月8時間削減"
-    },
-    "icebreak": {
-      "hook": "医療の請求業務、AIが異議申し立て書まで書く時代になったらしいですよ",
-      "punchline": "DatabricksとGenpactがClaudeを使って、データ解析から書類作成まで一気通貫で自動化してるんです",
-      "ctx_meeting": "バックオフィスのAI活用提案で",
-      "ctx_chat": "医療×AIの話題が出たとき",
-      "share_text": "医療請求の異議申し立て書をAIが自動作成する仕組みが動き始めてる。派手な診断支援だけじゃなく、事務作業の自動化こそ医療現場が本当に求めてたものかもしれない"
-    }
-  },
-  {
-    "title": "Google、軽量マルチモーダルAI「Gemma 4 12B」発表",
+    "title": "NVIDIAの高性能AIモデルがAWSで利用可能に",
     "category": "新モデル発表",
-    "source": "GIGAZINE",
-    "lede": "Googleが16GBメモリで動作する軽量AIモデル「Gemma 4 12B」を公開しました。エンコーダー不要で画像と音声を処理できるマルチモーダルモデルで、ノートPCでの実行も可能です。",
+    "source": "Amazon AWS AI Blog",
+    "lede": "NVIDIAの最先端AIモデル「Nemotron 3 Ultra」がAmazon SageMaker JumpStartで利用可能になり、エージェント型AIワークロードの推論速度が5倍、コストが最大30%削減される。",
     "keypoints": [
-      "Googleが軽量AIモデル「Gemma 4 12B」を公開",
-      "16GBのVRAMまたはユニファイドメモリで動作",
-      "エンコーダー不要で画像と音声を処理するマルチモーダルAI",
-      "省メモリ化と処理遅延の低減を実現"
+      "NVIDIA Nemotron 3 UltraがSageMaker JumpStartで提供開始",
+      "エージェント型AIワークロードで推論速度5倍、コスト30%削減",
+      "5500億パラメータのMoE（混合エキスパート）アーキテクチャ",
+      "NVFP4形式に最適化され、高速かつ費用対効果が高い"
     ],
-    "pull": "「Gemma 4 12Bはエンコーダーを省くことで省メモリ化と遅延低減を実現した。」",
+    "pull": "「Nemotron 3 Ultraは、長期間にわたる自律エージェントにおける最先端の推論とオーケストレーションのために構築されたオープンモデルだ。」",
     "bizapp": {
-      "summary": "エッジAIの進化で、デバイス上での高度なAI活用が加速",
+      "summary": "高性能AIモデルを低コストで迅速に導入可能に",
       "actions": [
-        "社内活用例：オフライン環境でのAIアシスタント導入検討",
-        "他社提案例：小型デバイス向けAIソリューション開発",
-        "注目理由：コスト削減、プライバシー保護、リアルタイム性向上"
+        "社内活用例：Claudeなどの基盤モデル選定時の比較検討材料に",
+        "他社提案例：AI開発企業へコスト効率の良いモデル活用を提案",
+        "注目理由：高性能モデルの利用障壁が下がりAI活用が加速"
       ]
     },
     "links": [
-      "https://gigazine.net/news/20260604-gemma-4-12b-encoder-free/"
+      "https://aws.amazon.com/blogs/machine-learning/nvidia-nemotron-3-ultra-now-available-on-amazon-sagemaker-jumpstart/"
     ],
-    "likes": 0,
-    "quickstart": {
-      "headline": "社内PCでAIをオフライン運用",
-      "tool": {
-        "name": "Ollama",
-        "url": "https://ollama.com",
-        "cost": "無料"
-      },
-      "time": "30分",
-      "steps": [
-        "Ollamaを公式サイトからインストールする",
-        "ターミナルで ollama run gemma3 を実行する",
-        "顧客データを含む質問を外部送信なしで試す"
-      ],
-      "prompt": "あなたは{業種}の業務アシスタントです。以下の{データ種別}を分析し、{分析目的}の観点でレポートを作成してください。データ：{データ内容}。出力形式：①要約（3行）②主要な発見（箇条書き5つ）③推奨アクション（3つ）。すべて日本語で。",
-      "roi": "API課金ゼロ＋顧客データの外部流出リスクをゼロに"
+    "likes": 0
+  },
+  {
+    "title": "Amazon、音声対話可能な倉庫ロボットを開発",
+    "category": "ツール更新",
+    "source": "The Verge AI",
+    "lede": "Amazonは、従業員が自然言語で指示できる次世代倉庫ロボット「Proteus」を発表し、倉庫作業の自動化をさらに推進しながら、人との協調作業を効率化する。",
+    "keypoints": [
+      "新バージョン「Proteus」は自然言語で作業指示が可能",
+      "以前は専用ソフトウェアでの操作が必要だった",
+      "ロボットが優先順位、ルート、タイミングを判断",
+      "より広いエリアでの作業が可能になり、人間を支援"
+    ],
+    "pull": "「人間が同僚とコミュニケーションをとるのと同じように、ロボットにタスクを割り当てられるようになる。」",
+    "bizapp": {
+      "summary": "物流・倉庫業務の効率化と人手不足解消に貢献",
+      "actions": [
+        "社内活用例：物流部門での自動化推進計画に組み込む",
+        "他社提案例：倉庫業向けにAIロボット導入による効率化を提案",
+        "注目理由：人手不足が深刻な業界でAIロボットの需要増"
+      ]
     },
-    "icebreak": {
-      "hook": "ノートPCで動くマルチモーダルAI、Googleが出しましたよ",
-      "punchline": "Gemma 4っていう軽量モデルで、16GBメモリがあれば画像も音声も処理できるんです。クラウド不要で",
-      "ctx_meeting": "エッジAI・オンプレ導入の検討で",
-      "ctx_chat": "手元のPCでAI動かしたい人と",
-      "share_text": "Googleの新モデルGemma 4、16GBメモリで画像も音声も処理できる。クラウドに投げなくていいAIが手元で動く感覚、一度体験すると戻れなくなりそう"
-    }
+    "links": [
+      "https://www.theverge.com/ai-artificial-intelligence/942884/amazon-next-generation-warehouse-robot-proteus"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Microsoft、90日でAI活用を習得するガイドを発表",
+    "category": "業界動向",
+    "source": "Microsoft AI Blog",
+    "lede": "MicrosoftとLinkedInの幹部が共著で、ビジネスパーソンが90日間でAIを仕事に活用し、キャリアを向上させるための実践的なガイドブックを公開した。",
+    "keypoints": [
+      "LinkedInとMicrosoftの幹部がAI活用ガイドを出版",
+      "90日間でAIを仕事に活用し、キャリアを向上させる方法を提示",
+      "AIツールで効率化し、人間ならではの業務に注力することを推奨",
+      "具体的なAIプロンプト例も紹介し、実践を促す"
+    ],
+    "pull": "「この瞬間の最も重要な真実は、結果がまだ書かれていないということだ。新しい仕事の世界は、今、タスクごとに、ポリシーごとに、ビジネスごとに組み立てられている。」",
+    "bizapp": {
+      "summary": "AIスキル習得の具体的なロードマップとして活用",
+      "actions": [
+        "社内活用例：社員向けAIリテラシー向上研修の教材に",
+        "他社提案例：AI導入企業向けに社員教育プログラムを提案",
+        "注目理由：AI活用スキルはビジネスパーソンの必須能力に"
+      ]
+    },
+    "links": [
+      "https://news.microsoft.com/signal/articles/work-smarter-in-90-days-a-real-world-guide-to-using-ai/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "オーストラリアのクリケット、AIでファン体験を向上",
+    "category": "その他",
+    "source": "Microsoft AI Blog",
+    "lede": "クリケット・オーストラリアは、Microsoft FoundryのOpenAI GPT-5を活用した「AI Insights」機能により、試合中の選手記録や重要な瞬間をリアルタイムでファンに提供し、エンゲージメントを高めている。",
+    "keypoints": [
+      "クリケット・オーストラリアがAI Insights機能を導入",
+      "OpenAI GPT-5をMicrosoft Foundry内で活用",
+      "選手のマイルストーンや記録、重要瞬間をリアルタイムで提供",
+      "ファンはアプリで詳細な情報や追加質問が可能"
+    ],
+    "pull": "「AI Insightsは、ヘッド選手の172ランがテストマッチで5番目に高い合計得点であることを示した。」",
+    "bizapp": {
+      "summary": "スポーツ観戦体験の高度化とデータ活用による顧客エンゲージメント強化",
+      "actions": [
+        "社内活用例：マーケティング部門で顧客データ分析にAI導入を検討",
+        "他社提案例：イベント業界向けにAIによる顧客体験向上を提案",
+        "注目理由：AIによるパーソナライズされた情報提供が差別化に"
+      ]
+    },
+    "links": [
+      "https://news.microsoft.com/source/asia/features/cricket-australia-uses-ai-insights-to-bring-fans-closer-to-the-action/"
+    ],
+    "likes": 0
   }
 ]
