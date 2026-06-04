@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週は「AIの民主化」が一気に加速した週。Codexは非エンジニアの利用が爆増し、Copilotの新デザインでExcel業務が効率化、画像生成AIもプロ品質に到達した。大企業の兆円規模投資が目立つが、小規模事業者こそ「専門人材なしでプロの仕事ができるAI」を今すぐ試すべき。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-06-03",
+      "title": "OpenAI Codex、開発者以外も業務効率化に活用",
+      "category": "ツール更新",
+      "source": "OpenAI Blog",
+      "why_picked": "非エンジニアでも業務アプリや資料を即作成できる",
+      "tldr": "Codexが非開発者の万能業務ツールに進化",
+      "action": "営業資料の初稿をCodexで10分作成",
+      "image": "../assets/images/2026-06-03/topic_3.png",
+      "link": "../news/2026-06-03/#topic-3"
+    },
+    {
+      "rank": 2,
+      "date": "2026-06-02",
+      "title": "Microsoft 365 Copilot新デザインでExcel利用33%増",
+      "category": "ツール更新",
+      "source": "ITmedia Enterprise",
+      "why_picked": "Excel業務が即効率化、既に使っている環境で始められる",
+      "tldr": "Copilot刷新でExcel利用率33%増",
+      "action": "ExcelでCopilotを使い月次集計を自動化",
+      "image": "../assets/images/2026-06-02/topic_6.png",
+      "link": "../news/2026-06-02/#topic-6"
+    },
+    {
+      "rank": 3,
+      "date": "2026-05-30",
+      "title": "デザインセンスを持つ画像生成AI「Recraft V4」登場",
+      "category": "ツール更新",
+      "source": "Replicate Blog",
+      "why_picked": "デザイナー不要でプロ品質の販促素材を即日作成",
+      "tldr": "デザインセンスを持つ画像生成AIが登場",
+      "action": "今週の販促画像をRecraft V4で1枚作成",
+      "image": "../assets/images/2026-05-30/topic_3.png",
+      "link": "../news/2026-05-30/#topic-3"
+    }
+  ]
+}
