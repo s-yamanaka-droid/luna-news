@@ -42,8 +42,18 @@ def run(date_str: str = None, dry_run: bool = False, skip_slides: bool = False, 
     articles = generate_articles(raw)
     log.info(f"   {len(articles)}件生成")
 
-    # 3. CSSカード表示（画像生成不要・コスト$0）
-    log.info("3. スライド画像生成スキップ（CSSカードに移行済み）")
+    # 3. スライド画像生成（Codex CLI 並列・ChatGPT Plus サブスク内・API課金ゼロ）
+    if not skip_slides:
+        log.info("3. スライド画像生成（Codex CLI 並列・4 workers）")
+        try:
+            from slide_maker import generate_slides_parallel
+            img_dir = SITE_DIR / "assets" / "images" / date_str
+            success = generate_slides_parallel(articles[:8], img_dir, max_workers=4)
+            log.info(f"   {success}/{min(len(articles),8)}枚成功")
+        except Exception as e:
+            log.warning(f"   スライド生成失敗（処理は継続）: {e}")
+    else:
+        log.info("3. スライド画像生成スキップ（--skip-slides）")
 
     # 4. HTML生成
     log.info("4. HTML生成")

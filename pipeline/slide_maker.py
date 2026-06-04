@@ -138,6 +138,42 @@ def _playwright_fallback(title, category, source, summary, keypoints, output_pat
         return False
 
 
+def generate_slides_parallel(articles, img_dir, max_workers=4):
+    """N枚を並列に Codex CLI で生成（直列 6-15分 → 並列 90-230秒）。
+
+    articles: list of dicts with title/category/source/lede/keypoints
+    img_dir:  Path — topic_1.png, topic_2.png... を書き出すディレクトリ
+    """
+    from concurrent.futures import ThreadPoolExecutor, as_completed
+    img_dir = Path(img_dir)
+    img_dir.mkdir(parents=True, exist_ok=True)
+    n = len(articles)
+    print(f"  [slide] 並列生成開始 N={n} workers={max_workers}")
+
+    def _one(i, a):
+        out = img_dir / f"topic_{i}.png"
+        ok = generate_slide(
+            title=a.get("title", ""),
+            category=a.get("category", "AI情報"),
+            source=a.get("source", ""),
+            summary=a.get("lede", "") or a.get("summary", ""),
+            keypoints=a.get("keypoints", []),
+            output_path=out,
+        )
+        return (i, ok, out)
+
+    results = []
+    with ThreadPoolExecutor(max_workers=max_workers) as ex:
+        futures = [ex.submit(_one, i, a) for i, a in enumerate(articles, 1)]
+        for fut in as_completed(futures):
+            i, ok, out = fut.result()
+            print(f"  [slide {i}/{n}] {'OK' if ok else 'FAIL'} {out.name}")
+            results.append((i, ok))
+    success = sum(1 for _, ok in results if ok)
+    print(f"  [slide] 完了 {success}/{n}")
+    return success
+
+
 def generate_slide(title, category, source, summary, keypoints, output_path, size="1536x1024"):
     """主：Codex CLI / 副：Playwright（Codex 失敗時の安全網）"""
     output_path = Path(output_path)
