@@ -1,0 +1,202 @@
+[
+  {
+    "title": "アンソロピック、AI開発減速を提言",
+    "category": "業界動向",
+    "source": "Impress Watch AI",
+    "lede": "Anthropicは、AIが自らAIを作る時代に備え、国際的な開発調整と減速の仕組みを求めた。",
+    "keypoints": [
+      "AI自己改善のリスクを警告",
+      "人間の制御離脱を懸念",
+      "国際的な調整を提言",
+      "議論の場の設置を要請"
+    ],
+    "pull": "AI活用は、開発速度だけでなく統制力が問われる段階に入った。",
+    "bizapp": {
+      "summary": "AI導入時のリスク管理方針づくりに使える",
+      "actions": [
+        "Claude利用ルールを社内で見直す",
+        "経営層向けAI統制研修を提案",
+        "規制リスクが高まっている"
+      ]
+    },
+    "links": [
+      "https://www.watch.impress.co.jp/docs/news/2115005.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "日立、Claude Mythosでインフラ防衛へ",
+    "category": "業界動向",
+    "source": "日経クロステック AI",
+    "lede": "日立はAnthropicのProject Glasswingに参画し、非公開AIで社会インフラの脆弱性発見に取り組む。",
+    "keypoints": [
+      "日立が防衛施策に参画",
+      "非公開AIの利用権を取得",
+      "脆弱性の特定と修正へ",
+      "対象組織は約200に拡大"
+    ],
+    "pull": "AIは攻撃にも防御にも使えるため、利用先の制御が重要になる。",
+    "bizapp": {
+      "summary": "重要システムの脆弱性点検強化に使える",
+      "actions": [
+        "Codexで修正候補の洗い出し",
+        "中小企業向け脆弱性診断を提案",
+        "攻撃悪用リスクも高まる"
+      ]
+    },
+    "links": [
+      "https://xtech.nikkei.com/atcl/nxt/column/18/00001/11802/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Google、SpaceXからAI計算資源を調達",
+    "category": "業界動向",
+    "source": "TechCrunch AI",
+    "lede": "GoogleはAI製品の想定外の需要を受け、SpaceXからGPUなどの計算資源を月額9億2000万ドルで借りる。",
+    "keypoints": [
+      "契約は2026年10月から",
+      "月額9億2000万ドル",
+      "約11万GPUなどを利用",
+      "AI製品需要が背景"
+    ],
+    "pull": "AI競争の焦点はモデルだけでなく、計算資源の確保にも移っている。",
+    "bizapp": {
+      "summary": "AIサービスの供給制約を読む材料になる",
+      "actions": [
+        "利用量をClaudeで週次集計",
+        "営業にAI基盤費の説明資料を提案",
+        "計算資源コストが競争要因"
+      ]
+    },
+    "links": [
+      "https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Cloudflare、AI利用料の暴走を制御",
+    "category": "ツール更新",
+    "source": "Cloudflare Blog",
+    "lede": "CloudflareはAI Gatewayにリアルタイム支出上限を追加し、複数AIサービスのトークン費用管理を支援する。",
+    "keypoints": [
+      "AI Gatewayに支出上限",
+      "複数AIサービスを管理",
+      "個人別予算もベータ提供",
+      "共有APIキー問題に対応"
+    ],
+    "pull": "AI活用の次の課題は、誰が何にいくら使ったかの可視化だ。",
+    "bizapp": {
+      "summary": "AI利用費の予算管理と無駄削減に使える",
+      "actions": [
+        "Claude利用を部署別に記録",
+        "情シス向けAI費用管理を提案",
+        "請求超過のリスクを抑える"
+      ]
+    },
+    "links": [
+      "https://blog.cloudflare.com/ai-gateway-spend-limits/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Copilot、隔離環境で安全に操作可能に",
+    "category": "ツール更新",
+    "source": "CodeZine",
+    "lede": "GitHub Copilotは、コードやファイル、ネットワークへ安全にアクセスするサンドボックス機能をプレビュー公開した。",
+    "keypoints": [
+      "隔離環境をプレビュー公開",
+      "ローカル端末で安全に試せる",
+      "クラウドLinux環境も起動",
+      "MDMでポリシー管理可能"
+    ],
+    "pull": "AIエージェント活用は、自由度よりも隔離と監査が前提になる。",
+    "bizapp": {
+      "summary": "開発現場でAIエージェントを安全に試せる",
+      "actions": [
+        "Copilotで検証作業を隔離実行",
+        "開発会社へ安全導入を提案",
+        "企業利用の障壁を下げる"
+      ]
+    },
+    "links": [
+      "https://codezine.jp/article/detail/24465"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "図面解析AI、検図工数を最大60％削減",
+    "category": "ツール更新",
+    "source": "ITmedia AI+",
+    "lede": "フィーチャのDrawing-AIは建築図面にも対応し、検図やデータ化、積算業務の工数を30〜60％削減した。",
+    "keypoints": [
+      "建築図面にも新対応",
+      "検図や積算を支援",
+      "工数を30〜60％削減",
+      "回路図や金型図面も対応"
+    ],
+    "pull": "現場の紙や図面業務こそ、AIで削減余地が大きい。",
+    "bizapp": {
+      "summary": "図面確認や積算の省力化に使える",
+      "actions": [
+        "Claudeで検図結果を要約",
+        "建設業向け積算DXを提案",
+        "人手不足対策に直結する"
+      ]
+    },
+    "links": [
+      "https://monoist.itmedia.co.jp/mn/articles/2606/05/news020.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "組織常駐型AI基盤「RiN」登場",
+    "category": "ツール更新",
+    "source": "AI Watch (Impress)",
+    "lede": "Metelixは、全社・部署・個人の3階層にAIバディを配置できる企業向けAI基盤をリリースした。",
+    "keypoints": [
+      "3階層にAIを配置",
+      "20体以上が本番運用",
+      "権限と監査ログを一元管理",
+      "特定モデルに依存しない"
+    ],
+    "pull": "企業AIは、単体ツール導入から組織運用の設計へ進んでいる。",
+    "bizapp": {
+      "summary": "部署ごとのAI業務支援設計に使える",
+      "actions": [
+        "Claudeを部署FAQ用途に分ける",
+        "情シス向けAI統制基盤を提案",
+        "権限管理が導入の焦点"
+      ]
+    },
+    "links": [
+      "https://ai.watch.impress.co.jp/docs/news/2114976.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Adobe、PremiereのAI処理を2倍高速化",
+    "category": "ツール更新",
+    "source": "Impress PC Watch",
+    "lede": "AdobeはNVIDIAと協業を拡大し、PremiereのAIによるシーン編集検出をRTXで2倍高速化する。",
+    "keypoints": [
+      "NVIDIAと協業を拡大",
+      "PremiereのAI処理を高速化",
+      "未対応版比で2倍速い",
+      "Photoshopでも協力へ"
+    ],
+    "pull": "動画編集の手作業は、AIとGPUでさらに短縮される。",
+    "bizapp": {
+      "summary": "動画制作の編集時間短縮に使える",
+      "actions": [
+        "Premiereで動画カットを自動化",
+        "販促動画制作の短納期化を提案",
+        "制作部門の生産性が上がる"
+      ]
+    },
+    "links": [
+      "https://pc.watch.impress.co.jp/docs/news/event/2114932.html"
+    ],
+    "likes": 0
+  }
+]
