@@ -22,7 +22,30 @@
     "links": [
       "https://www.watch.impress.co.jp/docs/news/2115005.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI利用ルールを作る",
+      "tool": {
+        "name": "Claude Pro",
+        "url": "https://claude.ai",
+        "cost": "約¥3,000/月"
+      },
+      "time": "30分",
+      "steps": [
+        "社内のAI利用例を書き出せ",
+        "禁止事項を3つ決めろ",
+        "社員向けルールに整えろ"
+      ],
+      "prompt": "あなたはAI統制の専門家です。{自社名}{業種}の小規模企業向けに、明日から使えるAI利用ルールを禁止事項・確認事項・承認条件で作ってください。",
+      "roi": "情報漏えいリスク低減、ルール作成を半日短縮"
+    },
+    "icebreak": {
+      "hook": "AIがAIを作る時代、減速の話まで出てるの知ってます？",
+      "punchline": "便利さだけじゃなく、人が制御できる前提をどう守るかが課題になってますね",
+      "ctx_meeting": "AI活用方針の相談で",
+      "ctx_chat": "移動中の会話で",
+      "share_text": "AIが自分でAIを作る話、もうSFではなくなってきた感があります。速さより先に、止め方や話し合う場を決めるのが大事になりそう。"
+    }
   },
   {
     "title": "日立、Claude Mythosでインフラ防衛へ",
@@ -47,7 +70,30 @@
     "links": [
       "https://xtech.nikkei.com/atcl/nxt/column/18/00001/11802/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "自社サイト脆弱性点検",
+      "tool": {
+        "name": "GitHub Copilot",
+        "url": "https://github.com/features/copilot",
+        "cost": "約¥1,500/月"
+      },
+      "time": "半日",
+      "steps": [
+        "自社サイトのコードを開け",
+        "認証と入力欄を点検せよ",
+        "修正候補を一覧化せよ"
+      ],
+      "prompt": "あなたはセキュリティ診断員です。{自社名}の{Webサイト名}のコードを見て、入力欄・認証・権限周りの脆弱性候補と修正案を表で出してください。",
+      "roi": "外部診断前の自己点検で5万円相当の工数削減"
+    },
+    "icebreak": {
+      "hook": "日立が非公開AIでインフラの弱点探しに入るらしいですよ",
+      "punchline": "AI導入って攻めだけじゃなく、社会インフラを守る側でも本格化してますね",
+      "ctx_meeting": "セキュリティ提案の冒頭で",
+      "ctx_chat": "顧客先への移動中に",
+      "share_text": "日立が非公開AIで社会インフラの脆弱性発見に取り組む話、かなり現実味があります。守るAIの使い方は、もっと企業で議論されそうです。"
+    }
   },
   {
     "title": "Google、SpaceXからAI計算資源を調達",
@@ -72,7 +118,30 @@
     "links": [
       "https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI費用を週次で見える化",
+      "tool": {
+        "name": "Gemini",
+        "url": "https://gemini.google.com",
+        "cost": "無料 / 約¥2,900/月"
+      },
+      "time": "30分",
+      "steps": [
+        "AI利用料を表に貼れ",
+        "用途別に分類させろ",
+        "来月の費用を予測せよ"
+      ],
+      "prompt": "あなたは小規模企業の経営管理担当です。{自社名}のAI利用明細を、用途別・担当者別に分類し、来月費用と削減案を出してください。",
+      "roi": "AI費用の無駄を月1〜3万円削減"
+    },
+    "icebreak": {
+      "hook": "GoogleがSpaceXからGPUを借りる話、規模がすごいですよ",
+      "punchline": "AI製品が想定以上に使われると、計算資源そのものが競争力になりますね",
+      "ctx_meeting": "AI基盤投資の相談で",
+      "ctx_chat": "ニュース雑談の中で",
+      "share_text": "GoogleがSpaceXから月額9億2000万ドルで約11万GPUなどを借りる話、AIはモデルだけでなく計算資源の確保が勝負なんだと感じます。"
+    }
   },
   {
     "title": "Cloudflare、AI利用料の暴走を制御",
@@ -97,7 +166,30 @@
     "links": [
       "https://blog.cloudflare.com/ai-gateway-spend-limits/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI予算超過を防ぐ",
+      "tool": {
+        "name": "Cloudflare AI Gateway",
+        "url": "https://developers.cloudflare.com/ai-gateway/",
+        "cost": "無料枠あり"
+      },
+      "time": "1時間",
+      "steps": [
+        "AI Gatewayを作成せよ",
+        "月額上限を設定せよ",
+        "担当者別に利用を記録せよ"
+      ],
+      "prompt": "あなたはAI費用管理者です。{自社名}のAI API利用を、担当者・用途・月額上限で管理する運用ルールと確認表を作ってください。",
+      "roi": "請求超過を防ぎ月数万円の突発費を抑制"
+    },
+    "icebreak": {
+      "hook": "AIの使いすぎをリアルタイムで止める仕組み、出てきてますよ",
+      "punchline": "便利だから使うほど、トークン費用を誰がどう管理するかが現場の課題になりますね",
+      "ctx_meeting": "AI費用管理の提案で",
+      "ctx_chat": "社内ツールの話題で",
+      "share_text": "AI利用料は気づいたら増えるので、Cloudflareのリアルタイム支出上限は現場目線で納得感があります。共有APIキーの運用も見直したい。"
+    }
   },
   {
     "title": "Copilot、隔離環境で安全に操作可能に",
@@ -122,7 +214,30 @@
     "links": [
       "https://codezine.jp/article/detail/24465"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI作業を隔離して試す",
+      "tool": {
+        "name": "GitHub Copilot",
+        "url": "https://github.com/features/copilot",
+        "cost": "約¥1,500/月"
+      },
+      "time": "1時間",
+      "steps": [
+        "検証用リポジトリを作れ",
+        "Copilotで修正案を出せ",
+        "本番反映前に差分を見ろ"
+      ],
+      "prompt": "あなたは慎重な開発責任者です。{自社名}の{機能名}をAIで修正する前に、隔離環境で試す手順と確認チェックリストを作ってください。",
+      "roi": "検証ミスによる本番障害リスクを低減"
+    },
+    "icebreak": {
+      "hook": "Copilotを隔離環境で動かせるようになるらしいですよ",
+      "punchline": "AIにコードやネットワークを触らせるなら、自由度より先に管理の仕組みが要りますね",
+      "ctx_meeting": "開発AI導入の相談で",
+      "ctx_chat": "エンジニアとの雑談で",
+      "share_text": "GitHub Copilotがサンドボックス機能を出す流れ、かなり実務的です。AIに作業を任せるほど、どこまで触らせるかの設計が大事になりますね。"
+    }
   },
   {
     "title": "図面解析AI、検図工数を最大60％削減",
@@ -147,7 +262,30 @@
     "links": [
       "https://monoist.itmedia.co.jp/mn/articles/2606/05/news020.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "図面チェックを時短",
+      "tool": {
+        "name": "Claude Pro",
+        "url": "https://claude.ai",
+        "cost": "約¥3,000/月"
+      },
+      "time": "30分",
+      "steps": [
+        "図面PDFを1枚用意せよ",
+        "確認項目を先に書け",
+        "抜け漏れを要約させろ"
+      ],
+      "prompt": "あなたは{業種}の図面確認担当です。添付した{図面種別}を見て、寸法・注記・部材・積算に関する確認漏れ候補を表で出してください。",
+      "roi": "検図準備を30〜60%短縮"
+    },
+    "icebreak": {
+      "hook": "建築図面の検図工数、AIで最大60％減ったそうですよ",
+      "punchline": "紙や図面の読み取りは地味ですが、削減幅が出ると現場の説得材料になりますね",
+      "ctx_meeting": "業務効率化提案で",
+      "ctx_chat": "建設業界の話題で",
+      "share_text": "図面解析AIが建築図面にも対応して、検図や積算の工数を30〜60％削減した話。派手なAIより、こういう現場作業の短縮が一番刺さる気がします。"
+    }
   },
   {
     "title": "組織常駐型AI基盤「RiN」登場",
@@ -172,7 +310,30 @@
     "links": [
       "https://ai.watch.impress.co.jp/docs/news/2114976.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "部署別AI係を作る",
+      "tool": {
+        "name": "Notion AI",
+        "url": "https://www.notion.com/product/ai",
+        "cost": "約¥1,650/月"
+      },
+      "time": "1時間",
+      "steps": [
+        "部署別ページを作れ",
+        "よくある質問を入れろ",
+        "回答ルールを決めろ"
+      ],
+      "prompt": "あなたは社内AI設計者です。{自社名}の{部署名}向けに、FAQ・業務手順・注意事項を答えるAIバディの役割定義を作ってください。",
+      "roi": "社内質問対応を月10時間削減＝3万円相当"
+    },
+    "icebreak": {
+      "hook": "会社にAIバディを常駐させる基盤、出てきましたよ",
+      "punchline": "全社・部署・個人でAIを分けると、権限や監査まで含めた運用が前提になりますね",
+      "ctx_meeting": "全社AI導入の議論で",
+      "ctx_chat": "社内DXの雑談で",
+      "share_text": "全社・部署・個人の3階層にAIバディを置く発想は面白いです。便利なチャットボットより、権限と監査ログまで管理できるかが企業導入の分かれ目になりそう。"
+    }
   },
   {
     "title": "Adobe、PremiereのAI処理を2倍高速化",
@@ -197,6 +358,29 @@
     "links": [
       "https://pc.watch.impress.co.jp/docs/news/event/2114932.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "動画カットを半自動化",
+      "tool": {
+        "name": "Adobe Premiere Pro",
+        "url": "https://www.adobe.com/products/premiere.html",
+        "cost": "約¥3,280/月"
+      },
+      "time": "30分",
+      "steps": [
+        "販促動画を読み込め",
+        "シーン検出を実行せよ",
+        "不要カットを削除せよ"
+      ],
+      "prompt": "あなたは動画編集ディレクターです。{自社名}の{商品名}紹介動画から、SNS用30秒版に残すべき場面と削る場面を理由付きで提案してください。",
+      "roi": "販促動画編集を50%短縮"
+    },
+    "icebreak": {
+      "hook": "PremiereのAI処理、RTXで2倍速くなるらしいですよ",
+      "punchline": "クリエイティブ業務でも、AIの速さは編集体験そのものを変えていきますね",
+      "ctx_meeting": "制作環境の相談で",
+      "ctx_chat": "動画編集の話題で",
+      "share_text": "AdobeとNVIDIAの協業でPremiereのAIシーン編集検出が2倍速くなる話。AI機能は精度だけでなく、待ち時間が減ることにも価値がありますね。"
+    }
   }
 ]

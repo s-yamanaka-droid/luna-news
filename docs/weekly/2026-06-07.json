@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週のAIニュースでは、中小企業でも活用可能な即実行性の高いツールやサービスが目立ちました。特に業務効率を大幅に改善する施策や、コスト削減に繋がる情報が多く見られました。また、AI導入による競争力の強化が強調されています。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-06-06",
+      "title": "Cloudflare、AI利用料の暴走を制御",
+      "category": "ツール更新",
+      "source": "Cloudflare Blog",
+      "why_picked": "AI利用費の管理でコスト削減が可能だから。",
+      "tldr": "リアルタイムでAI支出を管理。",
+      "action": "AI予算上限を設定しよう。",
+      "image": "../assets/images/2026-06-06/topic_1.png",
+      "link": "../news/2026-06-06/#topic-1"
+    },
+    {
+      "rank": 2,
+      "date": "2026-06-03",
+      "title": "OpenAI Codex、開発者以外も業務効率化に活用",
+      "category": "ツール更新",
+      "source": "OpenAI Blog",
+      "why_picked": "非開発者でも簡単に活用できるから。",
+      "tldr": "非開発者向けに業務効率化ツール提供。",
+      "action": "営業資料をCodexで作成。",
+      "image": "../assets/images/2026-06-03/topic_2.png",
+      "link": "../news/2026-06-03/#topic-2"
+    },
+    {
+      "rank": 3,
+      "date": "2026-06-06",
+      "title": "図面解析AI、検図工数を最大60％削減",
+      "category": "ツール更新",
+      "source": "ITmedia AI+",
+      "why_picked": "業務工数削減が期待できるから。",
+      "tldr": "検図工数を60%削減するAIツール。",
+      "action": "図面チェックを自動化して時短。",
+      "image": "../assets/images/2026-06-06/topic_3.png",
+      "link": "../news/2026-06-06/#topic-3"
+    }
+  ]
+}

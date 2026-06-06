@@ -79,17 +79,11 @@ SYSTEM = """あなたはAI業界ニュースを「日本人ビジネスパーソ
 
 
 def _rank_articles(raw_articles: list[dict]) -> list[int]:
-    """Stage 1: Gemini Flash で全記事をスコアリングし、TOP 30 の index を返す"""
-    from llm import extract_json
-    import google.generativeai as genai
-    import os
+    """Stage 1: chat_json (provider=codex/claude/openai) で全記事スコアリング → TOP 30 を返す"""
+    from llm import extract_json, chat_json
     import logging
 
     log = logging.getLogger(__name__)
-    genai.configure(api_key=os.environ.get("GEMINI_API_KEY"))
-    model = genai.GenerativeModel("gemini-2.5-flash")
-
-    # 入力上限：title 短縮 + 200件まで（Geminiの安定応答のため）
     cap = min(len(raw_articles), 200)
     lines = []
     for i, a in enumerate(raw_articles[:cap]):
@@ -97,17 +91,13 @@ def _rank_articles(raw_articles: list[dict]) -> list[int]:
     digest = "\n".join(lines)
 
     try:
-        resp = model.generate_content(
-            f"{RANK_SYSTEM}\n\n記事一覧（{cap}件・最初の{cap}件）:\n\n{digest}",
-            generation_config=genai.GenerationConfig(
-                max_output_tokens=2000,
-                temperature=0.3,
-                response_mime_type="application/json",
-            ),
+        text = chat_json(
+            system=RANK_SYSTEM + "\n\n出力は純粋なJSONオブジェクトのみ。前置きや解説は一切書かない。",
+            user=f"記事一覧（{cap}件・最初の{cap}件）:\n\n{digest}",
+            max_tokens=2000,
         )
-        text = resp.text or ""
         if not text.strip():
-            log.warning(f"   [Stage1] Gemini empty response (finish={resp.candidates[0].finish_reason if resp.candidates else 'N/A'}) → 先頭30件で代替")
+            log.warning(f"   [Stage1] empty response → 先頭30件で代替")
             return list(range(min(30, cap)))
         parsed = json.loads(extract_json(text, "object"))
         idx = parsed.get("top_indices", [])
@@ -119,26 +109,18 @@ def _rank_articles(raw_articles: list[dict]) -> list[int]:
 
 def generate_articles(raw_articles: list[dict]) -> list[dict]:
     """
-    2-Stage Pipeline:
-    Stage 1: Gemini Flash で全記事から TOP 30 を選出
-    Stage 2: Gemini Flash で TOP 30 → 記事8本を生成
+    2-Stage Pipeline (provider=codex/claude/openai, LLM_PROVIDER env で切替):
+    Stage 1: 全記事スコアリング → TOP 30 選出
+    Stage 2: TOP 30 → 記事 8本生成
     """
-    from llm import extract_json
-    import google.generativeai as genai
-    import os
+    from llm import extract_json, chat_json, PROVIDER
     import logging
 
     log = logging.getLogger(__name__)
-
-    genai.configure(api_key=os.environ.get("GEMINI_API_KEY"))
-    model = genai.GenerativeModel("gemini-2.5-flash")
-
-    # Stage 1: スコアリング（Gemini Flash・無料枠）
-    log.info("   [Stage1] 全記事スコアリング（Gemini Flash）")
+    log.info(f"   [Stage1] 全記事スコアリング (provider={PROVIDER})")
     top_indices = _rank_articles(raw_articles)
     log.info(f"   [Stage1] TOP {len(top_indices)}件選出")
 
-    # Stage 2: 本格要約（Gemini Flash）
     top_articles = [raw_articles[i] for i in top_indices if i < len(raw_articles)]
 
     blocks = []
@@ -152,19 +134,15 @@ def generate_articles(raw_articles: list[dict]) -> list[dict]:
         )
     digest = "\n\n---\n\n".join(blocks)
 
-    log.info("   [Stage2] 記事生成（Gemini Flash・JSON mode）")
-    resp = model.generate_content(
-        f"{SYSTEM}\n\n今日のAI関連記事:\n\n{digest}",
-        generation_config=genai.GenerationConfig(
-            max_output_tokens=8000,
-            temperature=0.3,
-            response_mime_type="application/json",
-        ),
-    )
-    text = (resp.text or "").strip()
+    log.info(f"   [Stage2] 記事生成 (provider={PROVIDER})")
+    text = chat_json(
+        system=SYSTEM + "\n\n出力は純粋なJSON配列のみ。前置きや解説は一切書かない。",
+        user=f"今日のAI関連記事:\n\n{digest}",
+        max_tokens=8000,
+    ).strip()
     if not text:
-        log.error(f"   [Stage2] 空応答 finish={resp.candidates[0].finish_reason if resp.candidates else 'N/A'}")
-        raise RuntimeError("Stage2: Gemini returned empty response")
+        log.error(f"   [Stage2] 空応答")
+        raise RuntimeError("Stage2: empty response from LLM")
     # 1回目試行
     try:
         return json.loads(extract_json(text, "array"))

@@ -10,6 +10,8 @@ PROVIDER = os.environ.get("LLM_PROVIDER", "openai").lower()
 
 def chat_json(system: str, user: str, max_tokens: int = 4000, model: str | None = None):
     """システム+ユーザープロンプトを送り、本文テキストを返す（JSON抽出は呼び出し側）"""
+    if PROVIDER == "codex":
+        return _codex(system, user)
     if PROVIDER == "claude":
         return _claude_code(system, user)
     if PROVIDER == "anthropic":
@@ -19,6 +21,22 @@ def chat_json(system: str, user: str, max_tokens: int = 4000, model: str | None 
     if PROVIDER == "gemini":
         return _gemini(system, user, max_tokens, model or "gemini-2.5-flash")
     raise ValueError(f"Unknown LLM_PROVIDER: {PROVIDER}")
+
+
+def _codex(system: str, user: str) -> str:
+    """Codex CLI 経由（ChatGPT Plus サブスク内・API課金ゼロ）"""
+    import subprocess
+    prompt = f"{system}\n\n{user}"
+    proc = subprocess.run(
+        ["/opt/homebrew/bin/codex", "exec", "--skip-git-repo-check",
+         "--sandbox", "read-only", prompt],
+        capture_output=True, text=True, timeout=300,
+    )
+    if proc.returncode != 0:
+        err = proc.stderr or proc.stdout[:300]
+        raise RuntimeError(f"codex CLI error (rc={proc.returncode}): {err[:300]}")
+    # codex stdout には進捗ログとモデル出力が混ざるので、最後の構造化ブロックを抽出
+    return proc.stdout
 
 
 def _claude_code(system: str, user: str) -> str:
