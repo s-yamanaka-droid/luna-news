@@ -22,7 +22,30 @@
     "links": [
       "https://xtech.nikkei.com/atcl/nxt/column/18/00001/11804/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "現場日報を整える",
+      "tool": {
+        "name": "ChatGPT Plus",
+        "url": "https://chatgpt.com",
+        "cost": "約¥3,000/月"
+      },
+      "time": "30分",
+      "steps": [
+        "日報をCSVで出せ",
+        "列名と欠損を確認せよ",
+        "入力ルールを作れ"
+      ],
+      "prompt": "あなたは中小企業のDX担当です。{自社名}の{業種}で使う{現場日報}をAI分析しやすい列名・入力ルール・不足項目に整理してください。",
+      "roi": "現場集計を月5時間削減"
+    },
+    "icebreak": {
+      "hook": "経産省のAI支援、現場データ寄りになってるの知ってます？",
+      "punchline": "汎用AIを入れるより、現場をAI-Readyにする話が本丸になってきましたね。",
+      "ctx_meeting": "AI導入提案の冒頭で",
+      "ctx_chat": "移動中の会話で",
+      "share_text": "AI導入の話、モデル選びより先に現場データをどうAI-Readyにするかが効いてきそう。GENIAC第4期の16件採択も、産業特化に寄っているのが象徴的。"
+    }
   },
   {
     "title": "Claude、業務代行AIを全有料開放",
@@ -47,7 +70,30 @@
     "links": [
       "https://atmarkit.itmedia.co.jp/ait/articles/2606/08/news062.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "雑務をAIに委任",
+      "tool": {
+        "name": "Claude Pro",
+        "url": "https://claude.ai",
+        "cost": "約¥3,000/月"
+      },
+      "time": "30分",
+      "steps": [
+        "定型業務を1つ選べ",
+        "資料と条件を渡せ",
+        "完了物を確認せよ"
+      ],
+      "prompt": "あなたは{自社名}の業務代行AIです。{業種}の毎週行う{定型業務}について、入力資料、判断基準、完了物、確認点を整理して実行手順にしてください。",
+      "roi": "営業事務を月10時間削減"
+    },
+    "icebreak": {
+      "hook": "Claude、もう業務を任せる前提になってきたらしいですよ",
+      "punchline": "全有料プラン開放にZoom連携まで来ると、個人利用から組織運用の話になりますね。",
+      "ctx_meeting": "業務改善提案の導入で",
+      "ctx_chat": "会議前の雑談で",
+      "share_text": "Claude Coworkが全有料プランに広がると、AIは質問相手というより業務を任せる相手になっていく。管理機能やZoom連携まで含めて、組織でどう使うかが問われそう。"
+    }
   },
   {
     "title": "Liquid AI、日本語AIを無償公開",
@@ -72,7 +118,30 @@
     "links": [
       "https://pc.watch.impress.co.jp/docs/news/2115332.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "受付AIを端末化",
+      "tool": {
+        "name": "LM Studio",
+        "url": "https://lmstudio.ai",
+        "cost": "無料"
+      },
+      "time": "半日",
+      "steps": [
+        "FAQを20個集めよ",
+        "端末にモデルを入れよ",
+        "回答例を試せ"
+      ],
+      "prompt": "あなたは{自社名}の受付AIです。{業種}の来店客からの{よくある質問}に、端末内だけで返す短い回答例を20個作ってください。",
+      "roi": "一次対応を月8時間削減"
+    },
+    "icebreak": {
+      "hook": "日本語AI、端末上で動かす流れが出てきてますね",
+      "punchline": "音声会話まで小型モデルでできるなら、現場端末にAIを置く選択肢が現実味を帯びます。",
+      "ctx_meeting": "端末活用の相談で",
+      "ctx_chat": "ガジェット話の流れで",
+      "share_text": "日本語チャットや音声対応の小型AIが端末上で使えるとなると、クラウド前提だったAI活用の設計を見直したくなる。条件付き商用無償なのも大きい。"
+    }
   },
   {
     "title": "Anthropic、AI開発減速を提言",
@@ -97,7 +166,30 @@
     "links": [
       "https://ai.watch.impress.co.jp/docs/news/2115367.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI利用規程を作る",
+      "tool": {
+        "name": "Claude Pro",
+        "url": "https://claude.ai",
+        "cost": "約¥3,000/月"
+      },
+      "time": "30分",
+      "steps": [
+        "利用中AIを列挙せよ",
+        "禁止入力を決めよ",
+        "確認担当を置け"
+      ],
+      "prompt": "あなたは小規模企業のAI統制担当です。{自社名}の{業種}で{利用中AI}を使う際の禁止事項、レビュー基準、承認フローを1枚にまとめてください。",
+      "roi": "情報漏えいリスクを低減"
+    },
+    "icebreak": {
+      "hook": "AnthropicがAI開発を減速してもいいって言ってるの、意外ですよね",
+      "punchline": "AIがコードの大半を書く段階だと、人間レビューの限界を先に考える必要がありますね。",
+      "ctx_meeting": "開発体制の議論で",
+      "ctx_chat": "AI安全性の話題で",
+      "share_text": "AIがAI開発を担う段階になると、速く作れることより、人間がどこまで見切れるかが問題になる。Anthropicの減速提言は、開発現場の現実に近い問いだと思う。"
+    }
   },
   {
     "title": "OpenAI、ChatGPTを業務アプリ化へ",
@@ -122,7 +214,30 @@
     "links": [
       "https://the-decoder.com/openai-says-chat-is-dead-and-plans-to-rebuild-chatgpt-as-a-full-blown-agent-app/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "社内作業をAI窓口化",
+      "tool": {
+        "name": "ChatGPT Plus",
+        "url": "https://chatgpt.com",
+        "cost": "約¥3,000/月"
+      },
+      "time": "30分",
+      "steps": [
+        "毎日作業を3つ選べ",
+        "入力項目を決めよ",
+        "出力形式を保存せよ"
+      ],
+      "prompt": "あなたは{自社名}の業務アプリ設計者です。{業種}の{作業名}をChatGPTで代行するため、入力項目、実行手順、出力形式を作ってください。",
+      "roi": "社内作業を月10時間削減"
+    },
+    "icebreak": {
+      "hook": "ChatGPT、質問箱から業務アプリに変わろうとしてるみたいです",
+      "punchline": "Codexや外部サービス連携まで統合されると、画面の中で作業が完結する方向ですね。",
+      "ctx_meeting": "業務アプリ検討で",
+      "ctx_chat": "ChatGPT話の流れで",
+      "share_text": "ChatGPTが対話ツールから作業代行アプリに寄っていくなら、業務システムとの距離感も変わりそう。答えをもらう場所ではなく、仕事を進める場所になるのかもしれない。"
+    }
   },
   {
     "title": "NewDays、棚割り判断にAI実証",
@@ -147,7 +262,30 @@
     "links": [
       "https://ampmedia.jp/2026/06/08/newdays-0608/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "棚替え判断をAI化",
+      "tool": {
+        "name": "ChatGPT Plus",
+        "url": "https://chatgpt.com",
+        "cost": "約¥3,000/月"
+      },
+      "time": "30分",
+      "steps": [
+        "棚写真を撮影せよ",
+        "売上CSVを用意せよ",
+        "陳列案を出させよ"
+      ],
+      "prompt": "あなたは小売店の棚割り担当です。{店舗名}の{商品棚写真}と{売上データ}を見て、売れ筋・死に筋・補充位置の改善案を出してください。",
+      "roi": "棚替え検討を70%短縮"
+    },
+    "icebreak": {
+      "hook": "NewDaysの棚割り判断、AIで支援する実証が始まるらしいですよ",
+      "punchline": "タブレット撮影と販売データで売り場を見れば、経験頼みの判断をかなり減らせそうです。",
+      "ctx_meeting": "店舗DX提案の冒頭で",
+      "ctx_chat": "コンビニ話の流れで",
+      "share_text": "商品棚を撮ってAIが識別し、販売動向まで見えるなら、棚割りは勘と経験だけの仕事ではなくなる。NewDaysの実証は、現場業務AIのわかりやすい例だと思う。"
+    }
   },
   {
     "title": "ELYZA、PLに効くAI活用を提唱",
@@ -172,7 +310,30 @@
     "links": [
       "https://thebridge.jp/2026/06/elyza-sonooka-elyza-works-design-mugenlabo-magazine"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "外注業務を内製化",
+      "tool": {
+        "name": "Claude Pro",
+        "url": "https://claude.ai",
+        "cost": "約¥3,000/月"
+      },
+      "time": "1時間",
+      "steps": [
+        "外注費を1件選べ",
+        "作業手順を聞け",
+        "AI化案を比べよ"
+      ],
+      "prompt": "あなたは中小企業の利益改善担当です。{自社名}の{外注業務}について、内製化できる作業、AIで代替する手順、月額削減額の試算を出してください。",
+      "roi": "外注費を月3万円削減"
+    },
+    "icebreak": {
+      "hook": "生成AI、そろそろ効率化だけでは評価されにくそうです",
+      "punchline": "ELYZAの話みたいに、PLに効く重要業務へ入れないと成果として見えにくいですね。",
+      "ctx_meeting": "AI投資判断の場で",
+      "ctx_chat": "経営企画の雑談で",
+      "share_text": "生成AIを入れても、小粒な効率化だけだと業績への効き方が見えにくい。重要業務のAI化やBPO内製化まで踏み込んで、初めてPLの話になりそう。"
+    }
   },
   {
     "title": "VS Code、AI開発と安全対策を強化",
@@ -197,6 +358,29 @@
     "links": [
       "https://gihyo.jp/article/2026/06/vscode-1.123?utm_source=feed"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "開発AIを安全設定",
+      "tool": {
+        "name": "GitHub Copilot",
+        "url": "https://github.com/features/copilot",
+        "cost": "無料〜約¥1,500/月"
+      },
+      "time": "30分",
+      "steps": [
+        "拡張機能を棚卸せよ",
+        "自動更新を確認せよ",
+        "AI利用ルールを作れ"
+      ],
+      "prompt": "あなたは小規模開発会社のAI安全責任者です。{自社名}の{開発環境}で使う拡張機能とCopilotの利用ルール、更新確認手順を作ってください。",
+      "roi": "障害対応を月2時間削減"
+    },
+    "icebreak": {
+      "hook": "VS Code、AI開発だけでなく安全対策も強めてますね",
+      "punchline": "拡張機能更新を2時間遅らせるのは、開発スピードと安全性の両方を見る動きですね。",
+      "ctx_meeting": "開発環境の相談で",
+      "ctx_chat": "エンジニア雑談で",
+      "share_text": "VS Codeの更新で、Copilot向け新モデルだけでなく拡張機能更新の2時間遅延も入るのが面白い。AIで速く作るほど、開発環境側の安全対策も重要になる。"
+    }
   }
 ]

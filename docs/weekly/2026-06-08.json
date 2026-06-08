@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週はAIが「相談相手」から「業務代行」へ進んだ。小規模事業者はExcel、資料作成、雑務から始めるだけで時間削減が狙える。次の論点は、費用上限と利用ルールを先に決めて安全に回すことだ。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-06-08",
+      "title": "Claude、業務代行AIを全有料開放",
+      "category": "ツール更新",
+      "source": "ITmedia AI+",
+      "why_picked": "雑務を任せて社長の時間をすぐ作れる",
+      "tldr": "Claudeで定型業務を代行",
+      "action": "毎日発生する雑務を1つ任せる",
+      "image": "../assets/images/2026-06-08/topic_2.png",
+      "link": "../news/2026-06-08/#topic-2"
+    },
+    {
+      "rank": 2,
+      "date": "2026-06-03",
+      "title": "OpenAI Codex、開発者以外も業務効率化に活用",
+      "category": "ツール更新",
+      "source": "OpenAI Blog",
+      "why_picked": "資料や簡易アプリ作成を外注せず試せる",
+      "tldr": "非エンジニアもCodex活用",
+      "action": "営業資料の初稿を作らせる",
+      "image": "../assets/images/2026-06-03/topic_3.png",
+      "link": "../news/2026-06-03/#topic-3"
+    },
+    {
+      "rank": 3,
+      "date": "2026-06-02",
+      "title": "Microsoft 365 Copilot新デザインでExcel利用33%増",
+      "category": "ツール更新",
+      "source": "ITmedia Enterprise",
+      "why_picked": "多くの小規模会社のExcel作業に直結する",
+      "tldr": "Excel業務をAIで時短",
+      "action": "売上表の集計をCopilotで試す",
+      "image": "../assets/images/2026-06-02/topic_6.png",
+      "link": "../news/2026-06-02/#topic-6"
+    }
+  ]
+}

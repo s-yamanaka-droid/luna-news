@@ -40,13 +40,17 @@ def _codex(system: str, user: str) -> str:
 
 
 def _claude_code(system: str, user: str) -> str:
-    """Claude Code CLI 経由（サブスク内・API課金ゼロ）"""
+    """Claude Code CLI 経由（サブスク内・API課金ゼロ）。
+    ANTHROPIC_API_KEY を一時的に空にして API 課金モードを回避（残高ゼロ事故防止）。"""
     import subprocess
+    import os
     prompt = f"{system}\n\n{user}"
+    env = os.environ.copy()
+    env["ANTHROPIC_API_KEY"] = ""    # サブスク経由に強制
     # 長文プロンプトは stdin パイプ経由で渡す（引数長制限回避）
     proc = subprocess.run(
         ["claude", "-p", "--output-format", "text"],
-        input=prompt,
+        input=prompt, env=env,
         capture_output=True, text=True, timeout=180,
     )
     if proc.returncode != 0:
