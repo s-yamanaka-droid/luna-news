@@ -23,7 +23,30 @@
       "https://gihyo.jp/article/2026/06/siri-ai?utm_source=feed",
       "https://machinelearning.apple.com/research/introducing-third-generation-of-apple-foundation-models"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "メール探しを一声で",
+      "tool": {
+        "name": "ChatGPT Plus",
+        "url": "https://chatgpt.com",
+        "cost": "約¥3,000/月"
+      },
+      "time": "20分",
+      "steps": [
+        "直近メールを10件貼る",
+        "探したい情報を質問する",
+        "返信文まで作らせる"
+      ],
+      "prompt": "あなたは{自社名}の秘書です。以下のメール本文から{顧客名}との未対応事項、次の返信案、確認すべき添付や日程を整理してください。{メール本文}",
+      "roi": "メール確認を1日30分削減＝月10時間削減"
+    },
+    "icebreak": {
+      "hook": "Siri、メールや写真までまたいで動くらしいですよ",
+      "punchline": "単なる音声操作じゃなく、仕事の文脈を見てアプリ操作まで任せる方向ですね",
+      "ctx_meeting": "業務AI提案の冒頭で",
+      "ctx_chat": "移動中の雑談で",
+      "share_text": "Siriがメール、写真、アプリ操作まで横断するなら、AIは検索窓よりも「仕事を途中から引き取る存在」になっていきそうです。"
+    }
   },
   {
     "title": "Claude最上位級モデル、一般提供へ",
@@ -50,7 +73,30 @@
       "https://aws.amazon.com/blogs/aws/anthropic-claude-fable-5-on-aws-mythos-class-capabilities-with-built-in-safeguards-now-available/",
       "https://www.databricks.com/blog/claude-fable-5-now-available-databricks-fully-governed-through-unity-ai-gateway"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "提案書を即たたき台",
+      "tool": {
+        "name": "Claude Pro",
+        "url": "https://claude.ai",
+        "cost": "約¥3,000/月"
+      },
+      "time": "30分",
+      "steps": [
+        "過去提案書を入れる",
+        "今回条件を追記する",
+        "3案の構成を出す"
+      ],
+      "prompt": "あなたは{業種}専門の営業企画です。{自社名}の過去提案を参考に、{顧客名}向け提案書の構成、訴求軸、見積前提、次回確認事項を作ってください。",
+      "roi": "提案書初稿を70%短縮"
+    },
+    "icebreak": {
+      "hook": "Claude Fable 5、AWSでも使えるようになるらしいですよ",
+      "punchline": "高性能AIを、自社環境や管理基盤に乗せて使う選択肢が増えますね",
+      "ctx_meeting": "生成AI基盤の相談で",
+      "ctx_chat": "AIツール談義で",
+      "share_text": "Claude Fable 5がAWSやDatabricksでも使える流れを見ると、AI選びは性能だけでなく、どの基盤で管理できるかが大事になってきますね。"
+    }
   },
   {
     "title": "NotebookLM、調査から資料化まで強化",
@@ -75,7 +121,30 @@
     "links": [
       "https://gihyo.jp/article/2026/06/notebooklm-research-updates?utm_source=feed"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "調査を資料に直行",
+      "tool": {
+        "name": "NotebookLM",
+        "url": "https://notebooklm.google.com",
+        "cost": "無料"
+      },
+      "time": "40分",
+      "steps": [
+        "競合サイトURLを集める",
+        "PDFやCSVを入れる",
+        "比較表を出力する"
+      ],
+      "prompt": "あなたは{業種}の市場調査担当です。{自社名}が{地域}で勝つために、添付資料から競合比較表、顧客ニーズ、明日試す施策を作ってください。",
+      "roi": "市場調査資料を半日から1時間へ短縮"
+    },
+    "icebreak": {
+      "hook": "NotebookLM、調べ物からPDF化までやるらしいですよ",
+      "punchline": "資料作成の前段にある調査、分析、図表化まで一気に縮まりそうです",
+      "ctx_meeting": "資料作成改善の話で",
+      "ctx_chat": "会議準備の雑談で",
+      "share_text": "NotebookLMが調査、分析、図表、PDFやCSV出力まで支援するなら、資料作成で一番重い「下準備」の時間がかなり変わりそうです。"
+    }
   },
   {
     "title": "JR東日本、窓口で音声AI実験",
@@ -100,7 +169,30 @@
     "links": [
       "https://ai.watch.impress.co.jp/docs/news/2115757.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "受付台本をAI化",
+      "tool": {
+        "name": "Claude Pro",
+        "url": "https://claude.ai",
+        "cost": "約¥3,000/月"
+      },
+      "time": "30分",
+      "steps": [
+        "よくある電話を列挙する",
+        "応対分岐を作らせる",
+        "録音練習で直す"
+      ],
+      "prompt": "あなたは{自社名}の受付責任者です。{業種}の電話受付で多い{問い合わせ内容}について、聞く順番、確認項目、返答案、担当者への引継ぎ文を作ってください。",
+      "roi": "受付対応の属人化を減らし新人教育を半減"
+    },
+    "icebreak": {
+      "hook": "みどりの窓口で音声AIの実験、始まるらしいですよ",
+      "punchline": "乗客の要望整理から、きっぷ購入の会話までAIに任せられるかを見る話ですね",
+      "ctx_meeting": "顧客接点AIの提案で",
+      "ctx_chat": "駅や移動中の会話で",
+      "share_text": "みどりの窓口で音声AIを試す話、かなり身近です。問い合わせ対応だけでなく、要望を整理して購入体験まで支えるAIが現場に近づいていますね。"
+    }
   },
   {
     "title": "AI利用料、社員ごとに上限管理可能に",
@@ -125,7 +217,30 @@
     "links": [
       "https://www.publickey1.jp/blog/26/cloudflareaicloudflare_ai_gateway.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI費用に上限を",
+      "tool": {
+        "name": "Cloudflare AI Gateway",
+        "url": "https://developers.cloudflare.com/ai-gateway/",
+        "cost": "無料枠あり"
+      },
+      "time": "半日",
+      "steps": [
+        "月のAI予算を決める",
+        "社員別上限を表にする",
+        "週次で利用額を見る"
+      ],
+      "prompt": "あなたは{自社名}の管理部長です。社員{人数}名のAI利用について、月額予算{予算}円以内で職種別上限、禁止用途、承認ルールを作ってください。",
+      "roi": "AI利用料の予算超過を予防"
+    },
+    "icebreak": {
+      "hook": "AI利用料、社員ごとに上限を切れるらしいですよ",
+      "punchline": "AI導入で怖い使いすぎを、従業員別やアプリ別に先回り管理できますね",
+      "ctx_meeting": "AI予算管理の話で",
+      "ctx_chat": "社内AI利用の雑談で",
+      "share_text": "AI活用は便利でも、利用料が読めないと広げづらい。社員別、アプリ別に上限管理できる仕組みは、導入判断の背中を押しそうです。"
+    }
   },
   {
     "title": "AI悪用防止へDNA審査規制を要請",
@@ -150,7 +265,30 @@
     "links": [
       "https://wired.jp/article/openai-anthropic-letter-ai-biological-weapons/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI利用規程を点検",
+      "tool": {
+        "name": "ChatGPT Plus",
+        "url": "https://chatgpt.com",
+        "cost": "約¥3,000/月"
+      },
+      "time": "30分",
+      "steps": [
+        "現行ルールを貼る",
+        "禁止事項を洗い出す",
+        "社内向けに直す"
+      ],
+      "prompt": "あなたは{自社名}のリスク管理担当です。{業種}でAIを使う際の社内規程案を、機密情報、顧客情報、危険用途、承認手順の観点で点検してください。",
+      "roi": "情報漏えい・不適切利用リスクを事前低減"
+    },
+    "icebreak": {
+      "hook": "AI企業がDNA注文の審査強化を求めたらしいですよ",
+      "punchline": "便利なAIほど、生物兵器への悪用を防ぐ入口管理が重要になってきますね",
+      "ctx_meeting": "AIガバナンスの話で",
+      "ctx_chat": "ニュース雑談で",
+      "share_text": "AIの安全性というと情報漏えいを考えがちですが、DNA注文の審査まで議論が広がっています。便利さと悪用防止を同時に設計する段階ですね。"
+    }
   },
   {
     "title": "Gemini、70超言語で音声翻訳",
@@ -175,7 +313,30 @@
     "links": [
       "https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "海外商談を翻訳",
+      "tool": {
+        "name": "Google Meet",
+        "url": "https://meet.google.com",
+        "cost": "無料枠あり"
+      },
+      "time": "20分",
+      "steps": [
+        "海外相手とMeetを作る",
+        "要点メモを取らせる",
+        "商談後メールを作る"
+      ],
+      "prompt": "あなたは{自社名}の海外営業です。{相手国}の{顧客名}との商談メモから、決定事項、未回答、次回提案、英語のフォローメールを作ってください。",
+      "roi": "海外商談の準備・議事録を月5時間削減"
+    },
+    "icebreak": {
+      "hook": "Gemini、70超言語で音声翻訳できるらしいですよ",
+      "punchline": "会議で話した声が、ほぼリアルタイムに別言語の声へ変わる世界ですね",
+      "ctx_meeting": "海外商談の前振りで",
+      "ctx_chat": "出張前の雑談で",
+      "share_text": "Geminiの音声翻訳が70超言語で使えるなら、海外会議のハードルはかなり下がりそうです。語学力より、何を話すかが問われますね。"
+    }
   },
   {
     "title": "町工場向けロボ補助金カテゴリ新設",
@@ -200,6 +361,29 @@
     "links": [
       "https://robotstart.info/article/2026/06/09/382004.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "作業記録を補助金化",
+      "tool": {
+        "name": "ChatGPT Plus",
+        "url": "https://chatgpt.com",
+        "cost": "約¥3,000/月"
+      },
+      "time": "45分",
+      "steps": [
+        "手作業工程を撮影する",
+        "作業時間を表にする",
+        "省人化案を書かせる"
+      ],
+      "prompt": "あなたは{自社名}の製造改善担当です。{工程名}の作業記録から、ロボット化できる作業、削減時間、補助金申請に使える導入目的を整理してください。",
+      "roi": "省人化案作成を半日短縮し補助金検討を前進"
+    },
+    "icebreak": {
+      "hook": "町工場向けにロボ補助金カテゴリができたらしいですよ",
+      "punchline": "バラ積み部品や柔らかい部品のピッキング自動化が、補助金で進みやすくなりますね",
+      "ctx_meeting": "製造業DXの提案で",
+      "ctx_chat": "工場見学後の会話で",
+      "share_text": "町工場の自動化は大規模投資の話に見えがちですが、バラ積みピッキングロボット向けの補助金カテゴリができると、現場導入の現実味が増しますね。"
+    }
   }
 ]

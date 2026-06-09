@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週は、AIが「答える道具」から資料作成・雑務代行・業務手順の再利用へ進んだ。小規模事業者でも、調査、提案、定型作業の時短をすぐ試せる。まずは売上や外注費に直結する業務から入るのが現実的。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-06-10",
+      "title": "NotebookLM、調査から資料化まで強化",
+      "category": "ツール更新",
+      "source": "Gihyo.jp",
+      "why_picked": "調査と資料作成を一気に短縮できる",
+      "tldr": "調査を資料化まで自動化",
+      "action": "商談資料を1本作る",
+      "image": "../assets/images/2026-06-10/topic_3.png",
+      "link": "../news/2026-06-10/#topic-3"
+    },
+    {
+      "rank": 2,
+      "date": "2026-06-08",
+      "title": "Claude、業務代行AIを全有料開放",
+      "category": "ツール更新",
+      "source": "ITmedia AI+",
+      "why_picked": "日々の雑務を社長以外に任せられる",
+      "tldr": "定型タスクをAIへ委任",
+      "action": "週次作業を1つ任せる",
+      "image": "../assets/images/2026-06-08/topic_2.png",
+      "link": "../news/2026-06-08/#topic-2"
+    },
+    {
+      "rank": 3,
+      "date": "2026-06-09",
+      "title": "Claude Skills、業務AIの再利用を促進",
+      "category": "ツール更新",
+      "source": "KDnuggets",
+      "why_picked": "毎回の指示作成を減らし品質も揃う",
+      "tldr": "AI手順を使い回せる",
+      "action": "見積作成手順を保存",
+      "image": "../assets/images/2026-06-09/topic_7.png",
+      "link": "../news/2026-06-09/#topic-7"
+    }
+  ]
+}
