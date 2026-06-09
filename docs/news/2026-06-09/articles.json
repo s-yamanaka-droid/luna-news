@@ -1,0 +1,204 @@
+[
+  {
+    "title": "OpenAI、上場準備の書類を提出",
+    "category": "業界動向",
+    "source": "Hacker News",
+    "lede": "OpenAIがSECへS-1草案を非公開提出し、上場準備とみられる動きが注目を集めています。",
+    "keypoints": [
+      "S-1草案をSECへ提出",
+      "非公開提出として公開",
+      "Hacker Newsで高い注目",
+      "AI市場の資金動向に影響"
+    ],
+    "pull": "OpenAIの資本戦略は、AI業界全体の投資判断に直結する。",
+    "bizapp": {
+      "summary": "AI投資と提携判断の前提が変わる可能性がある",
+      "actions": [
+        "Claudeで競合動向を要約",
+        "中小企業向けAI導入提案に反映",
+        "資本市場がAIを再評価"
+      ]
+    },
+    "links": [
+      "https://openai.com/index/openai-submits-confidential-s-1/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Apple、Gemini軸のAI基盤を公開",
+    "category": "業界動向",
+    "source": "Hacker News",
+    "lede": "AppleがGoogle Geminiモデルを中心にした新AIアーキテクチャを明らかにし、Siri関連の注目も集めています。",
+    "keypoints": [
+      "Geminiモデルを軸に構成",
+      "AppleのAI基盤を公開",
+      "Siri AIにも注目集中",
+      "消費者向けAI競争が加速"
+    ],
+    "pull": "スマホのAI体験は、複数社のモデル連携で進化する段階に入った。",
+    "bizapp": {
+      "summary": "顧客接点のAI化を考える材料になる",
+      "actions": [
+        "Claudeで顧客対応案を整理",
+        "営業現場のスマホ活用を提案",
+        "消費者AIの標準が動く"
+      ]
+    },
+    "links": [
+      "https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/",
+      "https://www.apple.com/apple-intelligence/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Nvidia、韓国でAI工場構想拡大",
+    "category": "業界動向",
+    "source": "Reddit r/artificial",
+    "lede": "Nvidiaが韓国でギガワット規模のAI工場計画を含む取引を進め、SK Hynixとの複数年契約も話題です。",
+    "keypoints": [
+      "韓国でAI工場取引",
+      "ギガワット規模を計画",
+      "SK Hynixと複数年契約",
+      "Vera Rubin前の動き"
+    ],
+    "pull": "AI競争はモデルだけでなく、電力と半導体の確保競争になっている。",
+    "bizapp": {
+      "summary": "AI導入コストの先行きを読む材料になる",
+      "actions": [
+        "CodexでGPU費用を試算",
+        "中小企業DXの費用計画を提案",
+        "供給網がAI価格を左右"
+      ]
+    },
+    "links": [
+      "https://www.reddit.com/r/artificial/comments/1u03kby/nvidia_announces_another_fullstack_ai_factory/",
+      "https://www.reddit.com/r/artificial/comments/1u0fce1/nvidia_and_sk_hynix_sign_multiyear_ai_deal_ahead/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "neoAI Chat、Box連携を拡充",
+    "category": "ツール更新",
+    "source": "PR TIMES テクノロジー",
+    "lede": "neoAI ChatがBox連携を拡充し、最新文書検索と高精度な社内文書回答の2方式に対応しました。",
+    "keypoints": [
+      "Box連携を2方式に拡充",
+      "権限に応じ最新文書検索",
+      "RAGで大量文書を活用",
+      "社内規程検索に利用可能"
+    ],
+    "pull": "社内文書をAIにつなげる鍵は、鮮度と精度を使い分けることだ。",
+    "bizapp": {
+      "summary": "社内問い合わせと文書検索の効率化に使える",
+      "actions": [
+        "Claudeで社内規程QAを作成",
+        "バックオフィス自動化を提案",
+        "既存文書がAI資産になる"
+      ]
+    },
+    "links": [
+      "https://prtimes.jp/main/html/rd/p/000000046.000109048.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Claude Code狙うnpm攻撃に警戒",
+    "category": "その他",
+    "source": "Reddit r/ClaudeAI",
+    "lede": "npmの一部パッケージを通じ、Claude Code内にバックドアを仕込む攻撃への警告が投稿されています。",
+    "keypoints": [
+      "32のnpmパッケージに言及",
+      "週117,000DLと説明",
+      "Claude Code内に侵入",
+      "認証情報漏えいの恐れ"
+    ],
+    "pull": "AI開発ツールは便利さと同時に、新しい侵入口にもなる。",
+    "bizapp": {
+      "summary": "AI開発環境の安全確認に使える",
+      "actions": [
+        "Codexで依存関係を棚卸し",
+        "開発会社へ監査提案を行う",
+        "資格情報の被害が広がる"
+      ]
+    },
+    "links": [
+      "https://www.reddit.com/r/ClaudeAI/comments/1u05t5e/an_active_attack_is_planting_backdoors_inside/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Meta、スマートグラスの顔認識コード削除",
+    "category": "業界動向",
+    "source": "EFF (Electronic Frontier Foundation)",
+    "lede": "Metaはスマートグラス連携アプリから、顔認識関連コードやモデルを削除したとEFFが伝えています。",
+    "keypoints": [
+      "Meta AIアプリに顔認識コード",
+      "EFFが静的解析で確認",
+      "6月5日更新で削除",
+      "恒久対応かは不明"
+    ],
+    "pull": "AIデバイス普及の壁は、性能よりもプライバシーへの信頼だ。",
+    "bizapp": {
+      "summary": "AI製品企画のプライバシー確認に使える",
+      "actions": [
+        "Claudeで利用規約を点検",
+        "営業資料にリスク対策を明記",
+        "規制と世論が導入を左右"
+      ]
+    },
+    "links": [
+      "https://www.eff.org/deeplinks/2026/06/victory-meta-strips-facial-recognition-code-smart-glasses-app-after-public-outcry"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Claude Skills、業務AIの再利用を促進",
+    "category": "ツール更新",
+    "source": "KDnuggets",
+    "lede": "Claude Skillsは、出力形式や社内用語などを毎回説明せず、業務ごとの手順を再利用できる仕組みです。",
+    "keypoints": [
+      "スキルは指示フォルダ",
+      "必要時にClaudeが読み込む",
+      "社内用語や品質基準を保存",
+      "反復業務の手間を削減"
+    ],
+    "pull": "AI活用の差は、毎回の指示ではなく再利用できる型で生まれる。",
+    "bizapp": {
+      "summary": "定型業務のAI活用を標準化できる",
+      "actions": [
+        "Claudeで営業提案スキル作成",
+        "採用文面の標準化を提案",
+        "AI活用が属人化しにくい"
+      ]
+    },
+    "links": [
+      "https://www.kdnuggets.com/anthropics-complete-guide-to-claude-skills-building"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AI脆弱性発見、修正率に課題",
+    "category": "研究",
+    "source": "Schneier on Security",
+    "lede": "AnthropicのProject Glasswingは多くの脆弱性を見つけた一方、ほとんど修正されていないと指摘されています。",
+    "keypoints": [
+      "AIで脆弱性を発見",
+      "危険なものも含まれる",
+      "ほとんど未修正と指摘",
+      "詳細非公開に懸念"
+    ],
+    "pull": "脆弱性を見つけるAIより、直す運用まで含めた設計が重要だ。",
+    "bizapp": {
+      "summary": "AIセキュリティ導入は修正体制まで必要",
+      "actions": [
+        "Codexで修正案を検証",
+        "開発部門へ運用改善を提案",
+        "発見だけではリスクが残る"
+      ]
+    },
+    "links": [
+      "https://www.schneier.com/blog/archives/2026/06/anthropics-project-glasswing-update.html"
+    ],
+    "likes": 0
+  }
+]
