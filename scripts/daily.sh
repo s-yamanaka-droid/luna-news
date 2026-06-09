@@ -47,6 +47,20 @@ if [ ! -f "/Users/yamanakashuto/apps/vigil-news/docs/news/$TODAY/articles.json" 
   exit 1
 fi
 
+# [1.5] 欠番バックフィル（直近3日・6/7 永久欠番事故の再発防止）
+for d in 1 2 3; do
+  DAY=$(date -v-${d}d +%Y-%m-%d)
+  if [ ! -f "/Users/yamanakashuto/apps/vigil-news/docs/news/$DAY/articles.json" ]; then
+    echo "[backfill] $DAY が欠番 → 補完試行" | tee -a "$LOG"
+    python pipeline/run.py --date "$DAY" --skip-social 2>&1 | tee -a "$LOG" || { echo "[backfill] $DAY 失敗（処理は継続）" | tee -a "$LOG"; continue; }
+    if [ -f "/Users/yamanakashuto/apps/vigil-news/docs/news/$DAY/articles.json" ]; then
+      python scripts/gen_quickstart.py "$DAY" 2>&1 | tee -a "$LOG" || true
+      python scripts/gen_icebreak.py "$DAY" 2>&1 | tee -a "$LOG" || true
+      echo "[backfill] $DAY 補完完了" | tee -a "$LOG"
+    fi
+  fi
+done
+
 echo "[2/4] quickstart 追加" | tee -a "$LOG"
 python scripts/gen_quickstart.py "$TODAY" 2>&1 | tee -a "$LOG"
 

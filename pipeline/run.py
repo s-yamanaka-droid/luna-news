@@ -29,16 +29,53 @@ logging.basicConfig(
 log = logging.getLogger(__name__)
 
 
+def _filter_by_pubdate(raw: list[dict], date_str: str) -> list[dict]:
+    """バックフィル用：対象日の朝刊ウィンドウ（前日06:30〜当日06:30 JST）に
+    公開された記事だけ残す。published が解析不能な記事は除外。"""
+    from email.utils import parsedate_to_datetime
+    from datetime import timedelta, timezone
+    jst = timezone(timedelta(hours=9))
+    day_end = datetime.strptime(date_str, "%Y-%m-%d").replace(
+        hour=6, minute=30, tzinfo=jst)
+    day_start = day_end - timedelta(hours=24)
+    out = []
+    for a in raw:
+        pub = a.get("published", "")
+        if not pub:
+            continue
+        try:
+            dt = parsedate_to_datetime(pub)
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=timezone.utc)
+        except Exception:
+            try:
+                dt = datetime.fromisoformat(pub.replace("Z", "+00:00"))
+            except Exception:
+                continue
+        if day_start <= dt.astimezone(jst) < day_end:
+            out.append(a)
+    return out
+
+
 def run(date_str: str = None, dry_run: bool = False, skip_slides: bool = False, skip_social: bool = False):
-    date_str = date_str or datetime.now().strftime("%Y-%m-%d")
-    log.info(f"=== VIGIL {date_str} ===")
+    today = datetime.now().strftime("%Y-%m-%d")
+    backfill = date_str is not None and date_str != today
+    date_str = date_str or today
+    log.info(f"=== VIGIL {date_str}{' (backfill)' if backfill else ''} ===")
 
     # 1. 多層ソース収集（RSS 329件 + API 4ソース・並列）
     log.info("1. ソース収集（RSS 329 + HN/Reddit/GitHub/PH）")
     raw = fetch_all(max_per_feed=2, fetch_body=True)
 
-    # 2. 記事要約（Gemini Flash）
-    log.info("2. 記事生成（Gemini Flash）")
+    if backfill:
+        raw = _filter_by_pubdate(raw, date_str)
+        log.info(f"   [backfill] {date_str} の朝刊ウィンドウ内: {len(raw)}件")
+        if len(raw) < 5:
+            log.warning(f"   [backfill] 候補{len(raw)}件は少なすぎ → {date_str} は休刊のまま")
+            return
+
+    # 2. 記事要約（LLM_PROVIDER に従う・フォールバック連鎖付き）
+    log.info("2. 記事生成")
     articles = generate_articles(raw)
     log.info(f"   {len(articles)}件生成")
 
@@ -81,20 +118,23 @@ def run(date_str: str = None, dry_run: bool = False, skip_slides: bool = False, 
     else:
         log.info("5. [DRY RUN] push スキップ")
 
-    # 6. SNS投稿（Threads のみ / X は有料APIのためスキップ）
-    if not dry_run and not skip_social:
+    # 6. SNS投稿（Threads のみ / X は有料APIのためスキップ。backfill は旧ニュースなので投稿しない）
+    if not dry_run and not skip_social and not backfill:
         log.info("6. SNS投稿（Threads）")
         post_dispatch(articles, date_str, post_x=False, post_threads=True)
-    elif dry_run:
-        log.info("6. [DRY RUN] SNS投稿スキップ")
     else:
-        log.info("6. SNS投稿スキップ（--skip-social）")
+        log.info("6. SNS投稿スキップ")
 
     # 7. 使用済みURLを登録（次回の重複スキップ用）
+    # backfill では使った記事だけ登録（raw 全件登録すると当日分の候補を汚染する）
     used_links = [a.get("links", [""])[0] for a in articles if a.get("links")]
-    raw_links  = [r.get("link","") for r in raw if r.get("link")]
-    mark_seen(list(set(used_links + raw_links)))
-    log.info(f"   既読URL登録: {len(set(used_links + raw_links))}件")
+    if backfill:
+        mark_seen(list(set(used_links)))
+        log.info(f"   既読URL登録(backfill): {len(set(used_links))}件")
+    else:
+        raw_links = [r.get("link", "") for r in raw if r.get("link")]
+        mark_seen(list(set(used_links + raw_links)))
+        log.info(f"   既読URL登録: {len(set(used_links + raw_links))}件")
 
     log.info("=== 完了 ===")
 
@@ -102,4 +142,9 @@ def run(date_str: str = None, dry_run: bool = False, skip_slides: bool = False, 
 if __name__ == "__main__":
     dry          = "--dry" in sys.argv
     skip_social  = "--skip-social" in sys.argv
-    run(dry_run=dry, skip_social=skip_social)
+    date_arg     = None
+    if "--date" in sys.argv:
+        i = sys.argv.index("--date")
+        if i + 1 < len(sys.argv):
+            date_arg = sys.argv[i + 1]
+    run(date_str=date_arg, dry_run=dry, skip_social=skip_social)
