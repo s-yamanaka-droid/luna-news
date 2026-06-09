@@ -1,0 +1,205 @@
+[
+  {
+    "title": "Apple、Siriを仕事横断AIへ刷新",
+    "category": "ツール更新",
+    "source": "Gihyo.jp / Apple Machine Learning",
+    "lede": "AppleはSiri AIを発表し、メール、写真、アプリ操作を横断して支援するAIアシスタントへ進化させる。",
+    "keypoints": [
+      "メールや写真から情報検索",
+      "複数アプリの操作を代行",
+      "画面内容を理解して回答",
+      "Apple製品に深く組み込み"
+    ],
+    "pull": "スマホのAIは、検索から業務操作の代行へ進む。",
+    "bizapp": {
+      "summary": "日常業務の確認・作成・共有が変わる",
+      "actions": [
+        "Siri AIでメール確認を効率化",
+        "営業の情報検索支援を提案",
+        "端末標準AIの影響が大きい"
+      ]
+    },
+    "links": [
+      "https://gihyo.jp/article/2026/06/siri-ai?utm_source=feed",
+      "https://machinelearning.apple.com/research/introducing-third-generation-of-apple-foundation-models"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Claude最上位級モデル、一般提供へ",
+    "category": "新モデル発表",
+    "source": "ITmedia News / AWS / Databricks",
+    "lede": "AnthropicのClaude Fable 5が一般提供され、AWSやDatabricksでも企業利用向けに展開される。",
+    "keypoints": [
+      "Mythos級の能力を開放",
+      "保護機能付きで一般提供",
+      "AWS環境でも利用可能",
+      "Databricksで管理利用対応"
+    ],
+    "pull": "高性能AIは、企業の管理下で使う段階に入った。",
+    "bizapp": {
+      "summary": "社内AI活用を高度化しやすくなる",
+      "actions": [
+        "Claudeで資料作成を高度化",
+        "営業資料作成支援を提案",
+        "高性能AIの普及が進む"
+      ]
+    },
+    "links": [
+      "https://www.itmedia.co.jp/news/articles/2606/10/news058.html",
+      "https://aws.amazon.com/blogs/aws/anthropic-claude-fable-5-on-aws-mythos-class-capabilities-with-built-in-safeguards-now-available/",
+      "https://www.databricks.com/blog/claude-fable-5-now-available-databricks-fully-governed-through-unity-ai-gateway"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "NotebookLM、調査から資料化まで強化",
+    "category": "ツール更新",
+    "source": "Gihyo.jp",
+    "lede": "GoogleはNotebookLMを更新し、調査、分析、図表作成、PDFやCSV出力まで支援できるようにした。",
+    "keypoints": [
+      "複雑な調査に対応",
+      "図表付き資料を生成",
+      "PDFやCSVで出力可能",
+      "コード実行で分析支援"
+    ],
+    "pull": "AI調査は、回答作成から成果物作成へ広がる。",
+    "bizapp": {
+      "summary": "市場調査や社内分析の資料化に使える",
+      "actions": [
+        "NotebookLMで調査資料化",
+        "中小企業DXの調査代行提案",
+        "資料作成コストが下がる"
+      ]
+    },
+    "links": [
+      "https://gihyo.jp/article/2026/06/notebooklm-research-updates?utm_source=feed"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "JR東日本、窓口で音声AI実験",
+    "category": "業界動向",
+    "source": "AI Watch",
+    "lede": "Gen-AXの自律型AIオペレーターX-Ghostが、JR東日本のみどりの窓口のAI対話実験に採用された。",
+    "keypoints": [
+      "乗客の要望をAIが整理",
+      "きっぷ購入体験を検証",
+      "音声AIの実装を支援",
+      "顧客接点業務で活用"
+    ],
+    "pull": "AI接客は、実店舗の窓口業務にも入り始めた。",
+    "bizapp": {
+      "summary": "窓口・受付・電話対応の省力化に使える",
+      "actions": [
+        "Claudeで応対台本を作成",
+        "採用受付のAI化を提案",
+        "人手不足対策として重要"
+      ]
+    },
+    "links": [
+      "https://ai.watch.impress.co.jp/docs/news/2115757.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AI利用料、社員ごとに上限管理可能に",
+    "category": "ツール更新",
+    "source": "Publickey",
+    "lede": "Cloudflare AI Gatewayに、従業員やアプリごとの月間AI利用料上限を設定できる新機能が加わった。",
+    "keypoints": [
+      "AI費用の上限を設定",
+      "社員別に予算管理",
+      "アプリ別にも制御可能",
+      "複数AIサービスに対応"
+    ],
+    "pull": "AI導入の次の課題は、自由利用と費用管理の両立だ。",
+    "bizapp": {
+      "summary": "AI利用のコスト暴走を防げる",
+      "actions": [
+        "Codex利用額を部門別管理",
+        "中小企業のAI統制を提案",
+        "予算管理が導入条件になる"
+      ]
+    },
+    "links": [
+      "https://www.publickey1.jp/blog/26/cloudflareaicloudflare_ai_gateway.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AI悪用防止へDNA審査規制を要請",
+    "category": "業界動向",
+    "source": "Wired Japan",
+    "lede": "OpenAIやAnthropicなどの幹部らが、生物兵器へのAI悪用防止に向けた米国での規制強化を求めた。",
+    "keypoints": [
+      "公開書簡で法整備を要請",
+      "DNA注文内容の審査求める",
+      "購入者の確認も義務化へ",
+      "AI悪用リスクに対応"
+    ],
+    "pull": "AIの進化は、企業に安全管理の説明責任も求める。",
+    "bizapp": {
+      "summary": "AI利用ルールとリスク管理の見直しに使える",
+      "actions": [
+        "Claude利用規程を点検",
+        "研究部門のAI統制を提案",
+        "規制リスクが高まっている"
+      ]
+    },
+    "links": [
+      "https://wired.jp/article/openai-anthropic-letter-ai-biological-weapons/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Gemini、70超言語で音声翻訳",
+    "category": "新モデル発表",
+    "source": "Google DeepMind Blog",
+    "lede": "Google DeepMindはGemini 3.5 Live Translateを公開し、70超の言語でほぼリアルタイムの音声翻訳を実現する。",
+    "keypoints": [
+      "音声から音声へ翻訳",
+      "70超の言語に対応",
+      "ほぼリアルタイムで処理",
+      "Meetなどで利用へ"
+    ],
+    "pull": "会議の言語差は、AIで一段と小さくなる。",
+    "bizapp": {
+      "summary": "海外会議や多言語対応に使える",
+      "actions": [
+        "Google Meetで海外商談支援",
+        "採用面接の多言語化を提案",
+        "越境業務の壁が下がる"
+      ]
+    },
+    "links": [
+      "https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "町工場向けロボ補助金カテゴリ新設",
+    "category": "業界動向",
+    "source": "ロボスタ",
+    "lede": "Thinkerは経産省の補助金で新設されたバラ積みピッキングロボットカテゴリに幹事社として協力した。",
+    "keypoints": [
+      "補助金カテゴリ新設に協力",
+      "部品ピッキングを自動化",
+      "柔らかい部品にも対応",
+      "組み付け工程まで拡大"
+    ],
+    "pull": "製造現場のAI活用は、手作業の置き換えへ進む。",
+    "bizapp": {
+      "summary": "製造現場の省人化提案に使える",
+      "actions": [
+        "Codexで作業記録を自動化",
+        "町工場の省人化を提案",
+        "補助金活用が追い風になる"
+      ]
+    },
+    "links": [
+      "https://robotstart.info/article/2026/06/09/382004.html"
+    ],
+    "likes": 0
+  }
+]
