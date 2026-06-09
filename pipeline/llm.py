@@ -1,36 +1,66 @@
 """
-LLM 抽象レイヤー — Claude Code CLI をデフォルトに使用（サブスク内・API課金ゼロ）。
-OpenAI / Anthropic API にもフォールバック切替可能。
+LLM 抽象レイヤー — Codex CLI をデフォルトに使用（ChatGPT Plus サブスク内・API課金ゼロ）。
+プロバイダ失敗時は自動フォールバック連鎖（codex → claude → openai）。
+
+2026-06-10 自己修復化:
+- 6/6 Gemini SUSPENDED / 6/7-6/8 claude残高ゼロ / 6/10 codex timeout と
+  単一プロバイダ依存の事故が4連発したため、chat_json はチェーン全体を試す。
 """
+import logging
 import os
 import re
 
-PROVIDER = os.environ.get("LLM_PROVIDER", "openai").lower()
+PROVIDER = os.environ.get("LLM_PROVIDER", "codex").lower()
+# 主プロバイダ失敗時に順に試す（重複は自動除去）
+FALLBACK_CHAIN = [p.strip() for p in os.environ.get(
+    "LLM_FALLBACK_CHAIN", "codex,claude,openai").lower().split(",") if p.strip()]
+CODEX_TEXT_TIMEOUT = int(os.environ.get("CODEX_TEXT_TIMEOUT", "900"))   # Stage2 巨大プロンプト対応
+
+log = logging.getLogger(__name__)
 
 
 def chat_json(system: str, user: str, max_tokens: int = 4000, model: str | None = None):
-    """システム+ユーザープロンプトを送り、本文テキストを返す（JSON抽出は呼び出し側）"""
-    if PROVIDER == "codex":
+    """システム+ユーザープロンプトを送り、本文テキストを返す（JSON抽出は呼び出し側）。
+    主プロバイダ → フォールバック連鎖の順で試し、全滅時のみ例外。"""
+    chain = [PROVIDER] + [p for p in FALLBACK_CHAIN if p != PROVIDER]
+    last_err: Exception | None = None
+    for prov in chain:
+        try:
+            text = _dispatch(prov, system, user, max_tokens, model)
+            if text and text.strip():
+                if prov != PROVIDER:
+                    log.warning(f"[llm] fallback成功: {PROVIDER} → {prov}")
+                return text
+            raise RuntimeError(f"{prov}: empty response")
+        except Exception as e:
+            last_err = e
+            log.warning(f"[llm] provider={prov} 失敗: {str(e)[:200]} → 次を試行")
+    raise RuntimeError(f"[llm] 全プロバイダ失敗 (chain={chain}): {last_err}")
+
+
+def _dispatch(provider: str, system: str, user: str, max_tokens: int, model: str | None) -> str:
+    if provider == "codex":
         return _codex(system, user)
-    if PROVIDER == "claude":
+    if provider == "claude":
         return _claude_code(system, user)
-    if PROVIDER == "anthropic":
+    if provider == "anthropic":
         return _anthropic(system, user, max_tokens, model or "claude-haiku-4-5-20251001")
-    if PROVIDER == "openai":
+    if provider == "openai":
         return _openai(system, user, max_tokens, model or "gpt-4o-mini")
-    if PROVIDER == "gemini":
+    if provider == "gemini":
         return _gemini(system, user, max_tokens, model or "gemini-2.5-flash")
-    raise ValueError(f"Unknown LLM_PROVIDER: {PROVIDER}")
+    raise ValueError(f"Unknown LLM provider: {provider}")
 
 
 def _codex(system: str, user: str) -> str:
-    """Codex CLI 経由（ChatGPT Plus サブスク内・API課金ゼロ）"""
+    """Codex CLI 経由（ChatGPT Plus サブスク内・API課金ゼロ）。
+    Stage2 のような巨大プロンプトは gpt-5 の思考時間が長いので timeout は 900s。"""
     import subprocess
     prompt = f"{system}\n\n{user}"
     proc = subprocess.run(
         ["/opt/homebrew/bin/codex", "exec", "--skip-git-repo-check",
          "--sandbox", "read-only", prompt],
-        capture_output=True, text=True, timeout=300,
+        capture_output=True, text=True, timeout=CODEX_TEXT_TIMEOUT,
     )
     if proc.returncode != 0:
         err = proc.stderr or proc.stdout[:300]

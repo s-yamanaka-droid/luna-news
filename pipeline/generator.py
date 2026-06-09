@@ -124,8 +124,10 @@ def generate_articles(raw_articles: list[dict]) -> list[dict]:
     top_articles = [raw_articles[i] for i in top_indices if i < len(raw_articles)]
 
     blocks = []
-    for a in top_articles[:30]:
-        body_part = f"\n【元記事本文】\n{a['body'][:1500]}" if a.get("body") else ""
+    # 30件×1500字は Codex (gpt-5) で思考時間が timeout する巨大プロンプトになるため
+    # 18件×1000字に削減（8本選出には十分な候補数・6/10 timeout 事故の再発防止）
+    for a in top_articles[:18]:
+        body_part = f"\n【元記事本文】\n{a['body'][:1000]}" if a.get("body") else ""
         blocks.append(
             f"[{a['source']}] {a['title']}\n"
             f"RSS要約: {a['summary'][:200]}\n"

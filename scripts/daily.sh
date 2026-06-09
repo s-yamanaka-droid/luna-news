@@ -27,6 +27,13 @@ trap 'notify_failure "unknown" "daily.sh が異常終了"' ERR
 
 TODAY=$(date +%Y-%m-%d)
 LOG=/Users/yamanakashuto/apps/vigil-news/logs/daily_${TODAY}.log
+DONE_MARKER=/Users/yamanakashuto/apps/vigil-news/logs/done_${TODAY}
+
+# 冪等ガード：当日完了済みなら何もしない（launchd 1日3回トリガーの2回目以降用）
+if [ -f "$DONE_MARKER" ]; then
+  echo "$(date '+%H:%M') already done for $TODAY — skip" >> "$LOG"
+  exit 0
+fi
 
 echo "=== Now on AIr daily $TODAY ===" | tee -a "$LOG"
 
@@ -66,4 +73,5 @@ echo "[7/7] Slack #朝刊 通知 + Obsidian同期" | tee -a "$LOG"
 python scripts/notify_slack.py "$TODAY" 2>&1 | tee -a "$LOG" || echo "Slack送信失敗（処理は継続）" | tee -a "$LOG"
 python scripts/sync_obsidian.py "$TODAY" 2>&1 | tee -a "$LOG" || echo "Obsidian同期失敗（処理は継続）" | tee -a "$LOG"
 
+touch "$DONE_MARKER"   # 冪等ガード用（成功した日だけ作る）
 echo "=== 完了 $TODAY ===" | tee -a "$LOG"
