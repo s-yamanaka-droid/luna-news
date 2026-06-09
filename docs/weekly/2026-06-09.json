@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週はAIが「相談相手」から「実務を任せる道具」へ進んだ。小規模事業者は、雑務代行・定型化・資料作成から試すのが現実的。まず1業務を選び、時間削減額で効果を測る週。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-06-08",
+      "title": "Claude、業務代行AIを全有料開放",
+      "category": "ツール更新",
+      "source": "ITmedia AI+",
+      "why_picked": "雑務を即AIに任せて時間を浮かせられる",
+      "tldr": "AIに定型タスクを委任",
+      "action": "毎日30分の雑務を1つ任せる",
+      "image": "../assets/images/2026-06-08/topic_2.png",
+      "link": "../news/2026-06-08/#topic-2"
+    },
+    {
+      "rank": 2,
+      "date": "2026-06-09",
+      "title": "Claude Skills、業務AIの再利用を促進",
+      "category": "ツール更新",
+      "source": "KDnuggets",
+      "why_picked": "社長の指示や型を保存して再利用できる",
+      "tldr": "AI手順書を使い回す",
+      "action": "見積作成の手順を技能化",
+      "image": "../assets/images/2026-06-09/topic_7.png",
+      "link": "../news/2026-06-09/#topic-7"
+    },
+    {
+      "rank": 3,
+      "date": "2026-06-03",
+      "title": "OpenAI Codex、開発者以外も業務効率化に活用",
+      "category": "ツール更新",
+      "source": "OpenAI Blog",
+      "why_picked": "非エンジニアでも資料や簡易アプリを作れる",
+      "tldr": "コード不要で業務作成",
+      "action": "営業資料の初稿を作る",
+      "image": "../assets/images/2026-06-03/topic_3.png",
+      "link": "../news/2026-06-03/#topic-3"
+    }
+  ]
+}

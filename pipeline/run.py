@@ -48,7 +48,7 @@ def run(date_str: str = None, dry_run: bool = False, skip_slides: bool = False, 
         try:
             from slide_maker import generate_slides_parallel
             img_dir = SITE_DIR / "assets" / "images" / date_str
-            success = generate_slides_parallel(articles[:8], img_dir, max_workers=4)
+            success = generate_slides_parallel(articles[:8], img_dir, max_workers=2)  # Codex並列混線回避
             log.info(f"   {success}/{min(len(articles),8)}枚成功")
         except Exception as e:
             log.warning(f"   スライド生成失敗（処理は継続）: {e}")

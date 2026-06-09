@@ -22,7 +22,30 @@
     "links": [
       "https://openai.com/index/openai-submits-confidential-s-1/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI投資方針を更新",
+      "tool": {
+        "name": "Claude Pro",
+        "url": "https://claude.ai",
+        "cost": "約¥3,000/月"
+      },
+      "time": "30分",
+      "steps": [
+        "AI関連費を洗い出せ",
+        "提携先リスクを表にせよ",
+        "来月の導入案を直せ"
+      ],
+      "prompt": "あなたは中小企業のAI顧問です。{自社名}の{業種}で、OpenAI上場準備がAI導入費・提携先選びに与える影響を3点と明日の対応を表で示して。",
+      "roi": "AI契約の見直し時間を月5時間削減"
+    },
+    "icebreak": {
+      "hook": "OpenAI、上場準備に入ったらしいですよ",
+      "punchline": "AIの話が、技術だけでなく資金調達の勝負にも見えてきますね",
+      "ctx_meeting": "AI投資提案の冒頭で",
+      "ctx_chat": "移動中の業界話で",
+      "share_text": "OpenAIのS-1草案提出を見ると、AI企業を見る目線が「すごい技術」だけでは足りなくなってきた感じがします。資金の動きまで追わないと。"
+    }
   },
   {
     "title": "Apple、Gemini軸のAI基盤を公開",
@@ -48,7 +71,30 @@
       "https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/",
       "https://www.apple.com/apple-intelligence/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "スマホ接客をAI化",
+      "tool": {
+        "name": "Gemini",
+        "url": "https://gemini.google.com",
+        "cost": "無料〜約¥2,900/月"
+      },
+      "time": "30分",
+      "steps": [
+        "顧客質問を10件集めろ",
+        "スマホ返信文を作れ",
+        "Siri想定で短く直せ"
+      ],
+      "prompt": "あなたは小規模店の接客改善担当です。{自社名}の{業種}で、スマホ音声AI時代に合う顧客返信例を{商品名}向けに10個作って。",
+      "roi": "問い合わせ返信を50%短縮"
+    },
+    "icebreak": {
+      "hook": "AppleのAI基盤、Gemini軸らしいですよ",
+      "punchline": "Siriの進化も、自前主義より誰と組むかが焦点になりそうですね",
+      "ctx_meeting": "AI連携提案の前置きで",
+      "ctx_chat": "スマホ話の流れで",
+      "share_text": "AppleがGemini軸のAI基盤を出してきたのを見ると、AIは自社だけで抱えるより、どう組み合わせるかの設計力が問われている気がします。"
+    }
   },
   {
     "title": "Nvidia、韓国でAI工場構想拡大",
@@ -74,7 +120,30 @@
       "https://www.reddit.com/r/artificial/comments/1u03kby/nvidia_announces_another_fullstack_ai_factory/",
       "https://www.reddit.com/r/artificial/comments/1u0fce1/nvidia_and_sk_hynix_sign_multiyear_ai_deal_ahead/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI費用を試算",
+      "tool": {
+        "name": "ChatGPT Plus",
+        "url": "https://chatgpt.com",
+        "cost": "約¥3,000/月"
+      },
+      "time": "30分",
+      "steps": [
+        "AI利用業務を列挙せよ",
+        "月間回数を入れろ",
+        "外注と内製を比べろ"
+      ],
+      "prompt": "あなたは小会社のIT予算担当です。{自社名}の{業種}で、AI工場拡大による価格変動を踏まえ、{業務}のAI利用費を月額試算して。",
+      "roi": "AI導入判断を半日短縮"
+    },
+    "icebreak": {
+      "hook": "Nvidia、韓国でAI工場を広げるらしいですよ",
+      "punchline": "AI競争って、モデルだけでなく電力と複数年契約の勝負にも見えますね",
+      "ctx_meeting": "AI基盤投資の話で",
+      "ctx_chat": "半導体ニュースの雑談で",
+      "share_text": "Nvidiaの韓国AI工場構想を見ると、AIの主戦場は画面の中だけではなく、電力や供給契約まで含めたインフラ全体なんだと感じます。"
+    }
   },
   {
     "title": "neoAI Chat、Box連携を拡充",
@@ -99,7 +168,30 @@
     "links": [
       "https://prtimes.jp/main/html/rd/p/000000046.000109048.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "社内文書QA化",
+      "tool": {
+        "name": "Notion AI",
+        "url": "https://www.notion.com/product/ai",
+        "cost": "約¥1,500/月"
+      },
+      "time": "半日",
+      "steps": [
+        "規程PDFを集めろ",
+        "質問リストを作れ",
+        "回答精度を確認せよ"
+      ],
+      "prompt": "あなたは社内文書検索担当です。{自社名}の{業種}で、{規程名}を基に社員からの質問へ答えるFAQを20件作って。不明点は不明と書いて。",
+      "roi": "社内確認を月10時間削減＝3万円相当"
+    },
+    "icebreak": {
+      "hook": "Boxの社内文書、AIで聞ける範囲が広がるそうです",
+      "punchline": "権限を見ながら探せるなら、社内規程の確認がかなり現実的になりますね",
+      "ctx_meeting": "社内AI提案の冒頭で",
+      "ctx_chat": "業務効率化の話で",
+      "share_text": "neoAI ChatのBox連携を見て、社内文書AIは「何でも答える」より、権限や規程をちゃんと扱えるかが本番導入の分かれ目だと思いました。"
+    }
   },
   {
     "title": "Claude Code狙うnpm攻撃に警戒",
@@ -124,7 +216,30 @@
     "links": [
       "https://www.reddit.com/r/ClaudeAI/comments/1u05t5e/an_active_attack_is_planting_backdoors_inside/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "npm依存を点検",
+      "tool": {
+        "name": "Cursor",
+        "url": "https://cursor.com",
+        "cost": "無料〜約¥3,000/月"
+      },
+      "time": "30分",
+      "steps": [
+        "package.jsonを開け",
+        "怪しい依存を探せ",
+        "秘密鍵の場所を確認せよ"
+      ],
+      "prompt": "あなたはAI開発環境の監査担当です。{自社名}の{サービス名}で、npm依存とClaude Code利用時の認証情報漏えいリスクを点検表にして。",
+      "roi": "情報漏えいリスク点検を2時間で実施"
+    },
+    "icebreak": {
+      "hook": "Claude Code狙いのnpm攻撃、出てるらしいですよ",
+      "punchline": "AI開発ツールも、便利さと同じくらい依存パッケージの管理が重要ですね",
+      "ctx_meeting": "開発体制の相談で",
+      "ctx_chat": "セキュリティ雑談で",
+      "share_text": "Claude Codeを狙うnpm攻撃の話、AI開発が広がるほど「使うツール」だけでなく「入れているパッケージ」まで見る必要があると感じます。"
+    }
   },
   {
     "title": "Meta、スマートグラスの顔認識コード削除",
@@ -149,7 +264,30 @@
     "links": [
       "https://www.eff.org/deeplinks/2026/06/victory-meta-strips-facial-recognition-code-smart-glasses-app-after-public-outcry"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI規約を点検",
+      "tool": {
+        "name": "Claude Pro",
+        "url": "https://claude.ai",
+        "cost": "約¥3,000/月"
+      },
+      "time": "30分",
+      "steps": [
+        "利用規約を貼れ",
+        "個人情報項目を抜け",
+        "説明文を営業資料へ入れろ"
+      ],
+      "prompt": "あなたはAI製品のプライバシー担当です。{自社名}の{サービス名}について、顔認識や個人情報利用の懸念点と顧客説明文を作って。",
+      "roi": "営業前のリスク確認を70%短縮"
+    },
+    "icebreak": {
+      "hook": "Metaのスマートグラス、顔認識コードを消したそうです",
+      "punchline": "便利なAIほど、後から消した機能の扱いまで信用に関わりますね",
+      "ctx_meeting": "AIガバナンスの話で",
+      "ctx_chat": "デバイス談義の流れで",
+      "share_text": "Metaがスマートグラス連携アプリから顔認識関連コードを削除した話、AI機能は「入れる判断」だけでなく「消した後の説明」も信頼に直結しますね。"
+    }
   },
   {
     "title": "Claude Skills、業務AIの再利用を促進",
@@ -174,7 +312,30 @@
     "links": [
       "https://www.kdnuggets.com/anthropics-complete-guide-to-claude-skills-building"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "定型業務を技能化",
+      "tool": {
+        "name": "Claude Pro",
+        "url": "https://claude.ai",
+        "cost": "約¥3,000/月"
+      },
+      "time": "半日",
+      "steps": [
+        "反復業務を1つ選べ",
+        "社内用語をまとめろ",
+        "出力例を保存せよ"
+      ],
+      "prompt": "あなたは業務AI標準化担当です。{自社名}の{業種}で、毎週行う{業務名}をClaude Skills化する手順、社内用語、品質基準を作って。",
+      "roi": "定型文作成を月8時間削減"
+    },
+    "icebreak": {
+      "hook": "Claude Skills、毎回の指示を使い回せるそうです",
+      "punchline": "社内用語や品質基準を覚えさせるなら、業務AIがかなり使いやすくなりますね",
+      "ctx_meeting": "業務AI導入提案で",
+      "ctx_chat": "生成AI活用の相談で",
+      "share_text": "Claude Skillsの考え方は、AIに毎回同じ説明をする疲れを減らせそうです。社内用語や出力ルールを再利用できるだけで、現場の定着度が変わりそう。"
+    }
   },
   {
     "title": "AI脆弱性発見、修正率に課題",
@@ -199,6 +360,29 @@
     "links": [
       "https://www.schneier.com/blog/archives/2026/06/anthropics-project-glasswing-update.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "脆弱性修正を管理",
+      "tool": {
+        "name": "GitHub Copilot",
+        "url": "https://github.com/features/copilot",
+        "cost": "約¥1,500/月"
+      },
+      "time": "半日",
+      "steps": [
+        "未修正Issueを集めろ",
+        "危険度で並べ替えろ",
+        "修正期限を決めろ"
+      ],
+      "prompt": "あなたは小規模開発会社のセキュリティ担当です。{自社名}の{サービス名}で、AIが見つけた脆弱性を修正優先度、担当、期限の表にして。",
+      "roi": "脆弱性対応の放置を減らし事故リスク低減"
+    },
+    "icebreak": {
+      "hook": "AIで脆弱性は見つかるのに、直らないらしいです",
+      "punchline": "発見力が上がっても、修正まで回らないとリスクは残ったままですね",
+      "ctx_meeting": "セキュリティ提案で",
+      "ctx_chat": "開発現場の雑談で",
+      "share_text": "Project Glasswingの話で考えたのは、AIで脆弱性を見つけるだけでは十分ではないということ。結局、直す体制まで作らないとリスクは残ります。"
+    }
   }
 ]
