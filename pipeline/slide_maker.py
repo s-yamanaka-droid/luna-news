@@ -20,7 +20,7 @@ _RECOVERED_PATHS = set()
 BRAND = os.environ.get("NOW_ON_BRAND", "AIr")
 PRI = os.environ.get("NOW_ON_PRIMARY_COLOR", "#CE1141")
 CODEX_BIN = os.environ.get("CODEX_BIN", "/opt/homebrew/bin/codex")
-SLIDE_PROVIDER = os.environ.get("SLIDE_PROVIDER", "codex").lower()  # codex / playwright
+SLIDE_PROVIDER = os.environ.get("SLIDE_PROVIDER", "codex").lower()  # codex(CLI・$0) / openai(API・高速課金) / playwright(簡易)
 CODEX_TIMEOUT = int(os.environ.get("CODEX_SLIDE_TIMEOUT", "600"))   # 内蔵画像生成は3-5分かかる
 
 PROMPT_TEMPLATE = """Use your built-in image generation tool (the one that produces files in ~/.codex/generated_images) to create ONE 1536x1024 magazine-editorial illustrated infographic about the article below. Do NOT use Python PIL. Use the image generation capability and then copy the result to EXACTLY: {output}
@@ -193,12 +193,56 @@ def generate_slides_parallel(articles, img_dir, max_workers=4):
     return success
 
 
+def _strip_codex_ops(prompt: str) -> str:
+    """API 直叩き用：Codex CLI 専用の操作指示（ファイルコピー等）をプロンプトから除去。
+    画像APIはプロンプト＝画像の説明なので、操作指示が混ざると描画を汚染する。"""
+    drop_markers = ("built-in image generation tool", "~/.codex", "copy the result",
+                    "copy it to", "print ONLY the final", "Do not ask questions")
+    lines = [l for l in prompt.splitlines()
+             if not any(m in l for m in drop_markers)]
+    head = "Create ONE magazine-editorial illustrated infographic image based on the spec below.\n"
+    return head + "\n".join(lines)
+
+
+def _openai_api_generate(title, category, source, summary, keypoints, output_path, size="1536x1024"):
+    """OpenAI 画像API 直叩き（gpt-image-2・課金 約$0.07/枚・30-60秒・並列無制限）。
+    急ぎ・大量生成・Codex 混雑時に使う。SLIDE_PROVIDER=openai で選択。"""
+    import base64
+    from openai import OpenAI
+    output_path = Path(output_path).resolve()
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    prompt = _strip_codex_ops(
+        _build_prompt(title, category, source, summary, keypoints, output_path))
+    try:
+        client = OpenAI(api_key=os.environ.get("OPENAI_IMAGE_API_KEY")
+                        or os.environ.get("OPENAI_API_KEY"))
+        resp = client.images.generate(
+            model="gpt-image-2", prompt=prompt[:30000],
+            size=size, quality="medium", n=1,
+        )
+        output_path.write_bytes(base64.b64decode(resp.data[0].b64_json))
+        ok = output_path.exists() and output_path.stat().st_size > 8000
+        print(f"  [openai-api] {'ok' if ok else 'too small'} {output_path.name}")
+        return ok
+    except Exception as e:
+        print(f"  [openai-api] error: {e}")
+        return False
+
+
 def generate_slide(title, category, source, summary, keypoints, output_path, size="1536x1024"):
-    """主：Codex CLI / 副：Playwright（Codex 失敗時の安全網）"""
+    """主プロバイダ（SLIDE_PROVIDER）→ Playwright の安全網。
+    codex  = CLI・サブスク内$0・60-180s/枚・並列2上限（日次運用向け）
+    openai = API・約$0.07/枚・30-60s/枚・並列無制限（急ぎ/大量向け）"""
     output_path = Path(output_path)
     if SLIDE_PROVIDER == "playwright":
         return _playwright_fallback(title, category, source, summary, keypoints, output_path)
-    # Codex 主
+    if SLIDE_PROVIDER == "openai":
+        ok = _openai_api_generate(title, category, source, summary, keypoints, output_path, size)
+        if ok:
+            return True
+        print("  [slide_maker] OpenAI API 失敗 → Playwright fallback")
+        return _playwright_fallback(title, category, source, summary, keypoints, output_path)
+    # Codex 主（default）
     ok = _codex_generate(title, category, source, summary, keypoints, output_path)
     if ok:
         return True
