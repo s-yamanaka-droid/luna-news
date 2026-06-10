@@ -1,0 +1,202 @@
+[
+  {
+    "title": "ChatGPT無料版に広告表示へ",
+    "category": "業界動向",
+    "source": "ITmedia News",
+    "lede": "OpenAIはChatGPTの無料プランとGoプランで広告を表示する場合があると発表した。",
+    "keypoints": [
+      "新ポリシーは6月22日発効",
+      "無料版とGoが広告対象",
+      "PlusやProは広告なし",
+      "広告はスポンサー表示"
+    ],
+    "pull": "ChatGPTは検索・相談の場から広告接点にも広がる。",
+    "bizapp": {
+      "summary": "顧客接点としてのChatGPT活用を見直す機会になる",
+      "actions": [
+        "Claudeで社内FAQの代替を検討",
+        "中小企業へAI広告対応を提案",
+        "広告とプライバシー確認が急務"
+      ]
+    },
+    "links": [
+      "https://www.itmedia.co.jp/news/articles/2606/10/news128.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Claude新モデル、一般提供開始",
+    "category": "新モデル発表",
+    "source": "Gihyo.jp",
+    "lede": "Anthropicは高性能モデルClaude Fable 5を一般提供し、複雑な長期作業への対応を強調した。",
+    "keypoints": [
+      "Fable 5を一般提供",
+      "長く複雑な作業に強い",
+      "画像理解にも高性能",
+      "高リスク領域は制御"
+    ],
+    "pull": "AIは短い回答から、数日にわたる知的作業へ進む。",
+    "bizapp": {
+      "summary": "企画、調査、開発など長い業務のAI化に使える",
+      "actions": [
+        "Claudeで市場調査を下書き",
+        "営業提案書作成を支援提案",
+        "高性能化で業務分担が変わる"
+      ]
+    },
+    "links": [
+      "https://gihyo.jp/article/2026/06/claude-fable-5-claude-mythos-5?utm_source=feed"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "NTTら、AI基盤ファンド創設",
+    "category": "業界動向",
+    "source": "Impress Internet Watch",
+    "lede": "NTTら5者はIOWN関連技術へ投資するIOWN AI Fundと運営会社を設立した。",
+    "keypoints": [
+      "5者で投資ファンド組成",
+      "IOWNエコシステムを構築",
+      "AIインフラ形成を支援",
+      "北米中心に投資推進"
+    ],
+    "pull": "AI競争はモデルだけでなく、電力と通信基盤の競争になる。",
+    "bizapp": {
+      "summary": "AIインフラ関連の事業機会を探る材料になる",
+      "actions": [
+        "Codexで投資先調査を自動化",
+        "製造業DX向け基盤提案",
+        "AI利用拡大で電力課題が増す"
+      ]
+    },
+    "links": [
+      "https://internet.watch.impress.co.jp/docs/news/2115978.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "JR東日本、窓口に生成AI導入へ",
+    "category": "業界動向",
+    "source": "MarkeZine",
+    "lede": "JR東日本はみどりの窓口で生成AIが要望確認を支援する実証実験を7月に行う。",
+    "keypoints": [
+      "立川駅と大宮駅で実証",
+      "要望確認を生成AIが支援",
+      "多言語対話も目指す",
+      "2027年春にQR乗車券へ"
+    ],
+    "pull": "接客AIは人を置き換えるだけでなく、人の判断を残す設計になる。",
+    "bizapp": {
+      "summary": "店舗や窓口の人手不足対策に使える",
+      "actions": [
+        "Claudeで窓口応対案を作成",
+        "採用難企業へ接客AI提案",
+        "現場業務の再設計が進む"
+      ]
+    },
+    "links": [
+      "https://markezine.jp/article/detail/50881"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "大阪ガス、AI軸にIT変革へ",
+    "category": "業界動向",
+    "source": "ITmedia Enterprise",
+    "lede": "大阪ガス、オージス総研、日本IBMはAIを軸に次世代ITシステム変革を進める。",
+    "keypoints": [
+      "3社が共創で合意",
+      "既存システムを刷新",
+      "AI駆動開発を検討",
+      "人材育成も対象"
+    ],
+    "pull": "大企業のAI活用は、既存システム刷新と一体で進む。",
+    "bizapp": {
+      "summary": "基幹システム刷新とAI導入を同時に考えるべき",
+      "actions": [
+        "Cursorで改修案を試作",
+        "中小企業DXの段階導入提案",
+        "AI人材育成が競争力になる"
+      ]
+    },
+    "links": [
+      "https://www.itmedia.co.jp/enterprise/articles/2606/10/news036.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AIエージェントの権限管理が焦点に",
+    "category": "その他",
+    "source": "LayerX エンジニアブログ",
+    "lede": "LayerXは組織でAIエージェントを運用する際の権限管理の難しさと重要性を整理した。",
+    "keypoints": [
+      "権限管理が設計の肝",
+      "誰に何を渡すかが課題",
+      "縛りすぎると効果減",
+      "組織利用は個人利用と別物"
+    ],
+    "pull": "AIを同僚にするには、任せる権限の設計が欠かせない。",
+    "bizapp": {
+      "summary": "社内AI導入時の安全な運用設計に使える",
+      "actions": [
+        "Codexの権限範囲を明文化",
+        "バックオフィス自動化を提案",
+        "誤操作や情報漏えい対策が必要"
+      ]
+    },
+    "links": [
+      "https://tech.layerx.co.jp/entry/ai-agent-authorization"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "NVIDIA協業でロボ評価基準へ",
+    "category": "研究",
+    "source": "ロボスタ",
+    "lede": "RLWRLDはNVIDIAと協業し、ヒューマノイドロボットの器用さを測る共通基準を開発する。",
+    "keypoints": [
+      "DexBenchを提案",
+      "器用さを共通評価",
+      "18の主要タスクを定義",
+      "実環境と仮想環境で検証"
+    ],
+    "pull": "ロボット普及には、性能を比べる共通の物差しが必要だ。",
+    "bizapp": {
+      "summary": "製造・物流でロボット導入判断に使える",
+      "actions": [
+        "Claudeで導入要件を整理",
+        "物流現場へ自動化提案",
+        "評価基準が商用化を早める"
+      ]
+    },
+    "links": [
+      "https://robotstart.info/article/2026/06/10/382008.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "JR九州、線路点検ドローン検証",
+    "category": "業界動向",
+    "source": "Impress Watch AI",
+    "lede": "JR九州とセンシンロボティクスは線路内を連続飛行する自律ドローン技術を検証した。",
+    "keypoints": [
+      "1台で連続自律飛行",
+      "3つの飛行モードを検証",
+      "AI画像認識も活用",
+      "遠隔点検への活用を見込む"
+    ],
+    "pull": "インフラ点検は、人が行く現場からAIが先に見る現場へ変わる。",
+    "bizapp": {
+      "summary": "設備点検の安全性向上と省人化に使える",
+      "actions": [
+        "Claudeで点検報告書を作成",
+        "建設業へ遠隔点検提案",
+        "人手不足と安全対策に直結"
+      ]
+    },
+    "links": [
+      "https://www.watch.impress.co.jp/docs/news/2116142.html"
+    ],
+    "likes": 0
+  }
+]
