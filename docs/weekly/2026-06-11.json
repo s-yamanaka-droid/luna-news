@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週はAIが「聞く道具」から「調査、資料化、実務代行」へ進んだ週です。小規模事業者は高額な基盤投資より、日々の定型業務をAI化する方が即効性があります。まずは調査、雑務、接客対応の3領域から試すのが現実的です。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-06-10",
+      "title": "NotebookLM、調査から資料化まで強化",
+      "category": "ツール更新",
+      "source": "Gihyo.jp",
+      "why_picked": "調査から資料作成まで一気に時短できる",
+      "tldr": "調査資料をAIで即作成",
+      "action": "自社資料3本を読み込む",
+      "image": "../assets/images/2026-06-10/topic_3.png",
+      "link": "../news/2026-06-10/#topic-3"
+    },
+    {
+      "rank": 2,
+      "date": "2026-06-08",
+      "title": "Claude、業務代行AIを全有料開放",
+      "category": "ツール更新",
+      "source": "ITmedia AI+",
+      "why_picked": "少人数の雑務をAIに任せやすい",
+      "tldr": "定型タスクをAIに委任",
+      "action": "請求前後の雑務を渡す",
+      "image": "../assets/images/2026-06-08/topic_2.png",
+      "link": "../news/2026-06-08/#topic-2"
+    },
+    {
+      "rank": 3,
+      "date": "2026-06-09",
+      "title": "Claude Skills、業務AIの再利用を促進",
+      "category": "ツール更新",
+      "source": "KDnuggets",
+      "why_picked": "毎回の指示作りを省き品質も揃う",
+      "tldr": "業務手順をAIに保存",
+      "action": "見積作成手順を技能化",
+      "image": "../assets/images/2026-06-09/topic_7.png",
+      "link": "../news/2026-06-09/#topic-7"
+    }
+  ]
+}
