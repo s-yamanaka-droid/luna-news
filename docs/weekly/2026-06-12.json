@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週はAIが「質問回答」から、調査・資料化・業務代行へ進んだ週です。小規模事業者は高額な基幹導入より、定型作業をAI化する方が即効性があります。まず調査、雑務、社内手順の3つをAIに渡すのが現実的です。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-06-10",
+      "title": "NotebookLM、調査から資料化まで強化",
+      "category": "ツール更新",
+      "source": "Gihyo.jp",
+      "why_picked": "調査と資料作成の時間をすぐ削れる",
+      "tldr": "調査をそのまま資料化",
+      "action": "競合調査を1本作る",
+      "image": "../assets/images/2026-06-10/topic_3.png",
+      "link": "../news/2026-06-10/#topic-3"
+    },
+    {
+      "rank": 2,
+      "date": "2026-06-08",
+      "title": "Claude、業務代行AIを全有料開放",
+      "category": "ツール更新",
+      "source": "ITmedia AI+",
+      "why_picked": "社長の雑務をAIに委任しやすい",
+      "tldr": "定型タスクをAIへ委任",
+      "action": "毎週の雑務を1つ任せる",
+      "image": "../assets/images/2026-06-08/topic_2.png",
+      "link": "../news/2026-06-08/#topic-2"
+    },
+    {
+      "rank": 3,
+      "date": "2026-06-09",
+      "title": "Claude Skills、業務AIの再利用を促進",
+      "category": "ツール更新",
+      "source": "KDnuggets",
+      "why_picked": "毎回の指示出しを標準化できる",
+      "tldr": "AI手順を社内資産化",
+      "action": "見積作成手順を技能化",
+      "image": "../assets/images/2026-06-09/topic_7.png",
+      "link": "../news/2026-06-09/#topic-7"
+    }
+  ]
+}

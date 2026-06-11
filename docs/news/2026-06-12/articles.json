@@ -22,7 +22,30 @@
     "links": [
       "https://www.itmedia.co.jp/aiplus/article/2606/11/2000000082/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "業務棚卸し即日化",
+      "tool": {
+        "name": "Claude Pro",
+        "url": "https://claude.ai",
+        "cost": "約¥3,000/月"
+      },
+      "time": "30分",
+      "steps": [
+        "ステップ1：業務を10個書き出せ",
+        "ステップ2：手順を貼り付けろ",
+        "ステップ3：削減案を選べ"
+      ],
+      "prompt": "あなたは中小企業の業務改善コンサルです。{自社名}の{業種}で毎週時間がかかる{業務}を、効率化候補・リスク・明日試す手順に分けて提案してください。",
+      "roi": "月10時間削減＝3万円相当"
+    },
+    "icebreak": {
+      "hook": "Claude、国内金融大手でも使う話が進んでるらしいですよ",
+      "punchline": "効率化だけじゃなく、サイバー防衛までAI活用の土俵に乗ってきましたね",
+      "ctx_meeting": "AI導入提案の冒頭で",
+      "ctx_chat": "金融業界の雑談で",
+      "share_text": "金融でClaude活用という話、効率化よりセキュリティ強化まで同じ文脈で検討されている点が気になる。AI導入の論点がかなり実務寄りになってきた。"
+    }
   },
   {
     "title": "日立とGoogle Cloud、現場AIを拡大",
@@ -47,7 +70,30 @@
     "links": [
       "https://robotstart.info/article/2026/06/11/382014.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "現場日報を分析",
+      "tool": {
+        "name": "Gemini",
+        "url": "https://gemini.google.com",
+        "cost": "無料〜約¥2,900/月"
+      },
+      "time": "30分",
+      "steps": [
+        "ステップ1：日報をCSVにせよ",
+        "ステップ2：異常例を抽出せよ",
+        "ステップ3：改善策を出せ"
+      ],
+      "prompt": "あなたは現場改善の専門家です。{自社名}の{業種}の日報データから、遅延・ミス・危険兆候を分類し、明日試せる改善策を3つ出してください。",
+      "roi": "現場確認と集計を50%短縮"
+    },
+    "icebreak": {
+      "hook": "日立とGoogle Cloud、AIを現場判断に入れるらしいです",
+      "punchline": "製造やインフラでは、AIがレポートを書くより制御に近づくのが大きいですね",
+      "ctx_meeting": "現場DX提案の冒頭で",
+      "ctx_chat": "工場・インフラの雑談",
+      "share_text": "AIの話がチャット画面から、製造や社会インフラの判断・制御に移っているのが面白い。現場データをどこまで任せるかが論点になりそう。"
+    }
   },
   {
     "title": "AIエージェント決済、VisaとOpenAIが提携",
@@ -72,7 +118,30 @@
     "links": [
       "https://www.watch.impress.co.jp/docs/news/2116479.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "発注条件を自動化",
+      "tool": {
+        "name": "ChatGPT Plus",
+        "url": "https://chatgpt.com",
+        "cost": "約¥3,000/月"
+      },
+      "time": "30分",
+      "steps": [
+        "ステップ1：発注ルールを書け",
+        "ステップ2：承認条件を決めろ",
+        "ステップ3：例外処理を作れ"
+      ],
+      "prompt": "あなたは購買管理の専門家です。{自社名}の{業種}で使う{備品名}について、AIに任せる発注条件、上限金額、社長承認が必要な例外を設計してください。",
+      "roi": "発注確認の手間を月5時間削減"
+    },
+    "icebreak": {
+      "hook": "AIが決済まで始める話、VisaとOpenAIで進んでますよ",
+      "punchline": "上限や承認条件を先に決めるので、人が毎回押す前提から変わりそうです",
+      "ctx_meeting": "EC・決済提案の冒頭で",
+      "ctx_chat": "買い物体験の雑談で",
+      "share_text": "AIエージェント決済で気になるのは、決済そのものより「どこまで事前承認するか」。便利さと怖さの境目を設計する時代になってきた。"
+    }
   },
   {
     "title": "OpenAI、Ona買収でCodexを強化",
@@ -97,7 +166,30 @@
     "links": [
       "https://openai.com/index/openai-to-acquire-ona"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "調査を丸ごと委任",
+      "tool": {
+        "name": "ChatGPT Plus",
+        "url": "https://chatgpt.com",
+        "cost": "約¥3,000/月"
+      },
+      "time": "半日",
+      "steps": [
+        "ステップ1：調査テーマを書け",
+        "ステップ2：成果物形式を決めろ",
+        "ステップ3：実行手順に分けろ"
+      ],
+      "prompt": "あなたはAIリサーチ担当です。{自社名}の{業種}で検討中の{テーマ}について、調査項目、確認先、成果物、社長が判断すべき論点に分けて整理してください。",
+      "roi": "市場調査の初動を70%短縮"
+    },
+    "icebreak": {
+      "hook": "OpenAI、Ona買収でCodexの土台を強くするらしいです",
+      "punchline": "AIに長時間作業を任せるには、モデル性能より動き続ける基盤が効いてきますね",
+      "ctx_meeting": "開発AIの相談で",
+      "ctx_chat": "エンジニアとの雑談で",
+      "share_text": "Codexを週500万人超が使っているという点より、長時間動くAIエージェント向けのクラウド基盤を強める流れが気になる。AIは作業時間の設計に入ってきた。"
+    }
   },
   {
     "title": "OpenAIモデル、Amazon Bedrockで一般提供",
@@ -122,7 +214,30 @@
     "links": [
       "https://www.infoq.com/news/2026/06/openai-frontier-models-aws/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML%26Data+Engineering"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AWS内AI導入",
+      "tool": {
+        "name": "Amazon Bedrock",
+        "url": "https://aws.amazon.com/bedrock/",
+        "cost": "従量課金"
+      },
+      "time": "半日",
+      "steps": [
+        "ステップ1：AWS請求を確認せよ",
+        "ステップ2：対象業務を1つ選べ",
+        "ステップ3：PoC案を作れ"
+      ],
+      "prompt": "あなたはAWS導入支援の専門家です。{自社名}の{業種}でAWS上にある{データ}を使い、AIで自動化できる業務と小さく試すPoC手順を提案してください。",
+      "roi": "既存AWS内で検討工数を半減"
+    },
+    "icebreak": {
+      "hook": "OpenAIモデル、Amazon Bedrockから使えるようになったそうです",
+      "punchline": "AWS利用枠で扱えるなら、社内導入の稟議や管理がかなり現実的になりますね",
+      "ctx_meeting": "AWS企業への提案で",
+      "ctx_chat": "クラウド費用の雑談で",
+      "share_text": "OpenAIモデルがAmazon Bedrockで一般提供されると、AI導入は「使えるか」より「既存のAWS管理に乗せられるか」の話になりそう。ここは現場に効きそう。"
+    }
   },
   {
     "title": "Azure、AIモデル操作を一つのAPIに",
@@ -147,7 +262,30 @@
     "links": [
       "https://www.infoq.com/news/2026/06/azure-apim-ai-gateway-build/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML%26Data+Engineering"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI利用窓口統一",
+      "tool": {
+        "name": "Microsoft Azure",
+        "url": "https://azure.microsoft.com",
+        "cost": "従量課金"
+      },
+      "time": "1時間",
+      "steps": [
+        "ステップ1：使うAIを列挙せよ",
+        "ステップ2：利用目的を分けろ",
+        "ステップ3：社内ルールを作れ"
+      ],
+      "prompt": "あなたは小規模企業のAI管理担当です。{自社名}の{業種}で使う{AIツール一覧}を、用途・入力禁止情報・承認が必要な作業に分けて社内ルール化してください。",
+      "roi": "AI利用の事故リスクを低減"
+    },
+    "icebreak": {
+      "hook": "Azure、複数AIモデルを一つのAPIで扱う方向らしいです",
+      "punchline": "モデル選びより、接続やMCPツール呼び出しを安全に束ねる話になってきましたね",
+      "ctx_meeting": "AI基盤設計の相談で",
+      "ctx_chat": "情シスとの雑談で",
+      "share_text": "複数AIモデルを一つのAPIで扱う話を見ると、これから大事なのはモデル単体の比較だけではなく、呼び出し方と守り方の設計だと感じる。"
+    }
   },
   {
     "title": "OpenAI、EUのAI透明性ルールを支持",
@@ -172,7 +310,30 @@
     "links": [
       "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI表記ルール化",
+      "tool": {
+        "name": "Notion AI",
+        "url": "https://www.notion.com/product/ai",
+        "cost": "約¥1,500/月"
+      },
+      "time": "30分",
+      "steps": [
+        "ステップ1：公開物を集めろ",
+        "ステップ2：AI利用箇所を書け",
+        "ステップ3：表記文を統一せよ"
+      ],
+      "prompt": "あなたは広報と法務に強い編集者です。{自社名}の{業種}でAIを使って作る{公開物}について、読者に誤解を与えないAI利用表記ルールを作ってください。",
+      "roi": "公開前確認を月3時間削減"
+    },
+    "icebreak": {
+      "hook": "OpenAI、EUのAI透明性ルールを支持したそうです",
+      "punchline": "AI生成物は、作る力だけでなく出所や文脈を説明する力も問われますね",
+      "ctx_meeting": "法務・広報相談で",
+      "ctx_chat": "AI画像の雑談で",
+      "share_text": "AI生成コンテンツは、きれいに作れることより「これは何から作られたのか」を説明できることが重要になっていきそう。透明性は運用の話でもある。"
+    }
   },
   {
     "title": "旅行情報をAIが参照、NEWT MCP公開",
@@ -197,6 +358,29 @@
     "links": [
       "https://ai.watch.impress.co.jp/docs/news/2116501.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "出張手配を短縮",
+      "tool": {
+        "name": "Claude Pro",
+        "url": "https://claude.ai",
+        "cost": "約¥3,000/月"
+      },
+      "time": "20分",
+      "steps": [
+        "ステップ1：出張条件を書け",
+        "ステップ2：候補条件を絞れ",
+        "ステップ3：比較表を作れ"
+      ],
+      "prompt": "あなたは出張手配の秘書です。{自社名}の{出張先}への{日程}出張について、予算、移動時間、ホテル条件を満たす比較表と予約前チェックリストを作ってください。",
+      "roi": "出張手配を1件30分短縮"
+    },
+    "icebreak": {
+      "hook": "NEWTの旅行情報、AIが直接参照できるようになったらしいです",
+      "punchline": "空き状況や価格まで見られるなら、AIが旅行相談から手配補助に近づきますね",
+      "ctx_meeting": "旅行・出張DX提案で",
+      "ctx_chat": "旅行計画の雑談で",
+      "share_text": "NEWT MCPの話で面白いのは、AIが旅行情報を読むだけでなく、空き状況や価格まで確認できる点。旅行相談がだいぶ実務に近づいてきた。"
+    }
   }
 ]
