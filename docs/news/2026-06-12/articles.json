@@ -1,0 +1,202 @@
+[
+  {
+    "title": "Claude、国内金融大手で共同活用へ",
+    "category": "業界動向",
+    "source": "ITmedia AI+",
+    "lede": "NECとAnthropicが大手金融機関と組み、Claudeによる業務効率化とサイバー防衛強化を検討する。",
+    "keypoints": [
+      "金融業務でClaudeを活用",
+      "業務知見を各社で持ち寄る",
+      "効率化と生産性向上を狙う",
+      "セキュリティ強化も対象"
+    ],
+    "pull": "生成AIは単社導入から、業界横断の共同検討へ進み始めた。",
+    "bizapp": {
+      "summary": "金融以外でも業界共同AI活用の参考になる",
+      "actions": [
+        "Claudeで社内業務棚卸し",
+        "金融向けAI活用提案に使う",
+        "大手企業の導入基準を知る"
+      ]
+    },
+    "links": [
+      "https://www.itmedia.co.jp/aiplus/article/2606/11/2000000082/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "日立とGoogle Cloud、現場AIを拡大",
+    "category": "業界動向",
+    "source": "ロボスタ (RoboStart)",
+    "lede": "日立とGoogle Cloudが提携を拡大し、製造・社会インフラでAIが現場を判断、制御する実装を進める。",
+    "keypoints": [
+      "フィジカルAI実装を加速",
+      "現場データでAIが判断",
+      "Gemini Enterpriseを組み込む",
+      "AI型攻撃への防御も強化"
+    ],
+    "pull": "AIは画面の中だけでなく、工場やインフラを動かす段階に入る。",
+    "bizapp": {
+      "summary": "現場業務の自律化と安全対策の検討に使える",
+      "actions": [
+        "Geminiで現場データ分析",
+        "製造DX提案の材料にする",
+        "AI時代の防御強化を急ぐ"
+      ]
+    },
+    "links": [
+      "https://robotstart.info/article/2026/06/11/382014.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AIエージェント決済、VisaとOpenAIが提携",
+    "category": "業界動向",
+    "source": "Impress Watch AI",
+    "lede": "VisaとOpenAIが、AIエージェントによる決済を安全に処理する基盤づくりで提携する。",
+    "keypoints": [
+      "AIが決済を開始できる",
+      "利用上限や承認条件を設定",
+      "不正監視で安全性を確保",
+      "Codex活用も今後検討"
+    ],
+    "pull": "AIが提案するだけでなく、条件内で支払いまで担う世界が近づく。",
+    "bizapp": {
+      "summary": "購入や発注の自動化設計に使える",
+      "actions": [
+        "Codexで決済業務案を試す",
+        "営業の自動見積提案に使う",
+        "AI決済の管理条件を考える"
+      ]
+    },
+    "links": [
+      "https://www.watch.impress.co.jp/docs/news/2116479.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "OpenAI、Ona買収でCodexを強化",
+    "category": "業界動向",
+    "source": "OpenAI Blog",
+    "lede": "OpenAIはOnaを買収し、Codexで長時間動くAIエージェント向けの安全なクラウド基盤を広げる。",
+    "keypoints": [
+      "Onaを買収予定",
+      "Codexのクラウド基盤を強化",
+      "長時間作業の継続を重視",
+      "週500万人超がCodexを利用"
+    ],
+    "pull": "AI作業は数分の補助から、数時間・数日の委任へ移りつつある。",
+    "bizapp": {
+      "summary": "長時間の調査や開発をAIに任せやすくなる",
+      "actions": [
+        "Codexで調査から実装まで委任",
+        "中小企業の開発代行に提案",
+        "AIエージェント化が進む"
+      ]
+    },
+    "links": [
+      "https://openai.com/index/openai-to-acquire-ona"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "OpenAIモデル、Amazon Bedrockで一般提供",
+    "category": "新モデル発表",
+    "source": "InfoQ AI/ML",
+    "lede": "OpenAIのGPT-5.5、GPT-5.4、CodexがAmazon Bedrockで一般提供され、AWS環境から使えるようになった。",
+    "keypoints": [
+      "GPT-5.5がBedrockで提供",
+      "Codexも一般提供に到達",
+      "Responses APIで利用可能",
+      "AWS利用枠に計上される"
+    ],
+    "pull": "OpenAI活用は、既存のAWS運用に組み込む選択肢を得た。",
+    "bizapp": {
+      "summary": "AWS中心企業のAI導入が進めやすくなる",
+      "actions": [
+        "CodexをAWS開発業務に使う",
+        "AWS企業向けAI導入を提案",
+        "既存契約内で検討しやすい"
+      ]
+    },
+    "links": [
+      "https://www.infoq.com/news/2026/06/openai-frontier-models-aws/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML%26Data+Engineering"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Azure、AIモデル操作を一つのAPIに",
+    "category": "ツール更新",
+    "source": "InfoQ AI/ML",
+    "lede": "MicrosoftはAzure API Managementで、複数AIモデルを一つの形式で扱うAPIと安全対策を拡張した。",
+    "keypoints": [
+      "Unified Model APIを追加",
+      "複数AI提供元に接続",
+      "MCPツール呼び出しも保護",
+      "AI間通信の安全策も対象"
+    ],
+    "pull": "複数AIの使い分けは、管理と安全性の設計が競争力になる。",
+    "bizapp": {
+      "summary": "複数AIを使う企業の統制に使える",
+      "actions": [
+        "社内AI APIの窓口を統一",
+        "中小企業DXの管理基盤に提案",
+        "AI利用の安全設計が重要"
+      ]
+    },
+    "links": [
+      "https://www.infoq.com/news/2026/06/azure-apim-ai-gateway-build/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML%26Data+Engineering"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "OpenAI、EUのAI透明性ルールを支持",
+    "category": "業界動向",
+    "source": "OpenAI Blog",
+    "lede": "OpenAIは、AI生成コンテンツの透明性に関するEUの行動規範を支持すると発表した。",
+    "keypoints": [
+      "EUの透明性規範を支持",
+      "AI生成物の文脈提示を重視",
+      "EU AI Act実装の一歩",
+      "出所証明の取り組みを継続"
+    ],
+    "pull": "AI生成物は、作る力だけでなく出所を示す力も問われる。",
+    "bizapp": {
+      "summary": "生成AIコンテンツの表示ルール検討に使える",
+      "actions": [
+        "社内AI生成物の表示を整理",
+        "広報・法務向け規程を提案",
+        "規制対応が信用に直結する"
+      ]
+    },
+    "links": [
+      "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "旅行情報をAIが参照、NEWT MCP公開",
+    "category": "ツール更新",
+    "source": "AI Watch (Impress)",
+    "lede": "令和トラベルは、AIがNEWTのツアーやホテル情報を検索・参照できるNEWT MCPを公開した。",
+    "keypoints": [
+      "旅行データをAI向けに公開",
+      "Claudeなどから参照可能",
+      "空き状況や価格も確認",
+      "Slack出張支援にも活用"
+    ],
+    "pull": "業務アプリのデータは、AIが直接使える形で開く時代になる。",
+    "bizapp": {
+      "summary": "社内出張や旅行提案の自動化に使える",
+      "actions": [
+        "Claudeで出張ホテル検索",
+        "旅行会社のAI接客に提案",
+        "MCP対応サービスが増える"
+      ]
+    },
+    "links": [
+      "https://ai.watch.impress.co.jp/docs/news/2116501.html"
+    ],
+    "likes": 0
+  }
+]
