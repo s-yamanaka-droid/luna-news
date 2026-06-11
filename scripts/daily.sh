@@ -47,6 +47,10 @@ if [ ! -f "/Users/yamanakashuto/apps/vigil-news/docs/news/$TODAY/articles.json" 
   exit 1
 fi
 
+# [1.7] 図解の自己修復（md5重複・劣化画像を OpenAI API で自動打ち直し）
+echo "[1.7] 図解品質リペア" | tee -a "$LOG"
+python scripts/repair_slides.py "$TODAY" 2>&1 | tee -a "$LOG" || echo "repair失敗（処理は継続）" | tee -a "$LOG"
+
 # [1.5] 欠番バックフィル（直近3日・6/7 永久欠番事故の再発防止）
 for d in 1 2 3; do
   DAY=$(date -v-${d}d +%Y-%m-%d)
