@@ -22,7 +22,30 @@
     "links": [
       "https://www.digital.go.jp/news/418ff7e5-6ca8-49d2-a2d2-42e972b07ff7"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI規程を点検",
+      "tool": {
+        "name": "Claude Pro",
+        "url": "https://claude.ai",
+        "cost": "約¥3,200/月"
+      },
+      "time": "30分",
+      "steps": [
+        "ステップ1：AI利用場面を列挙せよ",
+        "ステップ2：禁止事項を洗い出せ",
+        "ステップ3：社内規程案を作れ"
+      ],
+      "prompt": "あなたは行政AI調達に詳しい顧問です。{自社名}の{業種}で生成AIを使う場面を前提に、官公庁基準に近い社内AI利用規程案を作ってください。",
+      "roi": "公共案件の提案準備を半日短縮"
+    },
+    "icebreak": {
+      "hook": "行政の生成AI調達、指針改定が動いてるの知ってます？",
+      "punchline": "民間も、AIを買う前に使い方と責任範囲を詰める流れになりそうです。",
+      "ctx_meeting": "AI導入提案の冒頭で",
+      "ctx_chat": "政策ニュースの雑談で",
+      "share_text": "生成AIは「まず試す」から「どう調達し、どう使うか」を決める段階に来た感がある。行政の指針改定は、企業側のAI導入にも効いてきそう。"
+    }
   },
   {
     "title": "関西電力、AI前提で業務再構築へ",
@@ -47,7 +70,30 @@
     "links": [
       "https://xtech.nikkei.com/atcl/nxt/column/18/03585/061200024/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "社内FAQをAI化",
+      "tool": {
+        "name": "Notion AI",
+        "url": "https://www.notion.com/product/ai",
+        "cost": "約¥1,600/月"
+      },
+      "time": "30分",
+      "steps": [
+        "ステップ1：よくある質問を集めよ",
+        "ステップ2：回答を1ページ化せよ",
+        "ステップ3：AI検索で試せ"
+      ],
+      "prompt": "あなたは中小企業の業務改善担当です。{自社名}の{業種}で社員が探す社内情報をFAQ化し、AI検索しやすい見出しと回答に整理してください。",
+      "roi": "検索時間を月5時間削減"
+    },
+    "icebreak": {
+      "hook": "関西電力、AI前提で業務を組み替えるらしいですよ",
+      "punchline": "検索時間75％削減みたいに、日常業務の詰まりをAIで減らすのが現実的ですね。",
+      "ctx_meeting": "業務改善提案の導入で",
+      "ctx_chat": "社内DXの話題で",
+      "share_text": "AI活用って派手な新規事業より、まず検索時間75％削減みたいな足元の改善が強い。業務の一部ではなく前提に置く発想は、かなり現実味がある。"
+    }
   },
   {
     "title": "イトーキ、AIシフトの土台に基幹刷新",
@@ -72,7 +118,30 @@
     "links": [
       "https://xtech.nikkei.com/atcl/nxt/column/18/03585/061200025/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "台帳連携を試作",
+      "tool": {
+        "name": "Cursor Pro",
+        "url": "https://cursor.com",
+        "cost": "約¥3,200/月"
+      },
+      "time": "半日",
+      "steps": [
+        "ステップ1：Excel台帳をCSV化せよ",
+        "ステップ2：重複項目を抽出せよ",
+        "ステップ3：統合表を作らせよ"
+      ],
+      "prompt": "あなたは業務データ整理の専門家です。{自社名}の{業種}で使う複数CSVを読み、AI活用の前提になる統合台帳の項目案と変換手順を作ってください。",
+      "roi": "手作業集計を月8時間削減"
+    },
+    "icebreak": {
+      "hook": "イトーキ、AIの前に基幹を刷新してるの面白いです",
+      "punchline": "AI活用って、結局データが整う基盤から作らないと事業転換まで行けないんですね。",
+      "ctx_meeting": "基幹刷新の相談で",
+      "ctx_chat": "オフィスの話題で",
+      "share_text": "AIシフトの話で見落としがちなのは、先に基幹とデータを整えること。イトーキの動きは、AI導入がシステム刷新と事業転換につながる例として興味深い。"
+    }
   },
   {
     "title": "DeNA、Codex自律活用の実践知を共有",
@@ -97,7 +166,30 @@
     "links": [
       "https://engineering.dena.com/blog/2026/06/openai-codex-study-report/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "改修をAI委任",
+      "tool": {
+        "name": "ChatGPT Plus",
+        "url": "https://chatgpt.com",
+        "cost": "約¥3,200/月"
+      },
+      "time": "30分",
+      "steps": [
+        "ステップ1：完了条件を書け",
+        "ステップ2：対象ファイルを示せ",
+        "ステップ3：小改修を任せよ"
+      ],
+      "prompt": "あなたは開発チームのAI作業設計者です。{自社名}の{システム名}で{改修内容}をAIに任せるため、完了条件、確認手順、失敗時の戻し方を作ってください。",
+      "roi": "小規模改修の指示作成を50%短縮"
+    },
+    "icebreak": {
+      "hook": "DeNA、Codexを長時間動かす勉強会をしたそうです",
+      "punchline": "ポイントはAI任せではなく、完了条件や計画を外に出して任せる設計みたいです。",
+      "ctx_meeting": "AI活用研修の話で",
+      "ctx_chat": "開発チームの雑談で",
+      "share_text": "Codexを長時間安定して動かすには、AIに丸投げするより「完了条件」と「計画」を外に出す設計が大事らしい。人間側の任せ方もスキルになってきた。"
+    }
   },
   {
     "title": "Codex、利用枠リセットを後から使用可能に",
@@ -122,7 +214,30 @@
     "links": [
       "https://gihyo.jp/article/2026/06/openai-codex-rate-limit-resets?utm_source=feed"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "開発枠を温存",
+      "tool": {
+        "name": "ChatGPT Plus",
+        "url": "https://chatgpt.com",
+        "cost": "約¥3,200/月"
+      },
+      "time": "10分",
+      "steps": [
+        "ステップ1：開発予定日を決めよ",
+        "ステップ2：AI作業を棚卸せよ",
+        "ステップ3：重い作業を寄せよ"
+      ],
+      "prompt": "あなたは小規模開発会社のPMです。{自社名}の{リリース日}前後でCodex利用枠を無駄にしない作業計画を、優先度順に作ってください。",
+      "roi": "リリース前の手戻りを1日削減"
+    },
+    "icebreak": {
+      "hook": "Codexの利用枠リセット、後で使えるようになるらしいです",
+      "punchline": "必要な時に枠を残せるなら、重い作業をまとめて任せる運用がしやすくなりますね。",
+      "ctx_meeting": "開発効率化の話で",
+      "ctx_chat": "AIツール談義で",
+      "share_text": "Codexの利用枠リセットを後から使えるようになるのは地味に大きい。AIエージェントは、思いついた時ではなく「重い作業を任せたい時」に枠があるかが効く。"
+    }
   },
   {
     "title": "DeepMind、AI同士の安全研究に資金提供",
@@ -147,7 +262,30 @@
     "links": [
       "https://ai.watch.impress.co.jp/docs/news/2116906.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AIリスクを洗う",
+      "tool": {
+        "name": "Claude Pro",
+        "url": "https://claude.ai",
+        "cost": "約¥3,200/月"
+      },
+      "time": "30分",
+      "steps": [
+        "ステップ1：使うAIを列挙せよ",
+        "ステップ2：事故シナリオを出せ",
+        "ステップ3：運用ルールを作れ"
+      ],
+      "prompt": "あなたはAIリスク管理の専門家です。{自社名}の{業種}で複数AIツールを使う前提で、情報漏えい、誤回答、責任分界のリスク表を作ってください。",
+      "roi": "AI導入前チェックを2時間短縮"
+    },
+    "icebreak": {
+      "hook": "DeepMind、AI同士の振る舞い研究に資金を出すそうです",
+      "punchline": "AI単体の性能だけでなく、AI集団がどう動くかを安全面で見る段階に来ていますね。",
+      "ctx_meeting": "AIリスク説明の時に",
+      "ctx_chat": "海外AIニュースで",
+      "share_text": "AIの安全性は、1つのモデルを見るだけでは足りなくなってきた。DeepMindがAI集団の振る舞いに資金提供するのを見ると、次の論点は「AI同士の社会性」なのかも。"
+    }
   },
   {
     "title": "AI住宅のMW、シードで累計30億円調達",
@@ -172,7 +310,30 @@
     "links": [
       "https://thebridge.jp/2026/06/mw-raises-3-billion-yen-seed-funding-for-living-home"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "住宅AI案を作る",
+      "tool": {
+        "name": "ChatGPT Plus",
+        "url": "https://chatgpt.com",
+        "cost": "約¥3,200/月"
+      },
+      "time": "30分",
+      "steps": [
+        "ステップ1：顧客の不満を集めよ",
+        "ステップ2：AI住宅案を3つ出せ",
+        "ステップ3：提案文に直せ"
+      ],
+      "prompt": "あなたは不動産DXの企画担当です。{自社名}の{対象顧客}向けに、センサーやAIで住宅価値を上げる小規模提案を3案作ってください。",
+      "roi": "新提案メニュー作成を半日短縮"
+    },
+    "icebreak": {
+      "hook": "AI住宅のMW、シードで累計30億円集めたそうです",
+      "punchline": "住宅をアプリ化するだけでなく、ロボティクスとセンサーで自律化する発想が強いです。",
+      "ctx_meeting": "不動産DXの話で",
+      "ctx_chat": "住まいの未来話で",
+      "share_text": "AI住宅という言葉、スマートホームの延長かと思っていたけど、ロボティクスとセンサーで住宅を自律化するなら意味が変わる。Living Homeの動きはかなり気になる。"
+    }
   },
   {
     "title": "海外市場の顧客の声をAIで分析",
@@ -197,6 +358,29 @@
     "links": [
       "https://markezine.jp/article/detail/76944"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "海外レビュー分析",
+      "tool": {
+        "name": "ChatGPT Plus",
+        "url": "https://chatgpt.com",
+        "cost": "約¥3,200/月"
+      },
+      "time": "30分",
+      "steps": [
+        "ステップ1：レビュー30件を集めよ",
+        "ステップ2：不満と称賛を分けよ",
+        "ステップ3：広告文を作れ"
+      ],
+      "prompt": "あなたは越境ECのマーケターです。{商品名}の海外レビューを分析し、{対象国}の顧客が評価する点、不満点、広告訴求を日本語で整理してください。",
+      "roi": "広告仮説作成を70%短縮"
+    },
+    "icebreak": {
+      "hook": "海外市場の口コミ分析、AIでかなり実務化してますね",
+      "punchline": "SNS投稿やECレビューから現地ユーザーの本音を拾えると、広告施策まで変わりそうです。",
+      "ctx_meeting": "海外展開の相談で",
+      "ctx_chat": "マーケ施策の雑談で",
+      "share_text": "海外展開で難しいのは、現地ユーザーが何を本当に評価しているかを読むこと。SNS投稿やECレビューをAI解析して広告までつなげる流れは、かなり実務的。"
+    }
   }
 ]

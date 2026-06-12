@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週はAIが「回答」から「作業代行」へ進んだ週。小規模事業者は調査、資料化、定型業務の委任から始めるのが最短です。社内手順をAIに覚えさせる会社ほど時間差が出ます。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-06-10",
+      "title": "NotebookLM、調査から資料化まで強化",
+      "category": "ツール更新",
+      "source": "Gihyo.jp",
+      "why_picked": "調査と資料作成の外注費をすぐ削れる",
+      "tldr": "調査を資料まで一気通貫",
+      "action": "競合調査を1本作る",
+      "image": "../assets/images/2026-06-10/topic_3.png",
+      "link": "../news/2026-06-10/#topic-3"
+    },
+    {
+      "rank": 2,
+      "date": "2026-06-08",
+      "title": "Claude、業務代行AIを全有料開放",
+      "category": "ツール更新",
+      "source": "ITmedia AI+",
+      "why_picked": "雑務をAIに渡し社長の時間を空けられる",
+      "tldr": "有料版で業務代行AI解放",
+      "action": "毎週の雑務を1件委任",
+      "image": "../assets/images/2026-06-08/topic_2.png",
+      "link": "../news/2026-06-08/#topic-2"
+    },
+    {
+      "rank": 3,
+      "date": "2026-06-09",
+      "title": "Claude Skills、業務AIの再利用を促進",
+      "category": "ツール更新",
+      "source": "KDnuggets",
+      "why_picked": "自社の定型作業を再現可能な武器にできる",
+      "tldr": "業務手順をAIスキル化",
+      "action": "見積作成手順を保存",
+      "image": "../assets/images/2026-06-09/topic_7.png",
+      "link": "../news/2026-06-09/#topic-7"
+    }
+  ]
+}
