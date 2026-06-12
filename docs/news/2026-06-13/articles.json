@@ -1,0 +1,202 @@
+[
+  {
+    "title": "生成AI調達ガイドライン改定、意見募集結果を公表",
+    "category": "業界動向",
+    "source": "デジタル庁",
+    "lede": "デジタル庁が、行政の生成AI調達・利活用ガイドライン改定案への意見募集結果を公表した。",
+    "keypoints": [
+      "行政AI活用の指針改定",
+      "意見募集結果を公表",
+      "調達と利活用が対象",
+      "e-Govに関連情報"
+    ],
+    "pull": "行政AIのルール整備は、民間の導入基準にも影響する。",
+    "bizapp": {
+      "summary": "官公庁向けAI提案の前提確認に使える。",
+      "actions": [
+        "Claudeで社内AI規程を点検",
+        "自治体DX提案の根拠に使う",
+        "公共領域の基準変化に注意"
+      ]
+    },
+    "links": [
+      "https://www.digital.go.jp/news/418ff7e5-6ca8-49d2-a2d2-42e972b07ff7"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "関西電力、AI前提で業務再構築へ",
+    "category": "業界動向",
+    "source": "日経クロステック AI",
+    "lede": "関西電力はAIを業務の一部ではなく、業務変革の前提に置く「AIファースト企業」を目指す。",
+    "keypoints": [
+      "DXビジョン2035を推進",
+      "組織風土改革を重視",
+      "2025年度に31講座",
+      "検索時間を75％削減"
+    ],
+    "pull": "AI導入の成否は、ツールより組織風土で決まる。",
+    "bizapp": {
+      "summary": "AI導入を人事評価と育成まで広げられる。",
+      "actions": [
+        "Claudeで社内FAQ検索を試す",
+        "中小企業DX研修を提案",
+        "評価制度まで設計が必要"
+      ]
+    },
+    "links": [
+      "https://xtech.nikkei.com/atcl/nxt/column/18/03585/061200024/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "イトーキ、AIシフトの土台に基幹刷新",
+    "category": "業界動向",
+    "source": "日経クロステック AI",
+    "lede": "イトーキはOracle ERPへの移行を土台に、データとAIでオフィス運用を支援する事業へ転換する。",
+    "keypoints": [
+      "商品販売からDX支援へ",
+      "約160社に改善支援",
+      "3種類のAIを予定",
+      "旧基幹を2025年刷新"
+    ],
+    "pull": "AI事業化の前に、基幹データの整備が問われる。",
+    "bizapp": {
+      "summary": "AI新規事業は基幹刷新とセットで考えられる。",
+      "actions": [
+        "Codexで業務データ連携を試作",
+        "オフィスDX提案に応用",
+        "古い基幹がAI活用を阻む"
+      ]
+    },
+    "links": [
+      "https://xtech.nikkei.com/atcl/nxt/column/18/03585/061200025/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "DeNA、Codex自律活用の実践知を共有",
+    "category": "ツール更新",
+    "source": "DeNA Engineering",
+    "lede": "DeNAはOpenAI講師を招き、Codexを長時間安定して自律実行させる実践的な勉強会を開催した。",
+    "keypoints": [
+      "社員約310名が参加",
+      "完了条件の明確化を重視",
+      "計画の外部化を紹介",
+      "長時間タスク運用を解説"
+    ],
+    "pull": "Codex活用は、指示より完了条件の設計が効く。",
+    "bizapp": {
+      "summary": "開発業務の自律化設計にそのまま使える。",
+      "actions": [
+        "Codexで長時間改修を任せる",
+        "開発組織向け研修を提案",
+        "AI活用は運用設計が差になる"
+      ]
+    },
+    "links": [
+      "https://engineering.dena.com/blog/2026/06/openai-codex-study-report/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Codex、利用枠リセットを後から使用可能に",
+    "category": "ツール更新",
+    "source": "Gihyo.jp",
+    "lede": "OpenAIはCodexのレート制限リセットを保存し、必要なタイミングで使える機能の展開を始めた。",
+    "keypoints": [
+      "保存機能の展開開始",
+      "Goなどに無料1回付与",
+      "PlusとProで紹介特典",
+      "追加後30日以内が原則"
+    ],
+    "pull": "Codexの作業枠を、忙しいタイミングに寄せられる。",
+    "bizapp": {
+      "summary": "開発ピーク時のCodex運用を調整できる。",
+      "actions": [
+        "Codex枠をリリース前に温存",
+        "開発会社へ運用ルール提案",
+        "AI作業枠の管理が重要に"
+      ]
+    },
+    "links": [
+      "https://gihyo.jp/article/2026/06/openai-codex-rate-limit-resets?utm_source=feed"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "DeepMind、AI同士の安全研究に資金提供",
+    "category": "研究",
+    "source": "AI Watch (Impress)",
+    "lede": "Google DeepMindなどは、大規模なマルチエージェントAIのリスク解決に向けた研究資金提供を始める。",
+    "keypoints": [
+      "最大1000万ドルを提供",
+      "世界の研究者が対象",
+      "AI集団の振る舞いを研究",
+      "4つの重点分野を募集"
+    ],
+    "pull": "AIが協調して動く時代は、安全性も集団で考える必要がある。",
+    "bizapp": {
+      "summary": "AIエージェント導入時のリスク整理に使える。",
+      "actions": [
+        "Claudeで業務リスクを洗う",
+        "AI運用ルール策定を提案",
+        "複数AI利用の安全性が焦点"
+      ]
+    },
+    "links": [
+      "https://ai.watch.impress.co.jp/docs/news/2116906.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AI住宅のMW、シードで累計30億円調達",
+    "category": "業界動向",
+    "source": "BRIDGE (THE BRIDGE)",
+    "lede": "AIロボティクスとセンサーで住宅を自律化するMWが、シードラウンドで累計30億円を調達した。",
+    "keypoints": [
+      "Living Homeを開発",
+      "住宅フィジカルAIを掲げる",
+      "東京案件に1000件超問合せ",
+      "10件以上の案件が進行"
+    ],
+    "pull": "AIは画面の中だけでなく、住宅空間にも入り始めている。",
+    "bizapp": {
+      "summary": "不動産・住宅DXの新提案に使える。",
+      "actions": [
+        "Claudeで住宅DX案を整理",
+        "不動産会社へAI住宅提案",
+        "生活空間のAI化が進む"
+      ]
+    },
+    "links": [
+      "https://thebridge.jp/2026/06/mw-raises-3-billion-yen-seed-funding-for-living-home"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "海外市場の顧客の声をAIで分析",
+    "category": "ツール更新",
+    "source": "MarkeZine (マーケ×AI)",
+    "lede": "アライドアーキテクツは、SNS投稿やECレビューをAIで解析する海外市場向けサービスを始めた。",
+    "keypoints": [
+      "Kaname.ax Global開始",
+      "SNSやレビューをAI解析",
+      "海外ユーザー評価を発掘",
+      "広告施策まで支援"
+    ],
+    "pull": "海外展開では、翻訳より現地の買う理由を掴むことが重要だ。",
+    "bizapp": {
+      "summary": "海外マーケティングの仮説作りに使える。",
+      "actions": [
+        "Claudeでレビュー傾向を整理",
+        "越境ECの訴求改善を提案",
+        "現地インサイト把握が鍵"
+      ]
+    },
+    "links": [
+      "https://markezine.jp/article/detail/76944"
+    ],
+    "likes": 0
+  }
+]
