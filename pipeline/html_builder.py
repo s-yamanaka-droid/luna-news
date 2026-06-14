@@ -991,51 +991,7 @@ INDEX_CSS = """
 }
 #modal-link:hover{background:var(--ink);transform:translateX(3px);}
 
-/* ── Quickstart（明日からできる） ── */
-#modal-quickstart{display:none;margin:24px 0;padding:20px 22px;background:#FFF8E5;border:2px solid #FFC107;border-left:6px solid #FF9800;}
-.qs-head{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:#E65100;font-weight:800;margin-bottom:10px;}
-.qs-headline{font-family:'Barlow Condensed','Noto Sans JP',sans-serif;font-size:22px;font-weight:900;line-height:1.3;color:var(--ink);margin-bottom:14px;}
-.qs-meta{display:flex;flex-wrap:wrap;gap:14px;margin-bottom:16px;font-size:12px;}
-.qs-tool,.qs-time{background:#fff;padding:6px 12px;border:1px solid #FFC107;}
-.qs-label{font-family:'JetBrains Mono',monospace;font-size:9px;color:#888;letter-spacing:.1em;text-transform:uppercase;margin-right:6px;}
-#qs-tool-link{color:#E65100;font-weight:700;text-decoration:none;border-bottom:1px solid #E65100;}
-#qs-tool-link:hover{color:#BF360C;}
-.qs-cost{color:#666;font-size:11px;margin-left:4px;}
-#qs-time{font-weight:700;color:var(--ink);}
-.qs-section-label{font-family:'JetBrains Mono',monospace;font-size:10px;color:#E65100;letter-spacing:.12em;text-transform:uppercase;font-weight:700;margin-bottom:8px;}
-.qs-steps-wrap{margin-bottom:16px;}
-.qs-steps{margin:0;padding:0 0 0 24px;}
-.qs-steps li{font-size:13.5px;line-height:1.7;color:var(--ink);margin-bottom:4px;}
-.qs-prompt-wrap{margin-bottom:14px;}
-.qs-prompt{
-  background:#1a1a1a;color:#f5f5f5;padding:14px 16px;font-size:12px;line-height:1.65;
-  font-family:'JetBrains Mono',monospace;border-radius:0;white-space:pre-wrap;word-break:break-word;
-  max-height:200px;overflow-y:auto;margin-bottom:8px;
-}
-.qs-copy-btn{
-  font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;letter-spacing:.08em;
-  background:#FF9800;color:#fff;border:none;padding:9px 20px;cursor:pointer;
-  transition:background .15s;
-}
-.qs-copy-btn:hover{background:#E65100;}
-.qs-roi{
-  font-size:13px;font-weight:700;color:#E65100;padding:10px 14px;
-  background:#fff;border-left:4px solid #FF9800;
-}
-
-/* ── icebreak（会話・商談で使える）── */
-#modal-icebreak{display:none;margin:24px 0;padding:20px 22px;background:#E8F4FD;border:2px solid #64B5F6;border-left:6px solid #1976D2;}
-.ib-head{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:#0D47A1;font-weight:800;margin-bottom:14px;}
-.ib-hook{font-family:'Noto Serif JP',serif;font-size:18px;font-weight:700;line-height:1.55;color:var(--ink);margin-bottom:10px;}
-.ib-punch{font-size:14px;line-height:1.7;color:var(--ink-2);margin-bottom:16px;}
-.ib-ctx{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:16px;}
-.ib-ctx-item{background:#fff;padding:6px 12px;border:1px solid #64B5F6;font-size:12px;}
-.ib-ctx-label{font-family:'JetBrains Mono',monospace;font-size:9px;color:#0D47A1;letter-spacing:.1em;text-transform:uppercase;margin-right:6px;font-weight:700;}
-.ib-share-wrap{margin-top:8px;}
-.ib-share-label{font-family:'JetBrains Mono',monospace;font-size:10px;color:#0D47A1;letter-spacing:.12em;text-transform:uppercase;font-weight:700;margin-bottom:8px;}
-.ib-share{background:#fff;padding:14px 16px;font-size:13px;line-height:1.7;color:var(--ink);border:1px solid #BBDEFB;margin-bottom:8px;font-family:'Noto Sans JP',sans-serif;}
-.ib-copy-btn{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;letter-spacing:.08em;background:#1976D2;color:#fff;border:none;padding:9px 20px;cursor:pointer;transition:background .15s;}
-.ib-copy-btn:hover{background:#0D47A1;}
+__QS_IB_CSS_MARKER__
 </style>"""
 
 # vigil.css にない detail ページ専用スタイル（inline で追加）
@@ -1090,7 +1046,63 @@ DAILY_CSS = """
 .lightbox-close{position:absolute;top:20px;right:24px;font-family:'JetBrains Mono',monospace;font-size:12px;color:#F7F5F2;cursor:pointer;background:none;border:1px solid rgba(247,245,242,.3);padding:6px 14px;transition:background .2s}
 .lightbox-close:hover{background:var(--red)}
 @media(max-width:900px){.daily-topic .container{grid-template-columns:1fr}.numeral{font-size:36px}.side{border-top:1px solid var(--rule);padding-top:20px}}
+__QS_IB_CSS_MARKER__
 </style>"""
+
+
+# ── Quickstart / icebreak モーダルCSS（トップ・詳細ページ共通・単一情報源）──
+# 以前は INDEX_CSS にのみインライン定義され詳細ページに欠落 → モーダルが生テキスト化していた（2026-06-15 修正）
+_QS_IB_CSS = """
+/* ── Quickstart（明日からできる） ── */
+#modal-quickstart{display:none;margin:24px 0;padding:20px 22px;background:#FFF8E5;border:2px solid #FFC107;border-left:6px solid #FF9800;}
+.qs-head{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:#E65100;font-weight:800;margin-bottom:10px;}
+.qs-headline{font-family:'Barlow Condensed','Noto Sans JP',sans-serif;font-size:22px;font-weight:900;line-height:1.3;color:var(--ink);margin-bottom:14px;}
+.qs-meta{display:flex;flex-wrap:wrap;gap:14px;margin-bottom:16px;font-size:12px;}
+.qs-tool,.qs-time{background:#fff;padding:6px 12px;border:1px solid #FFC107;}
+.qs-label{font-family:'JetBrains Mono',monospace;font-size:9px;color:#888;letter-spacing:.1em;text-transform:uppercase;margin-right:6px;}
+#qs-tool-link{color:#E65100;font-weight:700;text-decoration:none;border-bottom:1px solid #E65100;}
+#qs-tool-link:hover{color:#BF360C;}
+.qs-cost{color:#666;font-size:11px;margin-left:4px;}
+#qs-time{font-weight:700;color:var(--ink);}
+.qs-section-label{font-family:'JetBrains Mono',monospace;font-size:10px;color:#E65100;letter-spacing:.12em;text-transform:uppercase;font-weight:700;margin-bottom:8px;}
+.qs-steps-wrap{margin-bottom:16px;}
+.qs-steps{margin:0;padding:0 0 0 24px;}
+.qs-steps li{font-size:13.5px;line-height:1.7;color:var(--ink);margin-bottom:4px;}
+.qs-prompt-wrap{margin-bottom:14px;}
+.qs-prompt{
+  background:#1a1a1a;color:#f5f5f5;padding:14px 16px;font-size:12px;line-height:1.65;
+  font-family:'JetBrains Mono',monospace;border-radius:0;white-space:pre-wrap;word-break:break-word;
+  max-height:200px;overflow-y:auto;margin-bottom:8px;
+}
+.qs-copy-btn{
+  font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;letter-spacing:.08em;
+  background:#FF9800;color:#fff;border:none;padding:9px 20px;cursor:pointer;
+  transition:background .15s;
+}
+.qs-copy-btn:hover{background:#E65100;}
+.qs-roi{
+  font-size:13px;font-weight:700;color:#E65100;padding:10px 14px;
+  background:#fff;border-left:4px solid #FF9800;
+}
+
+/* ── icebreak（会話・商談で使える）── */
+#modal-icebreak{display:none;margin:24px 0;padding:20px 22px;background:#E8F4FD;border:2px solid #64B5F6;border-left:6px solid #1976D2;}
+.ib-head{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:#0D47A1;font-weight:800;margin-bottom:14px;}
+.ib-hook{font-family:'Noto Serif JP',serif;font-size:18px;font-weight:700;line-height:1.55;color:var(--ink);margin-bottom:10px;}
+.ib-punch{font-size:14px;line-height:1.7;color:var(--ink-2);margin-bottom:16px;}
+.ib-ctx{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:16px;}
+.ib-ctx-item{background:#fff;padding:6px 12px;border:1px solid #64B5F6;font-size:12px;}
+.ib-ctx-label{font-family:'JetBrains Mono',monospace;font-size:9px;color:#0D47A1;letter-spacing:.1em;text-transform:uppercase;margin-right:6px;font-weight:700;}
+.ib-share-wrap{margin-top:8px;}
+.ib-share-label{font-family:'JetBrains Mono',monospace;font-size:10px;color:#0D47A1;letter-spacing:.12em;text-transform:uppercase;font-weight:700;margin-bottom:8px;}
+.ib-share{background:#fff;padding:14px 16px;font-size:13px;line-height:1.7;color:var(--ink);border:1px solid #BBDEFB;margin-bottom:8px;font-family:'Noto Sans JP',sans-serif;}
+.ib-copy-btn{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;letter-spacing:.08em;background:#1976D2;color:#fff;border:none;padding:9px 20px;cursor:pointer;transition:background .15s;}
+.ib-copy-btn:hover{background:#0D47A1;}
+"""
+
+# 両ページのCSSに単一情報源を注入（マーカー置換）
+INDEX_CSS = INDEX_CSS.replace("__QS_IB_CSS_MARKER__", _QS_IB_CSS)
+DAILY_CSS = DAILY_CSS.replace("__QS_IB_CSS_MARKER__", _QS_IB_CSS)
 
 
 # ── CLI テスト ────────────────────────────────────────────────
