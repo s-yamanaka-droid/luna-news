@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週は、AIを試す段階から業務に組み込む段階へ進んだ週です。特に調査、資料整理、定型業務の再利用は小規模事業者でもすぐ効果が出ます。一方で、AI利用ルールや権限管理を後回しにすると情報流出リスクが高まります。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-06-14",
+      "title": "Google Pinpoint、誰でも使える調査AIに",
+      "category": "ツール更新",
+      "source": "Fast Company Tech",
+      "why_picked": "無料で社内資料整理をすぐ時短できる",
+      "tldr": "資料・音声・動画をAI整理",
+      "action": "過去資料をPinpointに入れる",
+      "image": "../assets/images/2026-06-14/topic_3.png",
+      "link": "../news/2026-06-14/#topic-3"
+    },
+    {
+      "rank": 2,
+      "date": "2026-06-10",
+      "title": "NotebookLM、調査から資料化まで強化",
+      "category": "ツール更新",
+      "source": "Gihyo.jp",
+      "why_picked": "調査から提案資料まで一気に短縮できる",
+      "tldr": "調査を資料化まで自動化",
+      "action": "競合調査を資料化する",
+      "image": "../assets/images/2026-06-10/topic_3.png",
+      "link": "../news/2026-06-10/#topic-3"
+    },
+    {
+      "rank": 3,
+      "date": "2026-06-09",
+      "title": "Claude Skills、業務AIの再利用を促進",
+      "category": "ツール更新",
+      "source": "KDnuggets",
+      "why_picked": "定型業務を毎回説明せず再現できる",
+      "tldr": "AI手順を再利用できる",
+      "action": "見積作成手順を技能化",
+      "image": "../assets/images/2026-06-09/topic_7.png",
+      "link": "../news/2026-06-09/#topic-7"
+    }
+  ]
+}

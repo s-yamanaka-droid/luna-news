@@ -22,7 +22,30 @@
     "links": [
       "https://www.digital.go.jp/news/decb64eb-f26e-41cb-8d37-f3dd173108b8"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI調達基準を点検",
+      "tool": {
+        "name": "Claude Pro",
+        "url": "https://claude.ai",
+        "cost": "約¥3,200/月"
+      },
+      "time": "30分",
+      "steps": [
+        "指針の要点を貼る",
+        "自社提案文を貼る",
+        "不足点を表にする"
+      ],
+      "prompt": "あなたは行政AI調達に詳しいコンサルです。{自治体名}向け{提案内容}を生成AI調達指針に照らし、不足・リスク・修正文を表で出してください。",
+      "roi": "自治体向け提案の手戻りを50%削減"
+    },
+    "icebreak": {
+      "hook": "行政のAI調達指針、改定されたの知ってます？",
+      "punchline": "ユースケースが広がるほど、AIは導入前の決めごとが商談の入口になりますね。",
+      "ctx_meeting": "AI導入提案の冒頭で",
+      "ctx_chat": "官公庁案件の雑談で",
+      "share_text": "生成AIの提案、機能より先に「調達や利用の線引き」を話す場面が増えそう。行政のガイドライン改定は、民間の説明責任にも効いてきそうです。"
+    }
   },
   {
     "title": "中小企業のAI利用に安全対策の穴",
@@ -47,7 +70,30 @@
     "links": [
       "https://www.itmedia.co.jp/enterprise/articles/2606/12/news038.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI利用ルール作成",
+      "tool": {
+        "name": "Claude Pro",
+        "url": "https://claude.ai",
+        "cost": "約¥3,200/月"
+      },
+      "time": "30分",
+      "steps": [
+        "AI利用場面を書け",
+        "禁止情報を列挙せよ",
+        "社内ルールに整えよ"
+      ],
+      "prompt": "あなたは中小企業の情報管理責任者です。{自社名}{業種}のAI利用ルールを、禁止情報・許可業務・権限管理・違反時対応に分けて作成してください。",
+      "roi": "情報漏えいリスクを初月から低減"
+    },
+    "icebreak": {
+      "hook": "中小企業のAI利用、73％まで来てるらしいですよ",
+      "punchline": "でも40％はルール未整備なので、導入より先に守り方の設計が差になりますね。",
+      "ctx_meeting": "セキュリティ提案で",
+      "ctx_chat": "経営者との雑談で",
+      "share_text": "AIを使う会社が増えるほど、次に差が出るのは「誰が何をAIに入れていいか」の決め方かもしれない。便利さと権限管理はセットで考えたいです。"
+    }
   },
   {
     "title": "米政府、Anthropic最上位AIを制限",
@@ -72,7 +118,30 @@
     "links": [
       "https://www.watch.impress.co.jp/docs/news/2116932.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI依存リスク点検",
+      "tool": {
+        "name": "ChatGPT Plus",
+        "url": "https://chatgpt.com",
+        "cost": "約¥3,200/月"
+      },
+      "time": "30分",
+      "steps": [
+        "AI利用業務を書け",
+        "代替ツールを調べよ",
+        "停止時手順を作れ"
+      ],
+      "prompt": "あなたは小規模企業のIT顧問です。{自社名}が使う{AIツール名}が急に使えなくなる前提で、代替策・影響業務・当日対応手順を作ってください。",
+      "roi": "AI停止時の業務停止を半日以内に抑制"
+    },
+    "icebreak": {
+      "hook": "Anthropicの最上位AI、米政府が制限したそうです",
+      "punchline": "AIの性能競争だけでなく、誰が使えるかまで国家安全保障の論点になっていますね。",
+      "ctx_meeting": "AIリスク説明の冒頭で",
+      "ctx_chat": "海外AIニュースの話で",
+      "share_text": "AIモデルは「何ができるか」だけでなく「誰に使わせるか」も重要になってきた。Anthropicへの制限を見ると、AIは技術でありインフラでもあると感じます。"
+    }
   },
   {
     "title": "AI人員削減だけでは勝てない",
@@ -98,7 +167,30 @@
       "https://www.businessinsider.jp/article/2606-ey-ai-leader-says-companies-too-focused-on-cost-cutting/",
       "https://www.businessinsider.jp/article/2606-challenger-ai-layoffs-economy-jobs/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "売上施策にAI投入",
+      "tool": {
+        "name": "Claude Pro",
+        "url": "https://claude.ai",
+        "cost": "約¥3,200/月"
+      },
+      "time": "20分",
+      "steps": [
+        "既存顧客を貼る",
+        "提案ネタを出せ",
+        "営業文面に直せ"
+      ],
+      "prompt": "あなたは成長支援型のAIコンサルです。{自社名}{業種}の既存顧客リストを見て、追加提案案・営業メール・初回トークを作ってください。",
+      "roi": "新規営業準備を月10時間削減"
+    },
+    "icebreak": {
+      "hook": "AIで人を減らすだけだと、勝ち筋が弱いらしいです",
+      "punchline": "削減の道具で終わる会社と、成長に使う会社でリターンが分かれそうですね。",
+      "ctx_meeting": "経営層向け提案で",
+      "ctx_chat": "組織改革の雑談で",
+      "share_text": "AI活用をコスト削減だけで見ると、意外と伸びしろを逃すのかもしれない。人員削減ではなく、売上や顧客体験をどう増やすかから考えたいです。"
+    }
   },
   {
     "title": "AI開発でIDE離れが進む予測",
@@ -123,7 +215,30 @@
     "links": [
       "https://www.publickey1.jp/blog/26/2027ai65ide.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "小修正をAIに委任",
+      "tool": {
+        "name": "Cursor Pro",
+        "url": "https://cursor.com",
+        "cost": "約¥3,200/月"
+      },
+      "time": "半日",
+      "steps": [
+        "サイトコードを開け",
+        "修正内容を指示せよ",
+        "差分を確認せよ"
+      ],
+      "prompt": "あなたはWeb保守エンジニアです。{サイト名}のコードを読み、{修正したい内容}を最小差分で実装し、変更理由と確認手順も出してください。",
+      "roi": "軽微なWeb修正外注を月1回削減"
+    },
+    "icebreak": {
+      "hook": "AI開発、IDE前提じゃなくなる予測が出てます",
+      "punchline": "65％がIDE必須でなくなるなら、開発環境より仕事の渡し方が重要になりますね。",
+      "ctx_meeting": "開発体制の相談で",
+      "ctx_chat": "エンジニアとの雑談で",
+      "share_text": "AIコーディングエージェントが広がると、開発の主戦場はIDEそのものより「どんな単位で仕事を渡すか」に移りそう。ツール選びより設計力が問われます。"
+    }
   },
   {
     "title": "GLM-5.2、100万トークン対応",
@@ -148,7 +263,30 @@
     "links": [
       "https://pc.watch.impress.co.jp/docs/news/2116962.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "長文資料を一括要約",
+      "tool": {
+        "name": "ChatGPT Plus",
+        "url": "https://chatgpt.com",
+        "cost": "約¥3,200/月"
+      },
+      "time": "20分",
+      "steps": [
+        "長文資料を貼る",
+        "論点を抽出せよ",
+        "ToDoへ変換せよ"
+      ],
+      "prompt": "あなたは業務改善アドバイザーです。{自社名}の{長文資料名}を読み、重要論点・未決事項・明日やるToDoを社長向けに整理してください。",
+      "roi": "資料確認と議事録化を70%短縮"
+    },
+    "icebreak": {
+      "hook": "GLM-5.2、100万トークン対応らしいですよ",
+      "punchline": "長い仕様やコードをまとめて扱えると、AIに任せる仕事の粒度が変わりますね。",
+      "ctx_meeting": "開発AI提案の話で",
+      "ctx_chat": "AIモデル談義で",
+      "share_text": "100万トークン対応のモデルが出てくると、AIに渡せる情報量の前提が変わる。短い質問に答える道具から、長期作業を抱える相棒に近づいていますね。"
+    }
   },
   {
     "title": "Copilot CLIがコード理解を強化",
@@ -173,7 +311,30 @@
     "links": [
       "https://gihyo.jp/article/2026/06/github-copilot-cli-lsp-setup?utm_source=feed"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "誤修正を減らす",
+      "tool": {
+        "name": "GitHub Copilot",
+        "url": "https://github.com/features/copilot",
+        "cost": "無料〜約¥1,600/月"
+      },
+      "time": "30分",
+      "steps": [
+        "対象コードを開け",
+        "型エラーを確認せよ",
+        "修正案を比較せよ"
+      ],
+      "prompt": "あなたは保守開発エンジニアです。{リポジトリ名}の{不具合内容}について、型情報と参照箇所を前提に原因・修正案・副作用を説明してください。",
+      "roi": "保守修正の確認時間を30%削減"
+    },
+    "icebreak": {
+      "hook": "Copilot CLI、コードの読み違いを減らしに来てます",
+      "punchline": "型情報や定義ジャンプをAIが見られると、雰囲気で読む開発支援から進みますね。",
+      "ctx_meeting": "開発効率化の提案で",
+      "ctx_chat": "コードレビュー話で",
+      "share_text": "AIにコードを任せるなら、ただ文章として読ませるだけでは足りない。型情報や参照検索まで見られるようになると、実務での安心感がかなり変わりそうです。"
+    }
   },
   {
     "title": "Smart Craft、製造DXで資金調達",
@@ -198,6 +359,29 @@
     "links": [
       "https://thebridge.jp/2026/06/smart-craft-raises-funding-from-omron-ventures"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "現場帳票をAI化",
+      "tool": {
+        "name": "Claude Pro",
+        "url": "https://claude.ai",
+        "cost": "約¥3,200/月"
+      },
+      "time": "1時間",
+      "steps": [
+        "帳票写真を集めよ",
+        "入力項目を抜き出せ",
+        "改善表を作らせよ"
+      ],
+      "prompt": "あなたは製造業DXの専門家です。{工場名}の{帳票名}を見て、入力項目・ムダな記入・AI化候補・明日試す改善案を表で出してください。",
+      "roi": "日報整理を月10時間削減"
+    },
+    "icebreak": {
+      "hook": "Smart Craft、製造DXでオムロンと組むそうです",
+      "punchline": "ITとOTのデータ基盤がつながると、現場AIの使い道が一気に具体化しますね。",
+      "ctx_meeting": "製造業向け提案で",
+      "ctx_chat": "工場DXの雑談で",
+      "share_text": "製造業のAI活用は、モデルの賢さだけでは進まない。ITとOTのデータ基盤が整って初めて、現場の作業や改善に効くAIになっていくのだと思います。"
+    }
   }
 ]
