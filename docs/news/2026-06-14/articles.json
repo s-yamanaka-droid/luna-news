@@ -1,0 +1,209 @@
+[
+  {
+    "title": "Anthropic最新モデル、米政府命令で全面停止",
+    "category": "業界動向",
+    "source": "ITmedia AI+ほか",
+    "lede": "Anthropicは米政府の輸出規制指令を受け、Claude Fable 5とMythos 5を全ユーザーで停止した。",
+    "keypoints": [
+      "対象はFable 5とMythos 5",
+      "外国籍者のアクセス停止命令",
+      "全顧客で利用不能に",
+      "他モデルは影響なし"
+    ],
+    "pull": "最先端AIは、性能だけでなく規制で止まる時代に入った。",
+    "bizapp": {
+      "summary": "AI活用計画に代替モデルの準備が必要になる。",
+      "actions": [
+        "Claude依存業務を代替確認",
+        "中小企業にAI継続計画を提案",
+        "規制で業務停止のリスクあり"
+      ]
+    },
+    "links": [
+      "https://www.itmedia.co.jp/news/articles/2606/13/news026.html",
+      "https://www.marktechpost.com/2026/06/13/anthropic-disables-claude-fable-5-and-mythos-5-after-us-government-order/",
+      "https://simonwillison.net/2026/Jun/13/us-government-directive-to-suspend-access/#atom-everything",
+      "https://garymarcus.substack.com/p/breaking-news-us-commerce-department",
+      "https://techcrunch.com/2026/06/13/amazon-ceo-reportedly-raised-anthropic-model-concerns-before-government-crackdown/",
+      "https://www.theverge.com/ai-artificial-intelligence/949553/anthropic-fable-5-mythos-5-government-national-security",
+      "https://www.theinformation.com/briefings/u-s-government-unlikely-extend-anthropic-export-control-ai-companies",
+      "https://thenewstack.io/us-gov-orders-anthropic-to-pull-fable-5-and-mythos-5-three-days-after-launch/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "ChromeでAIがWeb操作しやすくなる新標準",
+    "category": "ツール更新",
+    "source": "InfoQ AI/ML",
+    "lede": "Googleは、WebサイトがAIエージェントに操作機能を渡せるWebMCPをChromeの試験機能として公開した。",
+    "keypoints": [
+      "WebMCPがChrome試験入り",
+      "サイト側が操作機能を公開",
+      "AIがフォーム操作しやすくなる",
+      "人の操作をより確実に再現"
+    ],
+    "pull": "ブラウザ上の作業代行が、標準技術として整い始めた。",
+    "bizapp": {
+      "summary": "Web業務の自動化設計に使える。",
+      "actions": [
+        "Codexで社内Web操作を検証",
+        "営業入力業務の自動化を提案",
+        "AIエージェント導入の土台に"
+      ]
+    },
+    "links": [
+      "https://www.infoq.com/news/2026/06/webmcp-web-agent-standard-chrome/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Google Pinpoint、誰でも使える調査AIに",
+    "category": "ツール更新",
+    "source": "Fast Company Tech",
+    "lede": "GoogleのPinpointが一般公開され、大量の文書、音声、動画を検索・要約・整理できる無料ツールになった。",
+    "keypoints": [
+      "Pinpointが一般公開",
+      "大量ファイルを検索可能",
+      "音声や動画も文字起こし",
+      "PDFや手書きも探せる"
+    ],
+    "pull": "情報整理のAI活用は、専門職だけのものではなくなった。",
+    "bizapp": {
+      "summary": "社内資料や商談記録の整理に使える。",
+      "actions": [
+        "Claude併用で資料要約に使う",
+        "営業資料の検索基盤を提案",
+        "無料ツールで導入障壁が低い"
+      ]
+    },
+    "links": [
+      "https://www.fastcompany.com/91558438/googles-pinpoint-is-the-free-research-tool-you-should-know-about?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "転職者6割超がAI活用、企業選びにも影響",
+    "category": "業界動向",
+    "source": "AMP",
+    "lede": "ゼロアクセル調査で、転職者の61.15％がAIを使い、企業のAI活用度も転職先選びの材料になっていた。",
+    "keypoints": [
+      "転職者の61.15％がAI活用",
+      "最多は面接練習58.88％",
+      "AIスキル評価を感じた人62.94％",
+      "企業のAI活用も判断材料"
+    ],
+    "pull": "AI活用は採用市場で、個人と企業の両方を測る物差しになった。",
+    "bizapp": {
+      "summary": "採用広報と選考設計が変わる。",
+      "actions": [
+        "Claudeで面接練習資料を作る",
+        "採用向けAI研修を提案",
+        "求職者がAI活用企業を選ぶ"
+      ]
+    },
+    "links": [
+      "https://ampmedia.jp/2026/06/13/ai-tenshoku/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AIエージェント開発は監査ループが鍵",
+    "category": "研究",
+    "source": "Zenn トレンド",
+    "lede": "AIエージェント開発では、動くが整合しない少数の不具合を監査ループで検出する考え方が紹介された。",
+    "keypoints": [
+      "怖いのは少数の整合性崩壊",
+      "通知漏れなどは見つけにくい",
+      "監査でズレを観測する",
+      "基準へ戻すループが重要"
+    ],
+    "pull": "AI開発の品質は、賢さ任せではなく仕組みで守る段階にある。",
+    "bizapp": {
+      "summary": "AI開発の品質管理に使える。",
+      "actions": [
+        "Codex作業後に監査手順を追加",
+        "開発部門へ品質監査を提案",
+        "AI任せの抜け漏れを防ぐ"
+      ]
+    },
+    "links": [
+      "https://zenn.dev/ichikawa_y/articles/audit-driven-feedback-development"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AWSのAI前提開発、チーム実践で見えた課題",
+    "category": "業界動向",
+    "source": "Qiita トレンド",
+    "lede": "AWSのAI-DLCをハッカソンで試し、AIをツールではなく開発プロセス全体に組み込む考え方が共有された。",
+    "keypoints": [
+      "AI-DLCをチームで実践",
+      "AIを中心的な協力者にする",
+      "構想・構築・運用で使う",
+      "提案を人間が検証する"
+    ],
+    "pull": "AI開発は個人の道具から、チームの進め方そのものへ広がっている。",
+    "bizapp": {
+      "summary": "開発組織の進め方をAI前提に変えられる。",
+      "actions": [
+        "Cursorを設計段階から使う",
+        "中小企業DXの開発手法に提案",
+        "AI導入はプロセス設計が重要"
+      ]
+    },
+    "links": [
+      "https://qiita.com/yakumo_09/items/76e416a5ae28f18ad976?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "RAGの仕組みを実値で解説、業務AI理解に有用",
+    "category": "研究",
+    "source": "Qiita トレンド",
+    "lede": "RAG（AIが資料を参照して回答する仕組み）の流れを、文書検索から回答生成まで実例で解説している。",
+    "keypoints": [
+      "RAGを基礎から解説",
+      "社内文書をAI回答に使う",
+      "ベクトル化や検索を説明",
+      "評価や運用にも触れる"
+    ],
+    "pull": "社内AIを作るなら、RAGの理解は避けて通れない。",
+    "bizapp": {
+      "summary": "社内ナレッジAIの設計理解に使える。",
+      "actions": [
+        "Claudeで社内FAQ案を作る",
+        "バックオフィスAIを提案",
+        "古い知識の回答リスクを減らす"
+      ]
+    },
+    "links": [
+      "https://qiita.com/miruky/items/c3d6277ff99afb214b19?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Metaの全社AIハッカソンに社員が反発",
+    "category": "業界動向",
+    "source": "Wired AI",
+    "lede": "MetaのザッカーバーグCEOが全社AIハッカソンを告知したが、社員から時間不足や士気低下への不満が出た。",
+    "keypoints": [
+      "全社AIハッカソンを告知",
+      "社員から不満の声",
+      "大量解雇後の負担が背景",
+      "信頼低下も指摘された"
+    ],
+    "pull": "AI推進は号令だけでは進まず、現場の余力と信頼が問われる。",
+    "bizapp": {
+      "summary": "AI導入には現場負荷の設計が必要になる。",
+      "actions": [
+        "Claude研修を小さく始める",
+        "現場負荷を抑えたAI導入提案",
+        "トップダウンだけでは反発も"
+      ]
+    },
+    "links": [
+      "https://www.wired.com/story/meta-employees-absolutely-hate-mark-zuckerbergs-hackathon-idea/"
+    ],
+    "likes": 0
+  }
+]
