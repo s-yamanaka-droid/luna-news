@@ -1,0 +1,203 @@
+[
+  {
+    "title": "行政の生成AI調達指針が改定",
+    "category": "業界動向",
+    "source": "デジタル庁",
+    "lede": "デジタル庁が、行政での生成AI調達と利活用に関するガイドライン第2.0版を決定した。",
+    "keypoints": [
+      "2026年6月12日に決定",
+      "技術進展を踏まえ改定",
+      "ユースケース拡大に対応",
+      "英語版の仮訳も公開"
+    ],
+    "pull": "行政AIの使い方が、調達ルールから整備され始めた。",
+    "bizapp": {
+      "summary": "官公庁向けAI提案の前提確認に使える",
+      "actions": [
+        "Claudeで社内利用規程を点検",
+        "自治体DX提案の根拠に使う",
+        "公的調達の基準が変わる"
+      ]
+    },
+    "links": [
+      "https://www.digital.go.jp/news/decb64eb-f26e-41cb-8d37-f3dd173108b8"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "中小企業のAI利用に安全対策の穴",
+    "category": "業界動向",
+    "source": "ITmedia Enterprise",
+    "lede": "ESETは、中小企業でAI利用が広がる一方、ルール未整備や情報流出リスクが課題だと報告した。",
+    "keypoints": [
+      "AI導入企業は73％",
+      "70％が新リスクを認識",
+      "40％はルール未整備",
+      "権限管理が重要に"
+    ],
+    "pull": "AI導入は進んでも、守る仕組みが追いついていない。",
+    "bizapp": {
+      "summary": "AI利用ルールと情報管理の整備に使える",
+      "actions": [
+        "Claude利用時の禁止情報を明文化",
+        "中小企業向けAI統制を提案",
+        "情報漏えいリスクが増す"
+      ]
+    },
+    "links": [
+      "https://www.itmedia.co.jp/enterprise/articles/2606/12/news038.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "米政府、Anthropic最上位AIを制限",
+    "category": "業界動向",
+    "source": "Impress Watch AI",
+    "lede": "米国政府はAnthropicに対し、外国籍者のClaude Fable 5とMythos 5へのアクセス停止を求めた。",
+    "keypoints": [
+      "国家安全保障上の指令",
+      "外国籍者の利用を停止",
+      "従業員も対象に含む",
+      "他モデルは利用継続"
+    ],
+    "pull": "高性能AIは、性能だけでなく輸出管理の対象になり始めた。",
+    "bizapp": {
+      "summary": "海外AIモデル依存のリスク点検に使える",
+      "actions": [
+        "Claude依存業務の代替を確認",
+        "AI導入時の供給リスクを提案",
+        "規制で利用条件が変わる"
+      ]
+    },
+    "links": [
+      "https://www.watch.impress.co.jp/docs/news/2116932.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AI人員削減だけでは勝てない",
+    "category": "業界動向",
+    "source": "Business Insider Japan",
+    "lede": "AIを人員削減の道具にするだけではリターンが低く、成長への活用が重要だとの見方が示された。",
+    "keypoints": [
+      "削減だけでは価値に限界",
+      "AI理由の削減が増加",
+      "5月削減の40％がAI理由",
+      "成長活用が焦点に"
+    ],
+    "pull": "AIの本命は人を減らすことではなく、成長を作ることだ。",
+    "bizapp": {
+      "summary": "AI投資を削減から成長施策へ転換できる",
+      "actions": [
+        "Claudeで営業提案を高速化",
+        "採用や営業の生産性提案に使う",
+        "削減偏重は競争力を削る"
+      ]
+    },
+    "links": [
+      "https://www.businessinsider.jp/article/2606-ey-ai-leader-says-companies-too-focused-on-cost-cutting/",
+      "https://www.businessinsider.jp/article/2606-challenger-ai-layoffs-economy-jobs/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AI開発でIDE離れが進む予測",
+    "category": "業界動向",
+    "source": "Publickey",
+    "lede": "ガートナーは、AIコーディングエージェント市場が拡大と競争再編の段階に入ったと予想した。",
+    "keypoints": [
+      "2027年までの予測",
+      "65％がIDE必須でなくなる",
+      "AIエージェント市場が拡大",
+      "競争再編の段階へ"
+    ],
+    "pull": "開発の主役がエディタからAIエージェントへ移り始める。",
+    "bizapp": {
+      "summary": "開発体制をAIエージェント前提に見直せる",
+      "actions": [
+        "Codexで修正作業を委任",
+        "中小企業の内製化支援に使う",
+        "開発コスト構造が変わる"
+      ]
+    },
+    "links": [
+      "https://www.publickey1.jp/blog/26/2027ai65ide.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "GLM-5.2、100万トークン対応",
+    "category": "新モデル発表",
+    "source": "Impress PC Watch",
+    "lede": "Z.aiは、コーディングと長期エージェント作業に特化したAIモデルGLM-5.2を公開した。",
+    "keypoints": [
+      "100万トークンに対応",
+      "最大128Kトークン出力",
+      "来週オープンソース化予定",
+      "長期作業とコードに特化"
+    ],
+    "pull": "長い資料や大規模コードを、一度に扱う競争が進む。",
+    "bizapp": {
+      "summary": "大規模コード解析や長文業務の候補になる",
+      "actions": [
+        "Cursorで大規模修正を検証",
+        "開発会社向け効率化を提案",
+        "オープンモデル競争が進む"
+      ]
+    },
+    "links": [
+      "https://pc.watch.impress.co.jp/docs/news/2116962.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Copilot CLIがコード理解を強化",
+    "category": "ツール更新",
+    "source": "Gihyo.jp",
+    "lede": "GitHubは、Copilot CLIが言語サーバーを使ってコード理解を高めるLSP Setupスキルを紹介した。",
+    "keypoints": [
+      "定義ジャンプを利用",
+      "型情報をAIが参照",
+      "参照検索にも対応",
+      "読み違いを減らす狙い"
+    ],
+    "pull": "AIコーディングは、検索から構造理解へ進んでいる。",
+    "bizapp": {
+      "summary": "AI開発支援の精度向上に使える",
+      "actions": [
+        "Codexと型情報活用を比較",
+        "保守開発の品質改善を提案",
+        "誤修正を減らせる"
+      ]
+    },
+    "links": [
+      "https://gihyo.jp/article/2026/06/github-copilot-cli-lsp-setup?utm_source=feed"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Smart Craft、製造DXで資金調達",
+    "category": "業界動向",
+    "source": "BRIDGE",
+    "lede": "Smart Craftはオムロンベンチャーズから資金調達し、製造現場のDXとスマートファクトリー化を進める。",
+    "keypoints": [
+      "オムロンと事業連携",
+      "ITとOTのデータ基盤構築",
+      "AI活用強化に資金充当",
+      "累計作業時間1000万時間"
+    ],
+    "pull": "製造現場のデータ化が、AI活用の土台になっている。",
+    "bizapp": {
+      "summary": "製造業の現場データ活用提案に使える",
+      "actions": [
+        "Claudeで現場帳票を整理",
+        "中小製造業DXを提案",
+        "現場データがAI価値を生む"
+      ]
+    },
+    "links": [
+      "https://thebridge.jp/2026/06/smart-craft-raises-funding-from-omron-ventures"
+    ],
+    "likes": 0
+  }
+]

@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>2026-06-15 Morning Dispatch — Now on AIr</title>
+<meta name="description" content="2026-06-15 の Now on AIr モーニングディスパッチ — 8本のAI業界ニュース。" />
+<link rel="canonical" href="https://nowonair.vercel.app/news/2026-06-15/" />
+<meta name="robots" content="index,follow" />
+<meta name="theme-color" content="#CE1141" />
+<meta name="referrer" content="strict-origin-when-cross-origin" />
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: https:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; script-src 'self' 'unsafe-inline'; base-uri 'self'" />
+<!-- OGP -->
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Now on AIr" />
+<meta property="og:title" content="2026-06-15 Morning Dispatch — Now on AIr" />
+<meta property="og:description" content="2026-06-15 の Now on AIr モーニングディスパッチ — 8本のAI業界ニュース。" />
+<meta property="og:url" content="https://nowonair.vercel.app/news/2026-06-15/" />
+<meta property="og:image" content="https://nowonair.vercel.app/assets/images/2026-06-15/topic_1.png?v=1781476720" />
+<meta property="og:locale" content="ja_JP" />
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="2026-06-15 Morning Dispatch — Now on AIr" />
+<meta name="twitter:description" content="2026-06-15 の Now on AIr モーニングディスパッチ — 8本のAI業界ニュース。" />
+<meta name="twitter:image" content="https://nowonair.vercel.app/assets/images/2026-06-15/topic_1.png?v=1781476720" />
+<!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="../../assets/favicon.svg" />
+<link rel="apple-touch-icon" href="../../assets/favicon.svg" />
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"NewsMediaOrganization","name":"Now on AIr","alternateName":"ナウオンエアー","url":"https://nowonair.vercel.app/","logo":"https://nowonair.vercel.app/assets/og-cover.png","description":"AI業界のモーニングインテリジェンス。毎朝6:30に最新AIニュースを図解で配信。","founder":{"@type":"Person","name":"山中秀斗"},"publisher":{"@type":"Organization","name":"TREPRO"}}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../assets/vigil.css?v5" />
+<!-- Vercel Analytics + Speed Insights（Cookie不要・プライバシー準拠）-->
+<script defer src="/_vercel/insights/script.js"></script>
+<script defer src="/_vercel/speed-insights/script.js"></script>
+</head>
+<body>
+<style>
+.date-huge{font-family:'JetBrains Mono',monospace;font-weight:800;font-size:clamp(48px,10vw,112px);line-height:.9;letter-spacing:-.03em;margin:8px 0 20px;}
+.date-huge .dot{color:var(--red)}
+.strap{display:flex;gap:28px;flex-wrap:wrap;font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--mute);}
+.strap .count{color:var(--ink);font-weight:700}
+.container{max-width:1400px;margin:0 auto;padding:0 40px}
+.daily-topic{padding:52px 0;border-bottom:1px solid var(--rule);position:relative;opacity:0;transform:translateY(20px);transition:opacity .5s,transform .5s;}
+.daily-topic.is-visible{opacity:1;transform:none}
+.daily-topic::before{content:"";position:absolute;left:0;top:0;width:3px;height:0;background:var(--red);transition:height .4s}
+.daily-topic:hover::before{height:100%}
+.daily-topic .container{display:grid;grid-template-columns:72px 1fr 240px;gap:36px}
+.numeral{font-family:'JetBrains Mono',monospace;font-weight:800;font-size:64px;line-height:1;color:var(--rule-2);position:relative;top:-6px;transition:color .2s}
+.daily-topic:hover .numeral{color:var(--red)}
+.numeral .ord{display:block;font-size:9px;letter-spacing:.16em;color:var(--mute);margin-top:8px;line-height:1.4;white-space:nowrap}
+.cat-line{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--red);margin-bottom:14px}
+.cat-line .sep{color:var(--mute);margin:0 8px}
+.main h2{font-family:'JetBrains Mono',monospace;font-weight:700;font-size:26px;line-height:1.3;margin:0 0 18px;letter-spacing:-.01em}
+.lede{font-family:'Noto Serif JP',serif;font-size:16px;line-height:1.75;margin:0 0 24px;color:var(--ink-2)}
+.main h3{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.2em;text-transform:uppercase;margin:24px 0 10px;color:var(--mute)}
+.keypoints{list-style:none;padding:0;margin:0 0 24px}
+.keypoints li{padding:10px 14px 10px 44px;margin-bottom:2px;background:var(--paper-2);border-left:2px solid transparent;position:relative;font-size:14px;line-height:1.6;transition:border-color .15s,transform .2s}
+.keypoints li:hover{border-left-color:var(--red);transform:translateX(4px)}
+.keypoints li::before{content:attr(data-i);position:absolute;left:14px;top:10px;font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--red);letter-spacing:.1em}
+.pull{padding:18px 22px;border-left:3px solid var(--red);background:var(--paper-2);font-size:14px;line-height:1.7;color:var(--ink-2);font-style:italic;margin-top:24px;transition:border-left-width .2s,padding-left .2s}
+.pull:hover{border-left-width:6px;padding-left:19px}
+.bizapp-block{margin-top:28px;border:1px solid var(--red);padding:20px 22px;}
+.bizapp-block .biz-label{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:.22em;text-transform:uppercase;color:#fff;background:var(--red);display:inline-block;padding:3px 10px;margin-bottom:12px;font-weight:700;}
+.bizapp-block .biz-summary{font-size:14px;font-weight:700;color:var(--ink);line-height:1.65;margin-bottom:10px;font-family:'Noto Serif JP',serif;}
+.bizapp-block ul{list-style:none;padding:0;margin:0;}
+.bizapp-block li{padding:8px 10px 8px 32px;margin-bottom:2px;background:var(--paper-2);border-left:2px solid var(--red);position:relative;font-size:13px;line-height:1.6;color:var(--ink-2);}
+.bizapp-block li .bi{position:absolute;left:8px;top:8px;font-size:12px;}
+.slide-img{margin:20px 0;border:1px solid var(--rule-2);overflow:hidden;cursor:zoom-in;position:relative;transition:border-color .2s}
+.slide-img:hover{border-color:var(--red)}
+.slide-img img{width:100%;display:block;transition:transform .5s}
+.slide-img:hover img{transform:scale(1.02)}
+.side{font-size:13px}
+.side dl{margin:0}
+.side dt{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:.18em;text-transform:uppercase;color:var(--mute);margin:18px 0 4px}
+.side dt:first-child{margin-top:0}
+.side dd{margin:0;word-break:break-all}
+.side dd a:hover{color:var(--red)}
+.likes{font-family:'JetBrains Mono',monospace;font-weight:700;font-size:28px;color:var(--red)}
+.likes-label{font-size:11px;color:var(--mute);letter-spacing:.1em;text-transform:uppercase}
+.lightbox-overlay{display:flex;align-items:center;justify-content:center;position:fixed;inset:0;padding:24px;background:rgba(14,13,11,0);z-index:1000;pointer-events:none;transition:background .3s}
+.lightbox-overlay.is-open{background:rgba(14,13,11,.93);pointer-events:auto}
+.lightbox-overlay img{max-width:100%;max-height:90vh;object-fit:contain;opacity:0;transform:scale(.93);transition:opacity .35s,transform .35s}
+.lightbox-overlay.is-open img{opacity:1;transform:scale(1)}
+.lightbox-close{position:absolute;top:20px;right:24px;font-family:'JetBrains Mono',monospace;font-size:12px;color:#F7F5F2;cursor:pointer;background:none;border:1px solid rgba(247,245,242,.3);padding:6px 14px;transition:background .2s}
+.lightbox-close:hover{background:var(--red)}
+@media(max-width:900px){.daily-topic .container{grid-template-columns:1fr}.numeral{font-size:36px}.side{border-top:1px solid var(--rule);padding-top:20px}}
+</style>
+<div class="dispatch">
+  <span class="tick">NOW ON AIr</span>
+  <span class="sep">/</span>
+  <span>№0615</span>
+  <span class="sep">/</span>
+  <span>2026-06-15</span>
+  <span class="sep">/</span>
+  <span>MORNING EDITION</span>
+  <span class="sep">/</span>
+  <span>8 ITEMS</span>
+  <span class="sep">/</span>
+  <span class="live"><span class="dot"></span>LIVE</span>
+  <div class="right">
+    <span class="jst"><b>06:30</b> JST</span>
+    <span>MON</span>
+  </div>
+</div>
+<nav class="main">
+  <div class="brand"><em class="dot-r">●</em>Now on <em class="brand-ai">AI</em><span class="brand-r">r</span></div>
+  <ul>
+    <li><a href="../../">HOME</a></li>
+    <li><a href="./" class="active">TODAY</a></li>
+    <li><a href="../../#archive">ARCHIVE</a></li>
+    <li><a href="../../#about">ABOUT</a></li>
+  </ul>
+  <button class="subscribe" onclick="return false">SUBSCRIBE · 06:30 DAILY →</button>
+</nav>
+<div class="hero-wrap">
+  <div class="edition-line">
+    MORNING DISPATCH
+    <span class="sep">//</span>
+    MONDAY, JUNE 15, 2026
+    <span class="sep">//</span>
+    ISSUE N°0615
+  </div>
+  <h1 class="date-huge">2026<span class="dot">.</span>06<span class="dot">.</span>15</h1>
+  <div class="strap">
+    <span><span class="count">08</span>&nbsp;ITEMS</span>
+    <span>AI MORNING INTELLIGENCE</span>
+  </div>
+</div>
+
+<article class="daily-topic" id="topic-1">
+  <div class="container">
+    <aside class="numeral">01<span class="ord">TOPIC 01 · デジタル庁</span></aside>
+    <div class="main">
+      <div class="cat-line">
+        業界動向 <span class="sep">/</span> デジタル庁 <span class="sep">/</span> NEWS
+      </div>
+      <h2>行政の生成AI調達指針が改定</h2>
+      <div class="slide-img zoom-image" data-src="../../assets/images/2026-06-15/topic_1.png?v=1781476720" data-alt="行政の生成AI調達指針が改定" role="button" tabindex="0">
+        <img src="../../assets/images/2026-06-15/topic_1.png?v=1781476720" alt="行政の生成AI調達指針が改定" loading="lazy" />
+      </div>
+      <p class="lede">デジタル庁が、行政での生成AI調達と利活用に関するガイドライン第2.0版を決定した。</p>
+      <h3>キーポイント</h3>
+      <ul class="keypoints">
+        <li data-i="01">2026年6月12日に決定</li>
+        <li data-i="02">技術進展を踏まえ改定</li>
+        <li data-i="03">ユースケース拡大に対応</li>
+        <li data-i="04">英語版の仮訳も公開</li>
+      </ul>
+      <div class="pull">行政AIの使い方が、調達ルールから整備され始めた。</div>
+      <div class="bizapp-block">
+        <div class="biz-label">ビジネス活用ポイント</div>
+        <div class="biz-summary">官公庁向けAI提案の前提確認に使える</div>
+        <ul>
+        <li><span class="bi"></span>Claudeで社内利用規程を点検</li>        <li><span class="bi"></span>自治体DX提案の根拠に使う</li>        <li><span class="bi"></span>公的調達の基準が変わる</li>
+        </ul>
+      </div>
+    </div>
+    <aside class="side">
+      <dl>
+
+        <dt>SOURCE</dt>
+        <dd>デジタル庁</dd>
+        <dt>PUBLISHED</dt>
+        <dd>2026-06-15</dd>
+        <dt>CATEGORY</dt>
+        <dd>業界動向</dd>
+        <dt>LINKS</dt>
+        <dd><a href="https://www.digital.go.jp/news/decb64eb-f26e-41cb-8d37-f3dd173108b8">https://www.digital.go.jp/news/decb64eb-f26e-41cb-8d37-…</a></dd>
+      </dl>
+    </aside>
+  </div>
+</article>
+<article class="daily-topic" id="topic-2">
+  <div class="container">
+    <aside class="numeral">02<span class="ord">TOPIC 02 · ITMEDIA ENTERPRISE</span></aside>
+    <div class="main">
+      <div class="cat-line">
+        業界動向 <span class="sep">/</span> ITmedia Enterprise <span class="sep">/</span> NEWS
+      </div>
+      <h2>中小企業のAI利用に安全対策の穴</h2>
+      <div class="slide-img zoom-image" data-src="../../assets/images/2026-06-15/topic_2.png?v=1781476698" data-alt="中小企業のAI利用に安全対策の穴" role="button" tabindex="0">
+        <img src="../../assets/images/2026-06-15/topic_2.png?v=1781476698" alt="中小企業のAI利用に安全対策の穴" loading="lazy" />
+      </div>
+      <p class="lede">ESETは、中小企業でAI利用が広がる一方、ルール未整備や情報流出リスクが課題だと報告した。</p>
+      <h3>キーポイント</h3>
+      <ul class="keypoints">
+        <li data-i="01">AI導入企業は73％</li>
+        <li data-i="02">70％が新リスクを認識</li>
+        <li data-i="03">40％はルール未整備</li>
+        <li data-i="04">権限管理が重要に</li>
+      </ul>
+      <div class="pull">AI導入は進んでも、守る仕組みが追いついていない。</div>
+      <div class="bizapp-block">
+        <div class="biz-label">ビジネス活用ポイント</div>
+        <div class="biz-summary">AI利用ルールと情報管理の整備に使える</div>
+        <ul>
+        <li><span class="bi"></span>Claude利用時の禁止情報を明文化</li>        <li><span class="bi"></span>中小企業向けAI統制を提案</li>        <li><span class="bi"></span>情報漏えいリスクが増す</li>
+        </ul>
+      </div>
+    </div>
+    <aside class="side">
+      <dl>
+
+        <dt>SOURCE</dt>
+        <dd>ITmedia Enterprise</dd>
+        <dt>PUBLISHED</dt>
+        <dd>2026-06-15</dd>
+        <dt>CATEGORY</dt>
+        <dd>業界動向</dd>
+        <dt>LINKS</dt>
+        <dd><a href="https://www.itmedia.co.jp/enterprise/articles/2606/12/news038.html">https://www.itmedia.co.jp/enterprise/articles/2606/12/n…</a></dd>
+      </dl>
+    </aside>
+  </div>
+</article>
+<article class="daily-topic" id="topic-3">
+  <div class="container">
+    <aside class="numeral">03<span class="ord">TOPIC 03 · IMPRESS WATCH AI</span></aside>
+    <div class="main">
+      <div class="cat-line">
+        業界動向 <span class="sep">/</span> Impress Watch AI <span class="sep">/</span> NEWS
+      </div>
+      <h2>米政府、Anthropic最上位AIを制限</h2>
+      <div class="slide-img zoom-image" data-src="../../assets/images/2026-06-15/topic_3.png?v=1781476881" data-alt="米政府、Anthropic最上位AIを制限" role="button" tabindex="0">
+        <img src="../../assets/images/2026-06-15/topic_3.png?v=1781476881" alt="米政府、Anthropic最上位AIを制限" loading="lazy" />
+      </div>
+      <p class="lede">米国政府はAnthropicに対し、外国籍者のClaude Fable 5とMythos 5へのアクセス停止を求めた。</p>
+      <h3>キーポイント</h3>
+      <ul class="keypoints">
+        <li data-i="01">国家安全保障上の指令</li>
+        <li data-i="02">外国籍者の利用を停止</li>
+        <li data-i="03">従業員も対象に含む</li>
+        <li data-i="04">他モデルは利用継続</li>
+      </ul>
+      <div class="pull">高性能AIは、性能だけでなく輸出管理の対象になり始めた。</div>
+      <div class="bizapp-block">
+        <div class="biz-label">ビジネス活用ポイント</div>
+        <div class="biz-summary">海外AIモデル依存のリスク点検に使える</div>
+        <ul>
+        <li><span class="bi"></span>Claude依存業務の代替を確認</li>        <li><span class="bi"></span>AI導入時の供給リスクを提案</li>        <li><span class="bi"></span>規制で利用条件が変わる</li>
+        </ul>
+      </div>
+    </div>
+    <aside class="side">
+      <dl>
+
+        <dt>SOURCE</dt>
+        <dd>Impress Watch AI</dd>
+        <dt>PUBLISHED</dt>
+        <dd>2026-06-15</dd>
+        <dt>CATEGORY</dt>
+        <dd>業界動向</dd>
+        <dt>LINKS</dt>
+        <dd><a href="https://www.watch.impress.co.jp/docs/news/2116932.html">https://www.watch.impress.co.jp/docs/news/2116932.html</a></dd>
+      </dl>
+    </aside>
+  </div>
+</article>
+<article class="daily-topic" id="topic-4">
+  <div class="container">
+    <aside class="numeral">04<span class="ord">TOPIC 04 · BUSINESS INSIDER JAPAN</span></aside>
+    <div class="main">
+      <div class="cat-line">
+        業界動向 <span class="sep">/</span> Business Insider Japan <span class="sep">/</span> NEWS
+      </div>
+      <h2>AI人員削減だけでは勝てない</h2>
+      <div class="slide-img zoom-image" data-src="../../assets/images/2026-06-15/topic_4.png?v=1781476894" data-alt="AI人員削減だけでは勝てない" role="button" tabindex="0">
+        <img src="../../assets/images/2026-06-15/topic_4.png?v=1781476894" alt="AI人員削減だけでは勝てない" loading="lazy" />
+      </div>
+      <p class="lede">AIを人員削減の道具にするだけではリターンが低く、成長への活用が重要だとの見方が示された。</p>
+      <h3>キーポイント</h3>
+      <ul class="keypoints">
+        <li data-i="01">削減だけでは価値に限界</li>
+        <li data-i="02">AI理由の削減が増加</li>
+        <li data-i="03">5月削減の40％がAI理由</li>
+        <li data-i="04">成長活用が焦点に</li>
+      </ul>
+      <div class="pull">AIの本命は人を減らすことではなく、成長を作ることだ。</div>
+      <div class="bizapp-block">
+        <div class="biz-label">ビジネス活用ポイント</div>
+        <div class="biz-summary">AI投資を削減から成長施策へ転換できる</div>
+        <ul>
+        <li><span class="bi"></span>Claudeで営業提案を高速化</li>        <li><span class="bi"></span>採用や営業の生産性提案に使う</li>        <li><span class="bi"></span>削減偏重は競争力を削る</li>
+        </ul>
+      </div>
+    </div>
+    <aside class="side">
+      <dl>
+
+        <dt>SOURCE</dt>
+        <dd>Business Insider Japan</dd>
+        <dt>PUBLISHED</dt>
+        <dd>2026-06-15</dd>
+        <dt>CATEGORY</dt>
+        <dd>業界動向</dd>
+        <dt>LINKS</dt>
+        <dd><a href="https://www.businessinsider.jp/article/2606-ey-ai-leader-says-companies-too-focused-on-cost-cutting/">https://www.businessinsider.jp/article/2606-ey-ai-leade…</a></dd>
+        <dd><a href="https://www.businessinsider.jp/article/2606-challenger-ai-layoffs-economy-jobs/">https://www.businessinsider.jp/article/2606-challenger-…</a></dd>
+      </dl>
+    </aside>
+  </div>
+</article>
+<article class="daily-topic" id="topic-5">
+  <div class="container">
+    <aside class="numeral">05<span class="ord">TOPIC 05 · PUBLICKEY</span></aside>
+    <div class="main">
+      <div class="cat-line">
+        業界動向 <span class="sep">/</span> Publickey <span class="sep">/</span> NEWS
+      </div>
+      <h2>AI開発でIDE離れが進む予測</h2>
+      <div class="slide-img zoom-image" data-src="../../assets/images/2026-06-15/topic_5.png?v=1781477046" data-alt="AI開発でIDE離れが進む予測" role="button" tabindex="0">
+        <img src="../../assets/images/2026-06-15/topic_5.png?v=1781477046" alt="AI開発でIDE離れが進む予測" loading="lazy" />
+      </div>
+      <p class="lede">ガートナーは、AIコーディングエージェント市場が拡大と競争再編の段階に入ったと予想した。</p>
+      <h3>キーポイント</h3>
+      <ul class="keypoints">
+        <li data-i="01">2027年までの予測</li>
+        <li data-i="02">65％がIDE必須でなくなる</li>
+        <li data-i="03">AIエージェント市場が拡大</li>
+        <li data-i="04">競争再編の段階へ</li>
+      </ul>
+      <div class="pull">開発の主役がエディタからAIエージェントへ移り始める。</div>
+      <div class="bizapp-block">
+        <div class="biz-label">ビジネス活用ポイント</div>
+        <div class="biz-summary">開発体制をAIエージェント前提に見直せる</div>
+        <ul>
+        <li><span class="bi"></span>Codexで修正作業を委任</li>        <li><span class="bi"></span>中小企業の内製化支援に使う</li>        <li><span class="bi"></span>開発コスト構造が変わる</li>
+        </ul>
+      </div>
+    </div>
+    <aside class="side">
+      <dl>
+
+        <dt>SOURCE</dt>
+        <dd>Publickey</dd>
+        <dt>PUBLISHED</dt>
+        <dd>2026-06-15</dd>
+        <dt>CATEGORY</dt>
+        <dd>業界動向</dd>
+        <dt>LINKS</dt>
+        <dd><a href="https://www.publickey1.jp/blog/26/2027ai65ide.html">https://www.publickey1.jp/blog/26/2027ai65ide.html</a></dd>
+      </dl>
+    </aside>
+  </div>
+</article>
+<article class="daily-topic" id="topic-6">
+  <div class="container">
+    <aside class="numeral">06<span class="ord">TOPIC 06 · IMPRESS PC WATCH</span></aside>
+    <div class="main">
+      <div class="cat-line">
+        新モデル発表 <span class="sep">/</span> Impress PC Watch <span class="sep">/</span> NEWS
+      </div>
+      <h2>GLM-5.2、100万トークン対応</h2>
+      <div class="slide-img zoom-image" data-src="../../assets/images/2026-06-15/topic_6.png?v=1781477058" data-alt="GLM-5.2、100万トークン対応" role="button" tabindex="0">
+        <img src="../../assets/images/2026-06-15/topic_6.png?v=1781477058" alt="GLM-5.2、100万トークン対応" loading="lazy" />
+      </div>
+      <p class="lede">Z.aiは、コーディングと長期エージェント作業に特化したAIモデルGLM-5.2を公開した。</p>
+      <h3>キーポイント</h3>
+      <ul class="keypoints">
+        <li data-i="01">100万トークンに対応</li>
+        <li data-i="02">最大128Kトークン出力</li>
+        <li data-i="03">来週オープンソース化予定</li>
+        <li data-i="04">長期作業とコードに特化</li>
+      </ul>
+      <div class="pull">長い資料や大規模コードを、一度に扱う競争が進む。</div>
+      <div class="bizapp-block">
+        <div class="biz-label">ビジネス活用ポイント</div>
+        <div class="biz-summary">大規模コード解析や長文業務の候補になる</div>
+        <ul>
+        <li><span class="bi"></span>Cursorで大規模修正を検証</li>        <li><span class="bi"></span>開発会社向け効率化を提案</li>        <li><span class="bi"></span>オープンモデル競争が進む</li>
+        </ul>
+      </div>
+    </div>
+    <aside class="side">
+      <dl>
+
+        <dt>SOURCE</dt>
+        <dd>Impress PC Watch</dd>
+        <dt>PUBLISHED</dt>
+        <dd>2026-06-15</dd>
+        <dt>CATEGORY</dt>
+        <dd>新モデル発表</dd>
+        <dt>LINKS</dt>
+        <dd><a href="https://pc.watch.impress.co.jp/docs/news/2116962.html">https://pc.watch.impress.co.jp/docs/news/2116962.html</a></dd>
+      </dl>
+    </aside>
+  </div>
+</article>
+<article class="daily-topic" id="topic-7">
+  <div class="container">
+    <aside class="numeral">07<span class="ord">TOPIC 07 · GIHYO.JP</span></aside>
+    <div class="main">
+      <div class="cat-line">
+        ツール更新 <span class="sep">/</span> Gihyo.jp <span class="sep">/</span> NEWS
+      </div>
+      <h2>Copilot CLIがコード理解を強化</h2>
+      <div class="slide-img zoom-image" data-src="../../assets/images/2026-06-15/topic_7.png?v=1781477216" data-alt="Copilot CLIがコード理解を強化" role="button" tabindex="0">
+        <img src="../../assets/images/2026-06-15/topic_7.png?v=1781477216" alt="Copilot CLIがコード理解を強化" loading="lazy" />
+      </div>
+      <p class="lede">GitHubは、Copilot CLIが言語サーバーを使ってコード理解を高めるLSP Setupスキルを紹介した。</p>
+      <h3>キーポイント</h3>
+      <ul class="keypoints">
+        <li data-i="01">定義ジャンプを利用</li>
+        <li data-i="02">型情報をAIが参照</li>
+        <li data-i="03">参照検索にも対応</li>
+        <li data-i="04">読み違いを減らす狙い</li>
+      </ul>
+      <div class="pull">AIコーディングは、検索から構造理解へ進んでいる。</div>
+      <div class="bizapp-block">
+        <div class="biz-label">ビジネス活用ポイント</div>
+        <div class="biz-summary">AI開発支援の精度向上に使える</div>
+        <ul>
+        <li><span class="bi"></span>Codexと型情報活用を比較</li>        <li><span class="bi"></span>保守開発の品質改善を提案</li>        <li><span class="bi"></span>誤修正を減らせる</li>
+        </ul>
+      </div>
+    </div>
+    <aside class="side">
+      <dl>
+
+        <dt>SOURCE</dt>
+        <dd>Gihyo.jp</dd>
+        <dt>PUBLISHED</dt>
+        <dd>2026-06-15</dd>
+        <dt>CATEGORY</dt>
+        <dd>ツール更新</dd>
+        <dt>LINKS</dt>
+        <dd><a href="https://gihyo.jp/article/2026/06/github-copilot-cli-lsp-setup?utm_source=feed">https://gihyo.jp/article/2026/06/github-copilot-cli-lsp…</a></dd>
+      </dl>
+    </aside>
+  </div>
+</article>
+<article class="daily-topic" id="topic-8">
+  <div class="container">
+    <aside class="numeral">08<span class="ord">TOPIC 08 · BRIDGE</span></aside>
+    <div class="main">
+      <div class="cat-line">
+        業界動向 <span class="sep">/</span> BRIDGE <span class="sep">/</span> NEWS
+      </div>
+      <h2>Smart Craft、製造DXで資金調達</h2>
+      <div class="slide-img zoom-image" data-src="../../assets/images/2026-06-15/topic_8.png?v=1781477224" data-alt="Smart Craft、製造DXで資金調達" role="button" tabindex="0">
+        <img src="../../assets/images/2026-06-15/topic_8.png?v=1781477224" alt="Smart Craft、製造DXで資金調達" loading="lazy" />
+      </div>
+      <p class="lede">Smart Craftはオムロンベンチャーズから資金調達し、製造現場のDXとスマートファクトリー化を進める。</p>
+      <h3>キーポイント</h3>
+      <ul class="keypoints">
+        <li data-i="01">オムロンと事業連携</li>
+        <li data-i="02">ITとOTのデータ基盤構築</li>
+        <li data-i="03">AI活用強化に資金充当</li>
+        <li data-i="04">累計作業時間1000万時間</li>
+      </ul>
+      <div class="pull">製造現場のデータ化が、AI活用の土台になっている。</div>
+      <div class="bizapp-block">
+        <div class="biz-label">ビジネス活用ポイント</div>
+        <div class="biz-summary">製造業の現場データ活用提案に使える</div>
+        <ul>
+        <li><span class="bi"></span>Claudeで現場帳票を整理</li>        <li><span class="bi"></span>中小製造業DXを提案</li>        <li><span class="bi"></span>現場データがAI価値を生む</li>
+        </ul>
+      </div>
+    </div>
+    <aside class="side">
+      <dl>
+
+        <dt>SOURCE</dt>
+        <dd>BRIDGE</dd>
+        <dt>PUBLISHED</dt>
+        <dd>2026-06-15</dd>
+        <dt>CATEGORY</dt>
+        <dd>業界動向</dd>
+        <dt>LINKS</dt>
+        <dd><a href="https://thebridge.jp/2026/06/smart-craft-raises-funding-from-omron-ventures">https://thebridge.jp/2026/06/smart-craft-raises-funding…</a></dd>
+      </dl>
+    </aside>
+  </div>
+</article>
+<div class="colophon">
+  <div class="left"><b>Now on <span class="brand-ai">AI</span>r</b> · AI Morning Intelligence · 山中秀斗 / TREPRO</div>
+  <div class="right">2026-06-15 DISPATCH</div>
+</div>
+
+<!-- Article Modal -->
+<div id="article-modal">
+  <div id="modal-box">
+    <div class="modal-head">
+      <span id="modal-cat"></span>
+      <button id="modal-close">CLOSE</button>
+    </div>
+    <div id="modal-slide-wrap" style="display:none;margin:0;overflow:hidden;border-bottom:1px solid var(--rule-2);">
+      <img id="modal-slide-img" src="" alt="" style="width:100%;display:block;" />
+    </div>
+    <div class="modal-body">
+      <h2 id="modal-title"></h2>
+      <p id="modal-lede"></p>
+      <div id="modal-kp"></div>
+      <div id="modal-pull"></div>
+      <div id="modal-bizapp">
+        <div class="bizapp-head">ビジネス活用ポイント</div>
+        <div class="bizapp-summary" id="modal-bizapp-summary"></div>
+        <ul class="bizapp-actions" id="modal-bizapp-actions"></ul>
+      </div>
+      <div id="modal-quickstart">
+        <div class="qs-head">明日からできる｜個人事業主・社長向け</div>
+        <div class="qs-headline" id="qs-headline"></div>
+        <div class="qs-meta">
+          <div class="qs-tool"><span class="qs-label">推奨ツール</span> <a id="qs-tool-link" href="#" target="_blank" rel="noopener"></a> <span id="qs-cost" class="qs-cost"></span></div>
+          <div class="qs-time"><span class="qs-label">所要時間</span> <span id="qs-time"></span></div>
+        </div>
+        <div class="qs-steps-wrap">
+          <div class="qs-section-label">3ステップで試す</div>
+          <ol class="qs-steps" id="qs-steps"></ol>
+        </div>
+        <div class="qs-prompt-wrap">
+          <div class="qs-section-label">コピペで使えるプロンプト</div>
+          <div class="qs-prompt" id="qs-prompt"></div>
+          <button class="qs-copy-btn" id="qs-copy-btn">プロンプトをコピー</button>
+        </div>
+        <div class="qs-roi" id="qs-roi"></div>
+      </div>
+      <div id="modal-icebreak">
+        <div class="ib-head">会話・商談で使える</div>
+        <div class="ib-hook" id="ib-hook"></div>
+        <div class="ib-punch" id="ib-punch"></div>
+        <div class="ib-ctx">
+          <div class="ib-ctx-item"><span class="ib-ctx-label">商談シーン</span><span id="ib-ctx-meeting"></span></div>
+          <div class="ib-ctx-item"><span class="ib-ctx-label">雑談シーン</span><span id="ib-ctx-chat"></span></div>
+        </div>
+        <div class="ib-share-wrap">
+          <div class="ib-share-label">SNSでそのまま使える一文</div>
+          <div class="ib-share" id="ib-share"></div>
+          <button class="ib-copy-btn" id="ib-copy-btn">この一文をコピー</button>
+        </div>
+      </div>
+      <div class="modal-foot">
+        <span id="modal-src"></span>
+        <a id="modal-link" href="#" target="_blank" rel="noopener">元記事を読む →</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Image Lightbox -->
+<div class="lightbox-overlay" id="lightbox">
+  <button class="lightbox-close" id="lightbox-close">× CLOSE</button>
+  <img src="" id="lightbox-img" alt="" />
+</div>
+
+<script>
+(function(){
+  /* ── modal ── */
+  var modal=document.getElementById('article-modal');
+  var box=document.getElementById('modal-box');
+
+  function openModal(card){
+    var d=card.dataset;
+    document.getElementById('modal-cat').textContent=d.category||'';
+    document.getElementById('modal-title').textContent=d.title||'';
+    document.getElementById('modal-lede').textContent=d.lede||'';
+    document.getElementById('modal-src').textContent='SOURCE: '+(d.source||'');
+    var linkEl=document.getElementById('modal-link');
+    linkEl.href=d.link||'#';
+
+    /* Gemini slide image */
+    var slideWrap=document.getElementById('modal-slide-wrap');
+    var slideImg=document.getElementById('modal-slide-img');
+    if(d.slide){
+      slideImg.src=d.slide; slideImg.alt=d.title||'';
+      slideWrap.style.display='block';
+    } else { slideWrap.style.display='none'; slideImg.src=''; }
+
+    /* keypoints */
+    var kpEl=document.getElementById('modal-kp');
+    kpEl.innerHTML='';
+    try{
+      var kps=JSON.parse(d.keypoints||'[]');
+      if(kps.length){
+        var ul=document.createElement('ul');
+        kps.forEach(function(kp,i){
+          var li=document.createElement('li');
+          var num=document.createElement('span');
+          num.className='kp-num';
+          num.textContent=String(i+1).padStart(2,'0');
+          li.appendChild(num);
+          li.appendChild(document.createTextNode(kp));
+          ul.appendChild(li);
+        });
+        kpEl.appendChild(ul);
+      }
+    }catch(e){}
+
+    /* pull */
+    var pullEl=document.getElementById('modal-pull');
+    if(d.pull){pullEl.textContent='「'+d.pull+'」';pullEl.style.display='block';}
+    else{pullEl.style.display='none';}
+
+    /* bizapp */
+    var bizEl=document.getElementById('modal-bizapp');
+    try{
+      var biz=JSON.parse(d.bizapp||'null');
+      if(biz&&biz.summary){
+        document.getElementById('modal-bizapp-summary').textContent=biz.summary;
+        var baList=document.getElementById('modal-bizapp-actions');
+        baList.innerHTML='';
+        var icons=['','',''];
+        (biz.actions||[]).forEach(function(act,i){
+          var li=document.createElement('li');
+          var ic=document.createElement('span');
+          ic.className='ba-icon';ic.textContent=icons[i]||'→';
+          li.appendChild(ic);li.appendChild(document.createTextNode(act));
+          baList.appendChild(li);
+        });
+        bizEl.style.display='block';
+      } else { bizEl.style.display='none'; }
+    }catch(e){ bizEl.style.display='none'; }
+
+    /* quickstart */
+    var qsEl=document.getElementById('modal-quickstart');
+    try{
+      var qs=JSON.parse(d.quickstart||'null');
+      if(qs&&qs.headline){
+        document.getElementById('qs-headline').textContent=qs.headline;
+        var toolLink=document.getElementById('qs-tool-link');
+        toolLink.textContent=(qs.tool&&qs.tool.name)||'';
+        toolLink.href=(qs.tool&&qs.tool.url)||'#';
+        document.getElementById('qs-cost').textContent=(qs.tool&&qs.tool.cost)?'· '+qs.tool.cost:'';
+        document.getElementById('qs-time').textContent=qs.time||'';
+        var stepsEl=document.getElementById('qs-steps');
+        stepsEl.innerHTML='';
+        (qs.steps||[]).forEach(function(step){
+          var li=document.createElement('li');
+          li.textContent=step;
+          stepsEl.appendChild(li);
+        });
+        var promptEl=document.getElementById('qs-prompt');
+        promptEl.textContent=qs.prompt||'';
+        var copyBtn=document.getElementById('qs-copy-btn');
+        copyBtn.onclick=function(){
+          navigator.clipboard.writeText(qs.prompt||'').then(function(){
+            copyBtn.textContent='コピー完了';
+            setTimeout(function(){copyBtn.textContent='プロンプトをコピー';},1800);
+          });
+        };
+        document.getElementById('qs-roi').textContent=qs.roi?'想定効果：'+qs.roi:'';
+        qsEl.style.display='block';
+      } else { qsEl.style.display='none'; }
+    }catch(e){ qsEl.style.display='none'; }
+
+    /* icebreak */
+    var ibEl=document.getElementById('modal-icebreak');
+    try{
+      var ib=JSON.parse(d.icebreak||'null');
+      if(ib&&ib.hook){
+        document.getElementById('ib-hook').textContent='「'+ib.hook+'」';
+        document.getElementById('ib-punch').textContent=ib.punchline||'';
+        document.getElementById('ib-ctx-meeting').textContent=ib.ctx_meeting||'';
+        document.getElementById('ib-ctx-chat').textContent=ib.ctx_chat||'';
+        document.getElementById('ib-share').textContent=ib.share_text||'';
+        var ibBtn=document.getElementById('ib-copy-btn');
+        ibBtn.onclick=function(){
+          navigator.clipboard.writeText(ib.share_text||'').then(function(){
+            ibBtn.textContent='コピー完了';
+            setTimeout(function(){ibBtn.textContent='この一文をコピー';},1800);
+          });
+        };
+        ibEl.style.display='block';
+      } else { ibEl.style.display='none'; }
+    }catch(e){ ibEl.style.display='none'; }
+
+    modal.style.display='flex';
+    modal.style.pointerEvents='auto';
+    requestAnimationFrame(function(){
+      modal.style.background='rgba(0,0,0,.72)';
+      box.classList.add('is-open');
+    });
+    document.body.style.overflow='hidden';
+  }
+
+  function closeModal(){
+    modal.style.background='rgba(0,0,0,0)';
+    box.classList.remove('is-open');
+    setTimeout(function(){modal.style.display='none';modal.style.pointerEvents='none';},280);
+    document.body.style.overflow='';
+  }
+
+  document.getElementById('modal-close').addEventListener('click',closeModal);
+  modal.addEventListener('click',function(e){if(e.target===modal)closeModal();});
+
+  /* card click → modal */
+  document.querySelectorAll('.img-card[data-title],.tcard[data-title]').forEach(function(card){
+    card.addEventListener('click',function(e){
+      if(e.target.tagName==='A')return;
+      openModal(card);
+    });
+  });
+
+  /* ── category filter ── */
+  document.querySelectorAll('.filter-pill').forEach(function(pill){
+    pill.addEventListener('click',function(){
+      var cat=pill.dataset.cat;
+      document.querySelectorAll('.filter-pill').forEach(function(p){p.classList.remove('active');});
+      pill.classList.add('active');
+      document.querySelectorAll('.tcard').forEach(function(c){
+        if(!cat||c.dataset.category===cat||cat==='ALL'){
+          c.style.opacity='1'; c.style.pointerEvents=''; c.style.transform='';
+        } else {
+          c.style.opacity='.2'; c.style.pointerEvents='none'; c.style.transform='scale(.97)';
+        }
+      });
+    });
+  });
+
+  /* ── image lightbox ── */
+  var overlay=document.getElementById('lightbox');
+  var img=document.getElementById('lightbox-img');
+  var close=document.getElementById('lightbox-close');
+  document.querySelectorAll('.zoom-image').forEach(function(el){
+    el.addEventListener('click',function(e){e.stopPropagation();
+      img.src=''; overlay.classList.add('is-open');
+      setTimeout(function(){ img.src=el.dataset.src; img.alt=el.dataset.alt||''; },20);
+    });
+  });
+  function closeBox(){
+    img.style.opacity='0'; img.style.transform='scale(0.93)';
+    setTimeout(function(){ overlay.classList.remove('is-open'); img.src=''; img.style.opacity=''; img.style.transform=''; },300);
+  }
+  close.addEventListener('click',closeBox);
+  overlay.addEventListener('click',function(e){if(e.target===overlay)closeBox();});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'){closeBox();closeModal();}});
+
+  /* ── scroll fade-in: .daily-topic (デイリーページ専用) ── */
+  var fadeEls=document.querySelectorAll('.daily-topic');
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(entries){
+      entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('is-visible');io.unobserve(e.target);}});
+    },{threshold:0.05,rootMargin:'0px 0px -24px 0px'});
+    fadeEls.forEach(function(el){io.observe(el);});
+  } else { fadeEls.forEach(function(el){el.classList.add('is-visible');}); }
+
+  /* ── dispatch ticker ── */
+  var row=document.querySelector('.dispatch');
+  if(row && row.dataset.ticker!=='off'){
+    var inner=row.innerHTML; row.innerHTML=inner+inner;
+    var pos=0,spd=0.4;
+    (function tick(){pos+=spd;if(pos>=row.scrollWidth/2)pos=0;row.scrollLeft=pos;requestAnimationFrame(tick);})();
+  }
+})();
+</script>
+
+</body>
+</html>
