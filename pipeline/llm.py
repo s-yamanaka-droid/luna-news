@@ -57,9 +57,12 @@ def _codex(system: str, user: str) -> str:
     Stage2 のような巨大プロンプトは gpt-5 の思考時間が長いので timeout は 900s。"""
     import subprocess
     prompt = f"{system}\n\n{user}"
+    # stdin=DEVNULL: 引数でprompt渡しても codex が stdin 待ちでハングする現象を防ぐ
+    # （6/14 朝刊失敗の codex 側真因「Reading additional input from stdin」対策）
     proc = subprocess.run(
         ["/opt/homebrew/bin/codex", "exec", "--skip-git-repo-check",
          "--sandbox", "read-only", prompt],
+        stdin=subprocess.DEVNULL,
         capture_output=True, text=True, timeout=CODEX_TEXT_TIMEOUT,
     )
     if proc.returncode != 0:
@@ -78,10 +81,12 @@ def _claude_code(system: str, user: str) -> str:
     env = os.environ.copy()
     env["ANTHROPIC_API_KEY"] = ""    # サブスク経由に強制
     # 長文プロンプトは stdin パイプ経由で渡す（引数長制限回避）
+    # timeout は codex(900s)と揃える。6/14 に 180s で timeout し chain が崩れた
     proc = subprocess.run(
         ["claude", "-p", "--output-format", "text"],
         input=prompt, env=env,
-        capture_output=True, text=True, timeout=180,
+        capture_output=True, text=True,
+        timeout=int(os.environ.get("CLAUDE_TEXT_TIMEOUT", "600")),
     )
     if proc.returncode != 0:
         # stderr が空なら stdout にエラーが出てる可能性

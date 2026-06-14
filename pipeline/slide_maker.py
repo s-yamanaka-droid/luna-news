@@ -130,7 +130,8 @@ def _codex_generate(title, category, source, summary, keypoints, output_path):
             [CODEX_BIN, "exec", "--skip-git-repo-check",
              "--sandbox", "danger-full-access",
              "--cd", codex_cwd, prompt],
-            cwd=codex_cwd, capture_output=True, text=True, timeout=CODEX_TIMEOUT,
+            cwd=codex_cwd, stdin=subprocess.DEVNULL,  # codex stdin待ちハング防止（6/14真因）
+            capture_output=True, text=True, timeout=CODEX_TIMEOUT,
         )
         if output_path.exists() and output_path.stat().st_size > 8000:
             return True
