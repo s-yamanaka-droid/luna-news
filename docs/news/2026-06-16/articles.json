@@ -23,7 +23,30 @@
       "https://openai.com/index/introducing-openai-partner-network",
       "https://www.watch.impress.co.jp/docs/news/2117349.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI導入先を棚卸し",
+      "tool": {
+        "name": "ChatGPT Plus",
+        "url": "https://chatgpt.com/pricing/",
+        "cost": "約¥3,000/月"
+      },
+      "time": "30分",
+      "steps": [
+        "業務を10個書け",
+        "効果と難度を点数化せよ",
+        "外注条件を表にせよ"
+      ],
+      "prompt": "あなたは中小企業のAI導入責任者です。{自社名}{業種}の業務一覧{業務}から、明日試すAI導入3件を費用・手順・外注要否つきで表にしてください。",
+      "roi": "導入検討を半日短縮＝約2万円相当"
+    },
+    "icebreak": {
+      "hook": "OpenAI、企業導入は実装勝負になってきたらしいですよ",
+      "punchline": "モデル選びより、業務設計とシステム統合までやり切れる会社が強くなりそうです。",
+      "ctx_meeting": "AI導入提案の冒頭で",
+      "ctx_chat": "移動中の業界雑談で",
+      "share_text": "OpenAIの企業導入支援網を見ると、AIは「何を使うか」より「業務にどう組み込むか」の勝負に移ってきた感じがします。"
+    }
   },
   {
     "title": "Sakana AI、戦略調査AIを商用化",
@@ -48,7 +71,30 @@
     "links": [
       "https://gihyo.jp/article/2026/06/sakana-marlin?utm_source=feed"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "競合調査を半日化",
+      "tool": {
+        "name": "Claude Pro",
+        "url": "https://claude.ai/pricing",
+        "cost": "約¥3,000/月"
+      },
+      "time": "30分",
+      "steps": [
+        "競合3社を決めろ",
+        "調査項目を5つ出せ",
+        "営業仮説を作れ"
+      ],
+      "prompt": "あなたは戦略リサーチ担当です。{自社名}{業種}が狙う{市場}について、{競合3社}の強み・価格・弱点・営業切り口を表で調査設計してください。",
+      "roi": "市場調査の初動を70%短縮"
+    },
+    "icebreak": {
+      "hook": "Sakana AI、戦略調査を数時間で回すAIを出したそうです",
+      "punchline": "リサーチ担当の仕事がなくなるというより、仮説づくりの速度が一気に上がりそうです。",
+      "ctx_meeting": "調査業務の相談時に",
+      "ctx_chat": "企画会議前の雑談で",
+      "share_text": "戦略調査をAIが数時間でレポート化するなら、人間の価値は「調べる量」より「問いの立て方」に寄っていきそうです。"
+    }
   },
   {
     "title": "AWS、AIボット課金機能をWAFに追加",
@@ -73,7 +119,30 @@
     "links": [
       "https://aws.amazon.com/blogs/aws/aws-waf-adds-ai-traffic-monetization-capability-to-help-content-owners-charge-ai-bots-for-content-access/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI巡回を収益化",
+      "tool": {
+        "name": "ChatGPT Plus",
+        "url": "https://chatgpt.com/pricing/",
+        "cost": "約¥3,000/月"
+      },
+      "time": "30分",
+      "steps": [
+        "アクセスログを出せ",
+        "AIボット名を抜け",
+        "課金案を1つ作れ"
+      ],
+      "prompt": "あなたはWebメディアの収益化担当です。{自社名}のアクセスログ{ログ}からAIボットらしい閲覧を分類し、遮断・許可・課金の方針案を作ってください。",
+      "roi": "無償転載リスクを可視化し収益機会を発見"
+    },
+    "icebreak": {
+      "hook": "AWS、AIボットに閲覧料を取れる仕組みを出したみたいです",
+      "punchline": "AIに読まれる前提で、Webコンテンツをどう収益化するかが現実の話になってきました。",
+      "ctx_meeting": "メディア収益の話で",
+      "ctx_chat": "ニュース共有の場で",
+      "share_text": "AIボットにコンテンツ閲覧料を設定できるなら、Webは「人に見せる場所」から「AIにも売る資産」に変わっていくのかもしれません。"
+    }
   },
   {
     "title": "AI投資110兆円、IT価格に波及",
@@ -98,7 +167,30 @@
     "links": [
       "https://business.nikkei.com/atcl/gen/19/00887/061500005/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "PC調達を前倒し",
+      "tool": {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/",
+        "cost": "無料"
+      },
+      "time": "30分",
+      "steps": [
+        "端末一覧を作れ",
+        "更新月と価格を書け",
+        "前倒し順を出せ"
+      ],
+      "prompt": "あなたは中小企業のIT購買担当です。{自社名}{業種}のPC一覧{端末一覧}と予算{予算}から、6か月内に前倒し購入すべき順を表にしてください。",
+      "roi": "値上がり前購入で端末費を10〜20%抑制"
+    },
+    "icebreak": {
+      "hook": "AI投資110兆円、メモリー価格にも来てるらしいです",
+      "punchline": "AIの話がクラウドの中だけで終わらず、PCやスマホの価格にも響き始めています。",
+      "ctx_meeting": "IT予算の見直し時に",
+      "ctx_chat": "ガジェット話の流れで",
+      "share_text": "AIデータセンター投資がメモリー価格やPC・スマホに波及するなら、AIブームはソフトだけでなく調達コストの話でもありますね。"
+    }
   },
   {
     "title": "Databricks、AIエージェント統合基盤を公開",
@@ -123,7 +215,30 @@
     "links": [
       "https://ai.watch.impress.co.jp/docs/news/2117312.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI利用台帳を作る",
+      "tool": {
+        "name": "Notion AI",
+        "url": "https://www.notion.com/product/ai",
+        "cost": "無料枠あり / Business込"
+      },
+      "time": "30分",
+      "steps": [
+        "AIツールを列挙せよ",
+        "権限と費用を決めろ",
+        "共有ルールを書け"
+      ],
+      "prompt": "あなたは小規模開発チームのAI統制担当です。{自社名}で使う{AIツール一覧}を、用途・権限・費用上限・共有方法で台帳化してください。",
+      "roi": "野良AI利用を減らし月数万円の無駄を防止"
+    },
+    "icebreak": {
+      "hook": "Databricks、AIエージェントの管制塔みたいなOSSを出しましたね",
+      "punchline": "Claude CodeやCodexを個別に使う段階から、権限とコストをまとめて見る段階に来ています。",
+      "ctx_meeting": "開発体制の相談で",
+      "ctx_chat": "開発ツール談義で",
+      "share_text": "AIエージェントが増えるほど、次に必要なのは賢いモデルより「誰が何にいくら使ったか」を管理する基盤なのかもしれません。"
+    }
   },
   {
     "title": "Google、AIが読める文書仕様を発表",
@@ -148,7 +263,30 @@
     "links": [
       "https://gihyo.jp/article/2026/06/open-knowledge-format?utm_source=feed"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "社内手順をAI対応",
+      "tool": {
+        "name": "Cursor",
+        "url": "https://cursor.com/pricing",
+        "cost": "無料 / Pro約¥3,000/月"
+      },
+      "time": "30分",
+      "steps": [
+        "手順書を1つ選べ",
+        "Markdown化せよ",
+        "YAML項目を付けろ"
+      ],
+      "prompt": "あなたはAIが読める社内文書の編集者です。{自社名}{業種}の手順書{文書}を、Markdown本文とYAML属性に分けて整えてください。",
+      "roi": "社内問い合わせ対応を月5時間削減"
+    },
+    "icebreak": {
+      "hook": "Google、AIが読みやすい文書仕様を出したそうです",
+      "punchline": "MarkdownとYAMLでGit管理できるなら、社内文書もAI前提で整える流れが強まりそうです。",
+      "ctx_meeting": "ナレッジ整備の提案で",
+      "ctx_chat": "社内Wikiの話で",
+      "share_text": "AIに読ませる文書は、きれいな文章より構造のほうが大事になりそうです。Open Knowledge Formatは社内ナレッジ整理のヒントになりそう。"
+    }
   },
   {
     "title": "人工知能学会、AI共生へ4提言",
@@ -173,7 +311,30 @@
     "links": [
       "https://www.itmedia.co.jp/aiplus/article/2606/15/2000000091/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI利用規程を作る",
+      "tool": {
+        "name": "Claude Pro",
+        "url": "https://claude.ai/pricing",
+        "cost": "約¥3,000/月"
+      },
+      "time": "30分",
+      "steps": [
+        "禁止事項を3つ書け",
+        "利用目的を5つ決めろ",
+        "1枚規程にまとめろ"
+      ],
+      "prompt": "あなたは中小企業のAI倫理担当です。{自社名}{業種}向けに、AIで許可する業務・禁止する入力・著作権注意点を1枚の社内規程にしてください。",
+      "roi": "研修資料作成を80%短縮"
+    },
+    "icebreak": {
+      "hook": "人工知能学会、AIは人間を代替しないと提言したそうです",
+      "punchline": "便利さだけでなく、教育での依存や著作権、安保まで含めて社会設計の話になっています。",
+      "ctx_meeting": "AI方針の議論で",
+      "ctx_chat": "教育や仕事の雑談で",
+      "share_text": "AIは人間を代替しない、という提言は重いですね。導入する側も「効率化」だけでなく、依存や責任の設計まで考える必要がありそうです。"
+    }
   },
   {
     "title": "Copilot攻撃、AI利用の新リスク示す",
@@ -198,6 +359,29 @@
     "links": [
       "https://www.darkreading.com/application-security/copilot-searchleak-attack-1-click-data-theft"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI持込資料を制限",
+      "tool": {
+        "name": "ChatGPT Plus",
+        "url": "https://chatgpt.com/pricing/",
+        "cost": "約¥3,000/月"
+      },
+      "time": "30分",
+      "steps": [
+        "機密資料を分類せよ",
+        "AI入力禁止を決めろ",
+        "権限表を配れ"
+      ],
+      "prompt": "あなたは中小企業の情報管理責任者です。{自社名}{業種}の機密情報{資料例}について、AI入力可否と外部リンク注意点を表にしてください。",
+      "roi": "情報漏えい事故の初期リスクを低減"
+    },
+    "icebreak": {
+      "hook": "Copilotへの攻撃、1クリックで情報窃取の恐れがあったそうです",
+      "punchline": "AI活用は便利ですが、指示文や隠しURLを悪用される前提で守る必要があります。",
+      "ctx_meeting": "AIセキュリティ提案で",
+      "ctx_chat": "社内利用の注意喚起で",
+      "share_text": "CopilotへのSearchLeak攻撃を見ると、AIのリスクはアカウント管理だけでは足りないですね。指示文そのものが攻撃面になる感覚が必要です。"
+    }
   }
 ]

@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週は調査・資料整理・文書検索をAIで短縮する実務ツールが目立ちました。小規模事業者は高価な全社導入より、まず資料作成と競合調査の時短から入るのが現実的です。並行してAI利用ルールとコスト上限を決める流れも強まっています。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-06-10",
+      "title": "NotebookLM、調査から資料化まで強化",
+      "category": "ツール更新",
+      "source": "Gihyo.jp",
+      "why_picked": "調査から資料化まで一気に時短できる",
+      "tldr": "調査を資料に直行",
+      "action": "自社資料を1件入れる",
+      "image": "../assets/images/2026-06-10/topic_3.png",
+      "link": "../news/2026-06-10/#topic-3"
+    },
+    {
+      "rank": 2,
+      "date": "2026-06-14",
+      "title": "Google Pinpoint、誰でも使える調査AIに",
+      "category": "ツール更新",
+      "source": "Fast Company Tech",
+      "why_picked": "無料で社内資料検索をすぐ始められる",
+      "tldr": "資料探しをAI化",
+      "action": "議事録とPDFを入れる",
+      "image": "../assets/images/2026-06-14/topic_3.png",
+      "link": "../news/2026-06-14/#topic-3"
+    },
+    {
+      "rank": 3,
+      "date": "2026-06-16",
+      "title": "Sakana AI、戦略調査AIを商用化",
+      "category": "ツール更新",
+      "source": "Gihyo.jp",
+      "why_picked": "競合調査の初動を外注前に固められる",
+      "tldr": "市場調査を半日化",
+      "action": "主要3社の調査を投げる",
+      "image": "../assets/images/2026-06-16/topic_2.png",
+      "link": "../news/2026-06-16/#topic-2"
+    }
+  ]
+}
