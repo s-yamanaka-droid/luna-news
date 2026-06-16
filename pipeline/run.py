@@ -1,7 +1,8 @@
 """
 VIGIL — Main Pipeline
-RSS(329) + API(HN/Reddit/GitHub/PH) → Gemini要約 → CSSカード → HTML → push
-スライド画像生成廃止。CSSカードで直接表示。コスト $0。
+RSS(300+フィード) + API(HN/Reddit/GitHub/PH) → LLM要約(codex主・claude/openaiフォールバック)
+→ Codex図解8枚(API repairで品質保証) → HTML → GitHub push → Vercel
+通常運用は ChatGPT Plus サブスク内・API課金ほぼゼロ。
 """
 import sys
 import logging
@@ -63,8 +64,9 @@ def run(date_str: str = None, dry_run: bool = False, skip_slides: bool = False, 
     date_str = date_str or today
     log.info(f"=== VIGIL {date_str}{' (backfill)' if backfill else ''} ===")
 
-    # 1. 多層ソース収集（RSS 329件 + API 4ソース・並列）
-    log.info("1. ソース収集（RSS 329 + HN/Reddit/GitHub/PH）")
+    # 1. 多層ソース収集（RSS 300+フィード + API 4ソース・並列）
+    from feeds import RSS_FEEDS
+    log.info(f"1. ソース収集（RSS {len(RSS_FEEDS)}フィード + HN/Reddit/GitHub/PH）")
     raw = fetch_all(max_per_feed=2, fetch_body=True)
 
     if backfill:

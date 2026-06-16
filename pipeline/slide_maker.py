@@ -46,6 +46,10 @@ STYLE — high-end Japanese magazine editorial infographic:
    * Card showing meeting automation: conference room with table + 3-4 stylized people + screen showing a bar chart + floating document icons + microphone
    * Card showing cost control: balance scale with money on one side and AI chip on the other + downward green arrow + magnifying glass examining receipt
 - ABSOLUTELY AVOID: single centered flat icon (robot/gear/shield/lock logos alone) — those look amateur. Cards MUST tell a story with multiple objects, people, and contextual environment.
+- ★ CONTEXTUAL BACKGROUND (MUST): each card MUST have a contextual background environment (office interior, server room, factory floor, city skyline, meeting room). The "white background" rule refers to the PAGE margins/header ONLY — card INTERIORS must be filled scenes, never floating objects on empty white.
+- ★ NUMERIC BADGES (MUST): if a key point contains a number / percentage / price / 倍 / 兆円, render it as a LARGE colored numeric badge inside that card (e.g. big "110兆円", "7倍", "¥169,800"). Numbers are the most scannable element.
+- ★ FOUR DISTINCT COMPOSITIONS (MUST): the four cards must use four DIFFERENT layouts. Do NOT repeat the "person sitting at a desk with a screen" composition more than once across the four cards.
+- ★ ABSTRACT KEY POINTS: when a key point is about announce/publish/propose (発表・公開・提言), illustrate the CONTENT being announced — NOT a press-conference or camera scene.
    * A red number badge "01"/"02"/"03"/"04" in the corner
    * The key point text in BOLD Japanese below the illustration
 - Color palette: strictly white background, {pri} red as primary accent, black text, light gray borders

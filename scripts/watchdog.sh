@@ -17,10 +17,21 @@ alert() {
   echo "$(date '+%F %T') ALERT: $1" >> "$LOG"
 }
 
-# 1. 今日のページが 200 か（キャッシュバスター付き）
-code=$(curl -sIL -o /dev/null -w "%{http_code}" --max-time 20 "${URL}?v=$(date +%s)")
+# 1. 今日のページが 200 か（キャッシュバスター付き・3回リトライで誤報潰し）
+# 000/timeout は Mac スリープや一時的ネット断で出る（6/13 に実配信成功なのに誤報あり）
+code=000
+for attempt in 1 2 3; do
+  code=$(curl -sIL -o /dev/null -w "%{http_code}" --max-time 20 "${URL}?v=$(date +%s)")
+  [ "$code" = "200" ] && break
+  sleep 40
+done
 if [ "$code" != "200" ]; then
-  alert "ページが HTTP ${code}（未配信の可能性）"
+  # ローカルに完了マーカーがあれば「配信は成功・ネット側問題」として文言を変える
+  if [ -f "/Users/yamanakashuto/apps/vigil-news/logs/done_${TODAY}" ]; then
+    alert "本番が HTTP ${code} だがローカルは配信成功(done marker有)。Vercel/ネット側の確認を"
+  else
+    alert "ページが HTTP ${code}（3回リトライ後も応答なし・未配信の可能性）"
+  fi
   exit 1
 fi
 
