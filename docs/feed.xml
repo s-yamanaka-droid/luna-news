@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>Now on AIr — AI Morning Intelligence</title>
+  <link>https://nowonair.vercel.app/</link>
+  <atom:link href="https://nowonair.vercel.app/feed.xml" rel="self" type="application/rss+xml" />
+  <description>AIに詳しくない日本のビジネスパーソンへ。毎朝6:30、AI業界ニュースを図解と「明日からできる活用法」で。</description>
+  <language>ja</language>
+  <item>
+    <title>2026-06-16 AI朝刊：OpenAI、企業導入は実装力の競争へ ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-06-16/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-16/</guid>
+    <pubDate>Tue, 16 Jun 2026 06:30:00 +0900</pubDate>
+    <description>OpenAI、企業導入は実装力の競争へ／Sakana AI、戦略調査AIを商用化／AWS、AIボット課金機能をWAFに追加／AI投資110兆円、IT価格に波及／Databricks、AIエージェント統合基盤を公開</description>
+  </item>
+  <item>
+    <title>2026-06-15 AI朝刊：行政の生成AI調達指針が改定 ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-06-15/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-15/</guid>
+    <pubDate>Mon, 15 Jun 2026 06:30:00 +0900</pubDate>
+    <description>行政の生成AI調達指針が改定／中小企業のAI利用に安全対策の穴／米政府、Anthropic最上位AIを制限／AI人員削減だけでは勝てない／AI開発でIDE離れが進む予測</description>
+  </item>
+  <item>
+    <title>2026-06-14 AI朝刊：Anthropic最新モデル、米政府命令で全面停止 ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-06-14/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-14/</guid>
+    <pubDate>Sun, 14 Jun 2026 06:30:00 +0900</pubDate>
+    <description>Anthropic最新モデル、米政府命令で全面停止／ChromeでAIがWeb操作しやすくなる新標準／Google Pinpoint、誰でも使える調査AIに／転職者6割超がAI活用、企業選びにも影響／AIエージェント開発は監査ループが鍵</description>
+  </item>
+  <item>
+    <title>2026-06-13 AI朝刊：生成AI調達ガイドライン改定、意見募集結果を公表 ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-06-13/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-13/</guid>
+    <pubDate>Sat, 13 Jun 2026 06:30:00 +0900</pubDate>
+    <description>生成AI調達ガイドライン改定、意見募集結果を公表／関西電力、AI前提で業務再構築へ／イトーキ、AIシフトの土台に基幹刷新／DeNA、Codex自律活用の実践知を共有／Codex、利用枠リセットを後から使用可能に</description>
+  </item>
+  <item>
+    <title>2026-06-12 AI朝刊：Claude、国内金融大手で共同活用へ ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-06-12/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-12/</guid>
+    <pubDate>Fri, 12 Jun 2026 06:30:00 +0900</pubDate>
+    <description>Claude、国内金融大手で共同活用へ／日立とGoogle Cloud、現場AIを拡大／AIエージェント決済、VisaとOpenAIが提携／OpenAI、Ona買収でCodexを強化／OpenAIモデル、Amazon Bedrockで一般提供</description>
+  </item>
+  <item>
+    <title>2026-06-11 AI朝刊：ChatGPT無料版に広告表示へ ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-06-11/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-11/</guid>
+    <pubDate>Thu, 11 Jun 2026 06:30:00 +0900</pubDate>
+    <description>ChatGPT無料版に広告表示へ／Claude新モデル、一般提供開始／NTTら、AI基盤ファンド創設／JR東日本、窓口に生成AI導入へ／大阪ガス、AI軸にIT変革へ</description>
+  </item>
+  <item>
+    <title>2026-06-10 AI朝刊：Apple、Siriを仕事横断AIへ刷新 ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-06-10/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-10/</guid>
+    <pubDate>Wed, 10 Jun 2026 06:30:00 +0900</pubDate>
+    <description>Apple、Siriを仕事横断AIへ刷新／Claude最上位級モデル、一般提供へ／NotebookLM、調査から資料化まで強化／JR東日本、窓口で音声AI実験／AI利用料、社員ごとに上限管理可能に</description>
+  </item>
+  <item>
+    <title>2026-06-09 AI朝刊：OpenAI、上場準備の書類を提出 ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-06-09/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-09/</guid>
+    <pubDate>Tue, 09 Jun 2026 06:30:00 +0900</pubDate>
+    <description>OpenAI、上場準備の書類を提出／Apple、Gemini軸のAI基盤を公開／Nvidia、韓国でAI工場構想拡大／neoAI Chat、Box連携を拡充／Claude Code狙うnpm攻撃に警戒</description>
+  </item>
+  <item>
+    <title>2026-06-08 AI朝刊：経産省、現場特化AIに16件採択 ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-06-08/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-08/</guid>
+    <pubDate>Mon, 08 Jun 2026 06:30:00 +0900</pubDate>
+    <description>経産省、現場特化AIに16件採択／Claude、業務代行AIを全有料開放／Liquid AI、日本語AIを無償公開／Anthropic、AI開発減速を提言／OpenAI、ChatGPTを業務アプリ化へ</description>
+  </item>
+  <item>
+    <title>2026-06-06 AI朝刊：アンソロピック、AI開発減速を提言 ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-06-06/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-06/</guid>
+    <pubDate>Sat, 06 Jun 2026 06:30:00 +0900</pubDate>
+    <description>アンソロピック、AI開発減速を提言／日立、Claude Mythosでインフラ防衛へ／Google、SpaceXからAI計算資源を調達／Cloudflare、AI利用料の暴走を制御／Copilot、隔離環境で安全に操作可能に</description>
+  </item>
+  <item>
+    <title>2026-06-05 AI朝刊：メタ、AIデータセンターを「テント」で高速建設 ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-06-05/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-05/</guid>
+    <pubDate>Fri, 05 Jun 2026 06:30:00 +0900</pubDate>
+    <description>メタ、AIデータセンターを「テント」で高速建設／Appleがビジネス向けメッセージで初のAIエージェントを承認／Databricks、AIアシスタントの検索を3倍高速化／NVIDIA、企業向けAIのコンテンツ安全性を強化／NVIDIAの高性能AIモデルがAWSで利用可能に</description>
+  </item>
+  <item>
+    <title>2026-06-04 AI朝刊：Google、AI事業に過去最高の850億ドル投資へ ほか2本</title>
+    <link>https://nowonair.vercel.app/news/2026-06-04/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-04/</guid>
+    <pubDate>Thu, 04 Jun 2026 06:30:00 +0900</pubDate>
+    <description>Google、AI事業に過去最高の850億ドル投資へ／MicrosoftとNVIDIA、AI特化型次世代PCを発表／SpaceX、AI資金調達含む750億ドルIPOを計画</description>
+  </item>
+  <item>
+    <title>2026-06-03 AI朝刊：Microsoft、常時稼働AI「Scout」で業務を自動化 ほか3本</title>
+    <link>https://nowonair.vercel.app/news/2026-06-03/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-03/</guid>
+    <pubDate>Wed, 03 Jun 2026 06:30:00 +0900</pubDate>
+    <description>Microsoft、常時稼働AI「Scout」で業務を自動化／Uber、AI予算を4ヶ月で使い切り利用制限へ／OpenAI Codex、開発者以外も業務効率化に活用／中小企業こそAI活用で業務効率を劇的に改善</description>
+  </item>
+  <item>
+    <title>2026-06-02 AI朝刊：OpenAIの最新AIモデルがAWSで利用可能に ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-06-02/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-02/</guid>
+    <pubDate>Tue, 02 Jun 2026 06:30:00 +0900</pubDate>
+    <description>OpenAIの最新AIモデルがAWSで利用可能に／AnthropicのClaude Opus 4.8がAWSで提供開始／Alphabet、AIインフラ投資で800億ドル調達へ／Anthropic、史上最大規模のIPOを秘密裏に申請／フロリダ州、OpenAIとCEOを提訴「ChatGPTは危険」</description>
+  </item>
+  <item>
+    <title>2026-06-01 AI朝刊：日立、Anthropicと戦略提携 Claudeを全従業員に導入 ほか2本</title>
+    <link>https://nowonair.vercel.app/news/2026-06-01/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-01/</guid>
+    <pubDate>Mon, 01 Jun 2026 06:30:00 +0900</pubDate>
+    <description>日立、Anthropicと戦略提携 Claudeを全従業員に導入／ソフトバンクG、仏に14兆円投資 欧州最大級AIデータセンター／AIデータセンター建設に透明性要求 環境活動家が警鐘</description>
+  </item>
+  <item>
+    <title>2026-05-31 AI朝刊：GitHub Copilot、従量課金制へ移行でコスト急増の懸念 ほか2本</title>
+    <link>https://nowonair.vercel.app/news/2026-05-31/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-05-31/</guid>
+    <pubDate>Sun, 31 May 2026 06:30:00 +0900</pubDate>
+    <description>GitHub Copilot、従量課金制へ移行でコスト急増の懸念／Amazon Bedrock、プロンプト最適化・移行ツールを発表／AWS Transform 1周年、Claude PlatformがAWSで利用可能に</description>
+  </item>
+  <item>
+    <title>2026-05-30 AI朝刊：AIコーディング依存に警鐘、生産性向上も品質低下リスク ほか6本</title>
+    <link>https://nowonair.vercel.app/news/2026-05-30/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-05-30/</guid>
+    <pubDate>Sat, 30 May 2026 06:30:00 +0900</pubDate>
+    <description>AIコーディング依存に警鐘、生産性向上も品質低下リスク／小型AIエージェント「MagenticLite」発表、ローカル実行可能に／デザインセンスを持つ画像生成AI「Recraft V4」登場／NVIDIAがケルト語対応LLM開発、地域サービスに貢献／Anthropic、金融特化型AIエージェントをClaudeに導入</description>
+  </item>
+  <item>
+    <title>2026-05-29 AI朝刊：富士通がOpenAIとAnthropicと提携 ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-05-29/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-05-29/</guid>
+    <pubDate>Fri, 29 May 2026 06:30:00 +0900</pubDate>
+    <description>富士通がOpenAIとAnthropicと提携／Anthropicの新AIモデル「Claude Opus 4.8」公開／NVIDIAの「Vera」CPUが超越的性能を発揮／Google、環境リスクに対応するAIプログラム開始／新しいAWS Resilience Hubの発表</description>
+  </item>
+  <item>
+    <title>2026-05-28 AI朝刊：シスコ、Codexで開発工程を刷新 ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-05-28/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-05-28/</guid>
+    <pubDate>Thu, 28 May 2026 06:30:00 +0900</pubDate>
+    <description>シスコ、Codexで開発工程を刷新／Devin開発元、評価額260億ドル超に／AIエージェントが株売買を実行へ／Snowflake、AWSと60億ドル契約／YouTube、AI動画の自動表示を開始</description>
+  </item>
+  <item>
+    <title>2026-05-23 AI朝刊：OpenAI、Gartnerが評価する企業向けコーディングエージェントのリーダーに ほか4本</title>
+    <link>https://nowonair.vercel.app/news/2026-05-23/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-05-23/</guid>
+    <pubDate>Sat, 23 May 2026 06:30:00 +0900</pubDate>
+    <description>OpenAI、Gartnerが評価する企業向けコーディングエージェントのリーダーに／Google I/O 2026でAIの新たな可能性が示唆／Google、AI検索の新たな時代を発表／OpenAI、PowerPointプラグインを発表／Deepseek、AGI研究優先へ</description>
+  </item>
+  <item>
+    <title>2026-05-22 AI朝刊：AdventHealthがChatGPTで医療現場の効率化を実現 ほか6本</title>
+    <link>https://nowonair.vercel.app/news/2026-05-22/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-05-22/</guid>
+    <pubDate>Fri, 22 May 2026 06:30:00 +0900</pubDate>
+    <description>AdventHealthがChatGPTで医療現場の効率化を実現／AI生成コンテンツの出所を明確にする新機能をOpenAIが発表／Google、AIモードで検索の利用法が変化する／Google Workspaceに新しいAI機能が追加／AIのエージェント時代が到来、Google I/Oで発表</description>
+  </item>
+  <item>
+    <title>2026-05-21 AI朝刊：OpenAIのモデルが離散幾何学の中心的予想を覆す ほか3本</title>
+    <link>https://nowonair.vercel.app/news/2026-05-21/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-05-21/</guid>
+    <pubDate>Thu, 21 May 2026 06:30:00 +0900</pubDate>
+    <description>OpenAIのモデルが離散幾何学の中心的予想を覆す／RampがCodexを活用したコードレビューの加速法／OpenAIがシンガポール向けにAIパートナーシップ提携／GoogleがI/O 2026でAIを活用した新機能を発表</description>
+  </item>
+  <item>
+    <title>2026-05-19 AI朝刊：Cursor、コーディングAIで大手に対抗。性能同等で価格は10分の1 ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-05-19/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-05-19/</guid>
+    <pubDate>Tue, 19 May 2026 06:30:00 +0900</pubDate>
+    <description>Cursor、コーディングAIで大手に対抗。性能同等で価格は10分の1／OpenAI、DellとCodexを統合。オンプレミス環境でAIコーディング実装へ／営業チームがCodexで業務効率化。提案書・会議準備を数分で作成／Anthropic、開発ツール企業Stainlessを$300M超で買収。競合の開発基盤を掌握／SandboxAQの創薬AIがClaudeに統合。専門知識なしに分子設計が可能に</description>
+  </item>
+  <item>
+    <title>2026-05-18 AI朝刊：マルタ、全国民にChatGPT Plus無料提供　AI教育と併行 ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-05-18/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-05-18/</guid>
+    <pubDate>Mon, 18 May 2026 06:30:00 +0900</pubDate>
+    <description>マルタ、全国民にChatGPT Plus無料提供　AI教育と併行／GPT-5.5、複雑な企業文書処理で精度50%超え　エラー46%削減／OpenAI経営再編　「エージェント化」へ製品統合　Codex中心に／医療現場のAI記述者、基本情報を改ざん　50%以上が記入漏れ／生成AI研究、不可能な問題も自信持って解答　数学検証で露呈</description>
+  </item>
+  <item>
+    <title>2026-05-16 AI朝刊：ChatGPTが銀行口座と連携、個人財務管理を本格化 ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-05-16/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-05-16/</guid>
+    <pubDate>Sat, 16 May 2026 06:30:00 +0900</pubDate>
+    <description>ChatGPTが銀行口座と連携、個人財務管理を本格化／シンガポール大手Sea、開発チームに「Codex」を全展開／Codexがモバイルアプリに対応、どこからでも開発タスク監視可能に／Anthropic、9000億ドル評価で初めてOpenAIを上回る／Granite、200言語対応の小型埋め込みモデル公開</description>
+  </item>
+</channel>
+</rss>

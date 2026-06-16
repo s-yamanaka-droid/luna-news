@@ -6,6 +6,7 @@
 <title>日立、Anthropicと戦略提携 Claudeを全従業員に導入 ほか2本｜2026-06-01 AI朝刊 — Now on AIr</title>
 <meta name="description" content="日立、Anthropicと戦略提携 Claudeを全従業員に導入、ソフトバンクG、仏に14兆円投資 欧州最大級AIデータセンター、AIデータセンター建設に透明性要求 環境活動家が警鐘 など3本を図解で。2026-06-01のAI業界ニュースを毎朝整理。" />
 <link rel="canonical" href="https://nowonair.vercel.app/news/2026-06-01/" />
+<link rel="alternate" type="application/rss+xml" title="Now on AIr RSS" href="https://nowonair.vercel.app/feed.xml" />
 <meta name="robots" content="index,follow" />
 <meta name="theme-color" content="#CE1141" />
 <meta name="referrer" content="strict-origin-when-cross-origin" />
@@ -161,7 +162,7 @@
     <li><a href="../../#archive">ARCHIVE</a></li>
     <li><a href="../../#about">ABOUT</a></li>
   </ul>
-  <button class="subscribe" onclick="return false">SUBSCRIBE · 06:30 DAILY →</button>
+  <a class="subscribe" href="/feed.xml" title="RSSで購読（毎朝6:30更新）">SUBSCRIBE · 06:30 DAILY →</a>
 </nav>
 <div class="hero-wrap">
   <div class="edition-line">
@@ -360,7 +361,12 @@
       </div>
       <div class="modal-foot">
         <span id="modal-src"></span>
-        <a id="modal-link" href="#" target="_blank" rel="noopener">元記事を読む →</a>
+        <span class="modal-share">
+          <a id="share-x" class="share-btn" href="#" target="_blank" rel="noopener" title="Xでシェア">X で共有</a>
+          <a id="share-line" class="share-btn" href="#" target="_blank" rel="noopener" title="LINEでシェア">LINE</a>
+          <button id="share-copy" class="share-btn" type="button" title="共有テキストをコピー">コピー</button>
+          <a id="modal-link" href="#" target="_blank" rel="noopener">元記事を読む →</a>
+        </span>
       </div>
     </div>
   </div>
@@ -387,7 +393,20 @@
     var linkEl=document.getElementById('modal-link');
     linkEl.href=d.link||'#';
 
-    /* Gemini slide image */
+    /* share buttons（icebreak.share_text を優先・無ければ見出し）*/
+    var shareText=d.title||'';
+    try{ var ib=JSON.parse(d.icebreak||'null'); if(ib&&ib.share_text){shareText=ib.share_text;} }catch(e){}
+    var pageUrl=location.origin+location.pathname.replace(/index\.html$/,'')+(d.link?d.link.replace(/^\.\//,''):'').replace(/^\.\.\//,'');
+    var shareUrl=(d.link&&d.link.indexOf('http')===0)?d.link:location.href;
+    var full=shareText+' #NowonAIr';
+    var xEl=document.getElementById('share-x');
+    if(xEl)xEl.href='https://twitter.com/intent/tweet?text='+encodeURIComponent(full)+'&url='+encodeURIComponent(shareUrl);
+    var lineEl=document.getElementById('share-line');
+    if(lineEl)lineEl.href='https://line.me/R/msg/text/?'+encodeURIComponent(full+' '+shareUrl);
+    var copyEl=document.getElementById('share-copy');
+    if(copyEl)copyEl.onclick=function(){navigator.clipboard&&navigator.clipboard.writeText(full+' '+shareUrl);copyEl.textContent='コピー済';setTimeout(function(){copyEl.textContent='コピー';},1500);};
+
+    /* slide image */
     var slideWrap=document.getElementById('modal-slide-wrap');
     var slideImg=document.getElementById('modal-slide-img');
     if(d.slide){

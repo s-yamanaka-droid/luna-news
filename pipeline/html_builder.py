@@ -82,7 +82,12 @@ INTERACTIVE_JS = """
       </div>
       <div class="modal-foot">
         <span id="modal-src"></span>
-        <a id="modal-link" href="#" target="_blank" rel="noopener">元記事を読む →</a>
+        <span class="modal-share">
+          <a id="share-x" class="share-btn" href="#" target="_blank" rel="noopener" title="Xでシェア">X で共有</a>
+          <a id="share-line" class="share-btn" href="#" target="_blank" rel="noopener" title="LINEでシェア">LINE</a>
+          <button id="share-copy" class="share-btn" type="button" title="共有テキストをコピー">コピー</button>
+          <a id="modal-link" href="#" target="_blank" rel="noopener">元記事を読む →</a>
+        </span>
       </div>
     </div>
   </div>
@@ -109,7 +114,20 @@ INTERACTIVE_JS = """
     var linkEl=document.getElementById('modal-link');
     linkEl.href=d.link||'#';
 
-    /* Gemini slide image */
+    /* share buttons（icebreak.share_text を優先・無ければ見出し）*/
+    var shareText=d.title||'';
+    try{ var ib=JSON.parse(d.icebreak||'null'); if(ib&&ib.share_text){shareText=ib.share_text;} }catch(e){}
+    var pageUrl=location.origin+location.pathname.replace(/index\.html$/,'')+(d.link?d.link.replace(/^\.\//,''):'').replace(/^\.\.\//,'');
+    var shareUrl=(d.link&&d.link.indexOf('http')===0)?d.link:location.href;
+    var full=shareText+' #NowonAIr';
+    var xEl=document.getElementById('share-x');
+    if(xEl)xEl.href='https://twitter.com/intent/tweet?text='+encodeURIComponent(full)+'&url='+encodeURIComponent(shareUrl);
+    var lineEl=document.getElementById('share-line');
+    if(lineEl)lineEl.href='https://line.me/R/msg/text/?'+encodeURIComponent(full+' '+shareUrl);
+    var copyEl=document.getElementById('share-copy');
+    if(copyEl)copyEl.onclick=function(){navigator.clipboard&&navigator.clipboard.writeText(full+' '+shareUrl);copyEl.textContent='コピー済';setTimeout(function(){copyEl.textContent='コピー';},1500);};
+
+    /* slide image */
     var slideWrap=document.getElementById('modal-slide-wrap');
     var slideImg=document.getElementById('modal-slide-img');
     if(d.slide){
@@ -302,6 +320,59 @@ CSS_VER = "v5"
 SITE_URL = "https://nowonair.vercel.app/"
 OG_IMAGE = SITE_URL + "assets/og-cover.png"  # 1200x630 OGPカバー
 
+
+def build_feed(all_dates: list[str], limit: int = 25) -> Path:
+    """RSS 2.0 フィードを docs/feed.xml に生成（購読・被リンク・Discover流入用）。
+    各 <item> = その日の朝刊（タイトル=トップ見出し+本数、説明=上位見出し）。"""
+    import html as _html
+    from email.utils import format_datetime
+    from datetime import datetime as _dt, timezone, timedelta
+    jst = timezone(timedelta(hours=9))
+    items = []
+    for d in sorted(all_dates, reverse=True)[:limit]:
+        ap = SITE_DIR / "news" / d / "articles.json"
+        if not ap.exists():
+            continue
+        try:
+            arts = json.loads(ap.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+        titles = [a.get("title", "") for a in arts if a.get("title")]
+        if not titles:
+            continue
+        link = f"{SITE_URL}news/{d}/"
+        item_title = _html.escape(f"{d} AI朝刊：{titles[0]} ほか{len(titles)-1}本")
+        desc = _html.escape("／".join(titles[:5]))
+        try:
+            pub = format_datetime(_dt.strptime(d, "%Y-%m-%d").replace(hour=6, minute=30, tzinfo=jst))
+        except Exception:
+            pub = ""
+        items.append(
+            f"  <item>\n"
+            f"    <title>{item_title}</title>\n"
+            f"    <link>{link}</link>\n"
+            f"    <guid isPermaLink=\"true\">{link}</guid>\n"
+            f"    <pubDate>{pub}</pubDate>\n"
+            f"    <description>{desc}</description>\n"
+            f"  </item>"
+        )
+    xml = (
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">\n'
+        '<channel>\n'
+        '  <title>Now on AIr — AI Morning Intelligence</title>\n'
+        f'  <link>{SITE_URL}</link>\n'
+        f'  <atom:link href="{SITE_URL}feed.xml" rel="self" type="application/rss+xml" />\n'
+        '  <description>AIに詳しくない日本のビジネスパーソンへ。毎朝6:30、AI業界ニュースを図解と「明日からできる活用法」で。</description>\n'
+        '  <language>ja</language>\n'
+        + "\n".join(items) + "\n"
+        '</channel>\n</rss>\n'
+    )
+    out = SITE_DIR / "feed.xml"
+    out.write_text(xml, encoding="utf-8")
+    return out
+
+
 def _head(title, desc, css_path, fonts, canonical=None, og_image=None, asset_prefix="./"):
     canonical = canonical or SITE_URL
     og_image = og_image or OG_IMAGE
@@ -321,6 +392,7 @@ def _head(title, desc, css_path, fonts, canonical=None, og_image=None, asset_pre
 <title>{title}</title>
 <meta name="description" content="{desc}" />
 <link rel="canonical" href="{canonical}" />
+<link rel="alternate" type="application/rss+xml" title="Now on AIr RSS" href="{SITE_URL}feed.xml" />
 <meta name="robots" content="index,follow" />
 <meta name="theme-color" content="#CE1141" />
 <meta name="referrer" content="strict-origin-when-cross-origin" />
@@ -394,7 +466,7 @@ def build_index(all_dates: list[str], today_articles: list[dict], today_str: str
     <li><a href="./cases.html">CASES</a></li>
     <li><a href="#about">ABOUT</a></li>
   </ul>
-  <button class="subscribe" onclick="return false">SUBSCRIBE · 06:30 DAILY →</button>
+  <a class="subscribe" href="/feed.xml" title="RSSで購読（毎朝6:30更新）">SUBSCRIBE · 06:30 DAILY →</a>
 </nav>"""
 
     # ── hero ──
@@ -582,7 +654,11 @@ def build_index(all_dates: list[str], today_articles: list[dict], today_str: str
     <a href="./privacy.html" style="color:var(--mute);margin:0 10px;text-decoration:none;border-bottom:1px solid var(--rule-2);">プライバシーポリシー</a>
     <a href="./cases.html" style="color:var(--mute);margin:0 10px;text-decoration:none;border-bottom:1px solid var(--rule-2);">AI活用事例</a>
     <a href="./weekly.html" style="color:var(--mute);margin:0 10px;text-decoration:none;border-bottom:1px solid var(--rule-2);">週次ダイジェスト</a>
+    <a href="/feed.xml" style="color:var(--mute);margin:0 10px;text-decoration:none;border-bottom:1px solid var(--rule-2);">RSS購読</a>
   </div>
+  <div style="margin-bottom:8px;">この朝刊は、AIの「眠らない右腕」を作る
+    <a href="https://vigil-playbook.vercel.app" target="_blank" rel="noopener" style="color:var(--red);text-decoration:none;font-weight:700;border-bottom:1px solid var(--red);">Vigil AI</a>
+    の知見から生まれています。</div>
   <div>運営：株式会社TREPRO（編集責任者：山中秀斗）</div>
   <div>© {dt.strftime('%Y')} Now on AIr / TREPRO. All rights reserved.</div>
 </footer>"""
@@ -797,7 +873,7 @@ def build_daily_page(date_str: str, articles: list[dict], issue_num: int = None)
     <li><a href="../../#archive">ARCHIVE</a></li>
     <li><a href="../../#about">ABOUT</a></li>
   </ul>
-  <button class="subscribe" onclick="return false">SUBSCRIBE · 06:30 DAILY →</button>
+  <a class="subscribe" href="/feed.xml" title="RSSで購読（毎朝6:30更新）">SUBSCRIBE · 06:30 DAILY →</a>
 </nav>"""
 
     # ── daily head ──
@@ -1034,6 +1110,11 @@ INDEX_CSS = """
   flex-wrap:wrap;gap:12px;padding-top:16px;border-top:1px solid var(--rule);
 }
 #modal-src{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--mute);letter-spacing:.08em;}
+.modal-share{display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+.share-btn{font-family:'JetBrains Mono',monospace;font-size:10px;font-weight:700;letter-spacing:.06em;
+  padding:7px 12px;border:1px solid var(--rule-2);background:#fff;color:var(--ink-2);text-decoration:none;
+  cursor:pointer;transition:border-color .15s,color .15s;}
+.share-btn:hover{border-color:var(--red);color:var(--red);}
 #modal-link{
   font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.1em;font-weight:700;
   color:#fff;background:var(--red);padding:10px 22px;text-decoration:none;

@@ -6,7 +6,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent.parent / "pipeline"))
-from html_builder import build_daily_page, build_index, SITE_DIR
+from html_builder import build_daily_page, build_index, build_feed, SITE_DIR
 
 base = SITE_DIR / "news"
 date_dirs = sorted(d for d in base.iterdir() if d.is_dir() and (d / "articles.json").exists())
@@ -51,5 +51,9 @@ for loc, freq, pri in urls:
 xml.append("</urlset>")
 (SITE_DIR / "sitemap.xml").write_text("\n".join(xml), encoding="utf-8")
 print(f"Sitemap → {SITE_DIR / 'sitemap.xml'} ({len(urls)} URLs)")
+
+# ── RSS フィード生成（購読・被リンク・Discover）──
+feed_path = build_feed(all_dates)
+print(f"Feed → {feed_path}")
 
 print("\nAll pages rebuilt successfully!")
