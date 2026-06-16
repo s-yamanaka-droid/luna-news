@@ -663,7 +663,8 @@ def _build_today_grid(articles, date_str, img_dir, root="../../"):
         slide_path = img_dir / f"topic_{i}.png"
         slide_exists = slide_path.exists()
         slide_ver  = int(slide_path.stat().st_mtime) if slide_exists else 0
-        slide_rel  = f"{img_root}/topic_{i}.png?v={slide_ver}"
+        _ext = "webp" if (img_dir / f"topic_{i}.webp").exists() else "png"
+        slide_rel  = f"{img_root}/topic_{i}.{_ext}?v={slide_ver}"
 
         kp_json    = _json.dumps(a.get("keypoints", []), ensure_ascii=False).replace('"', '&quot;')
         pull_esc   = a.get("pull","").replace('"','&quot;')
@@ -721,6 +722,41 @@ def _build_today_grid(articles, date_str, img_dir, root="../../"):
 
 
 # ── DAILY DETAIL PAGE ────────────────────────────────────────
+
+def _daily_jsonld(date_str: str, articles: list[dict]) -> str:
+    """各記事の NewsArticle + パンくず BreadcrumbList を JSON-LD で出力（Google ニュース/Discover 対策）"""
+    import json as _json
+    page_url = f"{SITE_URL}news/{date_str}/"
+    publisher = {"@type": "Organization", "name": "Now on AIr",
+                 "logo": {"@type": "ImageObject", "url": f"{SITE_URL}assets/favicon.svg"}}
+    graph = []
+    for i, a in enumerate(articles, 1):
+        if not a.get("title"):
+            continue
+        graph.append({
+            "@type": "NewsArticle",
+            "headline": a["title"][:110],
+            "description": a.get("lede", "")[:200],
+            "datePublished": f"{date_str}T06:30:00+09:00",
+            "dateModified": f"{date_str}T06:30:00+09:00",
+            "image": [f"{SITE_URL}assets/images/{date_str}/topic_{i}.png"],
+            "url": f"{page_url}#topic-{i}",
+            "mainEntityOfPage": {"@type": "WebPage", "@id": f"{page_url}#topic-{i}"},
+            "articleSection": a.get("category", ""),
+            "author": {"@type": "Person", "name": "山中秀斗"},
+            "publisher": publisher,
+        })
+    graph.append({
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Now on AIr", "item": SITE_URL},
+            {"@type": "ListItem", "position": 2, "name": f"{date_str} 朝刊", "item": page_url},
+        ],
+    })
+    payload = {"@context": "https://schema.org", "@graph": graph}
+    return ('\n<script type="application/ld+json">'
+            + _json.dumps(payload, ensure_ascii=False) + '</script>\n')
+
 
 def build_daily_page(date_str: str, articles: list[dict], issue_num: int = None) -> Path:
     dt        = datetime.strptime(date_str, "%Y-%m-%d")
@@ -786,13 +822,20 @@ def build_daily_page(date_str: str, articles: list[dict], issue_num: int = None)
         slide_path   = img_dir / f"topic_{i}.png"
         slide_exists = slide_path.exists()
         slide_ver    = int(slide_path.stat().st_mtime) if slide_exists else 0
-        slide_rel    = f"../../assets/images/{date_str}/topic_{i}.png?v={slide_ver}"
+        # 表示は WebP（90%軽量）。webp が無い古い日は png にフォールバック
+        webp_path    = img_dir / f"topic_{i}.webp"
+        ext          = "webp" if webp_path.exists() else "png"
+        slide_rel    = f"../../assets/images/{date_str}/topic_{i}.{ext}?v={slide_ver}"
         slide_html   = ""
         if slide_exists:
+            # 先頭画像は LCP 対象なので eager + 優先取得。2枚目以降は lazy
+            load_attr = ('loading="eager" fetchpriority="high"' if i == 1
+                         else 'loading="lazy"')
             slide_html = (
                 f'      <div class="slide-img zoom-image" data-src="{slide_rel}" '
                 f'data-alt="{a["title"]}" role="button" tabindex="0">\n'
-                f'        <img src="{slide_rel}" alt="{a["title"]}" loading="lazy" />\n'
+                f'        <img src="{slide_rel}" alt="{a["title"]}" '
+                f'width="1536" height="1024" {load_attr} />\n'
                 f'      </div>'
             )
 
@@ -862,15 +905,22 @@ def build_daily_page(date_str: str, articles: list[dict], issue_num: int = None)
   </div>
 </article>"""
 
+    # SEO: その日のトップ記事見出しで title/description を個別最適化（汎用文言→検索キーワード化）
+    _titles = [a.get("title", "") for a in articles if a.get("title")]
+    seo_title = (f"{_titles[0]} ほか{len(articles)-1}本｜{date_str} AI朝刊 — Now on AIr"
+                 if _titles else f"{date_str} Morning Dispatch — Now on AIr")
+    seo_desc = ("、".join(_titles[:3]) + f" など{len(articles)}本を図解で。{date_str}のAI業界ニュースを毎朝整理。"
+                if _titles else f"{date_str} の Now on AIr — {len(articles)}本のAI業界ニュース。")
+
     html = _head(
-        f"{date_str} Morning Dispatch — Now on AIr",
-        f"{date_str} の Now on AIr モーニングディスパッチ — {len(articles)}本のAI業界ニュース。",
+        seo_title,
+        seo_desc,
         "../../assets/vigil.css",
         FONTS_VIGIL,
         canonical=f"{SITE_URL}news/{date_str}/",
         og_image=f"{SITE_URL}assets/images/{date_str}/topic_1.png?v={int((img_dir / 'topic_1.png').stat().st_mtime) if (img_dir / 'topic_1.png').exists() else 0}",
         asset_prefix="../../",
-    ) + DAILY_CSS + f"""
+    ) + _daily_jsonld(date_str, articles) + DAILY_CSS + f"""
 {dispatch}
 {nav}
 {daily_head}

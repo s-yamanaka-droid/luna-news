@@ -52,6 +52,9 @@ fi
 echo "[1.7] 図解品質リペア" | tee -a "$LOG"
 python scripts/repair_slides.py "$TODAY" 2>&1 | tee -a "$LOG" || echo "repair失敗（処理は継続）" | tee -a "$LOG"
 
+# [1.8] WebP変換（表示用軽量版・PNGは番犬/OG用に残す。詳細ページ 12.8MB→1.5MB）
+python scripts/webp_convert.py "$TODAY" 2>&1 | tee -a "$LOG" || echo "webp変換失敗（png表示にフォールバック）" | tee -a "$LOG"
+
 # [1.5] 欠番バックフィル（直近3日・6/7 永久欠番事故の再発防止）
 for d in 1 2 3; do
   DAY=$(date -v-${d}d +%Y-%m-%d)
@@ -60,6 +63,7 @@ for d in 1 2 3; do
     python pipeline/run.py --date "$DAY" --skip-social 2>&1 | tee -a "$LOG" || { echo "[backfill] $DAY 失敗（処理は継続）" | tee -a "$LOG"; continue; }
     if [ -f "/Users/yamanakashuto/apps/vigil-news/docs/news/$DAY/articles.json" ]; then
       python scripts/repair_slides.py "$DAY" 2>&1 | tee -a "$LOG" || true   # 補完日の図解も検品・修復
+      python scripts/webp_convert.py "$DAY" 2>&1 | tee -a "$LOG" || true     # 補完日もWebP化
       python scripts/gen_quickstart.py "$DAY" 2>&1 | tee -a "$LOG" || true
       python scripts/gen_icebreak.py "$DAY" 2>&1 | tee -a "$LOG" || true
       echo "[backfill] $DAY 補完完了" | tee -a "$LOG"
