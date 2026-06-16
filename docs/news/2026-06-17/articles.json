@@ -1,0 +1,203 @@
+[
+  {
+    "title": "OpenAIとSBG、AIサイバー対策へ",
+    "category": "セキュリティ",
+    "source": "日経ビジネス テクノロジー",
+    "lede": "OpenAIとSBGの新会社が、AIを使ったサイバーセキュリティー事業を緊急開始した。",
+    "keypoints": [
+      "SB OAI Japanが発表",
+      "孫氏が緊急性を強調",
+      "AI攻撃リスクに対応",
+      "企業向けAI競争が加速"
+    ],
+    "pull": "AI活用は、防御力そのものを競う段階に入った。",
+    "bizapp": {
+      "summary": "自社のAI利用と防御体制を同時に見直せる",
+      "actions": [
+        "社内AI利用ルールを棚卸し",
+        "中小企業向けAI防御診断を提案",
+        "放置すると攻撃対応が後手に回る"
+      ]
+    },
+    "links": [
+      "https://business.nikkei.com/atcl/gen/19/00845/061600010/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Claude上位AI停止、各社に波紋",
+    "category": "政策・規制",
+    "source": "ITmedia News / Dark Reading",
+    "lede": "米政府の指令でClaude Mythos 5とFable 5が停止し、日本政府や3メガバンクにも影響が及んだ。",
+    "keypoints": [
+      "米政府が利用を制限",
+      "Anthropicが全顧客で停止",
+      "日本政府も影響確認中",
+      "専門家が制限撤回を要請"
+    ],
+    "pull": "最先端AIは、性能だけでなく地政学リスクも見る時代だ。",
+    "bizapp": {
+      "summary": "重要業務はAIモデルの代替先を用意すべき",
+      "actions": [
+        "調査業務はNotebookLMも併用",
+        "金融向けAI調達リスクを提案",
+        "単一AI依存は業務停止を招く"
+      ]
+    },
+    "links": [
+      "https://www.itmedia.co.jp/news/articles/2606/16/news124.html",
+      "https://www.darkreading.com/vulnerabilities-threats/security-community-slams-us-ban-on-exporting-mythos-fable"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "freee、業務代行AIを提供開始",
+    "category": "ツール更新",
+    "source": "AI Watch",
+    "lede": "freeeが、売上レポートや経費確認などを自然言語で任せられるAIアシスタントを始めた。",
+    "keypoints": [
+      "freee製品と標準連携",
+      "売上や経費業務を代行",
+      "10分程度でAI作成可能",
+      "AXパートナーも募集"
+    ],
+    "pull": "バックオフィスAIは、試す段階から任せる段階へ移る。",
+    "bizapp": {
+      "summary": "経理・労務の定型作業をfreee上で減らせる",
+      "actions": [
+        "freeeで経費抜け漏れ確認",
+        "会計事務所向けAX支援を提案",
+        "月次処理の遅れを放置しない"
+      ]
+    },
+    "links": [
+      "https://ai.watch.impress.co.jp/docs/news/2117646.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "SpaceX、Cursorを9.6兆円買収へ",
+    "category": "業界動向",
+    "source": "Impress Watch",
+    "lede": "SpaceXがAIコーディングツールCursorを買収し、共同開発モデルをCursorとGrok Buildに出す予定だ。",
+    "keypoints": [
+      "買収額は約9.6兆円",
+      "2026年第3四半期完了予定",
+      "共同モデルを近日公開",
+      "AI開発ツール再編が進む"
+    ],
+    "pull": "開発現場のAIツールは、大手AI戦略の中核資産になった。",
+    "bizapp": {
+      "summary": "開発部門のAIツール選定を再点検できる",
+      "actions": [
+        "Cursorの利用範囲を整理",
+        "受託開発のAI導入支援を提案",
+        "標準ツール未定だと競争力を失う"
+      ]
+    },
+    "links": [
+      "https://www.watch.impress.co.jp/docs/news/2117690.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Shopify、AI経由注文が15倍に",
+    "category": "業界動向",
+    "source": "MarkeZine",
+    "lede": "ShopifyではAI経由の注文が前年比15倍となり、検索から会話で買う流れが強まっている。",
+    "keypoints": [
+      "AI経由注文が15倍",
+      "意思決定から決済まで担う",
+      "購買行動が会話型へ変化",
+      "日本ECにも対応迫る"
+    ],
+    "pull": "ECは、商品を探す場所からAIに相談して買う場へ変わる。",
+    "bizapp": {
+      "summary": "ECの商品情報をAIに選ばれやすく整備できる",
+      "actions": [
+        "Shopifyの商品説明を整備",
+        "EC事業者へAI接客改善を提案",
+        "今期中に商品データを見直す"
+      ]
+    },
+    "links": [
+      "https://markezine.jp/article/detail/76947"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "OpenAI、公開前AIを会話で検証",
+    "category": "研究",
+    "source": "OpenAI Blog",
+    "lede": "OpenAIは、過去の会話を使い新モデルの望ましくない振る舞いを公開前に予測する方法を導入した。",
+    "keypoints": [
+      "公開前の挙動を予測",
+      "実会話に近い文脈を使用",
+      "安全審査の補助信号に",
+      "プライバシー保護で再現"
+    ],
+    "pull": "AIの品質管理は、ベンチマークから実利用の予行演習へ進む。",
+    "bizapp": {
+      "summary": "社内AI導入前のリスク検証に応用できる",
+      "actions": [
+        "NotebookLMで想定QAを整理",
+        "社内AI検証パックを提案",
+        "公開前検証なしは炎上リスク"
+      ]
+    },
+    "links": [
+      "https://openai.com/index/deployment-simulation"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "GitLab、AI向けGit基盤を発表",
+    "category": "ツール更新",
+    "source": "Publickey",
+    "lede": "GitLabがAIエージェント向けのGit互換管理サービスProject Switchを発表した。",
+    "keypoints": [
+      "AIエージェント向け管理基盤",
+      "最大50倍高速とうたう",
+      "トークン利用を半減",
+      "並列開発増加に対応"
+    ],
+    "pull": "AI開発では、人間向けの管理基盤だけでは足りなくなる。",
+    "bizapp": {
+      "summary": "AI開発のコストと速度を見直す材料になる",
+      "actions": [
+        "GitLabで開発基盤を比較",
+        "SI企業へAI開発運用を提案",
+        "非効率な管理は開発費を増やす"
+      ]
+    },
+    "links": [
+      "https://www.publickey1.jp/blog/26/gitlabaigitproject_switch50.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "MDN、AI向けMCPサーバー公開",
+    "category": "ツール更新",
+    "source": "Gihyo.jp",
+    "lede": "MDNが、最新のWeb技術情報をAIツールやIDEに取り込めるMCPサーバーを試験公開した。",
+    "keypoints": [
+      "MDN文書をAIに接続",
+      "古い回答の防止を狙う",
+      "CursorやCodex CLIに対応",
+      "ブラウザ互換情報も参照"
+    ],
+    "pull": "開発AIの精度は、最新資料につながるかで差が出る。",
+    "bizapp": {
+      "summary": "Web開発AIの古い回答を減らせる",
+      "actions": [
+        "CursorにMDN MCPを追加",
+        "制作会社へ開発AI整備を提案",
+        "古い仕様の実装ミスを減らす"
+      ]
+    },
+    "links": [
+      "https://gihyo.jp/article/2026/06/mdn-mcp-server?utm_source=feed"
+    ],
+    "likes": 0
+  }
+]
