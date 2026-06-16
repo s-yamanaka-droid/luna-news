@@ -22,7 +22,30 @@
     "links": [
       "https://business.nikkei.com/atcl/gen/19/00845/061600010/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI利用棚卸し",
+      "tool": {
+        "name": "ChatGPT",
+        "url": "https://chatgpt.com",
+        "cost": "無料〜"
+      },
+      "time": "30分",
+      "steps": [
+        "AI利用場面を書き出せ",
+        "機密情報の有無を分けよ",
+        "禁止事項を3つ決めよ"
+      ],
+      "prompt": "あなたは中小企業の情報セキュリティ担当です。{自社名}{業種}で使うAI業務を棚卸しし、機密漏えい・誤回答・権限管理のリスクと明日やる対策を表で出してください。",
+      "roi": "AI事故予防と社内確認を月5時間削減"
+    },
+    "icebreak": {
+      "hook": "OpenAIとSBGがサイバー対策を急ぐらしいですよ",
+      "punchline": "AI導入は便利さだけでなく、AI攻撃への備えまでセットで見られ始めています。",
+      "ctx_meeting": "AI導入提案の冒頭で",
+      "ctx_chat": "朝会前の雑談で",
+      "share_text": "AI活用の話をするとき、効率化だけでなく守りの話も外せなくなってきた。OpenAIとSBGがAIサイバー対策を急ぐ流れは、企業導入の前提が変わるサインに見える。"
+    }
   },
   {
     "title": "Claude上位AI停止、各社に波紋",
@@ -48,7 +71,30 @@
       "https://www.itmedia.co.jp/news/articles/2606/16/news124.html",
       "https://www.darkreading.com/vulnerabilities-threats/security-community-slams-us-ban-on-exporting-mythos-fable"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI代替先を作る",
+      "tool": {
+        "name": "NotebookLM",
+        "url": "https://notebooklm.google.com",
+        "cost": "無料〜"
+      },
+      "time": "30分",
+      "steps": [
+        "重要AI業務を3つ選べ",
+        "代替ツールを1つ試せ",
+        "停止時手順を作れ"
+      ],
+      "prompt": "あなたは事業継続の専門家です。{自社名}{業種}でAI停止時に困る業務を洗い出し、Claude以外の代替手段、手作業手順、優先順位を表にしてください。",
+      "roi": "AI停止時の業務中断を半日短縮"
+    },
+    "icebreak": {
+      "hook": "Claudeの上位AI停止、日本にも影響らしいです",
+      "punchline": "AIを使う側も、モデル提供元や政府判断に業務が左右されるリスクを見ないといけません。",
+      "ctx_meeting": "AI運用リスクの話で",
+      "ctx_chat": "移動中の会話で",
+      "share_text": "AIは性能だけで選ぶものではなくなってきた気がする。Claude Mythos 5とFable 5の停止が日本政府や3メガバンクにも波及した話は、依存先のリスクを考えるきっかけになる。"
+    }
   },
   {
     "title": "freee、業務代行AIを提供開始",
@@ -73,7 +119,30 @@
     "links": [
       "https://ai.watch.impress.co.jp/docs/news/2117646.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "経費漏れ確認",
+      "tool": {
+        "name": "freee会計",
+        "url": "https://www.freee.co.jp",
+        "cost": "プランによる"
+      },
+      "time": "10分",
+      "steps": [
+        "今月の経費を開け",
+        "未登録取引を確認せよ",
+        "月次確認文を作れ"
+      ],
+      "prompt": "あなたは小規模企業の経理担当です。{自社名}の{月}の売上・経費確認で見るべき抜け漏れ、異常値、社長への確認事項をチェックリスト化してください。",
+      "roi": "月次経理確認を月3時間削減"
+    },
+    "icebreak": {
+      "hook": "freee、10分で業務代行AIを作れるそうです",
+      "punchline": "売上レポートや経費確認みたいな定型業務は、担当者がAIに任せる前提になりそうです。",
+      "ctx_meeting": "バックオフィス提案で",
+      "ctx_chat": "経理話の流れで",
+      "share_text": "業務AIは大企業だけの話ではなくなってきた。freeeが売上レポートや経費確認を自然言語で任せられるAIを出したなら、中小企業の業務設計もかなり変わりそう。"
+    }
   },
   {
     "title": "SpaceX、Cursorを9.6兆円買収へ",
@@ -98,7 +167,30 @@
     "links": [
       "https://www.watch.impress.co.jp/docs/news/2117690.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "開発AIを標準化",
+      "tool": {
+        "name": "Cursor",
+        "url": "https://cursor.com",
+        "cost": "無料〜"
+      },
+      "time": "30分",
+      "steps": [
+        "既存コードを開け",
+        "修正候補を出させよ",
+        "利用ルールを決めよ"
+      ],
+      "prompt": "あなたは小規模開発会社のCTOです。{自社名}の{開発内容}でCursorを使う範囲、禁止する情報、レビュー手順、導入初日の試験タスクを提案してください。",
+      "roi": "軽微な修正作業を30%短縮"
+    },
+    "icebreak": {
+      "hook": "SpaceXがCursorを9.6兆円で買う話、見ました？",
+      "punchline": "AIコーディングツールが、開発現場の補助ではなく産業の中核に近づいています。",
+      "ctx_meeting": "開発体制の相談で",
+      "ctx_chat": "エンジニア雑談で",
+      "share_text": "CursorのようなAIコーディングツールが、もはや便利ツールではなく巨大企業の戦略資産になっている。SpaceXが約9.6兆円で買収へ、という話は開発の主役交代を感じる。"
+    }
   },
   {
     "title": "Shopify、AI経由注文が15倍に",
@@ -123,7 +215,30 @@
     "links": [
       "https://markezine.jp/article/detail/76947"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "商品説明をAI対応",
+      "tool": {
+        "name": "Shopify",
+        "url": "https://www.shopify.com/jp",
+        "cost": "プランによる"
+      },
+      "time": "30分",
+      "steps": [
+        "主力商品を5つ選べ",
+        "説明文を質問型にせよ",
+        "比較項目を追記せよ"
+      ],
+      "prompt": "あなたはEC改善コンサルです。{店舗名}の{商品名}をAI接客で選ばれやすくするため、用途、悩み、比較軸、購入理由を含む商品説明に書き換えてください。",
+      "roi": "商品説明改善で問い合わせ対応を月5時間削減"
+    },
+    "icebreak": {
+      "hook": "Shopify、AI経由の注文が15倍らしいです",
+      "punchline": "検索して買うより、AIと会話してそのまま買う導線が現実になってきています。",
+      "ctx_meeting": "EC改善提案の冒頭で",
+      "ctx_chat": "買い物の話題で",
+      "share_text": "ECは検索窓を整えるだけでは足りなくなるかもしれない。ShopifyでAI経由注文が前年比15倍なら、商品を見つける入口そのものが会話に移っていると感じる。"
+    }
   },
   {
     "title": "OpenAI、公開前AIを会話で検証",
@@ -148,7 +263,30 @@
     "links": [
       "https://openai.com/index/deployment-simulation"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "社内AIを事前検証",
+      "tool": {
+        "name": "Claude",
+        "url": "https://claude.ai",
+        "cost": "無料〜"
+      },
+      "time": "30分",
+      "steps": [
+        "想定質問を10個作れ",
+        "危険回答を試せ",
+        "公開可否を判定せよ"
+      ],
+      "prompt": "あなたはAI安全審査担当です。{自社名}{業種}で社内AIに聞かれそうな質問を10個作り、誤回答・炎上・個人情報リスクと公開前の修正案を出してください。",
+      "roi": "公開前トラブルの確認工数を50%削減"
+    },
+    "icebreak": {
+      "hook": "OpenAI、公開前AIを過去会話で検証するそうです",
+      "punchline": "新モデルの安全性は、テスト問題より実際の会話に近い文脈で見る流れになっています。",
+      "ctx_meeting": "AI品質管理の話で",
+      "ctx_chat": "AI雑談の深掘りで",
+      "share_text": "AIの安全審査は、決まったテストだけでは見えない部分が多そう。OpenAIが過去の会話を使って公開前の振る舞いを予測するなら、実運用に近い検証が重要になっている。"
+    }
   },
   {
     "title": "GitLab、AI向けGit基盤を発表",
@@ -173,7 +311,30 @@
     "links": [
       "https://www.publickey1.jp/blog/26/gitlabaigitproject_switch50.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI開発費を見直す",
+      "tool": {
+        "name": "GitLab",
+        "url": "https://gitlab.com",
+        "cost": "無料〜"
+      },
+      "time": "半日",
+      "steps": [
+        "開発手順を書き出せ",
+        "待ち時間を数えよ",
+        "改善候補を出せ"
+      ],
+      "prompt": "あなたは開発運用改善の専門家です。{自社名}の{開発案件}でGit管理、レビュー、AI利用、待ち時間を整理し、コスト削減できる工程を表にしてください。",
+      "roi": "開発管理の手戻りを月10時間削減"
+    },
+    "icebreak": {
+      "hook": "GitLabがAI向けGit基盤を出したそうです",
+      "punchline": "AIエージェントが並列で開発する前提だと、Gitの使い方自体も変わりそうです。",
+      "ctx_meeting": "開発基盤の相談で",
+      "ctx_chat": "開発チーム雑談で",
+      "share_text": "AIエージェントにコードを書かせるなら、管理基盤も人間中心のままでは限界が来そう。GitLabのProject Switchは、並列開発が増える未来をかなり具体的に示している。"
+    }
   },
   {
     "title": "MDN、AI向けMCPサーバー公開",
@@ -198,6 +359,29 @@
     "links": [
       "https://gihyo.jp/article/2026/06/mdn-mcp-server?utm_source=feed"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "古い実装を防ぐ",
+      "tool": {
+        "name": "Cursor",
+        "url": "https://cursor.com",
+        "cost": "無料〜"
+      },
+      "time": "30分",
+      "steps": [
+        "対象ページを選べ",
+        "仕様確認を指示せよ",
+        "古い記述を直せ"
+      ],
+      "prompt": "あなたはWeb制作の技術顧問です。{サイト名}の{実装内容}について、最新Web仕様とブラウザ互換性で確認すべき点、古い実装の危険、修正案を出してください。",
+      "roi": "仕様確認と実装ミス修正を月5時間削減"
+    },
+    "icebreak": {
+      "hook": "MDNがAI向けMCPサーバーを出したそうです",
+      "punchline": "AIの古いWeb回答を減らすには、公式情報をIDEに直接つなぐ発想が効きそうです。",
+      "ctx_meeting": "開発AI活用の話で",
+      "ctx_chat": "技術調査の雑談で",
+      "share_text": "AIにWeb技術を聞くと、古い情報が混じる不安がある。MDN文書をCursorやCodex CLIにつなげるMCPサーバーは、AI回答の信頼性を上げる現実的な一手に見える。"
+    }
   }
 ]

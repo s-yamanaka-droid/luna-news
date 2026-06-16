@@ -7,6 +7,13 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。毎朝6:30、AI業界ニュースを図解と「明日からできる活用法」で。</description>
   <language>ja</language>
   <item>
+    <title>2026-06-17 AI朝刊：OpenAIとSBG、AIサイバー対策へ ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-06-17/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-17/</guid>
+    <pubDate>Wed, 17 Jun 2026 06:30:00 +0900</pubDate>
+    <description>OpenAIとSBG、AIサイバー対策へ／Claude上位AI停止、各社に波紋／freee、業務代行AIを提供開始／SpaceX、Cursorを9.6兆円買収へ／Shopify、AI経由注文が15倍に</description>
+  </item>
+  <item>
     <title>2026-06-16 AI朝刊：OpenAI、企業導入は実装力の競争へ ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-06-16/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-16/</guid>
@@ -173,13 +180,6 @@
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-05-18/</guid>
     <pubDate>Mon, 18 May 2026 06:30:00 +0900</pubDate>
     <description>マルタ、全国民にChatGPT Plus無料提供　AI教育と併行／GPT-5.5、複雑な企業文書処理で精度50%超え　エラー46%削減／OpenAI経営再編　「エージェント化」へ製品統合　Codex中心に／医療現場のAI記述者、基本情報を改ざん　50%以上が記入漏れ／生成AI研究、不可能な問題も自信持って解答　数学検証で露呈</description>
-  </item>
-  <item>
-    <title>2026-05-16 AI朝刊：ChatGPTが銀行口座と連携、個人財務管理を本格化 ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-05-16/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-05-16/</guid>
-    <pubDate>Sat, 16 May 2026 06:30:00 +0900</pubDate>
-    <description>ChatGPTが銀行口座と連携、個人財務管理を本格化／シンガポール大手Sea、開発チームに「Codex」を全展開／Codexがモバイルアプリに対応、どこからでも開発タスク監視可能に／Anthropic、9000億ドル評価で初めてOpenAIを上回る／Granite、200言語対応の小型埋め込みモデル公開</description>
   </item>
 </channel>
 </rss>
