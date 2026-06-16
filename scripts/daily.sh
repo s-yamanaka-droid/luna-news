@@ -8,9 +8,9 @@ source venv/bin/activate
 
 # 🔒 APIキーは直書き禁止（憲法§秘密番人）。値は launchd plist の EnvironmentVariables
 #    または手動実行時の ~/.zshrc から注入される。ここではデフォルト値を一切持たない。
-export ANTHROPIC_API_KEY="${ANTHROPIC_API_KEY:-}"
-export GEMINI_API_KEY="${GEMINI_API_KEY:-}"
-export OPENAI_API_KEY="${OPENAI_API_KEY:-}"
+export ANTHROPIC_API_KEY="${ANTHROPIC_API_KEY}"
+export GEMINI_API_KEY="${GEMINI_API_KEY}"
+export OPENAI_API_KEY="${OPENAI_API_KEY}"
 export LLM_PROVIDER="${LLM_PROVIDER:-codex}"   # ChatGPT Plus サブスク内・API課金ゼロ
 export OPENAI_IMAGE_API_KEY="${OPENAI_IMAGE_API_KEY:-$OPENAI_API_KEY}"
 export SLACK_TOKEN="${SLACK_TOKEN}"
@@ -81,7 +81,7 @@ python scripts/rebuild_all.py 2>&1 | tee -a "$LOG"
 
 echo "[5/7] GitHub push" | tee -a "$LOG"
 cd /Users/yamanakashuto/apps/vigil-news
-git add -A 2>&1 | tee -a "$LOG"
+git add docs/ 2>&1 | tee -a "$LOG"   # 全体共通憲法: git add -A 恒久禁止。daily は docs/ のみ生成
 git commit -m "daily: $TODAY — quickstart + weekly refresh" 2>&1 | tee -a "$LOG" || echo "no changes" | tee -a "$LOG"
 git push origin main 2>&1 | tee -a "$LOG"
 
