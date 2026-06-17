@@ -7,6 +7,13 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。毎朝6:30、AI業界ニュースを図解と「明日からできる活用法」で。</description>
   <language>ja</language>
   <item>
+    <title>2026-06-18 AI朝刊：SpaceX、Cursorを9.6兆円で買収 ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-06-18/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-18/</guid>
+    <pubDate>Thu, 18 Jun 2026 06:30:00 +0900</pubDate>
+    <description>SpaceX、Cursorを9.6兆円で買収／AI料金、人月モデルを揺さぶる／富士通とIBM、基幹刷新で協業加速／AWS、社内資料AI化を簡単に／AWSコスト異常をAIが調査</description>
+  </item>
+  <item>
     <title>2026-06-17 AI朝刊：OpenAIとSBG、AIサイバー対策へ ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-06-17/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-17/</guid>
@@ -173,13 +180,6 @@
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-05-19/</guid>
     <pubDate>Tue, 19 May 2026 06:30:00 +0900</pubDate>
     <description>Cursor、コーディングAIで大手に対抗。性能同等で価格は10分の1／OpenAI、DellとCodexを統合。オンプレミス環境でAIコーディング実装へ／営業チームがCodexで業務効率化。提案書・会議準備を数分で作成／Anthropic、開発ツール企業Stainlessを$300M超で買収。競合の開発基盤を掌握／SandboxAQの創薬AIがClaudeに統合。専門知識なしに分子設計が可能に</description>
-  </item>
-  <item>
-    <title>2026-05-18 AI朝刊：マルタ、全国民にChatGPT Plus無料提供　AI教育と併行 ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-05-18/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-05-18/</guid>
-    <pubDate>Mon, 18 May 2026 06:30:00 +0900</pubDate>
-    <description>マルタ、全国民にChatGPT Plus無料提供　AI教育と併行／GPT-5.5、複雑な企業文書処理で精度50%超え　エラー46%削減／OpenAI経営再編　「エージェント化」へ製品統合　Codex中心に／医療現場のAI記述者、基本情報を改ざん　50%以上が記入漏れ／生成AI研究、不可能な問題も自信持って解答　数学検証で露呈</description>
   </item>
 </channel>
 </rss>

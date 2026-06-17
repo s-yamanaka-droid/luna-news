@@ -23,7 +23,30 @@
       "https://www.itmedia.co.jp/aiplus/article/2606/17/2000000096/",
       "https://www.itmedia.co.jp/aiplus/article/2606/17/2000000100/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "開発内製を試す",
+      "tool": {
+        "name": "Cursor Pro",
+        "url": "https://cursor.com",
+        "cost": "約¥3,200/月"
+      },
+      "time": "30分",
+      "steps": [
+        "小さな修正課題を選べ",
+        "GitHub連携で開け",
+        "AIに修正案を出させろ"
+      ],
+      "prompt": "あなたは{自社名}の開発支援AIです。{業種}サイトの{課題}を直す手順と変更ファイル案を、初心者にも分かる形で出してください。",
+      "roi": "外注前の試作を半日短縮"
+    },
+    "icebreak": {
+      "hook": "SpaceXがCursorを買うらしいですよ",
+      "punchline": "AI開発ツールが、宇宙企業の競争力そのものになってきていますね。",
+      "ctx_meeting": "開発体制の話題で",
+      "ctx_chat": "移動中の雑談で",
+      "share_text": "Cursorの買収話を見ると、AI開発ツールは単なる効率化ツールではなく、企業の中核インフラになってきた感じがします。"
+    }
   },
   {
     "title": "AI料金、人月モデルを揺さぶる",
@@ -48,7 +71,30 @@
     "links": [
       "https://www.businessinsider.jp/article/2606-anthropic-interview-future-of-ai-subscription-pricing/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "外注見積を成果化",
+      "tool": {
+        "name": "Claude Pro",
+        "url": "https://claude.ai",
+        "cost": "約¥3,200/月"
+      },
+      "time": "30分",
+      "steps": [
+        "外注見積を貼れ",
+        "成果物単位に分けろ",
+        "固定費と変動費を比べろ"
+      ],
+      "prompt": "あなたは{自社名}のAI活用顧問です。{業種}の外注見積を、作業時間ではなく成果物単位の価格表に再設計してください。",
+      "roi": "外注費の妥当性確認を70%短縮"
+    },
+    "icebreak": {
+      "hook": "AIで人月の見積もり、崩れそうですね",
+      "punchline": "作業時間ではなく、成果にどう値段を付けるかが問われ始めています。",
+      "ctx_meeting": "見積もり相談の冒頭で",
+      "ctx_chat": "仕事観の雑談で",
+      "share_text": "AIエージェントが複数工程を担うなら、人月で値付けする仕事はかなり説明が難しくなりそうです。成果課金の議論は避けられないですね。"
+    }
   },
   {
     "title": "富士通とIBM、基幹刷新で協業加速",
@@ -73,7 +119,30 @@
     "links": [
       "https://ampmedia.jp/2026/06/17/fujitsu-ibm/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "基幹台帳を棚卸し",
+      "tool": {
+        "name": "ChatGPT Plus",
+        "url": "https://chatgpt.com",
+        "cost": "約¥3,200/月"
+      },
+      "time": "半日",
+      "steps": [
+        "古い台帳をCSV化せよ",
+        "項目の重複を探せ",
+        "刷新優先度を並べろ"
+      ],
+      "prompt": "あなたは{自社名}の業務刷新担当です。{業種}で使う古い台帳の項目を整理し、Java移行前に直すべき問題を表にしてください。",
+      "roi": "基幹刷新の初期調査を1日短縮"
+    },
+    "icebreak": {
+      "hook": "富士通とIBMがCOBOL刷新を進めるそうです",
+      "punchline": "AI活用の前に、基幹システムを動かせる形に直す流れが強いですね。",
+      "ctx_meeting": "DX提案の導入で",
+      "ctx_chat": "業界動向の雑談で",
+      "share_text": "AI活用というと派手な画面を想像しがちですが、実際はCOBOL資産をJavaへ移すような基幹刷新が土台なんだと感じます。"
+    }
   },
   {
     "title": "AWS、社内資料AI化を簡単に",
@@ -98,7 +167,30 @@
     "links": [
       "https://aws.amazon.com/blogs/aws/introducing-amazon-bedrock-managed-knowledge-base-for-faster-more-accurate-enterprise-ai-applications/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "社内FAQをAI化",
+      "tool": {
+        "name": "Amazon Bedrock",
+        "url": "https://aws.amazon.com/bedrock/",
+        "cost": "従量課金"
+      },
+      "time": "半日",
+      "steps": [
+        "社内資料を10件集めろ",
+        "FAQ候補を抽出せよ",
+        "検索AIの回答を試せ"
+      ],
+      "prompt": "あなたは{自社名}の社内ナレッジ整理担当です。{業種}の資料から、社員が質問しそうなFAQと回答根拠を作ってください。",
+      "roi": "社内問い合わせ対応を月5時間削減"
+    },
+    "icebreak": {
+      "hook": "AWSで社内資料AI化がかなり楽になるらしいです",
+      "punchline": "RAG構築そのものより、業務で何を変えるかに時間を使えそうです。",
+      "ctx_meeting": "AI導入提案の冒頭で",
+      "ctx_chat": "社内AIの雑談で",
+      "share_text": "社内資料をAIで使う時、難所は検索基盤づくりでした。BedrockのManaged Knowledge Baseで、議論が技術構築から業務成果に移りそうです。"
+    }
   },
   {
     "title": "AWSコスト異常をAIが調査",
@@ -123,7 +215,30 @@
     "links": [
       "https://www.publickey1.jp/blog/26/awsaiaws_finops_agent.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AWS費を毎週点検",
+      "tool": {
+        "name": "AWS Cost Explorer",
+        "url": "https://aws.amazon.com/aws-cost-management/aws-cost-explorer/",
+        "cost": "一部無料 / 従量課金"
+      },
+      "time": "30分",
+      "steps": [
+        "今月の費用を開け",
+        "急増サービスを探せ",
+        "停止候補を一覧化せよ"
+      ],
+      "prompt": "あなたは{自社名}のクラウド費用管理者です。{業種}のAWS請求明細から、急増原因と今週止める候補を表にしてください。",
+      "roi": "無駄なクラウド費を月1万円削減"
+    },
+    "icebreak": {
+      "hook": "AWSコストの異常、AIに聞けるようになるそうです",
+      "punchline": "従量課金の怖さは、使った後に理由が分からないことなんですよね。",
+      "ctx_meeting": "クラウド費用の相談で",
+      "ctx_chat": "運用コストの雑談で",
+      "share_text": "クラウド費用は増えた金額より、なぜ増えたのか分からない時間がつらい。FinOps Agentのように原因調査までAIが寄り添う流れは実務的です。"
+    }
   },
   {
     "title": "AIボット閲覧にAWSで課金可能に",
@@ -148,7 +263,30 @@
     "links": [
       "https://codezine.jp/article/detail/24572"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AIクロールを制御",
+      "tool": {
+        "name": "AWS WAF",
+        "url": "https://aws.amazon.com/waf/",
+        "cost": "従量課金"
+      },
+      "time": "半日",
+      "steps": [
+        "重要ページを洗い出せ",
+        "ボット流入を確認せよ",
+        "制御ルールを検討せよ"
+      ],
+      "prompt": "あなたは{自社名}のWeb収益保護担当です。{業種}サイトでAIボットに読ませるページと制限するページを分類してください。",
+      "roi": "有料コンテンツの価値流出を抑制"
+    },
+    "icebreak": {
+      "hook": "AIボットの閲覧に課金できる時代らしいですよ",
+      "punchline": "コンテンツを読ませるだけでなく、誰にどう使わせるかが収益設計になりますね。",
+      "ctx_meeting": "メディア戦略の話で",
+      "ctx_chat": "ニュース雑談で",
+      "share_text": "AIボットに読まれることを防ぐだけでなく、リクエスト単位で課金する発想が出てきたのが面白い。メディアの収益設計が変わりそうです。"
+    }
   },
   {
     "title": "AI品質課題、原因はプロンプトでなくデータ",
@@ -173,7 +311,30 @@
     "links": [
       "https://dxmagazine.jp/news/ytoda2625-21/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "正本データを整備",
+      "tool": {
+        "name": "Notion AI",
+        "url": "https://www.notion.com/product/ai",
+        "cost": "約¥1,650/月"
+      },
+      "time": "1時間",
+      "steps": [
+        "正しい資料を一箇所へ置け",
+        "古い情報を分けろ",
+        "AI回答の根拠を確認せよ"
+      ],
+      "prompt": "あなたは{自社名}の情報整理担当です。{業種}の社内資料を、AIが誤回答しにくい正本データベース構成に整理してください。",
+      "roi": "AI回答の裏取り時間を月10時間削減"
+    },
+    "icebreak": {
+      "hook": "AIの精度問題、プロンプトよりデータらしいです",
+      "punchline": "指示文を磨く前に、社内データが信じられる状態かを見るべきですね。",
+      "ctx_meeting": "AI品質改善の提案で",
+      "ctx_chat": "生成AIの雑談で",
+      "share_text": "生成AIの回答に不満がある時、プロンプトを疑いがちです。でも原因がデータ品質なら、直す場所は入力文ではなく会社の情報基盤ですね。"
+    }
   },
   {
     "title": "Amazon Quick、自律AIエージェント追加",
@@ -198,6 +359,29 @@
     "links": [
       "https://aws.amazon.com/blogs/machine-learning/get-back-hours-every-day-with-autonomous-agents-in-amazon-quick/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "会議後タスク自動化",
+      "tool": {
+        "name": "Amazon Q Business",
+        "url": "https://aws.amazon.com/q/business/",
+        "cost": "約¥480/月から"
+      },
+      "time": "30分",
+      "steps": [
+        "会議メモを貼れ",
+        "担当別タスクに分けろ",
+        "翌日の確認文を作れ"
+      ],
+      "prompt": "あなたは{自社名}の営業事務AIです。{業種}の会議メモから、担当者別タスクと明日送るフォロー文を作ってください。",
+      "roi": "会議後の整理作業を70%短縮"
+    },
+    "icebreak": {
+      "hook": "Amazon Quickに自律エージェントが入るそうです",
+      "punchline": "会議後の探す・まとめる・追う作業を、AIが継続して肩代わりする方向ですね。",
+      "ctx_meeting": "業務効率化の話で",
+      "ctx_chat": "会議後の雑談で",
+      "share_text": "会議後の雑務は、ひとつひとつは小さくても積み上がる。Amazon Quickの自律エージェント追加は、その地味な負担を狙っている感じがします。"
+    }
   }
 ]

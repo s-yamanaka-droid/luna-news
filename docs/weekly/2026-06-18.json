@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週はAIを使う段階から、AIに任せる・AIに選ばれる段階へ進んだ。小規模事業者でも経理、資料整理、EC改善で即効性が出る。社内データと商品情報の整備が成果差になる。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-06-17",
+      "title": "freee、業務代行AIを提供開始",
+      "category": "ツール更新",
+      "source": "AI Watch",
+      "why_picked": "経理の手間を今週すぐ減らせる",
+      "tldr": "freee業務をAIが代行",
+      "action": "経費漏れ確認をAI化",
+      "image": "../assets/images/2026-06-17/topic_3.png",
+      "link": "../news/2026-06-17/#topic-3"
+    },
+    {
+      "rank": 2,
+      "date": "2026-06-17",
+      "title": "Shopify、AI経由注文が15倍に",
+      "category": "業界動向",
+      "source": "MarkeZine",
+      "why_picked": "EC売上に直結する変化だから",
+      "tldr": "AI経由の購買が急増",
+      "action": "商品説明をAI向けに直す",
+      "image": "../assets/images/2026-06-17/topic_5.png",
+      "link": "../news/2026-06-17/#topic-5"
+    },
+    {
+      "rank": 3,
+      "date": "2026-06-14",
+      "title": "Google Pinpoint、誰でも使える調査AIに",
+      "category": "ツール更新",
+      "source": "Fast Company Tech",
+      "why_picked": "無料で資料探し時間を削れる",
+      "tldr": "大量資料をAIで検索整理",
+      "action": "商談記録をPinpointへ入れる",
+      "image": "../assets/images/2026-06-14/topic_3.png",
+      "link": "../news/2026-06-14/#topic-3"
+    }
+  ]
+}
