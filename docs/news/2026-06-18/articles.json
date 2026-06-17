@@ -1,0 +1,203 @@
+[
+  {
+    "title": "SpaceX、Cursorを9.6兆円で買収",
+    "category": "業界動向",
+    "source": "ITmedia AI+",
+    "lede": "SpaceXがAIコーディングツールCursorの開発企業を買収し、AI開発基盤の主導権争いが一段と強まった。",
+    "keypoints": [
+      "買収額は約9.6兆円",
+      "Anysphereは完全子会社化",
+      "Cursorは大幅改善を予告",
+      "Originを秋に提供予定"
+    ],
+    "pull": "AI時代の開発環境は、エディタからGit基盤まで一体化へ進む。",
+    "bizapp": {
+      "summary": "開発組織のAIツール選定を見直す局面に使える",
+      "actions": [
+        "Cursorで開発速度を検証",
+        "中小企業向け開発内製化を提案",
+        "秋までにGitHub依存を棚卸し"
+      ]
+    },
+    "links": [
+      "https://www.itmedia.co.jp/aiplus/article/2606/17/2000000096/",
+      "https://www.itmedia.co.jp/aiplus/article/2606/17/2000000100/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AI料金、人月モデルを揺さぶる",
+    "category": "業界動向",
+    "source": "Business Insider Japan",
+    "lede": "Anthropic幹部は、AIエージェント普及でサブスクや人月型の仕事価格が問い直されると語った。",
+    "keypoints": [
+      "AIが複数工程を担う",
+      "固定料金の妥当性が課題",
+      "成果課金も論点に",
+      "SIerの価値にも影響"
+    ],
+    "pull": "AIが仕事を代行するほど、価格は人の時間では測りにくくなる。",
+    "bizapp": {
+      "summary": "AI導入費と外注費の見積もり再設計に使える",
+      "actions": [
+        "Claude利用量を業務別に記録",
+        "SI提案を成果単位で再設計",
+        "来期予算前に課金方式を確認"
+      ]
+    },
+    "links": [
+      "https://www.businessinsider.jp/article/2606-anthropic-interview-future-of-ai-subscription-pricing/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "富士通とIBM、基幹刷新で協業加速",
+    "category": "業界動向",
+    "source": "AMP",
+    "lede": "富士通と日本IBMは、COBOL資産のJava移行やAI活用を支援する業務システム刷新で協業を加速する。",
+    "keypoints": [
+      "業務システム刷新で協業",
+      "COBOL資産をJavaへ移行",
+      "AI活用も支援対象",
+      "DX基盤整備を後押し"
+    ],
+    "pull": "古い基幹システムの刷新は、AI活用の前提条件になりつつある。",
+    "bizapp": {
+      "summary": "レガシー基幹システムの刷新計画に使える",
+      "actions": [
+        "Fujitsu PROGRESSIONを調査",
+        "中小企業の基幹刷新を提案",
+        "老朽化対応を来期前に洗い出す"
+      ]
+    },
+    "links": [
+      "https://ampmedia.jp/2026/06/17/fujitsu-ibm/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AWS、社内資料AI化を簡単に",
+    "category": "ツール更新",
+    "source": "Amazon AWS News Blog",
+    "lede": "AWSは、企業データを使うAIアプリを短時間で作れるAmazon Bedrock Managed Knowledge Baseを発表した。",
+    "keypoints": [
+      "社内データ接続を簡素化",
+      "RAG構築の負担を軽減",
+      "複数形式の資料に対応",
+      "業務成果に集中できる"
+    ],
+    "pull": "社内資料をAIに読ませる作業が、基盤構築から業務活用へ移る。",
+    "bizapp": {
+      "summary": "社内ナレッジ検索AIの短期構築に使える",
+      "actions": [
+        "BedrockでFAQ検索を試作",
+        "営業資料検索AIを提案",
+        "資料散在を放置すると活用遅れ"
+      ]
+    },
+    "links": [
+      "https://aws.amazon.com/blogs/aws/introducing-amazon-bedrock-managed-knowledge-base-for-faster-more-accurate-enterprise-ai-applications/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AWSコスト異常をAIが調査",
+    "category": "ツール更新",
+    "source": "Publickey",
+    "lede": "AWSは、クラウド費用の質問や異常発生時の原因調査を支援するAWS FinOps Agentのプレビューを始めた。",
+    "keypoints": [
+      "AWSコストをAIに質問",
+      "異常原因の特定を支援",
+      "従量課金の予測難に対応",
+      "無駄な利用を見つけやすい"
+    ],
+    "pull": "クラウド費用管理は、請求後の確認から異常の早期発見へ変わる。",
+    "bizapp": {
+      "summary": "クラウド費の急増対策に使える",
+      "actions": [
+        "AWS FinOps Agentで費用確認",
+        "バックオフィス向け削減提案",
+        "月末請求待ちは無駄を逃す"
+      ]
+    },
+    "links": [
+      "https://www.publickey1.jp/blog/26/awsaiaws_finops_agent.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AIボット閲覧にAWSで課金可能に",
+    "category": "セキュリティ",
+    "source": "CodeZine",
+    "lede": "AWS WAFは、AIボットやエージェントの保護対象コンテンツアクセスにリクエスト単位で課金できる機能を追加した。",
+    "keypoints": [
+      "AIボットに課金可能",
+      "コード変更なしで導入",
+      "ボット種別ごとに制御",
+      "収益と活動を監視できる"
+    ],
+    "pull": "AIに読まれるコンテンツは、防御だけでなく収益化の対象になる。",
+    "bizapp": {
+      "summary": "メディアや会員サイトのAI対策に使える",
+      "actions": [
+        "AWS WAFでAIボット制御",
+        "出版社向け収益化を提案",
+        "無断クロール放置で価値流出"
+      ]
+    },
+    "links": [
+      "https://codezine.jp/article/detail/24572"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AI品質課題、原因はプロンプトでなくデータ",
+    "category": "研究",
+    "source": "DXマガジン",
+    "lede": "ユーソナー調査で、生成AI回答への不満の主因は指示文よりデータ品質にあると見る声が多数を占めた。",
+    "keypoints": [
+      "70.4%が回答品質に不満",
+      "61.4%がデータ品質を原因視",
+      "裏取り5分以上が72.8%",
+      "時短効果が相殺される"
+    ],
+    "pull": "AI活用の成否は、質問のうまさより参照データの正しさで決まる。",
+    "bizapp": {
+      "summary": "AI研修より先に社内データ整備へ使える",
+      "actions": [
+        "Notionで正本資料を整備",
+        "営業DBクレンジングを提案",
+        "誤回答検証で現場時間を失う"
+      ]
+    },
+    "links": [
+      "https://dxmagazine.jp/news/ytoda2625-21/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Amazon Quick、自律AIエージェント追加",
+    "category": "ツール更新",
+    "source": "Amazon AWS AI Blog",
+    "lede": "Amazon Quickに、継続的に作業を代行する自律エージェントや活動フィード、横断検索機能が加わった。",
+    "keypoints": [
+      "作業を継続的に代行",
+      "重要タスクを活動表示",
+      "複数データ源を横断検索",
+      "会議後の雑務を支援"
+    ],
+    "pull": "AIアシスタントは、会話相手から裏で仕事を進める同僚へ変わる。",
+    "bizapp": {
+      "summary": "営業・法務・会議後タスクの自動化に使える",
+      "actions": [
+        "Amazon Quickで会議準備",
+        "営業フォロー自動化を提案",
+        "手作業放置で対応漏れが増える"
+      ]
+    },
+    "links": [
+      "https://aws.amazon.com/blogs/machine-learning/get-back-hours-every-day-with-autonomous-agents-in-amazon-quick/"
+    ],
+    "likes": 0
+  }
+]
