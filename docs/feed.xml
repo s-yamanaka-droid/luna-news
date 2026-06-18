@@ -7,6 +7,13 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。毎朝6:30、AI業界ニュースを図解と「明日からできる活用法」で。</description>
   <language>ja</language>
   <item>
+    <title>2026-06-19 AI朝刊：ChatGPT広告、日本で開始へ ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-06-19/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-19/</guid>
+    <pubDate>Fri, 19 Jun 2026 06:30:00 +0900</pubDate>
+    <description>ChatGPT広告、日本で開始へ／Adobe、制作AIエージェント拡大／OpenAI、企業向け費用管理を強化／Microsoft、業務代行AIを一般提供／Adobe、AI検索のブランド管理発表</description>
+  </item>
+  <item>
     <title>2026-06-18 AI朝刊：SpaceX、Cursorを9.6兆円で買収 ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-06-18/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-18/</guid>
@@ -173,13 +180,6 @@
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-05-21/</guid>
     <pubDate>Thu, 21 May 2026 06:30:00 +0900</pubDate>
     <description>OpenAIのモデルが離散幾何学の中心的予想を覆す／RampがCodexを活用したコードレビューの加速法／OpenAIがシンガポール向けにAIパートナーシップ提携／GoogleがI/O 2026でAIを活用した新機能を発表</description>
-  </item>
-  <item>
-    <title>2026-05-19 AI朝刊：Cursor、コーディングAIで大手に対抗。性能同等で価格は10分の1 ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-05-19/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-05-19/</guid>
-    <pubDate>Tue, 19 May 2026 06:30:00 +0900</pubDate>
-    <description>Cursor、コーディングAIで大手に対抗。性能同等で価格は10分の1／OpenAI、DellとCodexを統合。オンプレミス環境でAIコーディング実装へ／営業チームがCodexで業務効率化。提案書・会議準備を数分で作成／Anthropic、開発ツール企業Stainlessを$300M超で買収。競合の開発基盤を掌握／SandboxAQの創薬AIがClaudeに統合。専門知識なしに分子設計が可能に</description>
   </item>
 </channel>
 </rss>

@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週は、AIが調査・経理・購買など実務の一部を代行する段階に進みました。小規模事業者は大規模投資より、既存ツールにAIを足す方が効果を出しやすいです。売上面ではAI検索・AI購買に選ばれる情報整備が急務です。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-06-17",
+      "title": "freee、業務代行AIを提供開始",
+      "category": "ツール更新",
+      "source": "AI Watch",
+      "why_picked": "経理の確認作業をすぐ減らせる",
+      "tldr": "freeeで経理AI代行",
+      "action": "経費漏れ確認をAI化",
+      "image": "../assets/images/2026-06-17/topic_3.png",
+      "link": "../news/2026-06-17/#topic-3"
+    },
+    {
+      "rank": 2,
+      "date": "2026-06-14",
+      "title": "Google Pinpoint、誰でも使える調査AIに",
+      "category": "ツール更新",
+      "source": "Fast Company Tech",
+      "why_picked": "無料で資料整理と検索を始められる",
+      "tldr": "無料の資料検索AI",
+      "action": "商談資料を投入する",
+      "image": "../assets/images/2026-06-14/topic_3.png",
+      "link": "../news/2026-06-14/#topic-3"
+    },
+    {
+      "rank": 3,
+      "date": "2026-06-17",
+      "title": "Shopify、AI経由注文が15倍に",
+      "category": "業界動向",
+      "source": "MarkeZine",
+      "why_picked": "AI経由の売上導線を作れる",
+      "tldr": "AI経由注文が急増",
+      "action": "商品説明をAI向けに直す",
+      "image": "../assets/images/2026-06-17/topic_5.png",
+      "link": "../news/2026-06-17/#topic-5"
+    }
+  ]
+}
