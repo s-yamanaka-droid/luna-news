@@ -1,0 +1,202 @@
+[
+  {
+    "title": "ChatGPT広告、日本で開始へ",
+    "category": "業界動向",
+    "source": "日本経済新聞",
+    "lede": "OpenAIが日本でChatGPT内広告を始め、生成AIが広告接点として存在感を強める。",
+    "keypoints": [
+      "ChatGPT対話中に広告表示",
+      "利用者の関心に応じ配信",
+      "日本で近く展開へ",
+      "検索広告の構図に変化"
+    ],
+    "pull": "生成AIは検索だけでなく、広告の入口にもなる。",
+    "bizapp": {
+      "summary": "AI検索時代の広告戦略見直しに使える",
+      "actions": [
+        "ChatGPT露出前提で広告文を点検",
+        "営業資料にAI広告枠を提案",
+        "今期中に検索依存を見直す"
+      ]
+    },
+    "links": [
+      "https://www.nikkei.com/article/DGXZQOUC179OF0X10C26A6000000/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Adobe、制作AIエージェント拡大",
+    "category": "ツール更新",
+    "source": "Impress Watch AI",
+    "lede": "AdobeがCreative Cloud全体にAIアシスタントを導入し、制作作業の代行範囲を広げる。",
+    "keypoints": [
+      "Premiereで素材整理を代行",
+      "Photoshopで背景削除を実行",
+      "Illustratorで版管理生成",
+      "InDesignでブランド反映"
+    ],
+    "pull": "制作現場のAI活用は、単発生成から作業代行へ進む。",
+    "bizapp": {
+      "summary": "制作部門の反復作業削減に使える",
+      "actions": [
+        "Adobeで素材整理を自動化",
+        "採用動画制作の短納期化を提案",
+        "手作業前提だと制作速度で負ける"
+      ]
+    },
+    "links": [
+      "https://www.watch.impress.co.jp/docs/news/2118355.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "OpenAI、企業向け費用管理を強化",
+    "category": "ツール更新",
+    "source": "OpenAI Blog",
+    "lede": "ChatGPT Enterpriseに利用分析と支出管理が加わり、企業がAI費用を見える化しやすくなる。",
+    "keypoints": [
+      "クレジット利用を分析",
+      "導入状況を把握可能",
+      "支出管理を柔軟化",
+      "部門展開の判断に活用"
+    ],
+    "pull": "AI導入は、使わせるだけでなく費用対効果を見る段階に入った。",
+    "bizapp": {
+      "summary": "AI予算の管理と部門展開判断に使える",
+      "actions": [
+        "ChatGPT Enterpriseで部門別把握",
+        "管理部門向けAI費用統制を提案",
+        "来期予算前に利用実態を測る"
+      ]
+    },
+    "links": [
+      "https://openai.com/index/chatgpt-enterprise-spend-controls"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Microsoft、業務代行AIを一般提供",
+    "category": "ツール更新",
+    "source": "ITmedia Enterprise",
+    "lede": "Microsoft 365 CopilotのCopilot Coworkが一般提供され、複数ツールをまたぐ業務自動化を狙う。",
+    "keypoints": [
+      "Copilot Coworkを一般提供",
+      "複雑な業務を自動化",
+      "競合比で約4割安価",
+      "コスト統制機能も搭載"
+    ],
+    "pull": "企業AIの競争軸は、賢さだけでなく運用単価にも移る。",
+    "bizapp": {
+      "summary": "Microsoft 365業務の自動化検討に使える",
+      "actions": [
+        "Copilotで定型承認を自動化",
+        "中小企業の事務代行を提案",
+        "単価比較なしの導入は損をする"
+      ]
+    },
+    "links": [
+      "https://www.itmedia.co.jp/enterprise/articles/2606/18/news031.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Adobe、AI検索のブランド管理発表",
+    "category": "業界動向",
+    "source": "AI Watch",
+    "lede": "AdobeがAI検索で自社ブランドがどう表示されるかを把握し、改善する統合ソリューションを発表した。",
+    "keypoints": [
+      "AI検索での表示を可視化",
+      "Semrush機能と連携",
+      "改善提案を提示",
+      "効果測定まで可能"
+    ],
+    "pull": "検索対策は、人間の検索結果からAIの回答面へ広がる。",
+    "bizapp": {
+      "summary": "AI検索で選ばれるブランド整備に使える",
+      "actions": [
+        "AdobeでAI上の見え方を確認",
+        "広報向けAI検索改善を提案",
+        "放置すると比較候補から外れる"
+      ]
+    },
+    "links": [
+      "https://ai.watch.impress.co.jp/docs/news/2118347.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Gemini、履歴を残さない会話に対応",
+    "category": "セキュリティ",
+    "source": "Gihyo.jp",
+    "lede": "Google WorkspaceのGeminiに一時チャットと削除機能が加わり、管理者が利用可否を制御できる。",
+    "keypoints": [
+      "一時チャットを追加",
+      "個別チャット削除に対応",
+      "管理者が利用可否を制御",
+      "Vault保持ルールが優先"
+    ],
+    "pull": "生成AIの利用管理は、便利さと記録統制の両立が焦点になる。",
+    "bizapp": {
+      "summary": "社内AI利用の記録ルール整備に使える",
+      "actions": [
+        "Geminiで部門別設定を確認",
+        "情報管理ルール改定を提案",
+        "6月中に保持方針を確認する"
+      ]
+    },
+    "links": [
+      "https://gihyo.jp/article/2026/06/gemini-chat-deletion-temporary-chats?utm_source=feed"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AIエージェント発見の標準仕様登場",
+    "category": "業界動向",
+    "source": "Gihyo.jp",
+    "lede": "GoogleやMicrosoftなどがAIエージェント用リソースを公開・検索・検証するARD仕様を発表した。",
+    "keypoints": [
+      "ARD仕様を発表",
+      "MCPサーバーなどを対象",
+      "11社が協力して作成",
+      "ツール連携の混乱を軽減"
+    ],
+    "pull": "AIエージェントの普及には、探せて信頼できる仕組みが要る。",
+    "bizapp": {
+      "summary": "社内AIツール連携の標準化検討に使える",
+      "actions": [
+        "MCP資産の棚卸しに活用",
+        "情シス向け連携基盤を提案",
+        "乱立前に管理台帳を作る"
+      ]
+    },
+    "links": [
+      "https://gihyo.jp/article/2026/06/agentic-resource-discovery?utm_source=feed"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "米政権、Claude輸出規制を維持",
+    "category": "政策・規制",
+    "source": "Wired Japan",
+    "lede": "Anthropicと米政権の協議後もClaude Fable 5の輸出規制は解除されず、安全性懸念が争点となった。",
+    "keypoints": [
+      "輸出規制は解除されず",
+      "安全対策回避を懸念",
+      "Anthropicは反論継続",
+      "再開条件はなお不透明"
+    ],
+    "pull": "先端AIは性能だけでなく、国家規制で使える範囲が変わる。",
+    "bizapp": {
+      "summary": "海外AI依存リスクの点検に使える",
+      "actions": [
+        "Claude利用範囲を契約で確認",
+        "調達先分散を経営層に提案",
+        "規制で停止する前に代替を持つ"
+      ]
+    },
+    "links": [
+      "https://wired.jp/article/anthropic-is-still-at-odds-with-the-white-house-over-claude-fable-5/"
+    ],
+    "likes": 0
+  }
+]
