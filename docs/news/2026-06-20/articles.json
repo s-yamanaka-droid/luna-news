@@ -1,0 +1,203 @@
+[
+  {
+    "title": "Codex、作業手順を見て覚える新機能",
+    "category": "ツール更新",
+    "source": "Impress Watch AI",
+    "lede": "OpenAIは、Mac上の作業実演を再利用可能なスキルとしてCodexに記録する機能を追加した。",
+    "keypoints": [
+      "Mac向けに新機能を追加",
+      "作業手順をスキル化",
+      "経費精算などに適用",
+      "機密情報入力は回避推奨"
+    ],
+    "pull": "文章で説明しにくい定型作業を、AIに実演で教えられる。",
+    "bizapp": {
+      "summary": "社内の繰り返し作業をCodexで標準化できる",
+      "actions": [
+        "Codexで経費精算手順を記録",
+        "中小企業の定型業務代行を提案",
+        "放置すると属人作業が残る"
+      ]
+    },
+    "links": [
+      "https://www.watch.impress.co.jp/docs/news/2118707.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AWS、AIエージェントにWeb検索を追加",
+    "category": "ツール更新",
+    "source": "Amazon AWS News Blog / Amazon AWS AI Blog",
+    "lede": "AWSはBedrock AgentCoreで、AIエージェントが最新のWeb情報を参照できる検索機能を一般提供した。",
+    "keypoints": [
+      "Bedrock AgentCoreで一般提供",
+      "Web情報を根拠付きで取得",
+      "MCP対応ツールとして接続",
+      "検索API管理が不要"
+    ],
+    "pull": "学習時点で止まるAIを、最新情報に接続する企業向け基盤だ。",
+    "bizapp": {
+      "summary": "社内AIに最新情報を参照させる基盤に使える",
+      "actions": [
+        "Bedrockで調査エージェント構築",
+        "営業資料の最新情報収集を提案",
+        "放置すると古い回答で判断する"
+      ]
+    },
+    "links": [
+      "https://aws.amazon.com/blogs/aws/announcing-web-search-on-amazon-bedrock-agentcore-ground-your-ai-agents-in-current-accurate-web-knowledge/",
+      "https://aws.amazon.com/blogs/machine-learning/introducing-web-search-on-amazon-bedrock-agentcore/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "大阪メトロ、社内問い合わせをAIで集約",
+    "category": "業界動向",
+    "source": "ITmedia AI+",
+    "lede": "Osaka MetroはPKSHA AIヘルプデスクを拡大し、約5000人の社内問い合わせ基盤構築を目指す。",
+    "keypoints": [
+      "PKSHA AIヘルプデスクを活用",
+      "人事と調達へ展開拡大",
+      "約5000人の利用を想定",
+      "月1000件対応の効率化"
+    ],
+    "pull": "社内問い合わせAIは、ナレッジを共有資産に変える入口になる。",
+    "bizapp": {
+      "summary": "問い合わせ対応の削減と知識共有に使える",
+      "actions": [
+        "PKSHAで人事FAQを一元化",
+        "バックオフィスDXを提案",
+        "放置すると担当者依存が続く"
+      ]
+    },
+    "links": [
+      "https://kn.itmedia.co.jp/kn/articles/2606/19/news113.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Google Vids、AIアバターを大幅強化",
+    "category": "ツール更新",
+    "source": "CodeZine",
+    "lede": "GoogleはGoogle VidsのAIアバターを強化し、表現力や多言語対応、カスタム作成機能を拡充した。",
+    "keypoints": [
+      "アバターが53種に拡大",
+      "対応言語は計24言語",
+      "独自アバター作成に対応",
+      "動作も文章で指示可能"
+    ],
+    "pull": "動画制作は専門部署だけでなく、現場が直接作る方向へ進む。",
+    "bizapp": {
+      "summary": "研修・営業動画をGoogle Vidsで内製化できる",
+      "actions": [
+        "Google Vidsで研修動画作成",
+        "採用説明動画の量産を提案",
+        "放置すると制作費が重く残る"
+      ]
+    },
+    "links": [
+      "https://codezine.jp/article/detail/24606"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Vercel、社内IDで公開環境を保護",
+    "category": "セキュリティ",
+    "source": "Vercel Blog",
+    "lede": "Vercelは、OktaやAuth0など自社の認証基盤でデプロイ環境へのアクセスを制御できるPassportを公開βにした。",
+    "keypoints": [
+      "Passportが公開βに",
+      "OIDC認証基盤を利用",
+      "複数プロジェクトへ適用",
+      "署名JWTをサーバーで読める"
+    ],
+    "pull": "開発中の環境も、企業の認証ルールで守る時代になる。",
+    "bizapp": {
+      "summary": "開発中サイトの閲覧制御をVercelで強化できる",
+      "actions": [
+        "Vercel Passportで検証環境保護",
+        "顧客向け限定デモ環境を提案",
+        "放置すると未公開情報が漏れる"
+      ]
+    },
+    "links": [
+      "https://vercel.com/changelog/vercel-passport-is-now-in-public-beta"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Cloudflare、AI用の一時アカウント提供",
+    "category": "ツール更新",
+    "source": "Cloudflare Blog",
+    "lede": "Cloudflareは、AIエージェントがアカウント作成前にWorkerを一時デプロイできる仕組みを導入した。",
+    "keypoints": [
+      "一時アカウントを提供",
+      "wranglerで即時デプロイ",
+      "60分間だけ公開状態に",
+      "後から正式取得も可能"
+    ],
+    "pull": "AIエージェントの実装確認から、人間の登録作業を切り離す動きだ。",
+    "bizapp": {
+      "summary": "AI開発の試作公開をCloudflareで短縮できる",
+      "actions": [
+        "Workersで試作APIを即確認",
+        "小規模Web試作の高速化を提案",
+        "放置すると検証速度で負ける"
+      ]
+    },
+    "links": [
+      "https://blog.cloudflare.com/temporary-accounts/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AI時代のOSS適合証明、9月以降提供へ",
+    "category": "セキュリティ",
+    "source": "AI Watch",
+    "lede": "サイバートラストとDark Sky Technologyは、重要インフラ向けにOSS適合証明サービスを順次提供する。",
+    "keypoints": [
+      "OSS適合証明を提供予定",
+      "SBOMと構成情報を評価",
+      "脆弱性対応判断を支援",
+      "監査レポート作成も支援"
+    ],
+    "pull": "生成コード時代は、使ったOSSを説明できることが信頼になる。",
+    "bizapp": {
+      "summary": "OSS利用の説明責任と監査対応に使える",
+      "actions": [
+        "Bulletproof TrustでSBOM管理",
+        "重要インフラ向け監査支援を提案",
+        "放置すると顧客説明で詰まる"
+      ]
+    },
+    "links": [
+      "https://ai.watch.impress.co.jp/docs/news/2118680.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "NVIDIA、フィジカルAI基盤モデル発表",
+    "category": "研究",
+    "source": "MONOist",
+    "lede": "NVIDIAは、ビジョン推論や世界生成、行動予測を統合したフィジカルAI向け世界基盤モデルを発表した。",
+    "keypoints": [
+      "Cosmos 3を発表",
+      "フィジカルAI向けモデル",
+      "視覚推論などを統合",
+      "評価サイクルを数日に短縮"
+    ],
+    "pull": "ロボットや製造AIの開発は、実地試行だけに頼らない段階へ進む。",
+    "bizapp": {
+      "summary": "ロボット導入前の検証短縮に示唆がある",
+      "actions": [
+        "NVIDIA基盤で動作検証を検討",
+        "製造現場のAI検証支援を提案",
+        "放置すると実証期間が長引く"
+      ]
+    },
+    "links": [
+      "https://monoist.itmedia.co.jp/mn/articles/2606/19/news103.html"
+    ],
+    "likes": 0
+  }
+]
