@@ -22,7 +22,30 @@
     "links": [
       "https://www.watch.impress.co.jp/docs/news/2118707.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "経費手順をAI化",
+      "tool": {
+        "name": "ChatGPT Plus / Codex",
+        "url": "https://chatgpt.com",
+        "cost": "約¥3,000/月"
+      },
+      "time": "30分",
+      "steps": [
+        "経費精算を1回録画する",
+        "手順から秘密欄を消す",
+        "次回同じ処理で試す"
+      ],
+      "prompt": "あなたは業務改善担当です。{自社名}の{業種}で毎月繰り返す{作業名}を、AIに任せる手順・注意点・確認者を3列で整理してください。",
+      "roi": "月5時間削減＝1.5万円相当"
+    },
+    "icebreak": {
+      "hook": "Codex、作業手順を見て覚えるらしいですよ",
+      "punchline": "経費精算みたいな定型作業が、手順書ではなくスキルとして残せる話です。",
+      "ctx_meeting": "バックオフィス提案の冒頭で",
+      "ctx_chat": "経費精算の雑談で",
+      "share_text": "経費精算の手順をAIに「見せて覚えさせる」発想、地味だけど効きそう。手順書を読むAIから、手順を再利用するAIに変わってきた感があります。"
+    }
   },
   {
     "title": "AWS、AIエージェントにWeb検索を追加",
@@ -48,7 +71,30 @@
       "https://aws.amazon.com/blogs/aws/announcing-web-search-on-amazon-bedrock-agentcore-ground-your-ai-agents-in-current-accurate-web-knowledge/",
       "https://aws.amazon.com/blogs/machine-learning/introducing-web-search-on-amazon-bedrock-agentcore/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "最新調査を自動化",
+      "tool": {
+        "name": "Amazon Bedrock",
+        "url": "https://aws.amazon.com/bedrock/",
+        "cost": "従量課金"
+      },
+      "time": "半日",
+      "steps": [
+        "AWSアカウントを用意する",
+        "検索付きAgentを作る",
+        "営業調査を1件試す"
+      ],
+      "prompt": "あなたは営業リサーチ担当です。{見込み客名}の直近情報をWeb根拠付きで調べ、{自社名}が提案できる切り口を3つ出してください。",
+      "roi": "営業調査を60%短縮"
+    },
+    "icebreak": {
+      "hook": "AWSのAIエージェント、Web検索できるそうです",
+      "punchline": "検索API管理なしで根拠付き情報を取れるなら、社内AIの設計が少し軽くなります。",
+      "ctx_meeting": "生成AI基盤の相談で",
+      "ctx_chat": "クラウド談義の流れで",
+      "share_text": "AIエージェントにWeb検索を足す時、検索APIの管理まで抱えるのが地味に重い。そこをAWS側で吸収する流れは、実装する側にはかなり現実的に見えます。"
+    }
   },
   {
     "title": "大阪メトロ、社内問い合わせをAIで集約",
@@ -73,7 +119,30 @@
     "links": [
       "https://kn.itmedia.co.jp/kn/articles/2606/19/news113.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "社内FAQを即席化",
+      "tool": {
+        "name": "Notion AI",
+        "url": "https://www.notion.com/product/ai",
+        "cost": "無料〜約¥1,500/月"
+      },
+      "time": "30分",
+      "steps": [
+        "質問を20件書き出す",
+        "回答をNotionに入れる",
+        "社内で検索して試す"
+      ],
+      "prompt": "あなたは社内ヘルプデスクです。{自社名}の{業種}で多い質問を、質問・回答・担当部署・更新日でFAQ化してください。",
+      "roi": "月10件の確認対応を削減"
+    },
+    "icebreak": {
+      "hook": "大阪メトロ、社内問い合わせをAIで集約するそうです",
+      "punchline": "約5000人規模で月1000件対応なら、AI活用が実験から業務基盤に移る例ですね。",
+      "ctx_meeting": "社内ヘルプデスク提案で",
+      "ctx_chat": "DX事例の話題で",
+      "share_text": "社内問い合わせAIは派手さより、月1000件のような現場の件数をどれだけ減らせるかが本質だと思う。大阪メトロのような規模感だと、効果がかなり見えやすそうです。"
+    }
   },
   {
     "title": "Google Vids、AIアバターを大幅強化",
@@ -98,7 +167,30 @@
     "links": [
       "https://codezine.jp/article/detail/24606"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "研修動画を内製",
+      "tool": {
+        "name": "Google Vids",
+        "url": "https://workspace.google.com/products/vids/",
+        "cost": "Workspace料金内〜"
+      },
+      "time": "1時間",
+      "steps": [
+        "研修テーマを1つ選ぶ",
+        "台本をVidsへ入れる",
+        "アバター音声で確認する"
+      ],
+      "prompt": "あなたは研修動画制作者です。{自社名}の{業種}向けに、{テーマ}を3分で説明する台本をアバター読み上げ用に作ってください。",
+      "roi": "外注動画費を1本3万円削減"
+    },
+    "icebreak": {
+      "hook": "Google VidsのAIアバター、53種になったそうです",
+      "punchline": "24言語対応まで進むと、動画制作というより社内説明の量産ツールに近づきますね。",
+      "ctx_meeting": "社内教育動画の相談で",
+      "ctx_chat": "動画AIの雑談で",
+      "share_text": "AIアバターが53種、24言語対応まで来ると、動画制作のハードルがかなり下がる。撮影しない社内説明動画が、普通の選択肢になっていきそうです。"
+    }
   },
   {
     "title": "Vercel、社内IDで公開環境を保護",
@@ -123,7 +215,30 @@
     "links": [
       "https://vercel.com/changelog/vercel-passport-is-now-in-public-beta"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "デモ環境を認証",
+      "tool": {
+        "name": "Vercel",
+        "url": "https://vercel.com",
+        "cost": "無料〜$20/月"
+      },
+      "time": "30分",
+      "steps": [
+        "デモURLを洗い出す",
+        "閲覧者メールを決める",
+        "認証付きで共有する"
+      ],
+      "prompt": "あなたはWeb納品責任者です。{顧客名}向け{デモ名}を公開前に守る認証・閲覧者・期限・確認項目を表にしてください。",
+      "roi": "未公開情報漏洩リスクを低減"
+    },
+    "icebreak": {
+      "hook": "Vercel、公開環境を社内IDで守れるそうです",
+      "punchline": "OktaやAuth0でデプロイ環境を閉じられるなら、検証環境の共有がかなり楽になります。",
+      "ctx_meeting": "開発体制の相談で",
+      "ctx_chat": "認証まわりの話で",
+      "share_text": "検証用URLをどう守るかは、開発現場で意外と悩ましい。VercelがOktaやAuth0でデプロイ環境を制御できるなら、クライアント確認の運用がかなり整えやすそうです。"
+    }
   },
   {
     "title": "Cloudflare、AI用の一時アカウント提供",
@@ -148,7 +263,30 @@
     "links": [
       "https://blog.cloudflare.com/temporary-accounts/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "試作APIを即公開",
+      "tool": {
+        "name": "Cloudflare Workers",
+        "url": "https://workers.cloudflare.com",
+        "cost": "無料〜$5/月"
+      },
+      "time": "30分",
+      "steps": [
+        "試したいAPIを1つ決める",
+        "Wranglerで雛形を作る",
+        "60分URLで社内確認する"
+      ],
+      "prompt": "あなたはWeb試作エンジニアです。{自社名}の{業種}で使う{試作機能}をCloudflare Workersの最小API仕様にしてください。",
+      "roi": "試作確認を半日から30分に短縮"
+    },
+    "icebreak": {
+      "hook": "Cloudflare、AI用に60分だけ公開できるそうです",
+      "punchline": "アカウント作成前にWorkerを試せるなら、AIが作ってすぐ見せる流れが速くなります。",
+      "ctx_meeting": "プロトタイプ提案で",
+      "ctx_chat": "開発スピードの話で",
+      "share_text": "AIがコードを書くだけでなく、60分だけ公開してすぐ見せられるところまで来ると、試作の速度感が変わる。最初のアカウント作成すら後回しにできるのは大きいです。"
+    }
   },
   {
     "title": "AI時代のOSS適合証明、9月以降提供へ",
@@ -173,7 +311,30 @@
     "links": [
       "https://ai.watch.impress.co.jp/docs/news/2118680.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "OSS棚卸し開始",
+      "tool": {
+        "name": "Claude Pro",
+        "url": "https://claude.ai",
+        "cost": "約¥3,000/月"
+      },
+      "time": "1時間",
+      "steps": [
+        "依存一覧を出力する",
+        "Claudeに貼り付ける",
+        "顧客説明文を作る"
+      ],
+      "prompt": "あなたはOSS監査担当です。{自社名}の{サービス名}で使う依存一覧を、用途・リスク・更新優先度・顧客説明文に整理してください。",
+      "roi": "顧客説明資料の作成を70%短縮"
+    },
+    "icebreak": {
+      "hook": "OSSの適合証明、9月以降に出るそうです",
+      "punchline": "SBOMと構成情報まで見られるなら、重要インフラのOSS利用が説明しやすくなります。",
+      "ctx_meeting": "セキュリティ提案で",
+      "ctx_chat": "監査対応の話で",
+      "share_text": "OSSを使うこと自体より、「なぜ安全と言えるのか」を説明する負担が増えている。SBOMや構成情報を見て適合証明する流れは、AI時代ほど重要になりそうです。"
+    }
   },
   {
     "title": "NVIDIA、フィジカルAI基盤モデル発表",
@@ -198,6 +359,29 @@
     "links": [
       "https://monoist.itmedia.co.jp/mn/articles/2606/19/news103.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "現場動画で検証",
+      "tool": {
+        "name": "Gemini",
+        "url": "https://gemini.google.com",
+        "cost": "無料〜約¥3,000/月"
+      },
+      "time": "30分",
+      "steps": [
+        "現場作業を動画で撮る",
+        "危険動作を抽出する",
+        "自動化候補を3つ選ぶ"
+      ],
+      "prompt": "あなたは製造現場のAI導入コンサルです。{業種}の{作業名}動画から、ロボット化候補・失敗リスク・検証手順を出してください。",
+      "roi": "ロボット導入前の検討を数日短縮"
+    },
+    "icebreak": {
+      "hook": "NVIDIA、フィジカルAI向けモデルを出したそうです",
+      "punchline": "Cosmos 3で評価サイクルが数日に縮むなら、ロボット開発の試行回数が変わりますね。",
+      "ctx_meeting": "製造業AIの提案で",
+      "ctx_chat": "ロボットAIの話で",
+      "share_text": "フィジカルAIは、賢さだけでなく評価に時間がかかるのが壁だと思う。NVIDIAのCosmos 3で評価サイクルが数日に縮むなら、現場投入までの試行回数が増えそうです。"
+    }
   }
 ]

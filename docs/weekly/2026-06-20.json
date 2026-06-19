@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週はAIが「調べる」から「代行する」段階へ進みました。小規模事業者は、経理・手順・社内資料整理から入るのが最短です。まず定型作業を1つAI化し、浮いた時間を営業や商品改善に回す週です。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-06-17",
+      "title": "freee、業務代行AIを提供開始",
+      "category": "ツール更新",
+      "source": "AI Watch",
+      "why_picked": "経理の手間削減が小規模ほど効く",
+      "tldr": "freeeで経理AI代行",
+      "action": "経費漏れ確認をAIに任せる",
+      "image": "../assets/images/2026-06-17/topic_3.png",
+      "link": "../news/2026-06-17/#topic-3"
+    },
+    {
+      "rank": 2,
+      "date": "2026-06-20",
+      "title": "Codex、作業手順を見て覚える新機能",
+      "category": "ツール更新",
+      "source": "Impress Watch AI",
+      "why_picked": "属人作業をそのまま標準化できる",
+      "tldr": "作業手順をAIスキル化",
+      "action": "月次作業を1つ録画する",
+      "image": "../assets/images/2026-06-20/topic_1.png",
+      "link": "../news/2026-06-20/#topic-1"
+    },
+    {
+      "rank": 3,
+      "date": "2026-06-14",
+      "title": "Google Pinpoint、誰でも使える調査AIに",
+      "category": "ツール更新",
+      "source": "Fast Company Tech",
+      "why_picked": "無料で資料整理と調査時間を削れる",
+      "tldr": "資料検索AIが無料化",
+      "action": "過去資料をPinpointに入れる",
+      "image": "../assets/images/2026-06-14/topic_3.png",
+      "link": "../news/2026-06-14/#topic-3"
+    }
+  ]
+}

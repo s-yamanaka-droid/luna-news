@@ -7,6 +7,13 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。毎朝6:30、AI業界ニュースを図解と「明日からできる活用法」で。</description>
   <language>ja</language>
   <item>
+    <title>2026-06-20 AI朝刊：Codex、作業手順を見て覚える新機能 ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-06-20/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-20/</guid>
+    <pubDate>Sat, 20 Jun 2026 06:30:00 +0900</pubDate>
+    <description>Codex、作業手順を見て覚える新機能／AWS、AIエージェントにWeb検索を追加／大阪メトロ、社内問い合わせをAIで集約／Google Vids、AIアバターを大幅強化／Vercel、社内IDで公開環境を保護</description>
+  </item>
+  <item>
     <title>2026-06-19 AI朝刊：ChatGPT広告、日本で開始へ ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-06-19/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-19/</guid>
@@ -173,13 +180,6 @@
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-05-22/</guid>
     <pubDate>Fri, 22 May 2026 06:30:00 +0900</pubDate>
     <description>AdventHealthがChatGPTで医療現場の効率化を実現／AI生成コンテンツの出所を明確にする新機能をOpenAIが発表／Google、AIモードで検索の利用法が変化する／Google Workspaceに新しいAI機能が追加／AIのエージェント時代が到来、Google I/Oで発表</description>
-  </item>
-  <item>
-    <title>2026-05-21 AI朝刊：OpenAIのモデルが離散幾何学の中心的予想を覆す ほか3本</title>
-    <link>https://nowonair.vercel.app/news/2026-05-21/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-05-21/</guid>
-    <pubDate>Thu, 21 May 2026 06:30:00 +0900</pubDate>
-    <description>OpenAIのモデルが離散幾何学の中心的予想を覆す／RampがCodexを活用したコードレビューの加速法／OpenAIがシンガポール向けにAIパートナーシップ提携／GoogleがI/O 2026でAIを活用した新機能を発表</description>
   </item>
 </channel>
 </rss>
