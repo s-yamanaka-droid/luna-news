@@ -1,0 +1,203 @@
+[
+  {
+    "title": "Geminiが日本語で表計算を作成",
+    "category": "ツール更新",
+    "source": "Gihyo.jp",
+    "lede": "GoogleスプレッドシートのGeminiが日本語対応し、表やグラフ、数式の作成・編集を自然文で行えるようになった。",
+    "keypoints": [
+      "日本語含む28言語に対応",
+      "表やグラフを自然文で作成",
+      "予算更新や財務分析に利用",
+      "URL参照はできない模様"
+    ],
+    "pull": "表計算の作業は、指示を書く仕事へ変わり始めた。",
+    "bizapp": {
+      "summary": "予算管理や分析資料の作成時間を短縮できる",
+      "actions": [
+        "Google Sheetsで予算表を作る",
+        "中小企業の月次集計を提案",
+        "今期中に表計算手順を見直す"
+      ]
+    },
+    "links": [
+      "https://gihyo.jp/article/2026/06/gemini-in-sheets-japanese-support?utm_source=feed"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Codex、画面操作を記録し再実行",
+    "category": "ツール更新",
+    "source": "ITmedia AI+ / The Decoder",
+    "lede": "OpenAIのCodexが、Mac上の作業を一度実演するだけで再利用できる手順として記憶する新機能を公開した。",
+    "keypoints": [
+      "作業を録画して手順化",
+      "経費精算などを自動化",
+      "YouTube公開作業も例示",
+      "Mac版Codexアプリで提供"
+    ],
+    "pull": "人が一度見せた操作を、AIが繰り返す時代に入った。",
+    "bizapp": {
+      "summary": "定型の画面操作を自動化し事務時間を削れる",
+      "actions": [
+        "Codexで経費提出を手順化",
+        "営業事務の反復作業を提案",
+        "月末前に定型操作を洗い出す"
+      ]
+    },
+    "links": [
+      "https://www.itmedia.co.jp/news/articles/2606/19/news102.html",
+      "https://the-decoder.com/openais-codex-can-now-watch-you-work-once-and-repeat-the-task-forever/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AI悪用の最新フィッシングに警戒",
+    "category": "セキュリティ",
+    "source": "ITmedia Enterprise",
+    "lede": "Microsoftは、AIで多要素認証を突破する手口や有名AIサービスを装う偽装攻撃の増加を警告した。",
+    "keypoints": [
+      "AI悪用型の攻撃が増加",
+      "MFA突破手口に警告",
+      "有名AIサービスを偽装",
+      "不自然な日本語では見抜けない"
+    ],
+    "pull": "AI時代の攻撃は、見た目で怪しいと判断しにくい。",
+    "bizapp": {
+      "summary": "社内のAI利用ルールと認証対策を更新すべき",
+      "actions": [
+        "Microsoft対策記事で教育する",
+        "AI利用企業向け研修を提案",
+        "放置すると認証突破を許す"
+      ]
+    },
+    "links": [
+      "https://www.itmedia.co.jp/enterprise/articles/2606/20/news013.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "ChatGPT広告、日本で試験運用へ",
+    "category": "業界動向",
+    "source": "MarkeZine",
+    "lede": "電通デジタルが国内ローンチパートナーとして、ChatGPT広告の日本展開に向けたパイロット運用を始めた。",
+    "keypoints": [
+      "ChatGPT広告を国内検証",
+      "電通デジタルが支援",
+      "回答の独立性を前提",
+      "新たな顧客接点を検証"
+    ],
+    "pull": "検索広告の次は、会話の中の接点が争点になる。",
+    "bizapp": {
+      "summary": "生成AI時代の広告接点を早期検証できる",
+      "actions": [
+        "ChatGPT広告の検証枠を作る",
+        "採用広報の新接点を提案",
+        "来期広告予算前に検討する"
+      ]
+    },
+    "links": [
+      "https://markezine.jp/article/detail/77001"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "生成AI停止で業務影響が6割超",
+    "category": "業界動向",
+    "source": "AI Watch",
+    "lede": "生成AI利用者の6割超が、生成AIが使えなくなると業務に影響すると回答し、業務インフラ化が進んでいる。",
+    "keypoints": [
+      "会社員360名を調査",
+      "6割超が業務影響あり",
+      "半数がAI提案を参考",
+      "20代は毎日利用が約半数"
+    ],
+    "pull": "生成AIは検索ツールから、判断の相手へ変わっている。",
+    "bizapp": {
+      "summary": "AI前提の業務設計と停止時対応が必要になる",
+      "actions": [
+        "社内AI利用状況を棚卸し",
+        "中小企業のAI研修を提案",
+        "停止時の代替手順を決める"
+      ]
+    },
+    "links": [
+      "https://ai.watch.impress.co.jp/docs/news/2118691.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "GMO傘下、Unitree国内代理店に",
+    "category": "業界動向",
+    "source": "ITmedia AI+",
+    "lede": "GMO AI＆ロボティクス商事が中国Unitree Roboticsと国内正規代理店契約を結び、導入から保守まで支援する。",
+    "keypoints": [
+      "Unitreeの国内代理店に",
+      "人型・四足ロボを販売",
+      "導入支援と保守も提供",
+      "羽田空港で実証実験"
+    ],
+    "pull": "人型ロボットは、実証から導入支援の段階へ進む。",
+    "bizapp": {
+      "summary": "省人化が必要な現場でロボ導入検討が進む",
+      "actions": [
+        "Unitreeで搬送業務を検討",
+        "空港や物流の省人化を提案",
+        "人手不足現場は早期検証する"
+      ]
+    },
+    "links": [
+      "https://www.itmedia.co.jp/aiplus/article/2606/19/2000000109/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "GitHub Copilot個人申込を再開",
+    "category": "ツール更新",
+    "source": "CodeZine",
+    "lede": "GitHubはCopilotの個人向け各プランの新規申込受付を段階的に再開し、超過時の追加利用にも対応した。",
+    "keypoints": [
+      "個人プラン申込を再開",
+      "数週間かけ段階展開",
+      "差額支払いで上位移行",
+      "追加料金で継続利用"
+    ],
+    "pull": "AI codingは、使う量に応じて柔軟に買う段階に入った。",
+    "bizapp": {
+      "summary": "開発者のAI利用枠を柔軟に調達できる",
+      "actions": [
+        "GitHub Copilot枠を見直す",
+        "開発内製化支援を提案",
+        "利用上限前に予算を確保する"
+      ]
+    },
+    "links": [
+      "https://codezine.jp/article/detail/24598"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "廃炉向けフィジカルAI開発開始",
+    "category": "研究",
+    "source": "ロボスタ",
+    "lede": "クフウシヤやJAEA、東大研究室などが、高線量環境で調査・作業を支援するフィジカルAIロボットの共同開発を始めた。",
+    "keypoints": [
+      "廃炉向けロボを共同開発",
+      "高線量環境で作業支援",
+      "熟練者依存の解消を狙う",
+      "浜通り復興とも連携"
+    ],
+    "pull": "AIは画面の中だけでなく、危険現場の作業にも広がる。",
+    "bizapp": {
+      "summary": "危険作業の省人化と安全対策の参考になる",
+      "actions": [
+        "現場業務をデジタルツイン化",
+        "建設・保守の遠隔化を提案",
+        "危険作業の人依存を減らす"
+      ]
+    },
+    "links": [
+      "https://robotstart.info/article/2026/06/19/382052.html"
+    ],
+    "likes": 0
+  }
+]
