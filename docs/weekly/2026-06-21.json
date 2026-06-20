@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週は、AIが「相談相手」から表計算・経理・画面操作を任せる実務ツールへ寄りました。小規模事業者はまず毎週の定型事務をAI化すると効果が出ます。一方で偽AIメールや依存リスクも増え、利用ルール整備も必須です。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-06-21",
+      "title": "Geminiが日本語で表計算を作成",
+      "category": "ツール更新",
+      "source": "Gihyo.jp",
+      "why_picked": "予算表や分析資料をすぐ時短できる",
+      "tldr": "日本語で表計算を自動作成",
+      "action": "月次予算表を作らせる",
+      "image": "../assets/images/2026-06-21/topic_1.png",
+      "link": "../news/2026-06-21/#topic-1"
+    },
+    {
+      "rank": 2,
+      "date": "2026-06-17",
+      "title": "freee、業務代行AIを提供開始",
+      "category": "ツール更新",
+      "source": "AI Watch",
+      "why_picked": "経理の漏れ確認をそのまま任せられる",
+      "tldr": "freeeで経理AI代行",
+      "action": "経費漏れ確認を任せる",
+      "image": "../assets/images/2026-06-17/topic_3.png",
+      "link": "../news/2026-06-17/#topic-3"
+    },
+    {
+      "rank": 3,
+      "date": "2026-06-21",
+      "title": "Codex、画面操作を記録し再実行",
+      "category": "ツール更新",
+      "source": "ITmedia AI+ / The Decoder",
+      "why_picked": "毎週の単純な画面作業を削れる",
+      "tldr": "画面操作を覚えて自動化",
+      "action": "定型操作を1つ録画する",
+      "image": "../assets/images/2026-06-21/topic_2.png",
+      "link": "../news/2026-06-21/#topic-2"
+    }
+  ]
+}

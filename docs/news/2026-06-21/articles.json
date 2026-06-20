@@ -22,7 +22,30 @@
     "links": [
       "https://gihyo.jp/article/2026/06/gemini-in-sheets-japanese-support?utm_source=feed"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "予算表を自動作成",
+      "tool": {
+        "name": "Google Sheets + Gemini",
+        "url": "https://workspace.google.com/products/sheets/",
+        "cost": "無料〜 / Workspace有料"
+      },
+      "time": "30分",
+      "steps": [
+        "売上と経費を貼り付ける",
+        "月次予算表を依頼する",
+        "グラフと差異を確認する"
+      ],
+      "prompt": "あなたは経理担当です。{自社名}の{業種}向けに、売上・固定費・変動費・利益を月次で見える予算表と改善コメントを作ってください。",
+      "roi": "月次集計を半日から30分に短縮"
+    },
+    "icebreak": {
+      "hook": "Geminiで日本語の表計算、作れるの知ってます？",
+      "punchline": "表やグラフだけでなく、予算更新や財務分析の入口まで自然文で任せられるらしいです。",
+      "ctx_meeting": "業務効率化提案の冒頭で",
+      "ctx_chat": "経理担当との雑談で",
+      "share_text": "スプレッドシート操作って、実は一番AIに渡しやすい仕事かもしれない。日本語で表・グラフ・数式まで触れるなら、資料作成前の手戻りがかなり減りそう。"
+    }
   },
   {
     "title": "Codex、画面操作を記録し再実行",
@@ -48,7 +71,30 @@
       "https://www.itmedia.co.jp/news/articles/2606/19/news102.html",
       "https://the-decoder.com/openais-codex-can-now-watch-you-work-once-and-repeat-the-task-forever/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "定型操作を記録",
+      "tool": {
+        "name": "OpenAI Codex",
+        "url": "https://openai.com/codex/",
+        "cost": "ChatGPT有料プラン内"
+      },
+      "time": "30分",
+      "steps": [
+        "毎月の手作業を選ぶ",
+        "一度だけ画面操作する",
+        "翌月用の手順名を付ける"
+      ],
+      "prompt": "あなたは業務自動化担当です。{自社名}の{作業名}について、毎回同じ画面操作を記録して再実行する手順に分解してください。",
+      "roi": "月5時間の事務作業を削減"
+    },
+    "icebreak": {
+      "hook": "Codex、Mac作業を見せるだけで覚えるらしいですよ",
+      "punchline": "経費精算や公開作業みたいな定型手順を、録画から再実行できる仕事に変える話です。",
+      "ctx_meeting": "定型業務自動化の提案で",
+      "ctx_chat": "移動中のAI雑談で",
+      "share_text": "自動化って設定が面倒で止まりがちだけど、作業を一度見せて覚えさせる形なら広がりそう。経費精算みたいな小さい面倒から変わる気がする。"
+    }
   },
   {
     "title": "AI悪用の最新フィッシングに警戒",
@@ -73,7 +119,30 @@
     "links": [
       "https://www.itmedia.co.jp/enterprise/articles/2606/20/news013.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "偽AIメール訓練",
+      "tool": {
+        "name": "Microsoft Defender for Business",
+        "url": "https://www.microsoft.com/ja-jp/security/business/endpoint-security/microsoft-defender-business",
+        "cost": "¥330/ユーザー/月目安"
+      },
+      "time": "30分",
+      "steps": [
+        "AIサービス利用者を出す",
+        "偽ログイン例を共有する",
+        "MFA再確認日を決める"
+      ],
+      "prompt": "あなたは中小企業の情報セキュリティ講師です。{自社名}の{業種}向けに、偽AIサービスメールとMFA突破対策の朝礼台本を作ってください。",
+      "roi": "認証事故リスクを事前に低減"
+    },
+    "icebreak": {
+      "hook": "AIフィッシング、もう変な日本語では見抜けないらしいです",
+      "punchline": "Microsoftが、MFA突破や有名AIサービス偽装まで警告していて、見た目の違和感頼みは危ないです。",
+      "ctx_meeting": "セキュリティ提案の導入で",
+      "ctx_chat": "社内の注意喚起で",
+      "share_text": "フィッシング対策を「日本語が変なら疑う」で止めている会社は、そろそろ見直した方がよさそう。AIで自然な文面になるなら、確認フロー側を変える必要がある。"
+    }
   },
   {
     "title": "ChatGPT広告、日本で試験運用へ",
@@ -98,7 +167,30 @@
     "links": [
       "https://markezine.jp/article/detail/77001"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI検索FAQ作成",
+      "tool": {
+        "name": "ChatGPT",
+        "url": "https://chatgpt.com",
+        "cost": "無料〜 / Plus ¥3,000/月目安"
+      },
+      "time": "30分",
+      "steps": [
+        "主力商品を1つ選ぶ",
+        "顧客の質問を10個出す",
+        "回答文をサイトに載せる"
+      ],
+      "prompt": "あなたはAI検索広告の相談役です。{自社名}の{業種}{商品}がChatGPT上で候補に出やすくなるFAQ10個と回答を作ってください。",
+      "roi": "来期広告前に新接点を低コスト検証"
+    },
+    "icebreak": {
+      "hook": "ChatGPTに広告が出る検証、日本でも始まるらしいです",
+      "punchline": "電通デジタルが支援して、回答の独立性を前提に新しい顧客接点を試す動きです。",
+      "ctx_meeting": "マーケ施策相談の冒頭で",
+      "ctx_chat": "広告業界の雑談で",
+      "share_text": "検索広告の次を考えるなら、ChatGPT広告の国内検証は見ておきたい。回答の独立性をどう守りながら顧客接点にするのか、かなり難しくて面白い論点。"
+    }
   },
   {
     "title": "生成AI停止で業務影響が6割超",
@@ -123,7 +215,30 @@
     "links": [
       "https://ai.watch.impress.co.jp/docs/news/2118691.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI停止手順作成",
+      "tool": {
+        "name": "ChatGPT",
+        "url": "https://chatgpt.com",
+        "cost": "無料〜 / Plus ¥3,000/月目安"
+      },
+      "time": "30分",
+      "steps": [
+        "AI利用業務を列挙する",
+        "停止時の代替を決める",
+        "紙1枚の手順にする"
+      ],
+      "prompt": "あなたは小規模会社の業務設計者です。{自社名}の{業種}でAIが止まると困る業務を洗い出し、代替手順表を作ってください。",
+      "roi": "AI停止時の業務混乱を半減"
+    },
+    "icebreak": {
+      "hook": "生成AIが止まると困る人、もう6割超らしいですよ",
+      "punchline": "会社員360名の調査で、使えないと業務に影響する人が多数になっていて、道具からインフラに近づいています。",
+      "ctx_meeting": "AI活用状況の確認で",
+      "ctx_chat": "同僚との働き方雑談で",
+      "share_text": "生成AIが便利ツールではなく、止まると仕事に響くインフラになり始めている。特に半数がAI提案を参考にしているなら、使い方の標準化も避けられなさそう。"
+    }
   },
   {
     "title": "GMO傘下、Unitree国内代理店に",
@@ -148,7 +263,30 @@
     "links": [
       "https://www.itmedia.co.jp/aiplus/article/2606/19/2000000109/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "搬送業務を棚卸し",
+      "tool": {
+        "name": "Unitree Robotics",
+        "url": "https://www.unitree.com/",
+        "cost": "要問い合わせ"
+      },
+      "time": "半日",
+      "steps": [
+        "現場移動作業を数える",
+        "人が運ぶ物を記録する",
+        "ロボ候補業務を選ぶ"
+      ],
+      "prompt": "あなたは省人化コンサルです。{自社名}の{業種}で、人が歩く・運ぶ・見回る作業をロボット導入候補として優先順位化してください。",
+      "roi": "人手不足業務の外注前検討に使える"
+    },
+    "icebreak": {
+      "hook": "GMO傘下がUnitreeロボの国内代理店になるそうです",
+      "punchline": "人型・四足ロボを売るだけでなく、導入支援と保守まで見るので、実験から現場導入に近づきそうです。",
+      "ctx_meeting": "ロボット活用提案で",
+      "ctx_chat": "空港や物流の話題で",
+      "share_text": "ロボット導入は本体より、保守や運用支援があるかで現場の現実味が変わる。Unitreeを国内代理店経由で扱えるなら、実証実験から先の話が進みやすくなりそう。"
+    }
   },
   {
     "title": "GitHub Copilot個人申込を再開",
@@ -173,7 +311,30 @@
     "links": [
       "https://codezine.jp/article/detail/24598"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "コード修正をAI化",
+      "tool": {
+        "name": "GitHub Copilot",
+        "url": "https://github.com/features/copilot/",
+        "cost": "無料〜 / Pro $10/月目安"
+      },
+      "time": "30分",
+      "steps": [
+        "直したい箇所を選ぶ",
+        "Copilotに修正案を出す",
+        "差分を見て反映する"
+      ],
+      "prompt": "あなたは小規模会社の開発担当です。{自社名}の{サイト種別}で{修正したい点}を直すコード案と確認手順を作ってください。",
+      "roi": "軽微なWeb修正の外注費を削減"
+    },
+    "icebreak": {
+      "hook": "GitHub Copilotの個人申込、再開するらしいですよ",
+      "punchline": "段階的な再開に加えて、上位移行や追加料金での継続利用も用意され、個人開発者には追い風です。",
+      "ctx_meeting": "開発体制の相談で",
+      "ctx_chat": "エンジニアとの雑談で",
+      "share_text": "Copilotの個人申込再開は、個人開発者や副業エンジニアには地味に大きい。追加料金で継続利用できるなら、作業量が増える時期だけ使い方を変えられそう。"
+    }
   },
   {
     "title": "廃炉向けフィジカルAI開発開始",
@@ -198,6 +359,29 @@
     "links": [
       "https://robotstart.info/article/2026/06/19/382052.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "危険作業を棚卸し",
+      "tool": {
+        "name": "ChatGPT",
+        "url": "https://chatgpt.com",
+        "cost": "無料〜 / Plus ¥3,000/月目安"
+      },
+      "time": "30分",
+      "steps": [
+        "危険作業を10個書く",
+        "遠隔化できる物を選ぶ",
+        "動画記録の方法を決める"
+      ],
+      "prompt": "あなたは現場安全の改善担当です。{自社名}の{業種}で危険・高所・狭所の作業を洗い出し、遠隔確認に置き換える案を作ってください。",
+      "roi": "事故リスク低減と教育時間短縮"
+    },
+    "icebreak": {
+      "hook": "廃炉向けにフィジカルAIロボを作る動きが始まっています",
+      "punchline": "高線量環境での調査や作業を支援し、熟練者依存を減らす狙いまで含んだ共同開発です。",
+      "ctx_meeting": "現場DX提案の導入で",
+      "ctx_chat": "社会課題の雑談で",
+      "share_text": "フィジカルAIは工場や物流だけでなく、廃炉のような人が入りにくい現場でも重要になる。熟練者依存を減らす技術として見ると、かなり社会実装の意味が大きい。"
+    }
   }
 ]
