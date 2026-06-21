@@ -1,0 +1,202 @@
+[
+  {
+    "title": "AI計算資源、巨額契約も安全性で破談",
+    "category": "業界動向",
+    "source": "Business Insider Japan",
+    "lede": "マイクロソフトとオラクルのクラウド契約交渉が、セキュリティとコンプライアンス懸念で決裂した。",
+    "keypoints": [
+      "契約額は30億ドル超の可能性",
+      "AI需要で計算資源が不足",
+      "安全性が契約の壁に",
+      "異例の提携が増えている"
+    ],
+    "pull": "AI時代の調達は、安さより安全性と供給力が問われる。",
+    "bizapp": {
+      "summary": "AI基盤の調達計画を早めに見直すべき",
+      "actions": [
+        "Azure利用部門の容量リスク確認",
+        "中小企業向けAI基盤診断を提案",
+        "来期前に見直さないと調達難"
+      ]
+    },
+    "links": [
+      "https://www.businessinsider.jp/article/2605-microsoft-was-in-talks-to-lease-oracle-compute-capacity/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Shopify、AI経由の販売管理を拡充",
+    "category": "ツール更新",
+    "source": "MarkeZine",
+    "lede": "Shopify Japanは、AIチャネルでの商品管理や販売を広げる150超の新機能を発表した。",
+    "keypoints": [
+      "150超の新機能を導入",
+      "AIチャネル売上を一元管理",
+      "Sidekickが改善点を提示",
+      "広告運用の自動化も追加"
+    ],
+    "pull": "ECは検索画面だけでなく、AIとの会話でも売る時代に入る。",
+    "bizapp": {
+      "summary": "EC商品のAI上での見え方を改善できる",
+      "actions": [
+        "Shopify管理画面でAI流入を確認",
+        "小売店にAI販売導線を提案",
+        "放置するとAI検索で商品が埋もれる"
+      ]
+    },
+    "links": [
+      "https://markezine.jp/article/detail/77005"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AWS、文脈で脆弱性を推論する新機能",
+    "category": "セキュリティ",
+    "source": "Publickey",
+    "lede": "AWSはコードだけでなく、インフラ構成や業務上の優先事項も踏まえて脆弱性を推論するサービスを発表した。",
+    "keypoints": [
+      "コード以外も文脈に使う",
+      "権限やネットワークも考慮",
+      "業務文書も判断材料に",
+      "特定AIモデルに依存しない"
+    ],
+    "pull": "脆弱性診断は、コード単体から事業文脈込みの判断へ進む。",
+    "bizapp": {
+      "summary": "重要システムのリスク優先度を見直せる",
+      "actions": [
+        "AWS Continuumで脆弱性整理",
+        "情シス向けリスク診断を提案",
+        "放置すると重要リスクを見落とす"
+      ]
+    },
+    "links": [
+      "https://www.publickey1.jp/blog/26/awsaws_contiuumai.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AppleのAI基盤をGoogle Cloudが支援",
+    "category": "セキュリティ",
+    "source": "AI Watch",
+    "lede": "Google Cloudは、AppleのPrivate Cloud Compute拡張を支える安全なAI基盤の構築で協力すると発表した。",
+    "keypoints": [
+      "AppleのPCC拡張を支援",
+      "Google Cloud上に基盤構築",
+      "使用中データを保護",
+      "透明性にオープンソース活用"
+    ],
+    "pull": "AIの競争軸は性能だけでなく、処理中データの保護へ広がる。",
+    "bizapp": {
+      "summary": "個人情報を扱うAI導入の判断材料になる",
+      "actions": [
+        "Google Cloudで機密AI基盤を検討",
+        "医療や金融向け安全AIを提案",
+        "放置すると監査対応で遅れる"
+      ]
+    },
+    "links": [
+      "https://ai.watch.impress.co.jp/docs/news/2118603.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Vercel、AIエージェント版Next.jsへ",
+    "category": "ツール更新",
+    "source": "Gihyo.jp",
+    "lede": "Vercelは、AIエージェントを構築・実行するオープンソースフレームワーク「eve」を公開した。",
+    "keypoints": [
+      "オープンソースで公開",
+      "指示はMarkdownで記述",
+      "ツールはTypeScriptで作る",
+      "承認や実行環境も組み込む"
+    ],
+    "pull": "AIエージェント開発にも、Web開発のような型が整い始めた。",
+    "bizapp": {
+      "summary": "社内業務エージェントの試作が速くなる",
+      "actions": [
+        "Vercel eveで業務Botを試作",
+        "営業支援エージェントを提案",
+        "早期検証しないと開発標準に遅れる"
+      ]
+    },
+    "links": [
+      "https://gihyo.jp/article/2026/06/eve?utm_source=feed"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AWS、技術的負債をAIが継続点検",
+    "category": "ツール更新",
+    "source": "Publickey",
+    "lede": "AWSは、AIエージェントがリポジトリを継続スキャンし、技術的負債を検出する機能を公開した。",
+    "keypoints": [
+      "リポジトリを自動スキャン",
+      "終了ライブラリを検出",
+      "優先順位つきで報告",
+      "修正プルリクも提案"
+    ],
+    "pull": "保守の後回しは、AIが常時見つけて直す対象になる。",
+    "bizapp": {
+      "summary": "古いシステムの保守計画を自動化できる",
+      "actions": [
+        "AWS Transformで負債を棚卸し",
+        "中小企業の保守改善を提案",
+        "放置すると障害と改修費が膨らむ"
+      ]
+    },
+    "links": [
+      "https://www.publickey1.jp/blog/26/awsaiaws_transform_continuous_modernization.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "iPhoneのAI、日常アプリに広がる",
+    "category": "業界動向",
+    "source": "TechCrunch AI",
+    "lede": "AppleはSiriだけでなく、割り勘やパスワード保護など日常機能にAIを組み込む方針を示した。",
+    "keypoints": [
+      "Siri以外にもAIを搭載",
+      "割り勘を支援",
+      "漏えい後のパスワードを保護",
+      "作業や情報整理を自動化"
+    ],
+    "pull": "AIはチャット相手から、いつものアプリを賢くする機能へ移る。",
+    "bizapp": {
+      "summary": "スマホ業務の小さな手間削減に使える",
+      "actions": [
+        "iPhone標準機能で経費整理を試す",
+        "営業現場の入力削減を提案",
+        "放置すると現場効率化で差が出る"
+      ]
+    },
+    "links": [
+      "https://techcrunch.com/2026/06/21/beyond-siri-here-are-the-practical-ai-features-coming-to-your-iphone-in-ios-27/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Azure FunctionsがAIエージェント対応",
+    "category": "ツール更新",
+    "source": "InfoQ AI/ML",
+    "lede": "MicrosoftはAzure Functionsに、AIエージェントを構築・ホストするサーバーレス実行基盤を追加した。",
+    "keypoints": [
+      "公開プレビューで提供",
+      "AIエージェントを構築可能",
+      "Markdown中心で定義",
+      "既存のトリガーを使える"
+    ],
+    "pull": "AIエージェントは専用基盤ではなく、既存クラウド機能に組み込まれる。",
+    "bizapp": {
+      "summary": "既存Azure業務の自動化を拡張できる",
+      "actions": [
+        "Azure Functionsで通知Bot試作",
+        "バックオフィス自動化を提案",
+        "早めに試さないと設計が古くなる"
+      ]
+    },
+    "links": [
+      "https://www.infoq.com/news/2026/06/azure-functions-serverless-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering"
+    ],
+    "likes": 0
+  }
+]
