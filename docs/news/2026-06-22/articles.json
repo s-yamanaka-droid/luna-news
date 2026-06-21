@@ -22,7 +22,30 @@
     "links": [
       "https://www.businessinsider.jp/article/2605-microsoft-was-in-talks-to-lease-oracle-compute-capacity/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI調達リスク点検",
+      "tool": {
+        "name": "ChatGPT Plus",
+        "url": "https://chatgpt.com",
+        "cost": "¥3,000/月目安"
+      },
+      "time": "30分",
+      "steps": [
+        "AI利用先を列挙せよ",
+        "停止時の影響を書け",
+        "代替ツールを決めよ"
+      ],
+      "prompt": "あなたはAI調達診断士です。{自社名}の{利用AIツール}と{業務}を入力するので、停止時の代替策と安全確認を表にしてください。",
+      "roi": "AI停止時の業務遅延を半日分削減"
+    },
+    "icebreak": {
+      "hook": "AIのクラウド契約、30億ドル超でも破談らしいですよ",
+      "punchline": "計算資源の奪い合いでも、最後は安全性とコンプラが勝つ時代ですね",
+      "ctx_meeting": "AI基盤提案の冒頭で",
+      "ctx_chat": "移動中の業界雑談で",
+      "share_text": "AI需要で計算資源が足りないと言われますが、30億ドル超でも安全性で止まる。インフラ選定は性能より先に信頼の話になってきました。"
+    }
   },
   {
     "title": "Shopify、AI経由の販売管理を拡充",
@@ -47,7 +70,30 @@
     "links": [
       "https://markezine.jp/article/detail/77005"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI販売導線改善",
+      "tool": {
+        "name": "Shopify",
+        "url": "https://www.shopify.com/jp",
+        "cost": "¥3,650/月から"
+      },
+      "time": "30分",
+      "steps": [
+        "商品説明を見直せ",
+        "FAQを3つ追加せよ",
+        "AI流入を確認せよ"
+      ],
+      "prompt": "あなたはEC改善担当です。{自社名}の{商品URL}と{顧客層}を見て、AI検索で選ばれる商品名・説明・FAQを提案してください。",
+      "roi": "商品説明改善を月5時間短縮"
+    },
+    "icebreak": {
+      "hook": "Shopify、AI経由の売上まで管理するらしいですよ",
+      "punchline": "ECはサイト運営だけじゃなく、AIチャネル前提の販売管理に移りそうですね",
+      "ctx_meeting": "EC改善提案の冒頭で",
+      "ctx_chat": "ランチのEC雑談で",
+      "share_text": "Shopifyが150超の新機能を出して、AIチャネルの売上管理まで広げている。ECの主戦場が、検索や広告だけではなくAI上の接客に移りそうです。"
+    }
   },
   {
     "title": "AWS、文脈で脆弱性を推論する新機能",
@@ -72,7 +118,30 @@
     "links": [
       "https://www.publickey1.jp/blog/26/awsaws_contiuumai.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "脆弱性を優先整理",
+      "tool": {
+        "name": "Amazon Inspector",
+        "url": "https://aws.amazon.com/inspector/",
+        "cost": "無料トライアル＋従量課金"
+      },
+      "time": "半日",
+      "steps": [
+        "AWS構成を書き出せ",
+        "重要業務を順位付けせよ",
+        "高リスクから直せ"
+      ],
+      "prompt": "あなたはAWSリスク担当です。{自社名}の{AWS構成}と{重要業務}を基に、脆弱性を事業影響順に並べて対策を出してください。",
+      "roi": "重大障害リスクの見落としを削減"
+    },
+    "icebreak": {
+      "hook": "AWS、コードだけ見ない脆弱性チェックを出しましたね",
+      "punchline": "権限やネットワーク、業務文書まで見て優先度を考えるのが現実的ですね",
+      "ctx_meeting": "セキュリティ提案で",
+      "ctx_chat": "開発チームとの雑談で",
+      "share_text": "脆弱性診断も、コード単体ではなくインフラ構成や業務上の優先事項まで見る方向へ。AIに任せるほど、文脈を渡せる設計が大事になりますね。"
+    }
   },
   {
     "title": "AppleのAI基盤をGoogle Cloudが支援",
@@ -97,7 +166,30 @@
     "links": [
       "https://ai.watch.impress.co.jp/docs/news/2118603.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "機密AIルール作成",
+      "tool": {
+        "name": "Gemini",
+        "url": "https://gemini.google.com",
+        "cost": "無料から"
+      },
+      "time": "20分",
+      "steps": [
+        "個人情報を分類せよ",
+        "AI入力禁止例を作れ",
+        "社内ルールに貼れ"
+      ],
+      "prompt": "あなたはAI安全導入担当です。{業種}の{自社名}が扱う{個人情報の種類}について、AI利用可否ルールを作ってください。",
+      "roi": "監査前のルール作成を70%短縮"
+    },
+    "icebreak": {
+      "hook": "AppleのAI基盤、Google Cloudも支えるらしいですよ",
+      "punchline": "競合でも、安全なAI基盤では組むのが普通になってきましたね",
+      "ctx_meeting": "クラウド選定の話で",
+      "ctx_chat": "Apple話題の雑談で",
+      "share_text": "AppleのPrivate Cloud Compute拡張をGoogle Cloudが支える話、かなり象徴的。AI基盤は自前か他社かではなく、安全性をどう担保するかが論点ですね。"
+    }
   },
   {
     "title": "Vercel、AIエージェント版Next.jsへ",
@@ -122,7 +214,30 @@
     "links": [
       "https://gihyo.jp/article/2026/06/eve?utm_source=feed"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "業務Botを試作",
+      "tool": {
+        "name": "Vercel",
+        "url": "https://vercel.com",
+        "cost": "無料から"
+      },
+      "time": "半日",
+      "steps": [
+        "定型業務を一つ選べ",
+        "手順をMarkdown化せよ",
+        "試作用Botを作れ"
+      ],
+      "prompt": "あなたはAIエージェント設計者です。{自社名}の{定型業務}をMarkdown指示と必要ツール一覧に分解してください。",
+      "roi": "定型確認作業を月10時間削減"
+    },
+    "icebreak": {
+      "hook": "VercelがAIエージェント版Next.jsみたいなものを出しましたね",
+      "punchline": "Markdownで指示を書き、TypeScriptで道具を作る流れは開発者に刺さりそうです",
+      "ctx_meeting": "AIエージェント提案で",
+      "ctx_chat": "開発者との雑談で",
+      "share_text": "Vercelのeveは、AIエージェントをMarkdownとTypeScriptで組む発想が面白い。Web開発の延長でエージェントを作る流れが強まりそうです。"
+    }
   },
   {
     "title": "AWS、技術的負債をAIが継続点検",
@@ -147,7 +262,30 @@
     "links": [
       "https://www.publickey1.jp/blog/26/awsaiaws_transform_continuous_modernization.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "技術負債を棚卸し",
+      "tool": {
+        "name": "Amazon Q Developer",
+        "url": "https://aws.amazon.com/q/developer/",
+        "cost": "無料から"
+      },
+      "time": "半日",
+      "steps": [
+        "リポジトリを指定せよ",
+        "古い依存を確認せよ",
+        "修正順を決めよ"
+      ],
+      "prompt": "あなたは保守改善担当です。{リポジトリURL}と{利用技術}を基に、技術負債を危険度順に棚卸ししてください。",
+      "roi": "保守計画作成を月8時間削減"
+    },
+    "icebreak": {
+      "hook": "AWS、技術的負債をAIが見張る機能を出しましたね",
+      "punchline": "負債を棚卸しするだけでなく、修正プルリクまで提案するのが実務的ですね",
+      "ctx_meeting": "開発改善提案の冒頭で",
+      "ctx_chat": "エンジニア雑談で",
+      "share_text": "技術的負債は気づいた時には膨らんでいるので、リポジトリをAIが継続スキャンして優先順位まで出すのは実務に効きそう。修正プルリク提案まで来ています。"
+    }
   },
   {
     "title": "iPhoneのAI、日常アプリに広がる",
@@ -172,7 +310,30 @@
     "links": [
       "https://techcrunch.com/2026/06/21/beyond-siri-here-are-the-practical-ai-features-coming-to-your-iphone-in-ios-27/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "スマホ経費整理",
+      "tool": {
+        "name": "ChatGPT",
+        "url": "https://chatgpt.com/download",
+        "cost": "無料から"
+      },
+      "time": "10分",
+      "steps": [
+        "領収書を撮影せよ",
+        "用途を音声入力せよ",
+        "経費表にまとめよ"
+      ],
+      "prompt": "あなたは経理アシスタントです。{自社名}の領収書内容と{用途メモ}を、日付・金額・勘定科目の表にしてください。",
+      "roi": "経費整理を月3時間削減"
+    },
+    "icebreak": {
+      "hook": "iPhoneのAI、Siri以外にも広がるらしいですよ",
+      "punchline": "割り勘やパスワード保護みたいな日常機能に入ると、AI感が薄れて普及しますね",
+      "ctx_meeting": "消費者AIの話題で",
+      "ctx_chat": "スマホ雑談で",
+      "share_text": "iPhoneのAIがSiriだけでなく、割り勘やパスワード保護にも入っていく。AIは特別なアプリではなく、気づいたら日常機能の裏側にいる形で広がりそうです。"
+    }
   },
   {
     "title": "Azure FunctionsがAIエージェント対応",
@@ -197,6 +358,29 @@
     "links": [
       "https://www.infoq.com/news/2026/06/azure-functions-serverless-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "通知Botを作る",
+      "tool": {
+        "name": "Azure Functions",
+        "url": "https://azure.microsoft.com/products/functions",
+        "cost": "無料枠＋従量課金"
+      },
+      "time": "半日",
+      "steps": [
+        "通知したい業務を選べ",
+        "発火条件を書き出せ",
+        "Bot仕様を作れ"
+      ],
+      "prompt": "あなたはAzure自動化担当です。{自社名}の{通知業務}をAzure Functionsで動かすためのトリガーと処理手順にしてください。",
+      "roi": "確認漏れ対応を月5時間削減"
+    },
+    "icebreak": {
+      "hook": "Azure FunctionsでもAIエージェントを動かせるようになりますね",
+      "punchline": "既存のトリガーを使えるなら、業務自動化にAIを足しやすくなりますね",
+      "ctx_meeting": "Azure活用提案で",
+      "ctx_chat": "クラウド雑談で",
+      "share_text": "Azure FunctionsがAIエージェント対応へ。既存のトリガーを使えるなら、今ある業務フローにAIを足すハードルがかなり下がりそうです。"
+    }
   }
 ]

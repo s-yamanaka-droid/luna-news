@@ -7,6 +7,13 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。毎朝6:30、AI業界ニュースを図解と「明日からできる活用法」で。</description>
   <language>ja</language>
   <item>
+    <title>2026-06-22 AI朝刊：AI計算資源、巨額契約も安全性で破談 ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-06-22/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-22/</guid>
+    <pubDate>Mon, 22 Jun 2026 06:30:00 +0900</pubDate>
+    <description>AI計算資源、巨額契約も安全性で破談／Shopify、AI経由の販売管理を拡充／AWS、文脈で脆弱性を推論する新機能／AppleのAI基盤をGoogle Cloudが支援／Vercel、AIエージェント版Next.jsへ</description>
+  </item>
+  <item>
     <title>2026-06-21 AI朝刊：Geminiが日本語で表計算を作成 ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-06-21/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-21/</guid>
@@ -173,13 +180,6 @@
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-05-28/</guid>
     <pubDate>Thu, 28 May 2026 06:30:00 +0900</pubDate>
     <description>シスコ、Codexで開発工程を刷新／Devin開発元、評価額260億ドル超に／AIエージェントが株売買を実行へ／Snowflake、AWSと60億ドル契約／YouTube、AI動画の自動表示を開始</description>
-  </item>
-  <item>
-    <title>2026-05-23 AI朝刊：OpenAI、Gartnerが評価する企業向けコーディングエージェントのリーダーに ほか4本</title>
-    <link>https://nowonair.vercel.app/news/2026-05-23/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-05-23/</guid>
-    <pubDate>Sat, 23 May 2026 06:30:00 +0900</pubDate>
-    <description>OpenAI、Gartnerが評価する企業向けコーディングエージェントのリーダーに／Google I/O 2026でAIの新たな可能性が示唆／Google、AI検索の新たな時代を発表／OpenAI、PowerPointプラグインを発表／Deepseek、AGI研究優先へ</description>
   </item>
 </channel>
 </rss>
