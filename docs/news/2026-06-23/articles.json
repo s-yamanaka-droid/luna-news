@@ -22,7 +22,30 @@
     "links": [
       "https://tech.preferred.jp/ja/blog/plamo-3-0-prime-release/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "社内FAQを国産AI化",
+      "tool": {
+        "name": "PLaMo Chat",
+        "url": "https://plamo.preferredai.jp/",
+        "cost": "無料〜従量課金"
+      },
+      "time": "30分",
+      "steps": [
+        "ステップ1：FAQ10件を貼る",
+        "ステップ2：回答根拠を指定する",
+        "ステップ3：社員1人に試させる"
+      ],
+      "prompt": "あなたは中小企業の社内FAQ設計者です。{自社名}の{業種}向けに、以下の社内文書から質問10個と回答を作り、根拠箇所も示してください。",
+      "roi": "社内質問対応を月5時間削減"
+    },
+    "icebreak": {
+      "hook": "PFNの国産AI、文脈256Kまで来たの知ってます？",
+      "punchline": "日本語性能と低コストを両立するなら、海外モデル一択じゃなくなってきましたね。",
+      "ctx_meeting": "AI導入提案の冒頭で",
+      "ctx_chat": "移動中の雑談で",
+      "share_text": "国産AIを見る目が変わった。文脈長256KでChat/API利用まで整うと、まず日本語業務で試す選択肢に入ってきますね。"
+    }
   },
   {
     "title": "Sakana、複数AI束ねるFugu提供",
@@ -48,7 +71,30 @@
       "https://gihyo.jp/article/2026/06/sakana-fugu?utm_source=feed",
       "https://ai.watch.impress.co.jp/docs/news/2119085.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "難問をAI合議に",
+      "tool": {
+        "name": "Sakana Fugu",
+        "url": "https://sakana.ai/fugu/",
+        "cost": "約¥3,000/月〜"
+      },
+      "time": "30分",
+      "steps": [
+        "ステップ1：調査テーマを選ぶ",
+        "ステップ2：反対意見も出させる",
+        "ステップ3：結論を表にまとめる"
+      ],
+      "prompt": "あなたは複数AIを束ねる調査主任です。{業種}の{課題}について賛成・反対・検証役の3視点で調査し、明日試す手順を表にしてください。",
+      "roi": "調査初稿を半日から30分に短縮"
+    },
+    "icebreak": {
+      "hook": "SakanaがAIを束ねるFuguを出したらしいですよ",
+      "punchline": "単一APIで複数モデルを動かせると、難しい作業をAIチームに任せる発想になりますね。",
+      "ctx_meeting": "業務自動化の相談で",
+      "ctx_chat": "AI好きとの雑談で",
+      "share_text": "AIを1つ選ぶより、複数AIを協調させる発想が面白い。Fuguみたいに単一APIで束ねる形は、多段階作業に向いていそう。"
+    }
   },
   {
     "title": "OpenAI、脆弱性修正AIを拡充",
@@ -73,7 +119,30 @@
     "links": [
       "https://openai.com/index/daybreak-securing-the-world"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "コード脆弱性を点検",
+      "tool": {
+        "name": "ChatGPT Codex",
+        "url": "https://chatgpt.com/codex/",
+        "cost": "約¥3,000/月〜"
+      },
+      "time": "1時間",
+      "steps": [
+        "ステップ1：小規模リポを選ぶ",
+        "ステップ2：危険箇所を洗う",
+        "ステップ3：修正案をPR化する"
+      ],
+      "prompt": "あなたは安全なコード監査担当です。{自社名}の{リポジトリ概要}について、情報漏えいにつながる実装リスクと修正方針を優先度順に出してください。",
+      "roi": "保守点検の一次確認を70%短縮"
+    },
+    "icebreak": {
+      "hook": "OpenAI、脆弱性の修正までAIに寄せてますね",
+      "punchline": "発見だけでなく検証・修正まで進むと、開発の安全確認が後工程だけでは済まなくなりますね。",
+      "ctx_meeting": "開発体制の提案で",
+      "ctx_chat": "エンジニアとの会話で",
+      "share_text": "セキュリティAIは検知だけでなく、修正自動化まで進んでいる。これからは本番前にどれだけ潰せるかが開発力になりそう。"
+    }
   },
   {
     "title": "国内企業73％がシャドーAI未管理",
@@ -98,7 +167,30 @@
     "links": [
       "https://www.itmedia.co.jp/enterprise/articles/2606/22/news035.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI利用台帳を作る",
+      "tool": {
+        "name": "Notion",
+        "url": "https://www.notion.com/",
+        "cost": "無料〜"
+      },
+      "time": "30分",
+      "steps": [
+        "ステップ1：利用AIを聞き取る",
+        "ステップ2：用途と情報を記録",
+        "ステップ3：禁止データを明記"
+      ],
+      "prompt": "あなたは小さな会社のAI管理責任者です。{自社名}で使うAIツール台帳を作るため、用途・入力禁止情報・承認者・月額費用の列を提案してください。",
+      "roi": "機密流出リスクを初日で可視化"
+    },
+    "icebreak": {
+      "hook": "国内企業の73％、シャドーAI未管理らしいです",
+      "punchline": "禁止だけでは止まらないので、事業部門を巻き込んだルール作りが急所ですね。",
+      "ctx_meeting": "AIガバナンス提案で",
+      "ctx_chat": "社内AI利用の雑談で",
+      "share_text": "シャドーAIは一部の先進企業だけの話ではなさそう。国内企業の73％が未管理なら、使う前提で守る設計が必要ですね。"
+    }
   },
   {
     "title": "LINEヤフー、分析AIで2週間を10分に",
@@ -123,7 +215,30 @@
     "links": [
       "https://techblog.lycorp.co.jp/ja/techverse2026-105"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "売上分析を10分化",
+      "tool": {
+        "name": "ChatGPT Plus",
+        "url": "https://chatgpt.com/",
+        "cost": "約¥3,000/月"
+      },
+      "time": "15分",
+      "steps": [
+        "ステップ1：売上CSVを用意する",
+        "ステップ2：3つの問いを投げる",
+        "ステップ3：次の打ち手を選ぶ"
+      ],
+      "prompt": "あなたは社長の分析参謀です。{自社名}の売上CSVを読み、売上減少要因、伸びている商品、明日打つ施策を3つずつ出してください。",
+      "roi": "週次分析を2時間から15分に短縮"
+    },
+    "icebreak": {
+      "hook": "LINEヤフー、2週間の分析を10分にしたそうです",
+      "punchline": "分析を早くするだけでなく、次の行動までつなぐところがAIエージェントらしいですね。",
+      "ctx_meeting": "データ活用提案の冒頭で",
+      "ctx_chat": "ランチ中の会話で",
+      "share_text": "分析AIで約2週間が約10分になる話、短縮幅も大きいけど、示唆から行動まで支援する点が本丸だと思った。"
+    }
   },
   {
     "title": "GitHub、AI製PRの増えすぎに上限",
@@ -148,7 +263,30 @@
     "links": [
       "https://www.publickey1.jp/blog/26/githubai_1.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI製PRを制限",
+      "tool": {
+        "name": "GitHub",
+        "url": "https://github.com/",
+        "cost": "無料〜"
+      },
+      "time": "30分",
+      "steps": [
+        "ステップ1：外部PR数を確認",
+        "ステップ2：上限ルールを決める",
+        "ステップ3：レビュー基準を貼る"
+      ],
+      "prompt": "あなたは開発会社のレビュー責任者です。{自社名}のGitHubでAI生成PRが増えた前提で、PR上限、例外条件、レビュー基準を作ってください。",
+      "roi": "レビュー渋滞を週3時間削減"
+    },
+    "icebreak": {
+      "hook": "GitHub、AI製PRの増えすぎに上限を付けたそうです",
+      "punchline": "AIで作る速度が上がるほど、今度は人間のレビュー負荷がボトルネックになりますね。",
+      "ctx_meeting": "開発運用の相談で",
+      "ctx_chat": "開発チームの雑談で",
+      "share_text": "AIでPRを量産できる時代になると、価値は書く速さだけでは決まらない。レビューできる量と信頼設計が大事になりますね。"
+    }
   },
   {
     "title": "Google、Geminiの新APIを標準化",
@@ -173,7 +311,30 @@
     "links": [
       "https://the-decoder.com/google-makes-interactions-api-the-default-interface-for-gemini-models-and-agents/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "Gemini移行表作成",
+      "tool": {
+        "name": "Google AI Studio",
+        "url": "https://aistudio.google.com/",
+        "cost": "無料〜従量課金"
+      },
+      "time": "1時間",
+      "steps": [
+        "ステップ1：現APIを棚卸し",
+        "ステップ2：新API差分を表化",
+        "ステップ3：移行優先度を決める"
+      ],
+      "prompt": "あなたはGemini API移行担当です。{自社名}の{業務アプリ}で使うAI機能を棚卸しし、新APIへ移す順番とリスクを表にしてください。",
+      "roi": "移行判断の整理を半日から1時間に"
+    },
+    "icebreak": {
+      "hook": "Geminiの新API、エージェント向けに標準化されたそうです",
+      "punchline": "長時間実行やツール連携を前提にすると、AIはチャットより業務プロセス寄りになりますね。",
+      "ctx_meeting": "AIエージェント提案で",
+      "ctx_chat": "技術ニュースの雑談で",
+      "share_text": "GeminiのInteractions APIが一般提供に。長時間実行やツール連携が前提になると、AIは会話相手から業務を動かす部品に近づきますね。"
+    }
   },
   {
     "title": "ダイハツ、目視検査をAIで自動化",
@@ -198,6 +359,29 @@
     "links": [
       "https://monoist.itmedia.co.jp/mn/articles/2606/23/news046.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "目視検査をAI試作",
+      "tool": {
+        "name": "Roboflow",
+        "url": "https://roboflow.com/",
+        "cost": "無料〜"
+      },
+      "time": "半日",
+      "steps": [
+        "ステップ1：不良写真20枚を集める",
+        "ステップ2：良品写真と分ける",
+        "ステップ3：判定モデルを試す"
+      ],
+      "prompt": "あなたは町工場の品質改善担当です。{製品名}の良品/不良写真を使い、AI外観検査の試作手順、必要枚数、判定基準を作ってください。",
+      "roi": "検査自動化の可否を半日で判断"
+    },
+    "icebreak": {
+      "hook": "ダイハツ、アルミ加工穴の目視検査をAI化したそうです",
+      "punchline": "現場の細かい検査にAIが入ると、DXは資料より工場の作業から変わりますね。",
+      "ctx_meeting": "製造DX提案の冒頭で",
+      "ctx_chat": "製造業の雑談で",
+      "share_text": "AI導入というとデスクワークを想像しがちだけど、ダイハツの目視検査自動化みたいに、現場の小さな負荷を減らす使い方が強い。"
+    }
   }
 ]

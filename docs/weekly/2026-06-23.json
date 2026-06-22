@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週は、AIが「調べる・作る」から「経理、表計算、画面操作を代行する」段階へ進みました。小規模事業者は高額な基盤より、既存ツール内のAI機能を使うのが最短です。まず毎週発生する事務・分析・経費確認を1つずつAI化するのが現実的です。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-06-21",
+      "title": "Geminiが日本語で表計算を作成",
+      "category": "ツール更新",
+      "source": "Gihyo.jp",
+      "why_picked": "売上・予算表づくりをすぐ短縮できる",
+      "tldr": "日本語で表計算を自動作成",
+      "action": "今月の予算表を作らせる",
+      "image": "../assets/images/2026-06-21/topic_1.png",
+      "link": "../news/2026-06-21/#topic-1"
+    },
+    {
+      "rank": 2,
+      "date": "2026-06-17",
+      "title": "freee、業務代行AIを提供開始",
+      "category": "ツール更新",
+      "source": "AI Watch",
+      "why_picked": "経理の漏れ確認を小規模でも任せやすい",
+      "tldr": "freee業務をAIが代行",
+      "action": "経費漏れ確認をAI化する",
+      "image": "../assets/images/2026-06-17/topic_3.png",
+      "link": "../news/2026-06-17/#topic-3"
+    },
+    {
+      "rank": 3,
+      "date": "2026-06-21",
+      "title": "Codex、画面操作を記録し再実行",
+      "category": "ツール更新",
+      "source": "ITmedia AI+ / The Decoder",
+      "why_picked": "毎月の定型作業をそのまま自動化できる",
+      "tldr": "画面操作をAIが再実行",
+      "action": "請求作業を1回録画する",
+      "image": "../assets/images/2026-06-21/topic_2.png",
+      "link": "../news/2026-06-21/#topic-2"
+    }
+  ]
+}
