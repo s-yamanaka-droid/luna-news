@@ -1,0 +1,203 @@
+[
+  {
+    "title": "国産AI「PLaMo 3.0 Prime」公開",
+    "category": "新モデル発表",
+    "source": "Preferred Networks Blog",
+    "lede": "PFNが国産生成AI基盤モデルの新旗艦「PLaMo 3.0 Prime」を正式リリースした。",
+    "keypoints": [
+      "PLaMoの新旗艦モデル",
+      "Chat/API経由で利用可能",
+      "文脈長を256Kに拡張",
+      "日本語性能と低コストを両立"
+    ],
+    "pull": "国産AIは日本語業務の選択肢として現実味を増している。",
+    "bizapp": {
+      "summary": "日本語文書処理や社内QAの国産AI候補に使える。",
+      "actions": [
+        "PLaMo APIで社内FAQを試す",
+        "中小企業向け国産AI提案",
+        "今期中にAI調達候補へ入れる"
+      ]
+    },
+    "links": [
+      "https://tech.preferred.jp/ja/blog/plamo-3-0-prime-release/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Sakana、複数AI束ねるFugu提供",
+    "category": "新モデル発表",
+    "source": "Gihyo.jp / AI Watch",
+    "lede": "Sakana AIが複数のAIモデルを協調させ、単一APIで使える「Sakana Fugu」を公開した。",
+    "keypoints": [
+      "複数モデルを自動調整",
+      "OpenAI互換APIで利用",
+      "FuguとFugu Ultraを提供",
+      "高難度の多段階作業に対応"
+    ],
+    "pull": "AIを選ぶ時代から、AIがAIを選ぶ時代へ進む。",
+    "bizapp": {
+      "summary": "調査・開発・分析を複数AI連携で高度化できる。",
+      "actions": [
+        "Sakana Fuguで特許調査を試す",
+        "研究開発部門向けAI提案",
+        "高度調査を人手だけに残さない"
+      ]
+    },
+    "links": [
+      "https://gihyo.jp/article/2026/06/sakana-fugu?utm_source=feed",
+      "https://ai.watch.impress.co.jp/docs/news/2119085.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "OpenAI、脆弱性修正AIを拡充",
+    "category": "セキュリティ",
+    "source": "OpenAI Blog",
+    "lede": "OpenAIが脆弱性の発見から検証、修正までを加速するDaybreak関連ツールを拡充した。",
+    "keypoints": [
+      "Codex Securityを更新",
+      "GPT-5.5-Cyber正式版",
+      "修正自動化を重視",
+      "本番前の脆弱性防止も狙う"
+    ],
+    "pull": "AIセキュリティは発見だけでなく修正速度の競争になる。",
+    "bizapp": {
+      "summary": "開発組織の脆弱性対応を機械速度に近づけられる。",
+      "actions": [
+        "Codex Securityで既存コード点検",
+        "受託開発の保守提案に組み込む",
+        "脆弱性対応遅れで信用を失う"
+      ]
+    },
+    "links": [
+      "https://openai.com/index/daybreak-securing-the-world"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "国内企業73％がシャドーAI未管理",
+    "category": "セキュリティ",
+    "source": "ITmedia Enterprise",
+    "lede": "ガートナー調査で、国内企業の73％が未承認AI利用を管理できていない実態が示された。",
+    "keypoints": [
+      "未承認AI利用が課題",
+      "国内企業の73％が未管理",
+      "機密情報流出の恐れ",
+      "事業部門を巻き込む必要"
+    ],
+    "pull": "AI禁止ではなく、使える管理ルール作りが急務だ。",
+    "bizapp": {
+      "summary": "社内AI利用ルールと承認済みツール整備に使える。",
+      "actions": [
+        "NotionでAI利用台帳を作る",
+        "中小企業向けAI統制支援",
+        "放置すると機密流出が起きる"
+      ]
+    },
+    "links": [
+      "https://www.itmedia.co.jp/enterprise/articles/2606/22/news035.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "LINEヤフー、分析AIで2週間を10分に",
+    "category": "業界動向",
+    "source": "LINE Engineering",
+    "lede": "LINEヤフーは、事業の問いから分析、次の行動検討までをつなぐ分析AIエージェントの取り組みを紹介した。",
+    "keypoints": [
+      "分析AIエージェントを活用",
+      "約2週間の分析が約10分に",
+      "月数百回規模で利用",
+      "示唆から行動まで支援"
+    ],
+    "pull": "分析部門の価値は作業から意思決定支援へ移る。",
+    "bizapp": {
+      "summary": "事業部が自分で分析を回す仕組み作りに使える。",
+      "actions": [
+        "Lookerで分析依頼を定型化",
+        "営業会議向け分析AI提案",
+        "遅い分析は商機を逃す"
+      ]
+    },
+    "links": [
+      "https://techblog.lycorp.co.jp/ja/techverse2026-105"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "GitHub、AI製PRの増えすぎに上限",
+    "category": "ツール更新",
+    "source": "Publickey",
+    "lede": "GitHubが、書き込み権限のない投稿者に対し開いておけるプルリクエスト数の上限設定を導入した。",
+    "keypoints": [
+      "PR数の上限設定を追加",
+      "信頼ユーザーは除外可能",
+      "AI生成PR増加に対応",
+      "レビュー負荷を抑える狙い"
+    ],
+    "pull": "AIで作れる量より、人が見られる量が制約になる。",
+    "bizapp": {
+      "summary": "開発チームのAIコード運用ルール作りに使える。",
+      "actions": [
+        "GitHubでPR上限を設定する",
+        "OSS運用改善を開発会社へ提案",
+        "レビュー渋滞で品質を落とす"
+      ]
+    },
+    "links": [
+      "https://www.publickey1.jp/blog/26/githubai_1.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Google、Geminiの新APIを標準化",
+    "category": "ツール更新",
+    "source": "The Decoder",
+    "lede": "Google DeepMindがGeminiモデルとエージェント向けのInteractions APIを標準インターフェースにした。",
+    "keypoints": [
+      "Interactions APIが一般提供",
+      "旧APIは継続利用可能",
+      "新機能は新APIで提供",
+      "長時間実行やツール連携に対応"
+    ],
+    "pull": "Gemini活用はエージェント前提の設計へ切り替わる。",
+    "bizapp": {
+      "summary": "Gemini連携アプリの設計見直しに使える。",
+      "actions": [
+        "Gemini API移行計画を作る",
+        "業務アプリのAI化を提案",
+        "旧API放置で新機能を逃す"
+      ]
+    },
+    "links": [
+      "https://the-decoder.com/google-makes-interactions-api-the-default-interface-for-gemini-models-and-agents/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "ダイハツ、目視検査をAIで自動化",
+    "category": "業界動向",
+    "source": "ITmedia AI+",
+    "lede": "ダイハツがVRAIN Solutionと共同で、アルミ加工穴内部の目視検査を自動化するAI品質検査システムを導入した。",
+    "keypoints": [
+      "滋賀工場にAI検査導入",
+      "VRAIN Solutionと共同開発",
+      "アルミ加工穴内部を検査",
+      "現場主導DXの一環"
+    ],
+    "pull": "製造現場のAIは、検査の属人化を減らす実装段階にある。",
+    "bizapp": {
+      "summary": "製造現場の品質検査自動化提案に使える。",
+      "actions": [
+        "VRAINで外観検査を検討",
+        "中小製造業へ検査DX提案",
+        "人手検査の限界が不良を招く"
+      ]
+    },
+    "links": [
+      "https://monoist.itmedia.co.jp/mn/articles/2606/23/news046.html"
+    ],
+    "likes": 0
+  }
+]
