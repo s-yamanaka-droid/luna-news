@@ -1,0 +1,202 @@
+[
+  {
+    "title": "メルカリ、ChatGPT内で商品検索に対応",
+    "category": "ツール更新",
+    "source": "Impress Watch AI",
+    "lede": "メルカリ公式アプリがChatGPTに登場し、会話だけで商品検索や出品下書き作成が可能になった。",
+    "keypoints": [
+      "ChatGPTから商品検索可能",
+      "出品説明文を自動下書き",
+      "価格目安もAIが提案",
+      "多言語の商品検索に対応"
+    ],
+    "pull": "買い物も出品も、検索窓ではなく会話から始まる。",
+    "bizapp": {
+      "summary": "EC接客と出品支援を会話型AIで効率化できる",
+      "actions": [
+        "メルカリで在庫出品を効率化",
+        "中古品販売支援を小売へ提案",
+        "会話型購買対応を早期検証"
+      ]
+    },
+    "links": [
+      "https://www.watch.impress.co.jp/docs/news/2119403.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AI禁止でも約38％が業務利用継続へ",
+    "category": "セキュリティ",
+    "source": "ITmedia AI+",
+    "lede": "業務でAIを使う会社員の37.8％が、勤務先に禁止されても利用を続ける意向を示した。",
+    "keypoints": [
+      "禁止後も37.8％が継続意向",
+      "全AI申請済みは18.9％",
+      "未申請利用が半数超に",
+      "禁止だけでは管理困難"
+    ],
+    "pull": "AI統制は、禁止より可視化と安全な利用環境が要る。",
+    "bizapp": {
+      "summary": "シャドーAI対策は利用実態の可視化から始める",
+      "actions": [
+        "NotionでAI利用台帳を整備",
+        "中小企業へAI利用規程を提案",
+        "放置すると情報漏えいリスク"
+      ]
+    },
+    "links": [
+      "https://www.itmedia.co.jp/aiplus/article/2606/23/2000000119/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "NTT西、日本にAI対応データセンター新設",
+    "category": "業界動向",
+    "source": "Impress Internet Watch",
+    "lede": "NTT西日本が大阪と福岡に次世代AI対応型データセンターを新設し、AIOWN展開を進める。",
+    "keypoints": [
+      "大阪と福岡に新設",
+      "AI需要拡大に対応",
+      "一部フロアは液冷対応",
+      "AIOWN展開を推進"
+    ],
+    "pull": "AI活用の競争力は、電力とネットワークにも左右される。",
+    "bizapp": {
+      "summary": "AI導入計画はインフラ調達まで含めて見直す",
+      "actions": [
+        "社内AI基盤の配置を再検討",
+        "地方企業へAI基盤移行提案",
+        "2031年度前に需要を見積もる"
+      ]
+    },
+    "links": [
+      "https://internet.watch.impress.co.jp/docs/news/2119405.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "GMO、AI音声入力を全社展開へ",
+    "category": "業界動向",
+    "source": "AI Watch (Impress)",
+    "lede": "GMOが生成AIへの指示を音声入力で行う社内プロジェクトを始め、専用マイク約100台を配置した。",
+    "keypoints": [
+      "音声入力でAI活用促進",
+      "専用マイク約100台配置",
+      "Typelessなどを活用",
+      "全席展開を目指す"
+    ],
+    "pull": "AI活用率の次は、入力方法そのものが生産性を左右する。",
+    "bizapp": {
+      "summary": "音声入力でAI利用の手間を下げられる",
+      "actions": [
+        "Typelessで議事録草案を作成",
+        "営業日報の音声入力を提案",
+        "入力負荷を放置すると定着しない"
+      ]
+    },
+    "links": [
+      "https://ai.watch.impress.co.jp/docs/news/2119425.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Claude、Slack常駐型AI同僚をベータ提供",
+    "category": "ツール更新",
+    "source": "TechCrunch AI",
+    "lede": "AnthropicがSlack内で常駐し、文脈や記憶を持って会話参加やタスク対応を行うClaude Tagを発表した。",
+    "keypoints": [
+      "SlackでClaudeをタグ付け",
+      "常駐型AI同僚として動作",
+      "チャンネル文脈を学習",
+      "許可範囲で情報収集"
+    ],
+    "pull": "AIは単発回答から、組織の文脈を持つ同僚へ向かう。",
+    "bizapp": {
+      "summary": "Slack上の暗黙知を業務支援に変えられる",
+      "actions": [
+        "Slackで会議論点を整理",
+        "採用FAQの即応支援を提案",
+        "権限設計なしでは情報が漏れる"
+      ]
+    },
+    "links": [
+      "https://techcrunch.com/2026/06/23/anthropics-claude-tag-is-learning-your-company-one-slack-message-at-a-time/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "OpenAI、オープンソース修正支援を開始",
+    "category": "セキュリティ",
+    "source": "Wired AI",
+    "lede": "OpenAIがGPT-5.5-Cyberの改良やCodex Security scanner提供、脆弱性修正支援を発表した。",
+    "keypoints": [
+      "GPT-5.5-Cyberを改良",
+      "政府などへ信頼アクセス",
+      "Security scannerを提供",
+      "OSS保守者を無料支援"
+    ],
+    "pull": "AIの防御力は、脆弱性を見つけるだけでなく直す段階へ進む。",
+    "bizapp": {
+      "summary": "自社コードとOSS依存の点検を強化できる",
+      "actions": [
+        "Codex Securityで脆弱性確認",
+        "開発会社へ保守診断を提案",
+        "放置するとOSS由来の被害"
+      ]
+    },
+    "links": [
+      "https://www.wired.com/story/openai-launches-full-scale-effort-to-patch-open-source-bugs-as-it-takes-on-anthropics-mythos/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "GitHub CopilotアプリがBYOK対応",
+    "category": "ツール更新",
+    "source": "Gihyo.jp",
+    "lede": "GitHub Copilotアプリ1.0.5で、OpenAIやAnthropic、Ollamaなど独自モデルを追加できるようになった。",
+    "keypoints": [
+      "BYOK機能が利用可能に",
+      "OpenAIなどを追加可能",
+      "Ollamaにも対応",
+      "独自エンドポイント指定可"
+    ],
+    "pull": "開発AIは、既定モデルを使うだけの段階を越えつつある。",
+    "bizapp": {
+      "summary": "開発現場でモデル選択とコスト管理がしやすくなる",
+      "actions": [
+        "GitHub Copilotで社内モデル検証",
+        "受託開発のAI環境を提案",
+        "鍵管理を怠ると運用が乱れる"
+      ]
+    },
+    "links": [
+      "https://gihyo.jp/article/2026/06/github-copilot-app-support-byok?utm_source=feed"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "藤枝市、国産AIで窓口対応を実証",
+    "category": "政策・規制",
+    "source": "AI Watch (Impress)",
+    "lede": "藤枝市とソフトバンクが国産LLM「Sarashina」を使い、自治体窓口業務のAI回答案提示を実証する。",
+    "keypoints": [
+      "7月1日に協定締結",
+      "9月に実証開始予定",
+      "3課の行政事務で検証",
+      "マニュアルや法制度を参照"
+    ],
+    "pull": "公共窓口のAI化は、経験の浅い職員を支える実務支援から始まる。",
+    "bizapp": {
+      "summary": "自治体や窓口業務の属人化を減らせる",
+      "actions": [
+        "Notionで窓口FAQを整備",
+        "自治体DXの相談対応を提案",
+        "制度改定前に体制を整える"
+      ]
+    },
+    "links": [
+      "https://ai.watch.impress.co.jp/docs/news/2119428.html"
+    ],
+    "likes": 0
+  }
+]
