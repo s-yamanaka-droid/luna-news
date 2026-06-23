@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週は、AIが「検索する」段階から、出品・表計算・定型操作まで実務を直接代行する流れが強まりました。小規模事業者は高額な基盤投資より、日々の事務と販売導線の時短から始めるのが得策です。あわせて、社内のAI利用ルール整備も急務です。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-06-21",
+      "title": "Codex、画面操作を記録し再実行",
+      "category": "ツール更新",
+      "source": "ITmedia AI+ / The Decoder",
+      "why_picked": "毎月の事務作業をそのまま削れる",
+      "tldr": "定型操作をAIが再実行",
+      "action": "経費精算を1回録画する",
+      "image": "../assets/images/2026-06-21/topic_2.png",
+      "link": "../news/2026-06-21/#topic-2"
+    },
+    {
+      "rank": 2,
+      "date": "2026-06-21",
+      "title": "Geminiが日本語で表計算を作成",
+      "category": "ツール更新",
+      "source": "Gihyo.jp",
+      "why_picked": "数字管理が苦手な社長ほど効く",
+      "tldr": "日本語で表とグラフ作成",
+      "action": "今月の売上表を作らせる",
+      "image": "../assets/images/2026-06-21/topic_1.png",
+      "link": "../news/2026-06-21/#topic-1"
+    },
+    {
+      "rank": 3,
+      "date": "2026-06-24",
+      "title": "メルカリ、ChatGPT内で商品検索に対応",
+      "category": "ツール更新",
+      "source": "Impress Watch AI",
+      "why_picked": "小口販売の出品時間を短縮できる",
+      "tldr": "ChatGPTで商品検索と出品",
+      "action": "売れ筋価格をAIで確認する",
+      "image": "../assets/images/2026-06-24/topic_1.png",
+      "link": "../news/2026-06-24/#topic-1"
+    }
+  ]
+}

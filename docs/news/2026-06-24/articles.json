@@ -22,7 +22,30 @@
     "links": [
       "https://www.watch.impress.co.jp/docs/news/2119403.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "メルカリ出品を時短",
+      "tool": {
+        "name": "ChatGPT Plus",
+        "url": "https://chatgpt.com",
+        "cost": "約¥3,000/月"
+      },
+      "time": "20分",
+      "steps": [
+        "ステップ1：商品写真を3枚撮れ",
+        "ステップ2：状態と型番を入れろ",
+        "ステップ3：説明文を貼り替えろ"
+      ],
+      "prompt": "あなたはEC出品担当です。{自社名}の{商品名}をメルカリ向けに、検索されやすい商品名、説明文、注意点、価格目安で作成してください。状態は{状態}です。",
+      "roi": "1商品15分削減＝月20品で5時間削減"
+    },
+    "icebreak": {
+      "hook": "メルカリ、ChatGPTの中で探せるの知ってます？",
+      "punchline": "検索だけでなく、出品文や価格目安まで会話で作れるのが実務っぽいです。",
+      "ctx_meeting": "EC施策提案の冒頭で",
+      "ctx_chat": "フリマの雑談で",
+      "share_text": "メルカリがChatGPT内で商品検索や出品下書きに対応。アプリを開く前の相談相手がAIになると、売る側の面倒もかなり減りそうです。"
+    }
   },
   {
     "title": "AI禁止でも約38％が業務利用継続へ",
@@ -47,7 +70,30 @@
     "links": [
       "https://www.itmedia.co.jp/aiplus/article/2606/23/2000000119/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI利用台帳を作る",
+      "tool": {
+        "name": "Notion",
+        "url": "https://www.notion.com",
+        "cost": "無料〜"
+      },
+      "time": "30分",
+      "steps": [
+        "ステップ1：AI利用表を作れ",
+        "ステップ2：用途と情報を記録しろ",
+        "ステップ3：禁止事項を決めろ"
+      ],
+      "prompt": "あなたは中小企業のAI管理担当です。{自社名}の{業種}で社員がAIを安全に使うための利用台帳項目と禁止ルールを10個作ってください。",
+      "roi": "情報漏えいリスクを可視化し事故予防"
+    },
+    "icebreak": {
+      "hook": "AI禁止でも使い続ける人、約38％らしいですよ",
+      "punchline": "禁止だけでは止まらず、未申請利用をどう可視化するかが本題になりそうです。",
+      "ctx_meeting": "AI利用ルール相談で",
+      "ctx_chat": "職場の雑談で",
+      "share_text": "AI禁止でも37.8％が業務利用を続ける意向という話。現場にとって便利すぎる道具は、禁止より申請しやすい仕組みの方が効きそうです。"
+    }
   },
   {
     "title": "NTT西、日本にAI対応データセンター新設",
@@ -72,7 +118,30 @@
     "links": [
       "https://internet.watch.impress.co.jp/docs/news/2119405.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI利用量を見積る",
+      "tool": {
+        "name": "ChatGPT",
+        "url": "https://chatgpt.com",
+        "cost": "無料〜"
+      },
+      "time": "30分",
+      "steps": [
+        "ステップ1：AI用途を列挙しろ",
+        "ステップ2：月間回数を入れろ",
+        "ステップ3：外部化可否を判定しろ"
+      ],
+      "prompt": "あなたはAI導入コンサルです。{自社名}の{業種}でAI化できる業務を整理し、月間利用量、必要データ、クラウド利用時の注意点を表にしてください。",
+      "roi": "導入前の無駄なAI投資を防ぐ"
+    },
+    "icebreak": {
+      "hook": "NTT西、大阪と福岡にAI向けDCを作るそうです",
+      "punchline": "AI活用はアプリの話だけでなく、液冷対応みたいなインフラ投資の話になっています。",
+      "ctx_meeting": "IT基盤提案の冒頭で",
+      "ctx_chat": "出張中の会話で",
+      "share_text": "NTT西日本が大阪と福岡にAI対応データセンターを新設。AIの普及って、画面の中の進化だけでなく、電力や冷却まで含むインフラ戦になってきた感じがします。"
+    }
   },
   {
     "title": "GMO、AI音声入力を全社展開へ",
@@ -97,7 +166,30 @@
     "links": [
       "https://ai.watch.impress.co.jp/docs/news/2119425.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "日報を音声で作る",
+      "tool": {
+        "name": "ChatGPT",
+        "url": "https://chatgpt.com",
+        "cost": "無料〜"
+      },
+      "time": "10分",
+      "steps": [
+        "ステップ1：スマホで音声入力しろ",
+        "ステップ2：今日の業務を話せ",
+        "ステップ3：日報形式に整えろ"
+      ],
+      "prompt": "あなたは営業事務です。以下の音声メモを、{自社名}の営業日報として、訪問先、相談内容、次回対応、懸念点に整理してください。本文:{音声メモ}",
+      "roi": "日報作成を1件10分短縮"
+    },
+    "icebreak": {
+      "hook": "GMO、AIへの指示を音声でやるらしいですよ",
+      "punchline": "専用マイク約100台まで置くのは、入力の手間がAI活用の壁だと見ているからですね。",
+      "ctx_meeting": "業務効率化提案で",
+      "ctx_chat": "移動中の会話で",
+      "share_text": "GMOがAIへの指示を音声入力で進め、専用マイク約100台を配置。AI活用の差は、モデル選びより「話しかけやすさ」で出るのかもしれません。"
+    }
   },
   {
     "title": "Claude、Slack常駐型AI同僚をベータ提供",
@@ -122,7 +214,30 @@
     "links": [
       "https://techcrunch.com/2026/06/23/anthropics-claude-tag-is-learning-your-company-one-slack-message-at-a-time/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "Slack議事録要約",
+      "tool": {
+        "name": "Claude Pro",
+        "url": "https://claude.ai",
+        "cost": "約¥3,000/月"
+      },
+      "time": "15分",
+      "steps": [
+        "ステップ1：Slack投稿を貼れ",
+        "ステップ2：論点を要約させろ",
+        "ステップ3：担当者別に直せ"
+      ],
+      "prompt": "あなたは社内AI同僚です。{自社名}のSlack会話を読み、決定事項、未決事項、担当者別タスク、期限を整理してください。会話:{Slack本文}",
+      "roi": "会議後整理を30分から5分に短縮"
+    },
+    "icebreak": {
+      "hook": "ClaudeがSlackに常駐するAI同僚になるそうです",
+      "punchline": "タグ付けして呼ぶだけでなく、チャンネル文脈を踏まえて動く点が大きいです。",
+      "ctx_meeting": "社内AI導入提案で",
+      "ctx_chat": "チーム運用の雑談で",
+      "share_text": "ClaudeがSlack内で常駐型AI同僚として動く話。単発の質問相手から、会話の流れを覚えて手伝う存在になると、チームの働き方はかなり変わりそうです。"
+    }
   },
   {
     "title": "OpenAI、オープンソース修正支援を開始",
@@ -147,7 +262,30 @@
     "links": [
       "https://www.wired.com/story/openai-launches-full-scale-effort-to-patch-open-source-bugs-as-it-takes-on-anthropics-mythos/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "自社サイトを点検",
+      "tool": {
+        "name": "GitHub Dependabot",
+        "url": "https://github.com/features/security",
+        "cost": "無料〜"
+      },
+      "time": "30分",
+      "steps": [
+        "ステップ1：GitHubを開け",
+        "ステップ2：警告を確認しろ",
+        "ステップ3：修正案をAIに聞け"
+      ],
+      "prompt": "あなたはWeb保守担当です。{自社名}のサイトで出た脆弱性警告を、危険度、放置リスク、初心者向け修正手順に分けて説明してください。警告:{内容}",
+      "roi": "OSS由来の事故リスクを早期低減"
+    },
+    "icebreak": {
+      "hook": "OpenAIがOSSの脆弱性修正支援を始めたそうです",
+      "punchline": "Security scannerだけでなく、OSS保守者を無料支援するのが踏み込んでいます。",
+      "ctx_meeting": "セキュリティ提案で",
+      "ctx_chat": "開発者との雑談で",
+      "share_text": "OpenAIがCodex Security scanner提供やOSS保守者の無料支援を発表。AIはコードを書く道具から、脆弱性を直す共同保守者にも広がってきています。"
+    }
   },
   {
     "title": "GitHub CopilotアプリがBYOK対応",
@@ -172,7 +310,30 @@
     "links": [
       "https://gihyo.jp/article/2026/06/github-copilot-app-support-byok?utm_source=feed"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI開発費を見える化",
+      "tool": {
+        "name": "GitHub Copilot",
+        "url": "https://github.com/features/copilot",
+        "cost": "約¥1,500/月〜"
+      },
+      "time": "半日",
+      "steps": [
+        "ステップ1：使うAIを一覧化しろ",
+        "ステップ2：鍵の管理者を決めろ",
+        "ステップ3：月額上限を決めろ"
+      ],
+      "prompt": "あなたは小規模開発会社のAI運用担当です。{自社名}の開発で使うAIモデル、APIキー管理、月額上限、禁止事項を運用ルールにしてください。",
+      "roi": "AI利用料の暴走と鍵漏えいを予防"
+    },
+    "icebreak": {
+      "hook": "GitHub Copilotアプリ、BYOK対応したそうです",
+      "punchline": "OpenAIやAnthropicだけでなくOllamaも足せるので、社内事情に合わせやすくなります。",
+      "ctx_meeting": "開発環境の相談で",
+      "ctx_chat": "エンジニア雑談で",
+      "share_text": "GitHub CopilotアプリがBYOK対応。OpenAI、Anthropic、Ollama、独自エンドポイントまで選べると、AI開発環境も一社固定ではなく組み合わせる前提になりそうです。"
+    }
   },
   {
     "title": "藤枝市、国産AIで窓口対応を実証",
@@ -197,6 +358,29 @@
     "links": [
       "https://ai.watch.impress.co.jp/docs/news/2119428.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "窓口FAQを整備",
+      "tool": {
+        "name": "Notion",
+        "url": "https://www.notion.com",
+        "cost": "無料〜"
+      },
+      "time": "半日",
+      "steps": [
+        "ステップ1：質問を20個集めろ",
+        "ステップ2：回答根拠を添えろ",
+        "ステップ3：FAQ表にまとめろ"
+      ],
+      "prompt": "あなたは窓口業務改善担当です。{自社名}の{業種}でよくある問い合わせをFAQ化し、回答、確認資料、担当者、更新日を表にしてください。",
+      "roi": "問い合わせ対応を月10時間削減"
+    },
+    "icebreak": {
+      "hook": "藤枝市、国産AIで窓口対応を試すそうです",
+      "punchline": "Sarashinaがマニュアルや法制度を参照して回答案を出すのは、自治体業務と相性がよさそうです。",
+      "ctx_meeting": "自治体DX提案で",
+      "ctx_chat": "地域ニュースの雑談で",
+      "share_text": "藤枝市がソフトバンクと国産LLM「Sarashina」で窓口対応を実証へ。マニュアルや法制度を参照して回答案を出すなら、自治体のAI活用はかなり現実味があります。"
+    }
   }
 ]

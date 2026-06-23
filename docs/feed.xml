@@ -7,6 +7,13 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。毎朝6:30、AI業界ニュースを図解と「明日からできる活用法」で。</description>
   <language>ja</language>
   <item>
+    <title>2026-06-24 AI朝刊：メルカリ、ChatGPT内で商品検索に対応 ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-06-24/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-24/</guid>
+    <pubDate>Wed, 24 Jun 2026 06:30:00 +0900</pubDate>
+    <description>メルカリ、ChatGPT内で商品検索に対応／AI禁止でも約38％が業務利用継続へ／NTT西、日本にAI対応データセンター新設／GMO、AI音声入力を全社展開へ／Claude、Slack常駐型AI同僚をベータ提供</description>
+  </item>
+  <item>
     <title>2026-06-23 AI朝刊：国産AI「PLaMo 3.0 Prime」公開 ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-06-23/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-23/</guid>
@@ -173,13 +180,6 @@
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-05-30/</guid>
     <pubDate>Sat, 30 May 2026 06:30:00 +0900</pubDate>
     <description>AIコーディング依存に警鐘、生産性向上も品質低下リスク／小型AIエージェント「MagenticLite」発表、ローカル実行可能に／デザインセンスを持つ画像生成AI「Recraft V4」登場／NVIDIAがケルト語対応LLM開発、地域サービスに貢献／Anthropic、金融特化型AIエージェントをClaudeに導入</description>
-  </item>
-  <item>
-    <title>2026-05-29 AI朝刊：富士通がOpenAIとAnthropicと提携 ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-05-29/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-05-29/</guid>
-    <pubDate>Fri, 29 May 2026 06:30:00 +0900</pubDate>
-    <description>富士通がOpenAIとAnthropicと提携／Anthropicの新AIモデル「Claude Opus 4.8」公開／NVIDIAの「Vera」CPUが超越的性能を発揮／Google、環境リスクに対応するAIプログラム開始／新しいAWS Resilience Hubの発表</description>
   </item>
 </channel>
 </rss>
