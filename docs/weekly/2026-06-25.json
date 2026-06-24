@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週はAIエージェントが、見る・操作する・記録して再実行する段階に進んだ。小規模事業者は大規模開発より、表計算・出品・経費など日常業務の時短から入るのが得策。AI利用ルールと費用管理も同時に整える週だ。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-06-21",
+      "title": "Codex、画面操作を記録し再実行",
+      "category": "ツール更新",
+      "source": "ITmedia AI+ / The Decoder",
+      "why_picked": "経費・投稿・登録作業をそのまま自動化できる",
+      "tldr": "定型PC作業をAIが再実行",
+      "action": "毎週の定型作業を1つ録画",
+      "image": "../assets/images/2026-06-21/topic_2.png",
+      "link": "../news/2026-06-21/#topic-2"
+    },
+    {
+      "rank": 2,
+      "date": "2026-06-21",
+      "title": "Geminiが日本語で表計算を作成",
+      "category": "ツール更新",
+      "source": "Gihyo.jp",
+      "why_picked": "予算表や売上分析を日本語指示で時短できる",
+      "tldr": "表計算を日本語で自動作成",
+      "action": "売上表をGeminiで作る",
+      "image": "../assets/images/2026-06-21/topic_1.png",
+      "link": "../news/2026-06-21/#topic-1"
+    },
+    {
+      "rank": 3,
+      "date": "2026-06-24",
+      "title": "メルカリ、ChatGPT内で商品検索に対応",
+      "category": "ツール更新",
+      "source": "Impress Watch AI",
+      "why_picked": "出品文と価格目安作成で即売上に近い",
+      "tldr": "ChatGPTで出品支援",
+      "action": "在庫10点の出品文を作る",
+      "image": "../assets/images/2026-06-24/topic_1.png",
+      "link": "../news/2026-06-24/#topic-1"
+    }
+  ]
+}

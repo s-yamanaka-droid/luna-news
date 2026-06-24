@@ -23,7 +23,30 @@
       "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
       "https://www.watch.impress.co.jp/docs/news/2119811.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI費用を棚卸し",
+      "tool": {
+        "name": "ChatGPT Plus",
+        "url": "https://chatgpt.com",
+        "cost": "無料〜約¥3,000/月"
+      },
+      "time": "30分",
+      "steps": [
+        "AI利用料を集めろ",
+        "月額費用を表にしろ",
+        "来期予算案を作れ"
+      ],
+      "prompt": "あなたはAI費用管理の専門家です。{自社名}の{業種}で使うAIツール一覧と月額費をもとに、削減候補と来期予算案を表で出してください。",
+      "roi": "AI費用の無駄を10〜20%削減"
+    },
+    "icebreak": {
+      "hook": "OpenAI、AIチップまで自作するらしいですよ",
+      "punchline": "モデル競争だけじゃなく、推論コストを誰が握るかの勝負になってきましたね。",
+      "ctx_meeting": "AI基盤費の話題で",
+      "ctx_chat": "移動中の雑談で",
+      "share_text": "OpenAIがLLM推論向けチップをBroadcomと共同開発。AIの勝負が、モデルの賢さだけでなく「どれだけ安く大量に動かせるか」に移っている感じがします。"
+    }
   },
   {
     "title": "GeminiがPC操作エージェントを標準搭載",
@@ -48,7 +71,30 @@
     "links": [
       "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "入力作業を自動化",
+      "tool": {
+        "name": "Gemini",
+        "url": "https://gemini.google.com",
+        "cost": "無料〜約¥2,900/月"
+      },
+      "time": "30分",
+      "steps": [
+        "定型作業を1つ選べ",
+        "画面手順を書き出せ",
+        "自動化指示を試せ"
+      ],
+      "prompt": "あなたは業務自動化コンサルです。{自社名}の{業種}で毎日行う{画面入力作業}を、AIエージェントに任せる手順に分解してください。",
+      "roi": "毎日30分削減＝月10時間相当"
+    },
+    "icebreak": {
+      "hook": "Gemini、PC操作まで標準でやるらしいです",
+      "punchline": "AIが文章を書く道具から、画面を見て仕事を進める道具に近づいていますね。",
+      "ctx_meeting": "業務自動化提案の冒頭で",
+      "ctx_chat": "ランチの話題で",
+      "share_text": "Gemini 3.5 FlashにPC操作機能が標準搭載。AIに聞く時代から、AIに画面を見せて作業してもらう時代へ進んでいる感覚があります。"
+    }
   },
   {
     "title": "Devin日本語版、開発AIの成果保証へ",
@@ -73,7 +119,30 @@
     "links": [
       "https://codezine.jp/article/detail/24653"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "改修依頼をAI化",
+      "tool": {
+        "name": "Cursor",
+        "url": "https://cursor.com",
+        "cost": "無料〜約¥3,000/月"
+      },
+      "time": "半日",
+      "steps": [
+        "小さな不具合を選べ",
+        "リポジトリを開け",
+        "修正案を作らせろ"
+      ],
+      "prompt": "あなたはAI開発PMです。{自社名}の{サービス名}で困っている{不具合}を、AI開発者に渡す修正タスクとして具体化してください。",
+      "roi": "軽微な改修外注を月1〜2件削減"
+    },
+    "icebreak": {
+      "hook": "Devin日本語版、成果保証まで出すそうです",
+      "punchline": "開発AIも『使ってみて便利』から、工数換算で成果を問う段階に来ましたね。",
+      "ctx_meeting": "開発体制の相談で",
+      "ctx_chat": "エンジニアとの雑談で",
+      "share_text": "Devin Cloud日本語版が出て、AI開発成果を工数換算で保証する制度も発表。開発AIはデモの面白さより、実際にどれだけ仕事を肩代わりしたかで見られ始めています。"
+    }
   },
   {
     "title": "Slackで働くAI「Claude Tag」登場",
@@ -98,7 +167,30 @@
     "links": [
       "https://pc.watch.impress.co.jp/docs/news/2119814.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "Slack依頼を整理",
+      "tool": {
+        "name": "Claude Pro",
+        "url": "https://claude.ai",
+        "cost": "無料〜約¥3,000/月"
+      },
+      "time": "15分",
+      "steps": [
+        "未対応スレを貼れ",
+        "担当と期限を出せ",
+        "返信文を作らせろ"
+      ],
+      "prompt": "あなたは社長秘書です。以下の{Slackスレッド}から未対応タスク、担当者、期限、今すぐ送る返信文を整理してください。",
+      "roi": "対応漏れ防止で機会損失を削減"
+    },
+    "icebreak": {
+      "hook": "SlackでClaudeに仕事を振れるようになるそうです",
+      "punchline": "会話の流れを読んで、未解決スレッドまで追うなら、チーム運用が変わりますね。",
+      "ctx_meeting": "社内DXの話で",
+      "ctx_chat": "Slack運用の雑談で",
+      "share_text": "Slack上でClaudeにタスク委任できる「Claude Tag」が登場。AIを別画面で使うより、普段の会話の中に入ってきた時のほうが、仕事の変化は大きそうです。"
+    }
   },
   {
     "title": "AIインフラ費、クラウド無駄が25％超",
@@ -123,7 +215,30 @@
     "links": [
       "https://www.itmedia.co.jp/enterprise/articles/2606/24/news035.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "クラウド費を削減",
+      "tool": {
+        "name": "AWS Cost Explorer",
+        "url": "https://aws.amazon.com/aws-cost-management/aws-cost-explorer/",
+        "cost": "無料"
+      },
+      "time": "30分",
+      "steps": [
+        "請求画面を開け",
+        "高額サービスを見ろ",
+        "停止候補を列挙しろ"
+      ],
+      "prompt": "あなたはクラウド費用監査人です。{自社名}の{クラウド請求明細}から、無駄な支出候補と明日止めるべき項目を表で出してください。",
+      "roi": "クラウド費を月10〜25%削減"
+    },
+    "icebreak": {
+      "hook": "AIのクラウド支出、25％超が無駄らしいです",
+      "punchline": "AI導入は作る話だけでなく、どこで動かすかの見直しが利益に直結しそうです。",
+      "ctx_meeting": "インフラ費の相談で",
+      "ctx_chat": "経営層との雑談で",
+      "share_text": "AI本番環境のクラウド支出で25％超が無駄という調査。AI活用は機能開発だけでなく、運用コストとデータの置き場をどう設計するかが重要になりそうです。"
+    }
   },
   {
     "title": "AIエージェント権限管理をVaultが強化",
@@ -148,7 +263,30 @@
     "links": [
       "https://www.hashicorp.com/blog/advancing-ai-agent-security-in-vault"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "API鍵を棚卸し",
+      "tool": {
+        "name": "HashiCorp Vault",
+        "url": "https://developer.hashicorp.com/vault",
+        "cost": "無料〜要見積"
+      },
+      "time": "30分",
+      "steps": [
+        "API鍵一覧を作れ",
+        "利用者を確認しろ",
+        "不要権限を消せ"
+      ],
+      "prompt": "あなたはセキュリティ担当です。{自社名}の{API鍵一覧}を、用途、所有者、権限、削除候補に分けて棚卸し表にしてください。",
+      "roi": "過剰権限による事故リスクを低減"
+    },
+    "icebreak": {
+      "hook": "AIエージェントにも権限管理が必要になってますね",
+      "punchline": "便利なAIほど、何にアクセスできるかを要求ごとに絞る設計が大事になりますね。",
+      "ctx_meeting": "セキュリティ提案で",
+      "ctx_chat": "情シスとの雑談で",
+      "share_text": "HashiCorp Vault EnterpriseがAIエージェント向け権限管理を強化。AIに任せる仕事が増えるほど、「何でも見られるAI」を作らない設計が重要になってきます。"
+    }
   },
   {
     "title": "Anthropic、AlibabaのAI抽出を非難",
@@ -173,7 +311,30 @@
     "links": [
       "https://www.cnbc.com/2026/06/24/anthropic-alibaba-distillation-campaign.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "不正利用を検知",
+      "tool": {
+        "name": "Cloudflare AI Gateway",
+        "url": "https://developers.cloudflare.com/ai-gateway/",
+        "cost": "無料〜"
+      },
+      "time": "30分",
+      "steps": [
+        "APIログを確認しろ",
+        "異常回数を探せ",
+        "制限ルールを作れ"
+      ],
+      "prompt": "あなたはAIサービス防衛担当です。{自社名}の{API利用ログ}から、不正利用の兆候と明日設定すべき制限ルールを出してください。",
+      "roi": "API悪用による従量課金増を防止"
+    },
+    "icebreak": {
+      "hook": "AnthropicがAlibabaのAI抽出を非難したそうです",
+      "punchline": "AI企業同士でも、モデルの能力そのものをどう守るかが争点になっていますね。",
+      "ctx_meeting": "AIリスク説明で",
+      "ctx_chat": "海外AIニュースの話で",
+      "share_text": "AnthropicがAlibabaによるAI能力の不正抽出を米当局宛て書簡で非難。AIの競争は、作るだけでなく、能力をどう守るかまで含めた戦いになっています。"
+    }
   },
   {
     "title": "高速生成モデルDiffusionGemma公開",
@@ -198,6 +359,29 @@
     "links": [
       "https://robotstart.info/article/2026/06/24/382073.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "FAQ応答を高速化",
+      "tool": {
+        "name": "Hugging Face",
+        "url": "https://huggingface.co",
+        "cost": "無料〜"
+      },
+      "time": "半日",
+      "steps": [
+        "FAQを10件集めろ",
+        "短い回答を作れ",
+        "応答速度を比べろ"
+      ],
+      "prompt": "あなたは社内FAQ設計者です。{自社名}の{業種}で多い質問10件を、短く高速に返すFAQデータに整形してください。",
+      "roi": "問い合わせ一次対応を月5時間削減"
+    },
+    "icebreak": {
+      "hook": "Googleが高速生成モデルを公開しましたね",
+      "punchline": "最大256トークンを並列処理する発想で、生成速度の常識が変わるかもしれません。",
+      "ctx_meeting": "生成AI性能の話で",
+      "ctx_chat": "技術好きとの雑談で",
+      "share_text": "Google DeepMindがDiffusionGemmaを公開。H100で毎秒1000トークン、自己回帰型より最大4倍高速という話を見ると、AIの体感速度はまだ大きく変わりそうです。"
+    }
   }
 ]

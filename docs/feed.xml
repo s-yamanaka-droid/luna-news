@@ -7,6 +7,13 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。毎朝6:30、AI業界ニュースを図解と「明日からできる活用法」で。</description>
   <language>ja</language>
   <item>
+    <title>2026-06-25 AI朝刊：OpenAIがAI専用チップを自社開発 ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-06-25/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-25/</guid>
+    <pubDate>Thu, 25 Jun 2026 06:30:00 +0900</pubDate>
+    <description>OpenAIがAI専用チップを自社開発／GeminiがPC操作エージェントを標準搭載／Devin日本語版、開発AIの成果保証へ／Slackで働くAI「Claude Tag」登場／AIインフラ費、クラウド無駄が25％超</description>
+  </item>
+  <item>
     <title>2026-06-24 AI朝刊：メルカリ、ChatGPT内で商品検索に対応 ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-06-24/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-24/</guid>
@@ -173,13 +180,6 @@
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-05-31/</guid>
     <pubDate>Sun, 31 May 2026 06:30:00 +0900</pubDate>
     <description>GitHub Copilot、従量課金制へ移行でコスト急増の懸念／Amazon Bedrock、プロンプト最適化・移行ツールを発表／AWS Transform 1周年、Claude PlatformがAWSで利用可能に</description>
-  </item>
-  <item>
-    <title>2026-05-30 AI朝刊：AIコーディング依存に警鐘、生産性向上も品質低下リスク ほか6本</title>
-    <link>https://nowonair.vercel.app/news/2026-05-30/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-05-30/</guid>
-    <pubDate>Sat, 30 May 2026 06:30:00 +0900</pubDate>
-    <description>AIコーディング依存に警鐘、生産性向上も品質低下リスク／小型AIエージェント「MagenticLite」発表、ローカル実行可能に／デザインセンスを持つ画像生成AI「Recraft V4」登場／NVIDIAがケルト語対応LLM開発、地域サービスに貢献／Anthropic、金融特化型AIエージェントをClaudeに導入</description>
   </item>
 </channel>
 </rss>
