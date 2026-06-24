@@ -1,0 +1,203 @@
+[
+  {
+    "title": "OpenAIがAI専用チップを自社開発",
+    "category": "業界動向",
+    "source": "OpenAI Blog",
+    "lede": "OpenAIがBroadcomとLLM推論向けチップ「Jalapeño」を発表し、AI基盤の内製化を進める。",
+    "keypoints": [
+      "LLM推論向けにゼロから設計",
+      "Broadcomと共同開発",
+      "9カ月で製造用設計へ到達",
+      "26年末までに大規模展開"
+    ],
+    "pull": "AI競争はモデルだけでなく、半導体と電力の勝負に移る。",
+    "bizapp": {
+      "summary": "AI利用コストの中長期見直しに使える",
+      "actions": [
+        "Azure利用部門でAI費用を棚卸し",
+        "生成AI導入費の見積もり提案",
+        "来期予算前に単価変動を確認"
+      ]
+    },
+    "links": [
+      "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
+      "https://www.watch.impress.co.jp/docs/news/2119811.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "GeminiがPC操作エージェントを標準搭載",
+    "category": "ツール更新",
+    "source": "Google DeepMind Blog",
+    "lede": "Gemini 3.5 Flashに、ブラウザやモバイル、デスクトップを操作する機能が組み込まれた。",
+    "keypoints": [
+      "PC操作機能を標準搭載",
+      "3.5 Flashで利用可能",
+      "画面を見て判断し操作",
+      "独自エージェント開発向け"
+    ],
+    "pull": "AIは回答する道具から、画面を操作する実行役へ進む。",
+    "bizapp": {
+      "summary": "定型的な画面作業の自動化に使える",
+      "actions": [
+        "Geminiで入力作業を試験運用",
+        "受発注画面の自動化を提案",
+        "手作業放置で処理時間を失う"
+      ]
+    },
+    "links": [
+      "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Devin日本語版、開発AIの成果保証へ",
+    "category": "ツール更新",
+    "source": "CodeZine",
+    "lede": "Cognition AI JapanがDevin Cloud日本語版と、AI開発成果を工数換算で保証する制度を発表した。",
+    "keypoints": [
+      "Devin Cloud日本語版を発表",
+      "成果保証プログラムを導入",
+      "起動数は年初から10倍超",
+      "自律型エンジニアとして展開"
+    ],
+    "pull": "開発AIは補助役から、成果を問われる労働力へ近づく。",
+    "bizapp": {
+      "summary": "開発外注と内製体制の見直しに使える",
+      "actions": [
+        "Devinで改修タスクを試す",
+        "中小企業の保守開発を提案",
+        "検証遅れで採用競争に負ける"
+      ]
+    },
+    "links": [
+      "https://codezine.jp/article/detail/24653"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Slackで働くAI「Claude Tag」登場",
+    "category": "ツール更新",
+    "source": "Impress PC Watch",
+    "lede": "AnthropicがSlack上でタスク委任や自律作業を行う「Claude Tag」をベータ提供した。",
+    "keypoints": [
+      "Slack内でClaudeに委任",
+      "PR作成や分析を自律実行",
+      "会話から文脈を構築",
+      "未解決スレッドも追跡"
+    ],
+    "pull": "AI活用は個人チャットから、チームの仕事場へ入ってくる。",
+    "bizapp": {
+      "summary": "社内依頼と進捗管理の省力化に使える",
+      "actions": [
+        "Slackで議事録後タスクを委任",
+        "営業チームの対応漏れ防止提案",
+        "放置スレッドが機会損失になる"
+      ]
+    },
+    "links": [
+      "https://pc.watch.impress.co.jp/docs/news/2119814.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AIインフラ費、クラウド無駄が25％超",
+    "category": "業界動向",
+    "source": "ITmedia Enterprise",
+    "lede": "Broadcom調査は、AI本番環境がパブリッククラウドからプライベートクラウドへ移る動きを示した。",
+    "keypoints": [
+      "クラウド支出25％超が無駄",
+      "AI本番環境の移行が進む",
+      "データ主権も背景に",
+      "8カ国1800人を調査"
+    ],
+    "pull": "AI導入後の勝負は、使う量より運用コストの制御になる。",
+    "bizapp": {
+      "summary": "AI基盤の費用監査に使える",
+      "actions": [
+        "クラウド請求をCost Explorerで確認",
+        "中小企業向けAI費用診断を提案",
+        "来期予算前に無駄を削る"
+      ]
+    },
+    "links": [
+      "https://www.itmedia.co.jp/enterprise/articles/2606/24/news035.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AIエージェント権限管理をVaultが強化",
+    "category": "セキュリティ",
+    "source": "HashiCorp Blog",
+    "lede": "HashiCorp Vault Enterpriseが、AIエージェント向け権限管理機能をパブリックプレビューで提供した。",
+    "keypoints": [
+      "AIエージェント権限を管理",
+      "Vault Enterprise向け",
+      "要求ごとにアクセス評価",
+      "最小権限を大規模適用"
+    ],
+    "pull": "AIに任せるほど、何を許可したかの管理が経営リスクになる。",
+    "bizapp": {
+      "summary": "AIエージェントの権限事故防止に使える",
+      "actions": [
+        "VaultでAPI鍵管理を見直す",
+        "情シス向けAI権限監査を提案",
+        "放置すると過剰権限が残る"
+      ]
+    },
+    "links": [
+      "https://www.hashicorp.com/blog/advancing-ai-agent-security-in-vault"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Anthropic、AlibabaのAI抽出を非難",
+    "category": "セキュリティ",
+    "source": "CNBC Tech",
+    "lede": "AnthropicがAlibabaによるAI能力の不正抽出を米当局宛て書簡で訴えたとCNBCが報じた。",
+    "keypoints": [
+      "米当局への書簡で非難",
+      "最大規模の抽出攻撃と主張",
+      "2880万回のやり取りを指摘",
+      "不正アカウント利用を主張"
+    ],
+    "pull": "AIモデルの価値は、利用規約だけでは守り切れない段階に来た。",
+    "bizapp": {
+      "summary": "自社AIサービスの不正利用対策に使える",
+      "actions": [
+        "Cloudflareで異常利用を監視",
+        "AI APIの不正検知を提案",
+        "放置でモデル資産を抜かれる"
+      ]
+    },
+    "links": [
+      "https://www.cnbc.com/2026/06/24/anthropic-alibaba-distillation-campaign.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "高速生成モデルDiffusionGemma公開",
+    "category": "新モデル発表",
+    "source": "ロボスタ",
+    "lede": "Google DeepMindが高速テキスト生成向けオープンモデル「DiffusionGemma」を公開した。",
+    "keypoints": [
+      "実験的オープンモデル",
+      "最大256トークンを並列処理",
+      "H100で毎秒1000トークン",
+      "自己回帰型より最大4倍高速"
+    ],
+    "pull": "文章生成の速さは、チャット体験だけでなく業務処理量を変える。",
+    "bizapp": {
+      "summary": "ローカルAI処理の高速化検証に使える",
+      "actions": [
+        "Hugging Faceで検証する",
+        "社内FAQ高速化を提案",
+        "遅いAIは現場定着を逃す"
+      ]
+    },
+    "links": [
+      "https://robotstart.info/article/2026/06/24/382073.html"
+    ],
+    "likes": 0
+  }
+]
