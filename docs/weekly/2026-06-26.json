@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週はAIが「相談相手」から、表計算・画面操作・EC出品まで実務を代行する段階に進んだ。小規模事業者は新モデルより、毎週発生する事務・分析・販売作業をAI化する方が即効性が高い。まずは手入力、売上管理、出品文作成の3領域から削るべき。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-06-21",
+      "title": "Codex、画面操作を記録し再実行",
+      "category": "ツール更新",
+      "source": "ITmedia AI+ / The Decoder",
+      "why_picked": "経費や投稿など反復作業をそのまま削れる",
+      "tldr": "定型画面作業をAI化",
+      "action": "毎週の手作業を1つ録画",
+      "image": "../assets/images/2026-06-21/topic_2.png",
+      "link": "../news/2026-06-21/#topic-2"
+    },
+    {
+      "rank": 2,
+      "date": "2026-06-21",
+      "title": "Geminiが日本語で表計算を作成",
+      "category": "ツール更新",
+      "source": "Gihyo.jp",
+      "why_picked": "売上・予算表を日本語指示で作れる",
+      "tldr": "表計算作成が日本語対応",
+      "action": "売上表をGeminiで作る",
+      "image": "../assets/images/2026-06-21/topic_1.png",
+      "link": "../news/2026-06-21/#topic-1"
+    },
+    {
+      "rank": 3,
+      "date": "2026-06-24",
+      "title": "メルカリ、ChatGPT内で商品検索に対応",
+      "category": "ツール更新",
+      "source": "Impress Watch AI",
+      "why_picked": "出品文と価格決めを時短し売上化しやすい",
+      "tldr": "ChatGPTで出品支援",
+      "action": "商品1点をAIで出品",
+      "image": "../assets/images/2026-06-24/topic_1.png",
+      "link": "../news/2026-06-24/#topic-1"
+    }
+  ]
+}

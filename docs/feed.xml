@@ -7,6 +7,13 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。毎朝6:30、AI業界ニュースを図解と「明日からできる活用法」で。</description>
   <language>ja</language>
   <item>
+    <title>2026-06-26 AI朝刊：Google Play手数料、日本も年内刷新 ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-06-26/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-26/</guid>
+    <pubDate>Fri, 26 Jun 2026 06:30:00 +0900</pubDate>
+    <description>Google Play手数料、日本も年内刷新／KDDIメール基盤で最大1422万件漏えい／AIエージェントが仕事単位を変える／Salesforce、顧客対応AIを即導入へ／AIロープレで営業育成を3分の1に</description>
+  </item>
+  <item>
     <title>2026-06-25 AI朝刊：OpenAIがAI専用チップを自社開発 ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-06-25/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-25/</guid>
@@ -173,13 +180,6 @@
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-01/</guid>
     <pubDate>Mon, 01 Jun 2026 06:30:00 +0900</pubDate>
     <description>日立、Anthropicと戦略提携 Claudeを全従業員に導入／ソフトバンクG、仏に14兆円投資 欧州最大級AIデータセンター／AIデータセンター建設に透明性要求 環境活動家が警鐘</description>
-  </item>
-  <item>
-    <title>2026-05-31 AI朝刊：GitHub Copilot、従量課金制へ移行でコスト急増の懸念 ほか2本</title>
-    <link>https://nowonair.vercel.app/news/2026-05-31/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-05-31/</guid>
-    <pubDate>Sun, 31 May 2026 06:30:00 +0900</pubDate>
-    <description>GitHub Copilot、従量課金制へ移行でコスト急増の懸念／Amazon Bedrock、プロンプト最適化・移行ツールを発表／AWS Transform 1周年、Claude PlatformがAWSで利用可能に</description>
   </item>
 </channel>
 </rss>

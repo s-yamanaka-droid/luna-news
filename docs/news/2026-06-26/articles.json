@@ -22,7 +22,30 @@
     "links": [
       "https://www.watch.impress.co.jp/docs/news/2120104.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "課金粗利を再計算",
+      "tool": {
+        "name": "RevenueCat",
+        "url": "https://www.revenuecat.com",
+        "cost": "無料〜"
+      },
+      "time": "30分",
+      "steps": [
+        "売上と手数料を入力せよ",
+        "10%と20%で比較せよ",
+        "価格改定案を出せ"
+      ],
+      "prompt": "あなたはアプリ収益改善コンサルです。{自社名}の{アプリ名}について、月売上{売上}、粗利{粗利}、Google Play手数料10%/20%別の価格改定案を出してください。",
+      "roi": "粗利率を事前確認し値上げ漏れを防止"
+    },
+    "icebreak": {
+      "hook": "Google Playの手数料、日本も年内に変わるらしいですよ",
+      "punchline": "サービス料と請求手数料が分かれるので、アプリの収益設計を見直す話になりそうです",
+      "ctx_meeting": "アプリ事業の商談冒頭で",
+      "ctx_chat": "移動中の業界雑談で",
+      "share_text": "Google Playの手数料がサービスと請求に分かれる流れ、アプリ事業者にとっては価格表の話ではなく、収益設計そのものを見直すきっかけになりそう。"
+    }
   },
   {
     "title": "KDDIメール基盤で最大1422万件漏えい",
@@ -47,7 +70,30 @@
     "links": [
       "https://www.itmedia.co.jp/enterprise/articles/2606/25/news043.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "全PWを棚卸し",
+      "tool": {
+        "name": "1Password",
+        "url": "https://1password.com",
+        "cost": "約¥450/人/月〜"
+      },
+      "time": "30分",
+      "steps": [
+        "共有PW一覧を作れ",
+        "重要順に並べ替えよ",
+        "変更担当を決めよ"
+      ],
+      "prompt": "あなたは中小企業の情報管理担当です。{自社名}の{利用サービス一覧}を、漏えい時の影響度、変更優先度、担当者、期限の表にしてください。",
+      "roi": "不正ログイン被害の初動遅れを防止"
+    },
+    "icebreak": {
+      "hook": "KDDIのメール基盤、最大1422万件の漏えい可能性だそうです",
+      "punchline": "メールアドレスとパスワードなので、取引先にも変更確認を促す話になりそうです",
+      "ctx_meeting": "セキュリティ提案の冒頭で",
+      "ctx_chat": "社内の注意喚起で",
+      "share_text": "大きな漏えいニュースを見るたびに、パスワード変更の呼びかけだけで終わらせず、取引先や家族にどう伝えるかまで含めて備えたいと思う。"
+    }
   },
   {
     "title": "AIエージェントが仕事単位を変える",
@@ -72,7 +118,30 @@
     "links": [
       "https://openai.com/index/how-agents-are-transforming-work"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "定型作業を委任化",
+      "tool": {
+        "name": "ChatGPT Plus",
+        "url": "https://chatgpt.com",
+        "cost": "約¥3,200/月"
+      },
+      "time": "30分",
+      "steps": [
+        "反復業務を1つ選べ",
+        "手順を箇条書きせよ",
+        "AI用指示に変換せよ"
+      ],
+      "prompt": "あなたは業務自動化コンサルです。{自社名}の{反復業務}をAIエージェントに任せる前提で、入力情報、判断基準、完了条件、確認方法に分解してください。",
+      "roi": "月5時間削減＝1.5万円相当"
+    },
+    "icebreak": {
+      "hook": "AIエージェント、会話相手から仕事を任せる相手に変わるらしいです",
+      "punchline": "数分から数時間、ツール操作まで任せる前提になると、業務設計の粒度が変わります",
+      "ctx_meeting": "AI導入提案の冒頭で",
+      "ctx_chat": "仕事術の雑談で",
+      "share_text": "AIエージェントの本質は、質問に答えることより、数分から数時間の仕事を任せられることかもしれない。人の仕事も「作業」ではなく「委任の設計」に寄っていきそう。"
+    }
   },
   {
     "title": "Salesforce、顧客対応AIを即導入へ",
@@ -97,7 +166,30 @@
     "links": [
       "https://siliconangle.com/2026/06/25/salesforce-launches-help-agent-simplify-ai-customer-service-deployment/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "FAQ一次対応を作る",
+      "tool": {
+        "name": "Salesforce Agentforce",
+        "url": "https://www.salesforce.com/jp/agentforce/",
+        "cost": "要問い合わせ"
+      },
+      "time": "半日",
+      "steps": [
+        "FAQを20件集めよ",
+        "回答文を整えよ",
+        "未解決時の導線を決めよ"
+      ],
+      "prompt": "あなたは顧客対応AI設計者です。{自社名}の{商品名}について、よくある質問{FAQ一覧}を一次回答、確認質問、有人対応条件つきで整理してください。",
+      "roi": "問い合わせ初動を50%短縮"
+    },
+    "icebreak": {
+      "hook": "Salesforceが顧客対応AIを短時間で作れる仕組みを出したそうです",
+      "punchline": "Web・テキスト・音声までつなぐなら、問い合わせ対応は初期構築の速さが勝負になります",
+      "ctx_meeting": "CS改善提案の冒頭で",
+      "ctx_chat": "SaaSの雑談で",
+      "share_text": "顧客対応AIは、作れるかどうかより、どれだけ早く現場の知識や操作につなげられるかが差になりそう。解決ごとの課金も含めて、導入判断の見方が変わる。"
+    }
   },
   {
     "title": "AIロープレで営業育成を3分の1に",
@@ -122,7 +214,30 @@
     "links": [
       "https://tech.layerx.co.jp/entry/2026/06/25/162902"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "営業練習をAI化",
+      "tool": {
+        "name": "Notion AI",
+        "url": "https://www.notion.com/product/ai",
+        "cost": "約¥1,600/人/月〜"
+      },
+      "time": "30分",
+      "steps": [
+        "商談台本を貼れ",
+        "顧客役を設定せよ",
+        "改善点を採点させよ"
+      ],
+      "prompt": "あなたは厳しい営業トレーナーです。{自社名}の{商品名}営業ロープレ相手になり、顧客役{顧客タイプ}として質問し、最後に改善点を5つ採点してください。",
+      "roi": "新人育成時間を30%短縮"
+    },
+    "icebreak": {
+      "hook": "LayerX、AIロープレで営業育成を3分の1にしたそうです",
+      "punchline": "13プロダクトの説明練習をAIに寄せると、人が教える時間の使い方が変わります",
+      "ctx_meeting": "営業育成の相談で",
+      "ctx_chat": "チーム育成の雑談で",
+      "share_text": "営業ロープレをAIで回してオンボーディングを約3分の1にする話、かなり現実的。人が全部教えるより、人は最後の違和感や判断を見た方が強そう。"
+    }
   },
   {
     "title": "日立、脆弱性調査をAIで45％短縮",
@@ -147,7 +262,30 @@
     "links": [
       "https://wirelesswire.jp/2026/06/93907/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "脆弱性確認を表化",
+      "tool": {
+        "name": "Claude Pro",
+        "url": "https://claude.ai",
+        "cost": "約¥3,200/月"
+      },
+      "time": "30分",
+      "steps": [
+        "利用システムを列挙せよ",
+        "脆弱性情報を貼れ",
+        "対応要否を判定せよ"
+      ],
+      "prompt": "あなたは中小製造業の脆弱性対応担当です。{自社名}の{機器名}と脆弱性情報{CVE情報}から、影響有無、確認手順、対応期限を表にしてください。",
+      "roi": "調査時間を約45%短縮"
+    },
+    "icebreak": {
+      "hook": "日立、脆弱性調査をAIで45％短くしたそうです",
+      "punchline": "日本語チェックリストまで出るなら、専門家だけに頼る運用から少し変わりそうです",
+      "ctx_meeting": "PSIRT支援の提案で",
+      "ctx_chat": "製造業DXの雑談で",
+      "share_text": "脆弱性調査をAIで約45％短縮する話、単なる時短よりも、日本語チェックリストで判断を共有しやすくなる点が大きい。属人化を減らす使い方として参考になる。"
+    }
   },
   {
     "title": "AI生成コード、説明責任が新課題に",
@@ -172,7 +310,30 @@
     "links": [
       "https://codezine.jp/article/detail/24665"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AIコードを審査",
+      "tool": {
+        "name": "GitLab",
+        "url": "https://about.gitlab.com",
+        "cost": "無料〜"
+      },
+      "time": "30分",
+      "steps": [
+        "AI生成箇所を記録せよ",
+        "レビュー項目を作れ",
+        "承認ルールを決めよ"
+      ],
+      "prompt": "あなたは開発会社のコード監査責任者です。{自社名}のAI生成コード利用について、レビュー項目、禁止事項、記録方法、承認フローを作ってください。",
+      "roi": "手戻りと技術的負債を予防"
+    },
+    "icebreak": {
+      "hook": "AI生成コード、43％が区別できないという調査が出ています",
+      "punchline": "速く書ける一方で、誰がどう検証したかを説明できる体制が問われます",
+      "ctx_meeting": "開発体制の相談で",
+      "ctx_chat": "エンジニア雑談で",
+      "share_text": "AI生成コードで速度が上がるほど、次に問われるのは「誰がどう確認したか」。コードを書く力だけでなく、レビューと説明責任の設計が開発組織の差になりそう。"
+    }
   },
   {
     "title": "リコー、多能工ヒューマノイドを実証へ",
@@ -197,6 +358,29 @@
     "links": [
       "https://monoist.itmedia.co.jp/mn/articles/2606/26/news056.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "工程作業を棚卸し",
+      "tool": {
+        "name": "AWS IoT SiteWise",
+        "url": "https://aws.amazon.com/iot-sitewise/",
+        "cost": "従量課金"
+      },
+      "time": "半日",
+      "steps": [
+        "工程を10個書き出せ",
+        "人手作業を分類せよ",
+        "省人化候補を選べ"
+      ],
+      "prompt": "あなたは中小工場の省人化コンサルです。{自社名}の工程一覧{工程一覧}から、単純作業、危険作業、待ち時間作業を分類し、PoC候補を3つ出してください。",
+      "roi": "省人化候補を半日で可視化"
+    },
+    "icebreak": {
+      "hook": "リコーが多能工ヒューマノイドを工場で実証するそうです",
+      "punchline": "一部工程を担う想定まで来ると、ロボットは展示物ではなく現場人員の話になります",
+      "ctx_meeting": "製造現場のDX提案で",
+      "ctx_chat": "工場自動化の雑談で",
+      "share_text": "多能工ヒューマノイドが工場でPoCに入っている話、かなり象徴的。ロボットを設備として見るのか、一部工程を担う人員として見るのかで、議論が変わってきそう。"
+    }
   }
 ]
