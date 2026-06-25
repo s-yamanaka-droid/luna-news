@@ -1,0 +1,202 @@
+[
+  {
+    "title": "Google Play手数料、日本も年内刷新",
+    "category": "政策・規制",
+    "source": "Impress Watch AI",
+    "lede": "Google Playが手数料体系を見直し、日本でも2026年12月31日までに新体系を導入する。",
+    "keypoints": [
+      "手数料をサービスと請求に分離",
+      "新規取引の標準料金は20%",
+      "年間100万ドルまでは10%",
+      "日本の請求手数料は未公表"
+    ],
+    "pull": "アプリ収益設計は、年内に前提条件が変わる。",
+    "bizapp": {
+      "summary": "アプリ事業の価格設計と決済導線の見直しに使える",
+      "actions": [
+        "RevenueCatで課金影響を試算",
+        "中小アプリの収益改善を提案",
+        "年内に見直さないと粗利を逃す"
+      ]
+    },
+    "links": [
+      "https://www.watch.impress.co.jp/docs/news/2120104.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "KDDIメール基盤で最大1422万件漏えい",
+    "category": "セキュリティ",
+    "source": "ITmedia Enterprise",
+    "lede": "KDDIのISP向けメール基盤で不正アクセスが確認され、6社の利用者情報に影響が及んだ可能性がある。",
+    "keypoints": [
+      "最大1422万件が漏えい可能性",
+      "メールアドレスとパスワード対象",
+      "ニフティやBIGLOBEなど6社",
+      "各社がパスワード変更を呼びかけ"
+    ],
+    "pull": "委託先基盤の事故は、自社ブランドの信用にも波及する。",
+    "bizapp": {
+      "summary": "取引先を含む認証情報管理の再点検に使える",
+      "actions": [
+        "1Passwordで共有PWを棚卸し",
+        "中小企業のPW変更代行を提案",
+        "放置すると不正ログイン被害が広がる"
+      ]
+    },
+    "links": [
+      "https://www.itmedia.co.jp/enterprise/articles/2606/25/news043.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AIエージェントが仕事単位を変える",
+    "category": "業界動向",
+    "source": "OpenAI Blog",
+    "lede": "OpenAIは、AIエージェントが短い対話から長時間の委任タスクへ仕事の単位を変えると示した。",
+    "keypoints": [
+      "対話から委任タスクへ移行",
+      "数分から数時間自律実行",
+      "ツール操作を組み合わせる",
+      "法務や採用でもCodexを活用"
+    ],
+    "pull": "AI活用は質問する段階から、仕事を任せる段階へ進む。",
+    "bizapp": {
+      "summary": "反復業務をエージェント化する判断材料に使える",
+      "actions": [
+        "Codexで社内作業手順を自動化",
+        "採用書類チェック代行を提案",
+        "委任設計が遅れると工数差が開く"
+      ]
+    },
+    "links": [
+      "https://openai.com/index/how-agents-are-transforming-work"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Salesforce、顧客対応AIを即導入へ",
+    "category": "ツール更新",
+    "source": "SiliconANGLE AI",
+    "lede": "Salesforceが、顧客対応AIエージェントを短時間で構築・導入できるHelp Agentを発表した。",
+    "keypoints": [
+      "Agentforce上の事前構築型AI",
+      "Webやテキストや音声に対応",
+      "社内知識や操作に接続可能",
+      "解決ごとの課金も導入"
+    ],
+    "pull": "顧客対応AIは、作るより早く業務に接続する段階へ入った。",
+    "bizapp": {
+      "summary": "問い合わせ対応の一次解決率向上に使える",
+      "actions": [
+        "SalesforceでFAQ対応を自動化",
+        "CS人手不足企業へ導入提案",
+        "放置すると対応遅延で失注する"
+      ]
+    },
+    "links": [
+      "https://siliconangle.com/2026/06/25/salesforce-launches-help-agent-simplify-ai-customer-service-deployment/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AIロープレで営業育成を3分の1に",
+    "category": "業界動向",
+    "source": "LayerX エンジニアブログ",
+    "lede": "LayerXは内製のAIロープレで、バクラクの営業オンボーディング期間を約3分の1に短縮した。",
+    "keypoints": [
+      "営業育成の時間を約3分の1に",
+      "13プロダクトの理解を支援",
+      "対人ロープレの負荷を軽減",
+      "新商品対応の練習にも使う"
+    ],
+    "pull": "営業教育は、先輩の時間に依存しない形へ変わり始めた。",
+    "bizapp": {
+      "summary": "営業研修をAIで標準化する実例として使える",
+      "actions": [
+        "Notionで商談台本をAI教材化",
+        "採用後研修の短縮を提案",
+        "育成遅れは商談機会を失う"
+      ]
+    },
+    "links": [
+      "https://tech.layerx.co.jp/entry/2026/06/25/162902"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "日立、脆弱性調査をAIで45％短縮",
+    "category": "セキュリティ",
+    "source": "WirelessWire News",
+    "lede": "日立は生成AIで脆弱性情報の分析を自動化し、調査時間を約45％削減する技術を紹介した。",
+    "keypoints": [
+      "脆弱性調査時間を約45％削減",
+      "日本語チェックリストを生成",
+      "専門知識が少なくても判断可能",
+      "製造業のPSIRT業務を支援"
+    ],
+    "pull": "製品セキュリティは、人海戦術からAI支援へ移る。",
+    "bizapp": {
+      "summary": "製造業の脆弱性対応を標準化する検討に使える",
+      "actions": [
+        "日立の脆弱性分析を比較検討",
+        "製造業のPSIRT整備を提案",
+        "規制前に整えないと対応が詰まる"
+      ]
+    },
+    "links": [
+      "https://wirelesswire.jp/2026/06/93907/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AI生成コード、説明責任が新課題に",
+    "category": "セキュリティ",
+    "source": "CodeZine",
+    "lede": "GitLab調査で、AI生成コードの増加によりレビューや検証、ガバナンスが新たな課題になっている。",
+    "keypoints": [
+      "91％が複数AIツールを活用",
+      "78％が作成速度向上と回答",
+      "43％がAIコードを区別不能",
+      "85％がレビュー検証に課題"
+    ],
+    "pull": "AIで速く書けても、責任を持って出せるとは限らない。",
+    "bizapp": {
+      "summary": "開発現場のAI利用ルール作りに使える",
+      "actions": [
+        "GitLabでAIコード審査を整備",
+        "開発会社へ監査体制を提案",
+        "放置すると技術的負債が増える"
+      ]
+    },
+    "links": [
+      "https://codezine.jp/article/detail/24665"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "リコー、多能工ヒューマノイドを実証へ",
+    "category": "業界動向",
+    "source": "ITmedia AI+",
+    "lede": "リコーはフィジカルAI搭載の多能工ヒューマノイドを披露し、工場で導入に向けた実証を進める。",
+    "keypoints": [
+      "AWS Summit Japanで披露",
+      "工場内でPoCを開始済み",
+      "今夏までに実用的実証へ",
+      "一部工程を担う想定"
+    ],
+    "pull": "工場のAI活用は、画面の中から現場作業へ広がる。",
+    "bizapp": {
+      "summary": "製造現場の人手不足対策の検討に使える",
+      "actions": [
+        "AWSで工程データを整理",
+        "中小工場の省人化提案に使う",
+        "検証が遅れると人手不足が直撃"
+      ]
+    },
+    "links": [
+      "https://monoist.itmedia.co.jp/mn/articles/2606/26/news056.html"
+    ],
+    "likes": 0
+  }
+]
