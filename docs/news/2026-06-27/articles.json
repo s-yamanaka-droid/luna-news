@@ -23,7 +23,30 @@
       "https://www.itmedia.co.jp/aiplus/article/2606/27/2000000134/",
       "https://openai.com/index/previewing-gpt-5-6-sol"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "開発検証枠を作る",
+      "tool": {
+        "name": "Cursor",
+        "url": "https://cursor.com",
+        "cost": "約¥3,200/月"
+      },
+      "time": "30分",
+      "steps": [
+        "小さな修正候補を選べ",
+        "Cursorで実装させろ",
+        "時間と品質を記録せよ"
+      ],
+      "prompt": "あなたは{自社名}の開発補佐です。{業種}向けの{改善したい機能}を、最小変更で実装する手順とコード案を出してください。",
+      "roi": "軽微な改修の初稿作成を60%短縮"
+    },
+    "icebreak": {
+      "hook": "GPT-5.6、もう限定公開らしいですよ",
+      "punchline": "次はコーディングだけでなく、科学やサイバーまで段階提供する流れみたいです",
+      "ctx_meeting": "開発AI提案の冒頭で",
+      "ctx_chat": "移動中のAI雑談で",
+      "share_text": "GPT-5.6の話を見ると、AIモデル選びは「何ができるか」だけでなく「いつ誰に提供されるか」まで見ないと判断しづらくなってきた。"
+    }
   },
   {
     "title": "オムロン、知財AIで工数半減",
@@ -48,7 +71,30 @@
     "links": [
       "https://xtech.nikkei.com/atcl/nxt/column/18/03664/062600003/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "特許下調べを半減",
+      "tool": {
+        "name": "Amazon Bedrock",
+        "url": "https://aws.amazon.com/bedrock/",
+        "cost": "従量課金"
+      },
+      "time": "半日",
+      "steps": [
+        "発明メモを1枚書け",
+        "類似技術を調べさせろ",
+        "出願相談用に要約せよ"
+      ],
+      "prompt": "あなたは{自社名}の知財調査員です。{発明内容}について、類似しそうな技術領域、検索キーワード、弁理士に渡す要約を作ってください。",
+      "roi": "特許相談前の調査時間を月5時間削減"
+    },
+    "icebreak": {
+      "hook": "オムロン、特許業務をAIで半分にしたらしいですよ",
+      "punchline": "先行技術調査から発明説明書まで任せて、知財部門の仕事がかなり変わりそうです",
+      "ctx_meeting": "業務効率化提案で",
+      "ctx_chat": "法務・知財の話題で",
+      "share_text": "知財AIで工数50％削減という話、かなり現実感がある。AI導入は派手な新規事業より、まず重い専門業務を軽くするところから効きそう。"
+    }
   },
   {
     "title": "AWS、Nvidia計算資源を20％値上げ",
@@ -73,7 +119,30 @@
     "links": [
       "https://www.theinformation.com/briefings/aws-raises-prices-nvidia-compute-20"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI費用を見直す",
+      "tool": {
+        "name": "AWS Cost Explorer",
+        "url": "https://aws.amazon.com/aws-cost-management/aws-cost-explorer/",
+        "cost": "無料"
+      },
+      "time": "30分",
+      "steps": [
+        "AWS請求画面を開け",
+        "AI関連費だけ抽出せよ",
+        "来月予算を決めろ"
+      ],
+      "prompt": "あなたは{自社名}のAIコスト管理者です。{月額AI費用}と{主な用途}から、削減候補、上限予算、見直し頻度を表で出してください。",
+      "roi": "AI運用費の無駄を月20%削減"
+    },
+    "icebreak": {
+      "hook": "AWSのNvidia計算資源、20％上がるらしいですよ",
+      "punchline": "AIは作るより、動かし続ける予算設計が先に効いてくる段階ですね",
+      "ctx_meeting": "AI予算の相談で",
+      "ctx_chat": "コストの雑談で",
+      "share_text": "AIのコストは開発費だけ見ていると危ない。Nvidia計算資源の値上げを見ると、運用後にどれだけ使うかまで最初に設計する必要がある。"
+    }
   },
   {
     "title": "ChatGPT広告設計を博報堂DYが支援",
@@ -98,7 +167,30 @@
     "links": [
       "https://markezine.jp/article/detail/77054"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "対話広告文を作る",
+      "tool": {
+        "name": "ChatGPT Plus",
+        "url": "https://chatgpt.com",
+        "cost": "約¥3,200/月"
+      },
+      "time": "20分",
+      "steps": [
+        "LPのURLを貼れ",
+        "顧客の悩みを挙げろ",
+        "会話別広告文を作れ"
+      ],
+      "prompt": "あなたは{自社名}の広告担当です。{LP内容}を読み、{顧客層}がChatGPTで相談しそうな場面別に広告文を5本作ってください。",
+      "roi": "広告文の初稿作成を70%短縮"
+    },
+    "icebreak": {
+      "hook": "ChatGPT広告、博報堂DYが設計支援を始めたそうです",
+      "punchline": "LPを読ませて会話場面別の広告文まで作るので、広告運用の入口が変わりそうです",
+      "ctx_meeting": "広告施策の提案で",
+      "ctx_chat": "マーケ話の流れで",
+      "share_text": "ChatGPT上の広告設計は、検索広告とは考え方が違いそう。キーワードより「どんな会話の流れで出るか」を設計する力が問われる。"
+    }
   },
   {
     "title": "Claude規制解除へAnthropicが交渉継続",
@@ -123,7 +215,30 @@
     "links": [
       "https://wired.jp/article/the-trump-white-house-is-over-anthropics-dario-amodei/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI依存先を分散",
+      "tool": {
+        "name": "Notion AI",
+        "url": "https://www.notion.so/product/ai",
+        "cost": "約¥1,600/月"
+      },
+      "time": "30分",
+      "steps": [
+        "利用AIを一覧化せよ",
+        "停止時の代替を決めろ",
+        "重要度で色分けせよ"
+      ],
+      "prompt": "あなたは{自社名}のAI調達責任者です。現在使う{AIツール名}について、停止リスク、代替候補、移行手順を表にしてください。",
+      "roi": "AI停止時の業務中断リスクを低減"
+    },
+    "icebreak": {
+      "hook": "Claudeの輸出規制、まだ解除交渉中らしいです",
+      "punchline": "性能よりも安全性をどう証明するかが、提供時期を左右している感じですね",
+      "ctx_meeting": "海外AI利用の相談で",
+      "ctx_chat": "AI規制の雑談で",
+      "share_text": "Claudeの輸出規制の話を見ると、AIは性能競争だけでは進まない。安全性を説明できる会社だけが、提供範囲を広げられる局面に見える。"
+    }
   },
   {
     "title": "AI攻撃からOSSを守るAkrites始動",
@@ -148,7 +263,30 @@
     "links": [
       "https://gihyo.jp/article/2026/06/akrites?utm_source=feed"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "OSS依存を棚卸し",
+      "tool": {
+        "name": "GitHub Dependabot",
+        "url": "https://github.com/features/security",
+        "cost": "無料"
+      },
+      "time": "30分",
+      "steps": [
+        "GitHubリポジトリを開け",
+        "Dependabotを有効化せよ",
+        "警告を3件確認せよ"
+      ],
+      "prompt": "あなたは{自社名}のセキュリティ担当です。{リポジトリ名}の依存関係について、危険度、更新優先度、社長向け説明を作ってください。",
+      "roi": "脆弱性対応の初動を月3時間短縮"
+    },
+    "icebreak": {
+      "hook": "AI攻撃からOSSを守るAkrites、始まったそうです",
+      "punchline": "OSSの脆弱性発見が速くなるほど、守る側の重複対応を減らす仕組みが大事ですね",
+      "ctx_meeting": "セキュリティ提案で",
+      "ctx_chat": "開発者との雑談で",
+      "share_text": "AIで攻撃側のスピードが上がるなら、OSSを守る側も連携の仕組みが必要になる。重要インフラを支えるOSSほど、個別対応だけでは厳しい。"
+    }
   },
   {
     "title": "DeNA、申請AIのプロンプトを自動改善",
@@ -173,7 +311,30 @@
     "links": [
       "https://engineering.dena.com/blog/2026/06/devin-prompt-improvement-cycle/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "申請文を自動改善",
+      "tool": {
+        "name": "Claude Pro",
+        "url": "https://claude.ai",
+        "cost": "約¥3,200/月"
+      },
+      "time": "30分",
+      "steps": [
+        "過去の申請文を集めろ",
+        "差し戻し理由を貼れ",
+        "改善版を作らせろ"
+      ],
+      "prompt": "あなたは{自社名}の総務担当です。{申請種別}の過去文と{差し戻し理由}から、通りやすい申請文テンプレを作ってください。",
+      "roi": "申請差し戻し対応を月5時間削減"
+    },
+    "icebreak": {
+      "hook": "DeNA、申請AIのプロンプトを毎週直してるらしいです",
+      "punchline": "差し戻しを学習材料にして、社内AIを運用しながら育てる発想が現実的ですね",
+      "ctx_meeting": "社内AI導入の話で",
+      "ctx_chat": "申請業務の愚痴から",
+      "share_text": "社内AIは最初から完璧を狙うより、差し戻しを材料に毎週直す方が強いかもしれない。DeNAの申請AIの話は運用設計のヒントになる。"
+    }
   },
   {
     "title": "Sakana AI、経営AIの長期能力を評価",
@@ -198,6 +359,29 @@
     "links": [
       "/coffee-bench/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "経営AIを試験運用",
+      "tool": {
+        "name": "Gemini",
+        "url": "https://gemini.google.com",
+        "cost": "無料"
+      },
+      "time": "45分",
+      "steps": [
+        "今月の数字を貼れ",
+        "3か月計画を作らせろ",
+        "翌週に結果を比べろ"
+      ],
+      "prompt": "あなたは{自社名}の経営参謀です。{業種}の{売上}{粗利}{課題}から、3か月の打ち手、リスク、確認指標を出してください。",
+      "roi": "経営会議の準備を月4時間削減"
+    },
+    "icebreak": {
+      "hook": "経営AIをコーヒー供給網で試す評価、出たそうです",
+      "punchline": "単発回答ではなく、供給網の中で長く判断し続ける力を見ているのが面白いです",
+      "ctx_meeting": "AI活用の見極めで",
+      "ctx_chat": "経営とAIの話で",
+      "share_text": "AIの経営能力を測るなら、一問一答より長い意思決定の連続を見るべきだと思う。CoffeeBenchのような評価は、実務に近い見方に感じる。"
+    }
   }
 ]

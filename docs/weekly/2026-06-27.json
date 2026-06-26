@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週は、AIが「会話相手」から「表計算・画面操作・営業練習を代行する道具」へ進んだ週です。小規模事業者は高額なAI基盤より、既存業務の時短から入るのが現実的です。特に事務・分析・営業教育は今週すぐ試す価値があります。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-06-21",
+      "title": "Geminiが日本語で表計算を作成",
+      "category": "ツール更新",
+      "source": "Gihyo.jp",
+      "why_picked": "予算・売上管理をすぐ時短できる",
+      "tldr": "日本語で表やグラフ作成",
+      "action": "今月の売上表を作らせる",
+      "image": "../assets/images/2026-06-21/topic_1.png",
+      "link": "../news/2026-06-21/#topic-1"
+    },
+    {
+      "rank": 2,
+      "date": "2026-06-21",
+      "title": "Codex、画面操作を記録し再実行",
+      "category": "ツール更新",
+      "source": "ITmedia AI+ / The Decoder",
+      "why_picked": "毎月の事務作業を自動化できる",
+      "tldr": "画面操作を覚えて再実行",
+      "action": "定型入力を1つ録画する",
+      "image": "../assets/images/2026-06-21/topic_2.png",
+      "link": "../news/2026-06-21/#topic-2"
+    },
+    {
+      "rank": 3,
+      "date": "2026-06-26",
+      "title": "AIロープレで営業育成を3分の1に",
+      "category": "業界動向",
+      "source": "LayerX エンジニアブログ",
+      "why_picked": "営業練習を低コストで増やせる",
+      "tldr": "営業研修をAIで短縮",
+      "action": "商談ロープレ台本を作る",
+      "image": "../assets/images/2026-06-26/topic_5.png",
+      "link": "../news/2026-06-26/#topic-5"
+    }
+  ]
+}

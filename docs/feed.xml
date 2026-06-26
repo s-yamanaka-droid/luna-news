@@ -7,6 +7,13 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。毎朝6:30、AI業界ニュースを図解と「明日からできる活用法」で。</description>
   <language>ja</language>
   <item>
+    <title>2026-06-27 AI朝刊：OpenAI、GPT-5.6を限定公開 ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-06-27/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-27/</guid>
+    <pubDate>Sat, 27 Jun 2026 06:30:00 +0900</pubDate>
+    <description>OpenAI、GPT-5.6を限定公開／オムロン、知財AIで工数半減／AWS、Nvidia計算資源を20％値上げ／ChatGPT広告設計を博報堂DYが支援／Claude規制解除へAnthropicが交渉継続</description>
+  </item>
+  <item>
     <title>2026-06-26 AI朝刊：Google Play手数料、日本も年内刷新 ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-06-26/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-26/</guid>
@@ -173,13 +180,6 @@
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-02/</guid>
     <pubDate>Tue, 02 Jun 2026 06:30:00 +0900</pubDate>
     <description>OpenAIの最新AIモデルがAWSで利用可能に／AnthropicのClaude Opus 4.8がAWSで提供開始／Alphabet、AIインフラ投資で800億ドル調達へ／Anthropic、史上最大規模のIPOを秘密裏に申請／フロリダ州、OpenAIとCEOを提訴「ChatGPTは危険」</description>
-  </item>
-  <item>
-    <title>2026-06-01 AI朝刊：日立、Anthropicと戦略提携 Claudeを全従業員に導入 ほか2本</title>
-    <link>https://nowonair.vercel.app/news/2026-06-01/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-01/</guid>
-    <pubDate>Mon, 01 Jun 2026 06:30:00 +0900</pubDate>
-    <description>日立、Anthropicと戦略提携 Claudeを全従業員に導入／ソフトバンクG、仏に14兆円投資 欧州最大級AIデータセンター／AIデータセンター建設に透明性要求 環境活動家が警鐘</description>
   </item>
 </channel>
 </rss>
