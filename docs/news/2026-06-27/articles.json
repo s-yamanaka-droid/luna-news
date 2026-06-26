@@ -1,0 +1,203 @@
+[
+  {
+    "title": "OpenAI、GPT-5.6を限定公開",
+    "category": "新モデル発表",
+    "source": "ITmedia AI+ / OpenAI Blog",
+    "lede": "OpenAIが次世代AIモデル「GPT-5.6」シリーズを限定プレビューし、数週間以内の一般提供を計画している。",
+    "keypoints": [
+      "Solなど3モデル構成",
+      "コーディング能力を強化",
+      "科学・サイバーにも対応",
+      "米政府と調整し段階提供"
+    ],
+    "pull": "高性能AIは、性能だけでなく公開手順も競争軸になった。",
+    "bizapp": {
+      "summary": "AI活用計画の見直しに使える",
+      "actions": [
+        "Cursorの開発業務で検証枠を作る",
+        "中小企業にAI導入計画を提案",
+        "一般提供前に予算と権限を決める"
+      ]
+    },
+    "links": [
+      "https://www.itmedia.co.jp/aiplus/article/2606/27/2000000134/",
+      "https://openai.com/index/previewing-gpt-5-6-sol"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "オムロン、知財AIで工数半減",
+    "category": "業界動向",
+    "source": "日経クロステック AI",
+    "lede": "オムロンはAmazon Bedrockを活用した知財AIエージェントで、特許関連業務の工数を50％削減した。",
+    "keypoints": [
+      "Amazon Bedrockを活用",
+      "先行技術調査を支援",
+      "発明説明書も作成",
+      "特許庁データを利用"
+    ],
+    "pull": "専門文書を読む負担は、AIで大きく削れる実例が出た。",
+    "bizapp": {
+      "summary": "知財・法務の下調べに使える",
+      "actions": [
+        "Amazon Bedrockで特許調査を試す",
+        "製造業に知財DXを提案",
+        "研究者の調査時間を放置しない"
+      ]
+    },
+    "links": [
+      "https://xtech.nikkei.com/atcl/nxt/column/18/03664/062600003/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AWS、Nvidia計算資源を20％値上げ",
+    "category": "業界動向",
+    "source": "The Information",
+    "lede": "AWSがAI処理向けNvidia計算資源のレンタル価格を20％引き上げ、AI運用コストの上昇が鮮明になった。",
+    "keypoints": [
+      "AI処理向け料金が上昇",
+      "値上げ幅は20％",
+      "計算資源不足が背景",
+      "AI予算に直撃する"
+    ],
+    "pull": "AI活用は、使い放題ではなく調達戦略の問題になった。",
+    "bizapp": {
+      "summary": "AIコスト管理の見直しに使える",
+      "actions": [
+        "AWS利用量をCost Explorerで確認",
+        "中小企業にAI費用診断を提案",
+        "来期予算前に見直さないと直撃"
+      ]
+    },
+    "links": [
+      "https://www.theinformation.com/briefings/aws-raises-prices-nvidia-compute-20"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "ChatGPT広告設計を博報堂DYが支援",
+    "category": "ツール更新",
+    "source": "MarkeZine",
+    "lede": "博報堂DYホールディングスは、ChatGPT上の広告向けコンテキストと広告文を自動生成する機能を提供開始した。",
+    "keypoints": [
+      "ChatGPT広告向け機能",
+      "LPから商材を理解",
+      "会話場面別に生成",
+      "入稿シートも出力"
+    ],
+    "pull": "広告は検索語だけでなく、会話の文脈を設計する時代に入る。",
+    "bizapp": {
+      "summary": "対話型AI広告の準備に使える",
+      "actions": [
+        "CREATIVE BLOOMで広告文を設計",
+        "採用広告の相談文脈を提案",
+        "検索広告だけだと機会を逃す"
+      ]
+    },
+    "links": [
+      "https://markezine.jp/article/detail/77054"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Claude規制解除へAnthropicが交渉継続",
+    "category": "政策・規制",
+    "source": "Wired Japan",
+    "lede": "AnthropicはClaude Fable 5の輸出規制解除に向け、米政権との交渉役を交代して協議を続けている。",
+    "keypoints": [
+      "交渉役を共同創業者に交代",
+      "輸出規制は未解除",
+      "焦点は安全性の証明",
+      "提供時期は不透明"
+    ],
+    "pull": "高性能AIの提供可否は、技術力だけでなく政策で決まる。",
+    "bizapp": {
+      "summary": "AI調達リスクの把握に使える",
+      "actions": [
+        "利用AIの提供条件をNotionで管理",
+        "営業先に代替AI計画を提案",
+        "依存先が止まる前に分散する"
+      ]
+    },
+    "links": [
+      "https://wired.jp/article/the-trump-white-house-is-over-anthropics-dario-amodei/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AI攻撃からOSSを守るAkrites始動",
+    "category": "セキュリティ",
+    "source": "Gihyo.jp",
+    "lede": "Linux Foundationは、AIを使ったサイバー脅威から重要なOSSを守る取り組み「Akrites」を始動した。",
+    "keypoints": [
+      "AI時代のOSS防衛策",
+      "重要インフラを支えるOSS",
+      "脆弱性発見が高速化",
+      "重複対応の混乱を防ぐ"
+    ],
+    "pull": "AIで攻撃が速くなるなら、防御も共同化が必要になる。",
+    "bizapp": {
+      "summary": "OSS利用企業の防衛に使える",
+      "actions": [
+        "GitHub Dependabotで依存を確認",
+        "中小企業にOSS棚卸しを提案",
+        "放置すると脆弱性対応が遅れる"
+      ]
+    },
+    "links": [
+      "https://gihyo.jp/article/2026/06/akrites?utm_source=feed"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "DeNA、申請AIのプロンプトを自動改善",
+    "category": "ツール更新",
+    "source": "DeNA Engineering",
+    "lede": "DeNAはDevinを活用し、社内申請エージェントのプロンプトをAI自身が毎週改善する仕組みを紹介した。",
+    "keypoints": [
+      "Devinを開発に参加",
+      "kintone申請を下書き",
+      "差し戻しを学習材料に",
+      "毎週プロンプトを改善"
+    ],
+    "pull": "AI運用の改善作業そのものを、AIに任せ始めている。",
+    "bizapp": {
+      "summary": "定型申請の改善に使える",
+      "actions": [
+        "Devinでkintone申請文を改善",
+        "バックオフィス自動化を提案",
+        "手直し放置で差し戻しが残る"
+      ]
+    },
+    "links": [
+      "https://engineering.dena.com/blog/2026/06/devin-prompt-improvement-cycle/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Sakana AI、経営AIの長期能力を評価",
+    "category": "研究",
+    "source": "Sakana AI Blog",
+    "lede": "Sakana AIとあずさ監査法人は、コーヒー業界の供給網を舞台にLLMエージェントの長期経営能力を測るCoffeeBenchを開発した。",
+    "keypoints": [
+      "CoffeeBenchを開発",
+      "供給網で経営能力を評価",
+      "モデル間で成績差",
+      "長期タスクの特性を観察"
+    ],
+    "pull": "AIエージェントは短い作業だけでなく、長期判断で評価され始めた。",
+    "bizapp": {
+      "summary": "経営AIの見極めに使える",
+      "actions": [
+        "業界への示唆として評価軸を整理",
+        "営業計画AIの検証を提案",
+        "短期精度だけで選ぶと失敗する"
+      ]
+    },
+    "links": [
+      "/coffee-bench/"
+    ],
+    "likes": 0
+  }
+]
