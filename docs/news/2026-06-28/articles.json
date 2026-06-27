@@ -1,0 +1,204 @@
+[
+  {
+    "title": "OpenAI、GPT-5.6を限定公開",
+    "category": "新モデル発表",
+    "source": "Impress Watch AI / Gihyo.jp",
+    "lede": "OpenAIはGPT-5.6の3モデルを発表し、まずCodexとAPIで限定プレビューを始めた。",
+    "keypoints": [
+      "Sol、Terra、Lunaの3モデル",
+      "まずCodexとAPIで提供",
+      "政府要請で限定プレビュー",
+      "数週間で一般提供を計画"
+    ],
+    "pull": "AIモデル公開は性能だけでなく、政府調整も重要条件になった",
+    "bizapp": {
+      "summary": "開発・業務AIのモデル選定を見直す材料になる",
+      "actions": [
+        "Codexで開発業務を検証",
+        "AI導入計画に段階提供を反映",
+        "一般提供前に利用条件を確認"
+      ]
+    },
+    "links": [
+      "https://www.watch.impress.co.jp/docs/news/2120569.html",
+      "https://gihyo.jp/article/2026/06/gpt-5.6-preview?utm_source=feed"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "米政府、Mythos 5を一部再開",
+    "category": "政策・規制",
+    "source": "Wired Japan / Impress Watch AI",
+    "lede": "米政府はAnthropicのClaude Mythos 5を、米国の重要インフラ関連組織向けに再展開可能とした。",
+    "keypoints": [
+      "Mythos 5の提供を一部再開",
+      "対象は米国の重要インフラ組織",
+      "Fable 5再開は協議継続",
+      "安全対策を政府が確認"
+    ],
+    "pull": "最先端AIは、誰に使わせるかまで政策判断の対象になった",
+    "bizapp": {
+      "summary": "高性能AIの調達には規制リスクの確認が必要になる",
+      "actions": [
+        "Anthropic利用条件を法務で確認",
+        "重要業務向けAI提案に安全策を明記",
+        "契約前に提供範囲を確認"
+      ]
+    },
+    "links": [
+      "https://wired.jp/article/anthropic-restores-access-to-mythos/",
+      "https://www.watch.impress.co.jp/docs/news/2120572.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "生成AI調達指針、2.0版に更新",
+    "category": "政策・規制",
+    "source": "DXマガジン",
+    "lede": "デジタル庁は生成AIの調達・利活用ガイドライン第2.0版を決定し、実務向け資料も整えた。",
+    "keypoints": [
+      "2026年6月12日に決定",
+      "調達と利活用基準を拡張",
+      "WordやExcel元ファイルも提供",
+      "英語版仮訳も同時公開"
+    ],
+    "pull": "行政のAI活用は、禁止ではなく動的に統制する段階へ進んだ",
+    "bizapp": {
+      "summary": "公共案件や大企業提案のAI要件整理に使える",
+      "actions": [
+        "Notionで調達チェック表を整備",
+        "自治体向けAI導入支援を提案",
+        "入札前に最新版準拠を確認"
+      ]
+    },
+    "links": [
+      "https://dxmagazine.jp/news/2622ko09512-29341/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AIインフラ、電力確保が争点に",
+    "category": "業界動向",
+    "source": "ITmedia AI+",
+    "lede": "ソフトバンクグループの孫正義氏は、AIインフラの要である電力確保と国内データセンター誘致に言及した。",
+    "keypoints": [
+      "AIインフラの要は電力確保",
+      "国内データセンター誘致を狙う",
+      "東京電力の次期候補に言及",
+      "国家規模の投資戦略が背景"
+    ],
+    "pull": "AI競争はモデル開発から、電力とデータセンターの確保へ広がった",
+    "bizapp": {
+      "summary": "AI利用計画は電力とインフラ制約込みで考える必要がある",
+      "actions": [
+        "社内AI基盤の利用量を棚卸し",
+        "地方企業向けDC活用を提案",
+        "来期予算前にコストを見直す"
+      ]
+    },
+    "links": [
+      "https://www.itmedia.co.jp/business/articles/2606/27/news024.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AI SDK 7、実運用エージェントへ",
+    "category": "ツール更新",
+    "source": "Vercel Blog",
+    "lede": "VercelはTypeScriptで本番向けAIエージェントを作るためのAI SDK 7を公開した。",
+    "keypoints": [
+      "本番エージェント開発向け",
+      "音声や画像や動画にも対応",
+      "主要プロバイダーを標準対応",
+      "監視機能も再設計"
+    ],
+    "pull": "AI開発はチャット作成から、運用・監視できるエージェント基盤へ進む",
+    "bizapp": {
+      "summary": "社内AIツールを試作から本番運用へ進めやすくなる",
+      "actions": [
+        "Vercel AI SDKで業務Agent試作",
+        "営業支援Agentを中小企業へ提案",
+        "監視なしAI運用を早期に改める"
+      ]
+    },
+    "links": [
+      "https://vercel.com/changelog/ai-sdk-7"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Stripe、金融審査AIで時間26％短縮",
+    "category": "業界動向",
+    "source": "Amazon AWS AI Blog",
+    "lede": "StripeはAWSとAmazon Bedrockを使い、金融コンプライアンス審査のAIエージェントで処理時間を26％短縮した。",
+    "keypoints": [
+      "年間1.4兆ドルを処理",
+      "審査対応時間を26％短縮",
+      "有用性評価は96％超",
+      "最終判断は人間が維持"
+    ],
+    "pull": "AIエージェントは、人の判断を残したまま審査業務を速くできる",
+    "bizapp": {
+      "summary": "審査・確認業務のAI化に実例として使える",
+      "actions": [
+        "Amazon Bedrockで審査支援を検証",
+        "バックオフィス審査AIを提案",
+        "人手審査だけでは処理遅延が増える"
+      ]
+    },
+    "links": [
+      "https://aws.amazon.com/blogs/machine-learning/production-grade-ai-agents-for-financial-compliance-lessons-from-stripe/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "広告分析、自然言語で実行可能に",
+    "category": "ツール更新",
+    "source": "MarkeZine",
+    "lede": "電通デジタルと電通は、自然言語でデータクリーンルーム分析を支援するTobiras Agentを開発した。",
+    "keypoints": [
+      "自然言語で分析を依頼",
+      "SQLの専門知識に依存しない",
+      "Amazon Marketing Cloudに対応",
+      "社内から運用を開始"
+    ],
+    "pull": "マーケ分析の壁は、専門人材不足から対話型AIで下がり始めた",
+    "bizapp": {
+      "summary": "広告効果分析を現場担当者でも回しやすくなる",
+      "actions": [
+        "Amazon Marketing Cloud分析を試す",
+        "広告主へ効果測定改善を提案",
+        "分析待ちで施策改善が遅れる"
+      ]
+    },
+    "links": [
+      "https://markezine.jp/article/detail/77053"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AIが弱点発見から修正案まで提示",
+    "category": "セキュリティ",
+    "source": "AI Watch",
+    "lede": "bajjiは、複数AIが診断から攻撃検証、修正案提示まで担うPontSecurityの先行展開を始めた。",
+    "keypoints": [
+      "4工程を複数AIが分担",
+      "攻撃成立箇所だけ報告",
+      "修正案と優先度も提示",
+      "中小組織向けに設計"
+    ],
+    "pull": "セキュリティ診断は、見つけるだけでなく直す支援までAI化する",
+    "bizapp": {
+      "summary": "専任者が少ない組織の継続診断に使える",
+      "actions": [
+        "PontSecurityで自社環境を診断",
+        "中小企業向け安全診断を提案",
+        "放置すると危険箇所が残り続ける"
+      ]
+    },
+    "links": [
+      "https://ai.watch.impress.co.jp/docs/news/2120493.html"
+    ],
+    "likes": 0
+  }
+]
