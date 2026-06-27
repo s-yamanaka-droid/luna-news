@@ -23,7 +23,30 @@
       "https://www.watch.impress.co.jp/docs/news/2120569.html",
       "https://gihyo.jp/article/2026/06/gpt-5.6-preview?utm_source=feed"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "開発依頼の下書き",
+      "tool": {
+        "name": "ChatGPT Plus",
+        "url": "https://chatgpt.com",
+        "cost": "約¥3,000/月"
+      },
+      "time": "30分",
+      "steps": [
+        "直近の開発課題を選ぶ",
+        "画面や要望を貼る",
+        "実装手順を作らせる"
+      ],
+      "prompt": "あなたは中小企業のIT顧問です。{自社名}の{業種}で困っている{開発課題}を、明日エンジニアに依頼できる要件・手順・注意点に整理してください。",
+      "roi": "開発依頼の整理を月5時間削減"
+    },
+    "icebreak": {
+      "hook": "GPT-5.6、まずCodexとAPIだけらしいですよ",
+      "punchline": "一般公開前に、開発現場から先に使わせて反応を見る流れですね。",
+      "ctx_meeting": "AI開発提案の冒頭で",
+      "ctx_chat": "エンジニアとの雑談で",
+      "share_text": "GPT-5.6がまずCodexとAPIで限定プレビュー。AIの進化は、一般ユーザーより先に開発現場へ届く流れが強まっている気がします。"
+    }
   },
   {
     "title": "米政府、Mythos 5を一部再開",
@@ -49,7 +72,30 @@
       "https://wired.jp/article/anthropic-restores-access-to-mythos/",
       "https://www.watch.impress.co.jp/docs/news/2120572.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI利用ルール作成",
+      "tool": {
+        "name": "Claude Pro",
+        "url": "https://claude.ai",
+        "cost": "約¥3,000/月"
+      },
+      "time": "30分",
+      "steps": [
+        "AI利用場面を書き出す",
+        "禁止情報を決める",
+        "社内ルールに整える"
+      ],
+      "prompt": "あなたはAIリスク管理の専門家です。{自社名}の{業種}で{利用業務}にAIを使う際の禁止事項・確認手順・責任者を1枚の社内ルールにしてください。",
+      "roi": "契約前確認の抜け漏れを防止"
+    },
+    "icebreak": {
+      "hook": "Mythos 5、重要インフラ向けだけ再開らしいです",
+      "punchline": "AIは性能だけでなく、誰にどこまで使わせるかが導入条件になってきましたね。",
+      "ctx_meeting": "安全性の話題づくりで",
+      "ctx_chat": "規制ニュースの雑談で",
+      "share_text": "Mythos 5が米国の重要インフラ組織向けに一部再開。AI導入は便利さの話だけでなく、利用範囲をどう区切るかの話になってきた。"
+    }
   },
   {
     "title": "生成AI調達指針、2.0版に更新",
@@ -74,7 +120,30 @@
     "links": [
       "https://dxmagazine.jp/news/2622ko09512-29341/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI調達チェック",
+      "tool": {
+        "name": "Notion AI",
+        "url": "https://www.notion.so/product/ai",
+        "cost": "約¥1,500/月"
+      },
+      "time": "半日",
+      "steps": [
+        "提案先の要件を貼る",
+        "チェック項目を作る",
+        "不足資料を洗い出す"
+      ],
+      "prompt": "あなたは公共案件のAI調達支援者です。{自社名}が{提案先}へ出す{AIサービス}について、確認項目・証跡・未整備リスクを表にしてください。",
+      "roi": "入札前確認を半日短縮"
+    },
+    "icebreak": {
+      "hook": "生成AIの調達指針、2.0版になったの知ってます？",
+      "punchline": "WordやExcel元ファイルまで出ていて、現場で使わせる前提に寄ってきていますね。",
+      "ctx_meeting": "自治体・公共提案で",
+      "ctx_chat": "官公庁AIの話題で",
+      "share_text": "生成AIの調達・利活用ガイドライン2.0版、WordやExcel元ファイルまで出ているのが実務的。読む資料から、現場で使う資料に変わってきた感じがする。"
+    }
   },
   {
     "title": "AIインフラ、電力確保が争点に",
@@ -99,7 +168,30 @@
     "links": [
       "https://www.itmedia.co.jp/business/articles/2606/27/news024.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AIコスト棚卸し",
+      "tool": {
+        "name": "Google Sheets",
+        "url": "https://workspace.google.com/products/sheets/",
+        "cost": "無料"
+      },
+      "time": "30分",
+      "steps": [
+        "AI利用ツールを列挙する",
+        "月額と用途を入力する",
+        "削減候補を色分けする"
+      ],
+      "prompt": "あなたは小規模会社のCFOです。{自社名}のAIツール一覧と月額費用をもとに、継続・削減・統合の判断表を作ってください。業種は{業種}です。",
+      "roi": "AI固定費を月1万円見直し"
+    },
+    "icebreak": {
+      "hook": "AIって、結局電力の話になってきましたね",
+      "punchline": "モデル競争の裏側で、国内データセンターと電力確保が主戦場になっていますね。",
+      "ctx_meeting": "インフラ投資の話で",
+      "ctx_chat": "経済ニュース雑談で",
+      "share_text": "AIインフラの争点が電力確保に移っているのが面白い。AIはソフトの競争に見えて、実はデータセンターをどこに置けるかの勝負でもある。"
+    }
   },
   {
     "title": "AI SDK 7、実運用エージェントへ",
@@ -124,7 +216,30 @@
     "links": [
       "https://vercel.com/changelog/ai-sdk-7"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "社内AIツール化",
+      "tool": {
+        "name": "Vercel AI SDK",
+        "url": "https://sdk.vercel.ai",
+        "cost": "無料から"
+      },
+      "time": "半日",
+      "steps": [
+        "定型業務を一つ選ぶ",
+        "入力と出力を決める",
+        "簡易Agentを試作する"
+      ],
+      "prompt": "あなたは業務AIエージェント設計者です。{自社名}の{業種}で毎週発生する{定型業務}を、入力・処理・出力・監視項目に分けて設計してください。",
+      "roi": "定型作業を週2時間削減"
+    },
+    "icebreak": {
+      "hook": "VercelのAI SDK 7、本番エージェント向けらしいです",
+      "punchline": "音声や画像や動画まで含めて、AIエージェントを運用する前提の道具になっていますね。",
+      "ctx_meeting": "AIシステム提案で",
+      "ctx_chat": "開発ツールの雑談で",
+      "share_text": "AI SDK 7は、本番向けエージェント開発と監視まで見ているのが気になる。AIアプリは作る段階から、動かし続ける段階に入ってきた感じがする。"
+    }
   },
   {
     "title": "Stripe、金融審査AIで時間26％短縮",
@@ -149,7 +264,30 @@
     "links": [
       "https://aws.amazon.com/blogs/machine-learning/production-grade-ai-agents-for-financial-compliance-lessons-from-stripe/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "審査業務の補助",
+      "tool": {
+        "name": "Amazon Bedrock",
+        "url": "https://aws.amazon.com/bedrock/",
+        "cost": "従量課金"
+      },
+      "time": "半日",
+      "steps": [
+        "審査書類を匿名化する",
+        "判定基準を貼る",
+        "確認観点を出させる"
+      ],
+      "prompt": "あなたは審査業務の補助AIです。{自社名}の{審査業務}について、{判定基準}に照らし不足情報・確認質問・人間が判断すべき点を出してください。",
+      "roi": "審査確認時間を20%短縮"
+    },
+    "icebreak": {
+      "hook": "Stripe、審査AIで時間を26％短縮したそうです",
+      "punchline": "最終判断は人間のまま、AIに下調べを任せる形が現実的ですね。",
+      "ctx_meeting": "業務効率化提案で",
+      "ctx_chat": "金融AIの話題で",
+      "share_text": "Stripeの金融コンプライアンス審査AI、処理時間26％短縮で最終判断は人間が維持。AI活用は、人を置き換えるより判断前の作業を軽くする形が強い。"
+    }
   },
   {
     "title": "広告分析、自然言語で実行可能に",
@@ -174,7 +312,30 @@
     "links": [
       "https://markezine.jp/article/detail/77053"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "広告分析を質問化",
+      "tool": {
+        "name": "Looker Studio",
+        "url": "https://lookerstudio.google.com",
+        "cost": "無料"
+      },
+      "time": "30分",
+      "steps": [
+        "広告CSVを用意する",
+        "知りたい質問を書く",
+        "改善仮説を作らせる"
+      ],
+      "prompt": "あなたは広告分析担当です。{自社名}の{広告媒体}の数値を見て、売上改善につながる発見・原因仮説・次に試す施策を3つ出してください。",
+      "roi": "分析待ちを週3時間削減"
+    },
+    "icebreak": {
+      "hook": "広告分析、自然言語で頼めるようになるらしいです",
+      "punchline": "SQLが書ける人だけでなく、マーケ側が直接分析に入れるのが大きいですね。",
+      "ctx_meeting": "広告改善提案の導入で",
+      "ctx_chat": "マーケ雑談で",
+      "share_text": "Tobiras Agentは、自然言語でデータクリーンルーム分析を支援するのが面白い。分析がSQL担当者の手元だけでなく、マーケ現場に近づいていく。"
+    }
   },
   {
     "title": "AIが弱点発見から修正案まで提示",
@@ -199,6 +360,29 @@
     "links": [
       "https://ai.watch.impress.co.jp/docs/news/2120493.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "脆弱性の優先付け",
+      "tool": {
+        "name": "ChatGPT Plus",
+        "url": "https://chatgpt.com",
+        "cost": "約¥3,000/月"
+      },
+      "time": "30分",
+      "steps": [
+        "診断結果を貼る",
+        "危険度順に並べる",
+        "修正依頼文を作る"
+      ],
+      "prompt": "あなたは中小企業向けセキュリティ顧問です。{自社名}の{サイト名}の診断結果を、危険度・理由・修正方法・依頼文に整理してください。",
+      "roi": "修正判断を半日短縮"
+    },
+    "icebreak": {
+      "hook": "AIが弱点発見から修正案まで出す時代ですね",
+      "punchline": "攻撃成立箇所だけに絞って、優先度まで出すなら中小組織でも使いやすいですね。",
+      "ctx_meeting": "セキュリティ提案で",
+      "ctx_chat": "情シスとの会話で",
+      "share_text": "PontSecurityは、AIが診断から攻撃検証、修正案提示まで分担するのが実務的。弱点を並べるだけでなく、直す順番まで出るのが助かる。"
+    }
   }
 ]

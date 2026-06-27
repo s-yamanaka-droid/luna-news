@@ -7,6 +7,13 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。毎朝6:30、AI業界ニュースを図解と「明日からできる活用法」で。</description>
   <language>ja</language>
   <item>
+    <title>2026-06-28 AI朝刊：OpenAI、GPT-5.6を限定公開 ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-06-28/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-28/</guid>
+    <pubDate>Sun, 28 Jun 2026 06:30:00 +0900</pubDate>
+    <description>OpenAI、GPT-5.6を限定公開／米政府、Mythos 5を一部再開／生成AI調達指針、2.0版に更新／AIインフラ、電力確保が争点に／AI SDK 7、実運用エージェントへ</description>
+  </item>
+  <item>
     <title>2026-06-27 AI朝刊：OpenAI、GPT-5.6を限定公開 ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-06-27/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-27/</guid>
@@ -173,13 +180,6 @@
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-03/</guid>
     <pubDate>Wed, 03 Jun 2026 06:30:00 +0900</pubDate>
     <description>Microsoft、常時稼働AI「Scout」で業務を自動化／Uber、AI予算を4ヶ月で使い切り利用制限へ／OpenAI Codex、開発者以外も業務効率化に活用／中小企業こそAI活用で業務効率を劇的に改善</description>
-  </item>
-  <item>
-    <title>2026-06-02 AI朝刊：OpenAIの最新AIモデルがAWSで利用可能に ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-06-02/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-02/</guid>
-    <pubDate>Tue, 02 Jun 2026 06:30:00 +0900</pubDate>
-    <description>OpenAIの最新AIモデルがAWSで利用可能に／AnthropicのClaude Opus 4.8がAWSで提供開始／Alphabet、AIインフラ投資で800億ドル調達へ／Anthropic、史上最大規模のIPOを秘密裏に申請／フロリダ州、OpenAIとCEOを提訴「ChatGPTは危険」</description>
   </item>
 </channel>
 </rss>
