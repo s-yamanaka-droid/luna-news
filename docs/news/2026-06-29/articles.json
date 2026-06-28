@@ -22,7 +22,30 @@
     "links": [
       "https://www.businessinsider.jp/article/2606-toyota-qubee-ai-quality-control/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "承認文書をAI検索",
+      "tool": {
+        "name": "Notion AI",
+        "url": "https://www.notion.com/product/ai",
+        "cost": "無料〜有料プラン"
+      },
+      "time": "30分",
+      "steps": [
+        "承認済み文書を集める",
+        "Notionに分類して入れる",
+        "監査質問で検索する"
+      ],
+      "prompt": "あなたは品質監査担当です。{自社名}の{業種}で、以下の文書から{監査項目}の根拠と不足点を表で整理してください。",
+      "roi": "監査準備を月5時間削減"
+    },
+    "icebreak": {
+      "hook": "トヨタのQubee、文書整備が鍵らしいですよ",
+      "punchline": "AI導入って、モデル選びより現場文書をAIが読める形にする方が効くんですよね。",
+      "ctx_meeting": "AI導入提案の冒頭で",
+      "ctx_chat": "製造業の雑談で",
+      "share_text": "トヨタのQubeeの話を見て、AI導入の前に文書整備がどれだけ大事かを改めて感じた。暗黙知を資産にするには、まずAIが読める状態にする必要がある。"
+    }
   },
   {
     "title": "OpenAI、GPT-5.6を限定公開",
@@ -48,7 +71,30 @@
       "https://www.itmedia.co.jp/news/articles/2606/28/news020.html",
       "https://simonwillison.net/2026/Jun/26/openai/#atom-everything"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "次世代AI更新を検討",
+      "tool": {
+        "name": "ChatGPT",
+        "url": "https://chatgpt.com",
+        "cost": "無料〜¥3,000/月程度"
+      },
+      "time": "30分",
+      "steps": [
+        "既存資料を1つ選ぶ",
+        "AIで改善案を出す",
+        "旧版と品質を比べる"
+      ],
+      "prompt": "あなたはAI導入顧問です。{自社名}の{業種}向け営業資料を、最新AIで改善すべき箇所と導入時期に分けて提案してください。",
+      "roi": "営業資料改善を半日短縮"
+    },
+    "icebreak": {
+      "hook": "GPT-5.6、全面公開じゃないらしいですよ",
+      "punchline": "AIは性能競争だけでなく、政府説明や提供先管理まで含めて事業になってきましたね。",
+      "ctx_meeting": "生成AIリスクの話で",
+      "ctx_chat": "AIニュース共有で",
+      "share_text": "GPT-5.6が限定提供という話、AIの進化よりも公開の仕方に目が向いた。強いモデルほど、誰にどう出すかが経営判断になっていく。"
+    }
   },
   {
     "title": "Google、機密データ向けAI基盤を拡充",
@@ -73,7 +119,30 @@
     "links": [
       "https://www.itmedia.co.jp/enterprise/articles/2606/29/news026.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "機密文書のAI可否判定",
+      "tool": {
+        "name": "Google Gemini",
+        "url": "https://gemini.google.com",
+        "cost": "無料〜¥2,900/月程度"
+      },
+      "time": "30分",
+      "steps": [
+        "機密文書を分類する",
+        "AI利用可否を決める",
+        "安全な要約手順を作る"
+      ],
+      "prompt": "あなたは情報管理責任者です。{自社名}の{業種}で扱う{機密情報}を、AI利用可否と注意点に分けて整理してください。",
+      "roi": "法務確認前の整理を月3時間削減"
+    },
+    "icebreak": {
+      "hook": "AI半導体、学習より推論が主戦場らしいですよ",
+      "punchline": "エージェントが増えるほど、作るAIより動き続けるAIの計算が重くなるんですよね。",
+      "ctx_meeting": "IT投資の会話で",
+      "ctx_chat": "市況の雑談で",
+      "share_text": "AI半導体の主戦場が学習から推論へ移るという話、かなり実感がある。AIを作るコストより、毎日動かすコストの方が論点になっていきそう。"
+    }
   },
   {
     "title": "AI半導体、学習から推論へ主戦場移る",
@@ -98,7 +167,30 @@
     "links": [
       "https://xtech.nikkei.com/atcl/nxt/column/18/03646/061300001/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI利用料を見直す",
+      "tool": {
+        "name": "AWS Cost Explorer",
+        "url": "https://aws.amazon.com/aws-cost-management/aws-cost-explorer/",
+        "cost": "無料〜従量課金"
+      },
+      "time": "30分",
+      "steps": [
+        "AI関連費用を確認する",
+        "月別増減を表にする",
+        "削減候補を3つ出す"
+      ],
+      "prompt": "あなたはAI費用診断士です。{自社名}の{AIサービス}利用料を、推論回数・月額費用・削減余地で整理してください。",
+      "roi": "AI原価の無駄を月1万円削減"
+    },
+    "icebreak": {
+      "hook": "AWSの費用異常、AIがSlackに投げるらしいですよ",
+      "punchline": "クラウド費用の管理が、後追い確認から異常時に自動で動く運用へ寄ってますね。",
+      "ctx_meeting": "コスト改善提案で",
+      "ctx_chat": "情シスとの雑談で",
+      "share_text": "AWSのFinOps Agentの話を見て、クラウド費用管理も人が見に行く時代から、AIが異常を見つけて知らせる時代に移っていると感じた。"
+    }
   },
   {
     "title": "AWS、クラウド費用分析AIを公開",
@@ -123,7 +215,30 @@
     "links": [
       "https://www.infoq.com/news/2026/06/aws-finops-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML%2C+Data+Engineering"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "クラウド費用をAI監視",
+      "tool": {
+        "name": "AWS Cost Explorer",
+        "url": "https://aws.amazon.com/aws-cost-management/aws-cost-explorer/",
+        "cost": "無料〜従量課金"
+      },
+      "time": "30分",
+      "steps": [
+        "今月の費用を出す",
+        "急増サービスを特定する",
+        "原因仮説をAIに聞く"
+      ],
+      "prompt": "あなたはクラウド費用監査役です。{自社名}のAWS費用で急増した{サービス名}について、原因仮説と削減策を出してください。",
+      "roi": "不要クラウド費を月10%削減"
+    },
+    "icebreak": {
+      "hook": "AIエージェント、自動化で考えると危ないらしいです",
+      "punchline": "大事なのは任せられる作業より、確率的判断が価値になる業務を選ぶことですね。",
+      "ctx_meeting": "業務選定の相談で",
+      "ctx_chat": "AI活用の雑談で",
+      "share_text": "AIエージェント導入は、何を自動化するかより、どの業務に任せる価値があるかを考えるべきだと感じた。できることと、やるべきことは違う。"
+    }
   },
   {
     "title": "AIエージェント導入、問いは自動化でない",
@@ -148,7 +263,30 @@
     "links": [
       "https://xtech.nikkei.com/atcl/nxt/column/18/03662/062300001/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI化業務を選別",
+      "tool": {
+        "name": "Miro",
+        "url": "https://miro.com",
+        "cost": "無料〜有料プラン"
+      },
+      "time": "半日",
+      "steps": [
+        "業務を付箋で出す",
+        "判断が必要な業務を選ぶ",
+        "効果順に並べ替える"
+      ],
+      "prompt": "あなたはAI業務改革コンサルです。{自社名}の{業種}の業務一覧から、AIエージェント化すべき順に理由付きで並べてください。",
+      "roi": "AI導入テーマ選定を1日短縮"
+    },
+    "icebreak": {
+      "hook": "生成AIでメインフレーム離脱、7割超失敗予測らしいですよ",
+      "punchline": "レガシー移行は、AIで一気に片付く話ではなく、複雑さを見誤ると危ないですね。",
+      "ctx_meeting": "刷新計画の議論で",
+      "ctx_chat": "大型案件の話題で",
+      "share_text": "メインフレーム離脱に生成AIを過信すると7割超が狙いを達しないという予測、重い。AIで楽になる部分と、設計として向き合う部分を分けたい。"
+    }
   },
   {
     "title": "メインフレーム離脱、生成AI過信に警鐘",
@@ -173,7 +311,30 @@
     "links": [
       "https://www.itmedia.co.jp/enterprise/articles/2606/25/news052.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "旧システムを小さく検証",
+      "tool": {
+        "name": "Cursor",
+        "url": "https://cursor.com",
+        "cost": "無料〜¥3,000/月程度"
+      },
+      "time": "半日",
+      "steps": [
+        "古い処理を1つ選ぶ",
+        "コードをCursorで読む",
+        "移行難易度を判定する"
+      ],
+      "prompt": "あなたはレガシー移行診断士です。{自社名}の{旧システム}の処理を読み、AIで移行できる範囲と危険箇所を分けてください。",
+      "roi": "移行見積もり精度を改善"
+    },
+    "icebreak": {
+      "hook": "AIの誤回答、企業責任が問われ始めてますね",
+      "punchline": "AIが書いたから仕方ないではなく、導入した組織の責任として見られる流れですね。",
+      "ctx_meeting": "AIガバナンス提案で",
+      "ctx_chat": "法務まわりの雑談で",
+      "share_text": "AI回答の誤りを企業責任として見る議論は、かなり現実的だと思う。AIを使うなら、出力の責任設計まで含めて導入しないといけない。"
+    }
   },
   {
     "title": "AI回答の誤り、企業責任が焦点に",
@@ -198,6 +359,22 @@
     "links": [
       "https://simonwillison.net/2026/Jun/25/ai-and-liability/#atom-everything"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI文面に承認欄",
+      "tool": {
+        "name": "Notion",
+        "url": "https://www.notion.com",
+        "cost": "無料〜有料プラン"
+      },
+      "time": "30分",
+      "steps": [
+        "公開文面DBを作る",
+        "AI生成欄を追加する",
+        "人の承認欄を作る"
+      ],
+      "prompt": "あなたは広報責任者です。{自社名}の{公開文面}について、AI生成部分の誤りリスクと人間が確認すべき点を列挙してください。",
+      "roi": "誤情報公開リスクを低減"
+    }
   }
 ]

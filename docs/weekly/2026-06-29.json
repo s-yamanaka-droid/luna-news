@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週はAIエージェントが、会話相手から実作業を任せる道具へ移った。小規模事業者は、出品・入力・分析など日々の手作業から試すのが早い。まず売上や工数に直結する1業務だけAI化すべき週だ。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-06-25",
+      "title": "GeminiがPC操作エージェントを標準搭載",
+      "category": "ツール更新",
+      "source": "Google DeepMind Blog",
+      "why_picked": "入力作業をそのまま時短できる",
+      "tldr": "画面操作をAIに任せられる",
+      "action": "定型入力を1件AIに任せる",
+      "image": "../assets/images/2026-06-25/topic_2.png",
+      "link": "../news/2026-06-25/#topic-2"
+    },
+    {
+      "rank": 2,
+      "date": "2026-06-24",
+      "title": "メルカリ、ChatGPT内で商品検索に対応",
+      "category": "ツール更新",
+      "source": "Impress Watch AI",
+      "why_picked": "EC出品の売上化が早い",
+      "tldr": "出品文と価格をAI支援",
+      "action": "眠る在庫を3品出品する",
+      "image": "../assets/images/2026-06-24/topic_1.png",
+      "link": "../news/2026-06-24/#topic-1"
+    },
+    {
+      "rank": 3,
+      "date": "2026-06-23",
+      "title": "LINEヤフー、分析AIで2週間を10分に",
+      "category": "業界動向",
+      "source": "LINE Engineering",
+      "why_picked": "社長判断の分析時間を削れる",
+      "tldr": "売上分析をAIで高速化",
+      "action": "先月売上をAIに分析させる",
+      "image": "../assets/images/2026-06-23/topic_5.png",
+      "link": "../news/2026-06-23/#topic-5"
+    }
+  ]
+}

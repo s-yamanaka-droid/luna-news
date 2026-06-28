@@ -7,6 +7,13 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。毎朝6:30、AI業界ニュースを図解と「明日からできる活用法」で。</description>
   <language>ja</language>
   <item>
+    <title>2026-06-29 AI朝刊：トヨタ、品質管理AIで暗黙知を資産化 ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-06-29/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-29/</guid>
+    <pubDate>Mon, 29 Jun 2026 06:30:00 +0900</pubDate>
+    <description>トヨタ、品質管理AIで暗黙知を資産化／OpenAI、GPT-5.6を限定公開／Google、機密データ向けAI基盤を拡充／AI半導体、学習から推論へ主戦場移る／AWS、クラウド費用分析AIを公開</description>
+  </item>
+  <item>
     <title>2026-06-28 AI朝刊：OpenAI、GPT-5.6を限定公開 ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-06-28/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-28/</guid>
@@ -173,13 +180,6 @@
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-04/</guid>
     <pubDate>Thu, 04 Jun 2026 06:30:00 +0900</pubDate>
     <description>Google、AI事業に過去最高の850億ドル投資へ／MicrosoftとNVIDIA、AI特化型次世代PCを発表／SpaceX、AI資金調達含む750億ドルIPOを計画</description>
-  </item>
-  <item>
-    <title>2026-06-03 AI朝刊：Microsoft、常時稼働AI「Scout」で業務を自動化 ほか3本</title>
-    <link>https://nowonair.vercel.app/news/2026-06-03/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-03/</guid>
-    <pubDate>Wed, 03 Jun 2026 06:30:00 +0900</pubDate>
-    <description>Microsoft、常時稼働AI「Scout」で業務を自動化／Uber、AI予算を4ヶ月で使い切り利用制限へ／OpenAI Codex、開発者以外も業務効率化に活用／中小企業こそAI活用で業務効率を劇的に改善</description>
   </item>
 </channel>
 </rss>
