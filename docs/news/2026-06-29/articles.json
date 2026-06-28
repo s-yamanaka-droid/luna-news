@@ -1,0 +1,203 @@
+[
+  {
+    "title": "トヨタ、品質管理AIで暗黙知を資産化",
+    "category": "業界動向",
+    "source": "Business Insider Japan",
+    "lede": "トヨタの品質管理AI「Qubee」は、現場文書をAIが読める形に整える重要性を示した。",
+    "keypoints": [
+      "品質管理AIを社内で試行",
+      "開発証拠の検索を効率化",
+      "監査対応にも活用を想定",
+      "文書整備が導入の鍵"
+    ],
+    "pull": "AI導入の本丸は、モデル選びより社内文書の整備にある。",
+    "bizapp": {
+      "summary": "品質管理や監査対応の下準備に使える",
+      "actions": [
+        "Notionで承認済み文書を整理",
+        "製造業向け監査AIを提案",
+        "文書未整備だとAI活用が止まる"
+      ]
+    },
+    "links": [
+      "https://www.businessinsider.jp/article/2606-toyota-qubee-ai-quality-control/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "OpenAI、GPT-5.6を限定公開",
+    "category": "新モデル発表",
+    "source": "ITmedia News",
+    "lede": "OpenAIはGPT-5.6シリーズを限定プレビューし、政府要請で全面公開を見送った。",
+    "keypoints": [
+      "Solなど3モデルを用意",
+      "信頼先に限定提供",
+      "政府に能力を事前説明",
+      "全面公開は今後拡大へ"
+    ],
+    "pull": "最先端AIは性能だけでなく、公開手順も競争軸になる。",
+    "bizapp": {
+      "summary": "次世代AIの調達時期を見直す材料になる",
+      "actions": [
+        "OpenAI APIの検証枠を準備",
+        "営業資料作成AIの更新を提案",
+        "公開後に競合のAI化が加速する"
+      ]
+    },
+    "links": [
+      "https://www.itmedia.co.jp/news/articles/2606/28/news020.html",
+      "https://simonwillison.net/2026/Jun/26/openai/#atom-everything"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Google、機密データ向けAI基盤を拡充",
+    "category": "セキュリティ",
+    "source": "ITmedia Enterprise",
+    "lede": "Googleは機密AI基盤や暗号化ツールを拡充し、AI処理時の秘匿性と検証性を高める。",
+    "keypoints": [
+      "機密AI基盤を世界展開",
+      "プロンプト暗号化SDKを公開",
+      "機密VMの機能を拡張",
+      "Appleとの協業も示す"
+    ],
+    "pull": "機密情報をAIに使えない前提が崩れ始めている。",
+    "bizapp": {
+      "summary": "法務・人事・顧客情報のAI利用に道が開く",
+      "actions": [
+        "Google Cloudで機密AIを検証",
+        "士業向け安全AI活用を提案",
+        "未対応だと高価値業務がAI化できない"
+      ]
+    },
+    "links": [
+      "https://www.itmedia.co.jp/enterprise/articles/2606/29/news026.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AI半導体、学習から推論へ主戦場移る",
+    "category": "業界動向",
+    "source": "日経クロステック",
+    "lede": "AIエージェントの拡大で推論需要が増え、データセンター向けAI半導体の軸足が変わる。",
+    "keypoints": [
+      "推論需要が急拡大",
+      "学習向けから推論向けへ",
+      "市場は年30％成長見込み",
+      "日本の機会と脅威も論点"
+    ],
+    "pull": "AIの普及期は、作る計算から使う計算へ投資が移る。",
+    "bizapp": {
+      "summary": "AIサービスの原価と調達戦略が変わる",
+      "actions": [
+        "AWS利用料を推論単位で確認",
+        "中小企業にAI費用診断を提案",
+        "来期予算前にAI原価を見直す"
+      ]
+    },
+    "links": [
+      "https://xtech.nikkei.com/atcl/nxt/column/18/03646/061300001/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AWS、クラウド費用分析AIを公開",
+    "category": "ツール更新",
+    "source": "InfoQ AI/ML",
+    "lede": "AWSはFinOps Agentを公開プレビューし、費用異常の調査やSlack・Jira連携を自動化する。",
+    "keypoints": [
+      "費用異常をAIが調査",
+      "支出変化をAWS活動と関連付け",
+      "SlackやJiraへ結果を通知",
+      "Bedrock上に構築"
+    ],
+    "pull": "クラウド費用管理は、月次確認から即時対応へ変わる。",
+    "bizapp": {
+      "summary": "クラウド費用の異常検知と改善に使える",
+      "actions": [
+        "AWS FinOps Agentを試験導入",
+        "情シス向けコスト削減を提案",
+        "放置すると無駄な支出が積み上がる"
+      ]
+    },
+    "links": [
+      "https://www.infoq.com/news/2026/06/aws-finops-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML%2C+Data+Engineering"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AIエージェント導入、問いは自動化でない",
+    "category": "研究",
+    "source": "日経クロステック AI",
+    "lede": "AIエージェント導入では、自動化できるかより価値が生まれる業務かを問うべきだと指摘した。",
+    "keypoints": [
+      "任せる業務選定が最重要",
+      "自動化の道具ではない",
+      "確率的判断に価値がある",
+      "できることとやるべきことは違う"
+    ],
+    "pull": "AIエージェントは自動化装置ではなく、判断を伴う業務設計の問題だ。",
+    "bizapp": {
+      "summary": "AI導入テーマの優先順位づけに使える",
+      "actions": [
+        "Miroで業務判断点を棚卸し",
+        "営業事務の判断業務AI化を提案",
+        "誤選定だとROIが出ない"
+      ]
+    },
+    "links": [
+      "https://xtech.nikkei.com/atcl/nxt/column/18/03662/062300001/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "メインフレーム離脱、生成AI過信に警鐘",
+    "category": "業界動向",
+    "source": "ITmedia Enterprise",
+    "lede": "Gartnerは、生成AIの過大評価によりメインフレーム離脱案件の7割超が狙いを達しないと予測した。",
+    "keypoints": [
+      "2026年開始案件の7割超が失敗予測",
+      "生成AIの能力を過大評価",
+      "複雑なレガシー移行に限界",
+      "2030年までにベンダー再編も"
+    ],
+    "pull": "生成AIはレガシー移行の万能薬ではない。",
+    "bizapp": {
+      "summary": "基幹システム刷新の見積もり精度を上げる",
+      "actions": [
+        "Cursorで小範囲コードを検証",
+        "老朽システム診断を提案",
+        "過信すると移行予算を失う"
+      ]
+    },
+    "links": [
+      "https://www.itmedia.co.jp/enterprise/articles/2606/25/news052.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AI回答の誤り、企業責任が焦点に",
+    "category": "政策・規制",
+    "source": "Simon Willison's Blog",
+    "lede": "AI概要の誤りを巡り、導入企業はAIのミスにも責任を負うべきだとの議論が示された。",
+    "keypoints": [
+      "AI概要の誤りが争点に",
+      "導入した組織の責任を主張",
+      "人間の執筆と同様に扱う考え",
+      "免責なら悪い誘因が生まれる"
+    ],
+    "pull": "AIを使ったから責任を逃れられる、という時代ではない。",
+    "bizapp": {
+      "summary": "AI公開文面の確認フロー作りに使える",
+      "actions": [
+        "NotionでAI回答承認欄を作る",
+        "広報向けAI監修体制を提案",
+        "未確認公開は信用毀損に直結する"
+      ]
+    },
+    "links": [
+      "https://simonwillison.net/2026/Jun/25/ai-and-liability/#atom-everything"
+    ],
+    "likes": 0
+  }
+]
