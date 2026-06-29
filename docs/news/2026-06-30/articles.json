@@ -1,0 +1,203 @@
+[
+  {
+    "title": "NTTデータとダイキン、AI冷却を検証",
+    "category": "業界動向",
+    "source": "AI Watch (Impress)",
+    "lede": "NTTデータとダイキンが、AIデータセンターの冷却を最適化する共同検証を7月に始める。",
+    "keypoints": [
+      "7月から共同検証を開始",
+      "サーバー熱状態をAI予測",
+      "空調・熱源・液冷を統合制御",
+      "省エネと電力コストを検証"
+    ],
+    "pull": "AI活用の拡大は、計算力だけでなく冷却設計も競争力にする。",
+    "bizapp": {
+      "summary": "AI導入の電力コスト対策に使える",
+      "actions": [
+        "GDCEMSで電力利用を可視化",
+        "中小DCの冷却診断を提案",
+        "7月検証後に設備計画を見直す"
+      ]
+    },
+    "links": [
+      "https://ai.watch.impress.co.jp/docs/news/2120948.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Excel Copilotに反復業務スキル追加",
+    "category": "ツール更新",
+    "source": "Gihyo.jp",
+    "lede": "ExcelのMicrosoft 365 Copilotで、財務・会計の反復業務をスキル化して再利用できるようになった。",
+    "keypoints": [
+      "Excel Copilotにスキル追加",
+      "財務スキルライブラリ公開",
+      "SKILL.mdで自社用に調整",
+      "OneDrive保存で読み込み可能"
+    ],
+    "pull": "Excel業務の属人ノウハウを、社内で再利用できる資産に変えられる。",
+    "bizapp": {
+      "summary": "経理・財務の定型Excel作業を標準化できる",
+      "actions": [
+        "Excel Copilotで月次表を定型化",
+        "会計部門向けスキル化を提案",
+        "来月締め前に属人作業を棚卸し"
+      ]
+    },
+    "links": [
+      "https://gihyo.jp/article/2026/06/copilot-in-excel-skills?utm_source=feed"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "HP、OpenAIとの全社AI活用を拡大",
+    "category": "業界動向",
+    "source": "OpenAI Blog",
+    "lede": "HPはOpenAI Frontierとの戦略提携を拡大し、顧客体験から開発、業務運営までAI導入を進める。",
+    "keypoints": [
+      "HPが提携活用を拡大",
+      "2月から実証を開始",
+      "顧客向け体験にAIを展開",
+      "開発と業務運営にも適用"
+    ],
+    "pull": "大企業のAI導入は、部門実証から全社展開へ進み始めている。",
+    "bizapp": {
+      "summary": "AI実証を全社展開へ広げる型として使える",
+      "actions": [
+        "OpenAI Frontierで業務実証",
+        "営業支援AIの横展開を提案",
+        "実証止まりだと改善速度で遅れる"
+      ]
+    },
+    "links": [
+      "https://openai.com/index/hp-frontier-partnership"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "ヤフコメ、AIで論点を要約・可視化",
+    "category": "ツール更新",
+    "source": "Impress Watch AI",
+    "lede": "LINEヤフーは、Yahoo!ニュースのコメントを生成AIで整理し、論点や意見傾向を見える化する機能を始めた。",
+    "keypoints": [
+      "ヤフコメまとめを順次開始",
+      "コメント論点をグラフで整理",
+      "Agent iで意見を深掘り",
+      "スマホ版とアプリから対応"
+    ],
+    "pull": "大量の声を読む時代から、論点をつかんで深掘る時代へ移る。",
+    "bizapp": {
+      "summary": "顧客の声や世論分析の型に使える",
+      "actions": [
+        "Agent iで反応論点を確認",
+        "広報向け炎上予兆分析を提案",
+        "初動が遅いと論点把握で負ける"
+      ]
+    },
+    "links": [
+      "https://www.watch.impress.co.jp/docs/news/2120926.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AIエージェント投資、優先順位が課題に",
+    "category": "業界動向",
+    "source": "ITmedia Enterprise / ビジネス+IT",
+    "lede": "AIエージェント活用では、LLM頼みではなく業務ごとの投資優先順位と人の役割設計が重要になっている。",
+    "keypoints": [
+      "AIエージェント期待が拡大",
+      "LLM頼みの限界を指摘",
+      "投資優先順位が論点に",
+      "人とAIの役割分担が必要"
+    ],
+    "pull": "AIエージェントは便利ツールではなく、業務設計そのものを問う。",
+    "bizapp": {
+      "summary": "AI導入テーマを費用対効果で絞り込める",
+      "actions": [
+        "Gartnerの投資スコアで選定",
+        "営業事務の自動化候補を提案",
+        "曖昧導入だと予算と時間を失う"
+      ]
+    },
+    "links": [
+      "https://www.itmedia.co.jp/enterprise/articles/2606/29/news068.html",
+      "https://www.sbbit.jp/article/cont1/185732?ref=rss"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Vercel、音声AIエージェント対応開始",
+    "category": "ツール更新",
+    "source": "Vercel Blog",
+    "lede": "VercelのAI Gatewayが音声に対応し、リアルタイム会話、音声合成、文字起こしを同じ経路で扱える。",
+    "keypoints": [
+      "AI Gatewayが音声対応",
+      "リアルタイム会話を追加",
+      "音声合成と文字起こし対応",
+      "AI SDK 7でベータ提供"
+    ],
+    "pull": "音声AIは、特別な基盤ではなく既存のAI開発経路に入ってきた。",
+    "bizapp": {
+      "summary": "音声接客や通話記録のAI化に使える",
+      "actions": [
+        "AI Gatewayで音声窓口を試作",
+        "営業通話の文字起こしを提案",
+        "競合が音声対応を先に進める"
+      ]
+    },
+    "links": [
+      "https://vercel.com/blog/realtime-voice-agents-on-ai-gateway"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AWS、NovaとClaudeで文書処理を効率化",
+    "category": "研究",
+    "source": "Amazon AWS AI Blog",
+    "lede": "AWSはNova 2 LiteとClaude Sonnet 4.6を組み合わせ、スキャン文書を大規模にデジタル化する手法を示した。",
+    "keypoints": [
+      "Amazon Bedrock上で構築",
+      "Nova 2 Liteが画像情報抽出",
+      "Claudeが配置関係を推論",
+      "336ページで手法を検証"
+    ],
+    "pull": "文書AIは一つのモデル任せから、役割分担で精度と効率を狙う段階へ進む。",
+    "bizapp": {
+      "summary": "紙資料のデータ化業務を効率化できる",
+      "actions": [
+        "Bedrockで書類抽出を検証",
+        "バックオフィス文書DXを提案",
+        "紙保管のままだと検索性を失う"
+      ]
+    },
+    "links": [
+      "https://aws.amazon.com/blogs/machine-learning/pair-nova-2-lite-with-claude-for-cost-optimized-document-processing/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "ISMAPクラウドサービスリスト更新",
+    "category": "政策・規制",
+    "source": "デジタル庁",
+    "lede": "デジタル庁は6月29日、政府情報システム向けのセキュリティ評価制度ISMAPのクラウドサービスリスト等を更新した。",
+    "keypoints": [
+      "6月29日にリスト更新",
+      "ISMAPリストを公開",
+      "ISMAP-LIUも更新",
+      "監査機関リストも対象"
+    ],
+    "pull": "公共・準公共向けクラウド提案では、認定リスト確認が前提になる。",
+    "bizapp": {
+      "summary": "公共案件のクラウド選定確認に使える",
+      "actions": [
+        "ISMAPポータルで候補を確認",
+        "自治体向けSaaS提案に反映",
+        "確認漏れは入札前に失点する"
+      ]
+    },
+    "links": [
+      "https://www.digital.go.jp/news/56cff896-ab6d-43dc-b58c-7423f6eba3a9"
+    ],
+    "likes": 0
+  }
+]
