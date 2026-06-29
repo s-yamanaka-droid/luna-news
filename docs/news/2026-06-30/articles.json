@@ -22,7 +22,30 @@
     "links": [
       "https://ai.watch.impress.co.jp/docs/news/2120948.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "電気代を見える化",
+      "tool": {
+        "name": "ChatGPT Plus",
+        "url": "https://chatgpt.com",
+        "cost": "月額$20目安"
+      },
+      "time": "30分",
+      "steps": [
+        "電気代CSVを用意せよ",
+        "室温メモを追記せよ",
+        "削減案を表にせよ"
+      ],
+      "prompt": "あなたは省エネ診断士です。{自社名}の{業種}の電気代CSVと室温メモから、ピーク時間、原因、明日試す空調設定を表で出してください。",
+      "roi": "電気代5%削減の候補発見"
+    },
+    "icebreak": {
+      "hook": "AIデータセンター、冷やし方もAI化らしいですよ",
+      "punchline": "NTTデータとダイキンが、サーバーの熱を予測して空調から液冷まで統合制御する検証を始めます。",
+      "ctx_meeting": "電力コストの話題で",
+      "ctx_chat": "移動中の雑談で",
+      "share_text": "AIの計算力だけでなく、冷却までAIで最適化する流れが来ている。データセンターの競争力は、電力コストの設計力まで含まれそう。"
+    }
   },
   {
     "title": "Excel Copilotに反復業務スキル追加",
@@ -47,7 +70,30 @@
     "links": [
       "https://gihyo.jp/article/2026/06/copilot-in-excel-skills?utm_source=feed"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "月次表を定型化",
+      "tool": {
+        "name": "Microsoft 365 Copilot",
+        "url": "https://www.microsoft.com/ja-jp/microsoft-365/copilot",
+        "cost": "月額$30/ユーザー目安"
+      },
+      "time": "30分",
+      "steps": [
+        "月次Excelを開け",
+        "手作業列を洗い出せ",
+        "手順をスキル化せよ"
+      ],
+      "prompt": "あなたは経理改善担当です。{自社名}の{業種}で毎月使う売上・経費Excelから、繰り返し作業と自動化手順を3つ作ってください。",
+      "roi": "月次集計を50%短縮"
+    },
+    "icebreak": {
+      "hook": "Excelの反復作業、Copilotに覚えさせられるらしいです",
+      "punchline": "財務・会計の定型作業をスキル化して、SKILL.mdで自社用に調整できるのが実務っぽいです。",
+      "ctx_meeting": "経理DX提案の冒頭で",
+      "ctx_chat": "月次作業の話で",
+      "share_text": "Excel Copilotのスキル化は、単なる時短より「会社ごとの作業手順を再利用できる」点が大きい。属人化したExcel業務の扱い方が変わりそう。"
+    }
   },
   {
     "title": "HP、OpenAIとの全社AI活用を拡大",
@@ -72,7 +118,30 @@
     "links": [
       "https://openai.com/index/hp-frontier-partnership"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI実証を3件選ぶ",
+      "tool": {
+        "name": "ChatGPT Team",
+        "url": "https://openai.com/business/",
+        "cost": "月額$25/ユーザー目安"
+      },
+      "time": "45分",
+      "steps": [
+        "業務を10個書き出せ",
+        "効果と難易度を付けよ",
+        "2週間実証を決めよ"
+      ],
+      "prompt": "あなたはAI導入責任者です。{自社名}{業種}の営業・顧客対応・事務から、2週間で試すAI実証を3件選び、目的と判定基準を表にしてください。",
+      "roi": "実証テーマ選定を半日短縮"
+    },
+    "icebreak": {
+      "hook": "HP、OpenAIを全社活用に広げているそうです",
+      "punchline": "顧客体験だけでなく、開発や業務運営まで広げる動きで、AI導入が部門単位から全社設計に移っています。",
+      "ctx_meeting": "全社AI活用の相談で",
+      "ctx_chat": "大企業AIの話で",
+      "share_text": "HPのOpenAI活用拡大を見ると、AI導入は「どの部署で使うか」から「顧客体験・開発・業務運営をどうつなぐか」に論点が移っている。"
+    }
   },
   {
     "title": "ヤフコメ、AIで論点を要約・可視化",
@@ -97,7 +166,30 @@
     "links": [
       "https://www.watch.impress.co.jp/docs/news/2120926.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "顧客の声を論点化",
+      "tool": {
+        "name": "Claude Pro",
+        "url": "https://claude.ai",
+        "cost": "月額$20目安"
+      },
+      "time": "20分",
+      "steps": [
+        "口コミ30件を集めよ",
+        "Claudeに貼り付けよ",
+        "論点別に整理せよ"
+      ],
+      "prompt": "あなたは広報分析担当です。{自社名}{商品名}への口コミを、論点、賛否、炎上予兆、明日返すべき回答案に分けて表にしてください。",
+      "roi": "顧客対応の初動を1時間短縮"
+    },
+    "icebreak": {
+      "hook": "ヤフコメ、AIで論点整理されるようになったそうです",
+      "punchline": "コメントを読む場から、論点や意見傾向を見て深掘りする場に変わっていくのが面白いです。",
+      "ctx_meeting": "顧客の声分析の話で",
+      "ctx_chat": "ニュース雑談で",
+      "share_text": "ヤフコメのAI要約は、炎上を見るためではなく「何が論点で、意見がどう分かれているか」を見る道具になりそう。世論の読み方が少し変わる。"
+    }
   },
   {
     "title": "AIエージェント投資、優先順位が課題に",
@@ -123,7 +215,30 @@
       "https://www.itmedia.co.jp/enterprise/articles/2606/29/news068.html",
       "https://www.sbbit.jp/article/cont1/185732?ref=rss"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI投資を順位化",
+      "tool": {
+        "name": "ChatGPT Plus",
+        "url": "https://chatgpt.com",
+        "cost": "月額$20目安"
+      },
+      "time": "30分",
+      "steps": [
+        "候補業務を列挙せよ",
+        "削減時間を見積もれ",
+        "人の役割を決めよ"
+      ],
+      "prompt": "あなたは中小企業のAI投資顧問です。{自社名}{業種}のAI化候補を、効果、難易度、リスク、人が担う役割で採点してください。",
+      "roi": "無駄なAI導入費を回避"
+    },
+    "icebreak": {
+      "hook": "AIエージェント、入れる順番が大事らしいです",
+      "punchline": "LLM任せにするより、どの業務に投資するか、人がどこを担うかを先に決める必要があります。",
+      "ctx_meeting": "AI導入計画の整理で",
+      "ctx_chat": "AI投資の話で",
+      "share_text": "AIエージェントは「何でも自動化」より、投資する業務の優先順位と人の役割を決める方が先。便利さより設計力が問われている感じがする。"
+    }
   },
   {
     "title": "Vercel、音声AIエージェント対応開始",
@@ -148,7 +263,30 @@
     "links": [
       "https://vercel.com/blog/realtime-voice-agents-on-ai-gateway"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "音声窓口を試作",
+      "tool": {
+        "name": "Vercel AI Gateway",
+        "url": "https://vercel.com/ai-gateway",
+        "cost": "無料枠あり/従量課金"
+      },
+      "time": "半日",
+      "steps": [
+        "FAQを10問書き出せ",
+        "応答台本を作らせよ",
+        "音声窓口を試作せよ"
+      ],
+      "prompt": "あなたは音声AI設計者です。{自社名}{業種}の電話問い合わせFAQをもとに、音声AIの応答台本、確認質問、担当者へ渡す条件を作ってください。",
+      "roi": "一次対応の電話時間を30%削減"
+    },
+    "icebreak": {
+      "hook": "Vercelで音声AIエージェントも扱えるようです",
+      "punchline": "リアルタイム会話、音声合成、文字起こしをAI Gateway経由で扱えるので、音声アプリ開発が組みやすくなります。",
+      "ctx_meeting": "音声AI提案の冒頭で",
+      "ctx_chat": "開発ツールの話で",
+      "share_text": "VercelのAI Gatewayが音声対応すると、会話・音声合成・文字起こしを同じ経路で扱える。音声AIは実験からプロダクト実装に近づいている。"
+    }
   },
   {
     "title": "AWS、NovaとClaudeで文書処理を効率化",
@@ -173,7 +311,30 @@
     "links": [
       "https://aws.amazon.com/blogs/machine-learning/pair-nova-2-lite-with-claude-for-cost-optimized-document-processing/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "紙書類をCSV化",
+      "tool": {
+        "name": "Claude Pro",
+        "url": "https://claude.ai",
+        "cost": "月額$20目安"
+      },
+      "time": "30分",
+      "steps": [
+        "紙書類をPDF化せよ",
+        "Claudeに添付せよ",
+        "CSV項目で出力せよ"
+      ],
+      "prompt": "あなたは文書データ化担当です。{自社名}の{書類種類}PDFから、日付、相手先、金額、要対応事項を抽出しCSV形式で出してください。",
+      "roi": "入力作業を70%短縮"
+    },
+    "icebreak": {
+      "hook": "スキャン文書処理、NovaとClaudeを組む手法が出ています",
+      "punchline": "Nova 2 Liteで画像情報を抽出し、Claudeが配置関係を推論するので、文書処理を役割分担で考えられます。",
+      "ctx_meeting": "帳票処理提案の場で",
+      "ctx_chat": "紙書類の話で",
+      "share_text": "スキャン文書のAI処理は、ひとつのモデルに全部任せるより、画像情報の抽出と配置関係の推論を分ける発想が実務向きだと感じた。"
+    }
   },
   {
     "title": "ISMAPクラウドサービスリスト更新",
@@ -198,6 +359,29 @@
     "links": [
       "https://www.digital.go.jp/news/56cff896-ab6d-43dc-b58c-7423f6eba3a9"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "ISMAPを即確認",
+      "tool": {
+        "name": "ISMAPポータル",
+        "url": "https://www.ismap.go.jp/",
+        "cost": "無料"
+      },
+      "time": "15分",
+      "steps": [
+        "候補クラウドを列挙せよ",
+        "ISMAPで検索せよ",
+        "確認結果を記録せよ"
+      ],
+      "prompt": "あなたは公共案件のIT調達担当です。{自治体名}向けの{候補クラウド}について、ISMAP確認結果を提案書に書く文面へ整えてください。",
+      "roi": "入札前の確認漏れを防止"
+    },
+    "icebreak": {
+      "hook": "ISMAPのクラウドサービスリスト、6月29日に更新です",
+      "punchline": "政府情報システム向けのクラウド選定では、ISMAPとISMAP-LIUの確認がまた必要になります。",
+      "ctx_meeting": "公共案件の確認で",
+      "ctx_chat": "クラウド選定の話で",
+      "share_text": "クラウド選定は機能や価格だけでなく、ISMAPのような評価リストの確認が前提になる案件がある。6月29日の更新は公共系では見落とせない。"
+    }
   }
 ]

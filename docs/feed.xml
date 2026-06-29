@@ -7,6 +7,13 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。毎朝6:30、AI業界ニュースを図解と「明日からできる活用法」で。</description>
   <language>ja</language>
   <item>
+    <title>2026-06-30 AI朝刊：NTTデータとダイキン、AI冷却を検証 ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-06-30/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-30/</guid>
+    <pubDate>Tue, 30 Jun 2026 06:30:00 +0900</pubDate>
+    <description>NTTデータとダイキン、AI冷却を検証／Excel Copilotに反復業務スキル追加／HP、OpenAIとの全社AI活用を拡大／ヤフコメ、AIで論点を要約・可視化／AIエージェント投資、優先順位が課題に</description>
+  </item>
+  <item>
     <title>2026-06-29 AI朝刊：トヨタ、品質管理AIで暗黙知を資産化 ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-06-29/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-29/</guid>
@@ -173,13 +180,6 @@
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-05/</guid>
     <pubDate>Fri, 05 Jun 2026 06:30:00 +0900</pubDate>
     <description>メタ、AIデータセンターを「テント」で高速建設／Appleがビジネス向けメッセージで初のAIエージェントを承認／Databricks、AIアシスタントの検索を3倍高速化／NVIDIA、企業向けAIのコンテンツ安全性を強化／NVIDIAの高性能AIモデルがAWSで利用可能に</description>
-  </item>
-  <item>
-    <title>2026-06-04 AI朝刊：Google、AI事業に過去最高の850億ドル投資へ ほか2本</title>
-    <link>https://nowonair.vercel.app/news/2026-06-04/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-04/</guid>
-    <pubDate>Thu, 04 Jun 2026 06:30:00 +0900</pubDate>
-    <description>Google、AI事業に過去最高の850億ドル投資へ／MicrosoftとNVIDIA、AI特化型次世代PCを発表／SpaceX、AI資金調達含む750億ドルIPOを計画</description>
   </item>
 </channel>
 </rss>

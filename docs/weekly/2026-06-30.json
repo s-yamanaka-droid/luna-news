@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週は、AIを「試す」段階から定型業務へ埋め込む話が中心です。経理、営業、出品、問い合わせなど小さな会社の現場作業に直結します。まずは1業務だけ選び、時間削減を測る週です。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-06-30",
+      "title": "Excel Copilotに反復業務スキル追加",
+      "category": "ツール更新",
+      "source": "Gihyo.jp",
+      "why_picked": "月次経理の手戻りをすぐ減らせる",
+      "tldr": "Excel定型作業をAIで再利用",
+      "action": "月次表の手順を1つスキル化",
+      "image": "../assets/images/2026-06-30/topic_2.png",
+      "link": "../news/2026-06-30/#topic-2"
+    },
+    {
+      "rank": 2,
+      "date": "2026-06-25",
+      "title": "GeminiがPC操作エージェントを標準搭載",
+      "category": "ツール更新",
+      "source": "Google DeepMind Blog",
+      "why_picked": "入力や転記の人手作業を削れる",
+      "tldr": "画面操作をAIに任せられる",
+      "action": "毎日10分の入力作業を試す",
+      "image": "../assets/images/2026-06-25/topic_2.png",
+      "link": "../news/2026-06-25/#topic-2"
+    },
+    {
+      "rank": 3,
+      "date": "2026-06-26",
+      "title": "AIロープレで営業育成を3分の1に",
+      "category": "業界動向",
+      "source": "LayerX エンジニアブログ",
+      "why_picked": "新人や兼任営業の商談力を底上げできる",
+      "tldr": "営業練習をAIで短縮",
+      "action": "失注理由別ロープレを3本作る",
+      "image": "../assets/images/2026-06-26/topic_5.png",
+      "link": "../news/2026-06-26/#topic-5"
+    }
+  ]
+}
