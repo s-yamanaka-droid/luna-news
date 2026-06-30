@@ -1,0 +1,205 @@
+[
+  {
+    "title": "米政権、GPT-5.6公開に介入",
+    "category": "政策・規制",
+    "source": "Wired Japan",
+    "lede": "OpenAIは米政権の要請を受け、次世代AIモデル「GPT-5.6」の一般公開を延期する。",
+    "keypoints": [
+      "一般公開を延期",
+      "政府承認顧客に先行提供",
+      "段階的に提供拡大へ",
+      "任意手続きが焦点"
+    ],
+    "pull": "AIモデル公開は、技術競争だけでなく政策対応の問題になった。",
+    "bizapp": {
+      "summary": "AI調達計画に規制リスクを織り込むべき局面。",
+      "actions": [
+        "NotionでAI利用承認表を整備",
+        "中小企業にAI調達ルールを提案",
+        "数週間内の公開変更を見落とす"
+      ]
+    },
+    "links": [
+      "https://wired.jp/article/openai-gpt-56-model-release-trump-admin-approval/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Claude Sonnet 5、全プランで利用可能に",
+    "category": "新モデル発表",
+    "source": "ITmedia News / AWS AI Blog / Engadget AI / GitLab Blog",
+    "lede": "AnthropicのClaude Sonnet 5は、エージェント業務やコーディングを強化し、低コストで上位級性能を狙う。",
+    "keypoints": [
+      "全プランで利用可能",
+      "業務エージェントを強化",
+      "AWS環境でも提供",
+      "GitLab Duoにも対応"
+    ],
+    "pull": "高性能AIの競争軸は、賢さだけでなく運用コストへ移った。",
+    "bizapp": {
+      "summary": "開発・社内業務のAI運用コスト削減に使える。",
+      "actions": [
+        "GitLab Duoでコードレビュー補助",
+        "営業部門に業務エージェント提案",
+        "9月前に利用料を試算する"
+      ]
+    },
+    "links": [
+      "https://www.itmedia.co.jp/news/articles/2607/01/news057.html",
+      "https://aws.amazon.com/blogs/machine-learning/introducing-claude-sonnet-5-on-aws-anthropics-most-capable-sonnet-model/",
+      "https://www.engadget.com/2205475/anthropic-releases-claude-sonnet-5-model/",
+      "https://about.gitlab.com/blog/claude-sonnet-5-on-gitlab/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "医療データとLLMで治験候補を抽出",
+    "category": "研究",
+    "source": "AI Watch (Impress)",
+    "lede": "近畿大学病院、中外製薬、NTT、NTTデータが、治験候補患者抽出をLLMで検証する共同研究を始めた。",
+    "keypoints": [
+      "4者共同研究を開始",
+      "電子カルテを活用",
+      "tsuzumi 2で検証",
+      "2027年3月まで予定"
+    ],
+    "pull": "医療AIは、現場の探索作業を短くする実証段階に入った。",
+    "bizapp": {
+      "summary": "専門文書から候補を探す業務の短縮に応用できる。",
+      "actions": [
+        "NotebookLMで条件抽出を試す",
+        "採用候補者抽出のDXを提案",
+        "手作業前提だと選定が遅れる"
+      ]
+    },
+    "links": [
+      "https://ai.watch.impress.co.jp/docs/news/2121288.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Google、低コスト画像AIを公開",
+    "category": "ツール更新",
+    "source": "Google DeepMind Blog",
+    "lede": "Google DeepMindは、画像生成のNano Banana 2 Liteと動画生成・会話編集のGemini Omni Flashを公開した。",
+    "keypoints": [
+      "高速な画像モデルを公開",
+      "動画生成にも対応",
+      "会話型編集を提供",
+      "AI Studioなどで利用"
+    ],
+    "pull": "画像と動画の制作AIは、試作から量産に使う段階へ進む。",
+    "bizapp": {
+      "summary": "広告素材や商品画像の試作を速くできる。",
+      "actions": [
+        "Geminiで広告案を量産",
+        "中小企業に画像制作支援を提案",
+        "制作速度で競合に遅れる"
+      ]
+    },
+    "links": [
+      "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Codex、権限管理を細かく設定可能に",
+    "category": "セキュリティ",
+    "source": "Gihyo.jp",
+    "lede": "OpenAI Codexのベータ機能Permission profilesで、ファイルアクセスと通信先を設定で制御できる。",
+    "keypoints": [
+      "権限セットを定義",
+      "読み書き拒否を制御",
+      "通信先も管理可能",
+      ".env拒否にも対応"
+    ],
+    "pull": "AIに任せる範囲が広がるほど、権限設計が業務品質を左右する。",
+    "bizapp": {
+      "summary": "AI開発の情報漏えい対策に使える。",
+      "actions": [
+        "Cursor運用の権限表を作る",
+        "開発会社にAI権限設計を提案",
+        "設定なし運用は秘密漏えいを招く"
+      ]
+    },
+    "links": [
+      "https://gihyo.jp/article/2026/06/codex-permission-profiles?utm_source=feed"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "CDP導入前の顧客分析をAIが自動化",
+    "category": "ツール更新",
+    "source": "MarkeZine",
+    "lede": "primeNumberは、AIが顧客データを先行分析し基本設計書まで作るCDPソリューションを始めた。",
+    "keypoints": [
+      "AIが顧客データを分析",
+      "施策仮説を自動生成",
+      "既存DWHを活用",
+      "最短2ヶ月で施策開始"
+    ],
+    "pull": "マーケ施策は、CDP構築後ではなく導入前からAIで動き出す。",
+    "bizapp": {
+      "summary": "顧客分析と施策設計の立ち上げ短縮に使える。",
+      "actions": [
+        "BigQueryで顧客セグメント設計",
+        "既存顧客LTV改善を提案",
+        "来期施策前に準備しないと遅い"
+      ]
+    },
+    "links": [
+      "https://markezine.jp/article/detail/77079"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Google広告の相談AI、国内でも試用可能",
+    "category": "ツール更新",
+    "source": "NRIネットコム Blog",
+    "lede": "Google AdsのAsk Advisor（β）は、英語UIに切り替えることで日本ユーザーも試せることが確認された。",
+    "keypoints": [
+      "英語UIで試用可能",
+      "広告運用をAIに相談",
+      "日本展開時期は未定",
+      "入力内容に注意が必要"
+    ],
+    "pull": "広告運用は、AIに聞きながら判断する形へ変わり始めた。",
+    "bizapp": {
+      "summary": "広告改善の相談と仮説出しに使える。",
+      "actions": [
+        "Google Adsで改善案を確認",
+        "店舗向け広告改善を提案",
+        "入力ルールなしだと情報漏れ"
+      ]
+    },
+    "links": [
+      "https://tech.nri-net.com/entry/tried_out_ask_advisor"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AIが勤務時間を推定し記録",
+    "category": "ツール更新",
+    "source": "AI Watch (Impress)",
+    "lede": "On Technologiesは、パソコン稼働状況などから勤務時間を自動推定するWorkOn for Desktopを無料提供した。",
+    "keypoints": [
+      "勤怠をAIが推定",
+      "Slack活動も参照",
+      "確認後に提出可能",
+      "修正内容で精度向上"
+    ],
+    "pull": "バックオフィスAIは、記録作業を人の確認中心へ変えていく。",
+    "bizapp": {
+      "summary": "勤怠入力の手間削減に使える。",
+      "actions": [
+        "WorkOnで勤怠確認を短縮",
+        "中小企業に勤怠DXを提案",
+        "月末締め前に入力漏れが増える"
+      ]
+    },
+    "links": [
+      "https://ai.watch.impress.co.jp/docs/news/2121296.html"
+    ],
+    "likes": 0
+  }
+]
