@@ -22,7 +22,30 @@
     "links": [
       "https://wired.jp/article/openai-gpt-56-model-release-trump-admin-approval/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI承認表を作る",
+      "tool": {
+        "name": "Notion",
+        "url": "https://www.notion.com",
+        "cost": "無料〜"
+      },
+      "time": "30分",
+      "steps": [
+        "AI利用表を作成せよ",
+        "用途と顧客情報を分けよ",
+        "承認者欄を追加せよ"
+      ],
+      "prompt": "あなたはAI調達担当です。{自社名}の{業種}で使うAIを、用途・入力情報・リスク・承認要否に分けた承認表にしてください。",
+      "roi": "AI導入判断の迷いを月3時間削減"
+    },
+    "icebreak": {
+      "hook": "GPT-5.6、一般公開が延期らしいですよ",
+      "punchline": "先に使えるのが政府承認顧客なら、AIは性能より提供順も論点になりますね",
+      "ctx_meeting": "AI導入提案の冒頭で",
+      "ctx_chat": "移動中の業界雑談で",
+      "share_text": "GPT-5.6の一般公開延期、性能競争だけ見ていると読み違えそう。誰に先に渡すかまで含めて、AIの事業戦略になってきた。"
+    }
   },
   {
     "title": "Claude Sonnet 5、全プランで利用可能に",
@@ -50,7 +73,30 @@
       "https://www.engadget.com/2205475/anthropic-releases-claude-sonnet-5-model/",
       "https://about.gitlab.com/blog/claude-sonnet-5-on-gitlab/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "社内AI係を作る",
+      "tool": {
+        "name": "Claude Pro",
+        "url": "https://claude.ai",
+        "cost": "約¥3,000/月"
+      },
+      "time": "30分",
+      "steps": [
+        "定型業務を3つ書け",
+        "Claudeに手順化させよ",
+        "1業務だけ試せ"
+      ],
+      "prompt": "あなたは業務改善コンサルです。{自社名}の{業種}で毎週発生する{業務}を、AIに任せる手順と確認項目に分解してください。",
+      "roi": "定型作業を週2時間削減"
+    },
+    "icebreak": {
+      "hook": "Claude Sonnet 5、全プランで使えるそうです",
+      "punchline": "エージェントやコーディングを低コストで試せるなら、PoCの入口が下がりますね",
+      "ctx_meeting": "開発効率化の提案で",
+      "ctx_chat": "AIツール談義で",
+      "share_text": "Claude Sonnet 5が全プランで使えるなら、まず高額契約ではなく小さく試す会社が増えそう。AI導入の最初の壁はかなり下がってきた。"
+    }
   },
   {
     "title": "医療データとLLMで治験候補を抽出",
@@ -75,7 +121,30 @@
     "links": [
       "https://ai.watch.impress.co.jp/docs/news/2121288.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "候補抽出を自動化",
+      "tool": {
+        "name": "NotebookLM",
+        "url": "https://notebooklm.google.com",
+        "cost": "無料"
+      },
+      "time": "30分",
+      "steps": [
+        "候補条件を文書化せよ",
+        "資料をアップせよ",
+        "該当候補を抽出せよ"
+      ],
+      "prompt": "あなたは専門文書の抽出担当です。{業種}の資料から、条件{条件}に合う候補を理由付きで表にしてください。",
+      "roi": "候補探しを70%短縮"
+    },
+    "icebreak": {
+      "hook": "治験候補探しにLLMを使う研究、始まりましたね",
+      "punchline": "電子カルテから候補を拾えると、医療AIは効率化より研究速度に効いてきますね",
+      "ctx_meeting": "医療DXの話題で",
+      "ctx_chat": "医療ニュースの雑談で",
+      "share_text": "治験候補患者の抽出にLLMを使う研究、地味だけどかなり実務的。AIの価値は派手な会話より、探す時間を縮めるところに出る気がする。"
+    }
   },
   {
     "title": "Google、低コスト画像AIを公開",
@@ -100,7 +169,30 @@
     "links": [
       "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "広告画像を試作",
+      "tool": {
+        "name": "Gemini",
+        "url": "https://gemini.google.com",
+        "cost": "無料〜約¥2,900/月"
+      },
+      "time": "20分",
+      "steps": [
+        "商品写真を用意せよ",
+        "広告案を5案出せ",
+        "一番良い案を編集せよ"
+      ],
+      "prompt": "あなたは広告デザイナーです。{自社名}の{商品}を、{顧客層}向けに売る画像広告案を5つ作ってください。",
+      "roi": "広告素材の初稿作成を半日短縮"
+    },
+    "icebreak": {
+      "hook": "Googleの画像AI、低コスト版が出たみたいです",
+      "punchline": "画像だけでなく動画生成や会話型編集まで入ると、制作の試作回数が変わりますね",
+      "ctx_meeting": "制作改善の提案で",
+      "ctx_chat": "デザイン話の雑談で",
+      "share_text": "Googleの低コスト画像AI、気になるのは価格より会話型編集。作る人だけでなく、確認する人もAIで直せるようになると制作フローが変わりそう。"
+    }
   },
   {
     "title": "Codex、権限管理を細かく設定可能に",
@@ -125,7 +217,30 @@
     "links": [
       "https://gihyo.jp/article/2026/06/codex-permission-profiles?utm_source=feed"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI権限表を作る",
+      "tool": {
+        "name": "Cursor",
+        "url": "https://www.cursor.com",
+        "cost": "無料〜$20/月"
+      },
+      "time": "30分",
+      "steps": [
+        "秘密ファイルを列挙せよ",
+        "読取禁止欄を作れ",
+        "AI利用ルールに貼れ"
+      ],
+      "prompt": "あなたはAI開発の情報管理者です。{自社名}の開発環境でAIに読ませてよいファイルと禁止ファイルを表にしてください。",
+      "roi": "秘密情報漏えいリスクを低減"
+    },
+    "icebreak": {
+      "hook": "Codex、権限を細かく絞れるようになるそうです",
+      "punchline": ".env拒否や通信先管理までできるなら、AI開発の怖さを設定で減らせますね",
+      "ctx_meeting": "開発体制の相談で",
+      "ctx_chat": "セキュリティ雑談で",
+      "share_text": "CodexのPermission profiles、かなり実務寄り。AIに何でも触らせるのではなく、ファイルや通信先を絞って使うのが開発現場の標準になりそう。"
+    }
   },
   {
     "title": "CDP導入前の顧客分析をAIが自動化",
@@ -150,7 +265,30 @@
     "links": [
       "https://markezine.jp/article/detail/77079"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "顧客を3分類する",
+      "tool": {
+        "name": "ChatGPT Plus",
+        "url": "https://chatgpt.com",
+        "cost": "約¥3,000/月"
+      },
+      "time": "半日",
+      "steps": [
+        "顧客CSVを用意せよ",
+        "購入額で分類せよ",
+        "施策案を出させよ"
+      ],
+      "prompt": "あなたは顧客分析担当です。{自社名}の{業種}で、顧客データを優良・休眠・新規に分け、各施策を提案してください。",
+      "roi": "販促企画の初稿作成を1日短縮"
+    },
+    "icebreak": {
+      "hook": "CDP導入前の分析をAIがやるサービス、出ましたね",
+      "punchline": "既存DWHから施策仮説まで出せるなら、CDPは導入前の設計勝負になりますね",
+      "ctx_meeting": "CRM提案の冒頭で",
+      "ctx_chat": "マーケ談義で",
+      "share_text": "CDPは入れてから考えるもの、という順番が変わりそう。AIが先に顧客データを見て施策仮説まで出すなら、導入判断もかなり現実的になる。"
+    }
   },
   {
     "title": "Google広告の相談AI、国内でも試用可能",
@@ -175,7 +313,30 @@
     "links": [
       "https://tech.nri-net.com/entry/tried_out_ask_advisor"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "広告改善を相談",
+      "tool": {
+        "name": "Google Ads",
+        "url": "https://ads.google.com",
+        "cost": "無料"
+      },
+      "time": "20分",
+      "steps": [
+        "英語UIに切替えよ",
+        "Ask Advisorを開け",
+        "改善案を3つ試せ"
+      ],
+      "prompt": "あなたは広告運用アドバイザーです。{業種}の{広告目的}について、少額予算で改善すべき順に3案出してください。",
+      "roi": "広告改善案出しを月5時間削減"
+    },
+    "icebreak": {
+      "hook": "Google広告の相談AI、日本でも試せるみたいです",
+      "punchline": "英語UIなら触れるので、広告運用もまずAIに壁打ちする流れが来そうですね",
+      "ctx_meeting": "広告運用の相談で",
+      "ctx_chat": "集客の雑談で",
+      "share_text": "Google広告の相談AI、英語UIなら日本でも試せるのが面白い。運用担当者の勘だけでなく、AIへの聞き方も成果に影響してきそう。"
+    }
   },
   {
     "title": "AIが勤務時間を推定し記録",
@@ -200,6 +361,29 @@
     "links": [
       "https://ai.watch.impress.co.jp/docs/news/2121296.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "勤怠確認を短縮",
+      "tool": {
+        "name": "WorkOn for Desktop",
+        "url": "https://www.workon.jp",
+        "cost": "無料"
+      },
+      "time": "30分",
+      "steps": [
+        "アプリを導入せよ",
+        "1週間だけ記録せよ",
+        "月末に差分確認せよ"
+      ],
+      "prompt": "あなたは勤怠管理担当です。{自社名}の{勤務形態}で、勤怠入力漏れを減らす運用ルールを3つ作ってください。",
+      "roi": "月末の勤怠確認を月2時間削減"
+    },
+    "icebreak": {
+      "hook": "AIが勤務時間を推定する勤怠ツール、出ましたね",
+      "punchline": "Slack活動まで見て確認後に提出できるなら、勤怠入力の後処理が減りそうです",
+      "ctx_meeting": "バックオフィス提案で",
+      "ctx_chat": "働き方の雑談で",
+      "share_text": "勤怠をAIが推定して、本人が確認して出す流れは現実的。完全自動より、人の確認を残す設計のほうが職場には馴染みやすそう。"
+    }
   }
 ]

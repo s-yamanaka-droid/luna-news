@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週は、AIが「試すもの」から日常業務に組み込む道具へ進んだ週です。特にExcel、広告、画像制作のような小規模事業者の実務に近い領域で即効性が出ています。一方で、権限管理や規制の話も増え、使う前提で守りを整える段階に入りました。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-06-30",
+      "title": "Excel Copilotに反復業務スキル追加",
+      "category": "ツール更新",
+      "source": "Gihyo.jp",
+      "why_picked": "月次経理の手戻りをすぐ減らせる",
+      "tldr": "Excel定型作業を再利用",
+      "action": "月次表を1つ定型化",
+      "image": "../assets/images/2026-06-30/topic_2.png",
+      "link": "../news/2026-06-30/#topic-2"
+    },
+    {
+      "rank": 2,
+      "date": "2026-07-01",
+      "title": "Google、低コスト画像AIを公開",
+      "category": "ツール更新",
+      "source": "Google DeepMind Blog",
+      "why_picked": "商品画像と広告素材を安く試せる",
+      "tldr": "広告画像を低コスト生成",
+      "action": "広告画像を3案作る",
+      "image": "../assets/images/2026-07-01/topic_4.png",
+      "link": "../news/2026-07-01/#topic-4"
+    },
+    {
+      "rank": 3,
+      "date": "2026-07-01",
+      "title": "Google広告の相談AI、国内でも試用可能",
+      "category": "ツール更新",
+      "source": "NRIネットコム Blog",
+      "why_picked": "少額広告の改善仮説を即出せる",
+      "tldr": "広告改善をAIに相談",
+      "action": "改善案を5つ聞く",
+      "image": "../assets/images/2026-07-01/topic_7.png",
+      "link": "../news/2026-07-01/#topic-7"
+    }
+  ]
+}

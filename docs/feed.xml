@@ -7,6 +7,13 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。毎朝6:30、AI業界ニュースを図解と「明日からできる活用法」で。</description>
   <language>ja</language>
   <item>
+    <title>2026-07-01 AI朝刊：米政権、GPT-5.6公開に介入 ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-07-01/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-01/</guid>
+    <pubDate>Wed, 01 Jul 2026 06:30:00 +0900</pubDate>
+    <description>米政権、GPT-5.6公開に介入／Claude Sonnet 5、全プランで利用可能に／医療データとLLMで治験候補を抽出／Google、低コスト画像AIを公開／Codex、権限管理を細かく設定可能に</description>
+  </item>
+  <item>
     <title>2026-06-30 AI朝刊：NTTデータとダイキン、AI冷却を検証 ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-06-30/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-30/</guid>
@@ -173,13 +180,6 @@
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-06/</guid>
     <pubDate>Sat, 06 Jun 2026 06:30:00 +0900</pubDate>
     <description>アンソロピック、AI開発減速を提言／日立、Claude Mythosでインフラ防衛へ／Google、SpaceXからAI計算資源を調達／Cloudflare、AI利用料の暴走を制御／Copilot、隔離環境で安全に操作可能に</description>
-  </item>
-  <item>
-    <title>2026-06-05 AI朝刊：メタ、AIデータセンターを「テント」で高速建設 ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-06-05/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-05/</guid>
-    <pubDate>Fri, 05 Jun 2026 06:30:00 +0900</pubDate>
-    <description>メタ、AIデータセンターを「テント」で高速建設／Appleがビジネス向けメッセージで初のAIエージェントを承認／Databricks、AIアシスタントの検索を3倍高速化／NVIDIA、企業向けAIのコンテンツ安全性を強化／NVIDIAの高性能AIモデルがAWSで利用可能に</description>
   </item>
 </channel>
 </rss>
