@@ -1,0 +1,202 @@
+[
+  {
+    "title": "国産AI基盤「Noetra」始動、国費3873億円で開発",
+    "category": "業界動向",
+    "source": "ロボスタ",
+    "lede": "ソニー・ソフトバンク・NEC・ホンダらが出資するNoetraが、産総研と組みロボット向け国産AI基盤モデルの開発を開始。経産省が初年度約3873億円を支援する。",
+    "keypoints": [
+      "ロボット向け国産AI基盤を開発",
+      "初年度3873億円・総額約1兆円規模",
+      "ソニー・ソフトバンク等が出資予定",
+      "学習済みデータを国内に広く提供"
+    ],
+    "pull": "海外モデル依存からの脱却へ、日本が1兆円規模でAI基盤を自前構築する。",
+    "bizapp": {
+      "summary": "国産AI活用の選択肢が広がり脱・海外依存が進む",
+      "actions": [
+        "調達計画の情報収集にNotebookLMで国策動向を整理",
+        "製造業向けに国産AI連携の提案準備を進める",
+        "海外モデル規制リスクに備え国産の代替検討を今から着手"
+      ]
+    },
+    "links": [
+      "https://robotstart.info/article/2026/07/01/382103.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Anthropic旗艦「Claude Fable 5」利用再開、無料枠も",
+    "category": "新モデル発表",
+    "source": "Impress PC Watch",
+    "lede": "米輸出規制の解除を受け、Anthropicが最上位モデルClaude Fable 5へのアクセスを再開。7月8日まで週上限の50%を追加料金なしで利用できる。",
+    "keypoints": [
+      "輸出規制解除で旗艦モデル復活",
+      "7/8まで週上限50%を無料開放",
+      "全ユーザーの利用上限をリセット",
+      "改良型安全分類器で回避策を99%ブロック"
+    ],
+    "pull": "長く複雑なタスクほど他モデルを大きく引き離す最先端性能が戻ってきた。",
+    "bizapp": {
+      "summary": "高難度の知識労働をClaudeで一気に効率化できる",
+      "actions": [
+        "契約書レビューや長文分析にClaude Fable 5を試す",
+        "無料期間を使い社内で費用対効果を検証する提案",
+        "7/8の無料枠終了前に業務適合性を見極めるべき"
+      ]
+    },
+    "links": [
+      "https://pc.watch.impress.co.jp/docs/news/2121713.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Google、高速・低コスト画像生成「Nano Banana 2 Lite」",
+    "category": "新モデル発表",
+    "source": "Gihyo.jp",
+    "lede": "Googleが画像生成・編集モデルNano Banana 2 Liteを発表。テキストから画像を約4秒で出力し、速度とコストを重視した設計でGeminiアプリやAPIから使える。",
+    "keypoints": [
+      "テキストから画像を約4秒で生成",
+      "低コスト・低レイテンシーが特徴",
+      "Geminiアプリで「Flash-Lite」選択",
+      "生成と確認の反復作業に最適"
+    ],
+    "pull": "待ち時間2秒未満、案出しと確認を高速で回せる画像制作が現実になる。",
+    "bizapp": {
+      "summary": "広告バナーや資料画像の量産コストが大幅に下がる",
+      "actions": [
+        "SNS投稿画像の量産にGemini/Nano Banana 2 Liteを活用",
+        "中小企業のチラシ制作を低コストで内製化する提案",
+        "外注していた画像案出しを内製化しコストを即削減できる"
+      ]
+    },
+    "links": [
+      "https://gihyo.jp/article/2026/07/nanobanana2-lite?utm_source=feed"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "GitHub Copilotで「Claude Sonnet 5」一般提供開始",
+    "category": "ツール更新",
+    "source": "CodeZine",
+    "lede": "GitHubは、AnthropicのClaude Sonnet 5をCopilotで一般利用可能にした。VS CodeやJetBrainsなど主要開発環境で順次選べるようになる。",
+    "keypoints": [
+      "Copilotで最新Claudeを選択可能",
+      "VS Code・JetBrains等で順次対応",
+      "Pro/Business/Enterprise等が対象",
+      "モデルピッカーから切替可能"
+    ],
+    "pull": "開発者は使い慣れたCopilot上で最新Claudeを自由に選べるようになった。",
+    "bizapp": {
+      "summary": "開発現場の生産性を最新モデルで底上げできる",
+      "actions": [
+        "エンジニアがCopilotでClaude Sonnet 5を試験導入",
+        "受託開発会社に開発速度向上の導入支援を提案",
+        "開発チームがモデル選定を怠ると競合に速度で劣後する"
+      ]
+    },
+    "links": [
+      "https://codezine.jp/article/detail/24742"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "NotebookLMに60秒の縦型ショート動画機能",
+    "category": "ツール更新",
+    "source": "Gihyo.jp",
+    "lede": "GoogleのNotebookLMが、取り込んだ資料から特定の概念を掘り下げる約60秒の縦型動画を生成する新機能を追加。Web版の全ユーザーに英語で展開された。",
+    "keypoints": [
+      "資料から60秒の縦型動画を自動生成",
+      "Web版で全ユーザーに展開",
+      "現状は英語のみ対応",
+      "複雑な資料の要点把握に便利"
+    ],
+    "pull": "分厚い資料が、要点を掴める60秒のショート動画に自動で変わる。",
+    "bizapp": {
+      "summary": "社内研修や説明資料を動画で手軽に量産できる",
+      "actions": [
+        "社内マニュアルの動画化にNotebookLMを活用",
+        "研修コンテンツ制作の効率化を企業に提案",
+        "動画教育の内製化で外注費と制作時間を削減できる"
+      ]
+    },
+    "links": [
+      "https://gihyo.jp/article/2026/07/notebooklm-short-video-overview?utm_source=feed"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AIビジネスは「業界特化」が主戦場に",
+    "category": "業界動向",
+    "source": "日経クロステック",
+    "lede": "生成AIの業務利用が進み、AIビジネスの主戦場は汎用の「水平型」から業界特化の「垂直型」へと移行しつつあると日経が指摘する。",
+    "keypoints": [
+      "水平型から垂直型AIへ移行",
+      "業界特化AIが新たな主戦場",
+      "日本の主戦場はAIアプリベンダー",
+      "企業向けAIが新フェーズに"
+    ],
+    "pull": "汎用の効率化ツールから、業界の課題に深く刺さるAIへ競争軸が動く。",
+    "bizapp": {
+      "summary": "自社業界に特化したAI活用が差別化の鍵になる",
+      "actions": [
+        "自業界の課題に沿った垂直型AIの候補をFeloで調査",
+        "特定業種向けAI導入支援を新規事業として提案",
+        "汎用ツール止まりでは競合の業界特化AIに顧客を奪われる"
+      ]
+    },
+    "links": [
+      "https://xtech.nikkei.com/atcl/nxt/mag/nc/18/063000556/063000001/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AIエージェントに信頼できる名前を、Linux財団が新標準",
+    "category": "政策・規制",
+    "source": "Publickey",
+    "lede": "Linux Foundationが、既存のDNS基盤を拡張しAIエージェントに信頼できる識別子を与える新オープンソース標準「Agent Name Service（ANS）」の立ち上げ意向を発表した。",
+    "keypoints": [
+      "DNSを拡張しAIに名前を付与",
+      "エージェントの認証・信頼を担保",
+      "オープンソース標準として提供",
+      "相互運用性の課題解決を目指す"
+    ],
+    "pull": "AIエージェント同士が安全に取引する時代の、身元証明の土台になる。",
+    "bizapp": {
+      "summary": "AIエージェント連携の信頼基盤づくりが本格化する",
+      "actions": [
+        "自社のエージェント導入時に認証・識別の設計を検討",
+        "セキュアなAI連携基盤の構築支援を提案",
+        "標準策定を放置すると将来の相互接続で後手に回る"
+      ]
+    },
+    "links": [
+      "https://www.publickey1.jp/blog/26/dnsaiagent_name_serviceanslinux_foundation.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "NIMSと日本IBM、材料科学のAI基盤構築で協業",
+    "category": "研究",
+    "source": "MONOist",
+    "lede": "物質・材料研究機構（NIMS）と日本IBMが、材料科学分野で役立つAI活用基盤の構築を目指す協業に向けた覚書（MOU）を締結した。",
+    "keypoints": [
+      "NIMSと日本IBMが協業",
+      "材料科学向けAI基盤を構築",
+      "覚書（MOU）を締結",
+      "研究開発の高度化を狙う"
+    ],
+    "pull": "新素材開発の時間短縮へ、材料研究とAIの融合が国内で加速する。",
+    "bizapp": {
+      "summary": "研究開発領域でのAI活用が実用段階へ進む示唆",
+      "actions": [
+        "R&D部門でのAI活用事例としてObsidianに動向を記録",
+        "製造業の研究開発DX支援の商機として注目",
+        "素材・化学分野の企業は開発競争のAI化に乗り遅れ厳禁"
+      ]
+    },
+    "links": [
+      "https://monoist.itmedia.co.jp/mn/articles/2607/02/news032.html"
+    ],
+    "likes": 0
+  }
+]
