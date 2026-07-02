@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週は、画像・広告・Excelなど小規模事業者がすぐ使えるAI更新が目立った。大規模な基盤モデル競争より、日々の販促・経理・集客を短縮する実務AIが主役。まずは売上に近い制作と広告、毎月発生する事務から試すのが得策。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-07-02",
+      "title": "Google、高速・低コスト画像生成「Nano Banana 2 Lite」",
+      "category": "新モデル発表",
+      "source": "Gihyo.jp",
+      "why_picked": "広告・SNS素材を安く量産できる",
+      "tldr": "画像制作コストを下げる",
+      "action": "SNS画像を4案作る",
+      "image": "../assets/images/2026-07-02/topic_3.png",
+      "link": "../news/2026-07-02/#topic-3"
+    },
+    {
+      "rank": 2,
+      "date": "2026-06-30",
+      "title": "Excel Copilotに反復業務スキル追加",
+      "category": "ツール更新",
+      "source": "Gihyo.jp",
+      "why_picked": "月次集計や経理作業を型化できる",
+      "tldr": "Excel定型作業を自動化",
+      "action": "月次表を1つ定型化",
+      "image": "../assets/images/2026-06-30/topic_2.png",
+      "link": "../news/2026-06-30/#topic-2"
+    },
+    {
+      "rank": 3,
+      "date": "2026-07-01",
+      "title": "Google広告の相談AI、国内でも試用可能",
+      "category": "ツール更新",
+      "source": "NRIネットコム Blog",
+      "why_picked": "広告改善の仮説出しを即試せる",
+      "tldr": "広告運用をAIに相談",
+      "action": "広告改善案を3つ聞く",
+      "image": "../assets/images/2026-07-01/topic_7.png",
+      "link": "../news/2026-07-01/#topic-7"
+    }
+  ]
+}

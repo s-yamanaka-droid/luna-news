@@ -22,7 +22,30 @@
     "links": [
       "https://business.nikkei.com/atcl/audio/22/00001/070200910/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "外注業務をAI棚卸し",
+      "tool": {
+        "name": "Claude Code",
+        "url": "https://www.anthropic.com/claude-code",
+        "cost": "¥3,000/月目安"
+      },
+      "time": "30分",
+      "steps": [
+        "外注中の作業を列挙せよ",
+        "手順書やコードを渡せ",
+        "内製化候補を3つ選べ"
+      ],
+      "prompt": "あなたは中小企業のIT顧問です。{自社名}の{業種}で外注中の{業務}をAI内製化できる順に整理し、明日試す手順を出してください。",
+      "roi": "外注確認と修正依頼を月5時間削減"
+    },
+    "icebreak": {
+      "hook": "NECがAnthropicと組むらしいですよ。",
+      "punchline": "SIerも、作る会社からAIで変える会社に寄らないと厳しくなりそうです。",
+      "ctx_meeting": "SI刷新提案の冒頭で",
+      "ctx_chat": "取引先との雑談で",
+      "share_text": "NECとAnthropicの提携、SIerの役割がかなり変わる合図に見える。AIを売る側自身が、まず自分の仕事を作り替える局面ですね。"
+    }
   },
   {
     "title": "LINE、会話から予定登録するAIへ",
@@ -47,7 +70,30 @@
     "links": [
       "https://www.watch.impress.co.jp/docs/news/2121879.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "LINE予定を自動整理",
+      "tool": {
+        "name": "ChatGPT Plus",
+        "url": "https://chatgpt.com",
+        "cost": "¥3,000/月目安"
+      },
+      "time": "10分",
+      "steps": [
+        "LINE履歴をコピーせよ",
+        "未決予定を抽出せよ",
+        "カレンダーへ登録せよ"
+      ],
+      "prompt": "あなたは秘書です。以下のLINE会話から{自社名}の予定、未返信、確認事項を抜き出し、Googleカレンダー用に整理してください。{会話文}",
+      "roi": "日程調整の見落としを週3件防止"
+    },
+    "icebreak": {
+      "hook": "LINEが会話から予定登録までやるらしいです。",
+      "punchline": "予定調整って、入力する作業より会話の流れを拾えるかが本丸になりそうです。",
+      "ctx_meeting": "業務効率化の話で",
+      "ctx_chat": "ランチ中の会話で",
+      "share_text": "LINEが会話からタスク整理やカレンダー登録まで進める方向へ。日程調整アプリを開く前に、普段の会話がそのまま仕事の入口になりそう。"
+    }
   },
   {
     "title": "Cloudflare、AI利用に課金基盤",
@@ -72,7 +118,30 @@
     "links": [
       "https://gihyo.jp/article/2026/07/content-independence-day-one-year-on?utm_source=feed"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI巡回を制御",
+      "tool": {
+        "name": "Cloudflare",
+        "url": "https://www.cloudflare.com",
+        "cost": "無料〜"
+      },
+      "time": "30分",
+      "steps": [
+        "サイトを登録せよ",
+        "AIボット設定を見よ",
+        "許可範囲を記録せよ"
+      ],
+      "prompt": "あなたはWeb媒体の収益化担当です。{自社名}の{サイトURL}についてAIボットに許可する用途と禁止用途、課金候補を表で提案してください。",
+      "roi": "無断学習リスクの把握と媒体価値の保護"
+    },
+    "icebreak": {
+      "hook": "CloudflareがAIの閲覧に値札を付け始めましたね。",
+      "punchline": "Webは読まれるだけでなく、AIに使われた分の対価を考える時代になりそうです。",
+      "ctx_meeting": "メディア戦略の話で",
+      "ctx_chat": "移動中の雑談で",
+      "share_text": "Cloudflareの動きで気になったのは、AIに読ませること自体を制御し、課金できる点。Webの価値はPVだけで測れなくなりそう。"
+    }
   },
   {
     "title": "KDDI漏えい、最大1422万件の衝撃",
@@ -97,7 +166,30 @@
     "links": [
       "https://www.itmedia.co.jp/enterprise/articles/2607/02/news079.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "メール流出を確認",
+      "tool": {
+        "name": "Have I Been Pwned",
+        "url": "https://haveibeenpwned.com",
+        "cost": "無料"
+      },
+      "time": "15分",
+      "steps": [
+        "代表メールを検索せよ",
+        "該当サービスを控えよ",
+        "全員のPWを変えよ"
+      ],
+      "prompt": "あなたは中小企業の情報管理担当です。{自社名}の{漏えい疑い}を前提に、社員{人数}人で明日行う確認と顧客連絡文を作ってください。",
+      "roi": "二次被害と取引先信用低下を予防"
+    },
+    "icebreak": {
+      "hook": "KDDIの漏えい、最大1422万件らしいです。",
+      "punchline": "漏れた後に何が起きるかまで追うと、脆弱性対応の重みが全然変わりますね。",
+      "ctx_meeting": "セキュリティ提案で",
+      "ctx_chat": "ニュース雑談で",
+      "share_text": "KDDIの最大1422万件漏えいで怖いのは、漏えい件数だけでなく流出後の使われ方。第三者ソフトの脆弱性も、自社リスクとして見ないと危ない。"
+    }
   },
   {
     "title": "スマニュー、全社AI基盤を新設",
@@ -122,7 +214,30 @@
     "links": [
       "https://ampmedia.jp/2026/07/02/ai-transformation-division/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI利用台帳を作る",
+      "tool": {
+        "name": "Notion AI",
+        "url": "https://www.notion.so/product/ai",
+        "cost": "¥1,650/月目安"
+      },
+      "time": "30分",
+      "steps": [
+        "AI利用ツールを列挙せよ",
+        "用途と費用を記録せよ",
+        "禁止事項を1枚化せよ"
+      ],
+      "prompt": "あなたはAI推進責任者です。{自社名}の{人数}人が使うAIツール台帳、利用ルール、月額費用管理表を小規模会社向けに作ってください。",
+      "roi": "重複課金と情報漏えいリスクを削減"
+    },
+    "icebreak": {
+      "hook": "スマニュー、全社AI基盤を新設したそうです。",
+      "punchline": "AI活用はツール導入より、認証やコスト管理まで共通化できるかが差になりそうです。",
+      "ctx_meeting": "全社AI導入提案で",
+      "ctx_chat": "社内の雑談で",
+      "share_text": "スマートニュースが全社共通のAI基盤を整える動き。AI活用は個人任せの便利ツールから、会社の運営基盤に移ってきている感じがします。"
+    }
   },
   {
     "title": "製造AI、視触覚データを国家整備",
@@ -147,7 +262,30 @@
     "links": [
       "https://robotstart.info/article/2026/07/02/382105.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "熟練作業を動画化",
+      "tool": {
+        "name": "Gemini",
+        "url": "https://gemini.google.com",
+        "cost": "無料〜¥2,900/月目安"
+      },
+      "time": "半日",
+      "steps": [
+        "熟練作業を撮影せよ",
+        "手順とコツを書き出せ",
+        "改善案をAIに聞け"
+      ],
+      "prompt": "あなたは製造現場の改善担当です。{自社名}の{作業名}について、動画メモから手順、勘所、失敗例、AI化候補を整理してください。",
+      "roi": "新人教育を月5時間削減"
+    },
+    "icebreak": {
+      "hook": "製造AI、視覚だけじゃなく触覚も扱うそうです。",
+      "punchline": "ロボットの手先作業は、見るAIから触って判断するAIへ進むんですね。",
+      "ctx_meeting": "製造DX提案の導入で",
+      "ctx_chat": "工場見学後の会話で",
+      "share_text": "ABEJAやロボット大手3社が視覚・触覚データを整備する話、製造AIの現実味を感じる。繊細な手先作業は、画像だけでは足りないんですね。"
+    }
   },
   {
     "title": "三菱UFJ、営業訪問計画をAI化",
@@ -172,7 +310,30 @@
     "links": [
       "https://markezine.jp/article/detail/77108"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "訪問順をAI化",
+      "tool": {
+        "name": "ChatGPT Plus",
+        "url": "https://chatgpt.com",
+        "cost": "¥3,000/月目安"
+      },
+      "time": "20分",
+      "steps": [
+        "顧客住所を一覧化せよ",
+        "優先度を付けよ",
+        "訪問順を生成せよ"
+      ],
+      "prompt": "あなたは営業マネージャーです。{自社名}の訪問先リスト{住所一覧}を、優先度{条件}と移動効率で並べ替え、1日の訪問計画を作ってください。",
+      "roi": "移動時間を週2時間削減"
+    },
+    "icebreak": {
+      "hook": "三菱UFJが営業訪問計画をAI化するそうです。",
+      "punchline": "年1万時間超を削るなら、営業AIは商談前の段取りから効いてきますね。",
+      "ctx_meeting": "営業DX提案の冒頭で",
+      "ctx_chat": "営業チームの雑談で",
+      "share_text": "三菱UFJ銀行が訪問計画をAIで自動策定へ。営業AIというとトーク支援を想像しがちだけど、実は計画づくりの属人化解消が大きそう。"
+    }
   },
   {
     "title": "Gemini、データ保存地域を指定可能に",
@@ -197,6 +358,29 @@
     "links": [
       "https://codezine.jp/article/detail/24749"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI投入データを分別",
+      "tool": {
+        "name": "Google Workspace with Gemini",
+        "url": "https://workspace.google.com/solutions/ai/",
+        "cost": "プランにより変動"
+      },
+      "time": "30分",
+      "steps": [
+        "顧客データを分類せよ",
+        "保存要件を確認せよ",
+        "入力禁止リストを作れ"
+      ],
+      "prompt": "あなたは小規模会社の情報管理者です。{自社名}の{業種}でGeminiに入力してよい情報、禁止情報、確認が必要な情報を表にしてください。",
+      "roi": "AI利用停止や規制違反のリスクを低減"
+    },
+    "icebreak": {
+      "hook": "Gemini、データ保存地域を指定できるそうです。",
+      "punchline": "生成AIも便利さだけでなく、どこで保存・処理するかを管理する段階ですね。",
+      "ctx_meeting": "情シス向け提案で",
+      "ctx_chat": "社内AI利用の話で",
+      "share_text": "Geminiでデータ保存地域をEUまたは米国に指定可能に。AI導入の論点は性能だけでなく、データをどこに置けるかまで含めて見る必要がありますね。"
+    }
   }
 ]

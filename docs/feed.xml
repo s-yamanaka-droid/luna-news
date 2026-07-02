@@ -7,6 +7,13 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。毎朝6:30、AI業界ニュースを図解と「明日からできる活用法」で。</description>
   <language>ja</language>
   <item>
+    <title>2026-07-03 AI朝刊：NEC、Anthropic提携でSI変革へ ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-07-03/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-03/</guid>
+    <pubDate>Fri, 03 Jul 2026 06:30:00 +0900</pubDate>
+    <description>NEC、Anthropic提携でSI変革へ／LINE、会話から予定登録するAIへ／Cloudflare、AI利用に課金基盤／KDDI漏えい、最大1422万件の衝撃／スマニュー、全社AI基盤を新設</description>
+  </item>
+  <item>
     <title>2026-07-02 AI朝刊：国産AI基盤「Noetra」始動、国費3873億円で開発 ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-07-02/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-02/</guid>
@@ -173,13 +180,6 @@
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-09/</guid>
     <pubDate>Tue, 09 Jun 2026 06:30:00 +0900</pubDate>
     <description>OpenAI、上場準備の書類を提出／Apple、Gemini軸のAI基盤を公開／Nvidia、韓国でAI工場構想拡大／neoAI Chat、Box連携を拡充／Claude Code狙うnpm攻撃に警戒</description>
-  </item>
-  <item>
-    <title>2026-06-08 AI朝刊：経産省、現場特化AIに16件採択 ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-06-08/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-08/</guid>
-    <pubDate>Mon, 08 Jun 2026 06:30:00 +0900</pubDate>
-    <description>経産省、現場特化AIに16件採択／Claude、業務代行AIを全有料開放／Liquid AI、日本語AIを無償公開／Anthropic、AI開発減速を提言／OpenAI、ChatGPTを業務アプリ化へ</description>
   </item>
 </channel>
 </rss>
