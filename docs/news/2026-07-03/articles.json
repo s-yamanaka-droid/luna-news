@@ -1,0 +1,202 @@
+[
+  {
+    "title": "NEC、Anthropic提携でSI変革へ",
+    "category": "業界動向",
+    "source": "日経ビジネス テクノロジー",
+    "lede": "NECがAnthropicと提携し、AI時代の「SIerの死」に先手を打つ動きが注目されている。",
+    "keypoints": [
+      "NECとAnthropicが提携",
+      "SIerの構造変化に対応",
+      "AI経営連載の主要テーマ",
+      "企業向けAI活用が加速"
+    ],
+    "pull": "SIerはAI導入支援から、自らAIで変わる段階に入った。",
+    "bizapp": {
+      "summary": "SI業務の再設計とAI導入方針の見直しに使える。",
+      "actions": [
+        "Claude Codeで開発支援を試す",
+        "SIer向けAI導入計画を提案",
+        "来期前に外注範囲を見直す"
+      ]
+    },
+    "links": [
+      "https://business.nikkei.com/atcl/audio/22/00001/070200910/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "LINE、会話から予定登録するAIへ",
+    "category": "ツール更新",
+    "source": "Impress Watch AI",
+    "lede": "LINEがトーク内容を理解し、タスク整理やカレンダー登録まで行う「Agent i in Chat」を発表した。",
+    "keypoints": [
+      "26年内に提供予定",
+      "会話からタスクを整理",
+      "予定をカレンダー登録",
+      "写真のアルバム化も支援"
+    ],
+    "pull": "日本の職場の連絡手段が、実行まで担うAI窓口に変わる。",
+    "bizapp": {
+      "summary": "LINE上の調整業務をそのまま自動化できる。",
+      "actions": [
+        "Agent iで日程調整を整理",
+        "店舗予約や採用連絡に提案",
+        "導入準備を年内に進める"
+      ]
+    },
+    "links": [
+      "https://www.watch.impress.co.jp/docs/news/2121879.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Cloudflare、AI利用に課金基盤",
+    "category": "政策・規制",
+    "source": "Gihyo.jp",
+    "lede": "CloudflareがAIボットの用途別制御と、WebページやAPI利用に対価を設定する仕組みを示した。",
+    "keypoints": [
+      "AI利用を用途別に制御",
+      "検索・代理実行・学習を分類",
+      "有料アクセスを設定可能",
+      "小額決済基盤も提示"
+    ],
+    "pull": "Webコンテンツは無料で取られるものから、条件を決める資産になる。",
+    "bizapp": {
+      "summary": "自社サイトのAI利用条件を設計する材料になる。",
+      "actions": [
+        "CloudflareでAIボット制御",
+        "媒体社向け収益化策を提案",
+        "放置すると無償利用が続く"
+      ]
+    },
+    "links": [
+      "https://gihyo.jp/article/2026/07/content-independence-day-one-year-on?utm_source=feed"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "KDDI漏えい、最大1422万件の衝撃",
+    "category": "セキュリティ",
+    "source": "ITmedia Enterprise",
+    "lede": "KDDIの最大1422万件の情報漏えいを、ダークWebやOSINTから追跡しリスクを解説している。",
+    "keypoints": [
+      "最大1422万件が漏えい",
+      "メール関連情報が対象",
+      "第三者ソフトの脆弱性悪用",
+      "流出後のリスクを追跡"
+    ],
+    "pull": "漏えい対応は発覚時だけでなく、流出後の行方まで見る時代だ。",
+    "bizapp": {
+      "summary": "委託先や外部ソフトのリスク確認に使える。",
+      "actions": [
+        "OSINTで自社流出を確認",
+        "取引先監査サービスを提案",
+        "放置すると二次被害が広がる"
+      ]
+    },
+    "links": [
+      "https://www.itmedia.co.jp/enterprise/articles/2607/02/news079.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "スマニュー、全社AI基盤を新設",
+    "category": "業界動向",
+    "source": "AMP",
+    "lede": "スマートニュースがAI Transformation Divisionを設立し、全社共通のAI活用基盤を整備する。",
+    "keypoints": [
+      "AI前提の会社運営へ",
+      "共通AI基盤を整備",
+      "認証やコスト管理も統合",
+      "Claude Codeも全社展開"
+    ],
+    "pull": "AI活用は個人任せから、会社の運営基盤へ移っている。",
+    "bizapp": {
+      "summary": "社内AI利用を統制しながら広げる参考になる。",
+      "actions": [
+        "Claude Codeの利用環境整備",
+        "AI推進組織づくりを提案",
+        "野良AI放置で統制を失う"
+      ]
+    },
+    "links": [
+      "https://ampmedia.jp/2026/07/02/ai-transformation-division/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "製造AI、視触覚データを国家整備",
+    "category": "研究",
+    "source": "ロボスタ",
+    "lede": "ABEJAが川崎重工業、ファナック、安川電機らと製造現場向けフィジカルAIのデータセット構築に参画する。",
+    "keypoints": [
+      "経産省・NEDO採択事業",
+      "ロボット大手3社が連携",
+      "視覚・触覚などを統合",
+      "繊細な手先作業を目指す"
+    ],
+    "pull": "製造業のAI化は、現場データを共通化できるかが勝負になる。",
+    "bizapp": {
+      "summary": "工場自動化の次期投資テーマを見極められる。",
+      "actions": [
+        "製造現場データを棚卸し",
+        "中小工場の自動化提案に使う",
+        "熟練作業の継承を急ぐ"
+      ]
+    },
+    "links": [
+      "https://robotstart.info/article/2026/07/02/382105.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "三菱UFJ、営業訪問計画をAI化",
+    "category": "ツール更新",
+    "source": "MarkeZine",
+    "lede": "三菱UFJ銀行がUPWARDをAXパートナーに選び、訪問計画作成をAIで自動化する。",
+    "keypoints": [
+      "営業領域のAX契約を締結",
+      "訪問計画をAIで自動策定",
+      "年1万時間超の削減見込み",
+      "属人化の解消を狙う"
+    ],
+    "pull": "営業AIは文章作成より先に、訪問順と時間配分を変え始めた。",
+    "bizapp": {
+      "summary": "外回り営業の移動計画と引き継ぎ改善に使える。",
+      "actions": [
+        "UPWARDで訪問計画を自動化",
+        "地銀や保険営業に提案",
+        "異動期前に整備しないと遅い"
+      ]
+    },
+    "links": [
+      "https://markezine.jp/article/detail/77108"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Gemini、データ保存地域を指定可能に",
+    "category": "政策・規制",
+    "source": "CodeZine",
+    "lede": "Geminiアプリがデータ地域指定に対応し、管理者がEUや米国での保存・処理を制御できるようになった。",
+    "keypoints": [
+      "Geminiが地域指定に対応",
+      "EUまたは米国を設定可能",
+      "組織単位で細かく管理",
+      "規制や社内要件に対応"
+    ],
+    "pull": "生成AIの導入可否は、便利さだけでなくデータの置き場所で決まる。",
+    "bizapp": {
+      "summary": "規制対応が必要な部門のGemini導入判断に使える。",
+      "actions": [
+        "Gemini管理設定を確認",
+        "法務部門向け導入支援を提案",
+        "要件未確認だと利用停止に直結"
+      ]
+    },
+    "links": [
+      "https://codezine.jp/article/detail/24749"
+    ],
+    "likes": 0
+  }
+]
