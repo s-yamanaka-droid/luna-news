@@ -1162,7 +1162,7 @@ DAILY_CSS = """
 .bizapp-block li .bi{position:absolute;left:8px;top:8px;font-size:12px;}
 .slide-img{margin:20px 0;border:1px solid var(--rule-2);overflow:hidden;cursor:zoom-in;position:relative;transition:border-color .2s}
 .slide-img:hover{border-color:var(--red)}
-.slide-img img{width:100%;display:block;transition:transform .5s}
+.slide-img img{width:100%;height:auto;display:block;transition:transform .5s}
 .slide-img:hover img{transform:scale(1.02)}
 .side{font-size:13px}
 .side dl{margin:0}
