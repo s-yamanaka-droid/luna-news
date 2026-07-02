@@ -7,6 +7,13 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。毎朝6:30、AI業界ニュースを図解と「明日からできる活用法」で。</description>
   <language>ja</language>
   <item>
+    <title>2026-07-02 AI朝刊：国産AI基盤「Noetra」始動、国費3873億円で開発 ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-07-02/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-02/</guid>
+    <pubDate>Thu, 02 Jul 2026 06:30:00 +0900</pubDate>
+    <description>国産AI基盤「Noetra」始動、国費3873億円で開発／Anthropic旗艦「Claude Fable 5」利用再開、無料枠も／Google、高速・低コスト画像生成「Nano Banana 2 Lite」／GitHub Copilotで「Claude Sonnet 5」一般提供開始／NotebookLMに60秒の縦型ショート動画機能</description>
+  </item>
+  <item>
     <title>2026-07-01 AI朝刊：米政権、GPT-5.6公開に介入 ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-07-01/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-01/</guid>
@@ -173,13 +180,6 @@
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-08/</guid>
     <pubDate>Mon, 08 Jun 2026 06:30:00 +0900</pubDate>
     <description>経産省、現場特化AIに16件採択／Claude、業務代行AIを全有料開放／Liquid AI、日本語AIを無償公開／Anthropic、AI開発減速を提言／OpenAI、ChatGPTを業務アプリ化へ</description>
-  </item>
-  <item>
-    <title>2026-06-06 AI朝刊：アンソロピック、AI開発減速を提言 ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-06-06/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-06/</guid>
-    <pubDate>Sat, 06 Jun 2026 06:30:00 +0900</pubDate>
-    <description>アンソロピック、AI開発減速を提言／日立、Claude Mythosでインフラ防衛へ／Google、SpaceXからAI計算資源を調達／Cloudflare、AI利用料の暴走を制御／Copilot、隔離環境で安全に操作可能に</description>
   </item>
 </channel>
 </rss>

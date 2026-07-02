@@ -22,7 +22,30 @@
     "links": [
       "https://robotstart.info/article/2026/07/01/382103.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "国産AI動向を整理",
+      "tool": {
+        "name": "NotebookLM",
+        "url": "https://notebooklm.google.com",
+        "cost": "無料"
+      },
+      "time": "30分",
+      "steps": [
+        "経産省資料を集める",
+        "NotebookLMに入れる",
+        "自社影響を要約させる"
+      ],
+      "prompt": "あなたは中小企業向けAI参謀です。{業種}{自社名}が国産AI基盤の動向で受ける影響と、明日試す準備を3つ出してください。",
+      "roi": "情報収集を月5時間削減"
+    },
+    "icebreak": {
+      "hook": "国産AIに初年度3873億円、知ってます？",
+      "punchline": "ロボットAIは、海外モデル利用から国内データ共有の話に移りそうです。",
+      "ctx_meeting": "製造業向け提案の冒頭で",
+      "ctx_chat": "移動中のAI雑談で",
+      "share_text": "国産AI基盤に初年度3873億円。AI導入の話も、これからは「どのモデルを使うか」だけでなく「データを国内でどう活かすか」が論点になりそう。"
+    }
   },
   {
     "title": "Anthropic旗艦「Claude Fable 5」利用再開、無料枠も",
@@ -47,7 +70,30 @@
     "links": [
       "https://pc.watch.impress.co.jp/docs/news/2121713.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "契約書レビュー高速化",
+      "tool": {
+        "name": "Claude Pro",
+        "url": "https://claude.ai",
+        "cost": "約¥3,200/月"
+      },
+      "time": "30分",
+      "steps": [
+        "契約書PDFを用意する",
+        "Claudeに添付する",
+        "リスク表を作らせる"
+      ],
+      "prompt": "あなたは中小企業の法務補助者です。{自社名}の{契約種別}を読み、リスク・修正案・確認質問を表で出してください。",
+      "roi": "契約確認を70%短縮"
+    },
+    "icebreak": {
+      "hook": "Claude Fable 5、7/8まで増量らしいですよ",
+      "punchline": "無料枠でも旗艦モデルを試せるので、社内検証の口実にしやすいです。",
+      "ctx_meeting": "AIツール比較の場で",
+      "ctx_chat": "チーム内の雑談で",
+      "share_text": "Claude Fable 5が7/8まで週上限50%を追加料金なしで使えるなら、AIツール比較は今やるのが一番現実的かもしれない。"
+    }
   },
   {
     "title": "Google、高速・低コスト画像生成「Nano Banana 2 Lite」",
@@ -72,7 +118,30 @@
     "links": [
       "https://gihyo.jp/article/2026/07/nanobanana2-lite?utm_source=feed"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "SNS画像を4案作成",
+      "tool": {
+        "name": "Gemini",
+        "url": "https://gemini.google.com",
+        "cost": "無料 / 約¥2,900/月"
+      },
+      "time": "10分",
+      "steps": [
+        "投稿テーマを決める",
+        "画像案を4つ出す",
+        "一番良い案を編集する"
+      ],
+      "prompt": "あなたはSNS広告デザイナーです。{業種}{自社名}の{商品名}を売る正方形バナー案を4つ作り、各案の文字も提案してください。",
+      "roi": "画像案出し外注を月3万円削減"
+    },
+    "icebreak": {
+      "hook": "画像生成が約4秒で返るモデル、出ましたね",
+      "punchline": "完成品を一発で作るより、確認しながら何度も直す仕事に効きそうです。",
+      "ctx_meeting": "制作効率の相談で",
+      "ctx_chat": "デザイン雑談で",
+      "share_text": "画像生成が約4秒で返ると、使い方が変わりそう。じっくり待つ制作ツールというより、会話しながら案を詰める道具に近づいている気がする。"
+    }
   },
   {
     "title": "GitHub Copilotで「Claude Sonnet 5」一般提供開始",
@@ -97,7 +166,30 @@
     "links": [
       "https://codezine.jp/article/detail/24742"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "コード修正を時短",
+      "tool": {
+        "name": "GitHub Copilot",
+        "url": "https://github.com/features/copilot",
+        "cost": "約¥1,600/月"
+      },
+      "time": "半日",
+      "steps": [
+        "VS Codeに入れる",
+        "モデルを切り替える",
+        "小バグ修正を任せる"
+      ],
+      "prompt": "あなたは熟練エンジニアです。{サービス名}の{不具合内容}を直すため、原因候補と修正手順を初心者向けに出してください。",
+      "roi": "軽微な修正を月10時間削減"
+    },
+    "icebreak": {
+      "hook": "CopilotでClaude Sonnet 5も選べるようです",
+      "punchline": "開発現場では、AIを使うかよりモデルをどう切り替えるかが論点になりそうです。",
+      "ctx_meeting": "開発体制の相談で",
+      "ctx_chat": "エンジニア雑談で",
+      "share_text": "CopilotでClaude Sonnet 5を選べるようになると、開発AIは単体ツール選びではなく、場面ごとのモデル切替の設計になっていきそう。"
+    }
   },
   {
     "title": "NotebookLMに60秒の縦型ショート動画機能",
@@ -122,7 +214,30 @@
     "links": [
       "https://gihyo.jp/article/2026/07/notebooklm-short-video-overview?utm_source=feed"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "研修動画を自作",
+      "tool": {
+        "name": "NotebookLM",
+        "url": "https://notebooklm.google.com",
+        "cost": "無料"
+      },
+      "time": "30分",
+      "steps": [
+        "マニュアルを入れる",
+        "要点を英語で指定する",
+        "動画案を確認する"
+      ],
+      "prompt": "あなたは社内研修担当です。{自社名}の{業務マニュアル}から新人向け60秒動画の構成とナレーションを作ってください。",
+      "roi": "研修資料作成を半日短縮"
+    },
+    "icebreak": {
+      "hook": "NotebookLM、資料から60秒動画を作るそうです",
+      "punchline": "分厚い資料を読む前に、まず短い動画で勘所をつかむ使い方が増えそうです。",
+      "ctx_meeting": "資料共有の前振りで",
+      "ctx_chat": "勉強法の雑談で",
+      "share_text": "NotebookLMが資料から60秒の縦型動画を作れるなら、読む前に全体像をつかむ流れが普通になりそう。資料作成側も見られ方を意識する必要がある。"
+    }
   },
   {
     "title": "AIビジネスは「業界特化」が主戦場に",
@@ -147,7 +262,30 @@
     "links": [
       "https://xtech.nikkei.com/atcl/nxt/mag/nc/18/063000556/063000001/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "業界AIを調査",
+      "tool": {
+        "name": "Perplexity",
+        "url": "https://www.perplexity.ai",
+        "cost": "無料 / 約¥3,200/月"
+      },
+      "time": "30分",
+      "steps": [
+        "自社業界を入力する",
+        "専用AIを検索する",
+        "導入候補を表にする"
+      ],
+      "prompt": "あなたはAI活用コンサルです。{業種}{自社名}向けに業界特化AIを5つ調べ、用途・料金目安・明日試す方法を表にしてください。",
+      "roi": "新規施策の調査を月6時間削減"
+    },
+    "icebreak": {
+      "hook": "AIビジネス、業界特化が主戦場らしいです",
+      "punchline": "汎用AIを入れる話から、業界の業務にどこまで寄せるかの勝負になっています。",
+      "ctx_meeting": "AI導入提案の冒頭で",
+      "ctx_chat": "業界動向の雑談で",
+      "share_text": "AIビジネスが水平型から垂直型へ移るなら、強いのはAIそのものより業界業務を深く知っている会社かもしれない。導入提案の見方も変わる。"
+    }
   },
   {
     "title": "AIエージェントに信頼できる名前を、Linux財団が新標準",
@@ -172,7 +310,30 @@
     "links": [
       "https://www.publickey1.jp/blog/26/dnsaiagent_name_serviceanslinux_foundation.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI名簿を作成",
+      "tool": {
+        "name": "ChatGPT Plus",
+        "url": "https://chatgpt.com",
+        "cost": "約¥3,200/月"
+      },
+      "time": "30分",
+      "steps": [
+        "使うAIを棚卸しする",
+        "権限と用途を書く",
+        "社内ルールを作る"
+      ],
+      "prompt": "あなたは中小企業の情報管理責任者です。{自社名}で使うAIツール一覧から、名称・用途・権限・禁止事項の台帳を作ってください。",
+      "roi": "AI利用の事故リスクを低減"
+    },
+    "icebreak": {
+      "hook": "AIエージェントにも名前の標準が出るそうです",
+      "punchline": "これからはAIが何をするかだけでなく、誰のAIかを信頼する仕組みが要りますね。",
+      "ctx_meeting": "セキュリティ相談で",
+      "ctx_chat": "AI雑談の深掘りで",
+      "share_text": "AIエージェントに信頼できる名前を付ける標準が出てきた。便利さの次に来る論点は、どのAIを信じて仕事を任せるかなんだと思う。"
+    }
   },
   {
     "title": "NIMSと日本IBM、材料科学のAI基盤構築で協業",
@@ -197,6 +358,29 @@
     "links": [
       "https://monoist.itmedia.co.jp/mn/articles/2607/02/news032.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "R&D資料を整理",
+      "tool": {
+        "name": "Claude Pro",
+        "url": "https://claude.ai",
+        "cost": "約¥3,200/月"
+      },
+      "time": "1時間",
+      "steps": [
+        "技術資料を集める",
+        "Claudeに読ませる",
+        "開発仮説を出させる"
+      ],
+      "prompt": "あなたは製造業の研究開発参謀です。{素材分野}{自社名}の技術資料から、AIで短縮できる実験・調査業務を5つ出してください。",
+      "roi": "技術調査を月10時間削減"
+    },
+    "icebreak": {
+      "hook": "NIMSと日本IBM、材料AIで組むそうです",
+      "punchline": "AIの活用先が、文章や画像から研究開発の土台づくりまで広がっていますね。",
+      "ctx_meeting": "研究開発DXの話で",
+      "ctx_chat": "技術ニュース雑談で",
+      "share_text": "NIMSと日本IBMが材料科学向けAI基盤で協業。AIは業務効率化だけでなく、研究開発そのものを底上げする基盤になっていくのかもしれない。"
+    }
   }
 ]

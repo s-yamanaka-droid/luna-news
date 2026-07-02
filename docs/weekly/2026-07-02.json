@@ -1,0 +1,41 @@
+{
+  "trend_summary": "高性能モデルは規制に揺れつつも、実務ツールへの組み込みが進みました。画像・Excel・広告・文書処理など、小規模事業者がすぐ試せる用途が増えています。今週は販促・経理・レビューの1業務にAIを入れる週です。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-07-02",
+      "title": "Google、高速・低コスト画像生成「Nano Banana 2 Lite」",
+      "category": "新モデル発表",
+      "source": "Gihyo.jp",
+      "why_picked": "販促画像を安く速く量産できる",
+      "tldr": "低コスト画像AIが実用化",
+      "action": "SNS画像を4案作る",
+      "image": "../assets/images/2026-07-02/topic_3.png",
+      "link": "../news/2026-07-02/#topic-3"
+    },
+    {
+      "rank": 2,
+      "date": "2026-07-02",
+      "title": "Anthropic旗艦「Claude Fable 5」利用再開、無料枠も",
+      "category": "新モデル発表",
+      "source": "Impress PC Watch",
+      "why_picked": "契約書や提案書の確認を時短できる",
+      "tldr": "Claude上位モデルが無料増枠",
+      "action": "契約書レビューに使う",
+      "image": "../assets/images/2026-07-02/topic_2.png",
+      "link": "../news/2026-07-02/#topic-2"
+    },
+    {
+      "rank": 3,
+      "date": "2026-06-30",
+      "title": "Excel Copilotに反復業務スキル追加",
+      "category": "ツール更新",
+      "source": "Gihyo.jp",
+      "why_picked": "月次・会計作業を型化しやすい",
+      "tldr": "Excel定型作業をAI化",
+      "action": "月次表を定型化する",
+      "image": "../assets/images/2026-06-30/topic_2.png",
+      "link": "../news/2026-06-30/#topic-2"
+    }
+  ]
+}
