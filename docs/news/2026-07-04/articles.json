@@ -22,7 +22,30 @@
     "links": [
       "https://ai.watch.impress.co.jp/docs/news/2122349.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI費用を棚卸し",
+      "tool": {
+        "name": "ChatGPT Plus",
+        "url": "https://chatgpt.com",
+        "cost": "約¥3,200/月"
+      },
+      "time": "30分",
+      "steps": [
+        "請求書を3か月分集める",
+        "AI関連費を表に抜く",
+        "削減案を3つ出させる"
+      ],
+      "prompt": "あなたは中小企業のAI予算担当です。{自社名}{業種}のクラウド/AI/GPU費用一覧を見て、削減余地、継続すべき支出、2027年までの予算案を表で出してください。",
+      "roi": "月1〜3万円の無駄費用発見"
+    },
+    "icebreak": {
+      "hook": "ソフトバンク、米国でAIの電力勝負に出るらしいですよ",
+      "punchline": "SB Neoで10ギガワット規模の計算資源を、大企業向けに出す構想です",
+      "ctx_meeting": "AI基盤提案の冒頭で",
+      "ctx_chat": "移動中の雑談で",
+      "share_text": "AIの競争ってモデルだけでなく、計算資源を誰が押さえるかの勝負になってきた。SB Neoの米国展開は、その流れをかなり象徴している気がします。"
+    }
   },
   {
     "title": "Cloudflare、AI巡回の管理機能を拡充",
@@ -48,7 +71,30 @@
       "https://blog.cloudflare.com/content-independence-day-ai-options/",
       "https://blog.cloudflare.com/making-ai-search-smarter/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI巡回を制御",
+      "tool": {
+        "name": "Cloudflare",
+        "url": "https://www.cloudflare.com",
+        "cost": "無料〜"
+      },
+      "time": "30分",
+      "steps": [
+        "自社サイトを登録する",
+        "AIボット設定を確認する",
+        "許可と遮断を決める"
+      ],
+      "prompt": "あなたはWeb集客コンサルです。{自社名}{業種}のサイトについて、AI検索に読ませるページ、遮断すべきページ、収益を守るルールを提案してください。",
+      "roi": "AI検索流入の取りこぼし防止"
+    },
+    "icebreak": {
+      "hook": "AIボット、全部ブロックの時代じゃないらしいです",
+      "punchline": "Cloudflareは一律遮断ではなく、AI検索で見つかる余地も残す管理に寄せています",
+      "ctx_meeting": "SEO相談の導入で",
+      "ctx_chat": "Web運用の雑談で",
+      "share_text": "AIボット対策は、拒否するだけだと発見される機会も失う。これからのサイト運営は、守る範囲と見せる範囲の設計が大事になりそうです。"
+    }
   },
   {
     "title": "GitHub Copilot、画像とPDF添付に対応",
@@ -73,7 +119,30 @@
     "links": [
       "https://codezine.jp/article/detail/28840"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "PDF仕様を読ませる",
+      "tool": {
+        "name": "GitHub Copilot",
+        "url": "https://github.com/features/copilot",
+        "cost": "約¥1,600/月〜"
+      },
+      "time": "20分",
+      "steps": [
+        "VS Codeを開く",
+        "仕様書PDFを添付する",
+        "改修範囲を質問する"
+      ],
+      "prompt": "あなたは経験豊富な開発見積担当です。{自社名}の{システム名}仕様書PDFを読み、必要な改修、影響範囲、概算工数、確認事項を表にしてください。",
+      "roi": "改修見積もりを50%短縮"
+    },
+    "icebreak": {
+      "hook": "Copilotに画像やPDFを投げられるようになりましたね",
+      "punchline": "仕様書や画面キャプチャを見せて相談できるので、開発支援が実務に近づきます",
+      "ctx_meeting": "開発効率化の話で",
+      "ctx_chat": "チーム内の雑談で",
+      "share_text": "開発の相談相手にコードだけでなく画像やPDFを渡せるのは大きい。説明の前処理が減るだけで、AIの使い方がかなり変わりそうです。"
+    }
   },
   {
     "title": "SORACOM、IoT構築AIエージェント開始",
@@ -98,7 +167,30 @@
     "links": [
       "https://gihyo.jp/article/2026/07/soracom-agent?utm_source=feed"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "現場通知を試作",
+      "tool": {
+        "name": "SORACOM",
+        "url": "https://soracom.jp",
+        "cost": "従量課金"
+      },
+      "time": "半日",
+      "steps": [
+        "監視したい設備を選ぶ",
+        "異常条件を文章化する",
+        "通知フローを設計する"
+      ],
+      "prompt": "あなたはIoT現場改善担当です。{自社名}{業種}の{設備名}について、取得すべきデータ、異常判定条件、通知先、初期検証手順を作ってください。",
+      "roi": "現場確認を月5時間削減"
+    },
+    "icebreak": {
+      "hook": "IoTも日本語で組める方向に来てますね",
+      "punchline": "SORACOM Agentは専門知識なしで、データ収集や通知の構成まで支援します",
+      "ctx_meeting": "現場DX提案の冒頭で",
+      "ctx_chat": "工場改善の雑談で",
+      "share_text": "IoTは専門家が設計するもの、という前提が少しずつ変わってきた。現場の人が自然言語で改善を指示できるなら、導入のハードルはかなり下がりそうです。"
+    }
   },
   {
     "title": "Claude Fable 5、提供再開と標準機能化へ",
@@ -124,7 +216,30 @@
       "https://www.itmedia.co.jp/aiplus/article/2607/03/2000000158/",
       "https://arstechnica.com/tech-policy/2026/07/after-spooking-trump-into-safety-testing-anthropic-ai-models-get-global-release/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "長文分析を任せる",
+      "tool": {
+        "name": "Claude Pro",
+        "url": "https://claude.ai",
+        "cost": "約¥3,200/月"
+      },
+      "time": "30分",
+      "steps": [
+        "長い資料を1本選ぶ",
+        "Claudeに貼り付ける",
+        "要点と施策を出させる"
+      ],
+      "prompt": "あなたは経営企画担当です。{自社名}{業種}のために、以下の長文資料を読み、重要論点、使える施策、明日やるべき3項目に整理してください。",
+      "roi": "調査・要約を70%短縮"
+    },
+    "icebreak": {
+      "hook": "Claude Fable 5、サブスク標準に戻る動きらしいです",
+      "punchline": "7月8日以降は従量課金方針ですが、標準機能化も早期復活を目指しています",
+      "ctx_meeting": "AI費用の相談で",
+      "ctx_chat": "AIツール雑談で",
+      "share_text": "AI機能は、使えるかどうかだけでなく料金体系の変化も見ておきたい。Claude Fable 5の再提供は、標準機能と従量課金の境目を考える材料になります。"
+    }
   },
   {
     "title": "AIフィッシング、件数減でも被害額3倍",
@@ -149,7 +264,30 @@
     "links": [
       "https://xtech.nikkei.com/atcl/nxt/mag/nc/18/052100113/063000189/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "偽メール訓練",
+      "tool": {
+        "name": "ChatGPT Plus",
+        "url": "https://chatgpt.com",
+        "cost": "約¥3,200/月"
+      },
+      "time": "20分",
+      "steps": [
+        "過去の請求メールを用意",
+        "偽メール例を作らせる",
+        "送金確認ルールを作る"
+      ],
+      "prompt": "あなたは中小企業のセキュリティ担当です。{自社名}{業種}向けに、AIフィッシング訓練用の偽メール3例と、経理の送金確認ルールを作ってください。",
+      "roi": "高額送金ミスの発生確率低減"
+    },
+    "icebreak": {
+      "hook": "フィッシング、件数減でも被害額は3倍らしいです",
+      "punchline": "生成AIで偽メールや偽サイトが巧妙化して、少ない攻撃でも被害が大きくなっています",
+      "ctx_meeting": "セキュリティ提案で",
+      "ctx_chat": "社内注意喚起で",
+      "share_text": "フィッシングは件数だけ見て安心できない。約20％減っても被害額が3倍なら、見るべき指標は量よりも一件あたりの精度かもしれません。"
+    }
   },
   {
     "title": "フィジカルAIで伊藤忠系3社が提携",
@@ -174,7 +312,30 @@
     "links": [
       "https://robotstart.info/article/2026/07/03/382109.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "省人化工程を整理",
+      "tool": {
+        "name": "Notion AI",
+        "url": "https://www.notion.so/product/ai",
+        "cost": "約¥1,600/月〜"
+      },
+      "time": "45分",
+      "steps": [
+        "手作業工程を書き出す",
+        "頻度と人数を入れる",
+        "自動化候補を並べる"
+      ],
+      "prompt": "あなたは製造・物流の省人化コンサルです。{自社名}{業種}の手作業工程一覧から、ロボット化しやすい順に、効果、難易度、初期検証を表で出してください。",
+      "roi": "省人化候補を半日で可視化"
+    },
+    "icebreak": {
+      "hook": "伊藤忠系3社、フィジカルAIで組むらしいですよ",
+      "punchline": "製造や物流の自動化を、設計から運用、人材育成までまとめて進める狙いです",
+      "ctx_meeting": "製造DX提案の冒頭で",
+      "ctx_chat": "物流の雑談で",
+      "share_text": "フィジカルAIは、単にロボットを入れる話ではなく、設計・運用・人材育成まで含む事業になってきた。伊藤忠系3社の提携はその象徴に見えます。"
+    }
   },
   {
     "title": "Claude Science、研究支援AIとして登場",
@@ -199,6 +360,29 @@
     "links": [
       "https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "研究資料を整理",
+      "tool": {
+        "name": "NotebookLM",
+        "url": "https://notebooklm.google.com",
+        "cost": "無料〜"
+      },
+      "time": "30分",
+      "steps": [
+        "論文PDFを3本入れる",
+        "要点を質問する",
+        "事業仮説を作らせる"
+      ],
+      "prompt": "あなたは研究開発支援AIです。{自社名}{業種}の{研究テーマ}について、投入資料から重要知見、未解決課題、事業化の仮説を整理してください。",
+      "roi": "文献整理を月10時間削減"
+    },
+    "icebreak": {
+      "hook": "Claude、創薬や希少疾患研究にも入り始めましたね",
+      "punchline": "Claude Scienceは高レベルの指示で、計算生物学や創薬の作業支援を狙っています",
+      "ctx_meeting": "研究DXの話題で",
+      "ctx_chat": "医療AIの雑談で",
+      "share_text": "研究支援AIは、論文検索だけでなく作業実行の方向に進んでいる。Claude Scienceが創薬や希少疾患研究に使われるなら、研究現場の分担も変わりそうです。"
+    }
   }
 ]

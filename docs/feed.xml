@@ -7,6 +7,13 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。毎朝6:30、AI業界ニュースを図解と「明日からできる活用法」で。</description>
   <language>ja</language>
   <item>
+    <title>2026-07-04 AI朝刊：ソフトバンク、米国でAIクラウド新会社 ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-07-04/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-04/</guid>
+    <pubDate>Sat, 04 Jul 2026 06:30:00 +0900</pubDate>
+    <description>ソフトバンク、米国でAIクラウド新会社／Cloudflare、AI巡回の管理機能を拡充／GitHub Copilot、画像とPDF添付に対応／SORACOM、IoT構築AIエージェント開始／Claude Fable 5、提供再開と標準機能化へ</description>
+  </item>
+  <item>
     <title>2026-07-03 AI朝刊：NEC、Anthropic提携でSI変革へ ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-07-03/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-03/</guid>
@@ -173,13 +180,6 @@
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-10/</guid>
     <pubDate>Wed, 10 Jun 2026 06:30:00 +0900</pubDate>
     <description>Apple、Siriを仕事横断AIへ刷新／Claude最上位級モデル、一般提供へ／NotebookLM、調査から資料化まで強化／JR東日本、窓口で音声AI実験／AI利用料、社員ごとに上限管理可能に</description>
-  </item>
-  <item>
-    <title>2026-06-09 AI朝刊：OpenAI、上場準備の書類を提出 ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-06-09/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-09/</guid>
-    <pubDate>Tue, 09 Jun 2026 06:30:00 +0900</pubDate>
-    <description>OpenAI、上場準備の書類を提出／Apple、Gemini軸のAI基盤を公開／Nvidia、韓国でAI工場構想拡大／neoAI Chat、Box連携を拡充／Claude Code狙うnpm攻撃に警戒</description>
   </item>
 </channel>
 </rss>

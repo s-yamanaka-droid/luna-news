@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週は、AIが試作から日々の定型業務へ降りてきた週です。画像、Excel、文書処理は小規模事業者でもすぐ費用対効果が出ます。一方でAI悪用も進み、守りの整備も必須です。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-06-30",
+      "title": "Excel Copilotに反復業務スキル追加",
+      "category": "ツール更新",
+      "source": "Gihyo.jp",
+      "why_picked": "経理の毎月作業をすぐ減らせる",
+      "tldr": "Excel定型作業をAI化",
+      "action": "月次表を1つ定型化",
+      "image": "../assets/images/2026-06-30/topic_2.png",
+      "link": "../news/2026-06-30/#topic-2"
+    },
+    {
+      "rank": 2,
+      "date": "2026-07-02",
+      "title": "Google、高速・低コスト画像生成「Nano Banana 2 Lite」",
+      "category": "新モデル発表",
+      "source": "Gihyo.jp",
+      "why_picked": "広告素材を安く早く量産できる",
+      "tldr": "画像制作が4秒級に",
+      "action": "SNS画像を4案作る",
+      "image": "../assets/images/2026-07-02/topic_3.png",
+      "link": "../news/2026-07-02/#topic-3"
+    },
+    {
+      "rank": 3,
+      "date": "2026-07-04",
+      "title": "AIフィッシング、件数減でも被害額3倍",
+      "category": "セキュリティ",
+      "source": "日経クロステック AI",
+      "why_picked": "少人数企業ほど一撃被害が重い",
+      "tldr": "AI詐欺の被害額急増",
+      "action": "偽メール訓練を1回行う",
+      "image": "../assets/images/2026-07-04/topic_6.png",
+      "link": "../news/2026-07-04/#topic-6"
+    }
+  ]
+}
