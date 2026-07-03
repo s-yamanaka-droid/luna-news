@@ -1,0 +1,204 @@
+[
+  {
+    "title": "ソフトバンク、米国でAIクラウド新会社",
+    "category": "業界動向",
+    "source": "AI Watch",
+    "lede": "ソフトバンクは米国にSB Neoを設立し、大企業向けAI計算資源の提供を2027年度に始める。",
+    "keypoints": [
+      "SB Neoを7月に米国設立",
+      "10ギガワット規模を計画",
+      "大企業向け計算資源を提供",
+      "日本のGPUクラウド知見を活用"
+    ],
+    "pull": "AI競争はモデルだけでなく、計算資源の確保競争に移った。",
+    "bizapp": {
+      "summary": "AI利用企業は計算資源の調達計画を早めに見直すべき",
+      "actions": [
+        "AWSやGPUクラウド費を棚卸し",
+        "生成AI基盤の外部調達を提案",
+        "2027年度前に予算化しないと遅れる"
+      ]
+    },
+    "links": [
+      "https://ai.watch.impress.co.jp/docs/news/2122349.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Cloudflare、AI巡回の管理機能を拡充",
+    "category": "政策・規制",
+    "source": "Cloudflare Blog",
+    "lede": "Cloudflareは全顧客向けに、AIによるサイト巡回を細かく管理する新オプションを提供する。",
+    "keypoints": [
+      "AIボット管理を全顧客に提供",
+      "一律遮断から細かな制御へ",
+      "AI検索時代の発見性に対応",
+      "サイト運営者の補償も論点"
+    ],
+    "pull": "AI検索時代は、読まれることと収益化が別問題になる。",
+    "bizapp": {
+      "summary": "自社サイトのAI流入ルールを決める時期",
+      "actions": [
+        "CloudflareでAI巡回設定を確認",
+        "メディア企業に権利管理を提案",
+        "放置すると流入と収益を同時に失う"
+      ]
+    },
+    "links": [
+      "https://blog.cloudflare.com/content-independence-day-ai-options/",
+      "https://blog.cloudflare.com/making-ai-search-smarter/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "GitHub Copilot、画像とPDF添付に対応",
+    "category": "ツール更新",
+    "source": "CodeZine",
+    "lede": "GitHub Copilot Visionが一般提供され、画像やPDFをCopilot Chatに直接添付できるようになった。",
+    "keypoints": [
+      "画像やPDFを直接添付",
+      "VS Codeなどで利用可能",
+      "全プランで自動有効化",
+      "企業版は約24時間保持"
+    ],
+    "pull": "開発相談はコードだけでなく、仕様書や画面を見せて進める形になる。",
+    "bizapp": {
+      "summary": "仕様書や画面を見せた開発支援に使える",
+      "actions": [
+        "CopilotでPDF仕様確認に使う",
+        "中小企業の改修見積もりに提案",
+        "画像共有ルール未整備だと情報管理で詰まる"
+      ]
+    },
+    "links": [
+      "https://codezine.jp/article/detail/28840"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "SORACOM、IoT構築AIエージェント開始",
+    "category": "ツール更新",
+    "source": "Gihyo.jp",
+    "lede": "ソラコムは、自然言語でIoT活用や現場改善を支援するSORACOM Agentを7月7日から提供する。",
+    "keypoints": [
+      "専門知識なしでIoT構成",
+      "音声や画面から指示可能",
+      "データ収集や通知を自動構成",
+      "現場ノウハウを記憶"
+    ],
+    "pull": "IoTは専門家が作るものから、現場が指示して組むものへ近づく。",
+    "bizapp": {
+      "summary": "現場の異常検知や自動通知づくりに使える",
+      "actions": [
+        "SORACOM Agentで設備監視を試す",
+        "製造業の現場DX提案に使う",
+        "早期検証しないと現場改善で差が出る"
+      ]
+    },
+    "links": [
+      "https://gihyo.jp/article/2026/07/soracom-agent?utm_source=feed"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Claude Fable 5、提供再開と標準機能化へ",
+    "category": "新モデル発表",
+    "source": "ITmedia AI+ / Ars Technica",
+    "lede": "AnthropicはClaude Fable 5の再提供を進め、サブスク標準機能としての早期復活も目指している。",
+    "keypoints": [
+      "Fable 5の提供再開を発表",
+      "サブスク標準機能化を目指す",
+      "7月8日以降は従量課金方針",
+      "輸出制限は解除された"
+    ],
+    "pull": "高性能AIは、性能だけでなく提供条件の変化も業務影響になる。",
+    "bizapp": {
+      "summary": "重い分析や文書作業のAI化計画を見直せる",
+      "actions": [
+        "Claudeで長文分析業務を検証",
+        "企画部門の調査短縮を提案",
+        "料金変更前提で利用範囲を決める"
+      ]
+    },
+    "links": [
+      "https://www.itmedia.co.jp/aiplus/article/2607/03/2000000158/",
+      "https://arstechnica.com/tech-policy/2026/07/after-spooking-trump-into-safety-testing-anthropic-ai-models-get-global-release/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AIフィッシング、件数減でも被害額3倍",
+    "category": "セキュリティ",
+    "source": "日経クロステック AI",
+    "lede": "生成AIでフィッシングのハードルが下がる中、件数は約20％減った一方で被害額は3倍になった。",
+    "keypoints": [
+      "生成AIで攻撃が巧妙化",
+      "件数は約20％減少",
+      "被害額は3倍に拡大",
+      "偽メールや偽サイトが脅威"
+    ],
+    "pull": "攻撃数ではなく、1件あたりの被害の重さを見る必要がある。",
+    "bizapp": {
+      "summary": "メール訓練と決裁フロー見直しに使うべき",
+      "actions": [
+        "セキュリティ訓練で偽メール対策",
+        "経理向け送金確認ルールを提案",
+        "放置すると少数被害でも損失が大きい"
+      ]
+    },
+    "links": [
+      "https://xtech.nikkei.com/atcl/nxt/mag/nc/18/052100113/063000189/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "フィジカルAIで伊藤忠系3社が提携",
+    "category": "業界動向",
+    "source": "ロボスタ",
+    "lede": "CTC、伊藤忠商事、豆蔵はフィジカルAI分野で業務提携し、社会実装と新規事業創出を進める。",
+    "keypoints": [
+      "3社が業務提携を締結",
+      "製造や物流の自動化に対応",
+      "設計から運用まで支援",
+      "AI人材育成も柱に"
+    ],
+    "pull": "現場AIは単体技術ではなく、営業・実装・人材育成の総力戦になる。",
+    "bizapp": {
+      "summary": "製造・物流現場の自動化提案に使える",
+      "actions": [
+        "ロボット導入工程をNotionで整理",
+        "物流会社へ省人化診断を提案",
+        "人手不足対策を先送りすると現場が詰まる"
+      ]
+    },
+    "links": [
+      "https://robotstart.info/article/2026/07/03/382109.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Claude Science、研究支援AIとして登場",
+    "category": "研究",
+    "source": "MIT Tech Review AI",
+    "lede": "Anthropicは、計算生物学や創薬研究に役立つ新製品Claude Scienceを有料契約者向けに提供する。",
+    "keypoints": [
+      "研究支援向け新製品",
+      "高レベル指示で作業を実行",
+      "計算生物学や創薬に対応",
+      "希少疾患研究にも活用予定"
+    ],
+    "pull": "AIエージェントは、開発支援から専門研究の実務支援へ広がる。",
+    "bizapp": {
+      "summary": "研究開発部門の調査や解析支援に使える",
+      "actions": [
+        "NotebookLMで研究資料を整理",
+        "製薬向け研究DXを提案",
+        "専門職のAI活用設計を急がないと遅れる"
+      ]
+    },
+    "links": [
+      "https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/"
+    ],
+    "likes": 0
+  }
+]
