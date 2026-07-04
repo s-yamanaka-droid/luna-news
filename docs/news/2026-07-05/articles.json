@@ -22,7 +22,30 @@
     "links": [
       "https://www.bloomberg.com/news/articles/2026-07-04/micron-breaks-ground-on-9-billion-western-japan-plant-expansion"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI投資表を更新",
+      "tool": {
+        "name": "ChatGPT Plus",
+        "url": "https://chatgpt.com",
+        "cost": "約¥3,000/月"
+      },
+      "time": "30分",
+      "steps": [
+        "AI関連支出を一覧化する",
+        "供給遅延リスクを足す",
+        "来期予算案を見直す"
+      ],
+      "prompt": "あなたは中小企業のAI投資顧問です。{自社名}{業種}のAI導入計画に、半導体供給遅延リスクを織り込んだ予算表と優先順位を作ってください。",
+      "roi": "無駄なAI投資を月5万円分回避"
+    },
+    "icebreak": {
+      "hook": "マイクロン、日本に1.5兆円投じるらしいですよ",
+      "punchline": "AIってアプリより先に、メモリと工場の取り合いになってきましたね。",
+      "ctx_meeting": "AI基盤投資の話題で",
+      "ctx_chat": "移動中の経済雑談",
+      "share_text": "AIの話をするとモデル名に目が行きがちだけど、マイクロンの日本1.5兆円投資を見ると、勝負はメモリと工場にも移っていると感じる。"
+    }
   },
   {
     "title": "米AI規制、競争優先の最小介入へ",
@@ -48,7 +71,30 @@
       "https://www.itmedia.co.jp/aiplus/article/2607/04/2000000159/",
       "https://vercel.com/changelog/claude-fable-5-access-restored-on-ai-gateway"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI代替表を作る",
+      "tool": {
+        "name": "Claude Pro",
+        "url": "https://claude.ai",
+        "cost": "約¥3,000/月"
+      },
+      "time": "30分",
+      "steps": [
+        "利用中AIを列挙する",
+        "代替候補を3つ探す",
+        "停止時の手順を書く"
+      ],
+      "prompt": "あなたはAIリスク管理者です。{自社名}{業種}が使う{AIサービス名}について、規制変更時の代替ツール、停止時手順、顧客説明文を作ってください。",
+      "roi": "AI停止時の復旧を半日短縮"
+    },
+    "icebreak": {
+      "hook": "米国、AI規制より中国競争を優先するらしいですよ",
+      "punchline": "安全を捨てる話ではなく、開発速度を落とさない制度設計に寄せている感じです。",
+      "ctx_meeting": "海外AI規制の話で",
+      "ctx_chat": "ニュース談義の流れで",
+      "share_text": "AI規制は「締めるか緩めるか」だけで見がちだけど、米国は中国との開発競争をかなり強く意識している。制度も競争力の一部になってきた。"
+    }
   },
   {
     "title": "製造AIのデータ拠点、東海で始動へ",
@@ -73,7 +119,30 @@
     "links": [
       "https://robotstart.info/article/2026/07/03/382107.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "現場作業を資産化",
+      "tool": {
+        "name": "Notion AI",
+        "url": "https://www.notion.com/product/ai",
+        "cost": "約¥1,600/月"
+      },
+      "time": "半日",
+      "steps": [
+        "作業工程を10個書く",
+        "写真や記録を集める",
+        "AI化候補を選ぶ"
+      ],
+      "prompt": "あなたは製造業の現場改善コンサルです。{自社名}{業種}の{工程名}について、収集すべき作業データ、AI活用案、最初の実験手順を整理してください。",
+      "roi": "改善対象選定を月8時間削減"
+    },
+    "icebreak": {
+      "hook": "製造AIのデータ拠点、東海で動くらしいですよ",
+      "punchline": "ロボットAIは、モデルより先に現場データをどう集めるかが勝負になりそうです。",
+      "ctx_meeting": "製造業DX提案の冒頭で",
+      "ctx_chat": "工場・地域経済の話で",
+      "share_text": "製造AIはソフトの話だけでは終わらない。東海で現場データを集める拠点が動くなら、ロボットAIの競争は工場の中から始まるのだと思う。"
+    }
   },
   {
     "title": "スマートニュース、全社AI変革組織を新設",
@@ -98,7 +167,30 @@
     "links": [
       "https://ai.watch.impress.co.jp/docs/news/2122297.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "社内AIルール化",
+      "tool": {
+        "name": "Notion AI",
+        "url": "https://www.notion.com/product/ai",
+        "cost": "約¥1,600/月"
+      },
+      "time": "1時間",
+      "steps": [
+        "AI利用業務を洗い出す",
+        "禁止事項を決める",
+        "共通プロンプトを置く"
+      ],
+      "prompt": "あなたは小規模会社のAI推進責任者です。{自社名}{業種}向けに、AI利用ルール、権限管理、社員が使う共通プロンプト集を作ってください。",
+      "roi": "属人化したAI利用を月10時間削減"
+    },
+    "icebreak": {
+      "hook": "スマートニュース、AI専門組織を作ったそうです",
+      "punchline": "個人のAI活用ではなく、認証や権限まで含めて会社の基盤にしにいっていますね。",
+      "ctx_meeting": "全社AI導入提案で",
+      "ctx_chat": "社内AI活用の雑談で",
+      "share_text": "AI活用は「便利ツールを各自で使う」段階から、認証・権限・業務エージェントを会社で整える段階に入っている。スマートニュースの動きはかなり象徴的。"
+    }
   },
   {
     "title": "Devin、AIで脆弱性検出と修正へ",
@@ -123,7 +215,30 @@
     "links": [
       "https://codezine.jp/article/detail/28843"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "保守リポ診断",
+      "tool": {
+        "name": "GitHub Copilot",
+        "url": "https://github.com/features/copilot",
+        "cost": "約¥1,600/月"
+      },
+      "time": "1時間",
+      "steps": [
+        "重要リポを1つ選ぶ",
+        "脆弱性観点で読ませる",
+        "修正PR案を作らせる"
+      ],
+      "prompt": "あなたはWebアプリのセキュリティレビュアーです。{自社名}の{リポジトリ概要}について、攻撃されやすい箇所、再現手順、修正方針を出してください。",
+      "roi": "初期診断を外注前に5万円分削減"
+    },
+    "icebreak": {
+      "hook": "Devin、脆弱性の修正案まで作るそうです",
+      "punchline": "見つけるだけでなく、攻撃可能性の検証とプルリク作成まで進むのが大きいですね。",
+      "ctx_meeting": "開発体制の相談で",
+      "ctx_chat": "エンジニアとの雑談で",
+      "share_text": "セキュリティAIは、検出で終わると現場の仕事が増える。Devinのように再現確認から修正プルリクまで行くなら、開発フローそのものが変わりそう。"
+    }
   },
   {
     "title": "ソラコム、IoT通話をAI応答へ接続",
@@ -148,7 +263,30 @@
     "links": [
       "https://ai.watch.impress.co.jp/docs/news/2122272.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "夜間受付をAI化",
+      "tool": {
+        "name": "SORACOM",
+        "url": "https://soracom.jp",
+        "cost": "従量課金"
+      },
+      "time": "半日",
+      "steps": [
+        "夜間問い合わせを集める",
+        "一次回答文を作る",
+        "転送先ルールを決める"
+      ],
+      "prompt": "あなたは現場サポート設計者です。{自社名}{業種}の{問い合わせ内容}について、AI一次受付の回答文、有人転送条件、記録項目を作ってください。",
+      "roi": "夜間一次対応を月20時間削減"
+    },
+    "icebreak": {
+      "hook": "IoT機器の通話、AI受付につながるそうです",
+      "punchline": "機器からの音声をそのままAIやコールセンターに渡せると、遠隔サポートが変わりますね。",
+      "ctx_meeting": "IoT提案の導入で",
+      "ctx_chat": "現場サポートの話で",
+      "share_text": "IoTはデータ送信の印象が強いけど、音声通話がAI受付やコールセンターにつながると、現場の遠隔サポートがかなり実用寄りになる。"
+    }
   },
   {
     "title": "Copilot、AI利用額に上限設定可能に",
@@ -173,7 +311,30 @@
     "links": [
       "https://codezine.jp/article/detail/28844"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI予算を上限化",
+      "tool": {
+        "name": "GitHub Copilot",
+        "url": "https://github.com/features/copilot",
+        "cost": "約¥1,600/月"
+      },
+      "time": "30分",
+      "steps": [
+        "月のAI予算を決める",
+        "上限付き作業を試す",
+        "消費ログを確認する"
+      ],
+      "prompt": "あなたは開発会社のAI予算管理者です。{自社名}の{開発業務}で、AI利用上限、利用ルール、超過時の停止基準を作ってください。",
+      "roi": "想定外のAI請求を月1万円抑制"
+    },
+    "icebreak": {
+      "hook": "Copilot、AI利用額に上限を付けられるそうです",
+      "punchline": "使いすぎを防げるだけでなく、AIを業務費用として管理しやすくなりますね。",
+      "ctx_meeting": "開発コスト管理の話で",
+      "ctx_chat": "AI料金の雑談で",
+      "share_text": "AI開発ツールは便利さだけでなく、いくら使ったかを管理できることが大事になってきた。Copilotのセッション単位上限は、現場導入の安心材料になりそう。"
+    }
   },
   {
     "title": "書籍Q&AのBookleverage、1億円調達",
@@ -198,6 +359,29 @@
     "links": [
       "https://thebridge.jp/2026/06/qureka-raises-100-million-yen-for-bookleverage"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "本を研修Q&A化",
+      "tool": {
+        "name": "Claude Pro",
+        "url": "https://claude.ai",
+        "cost": "約¥3,000/月"
+      },
+      "time": "1時間",
+      "steps": [
+        "研修本を1冊選ぶ",
+        "章ごとに要点を書く",
+        "社内Q&Aを作る"
+      ],
+      "prompt": "あなたは社内研修設計者です。{自社名}{業種}の社員向けに、{書籍名}の要点を使ったQ&A、確認テスト、実務への活用例を作ってください。",
+      "roi": "研修資料作成を70%短縮"
+    },
+    "icebreak": {
+      "hook": "正規書籍だけ使うAI Q&Aが1億円調達したそうです",
+      "punchline": "AI回答の価値は、何を知っているかより、どの情報源を使ったかに移ってきていますね。",
+      "ctx_meeting": "知識管理の提案で",
+      "ctx_chat": "読書・AIの話で",
+      "share_text": "生成AIの回答は便利だけど、根拠の出どころが気になる。正規書籍データだけを使い、出版社への還元も組むサービスは、知識の扱い方として面白い。"
+    }
   }
 ]

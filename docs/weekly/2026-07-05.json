@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週はAIが日常業務の中に入り込む実用フェーズが進みました。画像・広告・Excelなど、小規模事業者でもすぐ費用対効果を出しやすい更新が目立ちます。まずは売上直結と定型作業削減から試すのが現実的です。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-07-01",
+      "title": "Google、低コスト画像AIを公開",
+      "category": "ツール更新",
+      "source": "Google DeepMind Blog",
+      "why_picked": "広告素材を低コストで即量産できる",
+      "tldr": "広告画像を安く速く作れる",
+      "action": "商品画像を3案試作する",
+      "image": "../assets/images/2026-07-01/topic_4.png",
+      "link": "../news/2026-07-01/#topic-4"
+    },
+    {
+      "rank": 2,
+      "date": "2026-06-30",
+      "title": "Excel Copilotに反復業務スキル追加",
+      "category": "ツール更新",
+      "source": "Gihyo.jp",
+      "why_picked": "月次集計や経理の手戻りを減らせる",
+      "tldr": "Excel定型作業をAI化",
+      "action": "月次表の手順を1つ登録",
+      "image": "../assets/images/2026-06-30/topic_2.png",
+      "link": "../news/2026-06-30/#topic-2"
+    },
+    {
+      "rank": 3,
+      "date": "2026-07-01",
+      "title": "Google広告の相談AI、国内でも試用可能",
+      "category": "ツール更新",
+      "source": "NRIネットコム Blog",
+      "why_picked": "広告改善の仮説出しをすぐ任せられる",
+      "tldr": "広告運用をAIに相談",
+      "action": "今月の広告改善案を聞く",
+      "image": "../assets/images/2026-07-01/topic_7.png",
+      "link": "../news/2026-07-01/#topic-7"
+    }
+  ]
+}

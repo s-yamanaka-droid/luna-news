@@ -7,6 +7,13 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。毎朝6:30、AI業界ニュースを図解と「明日からできる活用法」で。</description>
   <language>ja</language>
   <item>
+    <title>2026-07-05 AI朝刊：マイクロン、日本で先端メモリ増産へ ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-07-05/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-05/</guid>
+    <pubDate>Sun, 05 Jul 2026 06:30:00 +0900</pubDate>
+    <description>マイクロン、日本で先端メモリ増産へ／米AI規制、競争優先の最小介入へ／製造AIのデータ拠点、東海で始動へ／スマートニュース、全社AI変革組織を新設／Devin、AIで脆弱性検出と修正へ</description>
+  </item>
+  <item>
     <title>2026-07-04 AI朝刊：ソフトバンク、米国でAIクラウド新会社 ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-07-04/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-04/</guid>
@@ -173,13 +180,6 @@
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-11/</guid>
     <pubDate>Thu, 11 Jun 2026 06:30:00 +0900</pubDate>
     <description>ChatGPT無料版に広告表示へ／Claude新モデル、一般提供開始／NTTら、AI基盤ファンド創設／JR東日本、窓口に生成AI導入へ／大阪ガス、AI軸にIT変革へ</description>
-  </item>
-  <item>
-    <title>2026-06-10 AI朝刊：Apple、Siriを仕事横断AIへ刷新 ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-06-10/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-10/</guid>
-    <pubDate>Wed, 10 Jun 2026 06:30:00 +0900</pubDate>
-    <description>Apple、Siriを仕事横断AIへ刷新／Claude最上位級モデル、一般提供へ／NotebookLM、調査から資料化まで強化／JR東日本、窓口で音声AI実験／AI利用料、社員ごとに上限管理可能に</description>
   </item>
 </channel>
 </rss>
