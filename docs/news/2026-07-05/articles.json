@@ -1,0 +1,203 @@
+[
+  {
+    "title": "マイクロン、日本で先端メモリ増産へ",
+    "category": "業界動向",
+    "source": "Bloomberg Technology",
+    "lede": "Micronが西日本工場の拡張に着工し、先端メモリチップ生産へ1.5兆円規模を投じる。",
+    "keypoints": [
+      "西日本工場の拡張に着工",
+      "投資額は1.5兆円規模",
+      "先端メモリチップを生産",
+      "日本のAI基盤強化に直結"
+    ],
+    "pull": "AI競争はモデルだけでなく、半導体の供給力でも決まる。",
+    "bizapp": {
+      "summary": "AI投資計画の前提に半導体供給リスクを織り込める",
+      "actions": [
+        "NotionでAI投資計画を更新",
+        "製造業向け調達リスク提案",
+        "来期予算前に供給計画を見直す"
+      ]
+    },
+    "links": [
+      "https://www.bloomberg.com/news/articles/2026-07-04/micron-breaks-ground-on-9-billion-western-japan-plant-expansion"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "米AI規制、競争優先の最小介入へ",
+    "category": "政策・規制",
+    "source": "ITmedia AI+ / Vercel Blog",
+    "lede": "トランプ米大統領はAI規制を最小限に抑え、中国との開発競争を優先する姿勢を改めて示した。",
+    "keypoints": [
+      "AI市場はネットより大きい",
+      "規制より中国競争を優先",
+      "Claude Fable 5規制は解除",
+      "安全分類器は強化済み"
+    ],
+    "pull": "米国のAI政策は、安全管理と競争優先の間で揺れている。",
+    "bizapp": {
+      "summary": "海外AIサービス利用時の規制変更リスクを管理できる",
+      "actions": [
+        "Vercel AI Gatewayで代替設定",
+        "SaaS導入先に継続性診断を提案",
+        "規制解除後も代替モデルを準備"
+      ]
+    },
+    "links": [
+      "https://www.itmedia.co.jp/aiplus/article/2607/04/2000000159/",
+      "https://vercel.com/changelog/claude-fable-5-access-restored-on-ai-gateway"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "製造AIのデータ拠点、東海で始動へ",
+    "category": "業界動向",
+    "source": "ロボスタ",
+    "lede": "トロンが製造業向けフィジカルAIのデータ収集センターに中核技術パートナーとして参画する。",
+    "keypoints": [
+      "2026年12月稼働を目指す",
+      "製造現場データを収集",
+      "ロボットAIの検証を支援",
+      "GENIAC補助事業に採択"
+    ],
+    "pull": "製造業AIは、現場データを集められる企業から実装が進む。",
+    "bizapp": {
+      "summary": "工場の作業データをAI活用資産に変えられる",
+      "actions": [
+        "Obsidianで現場タスクを整理",
+        "中小工場へ検査自動化を提案",
+        "今冬までに対象工程を選ぶ"
+      ]
+    },
+    "links": [
+      "https://robotstart.info/article/2026/07/03/382107.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "スマートニュース、全社AI変革組織を新設",
+    "category": "業界動向",
+    "source": "AI Watch",
+    "lede": "スマートニュースはAI前提の会社運営へ、全社共通のAI活用基盤を整える新組織を設立した。",
+    "keypoints": [
+      "AI変革の専門組織を設立",
+      "認証や権限管理も整備",
+      "業務エージェントを共通化",
+      "Claude Code環境も整える"
+    ],
+    "pull": "AI活用は個人任せから、会社の基盤づくりへ移っている。",
+    "bizapp": {
+      "summary": "社内AI導入を部署横断の基盤整備として進められる",
+      "actions": [
+        "NotionでAI利用ルールを整備",
+        "中小企業へAI推進室を提案",
+        "個人任せでは管理コストが増える"
+      ]
+    },
+    "links": [
+      "https://ai.watch.impress.co.jp/docs/news/2122297.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Devin、AIで脆弱性検出と修正へ",
+    "category": "セキュリティ",
+    "source": "CodeZine",
+    "lede": "Cognitionは複数AIエージェントでコードを解析し、脆弱性の再現と修正案作成まで行うツールを発表した。",
+    "keypoints": [
+      "複数AIがコードを並列解析",
+      "攻撃可能性を実行時に検証",
+      "修正プルリクも自動生成",
+      "企業向け支援も提供"
+    ],
+    "pull": "セキュリティ診断は、検出だけでなく修正まで自動化へ向かう。",
+    "bizapp": {
+      "summary": "開発現場の脆弱性対応を検出から修正まで短縮できる",
+      "actions": [
+        "Devinで重要リポジトリを診断",
+        "受託開発先へ保守診断を提案",
+        "放置すると修正待ちが積み上がる"
+      ]
+    },
+    "links": [
+      "https://codezine.jp/article/detail/28843"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "ソラコム、IoT通話をAI応答へ接続",
+    "category": "ツール更新",
+    "source": "AI Watch",
+    "lede": "ソラコムはIoT機器の音声通話やメッセージをAI応答やコールセンターに接続する新機能を発表した。",
+    "keypoints": [
+      "提供開始日は7月7日",
+      "VoLTE音声を外部へ転送",
+      "AIの一次受付に対応",
+      "遠隔サポート用途を想定"
+    ],
+    "pull": "現場機器の声を、AI受付や担当者対応につなげられる。",
+    "bizapp": {
+      "summary": "現場の問い合わせや異常通報をAI一次対応に使える",
+      "actions": [
+        "SORACOMで遠隔受付を試す",
+        "介護施設へ呼び出しDXを提案",
+        "有人対応だけでは夜間対応を失う"
+      ]
+    },
+    "links": [
+      "https://ai.watch.impress.co.jp/docs/news/2122272.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Copilot、AI利用額に上限設定可能に",
+    "category": "ツール更新",
+    "source": "CodeZine",
+    "lede": "GitHub Copilot CLIとSDKで、1セッションごとのAIクレジット使用上限を設定できるようになった。",
+    "keypoints": [
+      "セッション単位で上限設定",
+      "意図しない消費を防止",
+      "モデル呼び出しも追跡",
+      "パブリックプレビュー提供"
+    ],
+    "pull": "AIエージェント運用は、成果だけでなく予算管理が前提になる。",
+    "bizapp": {
+      "summary": "開発AIの使い過ぎを防ぎながら自動化を進められる",
+      "actions": [
+        "Copilot CLIで上限を設定",
+        "開発会社へAI予算管理を提案",
+        "上限なしでは請求超過を招く"
+      ]
+    },
+    "links": [
+      "https://codezine.jp/article/detail/28844"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "書籍Q&AのBookleverage、1億円調達",
+    "category": "業界動向",
+    "source": "BRIDGE",
+    "lede": "Qurekaは正規書籍データを使う生成AI Q&Aサービスの拡大に向け、1億円を調達した。",
+    "keypoints": [
+      "正規書籍データだけを使用",
+      "書籍知識をQ&Aで活用",
+      "学習には使わない設計",
+      "出版社への収益還元も組む"
+    ],
+    "pull": "著作権に配慮したAI知識活用が、法人研修に広がり始めた。",
+    "bizapp": {
+      "summary": "社内研修や専門知識共有を権利配慮型AIで進められる",
+      "actions": [
+        "Bookleverageで研修資料をQ&A化",
+        "人材育成会社へ研修DXを提案",
+        "無許諾AI利用は信用を失う"
+      ]
+    },
+    "links": [
+      "https://thebridge.jp/2026/06/qureka-raises-100-million-yen-for-bookleverage"
+    ],
+    "likes": 0
+  }
+]
