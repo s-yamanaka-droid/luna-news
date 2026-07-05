@@ -1,0 +1,202 @@
+[
+  {
+    "title": "マイクロン、広島にAIメモリ大型投資",
+    "category": "業界動向",
+    "source": "ITmedia AI+",
+    "lede": "マイクロンがAI需要に対応し、広島工場の生産能力増強へ1.5兆円を投じる。",
+    "keypoints": [
+      "広島工場で起工式を開催",
+      "AIでメモリ需要が増加",
+      "投資額は1兆5000億円",
+      "装置搬入は2028年後半予定"
+    ],
+    "pull": "AI普及はソフトだけでなく半導体供給網も動かす。",
+    "bizapp": {
+      "summary": "AI投資計画の前提に半導体供給を織り込める",
+      "actions": [
+        "NotionでAI調達計画を整理",
+        "製造業に供給網リスク診断を提案",
+        "来期投資前に調達余力を確認"
+      ]
+    },
+    "links": [
+      "https://eetimes.itmedia.co.jp/ee/articles/2607/06/news047.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "商船三井、船舶運航にAI判断支援",
+    "category": "業界動向",
+    "source": "AI Watch (Impress)",
+    "lede": "日本IBMと商船三井が、船舶運航情報を統合し安全判断を支えるAI基盤を共同開発した。",
+    "keypoints": [
+      "7月1日から運用開始",
+      "気象や航行情報を統合",
+      "生成AIがリスクを抽出",
+      "船長経験者の知見も活用"
+    ],
+    "pull": "現場の経験とAI分析を組み合わせる実装が進む。",
+    "bizapp": {
+      "summary": "現場判断をAIで早く正確にする事例として使える",
+      "actions": [
+        "IBM Garageで業務判断を設計",
+        "物流会社に安全運航DXを提案",
+        "事故前対応を遅らせる損失を防ぐ"
+      ]
+    },
+    "links": [
+      "https://ai.watch.impress.co.jp/docs/news/2122229.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Copilot CLI、個人トークン不要に",
+    "category": "セキュリティ",
+    "source": "CodeZine",
+    "lede": "GitHub Actions上のCopilot CLIで、個人用アクセストークンの作成や保管が不要になった。",
+    "keypoints": [
+      "GITHUB_TOKENで認証可能",
+      "組織リポジトリで利用",
+      "AI費用は組織に直接課金",
+      "上限設定や監視も用意"
+    ],
+    "pull": "AI開発の便利さと認証リスクの削減が同時に進む。",
+    "bizapp": {
+      "summary": "開発現場のAI利用を安全に組織管理できる",
+      "actions": [
+        "GitHub Actionsの認証を見直す",
+        "開発会社にAI運用統制を提案",
+        "個人トークン放置の漏えいを防ぐ"
+      ]
+    },
+    "links": [
+      "https://codezine.jp/article/detail/28855"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AWS、S3にAI向け注釈機能",
+    "category": "ツール更新",
+    "source": "InfoQ AI/ML",
+    "lede": "AWSがS3上のデータに要約や分類など検索可能な文脈を付けるS3 Annotationsを発表した。",
+    "keypoints": [
+      "S3オブジェクトに注釈付与",
+      "要約や分類を直接管理",
+      "注釈だけ更新できる",
+      "AIエージェントが探しやすい"
+    ],
+    "pull": "AI活用ではデータ本体だけでなく文脈管理が価値になる。",
+    "bizapp": {
+      "summary": "社内データをAIが探しやすい形に整えられる",
+      "actions": [
+        "Amazon S3で資料分類を整備",
+        "中小企業に文書検索基盤を提案",
+        "整理不足ならAI活用が進まない"
+      ]
+    },
+    "links": [
+      "https://www.infoq.com/news/2026/07/aws-s3-annotations/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "3D CADから組立手順書をAI作成",
+    "category": "ツール更新",
+    "source": "MONOist (製造業AI/DX)",
+    "lede": "Sceneが3D CADデータからM-BOMと組立手順書を作成するAI機能を披露した。",
+    "keypoints": [
+      "3D Docs AIを披露",
+      "3D CADデータを活用",
+      "M-BOM作成に対応",
+      "組立手順書も作成可能"
+    ],
+    "pull": "設計データが現場文書までつながると製造DXは加速する。",
+    "bizapp": {
+      "summary": "製造現場の手順書作成時間を減らせる",
+      "actions": [
+        "3D Docs AIで手順書を試作",
+        "町工場に組立文書DXを提案",
+        "属人化を放置すると引継ぎが遅れる"
+      ]
+    },
+    "links": [
+      "https://monoist.itmedia.co.jp/mn/articles/2607/06/news026.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Claude、Microsoft基盤で正式提供",
+    "category": "政策・規制",
+    "source": "InfoQ AI/ML",
+    "lede": "ClaudeがMicrosoft Foundryで一般提供となった一方、欧州企業は展開できない制約が示された。",
+    "keypoints": [
+      "ClaudeがFoundryで一般提供",
+      "Azure認証や請求に対応",
+      "既存Azure契約を消化",
+      "欧州企業は展開不可"
+    ],
+    "pull": "AIモデル選定は性能だけでなく地域制約の確認が必須になる。",
+    "bizapp": {
+      "summary": "海外拠点を含むAI導入計画の確認に使える",
+      "actions": [
+        "Microsoft Foundryの提供条件を確認",
+        "海外展開企業にAI調達診断を提案",
+        "地域制約を見落とすと導入が止まる"
+      ]
+    },
+    "links": [
+      "https://www.infoq.com/news/2026/07/claude-foundry-ga-europe/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "ローカルAIアプリ、端末内処理を強化",
+    "category": "ツール更新",
+    "source": "AI Watch (Impress)",
+    "lede": "iPhone/iPad用LocaNecoが更新され、文書作成や画像生成を端末内で進められるようになった。",
+    "keypoints": [
+      "7月2日にアップデート",
+      "外部サーバーに送らない",
+      "複数の軽量AIを選択",
+      "出典つき回答にも対応"
+    ],
+    "pull": "機密情報を扱うAI活用では端末内処理が選択肢になる。",
+    "bizapp": {
+      "summary": "外部送信しにくい業務文書の下書きに使える",
+      "actions": [
+        "LocaNecoで機密文書を要約",
+        "士業や医療に端末内AIを提案",
+        "機密文書の外部送信リスクを減らす"
+      ]
+    },
+    "links": [
+      "https://ai.watch.impress.co.jp/docs/news/2122234.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "北朝鮮系npm、開発者情報を窃取",
+    "category": "セキュリティ",
+    "source": "The Hacker News",
+    "lede": "北朝鮮と関連する攻撃者が、Rollup関連ツールを装う悪意あるnpmパッケージで情報窃取を狙った。",
+    "keypoints": [
+      "悪意あるnpmパッケージ",
+      "Rollup関連ツールを偽装",
+      "遠隔アクセスを可能に",
+      "開発者の秘密情報を窃取"
+    ],
+    "pull": "AI時代の開発効率化は依存パッケージ管理の弱さも突く。",
+    "bizapp": {
+      "summary": "開発チームの依存パッケージ監査に使える",
+      "actions": [
+        "GitHubで依存関係を点検",
+        "制作会社に供給網監査を提案",
+        "放置すると顧客情報流出に直結"
+      ]
+    },
+    "links": [
+      "https://thehackernews.com/2026/07/north-korea-linked-npm-packages-mimic.html"
+    ],
+    "likes": 0
+  }
+]
