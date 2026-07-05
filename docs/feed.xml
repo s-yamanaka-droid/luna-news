@@ -7,6 +7,13 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。毎朝6:30、AI業界ニュースを図解と「明日からできる活用法」で。</description>
   <language>ja</language>
   <item>
+    <title>2026-07-06 AI朝刊：マイクロン、広島にAIメモリ大型投資 ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-07-06/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-06/</guid>
+    <pubDate>Mon, 06 Jul 2026 06:30:00 +0900</pubDate>
+    <description>マイクロン、広島にAIメモリ大型投資／商船三井、船舶運航にAI判断支援／Copilot CLI、個人トークン不要に／AWS、S3にAI向け注釈機能／3D CADから組立手順書をAI作成</description>
+  </item>
+  <item>
     <title>2026-07-05 AI朝刊：マイクロン、日本で先端メモリ増産へ ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-07-05/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-05/</guid>
@@ -173,13 +180,6 @@
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-12/</guid>
     <pubDate>Fri, 12 Jun 2026 06:30:00 +0900</pubDate>
     <description>Claude、国内金融大手で共同活用へ／日立とGoogle Cloud、現場AIを拡大／AIエージェント決済、VisaとOpenAIが提携／OpenAI、Ona買収でCodexを強化／OpenAIモデル、Amazon Bedrockで一般提供</description>
-  </item>
-  <item>
-    <title>2026-06-11 AI朝刊：ChatGPT無料版に広告表示へ ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-06-11/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-11/</guid>
-    <pubDate>Thu, 11 Jun 2026 06:30:00 +0900</pubDate>
-    <description>ChatGPT無料版に広告表示へ／Claude新モデル、一般提供開始／NTTら、AI基盤ファンド創設／JR東日本、窓口に生成AI導入へ／大阪ガス、AI軸にIT変革へ</description>
   </item>
 </channel>
 </rss>

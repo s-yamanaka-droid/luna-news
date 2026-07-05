@@ -22,7 +22,30 @@
     "links": [
       "https://eetimes.itmedia.co.jp/ee/articles/2607/06/news047.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI調達表を作る",
+      "tool": {
+        "name": "Notion AI",
+        "url": "https://www.notion.com/product/ai",
+        "cost": "無料枠あり / ¥1,650/月目安"
+      },
+      "time": "30分",
+      "steps": [
+        "AI利用予定を洗い出せ",
+        "必要なPCと容量を書け",
+        "供給遅延リスクを付けろ"
+      ],
+      "prompt": "あなたは{業種}のIT投資担当です。{自社名}が今後1年で使うAI業務、必要なPC・クラウド・保存容量、半導体不足時の代替策を表にしてください。",
+      "roi": "来期投資の抜け漏れ防止 / 調達判断を半日短縮"
+    },
+    "icebreak": {
+      "hook": "AIの裏側、広島のメモリ投資が動いてるの知ってます？",
+      "punchline": "AIってソフトの話に見えますけど、結局メモリ工場にも1.5兆円動くんですね。",
+      "ctx_meeting": "AIインフラ提案の冒頭で",
+      "ctx_chat": "製造業との雑談で",
+      "share_text": "AIの話をするとモデルやアプリに目が行きがちだけど、広島工場に1.5兆円という話を見ると、勝負はかなり物理インフラ側にもありますね。"
+    }
   },
   {
     "title": "商船三井、船舶運航にAI判断支援",
@@ -47,7 +70,30 @@
     "links": [
       "https://ai.watch.impress.co.jp/docs/news/2122229.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "現場判断を表に",
+      "tool": {
+        "name": "ChatGPT Plus",
+        "url": "https://chatgpt.com",
+        "cost": "無料枠あり / ¥3,000/月目安"
+      },
+      "time": "20分",
+      "steps": [
+        "現場業務を1つ選べ",
+        "事故前の兆候を書け",
+        "判断基準表を作れ"
+      ],
+      "prompt": "あなたは{業種}の安全管理責任者です。{自社名}の{現場業務}で事故前に見るべき兆候、確認項目、停止判断の基準を表にしてください。",
+      "roi": "事故前対応の標準化 / 現場確認を月5時間削減"
+    },
+    "icebreak": {
+      "hook": "船の運航判断にも生成AIが入ってきたらしいですよ",
+      "punchline": "気象や航行情報に船長経験者の知見まで混ぜて、リスクを早く見つける使い方です。",
+      "ctx_meeting": "現場DX提案の導入で",
+      "ctx_chat": "移動中の会話で",
+      "share_text": "生成AIは文章作成だけでなく、船舶運航のリスク抽出にも使われ始めている。現場のベテラン知見とAIをどう組み合わせるかが本題になりそう。"
+    }
   },
   {
     "title": "Copilot CLI、個人トークン不要に",
@@ -72,7 +118,30 @@
     "links": [
       "https://codezine.jp/article/detail/28855"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI開発を安全管理",
+      "tool": {
+        "name": "GitHub Copilot",
+        "url": "https://github.com/features/copilot",
+        "cost": "無料枠あり / ¥1,600/月目安"
+      },
+      "time": "30分",
+      "steps": [
+        "GitHub権限を確認せよ",
+        "個人トークンを棚卸せ",
+        "Actions設定を見直せ"
+      ],
+      "prompt": "あなたは{自社名}の開発責任者です。{リポジトリ名}で個人トークンを使わず、GitHub ActionsとAI利用を安全に管理する確認表を作ってください。",
+      "roi": "トークン漏えいリスク低減 / 開発管理の棚卸を1時間で実施"
+    },
+    "icebreak": {
+      "hook": "Copilot CLI、個人トークン不要になるらしいです",
+      "punchline": "便利さより大きいのは、認証情報を個人に持たせない運用に寄せられる点ですね。",
+      "ctx_meeting": "開発体制の相談で",
+      "ctx_chat": "エンジニアとの雑談で",
+      "share_text": "AI開発ツールは機能追加だけでなく、誰のトークンで動くのか、費用をどこで見るのかまで整ってきている。組織運用の差が出そうです。"
+    }
   },
   {
     "title": "AWS、S3にAI向け注釈機能",
@@ -97,7 +166,30 @@
     "links": [
       "https://www.infoq.com/news/2026/07/aws-s3-annotations/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "資料にAIタグ付け",
+      "tool": {
+        "name": "Notion AI",
+        "url": "https://www.notion.com/product/ai",
+        "cost": "無料枠あり / ¥1,650/月目安"
+      },
+      "time": "30分",
+      "steps": [
+        "資料を10件選べ",
+        "要約と分類欄を作れ",
+        "検索用タグを付けろ"
+      ],
+      "prompt": "あなたは{自社名}の文書管理担当です。次の資料一覧を、要約、分類、検索タグ、AIに探させる時の質問例に分けて表にしてください。{資料一覧}",
+      "roi": "資料探しを月10時間削減＝3万円相当"
+    },
+    "icebreak": {
+      "hook": "S3のデータに、AI用のメモを付けられるようです",
+      "punchline": "データ本体を動かさず、要約や分類だけ更新できるのは、AIエージェント向きですね。",
+      "ctx_meeting": "データ基盤提案の場で",
+      "ctx_chat": "クラウド話の流れで",
+      "share_text": "AIエージェントにデータを探させるなら、保存するだけでは足りない。S3上のデータに要約や分類を持たせる発想は、地味だけど実務では効きそう。"
+    }
   },
   {
     "title": "3D CADから組立手順書をAI作成",
@@ -122,7 +214,30 @@
     "links": [
       "https://monoist.itmedia.co.jp/mn/articles/2607/06/news026.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "手順書をAI化",
+      "tool": {
+        "name": "ChatGPT Plus",
+        "url": "https://chatgpt.com",
+        "cost": "無料枠あり / ¥3,000/月目安"
+      },
+      "time": "半日",
+      "steps": [
+        "作業写真を3枚用意せよ",
+        "部品リストを書け",
+        "手順書の初稿を作れ"
+      ],
+      "prompt": "あなたは{業種}の製造現場リーダーです。{製品名}の部品リストと作業写真をもとに、新人向け組立手順書、注意点、検査項目を作ってください。",
+      "roi": "手順書作成を70%短縮 / 引継ぎ時間を月8時間削減"
+    },
+    "icebreak": {
+      "hook": "3D CADから組立手順書までAIで作る話、出てきました",
+      "punchline": "設計データが、そのまま現場向けのM-BOMや手順書に近づくのが面白いです。",
+      "ctx_meeting": "製造DX提案の冒頭で",
+      "ctx_chat": "工場見学後の会話で",
+      "share_text": "3D CADデータからM-BOMや組立手順書まで作れるなら、設計と現場の間にある翻訳作業がかなり変わるかもしれない。AIの使い所として現実味があります。"
+    }
   },
   {
     "title": "Claude、Microsoft基盤で正式提供",
@@ -147,7 +262,30 @@
     "links": [
       "https://www.infoq.com/news/2026/07/claude-foundry-ga-europe/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "導入条件を棚卸し",
+      "tool": {
+        "name": "Azure AI Foundry",
+        "url": "https://ai.azure.com",
+        "cost": "従量課金"
+      },
+      "time": "30分",
+      "steps": [
+        "利用国を一覧化せよ",
+        "契約中クラウドを書け",
+        "制約と代替策を出せ"
+      ],
+      "prompt": "あなたは{自社名}のAI導入顧問です。{利用国}、{既存クラウド}、{使いたいAI}を前提に、導入可否、地域制約、代替案を表にしてください。",
+      "roi": "導入前の手戻り防止 / 調達確認を半日短縮"
+    },
+    "icebreak": {
+      "hook": "ClaudeがMicrosoft Foundryで正式提供になったそうです",
+      "punchline": "Azure認証や請求で使える一方、欧州企業は展開不可という制約も含めて要確認ですね。",
+      "ctx_meeting": "AI基盤選定の相談で",
+      "ctx_chat": "クラウド移行の雑談で",
+      "share_text": "ClaudeがMicrosoft Foundryで一般提供になったことで、既存Azure契約の中でAIを試しやすくなる企業は増えそう。ただ、地域や企業条件の制約は最初に見たい。"
+    }
   },
   {
     "title": "ローカルAIアプリ、端末内処理を強化",
@@ -172,7 +310,30 @@
     "links": [
       "https://ai.watch.impress.co.jp/docs/news/2122234.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "機密文書を端末要約",
+      "tool": {
+        "name": "LM Studio",
+        "url": "https://lmstudio.ai",
+        "cost": "無料"
+      },
+      "time": "30分",
+      "steps": [
+        "PCにLM Studioを入れろ",
+        "文書を端末内で開け",
+        "要約と論点を出せ"
+      ],
+      "prompt": "あなたは{業種}の守秘文書レビュー担当です。外部送信せず、次の{文書種別}を要約し、重要論点、確認質問、返信案を作ってください。{本文}",
+      "roi": "機密文書の外部送信リスク低減 / 要約作業を月5時間削減"
+    },
+    "icebreak": {
+      "hook": "iPhone内だけで文書作成や画像生成するAI、増えてますね",
+      "punchline": "外部サーバーに送らない設計だと、社内文書や個人メモの使い方が変わりそうです。",
+      "ctx_meeting": "端末AI活用の話で",
+      "ctx_chat": "スマホアプリの雑談で",
+      "share_text": "AIを使いたいけど外部サーバーに出したくない、という場面は多い。端末内で文書作成や画像生成が進むなら、スマホAIの使い方はかなり実務寄りになる。"
+    }
   },
   {
     "title": "北朝鮮系npm、開発者情報を窃取",
@@ -197,6 +358,29 @@
     "links": [
       "https://thehackernews.com/2026/07/north-korea-linked-npm-packages-mimic.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "依存関係を即監査",
+      "tool": {
+        "name": "GitHub Dependabot",
+        "url": "https://github.com/features/security",
+        "cost": "無料"
+      },
+      "time": "30分",
+      "steps": [
+        "package.jsonを開け",
+        "Dependabotを有効化せよ",
+        "不明パッケージを消せ"
+      ],
+      "prompt": "あなたは{自社名}のセキュリティ担当です。次のpackage.jsonから危険な依存関係、不要な開発用パッケージ、確認すべき更新を表にしてください。{内容}",
+      "roi": "情報漏えいリスク低減 / 依存監査を月1回30分で実施"
+    },
+    "icebreak": {
+      "hook": "Rollupっぽいnpmで情報を抜く攻撃が出たそうです",
+      "punchline": "AI活用以前に、開発者の秘密情報を守る供給網チェックがかなり重要ですね。",
+      "ctx_meeting": "開発セキュリティ提案で",
+      "ctx_chat": "開発チームとの雑談で",
+      "share_text": "npmパッケージを入れるだけで遠隔アクセスや秘密情報の窃取につながる可能性がある。便利な開発環境ほど、依存関係のチェックを習慣にしないと危ないですね。"
+    }
   }
 ]

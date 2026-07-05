@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週は、AIを大企業の実証から小さな現場業務へ落とす流れが強まりました。特に経理、広告、画像制作のように毎月・毎週発生する作業をAIで短縮できます。小規模事業者は新モデル論争より、定型業務と集客のAI化を先に試す週です。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-06-30",
+      "title": "Excel Copilotに反復業務スキル追加",
+      "category": "ツール更新",
+      "source": "Gihyo.jp",
+      "why_picked": "経理Excelの毎月作業をすぐ減らせる",
+      "tldr": "月次ExcelをAIで定型化",
+      "action": "月次表を1つAI手順化",
+      "image": "../assets/images/2026-06-30/topic_2.png",
+      "link": "../news/2026-06-30/#topic-2"
+    },
+    {
+      "rank": 2,
+      "date": "2026-07-02",
+      "title": "Google、高速・低コスト画像生成「Nano Banana 2 Lite」",
+      "category": "新モデル発表",
+      "source": "Gihyo.jp",
+      "why_picked": "広告・SNS素材を安く量産できる",
+      "tldr": "販促画像を低コスト生成",
+      "action": "SNS画像を4案作る",
+      "image": "../assets/images/2026-07-02/topic_3.png",
+      "link": "../news/2026-07-02/#topic-3"
+    },
+    {
+      "rank": 3,
+      "date": "2026-07-01",
+      "title": "Google広告の相談AI、国内でも試用可能",
+      "category": "ツール更新",
+      "source": "NRIネットコム Blog",
+      "why_picked": "広告費の無駄を今週から見直せる",
+      "tldr": "広告改善をAIに相談",
+      "action": "広告1本の改善案を出す",
+      "image": "../assets/images/2026-07-01/topic_7.png",
+      "link": "../news/2026-07-01/#topic-7"
+    }
+  ]
+}
