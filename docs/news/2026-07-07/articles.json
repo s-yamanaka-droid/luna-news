@@ -1,0 +1,202 @@
+[
+  {
+    "title": "ソフトバンク、全社AI運用の実践知",
+    "category": "業界動向",
+    "source": "ITmedia AI+",
+    "lede": "ソフトバンクの全社生成AI展開は、企業ITの役割が導入から運用設計へ変わったことを示した。",
+    "keypoints": [
+      "数万人規模でAIを全社展開",
+      "課題が同時多発で発生",
+      "IT部門の基礎力が支えに",
+      "運用でAI導入を成立させた"
+    ],
+    "pull": "生成AI導入は、買って終わりではなく運用で育てる時代に入った。",
+    "bizapp": {
+      "summary": "社内AI導入の運用設計に使える",
+      "actions": [
+        "NotionでAI問合せ台帳を作る",
+        "中小企業向けAI運用支援を提案",
+        "運用設計なしでは現場が止まる"
+      ]
+    },
+    "links": [
+      "https://atmarkit.itmedia.co.jp/ait/articles/2607/03/news007.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "全国8拠点で分散GPU検証が可能に",
+    "category": "業界動向",
+    "source": "AI Watch",
+    "lede": "NTTドコモビジネスが、全国のGPUを一体利用する実証環境の提供を始めた。",
+    "keypoints": [
+      "全国8拠点にGPUを分散配置",
+      "100Gbps級通信で接続",
+      "分散AI学習と推論を検証",
+      "共同実証の場として提供"
+    ],
+    "pull": "AI基盤は一極集中から、全国分散で使う段階へ進み始めた。",
+    "bizapp": {
+      "summary": "大規模AI基盤の検証計画に使える",
+      "actions": [
+        "AWSとGPU利用計画を比較する",
+        "製造業向け分散AI実証を提案",
+        "AI基盤調達を後回しにしない"
+      ]
+    },
+    "links": [
+      "https://ai.watch.impress.co.jp/docs/news/2122797.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "MCP、企業向け認可管理を安定版に",
+    "category": "セキュリティ",
+    "source": "Publickey",
+    "lede": "MCPに、企業がAIツール接続の権限を一括管理できる認可機能が安定版として加わった。",
+    "keypoints": [
+      "MCPの企業向け新機能",
+      "アクセス権限を一括管理",
+      "手動ログインの負担を軽減",
+      "統一ポリシー展開を支援"
+    ],
+    "pull": "AIツール連携の拡大には、個人任せでない権限管理が不可欠になる。",
+    "bizapp": {
+      "summary": "AI連携の権限統制に使える",
+      "actions": [
+        "社内MCP接続を棚卸しする",
+        "情シス向けAI統制導入を提案",
+        "放置すると権限管理が破綻する"
+      ]
+    },
+    "links": [
+      "https://www.publickey1.jp/blog/26/mcpenterprise-managed_authorizationemaextension.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Adobe、制作ノウハウをAI資産化",
+    "category": "ツール更新",
+    "source": "Business Insider Japan",
+    "lede": "アドビが企業向けに、制作手順を可視化し再利用できるFirefly Graphを提供開始した。",
+    "keypoints": [
+      "企業向けAI新製品を開始",
+      "ノード型で制作手順を可視化",
+      "制作ノウハウを共有可能に",
+      "ブランドらしい量産を支援"
+    ],
+    "pull": "優れた制作者の勘を、組織で再利用できる手順に変える動きだ。",
+    "bizapp": {
+      "summary": "広告制作の標準化と量産に使える",
+      "actions": [
+        "Fireflyで広告制作手順を保存",
+        "採用広報の量産体制を提案",
+        "属人化を放置すると納期が詰まる"
+      ]
+    },
+    "links": [
+      "https://www.businessinsider.jp/article/2607-adobe-firefly-graph-enterprise/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Sakana Chat、日英中翻訳に対応",
+    "category": "ツール更新",
+    "source": "Gihyo.jp",
+    "lede": "Sakana AIが、文化的な文脈や敬語のニュアンスまで扱う翻訳機能を公開した。",
+    "keypoints": [
+      "日英中の双方向翻訳に対応",
+      "Webアプリとして無料提供",
+      "最大約5000字を翻訳",
+      "添削や表現違いも表示"
+    ],
+    "pull": "翻訳は単語変換から、相手との距離感を整える仕事に近づいている。",
+    "bizapp": {
+      "summary": "海外メールと資料確認に使える",
+      "actions": [
+        "Sakana Translateで英文を添削",
+        "海外営業メール改善を提案",
+        "誤訳で商談印象を落とさない"
+      ]
+    },
+    "links": [
+      "https://gihyo.jp/article/2026/07/sakana-translate?utm_source=feed"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "レガシー開発をAI主導へ変える道筋",
+    "category": "業界動向",
+    "source": "Yahoo! JAPAN Tech Blog",
+    "lede": "LY Corporationが、既存プロジェクトをAI主導型へ変えるAXロードマップを示した。",
+    "keypoints": [
+      "レガシー開発のAI化が課題",
+      "AXは多くの現場が直面",
+      "開発サイクル短縮を目指す",
+      "4段階ロードマップを紹介"
+    ],
+    "pull": "AI活用の差は、個人の試行錯誤ではなく開発プロセス全体で開く。",
+    "bizapp": {
+      "summary": "開発組織のAI化計画に使える",
+      "actions": [
+        "Cursorで開発手順を見直す",
+        "情シス向けAX診断を提案",
+        "来期前に開発体制を見直す"
+      ]
+    },
+    "links": [
+      "https://techblog.lycorp.co.jp/ja/20260706b"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "製造業AIデータ拠点、12月稼働へ",
+    "category": "研究",
+    "source": "ロボスタ",
+    "lede": "STATION Aiが、製造業のフィジカルAI実装を支えるデータ収集センターを設立する。",
+    "keypoints": [
+      "2026年12月稼働予定",
+      "NEDO補助事業に採択",
+      "製造現場データを連携",
+      "東海地域で実装を加速"
+    ],
+    "pull": "製造業AIの鍵は、モデルより先に現場データを集められるかにある。",
+    "bizapp": {
+      "summary": "製造現場のAI実証に使える",
+      "actions": [
+        "現場データをObsidianで整理",
+        "工場の検査自動化実証を提案",
+        "データ未整備だとAI導入が遅れる"
+      ]
+    },
+    "links": [
+      "https://robotstart.info/article/2026/07/06/382115.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Alibaba、Anthropic AIを業務禁止へ",
+    "category": "セキュリティ",
+    "source": "CNBC Tech",
+    "lede": "Alibabaが、AnthropicのAIツールを高リスクソフトに指定し、業務利用を禁止する。",
+    "keypoints": [
+      "7月10日から業務利用を禁止",
+      "Claude Codeを高リスク指定",
+      "バックドアリスクを懸念",
+      "利用規約上の制約も背景"
+    ],
+    "pull": "AIツール選定は、機能だけでなく国・規約・安全性の確認が必要になった。",
+    "bizapp": {
+      "summary": "AIツールの利用ルール作りに使える",
+      "actions": [
+        "NotionでAI利用可否表を作る",
+        "企業向けAI利用規程を提案",
+        "禁止判断が遅れると現場が混乱する"
+      ]
+    },
+    "links": [
+      "https://www.cnbc.com/2026/07/06/alibaba-anthropic-ai-ban-claude-china.html"
+    ],
+    "likes": 0
+  }
+]
