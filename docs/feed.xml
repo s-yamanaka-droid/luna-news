@@ -7,6 +7,13 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。毎朝6:30、AI業界ニュースを図解と「明日からできる活用法」で。</description>
   <language>ja</language>
   <item>
+    <title>2026-07-07 AI朝刊：ソフトバンク、全社AI運用の実践知 ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-07-07/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-07/</guid>
+    <pubDate>Tue, 07 Jul 2026 06:30:00 +0900</pubDate>
+    <description>ソフトバンク、全社AI運用の実践知／全国8拠点で分散GPU検証が可能に／MCP、企業向け認可管理を安定版に／Adobe、制作ノウハウをAI資産化／Sakana Chat、日英中翻訳に対応</description>
+  </item>
+  <item>
     <title>2026-07-06 AI朝刊：マイクロン、広島にAIメモリ大型投資 ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-07-06/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-06/</guid>
@@ -173,13 +180,6 @@
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-13/</guid>
     <pubDate>Sat, 13 Jun 2026 06:30:00 +0900</pubDate>
     <description>生成AI調達ガイドライン改定、意見募集結果を公表／関西電力、AI前提で業務再構築へ／イトーキ、AIシフトの土台に基幹刷新／DeNA、Codex自律活用の実践知を共有／Codex、利用枠リセットを後から使用可能に</description>
-  </item>
-  <item>
-    <title>2026-06-12 AI朝刊：Claude、国内金融大手で共同活用へ ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-06-12/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-12/</guid>
-    <pubDate>Fri, 12 Jun 2026 06:30:00 +0900</pubDate>
-    <description>Claude、国内金融大手で共同活用へ／日立とGoogle Cloud、現場AIを拡大／AIエージェント決済、VisaとOpenAIが提携／OpenAI、Ona買収でCodexを強化／OpenAIモデル、Amazon Bedrockで一般提供</description>
   </item>
 </channel>
 </rss>

@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週は、広告・画像・事務作業のような小規模事業者がすぐ使えるAIが増えました。特に販促素材づくりと広告改善は、外注費削減や売上改善に直結します。一方でAI利用ルールや権限管理も、早めに整える段階に入っています。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-07-01",
+      "title": "Google広告の相談AI、国内でも試用可能",
+      "category": "ツール更新",
+      "source": "NRIネットコム Blog",
+      "why_picked": "広告改善に直結し、売上に効く",
+      "tldr": "広告改善をAIに相談可能",
+      "action": "広告1本をAIに相談する",
+      "image": "../assets/images/2026-07-01/topic_7.png",
+      "link": "../news/2026-07-01/#topic-7"
+    },
+    {
+      "rank": 2,
+      "date": "2026-07-02",
+      "title": "Google、高速・低コスト画像生成「Nano Banana 2 Lite」",
+      "category": "新モデル発表",
+      "source": "Gihyo.jp",
+      "why_picked": "販促画像の外注費を減らせる",
+      "tldr": "低コストで画像を量産",
+      "action": "SNS画像を4案作る",
+      "image": "../assets/images/2026-07-02/topic_3.png",
+      "link": "../news/2026-07-02/#topic-3"
+    },
+    {
+      "rank": 3,
+      "date": "2026-07-01",
+      "title": "AIが勤務時間を推定し記録",
+      "category": "ツール更新",
+      "source": "AI Watch (Impress)",
+      "why_picked": "勤怠入力の手間をすぐ減らせる",
+      "tldr": "勤怠記録をAIで時短",
+      "action": "1週間だけ試験導入する",
+      "image": "../assets/images/2026-07-01/topic_8.png",
+      "link": "../news/2026-07-01/#topic-8"
+    }
+  ]
+}

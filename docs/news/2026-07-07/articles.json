@@ -22,7 +22,30 @@
     "links": [
       "https://atmarkit.itmedia.co.jp/ait/articles/2607/03/news007.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI問合せ台帳化",
+      "tool": {
+        "name": "Notion AI",
+        "url": "https://www.notion.com",
+        "cost": "無料〜約¥1,500/月"
+      },
+      "time": "30分",
+      "steps": [
+        "AI相談DBを作れ",
+        "質問と回答を記録せよ",
+        "週1で改善点を抜き出せ"
+      ],
+      "prompt": "あなたは中小企業のAI運用担当です。{自社名}の{業種}で社員がAIに聞く質問を台帳化し、分類・リスク・改善案を表で整理してください。",
+      "roi": "AI相談対応を月5時間削減"
+    },
+    "icebreak": {
+      "hook": "ソフトバンク、AI導入より運用で勝ったらしいですよ",
+      "punchline": "数万人規模だと、ツール選びより同時多発の課題をさばくIT基礎力が効くんですね",
+      "ctx_meeting": "AI導入提案の冒頭で",
+      "ctx_chat": "移動中の雑談で",
+      "share_text": "AI導入って、最後はモデル性能より運用設計なんだなと。ソフトバンクの全社展開を見ると、IT部門の地力がそのまま差になりそうです。"
+    }
   },
   {
     "title": "全国8拠点で分散GPU検証が可能に",
@@ -47,7 +70,30 @@
     "links": [
       "https://ai.watch.impress.co.jp/docs/news/2122797.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "GPU費用を試算",
+      "tool": {
+        "name": "ChatGPT Plus",
+        "url": "https://chatgpt.com",
+        "cost": "約¥3,000/月"
+      },
+      "time": "30分",
+      "steps": [
+        "AI処理を一つ選べ",
+        "件数と処理時間を測れ",
+        "GPU利用計画を作れ"
+      ],
+      "prompt": "あなたはAI基盤コンサルです。{自社名}の{業種}で{AI用途}を行う場合のGPU利用量、クラウド費用、検証手順を小規模向けに表で作ってください。",
+      "roi": "無駄なAI基盤投資を回避"
+    },
+    "icebreak": {
+      "hook": "全国8拠点のGPUをつなぐ実証、始まったらしいです",
+      "punchline": "AIの学習や推論も、一つの場所に閉じず分散前提で考える流れになってきましたね",
+      "ctx_meeting": "AI基盤の相談時に",
+      "ctx_chat": "ランチ中の会話で",
+      "share_text": "GPU不足の話はよく聞くけど、全国8拠点を100Gbps級でつないで検証する発想は面白い。AI基盤も「場所」の設計が重要になってきた。"
+    }
   },
   {
     "title": "MCP、企業向け認可管理を安定版に",
@@ -72,7 +118,30 @@
     "links": [
       "https://www.publickey1.jp/blog/26/mcpenterprise-managed_authorizationemaextension.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI権限を棚卸し",
+      "tool": {
+        "name": "Google Sheets",
+        "url": "https://www.google.com/sheets/about/",
+        "cost": "無料〜約¥1,000/月"
+      },
+      "time": "30分",
+      "steps": [
+        "使うAIツールを書け",
+        "接続データを分類せよ",
+        "可否ルールを決めよ"
+      ],
+      "prompt": "あなたはAIガバナンス担当です。{自社名}の{業種}で使うAIツール一覧から、接続データ、利用可否、担当者、禁止条件を表にしてください。",
+      "roi": "情報漏洩リスクを早期低減"
+    },
+    "icebreak": {
+      "hook": "MCP、企業の権限管理まで安定版になったらしいですよ",
+      "punchline": "AIツールを増やすほど、手動ログインより一括認可と統一ポリシーが大事になりますね",
+      "ctx_meeting": "情シス向け提案で",
+      "ctx_chat": "社内ツールの話題で",
+      "share_text": "AIツール接続が増えるほど、便利さより先に権限管理が課題になる。MCPの認可管理が安定版になったのは、企業導入の現実に近づいた感じがします。"
+    }
   },
   {
     "title": "Adobe、制作ノウハウをAI資産化",
@@ -97,7 +166,30 @@
     "links": [
       "https://www.businessinsider.jp/article/2607-adobe-firefly-graph-enterprise/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "広告手順を型化",
+      "tool": {
+        "name": "Adobe Firefly",
+        "url": "https://firefly.adobe.com",
+        "cost": "無料〜約¥1,500/月"
+      },
+      "time": "半日",
+      "steps": [
+        "過去広告を3つ集めろ",
+        "共通手順を書き出せ",
+        "投稿案を量産せよ"
+      ],
+      "prompt": "あなたは広告制作ディレクターです。{自社名}の{業種}の過去広告から、ブランドを保った制作手順とSNS投稿案10本を作ってください。",
+      "roi": "広告初稿作成を70%短縮"
+    },
+    "icebreak": {
+      "hook": "Adobe、制作手順そのものをAI資産にするらしいです",
+      "punchline": "デザインの完成物だけでなく、作り方まで共有できるとブランドらしい量産がしやすくなりますね",
+      "ctx_meeting": "制作体制の提案で",
+      "ctx_chat": "デザイン話の流れで",
+      "share_text": "制作ノウハウって属人化しがちだけど、Firefly Graphのように手順を可視化して再利用できるなら、AIは「作業者」より「制作知の保管庫」に近づきそう。"
+    }
   },
   {
     "title": "Sakana Chat、日英中翻訳に対応",
@@ -122,7 +214,30 @@
     "links": [
       "https://gihyo.jp/article/2026/07/sakana-translate?utm_source=feed"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "英文メール添削",
+      "tool": {
+        "name": "Sakana AI Chat",
+        "url": "https://chat.sakana.ai",
+        "cost": "無料"
+      },
+      "time": "10分",
+      "steps": [
+        "英文メールを貼れ",
+        "敬語と意図を指定せよ",
+        "自然な表現に直せ"
+      ],
+      "prompt": "あなたは海外営業メールの翻訳者です。{自社名}の{業種}として、{相手国}の取引先へ送る英文を自然で丁寧に添削してください。",
+      "roi": "海外メール確認を月3時間削減"
+    },
+    "icebreak": {
+      "hook": "Sakana Chat、敬語のニュアンスまで翻訳できるらしいです",
+      "punchline": "日英中の翻訳でも、直訳ではなく文化的な文脈や表現違いまで見られるのが実務向きですね",
+      "ctx_meeting": "海外対応の相談で",
+      "ctx_chat": "海外出張の話題で",
+      "share_text": "翻訳AIで一番怖いのは、言葉は合っているのに失礼に聞こえること。Sakana Chatが敬語や文化的な文脈まで扱うなら、海外対応の下書きにかなり使えそう。"
+    }
   },
   {
     "title": "レガシー開発をAI主導へ変える道筋",
@@ -147,7 +262,30 @@
     "links": [
       "https://techblog.lycorp.co.jp/ja/20260706b"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "開発手順をAI化",
+      "tool": {
+        "name": "Cursor",
+        "url": "https://cursor.com",
+        "cost": "無料〜約¥3,000/月"
+      },
+      "time": "半日",
+      "steps": [
+        "古い手順書を開け",
+        "手作業工程を洗え",
+        "AI化順に並べよ"
+      ],
+      "prompt": "あなたはAX推進担当です。{自社名}の{業種}で行う{開発作業}を、AIで短縮できる工程順に分解し、明日の改善手順を作ってください。",
+      "roi": "修正作業を30%短縮"
+    },
+    "icebreak": {
+      "hook": "LY Corporation、レガシー開発のAI化を4段階で示したそうです",
+      "punchline": "既存プロジェクトは一気にAI化するより、開発サイクル短縮へ段階的に移すのが現実的ですね",
+      "ctx_meeting": "開発改善提案で",
+      "ctx_chat": "開発現場の雑談で",
+      "share_text": "レガシー開発のAI化は、気合いで置き換える話ではなさそう。LY Corporationの4段階ロードマップを見ると、現場の開発サイクルを少しずつ変える設計が大事に見えます。"
+    }
   },
   {
     "title": "製造業AIデータ拠点、12月稼働へ",
@@ -172,7 +310,30 @@
     "links": [
       "https://robotstart.info/article/2026/07/06/382115.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "現場データ整理",
+      "tool": {
+        "name": "Obsidian",
+        "url": "https://obsidian.md",
+        "cost": "無料"
+      },
+      "time": "30分",
+      "steps": [
+        "現場データを列挙せよ",
+        "紙とExcelを分けろ",
+        "AI候補を3つ選べ"
+      ],
+      "prompt": "あなたは製造業AI導入コンサルです。{自社名}の{工場工程}で使える現場データを整理し、AI検査・予測に使える順に並べてください。",
+      "roi": "AI実証準備を1週間短縮"
+    },
+    "icebreak": {
+      "hook": "製造業向けのAIデータ拠点、12月に動く予定らしいです",
+      "punchline": "フィジカルAIはモデルだけでなく、製造現場データをどう集めて連携するかが勝負ですね",
+      "ctx_meeting": "製造DX提案の前に",
+      "ctx_chat": "地域産業の話題で",
+      "share_text": "製造業のAI実装は、チャットAIよりデータ収集の地味な土台が効きそう。STATION Aiのデータ収集センターは、東海地域で現場データをつなぐ動きとして気になります。"
+    }
   },
   {
     "title": "Alibaba、Anthropic AIを業務禁止へ",
@@ -197,6 +358,29 @@
     "links": [
       "https://www.cnbc.com/2026/07/06/alibaba-anthropic-ai-ban-claude-china.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI利用可否表",
+      "tool": {
+        "name": "Notion",
+        "url": "https://www.notion.com",
+        "cost": "無料〜約¥1,500/月"
+      },
+      "time": "30分",
+      "steps": [
+        "AIツール名を書け",
+        "禁止条件を決めろ",
+        "社内ルールにせよ"
+      ],
+      "prompt": "あなたは小規模企業のAI管理責任者です。{自社名}の{業種}で使うAIツールを、利用可・要注意・禁止に分ける基準表を作ってください。",
+      "roi": "AI利用判断の迷いを削減"
+    },
+    "icebreak": {
+      "hook": "Alibaba、Claude Codeを業務禁止にするらしいですよ",
+      "punchline": "AIツールも便利さだけでなく、バックドアリスクや利用規約まで見て選ぶ段階に入りましたね",
+      "ctx_meeting": "AI利用ルールの話で",
+      "ctx_chat": "セキュリティ雑談で",
+      "share_text": "AIツール選定は「何ができるか」だけでは足りなくなってきた。AlibabaがClaude Codeを高リスク指定する話を見ると、規約とセキュリティを含めた運用判断が必要ですね。"
+    }
   }
 ]
