@@ -1,0 +1,202 @@
+[
+  {
+    "title": "政府、生成AI調達ガイドラインを策定",
+    "category": "政策・規制",
+    "source": "デジタル庁",
+    "lede": "デジタル庁は、行政で生成AIを調達・利活用するためのガイドラインを策定した。",
+    "keypoints": [
+      "行政向け生成AI指針を決定",
+      "利活用促進とリスク管理を両立",
+      "経産省・総務省などと検討",
+      "最新版は標準ガイドラインで確認"
+    ],
+    "pull": "生成AIは導入だけでなく、調達と管理のルール整備が前提になる。",
+    "bizapp": {
+      "summary": "公共案件や大企業向けAI提案の基準確認に使える",
+      "actions": [
+        "NotionでAI利用規程を整備",
+        "自治体向け生成AI導入支援を提案",
+        "調達基準未対応なら入札機会を失う"
+      ]
+    },
+    "links": [
+      "https://www.digital.go.jp/news/3579c42d-b11c-4756-b66e-3d3e35175623"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "ソフトバンク、全社AI基盤を内製",
+    "category": "業界動向",
+    "source": "ITmedia AI+",
+    "lede": "ソフトバンクは、1人100エージェント構想を支える共通基盤Cloud Proxyを内製した。",
+    "keypoints": [
+      "AI利用の入り口を共通化",
+      "セキュリティと統制を重視",
+      "複数のLLMに対応",
+      "自動化で素早く拡張"
+    ],
+    "pull": "全社AI活用は、現場ツールより先に共通の入り口設計が要る。",
+    "bizapp": {
+      "summary": "全社AI展開の統制基盤づくりに使える",
+      "actions": [
+        "Difyで社内AI窓口を統一",
+        "中小企業にAI利用管理を提案",
+        "放置すると部門ごとに統制不能"
+      ]
+    },
+    "links": [
+      "https://atmarkit.itmedia.co.jp/ait/articles/2607/07/news009.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Gemini API、AIエージェント機能拡張",
+    "category": "ツール更新",
+    "source": "Google AI Blog",
+    "lede": "GoogleはGemini APIのManaged Agentsに、バックグラウンド実行やリモートMCP接続を追加した。",
+    "keypoints": [
+      "非同期のバックグラウンド実行",
+      "リモートMCPサーバー接続",
+      "独自関数呼び出しに対応",
+      "認証情報の更新も可能"
+    ],
+    "pull": "AIエージェントは試作から、本番運用を前提にした機能へ進んでいる。",
+    "bizapp": {
+      "summary": "業務を止めずに動くAIエージェント開発に使える",
+      "actions": [
+        "Gemini APIで定期処理を自動化",
+        "営業報告の自動作成を提案",
+        "今期中に運用設計しないと遅れる"
+      ]
+    },
+    "links": [
+      "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Vercel、Better Authを買収",
+    "category": "セキュリティ",
+    "source": "Vercel Blog",
+    "lede": "Vercelは、TypeScript認証ライブラリBetter Authを買収し、AIエージェントの本人確認を強化する。",
+    "keypoints": [
+      "Better AuthをVercelが買収",
+      "週470万超のnpmダウンロード",
+      "850人超の貢献者が参加",
+      "エージェントごとに権限管理"
+    ],
+    "pull": "AIが本人の代わりに動く時代は、エージェント単位の権限管理が要る。",
+    "bizapp": {
+      "summary": "AIエージェントの安全な権限設計に使える",
+      "actions": [
+        "Better Authで権限を分離",
+        "SaaSのAI操作ログ整備を提案",
+        "放置すると一括権限が事故を招く"
+      ]
+    },
+    "links": [
+      "https://vercel.com/blog/vercel-acquires-better-auth"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Dialogflow CXに重大な欠陥",
+    "category": "セキュリティ",
+    "source": "The Hacker News",
+    "lede": "Google Dialogflow CXで、同一Google Cloudプロジェクト内の他エージェントが侵害され得る欠陥が報じられた。",
+    "keypoints": [
+      "Dialogflow CXの重大欠陥",
+      "編集権限を持つ攻撃者が悪用",
+      "他エージェント侵害の恐れ",
+      "Code Block有効環境が対象"
+    ],
+    "pull": "AIチャットボットも、権限設計を誤ると横展開の侵入口になる。",
+    "bizapp": {
+      "summary": "チャットボット運用の権限点検に使える",
+      "actions": [
+        "Google Cloudの権限を棚卸し",
+        "問い合わせAIの監査を提案",
+        "放置すると顧客対応基盤が危うい"
+      ]
+    },
+    "links": [
+      "https://thehackernews.com/2026/07/rogue-agent-flaw-could-have-let.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Turing、自動運転AIで279億円調達",
+    "category": "業界動向",
+    "source": "BRIDGE",
+    "lede": "完全自動運転システムを開発するTuringは、シリーズAで総額278億9,000万円を調達した。",
+    "keypoints": [
+      "シリーズA総額278.9億円",
+      "E2E方式の自動運転AI",
+      "計算基盤と採用に充当",
+      "日本発の社会実装を目指す"
+    ],
+    "pull": "日本発の自動運転AIは、研究開発から社会実装の段階へ進んでいる。",
+    "bizapp": {
+      "summary": "自動運転AI周辺の事業機会把握に使える",
+      "actions": [
+        "NotebookLMで競合動向を整理",
+        "物流企業に実証調査を提案",
+        "今期中に提携候補を見極める"
+      ]
+    },
+    "links": [
+      "https://thebridge.jp/2026/07/turing-completes-series-a-funding-totaling-27-89-billion-yen"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AI翻訳に監査レポート機能",
+    "category": "ツール更新",
+    "source": "AI Watch",
+    "lede": "ErudAite PROは、翻訳プロセスの全記録をExcel形式で出力する監査レポート機能を追加した。",
+    "keypoints": [
+      "翻訳履歴を帳票で出力",
+      "数値や日付の処理を検証",
+      "人の修正判断も記録",
+      "契約書や開示文書向け"
+    ],
+    "pull": "AI翻訳は速さだけでなく、なぜそう訳したかの説明責任が問われる。",
+    "bizapp": {
+      "summary": "重要文書のAI翻訳を監査可能にできる",
+      "actions": [
+        "ErudAite PROで契約書翻訳",
+        "海外展開企業に翻訳監査を提案",
+        "放置すると誤訳説明で詰まる"
+      ]
+    },
+    "links": [
+      "https://ai.watch.impress.co.jp/docs/news/2123196.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "VS Code、Copilot消費量を表示",
+    "category": "ツール更新",
+    "source": "Publickey",
+    "lede": "Visual Studio Codeは、GitHub Copilotで消費した生成AIのトークン数を表示できるようにした。",
+    "keypoints": [
+      "Copilotの消費量を表示",
+      "従量課金制への対応",
+      "リアルタイムで使用量を確認",
+      "上限接近時にアラート"
+    ],
+    "pull": "AI開発支援は、便利さだけでなく利用料の見える化が必要になった。",
+    "bizapp": {
+      "summary": "開発部門のAI利用コスト管理に使える",
+      "actions": [
+        "VS CodeでCopilot上限を設定",
+        "開発会社にAI費用管理を提案",
+        "放置すると予算超過が起きる"
+      ]
+    },
+    "links": [
+      "https://www.publickey1.jp/blog/26/visual_studio_codegithub_copilot.html"
+    ],
+    "likes": 0
+  }
+]
