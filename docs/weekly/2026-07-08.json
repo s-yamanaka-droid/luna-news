@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週は、AI活用が社内基盤より現場の実務改善へ寄っています。特に画像・翻訳・動画など、少人数でも売上や発信に直結する更新が目立ちました。まずは既存資料と日々の発信をAI化する週です。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-07-02",
+      "title": "Google、高速・低コスト画像生成「Nano Banana 2 Lite」",
+      "category": "新モデル発表",
+      "source": "Gihyo.jp",
+      "why_picked": "広告・SNS画像を安く早く量産できる",
+      "tldr": "低コスト画像生成が実用化",
+      "action": "SNS投稿画像を4案作る",
+      "image": "../assets/images/2026-07-02/topic_3.png",
+      "link": "../news/2026-07-02/#topic-3"
+    },
+    {
+      "rank": 2,
+      "date": "2026-07-07",
+      "title": "Sakana Chat、日英中翻訳に対応",
+      "category": "ツール更新",
+      "source": "Gihyo.jp",
+      "why_picked": "海外対応や英文メールを無料で時短できる",
+      "tldr": "敬語も読める無料翻訳AI",
+      "action": "英文メールを1通添削する",
+      "image": "../assets/images/2026-07-07/topic_5.png",
+      "link": "../news/2026-07-07/#topic-5"
+    },
+    {
+      "rank": 3,
+      "date": "2026-07-02",
+      "title": "NotebookLMに60秒の縦型ショート動画機能",
+      "category": "ツール更新",
+      "source": "Gihyo.jp",
+      "why_picked": "資料を動画化し研修・販促に再利用できる",
+      "tldr": "資料から短尺動画を生成",
+      "action": "既存資料で動画を1本作る",
+      "image": "../assets/images/2026-07-02/topic_5.png",
+      "link": "../news/2026-07-02/#topic-5"
+    }
+  ]
+}

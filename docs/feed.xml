@@ -7,6 +7,13 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。毎朝6:30、AI業界ニュースを図解と「明日からできる活用法」で。</description>
   <language>ja</language>
   <item>
+    <title>2026-07-08 AI朝刊：政府、生成AI調達ガイドラインを策定 ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-07-08/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-08/</guid>
+    <pubDate>Wed, 08 Jul 2026 06:30:00 +0900</pubDate>
+    <description>政府、生成AI調達ガイドラインを策定／ソフトバンク、全社AI基盤を内製／Gemini API、AIエージェント機能拡張／Vercel、Better Authを買収／Dialogflow CXに重大な欠陥</description>
+  </item>
+  <item>
     <title>2026-07-07 AI朝刊：ソフトバンク、全社AI運用の実践知 ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-07-07/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-07/</guid>
@@ -173,13 +180,6 @@
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-14/</guid>
     <pubDate>Sun, 14 Jun 2026 06:30:00 +0900</pubDate>
     <description>Anthropic最新モデル、米政府命令で全面停止／ChromeでAIがWeb操作しやすくなる新標準／Google Pinpoint、誰でも使える調査AIに／転職者6割超がAI活用、企業選びにも影響／AIエージェント開発は監査ループが鍵</description>
-  </item>
-  <item>
-    <title>2026-06-13 AI朝刊：生成AI調達ガイドライン改定、意見募集結果を公表 ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-06-13/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-13/</guid>
-    <pubDate>Sat, 13 Jun 2026 06:30:00 +0900</pubDate>
-    <description>生成AI調達ガイドライン改定、意見募集結果を公表／関西電力、AI前提で業務再構築へ／イトーキ、AIシフトの土台に基幹刷新／DeNA、Codex自律活用の実践知を共有／Codex、利用枠リセットを後から使用可能に</description>
   </item>
 </channel>
 </rss>

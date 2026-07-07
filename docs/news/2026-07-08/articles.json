@@ -22,7 +22,30 @@
     "links": [
       "https://www.digital.go.jp/news/3579c42d-b11c-4756-b66e-3d3e35175623"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI規程を30分整備",
+      "tool": {
+        "name": "Notion AI",
+        "url": "https://www.notion.com/product/ai",
+        "cost": "無料〜¥1,650/月目安"
+      },
+      "time": "30分",
+      "steps": [
+        "規程ページを作れ",
+        "禁止用途を列挙せよ",
+        "承認フローを追記せよ"
+      ],
+      "prompt": "あなたは中小企業のAI統制担当です。{自社名}{業種}向けに、生成AI利用規程、禁止事項、承認フロー、顧客情報の扱いをA4一枚で作成してください。",
+      "roi": "AI利用ルール作成を半日から30分に短縮"
+    },
+    "icebreak": {
+      "hook": "行政の生成AI調達、ガイドラインできたの知ってます？",
+      "punchline": "AI導入が、便利さだけでなくリスク管理込みで進む段階になりましたね。",
+      "ctx_meeting": "AI導入提案の冒頭で",
+      "ctx_chat": "行政DXの雑談で",
+      "share_text": "生成AIの導入話、そろそろ「使えるか」より「どう調達し、どう管理するか」が本題になってきた気がします。行政の動きは企業にも効きそう。"
+    }
   },
   {
     "title": "ソフトバンク、全社AI基盤を内製",
@@ -47,7 +70,30 @@
     "links": [
       "https://atmarkit.itmedia.co.jp/ait/articles/2607/07/news009.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "社内AI窓口を統一",
+      "tool": {
+        "name": "Dify",
+        "url": "https://dify.ai",
+        "cost": "無料〜$59/月目安"
+      },
+      "time": "半日",
+      "steps": [
+        "Difyに登録せよ",
+        "社内FAQを入れよ",
+        "利用ルールを添えよ"
+      ],
+      "prompt": "あなたは{自社名}の社内AI窓口です。{業種}の社員が質問したら、社内ルールに沿って回答し、不明点は社長確認と返してください。",
+      "roi": "社内問い合わせ対応を月10時間削減"
+    },
+    "icebreak": {
+      "hook": "ソフトバンク、1人100エージェント向け基盤を内製したらしいですよ。",
+      "punchline": "AI活用はツール選びより、入口を共通化して統制する設計が勝負になりそうです。",
+      "ctx_meeting": "社内AI基盤の提案で",
+      "ctx_chat": "大企業のAI話で",
+      "share_text": "1人100エージェント構想を支える基盤を内製、という話が面白い。AIを増やすほど、自由利用より共通の入口と統制が重要になるんだと思う。"
+    }
   },
   {
     "title": "Gemini API、AIエージェント機能拡張",
@@ -72,7 +118,30 @@
     "links": [
       "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "定期報告を自動作成",
+      "tool": {
+        "name": "Google AI Studio",
+        "url": "https://aistudio.google.com",
+        "cost": "無料〜従量課金"
+      },
+      "time": "1時間",
+      "steps": [
+        "報告テンプレを作れ",
+        "売上CSVを渡せ",
+        "毎週文面を生成せよ"
+      ],
+      "prompt": "あなたは{自社名}の業務アシスタントです。{業種}の週次データ{データ内容}を読み、社長向けに売上、課題、次の一手を簡潔に報告してください。",
+      "roi": "週次報告作成を80%短縮"
+    },
+    "icebreak": {
+      "hook": "Gemini APIのエージェント、裏で動けるようになったらしいです。",
+      "punchline": "チャット相手から、外部システムに仕事を任せる部品へ近づいてますね。",
+      "ctx_meeting": "業務自動化の相談で",
+      "ctx_chat": "開発チームとの雑談で",
+      "share_text": "AIエージェントがバックグラウンドで動き、リモートMCPにもつながる。会話するAIから、裏側で業務を進めるAIへ変わっていく感覚があります。"
+    }
   },
   {
     "title": "Vercel、Better Authを買収",
@@ -97,7 +166,30 @@
     "links": [
       "https://vercel.com/blog/vercel-acquires-better-auth"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "権限表を先に作る",
+      "tool": {
+        "name": "Vercel",
+        "url": "https://vercel.com",
+        "cost": "無料〜$20/月目安"
+      },
+      "time": "30分",
+      "steps": [
+        "操作一覧を書け",
+        "権限レベルを分けよ",
+        "ログ項目を決めよ"
+      ],
+      "prompt": "あなたはSaaSの権限設計者です。{自社名}の{サービス名}でAIが実行する操作を、閲覧、編集、削除、決済に分けて権限表にしてください。",
+      "roi": "AI機能追加時の事故リスクを大幅低減"
+    },
+    "icebreak": {
+      "hook": "VercelがBetter Authを買収したの知ってます？",
+      "punchline": "AIエージェントごとの本人確認や権限管理が、かなり現実の課題になってきましたね。",
+      "ctx_meeting": "認証設計の議論で",
+      "ctx_chat": "開発者との会話で",
+      "share_text": "VercelがBetter Authを買収した話、AIエージェントにも「誰として動くのか」「どこまで許すのか」が必要になる流れを感じます。認証は裏方ではなくなりそう。"
+    }
   },
   {
     "title": "Dialogflow CXに重大な欠陥",
@@ -122,7 +214,30 @@
     "links": [
       "https://thehackernews.com/2026/07/rogue-agent-flaw-could-have-let.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "チャット権限点検",
+      "tool": {
+        "name": "Google Cloud",
+        "url": "https://cloud.google.com",
+        "cost": "無料枠〜従量課金"
+      },
+      "time": "30分",
+      "steps": [
+        "IAM画面を開け",
+        "編集権限を確認せよ",
+        "不要権限を外せ"
+      ],
+      "prompt": "あなたはクラウド権限監査担当です。{自社名}の問い合わせAIで、誰が編集、公開、削除できるべきかを最小権限で一覧化してください。",
+      "roi": "顧客対応AIの権限事故を事前予防"
+    },
+    "icebreak": {
+      "hook": "Dialogflow CXで、他エージェント侵害の欠陥が報じられたらしいです。",
+      "punchline": "AIエージェントは便利でも、同じプロジェクト内の権限設計を甘く見ると怖いですね。",
+      "ctx_meeting": "AIリスク説明の場で",
+      "ctx_chat": "セキュリティ雑談で",
+      "share_text": "AIエージェントの安全性は、モデル単体だけ見ても足りない。同じGoogle Cloudプロジェクト内で何が触れるのかまで設計しないと、思わぬ連鎖リスクが出そうです。"
+    }
   },
   {
     "title": "Turing、自動運転AIで279億円調達",
@@ -147,7 +262,30 @@
     "links": [
       "https://thebridge.jp/2026/07/turing-completes-series-a-funding-totaling-27-89-billion-yen"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "自動運転市場を整理",
+      "tool": {
+        "name": "NotebookLM",
+        "url": "https://notebooklm.google.com",
+        "cost": "無料〜Google One AIプラン目安"
+      },
+      "time": "1時間",
+      "steps": [
+        "記事URLを入れよ",
+        "競合メモを追加せよ",
+        "提携候補を聞け"
+      ],
+      "prompt": "あなたは新規事業リサーチャーです。{自社名}{業種}が自動運転AI市場で関われる領域、提携候補、最初の営業先を整理してください。",
+      "roi": "市場調査の初稿作成を半日から1時間に短縮"
+    },
+    "icebreak": {
+      "hook": "Turingが自動運転AIで278.9億円を調達したらしいですよ。",
+      "punchline": "日本発の完全自動運転が、研究ではなく社会実装の資金調達フェーズに入ってますね。",
+      "ctx_meeting": "モビリティ案件の導入で",
+      "ctx_chat": "資金調達ニュースで",
+      "share_text": "TuringのシリーズA総額278.9億円、金額の大きさ以上に「日本発の完全自動運転を社会実装する」という狙いが気になります。E2E方式の本気度を感じる。"
+    }
   },
   {
     "title": "AI翻訳に監査レポート機能",
@@ -172,7 +310,30 @@
     "links": [
       "https://ai.watch.impress.co.jp/docs/news/2123196.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "翻訳の証跡を残す",
+      "tool": {
+        "name": "DeepL",
+        "url": "https://www.deepl.com",
+        "cost": "無料〜¥1,150/月目安"
+      },
+      "time": "30分",
+      "steps": [
+        "契約書を翻訳せよ",
+        "重要語句を抽出せよ",
+        "修正履歴を残せ"
+      ],
+      "prompt": "あなたは契約書翻訳の監査担当です。{自社名}の{文書名}について、誤訳リスクが高い数値、日付、義務、解除条件を表で確認してください。",
+      "roi": "翻訳確認の抜け漏れを減らし再確認時間を50%削減"
+    },
+    "icebreak": {
+      "hook": "AI翻訳に、監査レポート機能が付いたらしいですよ。",
+      "punchline": "翻訳の正しさだけでなく、誰がどう直したかまで残すニーズが出てきましたね。",
+      "ctx_meeting": "法務DXの提案で",
+      "ctx_chat": "契約書業務の話で",
+      "share_text": "AI翻訳は「速い」だけだと契約書や開示文書では使いにくい。翻訳履歴や人の修正判断までExcelで残せるなら、業務に組み込みやすくなりそう。"
+    }
   },
   {
     "title": "VS Code、Copilot消費量を表示",
@@ -197,6 +358,29 @@
     "links": [
       "https://www.publickey1.jp/blog/26/visual_studio_codegithub_copilot.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI開発費を見える化",
+      "tool": {
+        "name": "GitHub Copilot",
+        "url": "https://github.com/features/copilot",
+        "cost": "$10/月目安"
+      },
+      "time": "15分",
+      "steps": [
+        "VS Codeを更新せよ",
+        "使用量表示を開け",
+        "月上限を決めよ"
+      ],
+      "prompt": "あなたは小規模開発会社のAI費用管理者です。{自社名}の開発人数{人数}人に対し、Copilot利用ルールと月額上限案を作ってください。",
+      "roi": "AI開発費の予算超過を防ぎ月次確認を10分化"
+    },
+    "icebreak": {
+      "hook": "VS CodeでCopilotの消費量が見えるようになったらしいです。",
+      "punchline": "生成AIも、使い放題の感覚から使用量を見ながら運用する段階ですね。",
+      "ctx_meeting": "開発コスト管理の話で",
+      "ctx_chat": "エンジニア雑談で",
+      "share_text": "Copilotのトークン消費量がVS Codeで見えるようになるのは地味に大きい。AI開発支援も、便利さだけでなく使用量を見ながら使う運用に移っていきそう。"
+    }
   }
 ]
