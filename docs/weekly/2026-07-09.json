@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週はAIの本番運用と現場業務への浸透が目立ちました。小規模事業者はCRM、翻訳、画像制作のようにすぐ時間を削れる領域から試すべきです。規制や基盤整備は追いつつ、まず売上接点の自動化が優先です。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-07-09",
+      "title": "CRM入力、AIエージェントが自動化",
+      "category": "ツール更新",
+      "source": "MarkeZine",
+      "why_picked": "営業後の記録時間を直接削れる",
+      "tldr": "CRM入力をAIが代行",
+      "action": "商談メモをAIで要約する",
+      "image": "../assets/images/2026-07-09/topic_8.png",
+      "link": "../news/2026-07-09/#topic-8"
+    },
+    {
+      "rank": 2,
+      "date": "2026-07-07",
+      "title": "Sakana Chat、日英中翻訳に対応",
+      "category": "ツール更新",
+      "source": "Gihyo.jp",
+      "why_picked": "無料ですぐ海外対応の質を上げられる",
+      "tldr": "敬語も扱うAI翻訳",
+      "action": "英文メールを1通添削する",
+      "image": "../assets/images/2026-07-07/topic_5.png",
+      "link": "../news/2026-07-07/#topic-5"
+    },
+    {
+      "rank": 3,
+      "date": "2026-07-09",
+      "title": "Meta、画像生成Museを公開",
+      "category": "新モデル発表",
+      "source": "Gihyo.jp",
+      "why_picked": "SNS販促の試作を低コスト化できる",
+      "tldr": "投稿画像をAIで量産",
+      "action": "SNS画像を3案作る",
+      "image": "../assets/images/2026-07-09/topic_7.png",
+      "link": "../news/2026-07-09/#topic-7"
+    }
+  ]
+}

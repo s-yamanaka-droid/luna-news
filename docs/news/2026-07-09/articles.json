@@ -22,7 +22,30 @@
     "links": [
       "https://thinkit.co.jp/article/39351"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "保守手順をAI化",
+      "tool": {
+        "name": "Claude Pro",
+        "url": "https://claude.ai",
+        "cost": "約¥3,000/月"
+      },
+      "time": "30分",
+      "steps": [
+        "古い手順書を集める",
+        "改修リスクを洗い出す",
+        "テスト項目を作らせる"
+      ],
+      "prompt": "あなたは{業種}のシステム保守担当です。{自社名}の古い業務システムについて、保守手順、属人化リスク、明日確認すべきテスト項目を整理してください。",
+      "roi": "保守確認を月5時間削減＝1.5万円相当"
+    },
+    "icebreak": {
+      "hook": "MUFGが金融開発にAIを本格投入するらしいですよ",
+      "punchline": "設計から運用保守、メインフレームまで入るので、金融の開発現場もかなり変わりそうです",
+      "ctx_meeting": "金融DX提案の冒頭で",
+      "ctx_chat": "取引先との雑談で",
+      "share_text": "金融システムでも、AIは設計や実装だけでなく運用保守まで入り始めている。開発効率の話より、現場の役割分担がどう変わるかを考えたい。"
+    }
   },
   {
     "title": "政府、フィジカルAIに10.5兆円投資",
@@ -47,7 +70,30 @@
     "links": [
       "https://www.moguravr.com/physical-ai-national-strategy-investment/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "現場を3D記録",
+      "tool": {
+        "name": "Scaniverse",
+        "url": "https://scaniverse.com",
+        "cost": "無料"
+      },
+      "time": "30分",
+      "steps": [
+        "現場をスマホで撮る",
+        "3Dデータを保存する",
+        "改善点をAIに聞く"
+      ],
+      "prompt": "あなたは{業種}の現場改善コンサルです。{自社名}の現場3D記録を見て、ロボット化や動線改善に向く作業を優先度順に出してください。",
+      "roi": "設備投資前の現場確認を半日短縮"
+    },
+    "icebreak": {
+      "hook": "政府がフィジカルAIに10.5兆円を見てるの知ってます？",
+      "punchline": "AIが画面の中だけでなく、ロボット市場を取りに行く政策テーマになってきました",
+      "ctx_meeting": "製造業向け提案で",
+      "ctx_chat": "移動中の会話で",
+      "share_text": "フィジカルAIへの投資額を見ると、AIはソフトの話だけでは終わらないと感じる。ロボットや現場業務まで含めて、どこから備えるかが論点になりそう。"
+    }
   },
   {
     "title": "AWS、Claude利用を一元管理へ",
@@ -72,7 +118,30 @@
     "links": [
       "https://aws.amazon.com/blogs/machine-learning/introducing-claude-apps-gateway-for-aws/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI利用費を見える化",
+      "tool": {
+        "name": "Amazon Bedrock",
+        "url": "https://aws.amazon.com/bedrock/",
+        "cost": "従量課金"
+      },
+      "time": "半日",
+      "steps": [
+        "利用者を一覧化する",
+        "月額上限を決める",
+        "用途別ルールを作る"
+      ],
+      "prompt": "あなたは{自社名}のAI管理責任者です。{人数}人の会社でClaude利用を安全に始めるため、費用上限、禁止事項、承認フローを作ってください。",
+      "roi": "野良AI利用の費用超過を月1万円防止"
+    },
+    "icebreak": {
+      "hook": "AWSでClaude利用をまとめて管理できるらしいですよ",
+      "punchline": "アクセスやコストを一元管理できるので、現場利用を止めずに統制しやすくなりそうです",
+      "ctx_meeting": "AI統制の相談で",
+      "ctx_chat": "情シスとの雑談で",
+      "share_text": "AI利用を止めるか許すかではなく、アクセス・コスト・ポリシーをどう見える化するか。AWSのClaude管理は、その現実解に近い話だと思った。"
+    }
   },
   {
     "title": "Vercel Agent、本番障害を調査",
@@ -97,7 +166,30 @@
     "links": [
       "https://vercel.com/blog/vercel-agent"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "障害初動をAI化",
+      "tool": {
+        "name": "Vercel",
+        "url": "https://vercel.com",
+        "cost": "無料〜約¥3,000/月"
+      },
+      "time": "30分",
+      "steps": [
+        "エラーログを開く",
+        "原因候補を要約させる",
+        "修正案を確認する"
+      ],
+      "prompt": "あなたは{自社名}のWeb保守担当です。以下のエラーログから、原因候補、売上影響、今すぐ確認すべき順番を日本語で整理してください。{ログ}",
+      "roi": "障害初動を60分から15分に短縮"
+    },
+    "icebreak": {
+      "hook": "Vercelが本番障害をAIに調べさせ始めてますね",
+      "punchline": "ログや指標を読んで修正案まで出すので、障害対応の初動がかなり短くなりそうです",
+      "ctx_meeting": "開発体制の相談で",
+      "ctx_chat": "エンジニア雑談で",
+      "share_text": "本番障害で一番きついのは、原因を探す最初の時間。AIがログや指標を見て修正案まで出すなら、運用の負担感はかなり変わりそう。"
+    }
   },
   {
     "title": "OpenAI、国家安全保障の原則公開",
@@ -122,7 +214,30 @@
     "links": [
       "https://openai.com/index/government-national-security-partnerships"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI利用規程を作る",
+      "tool": {
+        "name": "Notion AI",
+        "url": "https://www.notion.so/product/ai",
+        "cost": "無料〜約¥1,650/月"
+      },
+      "time": "30分",
+      "steps": [
+        "利用場面を書き出す",
+        "禁止事項を決める",
+        "社内ルール化する"
+      ],
+      "prompt": "あなたは{業種}のAIガバナンス担当です。{自社名}がAIを使う際の利用原則、禁止事項、人間確認が必要な業務を1ページで作ってください。",
+      "roi": "公共案件の事前審査資料作成を半日短縮"
+    },
+    "icebreak": {
+      "hook": "OpenAIが国家安全保障向けの原則を出しましたね",
+      "punchline": "政府利用が進むほど、人間の判断や説明責任をどう残すかが重要になってきます",
+      "ctx_meeting": "ガバナンス提案で",
+      "ctx_chat": "ニュース雑談で",
+      "share_text": "AIを重要業務で使うほど、性能だけでなく説明責任や人間の判断をどう設計するかが問われる。国家安全保障の話は、企業にも通じる論点だと思う。"
+    }
   },
   {
     "title": "Google AI Studio、GitHub取込に対応",
@@ -147,7 +262,30 @@
     "links": [
       "https://www.marktechpost.com/2026/07/08/google-ai-studio-adds-import-from-github-to-build-mode/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "既存アプリを改修",
+      "tool": {
+        "name": "Google AI Studio",
+        "url": "https://aistudio.google.com",
+        "cost": "無料"
+      },
+      "time": "30分",
+      "steps": [
+        "GitHubリポジトリを開く",
+        "改善したい点を書く",
+        "修正案を確認する"
+      ],
+      "prompt": "あなたは{自社名}の業務アプリ開発者です。{課題}を解決するため、既存アプリの変更箇所、実装手順、注意点を初心者向けに出してください。",
+      "roi": "小改修の初期調査を70%短縮"
+    },
+    "icebreak": {
+      "hook": "Google AI StudioがGitHub取込に対応するらしいですよ",
+      "punchline": "既存リポジトリを取り込んで編集・展開まで進められるので、試作の入口がさらに近くなります",
+      "ctx_meeting": "PoC提案の冒頭で",
+      "ctx_chat": "開発相談の場で",
+      "share_text": "GitHubの既存リポジトリをAI Studioに取り込んで、編集から展開まで進められる。ゼロから作るAI開発より、今ある資産をどう活かすかが大事になりそう。"
+    }
   },
   {
     "title": "Meta、画像生成Museを公開",
@@ -172,7 +310,30 @@
     "links": [
       "https://gihyo.jp/article/2026/07/meta-muse-image-and-video?utm_source=feed"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "投稿画像を量産",
+      "tool": {
+        "name": "Meta AI",
+        "url": "https://www.meta.ai",
+        "cost": "無料"
+      },
+      "time": "10分",
+      "steps": [
+        "投稿テーマを決める",
+        "画像案を3つ作る",
+        "反応順に投稿する"
+      ],
+      "prompt": "あなたは{業種}のSNS担当です。{自社名}の{商品}をInstagramで紹介する画像案を3案作り、各案の短い投稿文も付けてください。",
+      "roi": "SNS画像制作を1投稿30分削減"
+    },
+    "icebreak": {
+      "hook": "Metaが画像生成のMuseを出したらしいですよ",
+      "punchline": "画像だけでなく動画も見せてきていて、SNS向けの制作体験にかなり寄せてきています",
+      "ctx_meeting": "SNS施策の相談で",
+      "ctx_chat": "制作チーム雑談で",
+      "share_text": "画像生成は単体ツールではなく、SNSの中で編集や参照画像まで使う体験に近づいている。MetaのMuseは、制作フローそのものを取りに来ている感じがする。"
+    }
   },
   {
     "title": "CRM入力、AIエージェントが自動化",
@@ -197,6 +358,29 @@
     "links": [
       "https://markezine.jp/article/detail/77139"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "CRM入力を半自動化",
+      "tool": {
+        "name": "Twenty",
+        "url": "https://twenty.com",
+        "cost": "無料〜"
+      },
+      "time": "半日",
+      "steps": [
+        "顧客項目を決める",
+        "商談メモを貼り付ける",
+        "更新文を確認する"
+      ],
+      "prompt": "あなたは{自社名}の営業事務です。以下の商談メモから、顧客名、次回アクション、確度、CRM更新文を作ってください。{商談メモ}",
+      "roi": "CRM入力を週3時間削減＝月3万円相当"
+    },
+    "icebreak": {
+      "hook": "CRM入力をAIエージェントが代わるサービスが出てますね",
+      "punchline": "メールや会議をもとに更新するので、人は入力作業より判断と承認に寄せられそうです",
+      "ctx_meeting": "営業DX提案で",
+      "ctx_chat": "営業チーム雑談で",
+      "share_text": "CRMが続かない理由は、入力が面倒だからというケースが多い。メールや会議からAIが更新して、人は判断と承認に集中する形はかなり現実的だと思う。"
+    }
   }
 ]

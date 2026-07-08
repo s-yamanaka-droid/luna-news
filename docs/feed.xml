@@ -7,6 +7,13 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。毎朝6:30、AI業界ニュースを図解と「明日からできる活用法」で。</description>
   <language>ja</language>
   <item>
+    <title>2026-07-09 AI朝刊：MUFG、金融開発にAI本格導入 ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-07-09/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-09/</guid>
+    <pubDate>Thu, 09 Jul 2026 06:30:00 +0900</pubDate>
+    <description>MUFG、金融開発にAI本格導入／政府、フィジカルAIに10.5兆円投資／AWS、Claude利用を一元管理へ／Vercel Agent、本番障害を調査／OpenAI、国家安全保障の原則公開</description>
+  </item>
+  <item>
     <title>2026-07-08 AI朝刊：政府、生成AI調達ガイドラインを策定 ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-07-08/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-08/</guid>
@@ -173,13 +180,6 @@
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-15/</guid>
     <pubDate>Mon, 15 Jun 2026 06:30:00 +0900</pubDate>
     <description>行政の生成AI調達指針が改定／中小企業のAI利用に安全対策の穴／米政府、Anthropic最上位AIを制限／AI人員削減だけでは勝てない／AI開発でIDE離れが進む予測</description>
-  </item>
-  <item>
-    <title>2026-06-14 AI朝刊：Anthropic最新モデル、米政府命令で全面停止 ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-06-14/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-14/</guid>
-    <pubDate>Sun, 14 Jun 2026 06:30:00 +0900</pubDate>
-    <description>Anthropic最新モデル、米政府命令で全面停止／ChromeでAIがWeb操作しやすくなる新標準／Google Pinpoint、誰でも使える調査AIに／転職者6割超がAI活用、企業選びにも影響／AIエージェント開発は監査ループが鍵</description>
   </item>
 </channel>
 </rss>
