@@ -7,6 +7,13 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。毎朝6:30、AI業界ニュースを図解と「明日からできる活用法」で。</description>
   <language>ja</language>
   <item>
+    <title>2026-07-10 AI朝刊：ChatGPT、仕事を完了する相棒へ ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-07-10/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-10/</guid>
+    <pubDate>Fri, 10 Jul 2026 06:30:00 +0900</pubDate>
+    <description>ChatGPT、仕事を完了する相棒へ／GPT-5.6、Microsoft 365標準へ／ソフトバンク、全社RAGで業務削減／Adobe、生成AI制作手順を組織資産に／三菱自動車、国産ロボAI量産へ</description>
+  </item>
+  <item>
     <title>2026-07-09 AI朝刊：MUFG、金融開発にAI本格導入 ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-07-09/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-09/</guid>
@@ -173,13 +180,6 @@
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-16/</guid>
     <pubDate>Tue, 16 Jun 2026 06:30:00 +0900</pubDate>
     <description>OpenAI、企業導入は実装力の競争へ／Sakana AI、戦略調査AIを商用化／AWS、AIボット課金機能をWAFに追加／AI投資110兆円、IT価格に波及／Databricks、AIエージェント統合基盤を公開</description>
-  </item>
-  <item>
-    <title>2026-06-15 AI朝刊：行政の生成AI調達指針が改定 ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-06-15/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-15/</guid>
-    <pubDate>Mon, 15 Jun 2026 06:30:00 +0900</pubDate>
-    <description>行政の生成AI調達指針が改定／中小企業のAI利用に安全対策の穴／米政府、Anthropic最上位AIを制限／AI人員削減だけでは勝てない／AI開発でIDE離れが進む予測</description>
   </item>
 </channel>
 </rss>

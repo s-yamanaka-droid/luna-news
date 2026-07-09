@@ -24,7 +24,30 @@
       "https://www.itmedia.co.jp/aiplus/article/2607/10/2000000178/",
       "https://arstechnica.com/ai/2026/07/openai-wants-its-new-tool-to-do-your-work-for-you-and-with-you"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "営業資料を自動作成",
+      "tool": {
+        "name": "ChatGPT Plus",
+        "url": "https://chatgpt.com",
+        "cost": "約¥3,000/月"
+      },
+      "time": "30分",
+      "steps": [
+        "提案先情報を貼る",
+        "営業資料構成を作らせる",
+        "PowerPoint原稿に整える"
+      ],
+      "prompt": "あなたは営業資料作成の専門家です。{自社名}の{業種}向けに、{提案先}の課題{課題}を解決する提案資料の構成と本文を作ってください。",
+      "roi": "提案書初稿を70%短縮"
+    },
+    "icebreak": {
+      "hook": "ChatGPTが、会話相手から作業相棒になるらしいですよ",
+      "punchline": "資料やWebアプリまで作って、重要操作だけ人が承認する形に近づいています。",
+      "ctx_meeting": "AI導入提案の冒頭で",
+      "ctx_chat": "移動中の仕事話で",
+      "share_text": "AIに聞くより、AIに任せて最後に承認する働き方が現実味を帯びてきた。自分の仕事で任せられる作業を棚卸ししたい。"
+    }
   },
   {
     "title": "GPT-5.6、Microsoft 365標準へ",
@@ -49,7 +72,30 @@
     "links": [
       "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "稟議書を標準化",
+      "tool": {
+        "name": "Microsoft 365 Copilot",
+        "url": "https://www.microsoft.com/microsoft-365/copilot",
+        "cost": "約¥4,500/月"
+      },
+      "time": "30分",
+      "steps": [
+        "過去の稟議を集める",
+        "良い型を抽出させる",
+        "新規稟議に適用する"
+      ],
+      "prompt": "あなたは中小企業の業務改善担当です。{自社名}の{業種}で使う稟議書を、目的・費用・効果・リスクが伝わる型に整えてください。",
+      "roi": "文書作成を月5時間削減"
+    },
+    "icebreak": {
+      "hook": "WordやExcelの中身、GPT-5.6が支えるらしいですよ",
+      "punchline": "文書、分析、PowerPointまで、Office作業の品質差がAI利用差になりそうです。",
+      "ctx_meeting": "情シス提案の導入で",
+      "ctx_chat": "資料作成の雑談で",
+      "share_text": "Microsoft 365にGPT-5.6が標準で入るなら、AI活用は特別なツールの話ではなく、普段のWordやExcelの使い方の話になる。"
+    }
   },
   {
     "title": "ソフトバンク、全社RAGで業務削減",
@@ -74,7 +120,30 @@
     "links": [
       "https://atmarkit.itmedia.co.jp/ait/articles/2607/10/news002.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "社内FAQを即検索",
+      "tool": {
+        "name": "NotebookLM",
+        "url": "https://notebooklm.google.com",
+        "cost": "無料"
+      },
+      "time": "30分",
+      "steps": [
+        "社内資料をアップする",
+        "質問集を作らせる",
+        "回答元を確認する"
+      ],
+      "prompt": "あなたは社内ナレッジ整理担当です。{自社名}の{業種}で新人が迷う質問を、アップ済み資料からFAQ形式で整理してください。",
+      "roi": "確認対応を月10時間削減"
+    },
+    "icebreak": {
+      "hook": "ソフトバンク、1万9000人でRAGを使ってるらしいです",
+      "punchline": "乱立を止めてガバナンスを入れると、AIは便利さだけでなく管理の話になりますね。",
+      "ctx_meeting": "社内AI基盤提案で",
+      "ctx_chat": "社内DXの会話で",
+      "share_text": "RAGは作るより、全社で安全に使わせる設計が本番だと感じた。1万9000人規模になると、便利さと統制はセットで考える必要がある。"
+    }
   },
   {
     "title": "Adobe、生成AI制作手順を組織資産に",
@@ -99,7 +168,30 @@
     "links": [
       "https://pc.watch.impress.co.jp/docs/news/2123952.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "商品画像を量産",
+      "tool": {
+        "name": "Adobe Firefly",
+        "url": "https://firefly.adobe.com",
+        "cost": "無料〜"
+      },
+      "time": "30分",
+      "steps": [
+        "商品写真を用意する",
+        "背景違いを生成する",
+        "良い手順を保存する"
+      ],
+      "prompt": "あなたはEC画像制作の専門家です。{商品名}を{販売先}向けに、信頼感が出る背景・構図・訴求文の案を作ってください。",
+      "roi": "画像制作を半日から1時間に短縮"
+    },
+    "icebreak": {
+      "hook": "Adobe、AIの制作手順ごと共有できるようにしたそうです",
+      "punchline": "完成物だけでなく、作り方そのものを組織の資産にする方向へ進んでいます。",
+      "ctx_meeting": "制作体制の提案で",
+      "ctx_chat": "デザイン業務の話で",
+      "share_text": "生成AIは誰が作るかより、良い作り方をどう残して再利用するかが大事になりそう。AdobeのFirefly Graphはそこを突いている。"
+    }
   },
   {
     "title": "三菱自動車、国産ロボAI量産へ",
@@ -124,7 +216,30 @@
     "links": [
       "https://www.businessinsider.jp/article/2607-mitsubishi-motor-physical-ai/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "現場作業を棚卸し",
+      "tool": {
+        "name": "Notion AI",
+        "url": "https://www.notion.com/product/ai",
+        "cost": "約¥1,500/月"
+      },
+      "time": "半日",
+      "steps": [
+        "現場動画を撮る",
+        "作業手順を書き出す",
+        "自動化候補を分類する"
+      ],
+      "prompt": "あなたは製造現場の業務改善担当です。{自社名}の{現場作業}を、人手作業・判断作業・危険作業に分類し、自動化候補を出してください。",
+      "roi": "属人作業の引継ぎ時間を50%削減"
+    },
+    "icebreak": {
+      "hook": "三菱自動車が国産ヒューマノイド量産に動くそうです",
+      "punchline": "2027年早期に月1000台規模を見ていて、工場の人手不足対策が現実味を帯びます。",
+      "ctx_meeting": "製造業向け提案で",
+      "ctx_chat": "ロボットの雑談で",
+      "share_text": "ヒューマノイドロボットが研究室の話から、京都工場での量産協議に進んでいる。自社工場への展開まで見ているのが印象的。"
+    }
   },
   {
     "title": "PLaMo 3、大型国産LLMの評価公開",
@@ -149,7 +264,30 @@
     "links": [
       "https://tech.preferred.jp/ja/blog/plamo_3_120b_distillation_cpt/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "国産AI要件整理",
+      "tool": {
+        "name": "ChatGPT Plus",
+        "url": "https://chatgpt.com",
+        "cost": "約¥3,000/月"
+      },
+      "time": "30分",
+      "steps": [
+        "扱う情報を列挙する",
+        "国産要件を整理する",
+        "比較表を作らせる"
+      ],
+      "prompt": "あなたはAI調達の相談役です。{自社名}の{業種}でAI導入する際、国産LLMを検討すべき要件と比較表を作ってください。",
+      "roi": "AI選定の手戻りを削減"
+    },
+    "icebreak": {
+      "hook": "国産LLMのPLaMo 3、評価が出てきたみたいです",
+      "punchline": "120Bだけでなく31B蒸留モデルも進み、国産AIを実務で比べる材料が増えますね。",
+      "ctx_meeting": "国産AI検討の場で",
+      "ctx_chat": "AIモデル談義で",
+      "share_text": "国産LLMは期待論だけでなく、PLaMo 3のように120Bモデルや31B蒸留モデルの評価を見ながら選ぶ段階に入ってきた。"
+    }
   },
   {
     "title": "Claude最上位利用に従量課金の兆し",
@@ -174,7 +312,30 @@
     "links": [
       "https://www.wired.com/story/model-behavior-anthropic-will-charge-consumers-extra-to-use-claude-fable-5/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI費用を見える化",
+      "tool": {
+        "name": "Notion",
+        "url": "https://www.notion.com",
+        "cost": "無料〜"
+      },
+      "time": "30分",
+      "steps": [
+        "利用ツールを一覧化する",
+        "月額と用途を記録する",
+        "削減候補を出す"
+      ],
+      "prompt": "あなたは小規模会社の経費管理担当です。{自社名}で使うAIツールの用途・月額・利用者を整理し、削減候補を提案してください。",
+      "roi": "不要なAI費用を月1万円削減"
+    },
+    "icebreak": {
+      "hook": "Claudeの最上位利用、定額だけでは済まなくなるかもです",
+      "punchline": "7月12日から追加課金の方針で、AIも使い放題前提から使った分だけへ寄っています。",
+      "ctx_meeting": "AI費用の相談で",
+      "ctx_chat": "サブスク費の話で",
+      "share_text": "AIを定額で雑に使う時期は、少しずつ終わるのかもしれない。Claudeの追加課金方針を見ると、費用対効果の見える化が必要になる。"
+    }
   },
   {
     "title": "AI活用、7割がチャット止まり",
@@ -199,6 +360,29 @@
     "links": [
       "https://markezine.jp/article/detail/77145"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "定型業務を自動化",
+      "tool": {
+        "name": "Microsoft Copilot Studio",
+        "url": "https://www.microsoft.com/microsoft-copilot/microsoft-copilot-studio",
+        "cost": "要問い合わせ"
+      },
+      "time": "半日",
+      "steps": [
+        "定型質問を10個出す",
+        "回答手順を整理する",
+        "簡易エージェント化する"
+      ],
+      "prompt": "あなたは業務自動化コンサルです。{自社名}の{業種}で毎週繰り返す{定型業務}を、AIエージェント化する手順に分解してください。",
+      "roi": "営業事務を月10時間削減"
+    },
+    "icebreak": {
+      "hook": "AIを使ってる人、約7割がチャット止まりらしいです",
+      "punchline": "エージェント化まで進む人は10.5％で、同じAI利用でも成果に差が出そうです。",
+      "ctx_meeting": "活用度診断の導入で",
+      "ctx_chat": "職場のAI話で",
+      "share_text": "AI利用が広がっても、約7割がチャット止まりなら差が出るのはここから。次は質問の上手さより、仕事を任せる設計が問われそう。"
+    }
   }
 ]
