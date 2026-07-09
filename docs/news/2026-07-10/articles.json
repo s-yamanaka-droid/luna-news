@@ -1,0 +1,204 @@
+[
+  {
+    "title": "ChatGPT、仕事を完了する相棒へ",
+    "category": "ツール更新",
+    "source": "OpenAI Blog / ITmedia AI+ / Ars Technica AI",
+    "lede": "OpenAIが、アプリやファイルを横断して成果物まで作るAIエージェント「ChatGPT Work」を発表した。",
+    "keypoints": [
+      "CodexをChatGPTに統合",
+      "資料やWebアプリまで作成",
+      "数時間の作業継続に対応",
+      "重要操作は承認を待つ"
+    ],
+    "pull": "AIは相談相手から、仕事を最後まで進める実行役に変わる。",
+    "bizapp": {
+      "summary": "営業資料や分析表の作成を任せる実務基盤に使える",
+      "actions": [
+        "ChatGPT Workで営業準備を自動化",
+        "中小企業に資料作成代行を提案",
+        "導入が遅れると作業速度で差が開く"
+      ]
+    },
+    "links": [
+      "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
+      "https://www.itmedia.co.jp/aiplus/article/2607/10/2000000178/",
+      "https://arstechnica.com/ai/2026/07/openai-wants-its-new-tool-to-do-your-work-for-you-and-with-you"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "GPT-5.6、Microsoft 365標準へ",
+    "category": "新モデル発表",
+    "source": "OpenAI Blog",
+    "lede": "OpenAIの最新モデルGPT-5.6が、WordやExcelなどMicrosoft 365 Copilotの優先モデルになる。",
+    "keypoints": [
+      "Wordで文書作成を支援",
+      "Excel分析を深める",
+      "PowerPoint作成にも対応",
+      "少ない労力で高品質化"
+    ],
+    "pull": "AI導入は単体ツールから、日常業務ソフトの標準機能へ進む。",
+    "bizapp": {
+      "summary": "既存のMicrosoft業務をAI前提に作り直せる",
+      "actions": [
+        "Microsoft 365 Copilotで稟議を整備",
+        "営業資料作成の標準化を提案",
+        "来期前に運用設計しないと差が出る"
+      ]
+    },
+    "links": [
+      "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "ソフトバンク、全社RAGで業務削減",
+    "category": "業界動向",
+    "source": "ITmedia AI+",
+    "lede": "ソフトバンクは1万9000人が使う全社RAG基盤で、利便性と安全性の両立に取り組んだ。",
+    "keypoints": [
+      "1万9000人が利用",
+      "RAG乱立に対応",
+      "ガバナンスを組み込み",
+      "数万時間相当を削減"
+    ],
+    "pull": "社内AIは便利さだけでなく、統制まで設計して初めて広がる。",
+    "bizapp": {
+      "summary": "社内ナレッジ検索を安全に全社展開する参考になる",
+      "actions": [
+        "NotebookLMで部門FAQを整備",
+        "社内RAG導入支援を提案",
+        "放置するとAI利用が部門ごとに乱立"
+      ]
+    },
+    "links": [
+      "https://atmarkit.itmedia.co.jp/ait/articles/2607/10/news002.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Adobe、生成AI制作手順を組織資産に",
+    "category": "ツール更新",
+    "source": "Impress PC Watch",
+    "lede": "AdobeはFireflyの企業向け新機能で、生成AIの制作ワークフローを保存・共有できるようにした。",
+    "keypoints": [
+      "Firefly Graphを提供",
+      "編集手順を保存共有",
+      "GoogleやOpenAIも利用",
+      "大量制作機能も提供"
+    ],
+    "pull": "生成AI制作は個人技から、再利用できる会社の型へ移る。",
+    "bizapp": {
+      "summary": "広告画像や動画制作の品質と速度をそろえられる",
+      "actions": [
+        "Fireflyで商品画像工程を共有",
+        "EC運用の制作量産を提案",
+        "属人化を放置すると納期が詰まる"
+      ]
+    },
+    "links": [
+      "https://pc.watch.impress.co.jp/docs/news/2123952.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "三菱自動車、国産ロボAI量産へ",
+    "category": "業界動向",
+    "source": "Business Insider Japan",
+    "lede": "三菱自動車と東大発Highlandersが、ヒューマノイドロボットの共同開発と量産化で基本合意した。",
+    "keypoints": [
+      "Highlandersと基本合意",
+      "京都工場で量産協議",
+      "2027年早期に月1000台規模",
+      "自社工場への展開を想定"
+    ],
+    "pull": "人手不足対策は、画面上のAIから現場で動くAIへ広がる。",
+    "bizapp": {
+      "summary": "製造現場の人手不足対策をAIロボットで考え直せる",
+      "actions": [
+        "現場作業を動画でNotion整理",
+        "工場DXの熟練技継承を提案",
+        "人手不足対応を先送りすると採用難化"
+      ]
+    },
+    "links": [
+      "https://www.businessinsider.jp/article/2607-mitsubishi-motor-physical-ai/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "PLaMo 3、大型国産LLMの評価公開",
+    "category": "研究",
+    "source": "Preferred Networks Blog",
+    "lede": "Preferred NetworksはNICTと進める国産LLM、PLaMo 3の120Bモデルと31B蒸留モデルの評価を紹介した。",
+    "keypoints": [
+      "120Bモデルを学習",
+      "31B蒸留モデルも完了",
+      "長い入力への対応も実施",
+      "国産LLMの性能を検証"
+    ],
+    "pull": "日本語や日本社会に合うAI基盤づくりが、選択肢として育つ。",
+    "bizapp": {
+      "summary": "国内データ重視のAI調達判断に使える",
+      "actions": [
+        "Obsidianで国産LLM要件を整理",
+        "自治体向けAI選定支援を提案",
+        "調達前に国産選択肢を見落とす"
+      ]
+    },
+    "links": [
+      "https://tech.preferred.jp/ja/blog/plamo_3_120b_distillation_cpt/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Claude最上位利用に従量課金の兆し",
+    "category": "業界動向",
+    "source": "Wired AI",
+    "lede": "AnthropicはClaude Fable 5の利用に、月額契約に加えて使用量ベースの追加料金を求める方針だ。",
+    "keypoints": [
+      "7月12日から追加課金",
+      "対象は有料加入者",
+      "APIと同じ料金体系",
+      "定額AIの転換点"
+    ],
+    "pull": "高性能AIは、使い放題ではなく使った分払う時代に近づく。",
+    "bizapp": {
+      "summary": "AI利用コストを部署別に見える化すべき局面",
+      "actions": [
+        "NotionでAI利用台帳を作る",
+        "中小企業にAI費用管理を提案",
+        "予算化しないと追加費用が膨らむ"
+      ]
+    },
+    "links": [
+      "https://www.wired.com/story/model-behavior-anthropic-will-charge-consumers-extra-to-use-claude-fable-5/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AI活用、7割がチャット止まり",
+    "category": "業界動向",
+    "source": "MarkeZine",
+    "lede": "GiftX調査で、業務AI利用は広がる一方、AIエージェント化まで進む人は約1割にとどまると分かった。",
+    "keypoints": [
+      "ビジネス職の約67％が利用",
+      "約7割はチャット利用",
+      "エージェント化は10.5％",
+      "生産性向上に大きな差"
+    ],
+    "pull": "成果の差は、AIに聞くか、業務を任せるかで生まれている。",
+    "bizapp": {
+      "summary": "AI研修はチャット術から業務プロセス設計へ移すべき",
+      "actions": [
+        "Copilot Studioで定型処理を作る",
+        "営業事務の自動化研修を提案",
+        "チャット止まりでは成果差が埋まらない"
+      ]
+    },
+    "links": [
+      "https://markezine.jp/article/detail/77145"
+    ],
+    "likes": 0
+  }
+]
