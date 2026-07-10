@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週は、AIが回答役から「作業完了役」へ進んだ週です。小規模事業者は、資料作成・CRM入力・広告制作の3領域から始めるのが最短です。大きなAI基盤より、毎週発生する手作業を1つずつ任せる段階に入りました。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-07-10",
+      "title": "ChatGPT、仕事を完了する相棒へ",
+      "category": "ツール更新",
+      "source": "OpenAI Blog / ITmedia AI+ / Ars Technica AI",
+      "why_picked": "資料・分析・アプリ作成を即外注化できる",
+      "tldr": "ChatGPTが作業完了型へ",
+      "action": "営業資料を1本任せる",
+      "image": "../assets/images/2026-07-10/topic_1.png",
+      "link": "../news/2026-07-10/#topic-1"
+    },
+    {
+      "rank": 2,
+      "date": "2026-07-09",
+      "title": "CRM入力、AIエージェントが自動化",
+      "category": "ツール更新",
+      "source": "MarkeZine",
+      "why_picked": "営業後の入力時間を売上活動に戻せる",
+      "tldr": "CRM入力をAIが代行",
+      "action": "商談メモ更新を試す",
+      "image": "../assets/images/2026-07-09/topic_8.png",
+      "link": "../news/2026-07-09/#topic-8"
+    },
+    {
+      "rank": 3,
+      "date": "2026-07-10",
+      "title": "Adobe、生成AI制作手順を組織資産に",
+      "category": "ツール更新",
+      "source": "Impress PC Watch",
+      "why_picked": "広告画像の量産品質を少人数でそろえられる",
+      "tldr": "制作手順をAIで再利用",
+      "action": "商品画像の型を作る",
+      "image": "../assets/images/2026-07-10/topic_4.png",
+      "link": "../news/2026-07-10/#topic-4"
+    }
+  ]
+}
