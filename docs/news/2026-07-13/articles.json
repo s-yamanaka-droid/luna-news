@@ -1,0 +1,203 @@
+[
+  {
+    "title": "GPT-5.6、業務AIの新標準に",
+    "category": "新モデル発表",
+    "source": "OpenAI Blog / Gihyo.jp",
+    "lede": "OpenAIがGPT-5.6シリーズを一般提供し、業務・開発・調査向けのAI選択肢が広がった。",
+    "keypoints": [
+      "Sol、Terra、Lunaの3モデル",
+      "用途別に性能と費用を選べる",
+      "ChatGPTやAPIに順次展開",
+      "知識期限は2026年2月16日"
+    ],
+    "pull": "AI導入は性能だけでなく、業務ごとの費用対効果で選ぶ段階に入った。",
+    "bizapp": {
+      "summary": "社内AI利用を用途別モデル選定に変える",
+      "actions": [
+        "OpenAI APIで業務別に費用検証",
+        "中小企業にAI運用費削減を提案",
+        "来期予算前にAI費用を見直す"
+      ]
+    },
+    "links": [
+      "https://openai.com/index/gpt-5-6",
+      "https://gihyo.jp/article/2026/07/gpt-5.6-ga?utm_source=feed"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "ChatGPT Work、業務実行AIへ",
+    "category": "ツール更新",
+    "source": "SiliconANGLE AI",
+    "lede": "OpenAIが、接続アプリやファイルをまたいで業務を自律実行するChatGPT Workを発表した。",
+    "keypoints": [
+      "ChatGPT内の新モード",
+      "資料や表を一文で作成",
+      "接続アプリを横断操作",
+      "Proなどに順次提供"
+    ],
+    "pull": "AIは質問に答える道具から、仕事を進める実行役に近づいている。",
+    "bizapp": {
+      "summary": "定型資料作成や更新業務の自動化に使える",
+      "actions": [
+        "ChatGPT Workで週次資料を作る",
+        "営業報告の自動化を提案",
+        "手作業のままだと更新負荷が残る"
+      ]
+    },
+    "links": [
+      "https://siliconangle.com/2026/07/09/openai-debuts-chatgpt-work-agentic-tool-automating-business-workflows/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Google検索データ、AI学習設定に注意",
+    "category": "セキュリティ",
+    "source": "Wired Japan",
+    "lede": "Google検索でアップロードした画像や音声が保存され、AI学習に使われる可能性がある。",
+    "keypoints": [
+      "検索サービス履歴が追加",
+      "画像や音声も保存対象",
+      "設定変更で停止できる",
+      "学習後は対応が難しい"
+    ],
+    "pull": "AI活用の前提として、自社データがどこで学習に使われるかを管理すべきだ。",
+    "bizapp": {
+      "summary": "社内の検索・翻訳利用ルール見直しに使える",
+      "actions": [
+        "Google設定を情シスで点検",
+        "顧客画像の扱いルールを提案",
+        "放置すると情報管理が後手になる"
+      ]
+    },
+    "links": [
+      "https://wired.jp/article/how-to-opt-out-of-google-search-new-ai-data-training/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "金融機関の生成AI導入、鍵はリスク整理",
+    "category": "セキュリティ",
+    "source": "Zenn トレンド",
+    "lede": "情報漏洩に慎重な金融機関で、Claude・Gemini・ChatGPTを全社導入した実例が共有された。",
+    "keypoints": [
+      "現場は導入に前向き",
+      "リスク部門は慎重",
+      "導入しないリスクも可視化",
+      "感情論でなく整理が重要"
+    ],
+    "pull": "生成AIのリスクは、使う危険と使わない損失の両面で語る必要がある。",
+    "bizapp": {
+      "summary": "AI導入稟議のリスク説明に使える",
+      "actions": [
+        "NotionでAI利用ルールを整備",
+        "金融向けAI導入支援を提案",
+        "放置すると採用力で劣後する"
+      ]
+    },
+    "links": [
+      "https://zenn.dev/seiuchi3939/articles/b12d6746d9f187"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "CopilotにGPT-5.6系モデル追加",
+    "category": "ツール更新",
+    "source": "CodeZine",
+    "lede": "GitHub CopilotでGPT-5.6 Sol、Terra、Lunaが使えるようになり、開発用途別に選択できる。",
+    "keypoints": [
+      "Solは大規模開発向け",
+      "Terraは日常開発向け",
+      "Lunaは高速小規模向け",
+      "管理者設定が必要な場合あり"
+    ],
+    "pull": "開発AIは一律導入から、作業の重さに応じて選ぶ段階に入った。",
+    "bizapp": {
+      "summary": "開発チームのAI利用コスト最適化に使える",
+      "actions": [
+        "GitHub Copilotでモデルを使い分け",
+        "受託開発の工数削減を提案",
+        "設定しないと展開が遅れる"
+      ]
+    },
+    "links": [
+      "https://codezine.jp/article/detail/28923"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AIが買い物代行、博報堂が診断開始",
+    "category": "業界動向",
+    "source": "MarkeZine",
+    "lede": "博報堂が、AIエージェントが検索から決済まで代行する商取引への対応支援を始めた。",
+    "keypoints": [
+      "Agentic Commerce ONE開始",
+      "戦略から運用まで支援",
+      "対応状況を診断",
+      "ブランドと技術の両面評価"
+    ],
+    "pull": "ECは人に見つけてもらうだけでなく、AIに選ばれる設計が必要になる。",
+    "bizapp": {
+      "summary": "ECやブランドのAI時代対応に使える",
+      "actions": [
+        "AIO視点で商品情報を整理",
+        "中小ECのAI購買対応を提案",
+        "準備しないと候補から外れる"
+      ]
+    },
+    "links": [
+      "https://markezine.jp/article/detail/77149"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "音声AI「GPT-Live」、自然会話で話題",
+    "category": "新モデル発表",
+    "source": "ITmedia AI+",
+    "lede": "OpenAIの音声会話向けモデルGPT-Liveが、聞き取りと発話を同時に行う自然さで注目されている。",
+    "keypoints": [
+      "音声会話向けモデル",
+      "聞き取りと発話を同時処理",
+      "自然な相づちに対応",
+      "深い質問は別モデルへ委任"
+    ],
+    "pull": "音声AIは、待たせない会話体験を業務品質の差に変え始めている。",
+    "bizapp": {
+      "summary": "問い合わせや接客の音声対応改善に使える",
+      "actions": [
+        "GPT-Liveで応対デモを検証",
+        "店舗の音声案内導入を提案",
+        "遅い応答は顧客離脱につながる"
+      ]
+    },
+    "links": [
+      "https://www.itmedia.co.jp/news/articles/2607/10/news114.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Claude Code、外部サイト操作に対応",
+    "category": "ツール更新",
+    "source": "The Decoder",
+    "lede": "Claude Codeに内蔵ブラウザが追加され、外部Webサイトを読み、クリックし、入力できるようになった。",
+    "keypoints": [
+      "内蔵ブラウザを追加",
+      "文書サイトや課題管理を操作",
+      "購入や登録は同意が必要",
+      "組織は外部サイト制限可能"
+    ],
+    "pull": "開発AIはコードを書く補助から、調査と操作を含む作業環境へ広がっている。",
+    "bizapp": {
+      "summary": "開発調査やチケット確認の手間削減に使える",
+      "actions": [
+        "Claude Codeで仕様調査を任せる",
+        "開発部門の調査代行を提案",
+        "制限設計なしだと統制を失う"
+      ]
+    },
+    "links": [
+      "https://the-decoder.com/claude-code-now-has-a-built-in-browser-that-lets-the-ai-read-click-and-type-on-external-websites/"
+    ],
+    "likes": 0
+  }
+]
