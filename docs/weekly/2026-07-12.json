@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週は、AIがチャット相手から実務を完了する相棒へ進んだ週です。小さな会社ほど、資料作成・営業管理・定型文書の自動化で即効性があります。まずは既存業務を1つ選び、AIに任せる形へ置き換えるのが最短です。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-07-10",
+      "title": "ChatGPT、仕事を完了する相棒へ",
+      "category": "ツール更新",
+      "source": "OpenAI Blog / ITmedia AI+ / Ars Technica AI",
+      "why_picked": "営業資料や分析を丸ごと任せられる",
+      "tldr": "AIが成果物まで作る",
+      "action": "営業資料を1本作らせる",
+      "image": "../assets/images/2026-07-10/topic_1.png",
+      "link": "../news/2026-07-10/#topic-1"
+    },
+    {
+      "rank": 2,
+      "date": "2026-07-10",
+      "title": "GPT-5.6、Microsoft 365標準へ",
+      "category": "新モデル発表",
+      "source": "OpenAI Blog",
+      "why_picked": "普段のWord・Excel業務に直結する",
+      "tldr": "Office業務がAI前提に",
+      "action": "定型文書をAI化する",
+      "image": "../assets/images/2026-07-10/topic_2.png",
+      "link": "../news/2026-07-10/#topic-2"
+    },
+    {
+      "rank": 3,
+      "date": "2026-07-09",
+      "title": "CRM入力、AIエージェントが自動化",
+      "category": "ツール更新",
+      "source": "MarkeZine",
+      "why_picked": "営業後の入力時間をすぐ減らせる",
+      "tldr": "CRM入力をAIが代行",
+      "action": "商談メモ入力を半自動化",
+      "image": "../assets/images/2026-07-09/topic_8.png",
+      "link": "../news/2026-07-09/#topic-8"
+    }
+  ]
+}
