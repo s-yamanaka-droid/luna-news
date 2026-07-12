@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週は、AIがチャット相手から業務実行役へ進んだ週です。小規模事業者は、資料作成・CRM入力・広告制作など定型業務から先に任せるのが現実的です。一方で、検索履歴やAI利用費の管理も早めに整える必要があります。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-07-10",
+      "title": "ChatGPT、仕事を完了する相棒へ",
+      "category": "ツール更新",
+      "source": "OpenAI Blog / ITmedia AI+ / Ars Technica AI",
+      "why_picked": "営業資料作成の時間をすぐ削れる",
+      "tldr": "ChatGPTが成果物まで作る",
+      "action": "営業資料を1本任せる",
+      "image": "../assets/images/2026-07-10/topic_1.png",
+      "link": "../news/2026-07-10/#topic-1"
+    },
+    {
+      "rank": 2,
+      "date": "2026-07-09",
+      "title": "CRM入力、AIエージェントが自動化",
+      "category": "ツール更新",
+      "source": "MarkeZine",
+      "why_picked": "営業後の入力漏れと手間を減らせる",
+      "tldr": "CRM更新をAIが代行",
+      "action": "商談メモ入力を半自動化",
+      "image": "../assets/images/2026-07-09/topic_8.png",
+      "link": "../news/2026-07-09/#topic-8"
+    },
+    {
+      "rank": 3,
+      "date": "2026-07-07",
+      "title": "Sakana Chat、日英中翻訳に対応",
+      "category": "ツール更新",
+      "source": "Gihyo.jp",
+      "why_picked": "無料で海外対応の初速を上げられる",
+      "tldr": "日英中翻訳を無料提供",
+      "action": "英文メールを添削する",
+      "image": "../assets/images/2026-07-07/topic_5.png",
+      "link": "../news/2026-07-07/#topic-5"
+    }
+  ]
+}

@@ -23,7 +23,30 @@
       "https://openai.com/index/gpt-5-6",
       "https://gihyo.jp/article/2026/07/gpt-5.6-ga?utm_source=feed"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "モデル別費用見直し",
+      "tool": {
+        "name": "OpenAI API",
+        "url": "https://platform.openai.com",
+        "cost": "従量課金"
+      },
+      "time": "30分",
+      "steps": [
+        "業務を三分類せよ",
+        "同じ指示で試せ",
+        "費用と精度を比べよ"
+      ],
+      "prompt": "あなたは{業種}のAI導入担当です。{自社名}の業務を調査、文章作成、判断補助に分け、各業務に最適なAIモデルと費用削減案を表にしてください。",
+      "roi": "AI利用費を20〜40%削減"
+    },
+    "icebreak": {
+      "hook": "GPT-5.6、3モデルに分かれたの知ってます？",
+      "punchline": "AIも万能1本より、業務ごとに性能と費用を選ぶ段階ですね。",
+      "ctx_meeting": "AI導入提案の冒頭で",
+      "ctx_chat": "移動中の雑談で",
+      "share_text": "GPT-5.6がSol/Terra/Lunaに分かれたのを見ると、AI選びも「高性能なら正解」ではなく、業務ごとの費用対効果を見る段階に入った感じがします。"
+    }
   },
   {
     "title": "ChatGPT Work、業務実行AIへ",
@@ -48,7 +71,30 @@
     "links": [
       "https://siliconangle.com/2026/07/09/openai-debuts-chatgpt-work-agentic-tool-automating-business-workflows/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "週次資料を自動更新",
+      "tool": {
+        "name": "ChatGPT Plus",
+        "url": "https://chatgpt.com",
+        "cost": "約¥3,000/月"
+      },
+      "time": "20分",
+      "steps": [
+        "先週の資料を渡せ",
+        "今週の数字を貼れ",
+        "更新版を作らせよ"
+      ],
+      "prompt": "あなたは{自社名}の業務アシスタントです。以下の{週次資料}と{今週の数字}を使い、社内共有用に要点、表、次アクションを更新してください。",
+      "roi": "週次資料作成を70%短縮"
+    },
+    "icebreak": {
+      "hook": "ChatGPT、資料作成を一文で動かすらしいですよ",
+      "punchline": "答えるAIから、アプリをまたいで仕事を進めるAIに寄ってますね。",
+      "ctx_meeting": "業務改善提案の導入で",
+      "ctx_chat": "会議前の雑談で",
+      "share_text": "ChatGPT Workの話を見て、AI活用の焦点が「質問への回答」から「資料や表を一文で作らせる業務実行」に移ってきたと感じます。"
+    }
   },
   {
     "title": "Google検索データ、AI学習設定に注意",
@@ -73,7 +119,30 @@
     "links": [
       "https://wired.jp/article/how-to-opt-out-of-google-search-new-ai-data-training/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "検索設定を即点検",
+      "tool": {
+        "name": "Google アカウント",
+        "url": "https://myaccount.google.com/activitycontrols",
+        "cost": "無料"
+      },
+      "time": "10分",
+      "steps": [
+        "設定画面を開け",
+        "保存項目を確認せよ",
+        "社内ルールに書け"
+      ],
+      "prompt": "あなたは{自社名}の情報管理担当です。{業種}でGoogle検索、画像検索、翻訳を使う際の禁止データと確認手順を10項目で作ってください。",
+      "roi": "顧客情報流出リスクを低減"
+    },
+    "icebreak": {
+      "hook": "Google検索の画像や音声、設定見てます？",
+      "punchline": "アップロードした内容が保存やAI学習に使われる可能性、見落としがちです。",
+      "ctx_meeting": "情報管理の話題で",
+      "ctx_chat": "ランチ中の会話で",
+      "share_text": "Google検索に画像や音声を入れる機会が増えた分、検索サービス履歴の設定は一度見直したいです。便利さの裏で、何が保存対象かを知っておくのは大事ですね。"
+    }
   },
   {
     "title": "金融機関の生成AI導入、鍵はリスク整理",
@@ -98,7 +167,30 @@
     "links": [
       "https://zenn.dev/seiuchi3939/articles/b12d6746d9f187"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI稟議を一枚化",
+      "tool": {
+        "name": "Notion AI",
+        "url": "https://www.notion.so/product/ai",
+        "cost": "約¥1,500/月〜"
+      },
+      "time": "30分",
+      "steps": [
+        "使いたい業務を書け",
+        "リスクを列挙せよ",
+        "導入ルールに直せ"
+      ],
+      "prompt": "あなたは{自社名}のAI導入責任者です。{業種}で生成AIを使うメリット、情報漏洩リスク、使わないリスク、禁止事項を稟議書1枚にまとめてください。",
+      "roi": "AI導入判断を半日に短縮"
+    },
+    "icebreak": {
+      "hook": "金融機関でも生成AI導入、進んでるらしいですよ",
+      "punchline": "ポイントは導入するリスクだけでなく、導入しないリスクも並べることですね。",
+      "ctx_meeting": "稟議前の相談で",
+      "ctx_chat": "役員待ち時間の雑談で",
+      "share_text": "金融機関の生成AI導入事例を見ると、論点は「危ないかどうか」だけではなく「使わないリスクをどう整理するか」なんだと感じます。感情論にしない設計が大事ですね。"
+    }
   },
   {
     "title": "CopilotにGPT-5.6系モデル追加",
@@ -123,7 +215,30 @@
     "links": [
       "https://codezine.jp/article/detail/28923"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "開発AIを使い分け",
+      "tool": {
+        "name": "GitHub Copilot",
+        "url": "https://github.com/features/copilot",
+        "cost": "約¥1,500/月〜"
+      },
+      "time": "30分",
+      "steps": [
+        "小修正を任せよ",
+        "重い改修を分けよ",
+        "時間差を記録せよ"
+      ],
+      "prompt": "あなたは{自社名}の開発リーダーです。{開発課題}を小修正、日常実装、大規模改修に分け、Copilotで使うモデルと確認手順を提案してください。",
+      "roi": "小規模改修の工数を30%削減"
+    },
+    "icebreak": {
+      "hook": "CopilotもGPT-5.6系を選べるようになったそうです",
+      "punchline": "大規模開発、日常開発、小さな修正でモデルを使い分ける発想ですね。",
+      "ctx_meeting": "開発体制の相談で",
+      "ctx_chat": "エンジニア雑談で",
+      "share_text": "CopilotにGPT-5.6 Sol/Terra/Lunaが入ると、開発AIも一律ではなく、重い作業と日常作業で選ぶ前提になりそうです。管理者設定まで含めて運用設計が要りますね。"
+    }
   },
   {
     "title": "AIが買い物代行、博報堂が診断開始",
@@ -148,7 +263,30 @@
     "links": [
       "https://markezine.jp/article/detail/77149"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "商品情報をAI対応",
+      "tool": {
+        "name": "ChatGPT Plus",
+        "url": "https://chatgpt.com",
+        "cost": "約¥3,000/月"
+      },
+      "time": "30分",
+      "steps": [
+        "商品ページを貼れ",
+        "不足情報を出せ",
+        "FAQを追記せよ"
+      ],
+      "prompt": "あなたは{自社名}のEC改善担当です。{商品名}の商品説明をAIエージェントが推薦しやすい形に直し、特徴、用途、比較、FAQを作ってください。",
+      "roi": "AI検索経由の候補漏れを防止"
+    },
+    "icebreak": {
+      "hook": "AIが検索から決済まで買い物代行する話、来てますね",
+      "punchline": "人に選ばれるだけでなく、AIに選ばれるブランド設計も必要になりそうです。",
+      "ctx_meeting": "EC支援提案の冒頭で",
+      "ctx_chat": "マーケ雑談で",
+      "share_text": "AIエージェントが検索から決済まで代行するなら、ECは「人にどう見せるか」だけでは足りないのかもしれません。AIに正しく選ばれる準備、かなり現実的なテーマですね。"
+    }
   },
   {
     "title": "音声AI「GPT-Live」、自然会話で話題",
@@ -173,7 +311,30 @@
     "links": [
       "https://www.itmedia.co.jp/news/articles/2607/10/news114.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "電話応対を音声練習",
+      "tool": {
+        "name": "ChatGPT Plus",
+        "url": "https://chatgpt.com",
+        "cost": "約¥3,000/月"
+      },
+      "time": "15分",
+      "steps": [
+        "よくある質問を入れよ",
+        "音声で練習せよ",
+        "返答案を改善せよ"
+      ],
+      "prompt": "あなたは{自社名}の接客トレーナーです。{業種}の電話問い合わせで多い{質問}に、自然な相づち付きで答える練習台になってください。",
+      "roi": "新人の応対練習を月5時間削減"
+    },
+    "icebreak": {
+      "hook": "GPT-Live、相づちまで自然らしいですよ",
+      "punchline": "聞き取りと発話を同時に進めるので、音声AIが会話相手に近づいてますね。",
+      "ctx_meeting": "接客AIの話題で",
+      "ctx_chat": "移動中の雑談で",
+      "share_text": "GPT-Liveの話で面白いのは、音声AIがただ返答するだけでなく、聞き取りながら自然に相づちを打つところです。人が話しやすいAIかどうかが、導入の差になりそうです。"
+    }
   },
   {
     "title": "Claude Code、外部サイト操作に対応",
@@ -198,6 +359,29 @@
     "links": [
       "https://the-decoder.com/claude-code-now-has-a-built-in-browser-that-lets-the-ai-read-click-and-type-on-external-websites/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "仕様調査を自動化",
+      "tool": {
+        "name": "Claude Code",
+        "url": "https://www.anthropic.com/claude-code",
+        "cost": "約¥3,000/月〜"
+      },
+      "time": "30分",
+      "steps": [
+        "調査URLを渡せ",
+        "要件を抜かせよ",
+        "チケット化せよ"
+      ],
+      "prompt": "あなたは{自社名}の開発調査担当です。{調査URL}を読み、{開発課題}に関係する仕様、注意点、実装タスクをチケット形式で整理してください。",
+      "roi": "仕様調査を50%短縮"
+    },
+    "icebreak": {
+      "hook": "Claude Code、外部サイトを操作できるようになったそうです",
+      "punchline": "読むだけの開発支援から、サイトを開いてクリックや入力まで進む形ですね。",
+      "ctx_meeting": "開発自動化の相談で",
+      "ctx_chat": "ツール雑談で",
+      "share_text": "Claude Codeに内蔵ブラウザが入ると、AIが文書サイトや課題管理を見ながら作業する前提が強まりますね。購入や登録に同意が必要な設計も、現場運用では重要だと思います。"
+    }
   }
 ]

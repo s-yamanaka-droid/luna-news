@@ -7,6 +7,13 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。毎朝6:30、AI業界ニュースを図解と「明日からできる活用法」で。</description>
   <language>ja</language>
   <item>
+    <title>2026-07-13 AI朝刊：GPT-5.6、業務AIの新標準に ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-07-13/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-13/</guid>
+    <pubDate>Mon, 13 Jul 2026 06:30:00 +0900</pubDate>
+    <description>GPT-5.6、業務AIの新標準に／ChatGPT Work、業務実行AIへ／Google検索データ、AI学習設定に注意／金融機関の生成AI導入、鍵はリスク整理／CopilotにGPT-5.6系モデル追加</description>
+  </item>
+  <item>
     <title>2026-07-10 AI朝刊：ChatGPT、仕事を完了する相棒へ ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-07-10/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-10/</guid>
@@ -159,13 +166,6 @@
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-19/</guid>
     <pubDate>Fri, 19 Jun 2026 06:30:00 +0900</pubDate>
     <description>ChatGPT広告、日本で開始へ／Adobe、制作AIエージェント拡大／OpenAI、企業向け費用管理を強化／Microsoft、業務代行AIを一般提供／Adobe、AI検索のブランド管理発表</description>
-  </item>
-  <item>
-    <title>2026-06-18 AI朝刊：SpaceX、Cursorを9.6兆円で買収 ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-06-18/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-18/</guid>
-    <pubDate>Thu, 18 Jun 2026 06:30:00 +0900</pubDate>
-    <description>SpaceX、Cursorを9.6兆円で買収／AI料金、人月モデルを揺さぶる／富士通とIBM、基幹刷新で協業加速／AWS、社内資料AI化を簡単に／AWSコスト異常をAIが調査</description>
   </item>
 </channel>
 </rss>
