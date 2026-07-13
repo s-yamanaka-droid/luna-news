@@ -1,0 +1,202 @@
+[
+  {
+    "title": "みずほFG、Claude Code全社活用でAIネイティブ変革へ",
+    "category": "業界動向",
+    "source": "ビジネス+IT",
+    "lede": "厳格な規制下の金融でみずほFGが、AIを足すのではなく業務プロセスそのものを前提から作り直す全社変革に挑む。",
+    "keypoints": [
+      "AIを業務に「足す」段階からの脱却",
+      "業務プロセス自体を再設計する発想",
+      "開発現場でClaude Codeをフル活用",
+      "厳格な金融規制下での取り組み"
+    ],
+    "pull": "求められるのはAIを前提に業務プロセスそのものを再設計する発想の転換だ。",
+    "bizapp": {
+      "summary": "AI導入を「業務再設計」に格上げする経営判断の好例",
+      "actions": [
+        "Cursorで開発現場の生産性を実測する",
+        "中小へ業務棚卸し型AIコンサルを提案",
+        "ツール導入止まりだと成果が出ず投資が無駄化"
+      ]
+    },
+    "links": [
+      "https://www.sbbit.jp/article/fj/186036?ref=rss"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "デジタル庁、国産LLM3モデルを政府AI「源内」で評価開始",
+    "category": "政策・規制",
+    "source": "Publickey",
+    "lede": "デジタル庁が行政向けAI「源内」に向け、NTTデータ・富士通・Preferred Networksの国産大規模言語モデル3種の試用をさくらのクラウド上で開始した。",
+    "keypoints": [
+      "行政業務効率化のためのガバメントAI「源内」",
+      "tsuzumi 2・Takane 32B・PLaMo 2.0を評価",
+      "さくらのクラウド上で稼働",
+      "A/Bテストでユーザー評価を実施"
+    ],
+    "pull": "行政のAI基盤を国産モデルで固める、経済安全保障の実験が始まった。",
+    "bizapp": {
+      "summary": "国産LLM採用の流れが公共調達で加速",
+      "actions": [
+        "NotebookLMで国産モデル各社の仕様を比較調査",
+        "自治体・公共案件で国産AI活用を提案",
+        "海外依存前提の調達計画は早めに見直しが必要"
+      ]
+    },
+    "links": [
+      "https://www.publickey1.jp/blog/26/3ai.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Apple、OpenAIを提訴　元社員が営業秘密流出と主張",
+    "category": "セキュリティ",
+    "source": "Ars Technica / Wired",
+    "lede": "Appleが、引き抜かれた元社員を通じて未発表の試作品や機密設計が盗まれたとしてOpenAIを提訴。ハードウェア事業を巡る争いに発展した。",
+    "keypoints": [
+      "退職後もバグでAppleサーバーに数週間アクセス可能に",
+      "OpenAIのハード責任者ら共謀と主張",
+      "面接に機密部品を持参させたとの疑い",
+      "機密情報の使用差し止めを請求"
+    ],
+    "pull": "AIのハード事業が盗んだ営業秘密の上に立つ、とAppleは断じる。",
+    "bizapp": {
+      "summary": "退職者経由の情報流出リスクを自社で点検すべき警鐘",
+      "actions": [
+        "Notionで退職者のアクセス権棚卸しルールを整備",
+        "採用時の秘密保持・競業避止の契約強化を提案",
+        "アカウント失効漏れは訴訟級の損失に直結"
+      ]
+    },
+    "links": [
+      "https://arstechnica.com/tech-policy/2026/07/apple-sues-openai-after-ex-engineer-allegedly-used-bug-to-steal-trade-secrets/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "OpenAI GPT-5.6シリーズ、AWS Bedrockで正式提供開始",
+    "category": "新モデル発表",
+    "source": "AWS AI Blog",
+    "lede": "OpenAIの最新モデルGPT-5.6（Sol・Terra・Luna）がAmazon Bedrockで一般提供に。数百ステップに及ぶ自律エージェント処理を安定実行できるという。",
+    "keypoints": [
+      "OpenAI最上位モデル群がBedrockに登場",
+      "コーディングやセキュリティ研究向け",
+      "数百ステップの処理を安定実行",
+      "データ所在地とセキュリティを重視した設計"
+    ],
+    "pull": "機密データを扱う企業でも、フロンティアAIを自社基盤上で動かせる。",
+    "bizapp": {
+      "summary": "機密データ環境でも最新AIを使える選択肢が増えた",
+      "actions": [
+        "既存AWS基盤にGPT-5.6を組み込み自動化を検証",
+        "データ管理を重視する企業へBedrock採用を提案",
+        "モデル選定を怠ると競合に処理精度で差をつけられる"
+      ]
+    },
+    "links": [
+      "https://aws.amazon.com/blogs/machine-learning/openai-gpt-5-6-sol-terra-and-luna-are-now-generally-available-on-amazon-bedrock/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "アニメ特化動画生成AI「AnimeGen」無償公開　商用も可",
+    "category": "ツール更新",
+    "source": "ITmedia AI+",
+    "lede": "国内AIベンチャーAIdeaLabが、アニメに特化した動画生成AI「AnimeGen」正式版を商用利用可のライセンスで無償公開。国内企業として日本初という。",
+    "keypoints": [
+      "テキスト・画像から動画を生成する2種を公開",
+      "商用可のApache-2.0ライセンス",
+      "経産省GENIACの支援で開発",
+      "日本の著作権法に基づき学習データを収集"
+    ],
+    "pull": "アニメ制作の人手不足と長時間労働を、国産AIで解こうとする挑戦。",
+    "bizapp": {
+      "summary": "アニメ調の販促・広告動画を無料で内製できる",
+      "actions": [
+        "Hugging FaceからDLし販促動画を試作",
+        "アニメ広告を中小の商品PRに提案",
+        "外注頼みだと制作コストと納期で機会を逃す"
+      ]
+    },
+    "links": [
+      "https://www.itmedia.co.jp/aiplus/article/2607/13/2000000187/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "MS・ナデラ氏が警告「AI利用企業は知能に二重で支払う」",
+    "category": "業界動向",
+    "source": "TechCrunch",
+    "lede": "マイクロソフトCEOナデラ氏が、OpenAIやAnthropicなど独自モデルを使う企業は利用料に加え、機密情報を無自覚に差し出していると警告した。",
+    "keypoints": [
+      "AIラボが顧客の機密情報にアクセスできる懸念",
+      "ラボが顧客の競合になり得る指摘",
+      "利用料と引き換えに価値ある自社データを提供",
+      "VCやPalantir CEOも同様の警鐘"
+    ],
+    "pull": "あなたは知能に二度支払っている。トークン利用料と、渡した自社データで。",
+    "bizapp": {
+      "summary": "AIに渡すデータの扱いを契約段階で見直す必要",
+      "actions": [
+        "学習利用オプトアウトの有無を各AIで確認",
+        "顧客企業へデータガバナンス整備を提案",
+        "無自覚な機密提供は競争優位の流出を招く"
+      ]
+    },
+    "links": [
+      "https://techcrunch.com/2026/07/13/satya-nadella-has-issued-a-shocking-warning-to-companies-using-ai/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "オープンモデルが利用量29%に急伸、トークン単価は横ばい",
+    "category": "研究",
+    "source": "Vercel Blog",
+    "lede": "Vercelの本番AI利用調査で、オープンウェイトモデルが全トークンの29%（4月は11%）に急伸。DeepSeekが3位に迫り、単価は上昇後に横ばいとなった。",
+    "keypoints": [
+      "オープンモデルが利用量29%まで拡大",
+      "支出は全体の4%未満と低コスト",
+      "DeepSeekが利用量22.6%で3位",
+      "Anthropicは支出の61%を占有"
+    ],
+    "pull": "低コストのオープンモデルが、企業の本番利用で存在感を急拡大している。",
+    "bizapp": {
+      "summary": "用途別にオープンモデル併用でAIコストを圧縮できる",
+      "actions": [
+        "定型処理をオープンモデルに切替えコスト検証",
+        "AI予算最適化を中小のDX提案に組み込む",
+        "高額モデル一択のままだとコスト構造で不利"
+      ]
+    },
+    "links": [
+      "https://vercel.com/blog/ai-gateway-production-index-july-2026"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Google Cloud、AI生成コードを隔離実行する新環境を公開",
+    "category": "ツール更新",
+    "source": "Publickey",
+    "lede": "Google Cloudが、生成AIによる信頼できないコードを瞬時に隔離して安全に実行できる「Cloud Runサンドボックス」をパブリックプレビュー公開した。",
+    "keypoints": [
+      "AI生成コードを隔離環境で安全に実行",
+      "実行環境を瞬時に起動できる",
+      "Webアクセスやファイル操作のリスクを封じ込め",
+      "パブリックプレビューで提供開始"
+    ],
+    "pull": "AIが書いたコードを、本番を汚さず安全に走らせる仕組みが整った。",
+    "bizapp": {
+      "summary": "AIエージェント運用の安全性を担保する基盤",
+      "actions": [
+        "AIコード実行の検証環境として試験導入",
+        "AI開発を進める企業へ安全実行基盤を提案",
+        "隔離なしのAI実行はセキュリティ事故の火種"
+      ]
+    },
+    "links": [
+      "https://www.publickey1.jp/blog/26/google_cloudaicloud_run.html"
+    ],
+    "likes": 0
+  }
+]
