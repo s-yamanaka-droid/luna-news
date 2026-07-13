@@ -22,7 +22,30 @@
     "links": [
       "https://www.sbbit.jp/article/fj/186036?ref=rss"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "定型業務をAIで棚卸し再設計",
+      "tool": {
+        "name": "Claude Pro",
+        "url": "https://claude.ai",
+        "cost": "¥3,000/月"
+      },
+      "time": "30分",
+      "steps": [
+        "自社の週次業務を全て書き出す",
+        "各業務をAI代替/補助/不要に仕分け",
+        "削れる会議・報告を1つ実行"
+      ],
+      "prompt": "あなたは業務改革コンサルです。{業種}を営む{自社名}の以下の業務リストを、①AIで代替可能②AIで補助③そもそも不要、に分類し、削減できる作業時間の多い順に3つ改善案を提示してください。業務リスト：{業務一覧}",
+      "roi": "業務棚卸しで月10時間削減＝3万円相当"
+    },
+    "icebreak": {
+      "hook": "みずほがClaude Codeを全社で使い始めたの、知ってます？",
+      "punchline": "AIを業務に足すんじゃなくて、業務プロセスそのものを前提から作り直してるらしいんですよ。規制の厳しい金融でこれをやるのが本気度の証拠ですね。",
+      "ctx_meeting": "AI導入提案の冒頭で",
+      "ctx_chat": "金融業界の知人との会話",
+      "share_text": "みずほがClaude Codeを全社活用って記事を読んで思ったのは、結局「AIを足す」で止まる会社と「業務を作り直す」会社で数年後に差がつくんだろうなと。規制が厳しい金融が先陣を切ってるのが象徴的。"
+    }
   },
   {
     "title": "デジタル庁、国産LLM3モデルを政府AI「源内」で評価開始",
@@ -47,7 +70,30 @@
     "links": [
       "https://www.publickey1.jp/blog/26/3ai.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "国産AIの仕様を10分で比較",
+      "tool": {
+        "name": "NotebookLM",
+        "url": "https://notebooklm.google.com",
+        "cost": "無料"
+      },
+      "time": "20分",
+      "steps": [
+        "各社モデルの仕様PDFを収集する",
+        "NotebookLMに資料をアップロード",
+        "料金と精度の比較表を生成させる"
+      ],
+      "prompt": "あなたはAI調達アドバイザーです。アップロードした国産LLM各社の資料をもとに、{業種}の{自社名}が使う前提で、料金・日本語精度・セキュリティ・商用可否を比較表にし、当社への推奨を1つ理由付きで示してください。",
+      "roi": "調査を数時間から20分に短縮"
+    },
+    "icebreak": {
+      "hook": "政府のAI「源内」って知ってます？国産LLMを試してるやつ。",
+      "punchline": "デジタル庁がNTTデータ・富士通・PFNの3モデルをA/Bテストで比べてるんです。海外モデル一択じゃなく国産を本気で評価してるのが今っぽいですよね。",
+      "ctx_meeting": "国産AI活用の話題で",
+      "ctx_chat": "ニュース話のきっかけに",
+      "share_text": "デジタル庁が政府AI「源内」で国産LLM3種をA/Bテスト評価中と知って、行政がちゃんと横並びで比べて選ぶ姿勢になってるのが地味に進歩だなと感じた。国産だから選ぶ、じゃなく実力で選ぶ流れ。"
+    }
   },
   {
     "title": "Apple、OpenAIを提訴　元社員が営業秘密流出と主張",
@@ -72,7 +118,30 @@
     "links": [
       "https://arstechnica.com/tech-policy/2026/07/apple-sues-openai-after-ex-engineer-allegedly-used-bug-to-steal-trade-secrets/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "退職者のアクセス権を総点検",
+      "tool": {
+        "name": "Notion AI",
+        "url": "https://www.notion.so",
+        "cost": "¥3,000/月"
+      },
+      "time": "30分",
+      "steps": [
+        "利用中のツール・アカウントを列挙",
+        "退職者に付与した権限を洗い出す",
+        "失効漏れを即停止しルール化する"
+      ],
+      "prompt": "あなたは情報セキュリティ担当です。{自社名}（{業種}・従業員{人数}名）向けに、退職者のアカウント権限を漏れなく失効させるチェックリストと、退職時に実行する手順書を作成してください。利用ツール例：Google/Slack/請求システム等。",
+      "roi": "情報漏洩・訴訟リスクを未然に防止"
+    },
+    "icebreak": {
+      "hook": "AppleがOpenAIを提訴したの、見ました？",
+      "punchline": "元社員が退職後もバグでAppleのサーバーに数週間アクセスできてたって話で、AI競争がハードの営業秘密の奪い合いにまで発展してるんですよ。",
+      "ctx_meeting": "情報管理の重要性を説く時",
+      "ctx_chat": "ITニュースの雑談で",
+      "share_text": "AppleがOpenAIを提訴、元社員経由で試作品や機密設計が漏れたと主張。しかも退職後も数週間サーバーにアクセスできてたと。退職者のアクセス権をいつ切るか、自社は大丈夫かと我が身を振り返った。"
+    }
   },
   {
     "title": "OpenAI GPT-5.6シリーズ、AWS Bedrockで正式提供開始",
@@ -97,7 +166,30 @@
     "links": [
       "https://aws.amazon.com/blogs/machine-learning/openai-gpt-5-6-sol-terra-and-luna-are-now-generally-available-on-amazon-bedrock/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "機密データ環境で自動化を検証",
+      "tool": {
+        "name": "Amazon Bedrock",
+        "url": "https://aws.amazon.com/bedrock/",
+        "cost": "従量課金"
+      },
+      "time": "半日",
+      "steps": [
+        "自動化したい定型処理を1つ選ぶ",
+        "Bedrockでモデルを試験呼び出し",
+        "精度とコストを既存手作業と比較"
+      ],
+      "prompt": "あなたはクラウド活用アドバイザーです。{業種}の{自社名}が持つ機密データを外部に出さずAI自動化する前提で、{自動化したい業務}をBedrockで実装する手順と、想定コスト・注意点を初心者向けに説明してください。",
+      "roi": "機密を守りつつ定型処理を自動化"
+    },
+    "icebreak": {
+      "hook": "GPT-5.6がついにAWSのBedrockで正式に使えるようになったの知ってます？",
+      "punchline": "数百ステップに及ぶ自律エージェント処理を安定して回せるらしくて、いよいよ「頼んだら最後までやりきるAI」が現実になってきましたね。",
+      "ctx_meeting": "エージェント導入の提案で",
+      "ctx_chat": "エンジニア仲間との会話",
+      "share_text": "GPT-5.6がBedrockで一般提供に。注目は数百ステップの処理を安定実行できる点。単発の回答じゃなく「任せたら最後までやる」フェーズに入ってきて、業務の任せ方を考え直す時期だなと。"
+    }
   },
   {
     "title": "アニメ特化動画生成AI「AnimeGen」無償公開　商用も可",
@@ -122,7 +214,30 @@
     "links": [
       "https://www.itmedia.co.jp/aiplus/article/2607/13/2000000187/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "販促アニメ動画を無料で内製",
+      "tool": {
+        "name": "AnimeGen (Hugging Face)",
+        "url": "https://huggingface.co",
+        "cost": "無料"
+      },
+      "time": "半日",
+      "steps": [
+        "Hugging FaceでAnimeGenを入手",
+        "商品画像から短尺動画を試作",
+        "SNS広告用に投稿し反応を測定"
+      ],
+      "prompt": "あなたは販促動画のプランナーです。{業種}の{自社名}が{商品名}をSNSで宣伝するための、アニメ調15秒動画の絵コンテ（シーン・テキスト・動きの指示）を3案作成してください。ターゲットは{顧客層}です。",
+      "roi": "外注不要で制作費と納期を大幅圧縮"
+    },
+    "icebreak": {
+      "hook": "アニメ特化の動画生成AI、日本初で無償公開されたの知ってます？",
+      "punchline": "AIdeaLabの「AnimeGen」ってやつで、しかも商用OKのApache-2.0ライセンス。日本の著作権法に基づいて学習データ集めてるのが安心材料なんですよ。",
+      "ctx_meeting": "コンテンツ制作提案の導入で",
+      "ctx_chat": "クリエイター系の雑談で",
+      "share_text": "国産のアニメ特化動画生成AI「AnimeGen」が商用可・無償で公開。GENIAC支援で日本の著作権法に沿って学習データを集めた点が大きい。使えるか、じゃなく安心して使えるかが選定基準になってきた。"
+    }
   },
   {
     "title": "MS・ナデラ氏が警告「AI利用企業は知能に二重で支払う」",
@@ -147,7 +262,30 @@
     "links": [
       "https://techcrunch.com/2026/07/13/satya-nadella-has-issued-a-shocking-warning-to-companies-using-ai/"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AIの学習利用を今すぐ遮断",
+      "tool": {
+        "name": "ChatGPT",
+        "url": "https://chatgpt.com",
+        "cost": "無料〜¥3,200/月"
+      },
+      "time": "15分",
+      "steps": [
+        "各AIの学習利用設定を確認する",
+        "オプトアウトを全てオンにする",
+        "顧客情報の入力ルールを社内共有"
+      ],
+      "prompt": "あなたはデータガバナンスの専門家です。{業種}の{自社名}（従業員{人数}名）が生成AIに機密・顧客情報を渡さないための社内ルールを、禁止事項・例外条件・違反時対応を含め箇条書きで作成してください。",
+      "roi": "自社データの流出と競争優位喪失を防止"
+    },
+    "icebreak": {
+      "hook": "MSのナデラが「AIに二重で払ってる」って警告したの、面白いですよ。",
+      "punchline": "利用料を払うだけじゃなく、機密情報まで無自覚に差し出してるって指摘なんです。AIラボが自社の競合になり得るって視点、盲点ですよね。",
+      "ctx_meeting": "AIの情報リスク説明で",
+      "ctx_chat": "AI活用の注意点を話す時",
+      "share_text": "ナデラが「独自モデルを使う企業はお金と機密情報の二重で払ってる」と警告。AIに何を投げてるか、それが将来競合の学習材料になり得るか。便利さの裏側を一度棚卸しした方がいいなと感じた。"
+    }
   },
   {
     "title": "オープンモデルが利用量29%に急伸、トークン単価は横ばい",
@@ -172,7 +310,30 @@
     "links": [
       "https://vercel.com/blog/ai-gateway-production-index-july-2026"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "定型処理を安価なAIに移す",
+      "tool": {
+        "name": "OpenRouter",
+        "url": "https://openrouter.ai",
+        "cost": "従量課金"
+      },
+      "time": "30分",
+      "steps": [
+        "AI利用の内訳と月額を把握する",
+        "定型処理を安価モデルで試す",
+        "品質同等なら本番を切り替える"
+      ],
+      "prompt": "あなたはAIコスト最適化の専門家です。{業種}の{自社名}が使うAI業務（{業務内容}）を、高性能モデルと低コストなオープンモデルに振り分ける基準を示し、想定される月額削減額を試算してください。",
+      "roi": "用途別振り分けでAI費用を数割圧縮"
+    },
+    "icebreak": {
+      "hook": "オープンモデルのAI利用が一気に29%まで伸びたの知ってます？",
+      "punchline": "4月は11%だったのに急伸で、しかも支出は全体の4%未満。DeepSeekが3位に迫ってて、コスパでモデルを選ぶ時代になってきたんですよ。",
+      "ctx_meeting": "AIコスト最適化の提案で",
+      "ctx_chat": "AI費用の話題で",
+      "share_text": "Vercelの調査でオープンモデルが利用量29%に急伸（4月は11%）、なのに支出は全体の4%未満。高いモデル一択じゃなく、用途で使い分ければコストは大きく下がる。自社の使い方も見直したくなった。"
+    }
   },
   {
     "title": "Google Cloud、AI生成コードを隔離実行する新環境を公開",
@@ -197,6 +358,29 @@
     "links": [
       "https://www.publickey1.jp/blog/26/google_cloudaicloud_run.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "quickstart": {
+      "headline": "AI生成コードを隔離して検証",
+      "tool": {
+        "name": "Google Cloud Run",
+        "url": "https://cloud.google.com/run",
+        "cost": "従量課金"
+      },
+      "time": "半日",
+      "steps": [
+        "AIが書いたコードを1つ用意する",
+        "Cloud Runサンドボックスで実行",
+        "動作とセキュリティを確認し本番へ"
+      ],
+      "prompt": "あなたはAI開発の安全運用アドバイザーです。{業種}の{自社名}が生成AIの作ったコードを本番に入れる前に、隔離環境で安全に検証する手順とチェック項目を、非エンジニア経営者にもわかるよう説明してください。",
+      "roi": "AI実行のセキュリティ事故を未然に防止"
+    },
+    "icebreak": {
+      "hook": "AIが書いたコードを安全に隔離して動かす環境、Googleが出したの知ってます？",
+      "punchline": "「Cloud Runサンドボックス」ってやつで、信頼できないコードを瞬時に隔離実行できるんです。AI生成コードを本番でどう扱うかの現実解が出てきましたね。",
+      "ctx_meeting": "AI開発の安全性説明で",
+      "ctx_chat": "開発者との技術雑談で",
+      "share_text": "GoogleがAI生成コードを瞬時に隔離実行する「Cloud Runサンドボックス」を公開。AIにコードを書かせるほど「そのまま動かして大丈夫か」が課題になる。生成の速さと同じくらい実行の安全が大事だと再認識。"
+    }
   }
 ]

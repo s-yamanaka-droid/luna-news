@@ -7,6 +7,13 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。毎朝6:30、AI業界ニュースを図解と「明日からできる活用法」で。</description>
   <language>ja</language>
   <item>
+    <title>2026-07-14 AI朝刊：みずほFG、Claude Code全社活用でAIネイティブ変革へ ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-07-14/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-14/</guid>
+    <pubDate>Tue, 14 Jul 2026 06:30:00 +0900</pubDate>
+    <description>みずほFG、Claude Code全社活用でAIネイティブ変革へ／デジタル庁、国産LLM3モデルを政府AI「源内」で評価開始／Apple、OpenAIを提訴　元社員が営業秘密流出と主張／OpenAI GPT-5.6シリーズ、AWS Bedrockで正式提供開始／アニメ特化動画生成AI「AnimeGen」無償公開　商用も可</description>
+  </item>
+  <item>
     <title>2026-07-13 AI朝刊：GPT-5.6、業務AIの新標準に ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-07-13/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-13/</guid>
@@ -159,13 +166,6 @@
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-20/</guid>
     <pubDate>Sat, 20 Jun 2026 06:30:00 +0900</pubDate>
     <description>Codex、作業手順を見て覚える新機能／AWS、AIエージェントにWeb検索を追加／大阪メトロ、社内問い合わせをAIで集約／Google Vids、AIアバターを大幅強化／Vercel、社内IDで公開環境を保護</description>
-  </item>
-  <item>
-    <title>2026-06-19 AI朝刊：ChatGPT広告、日本で開始へ ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-06-19/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-19/</guid>
-    <pubDate>Fri, 19 Jun 2026 06:30:00 +0900</pubDate>
-    <description>ChatGPT広告、日本で開始へ／Adobe、制作AIエージェント拡大／OpenAI、企業向け費用管理を強化／Microsoft、業務代行AIを一般提供／Adobe、AI検索のブランド管理発表</description>
   </item>
 </channel>
 </rss>

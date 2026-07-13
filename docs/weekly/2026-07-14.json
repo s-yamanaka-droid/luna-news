@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週は「AIを足す」から「業務プロセスごと作り直す」への号砲が鳴った週。みずほFGやソフトバンクの全社変革、ChatGPT WorkやGPT-5.6のOffice標準搭載など、AIが資料や業務を丸ごと完了させる実務基盤が出揃った。同時に、商用可の無料動画AIやオープンモデル併用によるコスト圧縮も進み、小さな会社ほど内製化と経費削減の恩恵を今すぐ受けられる局面になっている。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-07-14",
+      "title": "アニメ特化動画生成AI「AnimeGen」無償公開　商用も可",
+      "category": "ツール更新",
+      "source": "ITmedia AI+",
+      "why_picked": "外注ゼロで販促動画を内製でき、小規模でも差別化に直結",
+      "tldr": "商用可の無料動画AIが登場",
+      "action": "自社商品の販促動画を1本試作する",
+      "image": "../assets/images/2026-07-14/topic_5.png",
+      "link": "../news/2026-07-14/#topic-5"
+    },
+    {
+      "rank": 2,
+      "date": "2026-07-13",
+      "title": "ChatGPT Work、業務実行AIへ",
+      "category": "ツール更新",
+      "source": "SiliconANGLE AI",
+      "why_picked": "資料作成や更新をAIに丸投げでき、一人分の時間が浮く",
+      "tldr": "AIが資料作成まで自律実行",
+      "action": "週次の定型資料を1つ自動化する",
+      "image": "../assets/images/2026-07-13/topic_2.png",
+      "link": "../news/2026-07-13/#topic-2"
+    },
+    {
+      "rank": 3,
+      "date": "2026-07-14",
+      "title": "オープンモデルが利用量29%に急伸、トークン単価は横ばい",
+      "category": "研究",
+      "source": "Vercel Blog",
+      "why_picked": "定型処理を安価AIへ移すだけでAI費用を実額で圧縮できる",
+      "tldr": "安いオープンAIで経費削減",
+      "action": "定型処理を安価モデルに切替える",
+      "image": "../assets/images/2026-07-14/topic_7.png",
+      "link": "../news/2026-07-14/#topic-7"
+    }
+  ]
+}
