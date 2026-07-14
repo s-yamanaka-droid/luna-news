@@ -7,6 +7,13 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。毎朝6:30、AI業界ニュースを図解と「明日からできる活用法」で。</description>
   <language>ja</language>
   <item>
+    <title>2026-07-15 AI朝刊：孫正義氏「人間が頂点の時代は終わる」2040年AI論 ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-07-15/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-15/</guid>
+    <pubDate>Wed, 15 Jul 2026 06:30:00 +0900</pubDate>
+    <description>孫正義氏「人間が頂点の時代は終わる」2040年AI論／SB×Sierra、AI受付で解決率83→97%に改善／アクセンチュア、OpenAIと全社変革の“鬼門”に挑む／富士通、NVIDIA「Rubin」対応の国産AIサーバを今秋製造／AIエージェントの危険性、自律レベルとリスクの関係</description>
+  </item>
+  <item>
     <title>2026-07-14 AI朝刊：みずほFG、Claude Code全社活用でAIネイティブ変革へ ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-07-14/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-14/</guid>
@@ -159,13 +166,6 @@
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-21/</guid>
     <pubDate>Sun, 21 Jun 2026 06:30:00 +0900</pubDate>
     <description>Geminiが日本語で表計算を作成／Codex、画面操作を記録し再実行／AI悪用の最新フィッシングに警戒／ChatGPT広告、日本で試験運用へ／生成AI停止で業務影響が6割超</description>
-  </item>
-  <item>
-    <title>2026-06-20 AI朝刊：Codex、作業手順を見て覚える新機能 ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-06-20/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-20/</guid>
-    <pubDate>Sat, 20 Jun 2026 06:30:00 +0900</pubDate>
-    <description>Codex、作業手順を見て覚える新機能／AWS、AIエージェントにWeb検索を追加／大阪メトロ、社内問い合わせをAIで集約／Google Vids、AIアバターを大幅強化／Vercel、社内IDで公開環境を保護</description>
   </item>
 </channel>
 </rss>

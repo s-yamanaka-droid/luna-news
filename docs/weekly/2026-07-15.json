@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週は「AIを会話から実務へ」が明確な潮流。ChatGPT WorkやClaude Coworkなど、指示するだけで資料作成や請求書転記まで完了する実行型AIが出そろった。大企業は全社の業務フロー再設計へ、小規模事業者は請求書転記や販促動画内製など明日から使える自動化へ。プログラミング不要で手作業が消える段階に入り、試すか否かで差がつく1週間だ。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-07-15",
+      "title": "Claude Cowork、請求書→Excel転記を1プロンプトで自動化",
+      "category": "ツール更新",
+      "source": "ビジネス+IT",
+      "why_picked": "経理の手入力が消える。1人社長のバックオフィス最優先",
+      "tldr": "指示だけで請求書PDFをExcelへ自動転記",
+      "action": "先月分の請求書1枚で転記を試す",
+      "image": "../assets/images/2026-07-15/topic_8.png",
+      "link": "../news/2026-07-15/#topic-8"
+    },
+    {
+      "rank": 2,
+      "date": "2026-07-10",
+      "title": "ChatGPT、仕事を完了する相棒へ",
+      "category": "ツール更新",
+      "source": "OpenAI Blog / ITmedia AI+ / Ars Technica AI",
+      "why_picked": "営業資料や分析表を丸ごと任せられ時間が浮く",
+      "tldr": "ファイル横断で成果物まで作る実行AI",
+      "action": "次の提案資料を1文で下書きさせる",
+      "image": "../assets/images/2026-07-10/topic_1.png",
+      "link": "../news/2026-07-10/#topic-1"
+    },
+    {
+      "rank": 3,
+      "date": "2026-07-14",
+      "title": "アニメ特化動画生成AI「AnimeGen」無償公開　商用も可",
+      "category": "ツール更新",
+      "source": "ITmedia AI+",
+      "why_picked": "商用可・無料で販促動画を内製、外注費ゼロ",
+      "tldr": "商用OKのアニメ動画を無料で生成",
+      "action": "SNS販促用の短尺動画を1本作る",
+      "image": "../assets/images/2026-07-14/topic_5.png",
+      "link": "../news/2026-07-14/#topic-5"
+    }
+  ]
+}
