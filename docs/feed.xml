@@ -7,6 +7,13 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。毎朝6:30、AI業界ニュースを図解と「明日からできる活用法」で。</description>
   <language>ja</language>
   <item>
+    <title>2026-07-16 AI朝刊：みずほ、NVIDIAと自社内AI基盤を共同検証　10億円規模のGPU群も視野 ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-07-16/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-16/</guid>
+    <pubDate>Thu, 16 Jul 2026 06:30:00 +0900</pubDate>
+    <description>みずほ、NVIDIAと自社内AI基盤を共同検証　10億円規模のGPU群も視野／楽天、全社AI化で客単価17%向上　5万店の半数が運営支援ツール活用／モノタロウ、AI駆動開発でPR数40〜50%増　レガシーの壁を突破／NVIDIAとトヨタ、提携拡大　工場・都市設計まで現実世界のAI導入へ／Thinking Machines Lab、初の自社モデル「Inkling」公開　重み無償で商用可</description>
+  </item>
+  <item>
     <title>2026-07-15 AI朝刊：孫正義氏「人間が頂点の時代は終わる」2040年AI論 ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-07-15/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-15/</guid>
@@ -159,13 +166,6 @@
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-22/</guid>
     <pubDate>Mon, 22 Jun 2026 06:30:00 +0900</pubDate>
     <description>AI計算資源、巨額契約も安全性で破談／Shopify、AI経由の販売管理を拡充／AWS、文脈で脆弱性を推論する新機能／AppleのAI基盤をGoogle Cloudが支援／Vercel、AIエージェント版Next.jsへ</description>
-  </item>
-  <item>
-    <title>2026-06-21 AI朝刊：Geminiが日本語で表計算を作成 ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-06-21/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-21/</guid>
-    <pubDate>Sun, 21 Jun 2026 06:30:00 +0900</pubDate>
-    <description>Geminiが日本語で表計算を作成／Codex、画面操作を記録し再実行／AI悪用の最新フィッシングに警戒／ChatGPT広告、日本で試験運用へ／生成AI停止で業務影響が6割超</description>
   </item>
 </channel>
 </rss>
