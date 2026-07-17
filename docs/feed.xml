@@ -7,6 +7,13 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。毎朝6:30、AI業界ニュースを図解と「明日からできる活用法」で。</description>
   <language>ja</language>
   <item>
+    <title>2026-07-18 AI朝刊：みずほFG、AIエージェント3000体構想　銀行業務を再設計 ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-07-18/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-18/</guid>
+    <pubDate>Sat, 18 Jul 2026 06:30:00 +0900</pubDate>
+    <description>みずほFG、AIエージェント3000体構想　銀行業務を再設計／GPT-5.6が利用者のファイルを削除　OpenAIが不具合認める／Kimi K3、史上最大のオープンモデル公開　Opus4.8級の性能／AIエージェントの4割が2027年までに廃止　ガートナー予測／NotebookLMが「Gemini Notebook」に改名　検索連携へ</description>
+  </item>
+  <item>
     <title>2026-07-17 AI朝刊：国産AI基盤モデル、大手44社が結集し始動 ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-07-17/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-17/</guid>
@@ -159,13 +166,6 @@
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-24/</guid>
     <pubDate>Wed, 24 Jun 2026 06:30:00 +0900</pubDate>
     <description>メルカリ、ChatGPT内で商品検索に対応／AI禁止でも約38％が業務利用継続へ／NTT西、日本にAI対応データセンター新設／GMO、AI音声入力を全社展開へ／Claude、Slack常駐型AI同僚をベータ提供</description>
-  </item>
-  <item>
-    <title>2026-06-23 AI朝刊：国産AI「PLaMo 3.0 Prime」公開 ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-06-23/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-23/</guid>
-    <pubDate>Tue, 23 Jun 2026 06:30:00 +0900</pubDate>
-    <description>国産AI「PLaMo 3.0 Prime」公開／Sakana、複数AI束ねるFugu提供／OpenAI、脆弱性修正AIを拡充／国内企業73％がシャドーAI未管理／LINEヤフー、分析AIで2週間を10分に</description>
   </item>
 </channel>
 </rss>

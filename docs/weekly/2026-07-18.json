@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週は「AIを足す」から「業務そのものを作り直す」への号砲が鳴った週。みずほや楽天など大手の全社AI化が進む一方、Claude CoworkやAnimeGenのように非エンジニアでも請求書転記や販促動画を自前で回せる実務ツールが出揃った。小さな会社ほど、明日の手作業を1つ自動化する具体行動が今週の勝ち筋。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-07-15",
+      "title": "Claude Cowork、請求書→Excel転記を1プロンプトで自動化",
+      "category": "ツール更新",
+      "source": "ビジネス+IT",
+      "why_picked": "経理の手作業をノーコードで消せる。1人社長の時間が直接浮く",
+      "tldr": "PDF請求書をチャット指示でExcelへ自動転記",
+      "action": "毎月の請求書転記を1件Coworkで試す",
+      "image": "../assets/images/2026-07-15/topic_8.png",
+      "link": "../news/2026-07-15/#topic-8"
+    },
+    {
+      "rank": 2,
+      "date": "2026-07-16",
+      "title": "楽天、全社AI化で客単価17%向上　5万店の半数が運営支援ツール活用",
+      "category": "業界動向",
+      "source": "MarkeZine",
+      "why_picked": "少人数×多商品が現実に。EC運営の売上と工数に直結する実例",
+      "tldr": "AI活用で客単価17%増・月47時間削減の店も",
+      "action": "商品説明文をAIで10分量産して試す",
+      "image": "../assets/images/2026-07-16/topic_2.png",
+      "link": "../news/2026-07-16/#topic-2"
+    },
+    {
+      "rank": 3,
+      "date": "2026-07-14",
+      "title": "アニメ特化動画生成AI「AnimeGen」無償公開　商用も可",
+      "category": "ツール更新",
+      "source": "ITmedia AI+",
+      "why_picked": "販促動画を無料で内製でき、小さな会社の差別化に効く",
+      "tldr": "商用可のアニメ動画AIが無償で使える",
+      "action": "自社の販促アニメ動画を1本内製する",
+      "image": "../assets/images/2026-07-14/topic_5.png",
+      "link": "../news/2026-07-14/#topic-5"
+    }
+  ]
+}
