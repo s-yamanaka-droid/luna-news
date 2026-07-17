@@ -1,0 +1,202 @@
+[
+  {
+    "title": "国産AI基盤モデル、大手44社が結集し始動",
+    "category": "業界動向",
+    "source": "ロボスタ (RoboStart)",
+    "lede": "ソニー・ソフトバンク・NEC・ホンダなど44社がNoetraに出資し、AIロボットの頭脳となる国産マルチモーダル基盤モデルの開発を本格始動した。",
+    "keypoints": [
+      "中核4社に旭化成・ファナック等44社が出資",
+      "産総研とPreferred Networksの技術者が参画",
+      "NVIDIA Rubin約2万7500基の計算基盤を構築",
+      "2028年6月稼働、2030年度まで開発計画"
+    ],
+    "pull": "海外モデル依存から脱却し、製造業の強みをAIに載せる日本連合が動き出した。",
+    "bizapp": {
+      "summary": "国産AI基盤の商用化を見据えた調達計画に使える",
+      "actions": [
+        "技術文書の整理にNotebookLMで情報基盤を先行構築",
+        "製造業向けAI導入提案の追い風材料に活用",
+        "海外モデル一択の調達方針は数年内に見直し要"
+      ]
+    },
+    "links": [
+      "https://robotstart.info/article/2026/07/16/382161.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "ロボットが「使うほど賢くなる」時代へ転換",
+    "category": "研究",
+    "source": "ITmedia AI+",
+    "lede": "ソフトバンクと安川電機が、強化学習で性能が向上するロボットを実証。買った時が最も性能が低く、その後賢くなる転換を「大きなパラダイムシフト」と表現した。",
+    "keypoints": [
+      "一晩の自動学習でロボットが上達",
+      "NVIDIA Cosmosで合成データを生成し学習",
+      "判断する目はインフラ側、動きはロボット側",
+      "隠れた商品を推測し取り出す作業も実現"
+    ],
+    "pull": "経年劣化する機械から、経年成長する機械へ。ロボット導入の常識が覆る。",
+    "bizapp": {
+      "summary": "設備投資の考え方が「劣化前提」から変わる",
+      "actions": [
+        "物流・製造現場の反復作業自動化の検討材料に",
+        "中小製造業へ段階的成長型ロボット導入を提案",
+        "初期性能だけで導入判断すると機会損失に"
+      ]
+    },
+    "links": [
+      "https://www.itmedia.co.jp/aiplus/article/2607/17/2000000196/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "重み公開の新AI「Inkling」、文字・画像・音声を横断",
+    "category": "新モデル発表",
+    "source": "Gihyo.jp",
+    "lede": "Thinking Machines Labが同社初のAIモデル「Inkling」を発表。テキスト・画像・音声を横断して推論でき、重み（モデル本体）も公開した。",
+    "keypoints": [
+      "総パラメータ9750億の大規模モデル",
+      "推論量を連続調整しコストと速度を制御",
+      "最大100万トークンの長文脈に対応",
+      "コード課題SWE-bench Verifiedで77.6%"
+    ],
+    "pull": "推論量を絞れば同じ精度をより安く。コストと品質の両立が現実になる。",
+    "bizapp": {
+      "summary": "自社データで調整できる無料級モデルの選択肢",
+      "actions": [
+        "Cursorなど開発現場でのコード自動化に検証",
+        "機密データを外に出せない企業へ内製AIを提案",
+        "外部API依存のコスト構造を再点検すべき時期"
+      ]
+    },
+    "links": [
+      "https://gihyo.jp/article/2026/07/inkling?utm_source=feed"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Microsoft月例更新で約570件修正、ゼロデイ2件は即対応を",
+    "category": "セキュリティ",
+    "source": "ITmedia Enterprise",
+    "lede": "Microsoftが7月の月例更新で約570件の脆弱性を修正。すでに悪用が確認されたゼロデイ2件への即時対応が求められている。",
+    "keypoints": [
+      "AI活用で脆弱性の発見件数が急増",
+      "悪用済みゼロデイは3件を確認",
+      "Windows・Office・SharePoint等が対象",
+      "遠隔コード実行が全体の約4分の1"
+    ],
+    "pull": "AIが脆弱性を大量発掘する時代、更新の遅れは即リスクに直結する。",
+    "bizapp": {
+      "summary": "業務PCの更新運用を即見直すきっかけに",
+      "actions": [
+        "社内PCのWindows Update適用状況を一斉点検",
+        "取引先へ月例更新の運用代行サービスを提案",
+        "悪用済み2件は放置で侵入被害、今週中に更新を"
+      ]
+    },
+    "links": [
+      "https://www.itmedia.co.jp/enterprise/articles/2607/17/news042.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "NotebookLMが「Gemini Notebook」に改称",
+    "category": "ツール更新",
+    "source": "ITmedia News",
+    "lede": "Googleが人気のAIリサーチツール「NotebookLM」を「Gemini Notebook」に改称。単体製品として維持しつつGeminiエコシステムへの統合を強化する。",
+    "keypoints": [
+      "製品としての機能は変わらず継続",
+      "Geminiアプリや検索と広く連携へ",
+      "クラウド上でのデータ分析機能を追加",
+      "分析機能は全Proユーザーへ提供予定"
+    ],
+    "pull": "資料を読み込ませて答えさせる調査AIが、Googleの中核に組み込まれる。",
+    "bizapp": {
+      "summary": "社内資料の調査・要約業務の効率化に直結",
+      "actions": [
+        "Gemini Notebookで社内マニュアル横断検索を構築",
+        "士業・コンサルへ資料調査時短ツールとして提案",
+        "名称変更で従来手順が混乱、社内周知を早めに"
+      ]
+    },
+    "links": [
+      "https://www.itmedia.co.jp/news/articles/2607/17/news062.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "広告の入口・取引・買い方が「AI前提」に一変",
+    "category": "業界動向",
+    "source": "MarkeZine",
+    "lede": "2026年Q2はChatGPT広告の台頭、Google検索の再構築、AIエージェントによる広告買付が同時進行。広告が実験段階を抜け実稼働の地殻変動に入った。",
+    "keypoints": [
+      "OpenAIがChatGPT広告を本格プラットフォーム化",
+      "GoogleのAI Modeが月間10億人規模に成長",
+      "大手広告グループがエージェント買付を実運用",
+      "日本市場への展開も異例の速さで進行"
+    ],
+    "pull": "広告の売買と運用をAIが代行する。マーケの主導権争いが本格化した。",
+    "bizapp": {
+      "summary": "広告運用の前提が「AIが動かす」に変わる",
+      "actions": [
+        "ChatGPT広告の運用テスト枠を早期に確保",
+        "中小企業へAI検索時代のSEO見直しを提案",
+        "従来型リスティング一本足では流入減の恐れ"
+      ]
+    },
+    "links": [
+      "https://markezine.jp/article/detail/50850"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "SUBARU、月10万円で非ITエンジニアが全社DX",
+    "category": "ツール更新",
+    "source": "CodeZine",
+    "lede": "SUBARUの非IT技術者が月予算10万円からOSSでRAGを内製構築し、設計現場の業務改革を主導。生成AIを使う側から作る側へ転換した事例を公開した。",
+    "keypoints": [
+      "3ヶ月でOSS「GenU」を内製構築",
+      "社内RAGの利用率は89%を記録",
+      "軽量SDKでマルチエージェントを実装",
+      "設計部品表(E-BOM)の突合作業を効率化"
+    ],
+    "pull": "AIは外注するものではなく、現場の担当者が自ら作る時代に入った。",
+    "bizapp": {
+      "summary": "低予算・非エンジニアでも全社AI内製が可能",
+      "actions": [
+        "散在する社内資料をNotebookLMでRAG化し検証",
+        "中小企業へ小予算スタートの内製DXを提案",
+        "高額外注前提の発想では初動が遅れコスト増"
+      ]
+    },
+    "links": [
+      "https://codezine.jp/article/detail/28873"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "ノーベル賞級のAI科学者、Anthropicへ移籍",
+    "category": "研究",
+    "source": "日経クロステック AI",
+    "lede": "タンパク質を扱う「プロテインAI」が注目される中、グーグル陣営のノーベル賞科学者がAnthropicへ移籍し波紋を呼んでいる。",
+    "keypoints": [
+      "2024年ノーベル化学賞はプロテインAIが受賞",
+      "AlphaFold2などタンパク質構造予測が評価",
+      "トップ人材がグーグルからAnthropicへ移籍",
+      "創薬・バイオ分野のAI競争が激化"
+    ],
+    "pull": "AIの主戦場は言語から生命科学へ。人材の争奪が次の覇権を決める。",
+    "bizapp": {
+      "summary": "創薬・素材分野のAI活用が加速する兆し",
+      "actions": [
+        "バイオ・化学分野の情報収集にPerplexityを活用",
+        "製薬・食品企業へAI創薬の動向を情報提供",
+        "人材流動が示す成長領域を投資判断の材料に"
+      ]
+    },
+    "links": [
+      "https://xtech.nikkei.com/atcl/nxt/mag/nc/18/052100112/070700142/"
+    ],
+    "likes": 0
+  }
+]
