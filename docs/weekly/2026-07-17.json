@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週はAIが「話す道具」から「手を動かす実務担当」へ一段進んだ週でした。Claude CoworkやChatGPT Workのように、請求書転記や資料作成といったバックオフィスの手作業を非エンジニアが指示だけで自動化できる流れが本格化。さらにSUBARUや楽天の事例が、低予算・少人数でも成果が出ると実証し、小規模事業者にこそ追い風が吹いています。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-07-15",
+      "title": "Claude Cowork、請求書→Excel転記を1プロンプトで自動化",
+      "category": "ツール更新",
+      "source": "ビジネス+IT",
+      "why_picked": "経理の手作業がノーコードで消える即効性",
+      "tldr": "請求書PDFをExcelに自動転記",
+      "action": "請求書1枚でExcel転記を試す",
+      "image": "../assets/images/2026-07-15/topic_8.png",
+      "link": "../news/2026-07-15/#topic-8"
+    },
+    {
+      "rank": 2,
+      "date": "2026-07-16",
+      "title": "楽天、全社AI化で客単価17%向上　5万店の半数が運営支援ツール活用",
+      "category": "業界動向",
+      "source": "MarkeZine",
+      "why_picked": "少人数で商品数10倍・客単価17%増の実例",
+      "tldr": "AI活用で少人数EC運営が標準に",
+      "action": "商品説明の作成をAIで10分に",
+      "image": "../assets/images/2026-07-16/topic_2.png",
+      "link": "../news/2026-07-16/#topic-2"
+    },
+    {
+      "rank": 3,
+      "date": "2026-07-17",
+      "title": "SUBARU、月10万円で非ITエンジニアが全社DX",
+      "category": "ツール更新",
+      "source": "CodeZine",
+      "why_picked": "月10万・非エンジニアでも社内AI内製可能",
+      "tldr": "低予算で散在資料をAI検索化",
+      "action": "散在資料を月0円でAI化検証",
+      "image": "../assets/images/2026-07-17/topic_7.png",
+      "link": "../news/2026-07-17/#topic-7"
+    }
+  ]
+}

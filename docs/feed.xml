@@ -7,6 +7,13 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。毎朝6:30、AI業界ニュースを図解と「明日からできる活用法」で。</description>
   <language>ja</language>
   <item>
+    <title>2026-07-17 AI朝刊：国産AI基盤モデル、大手44社が結集し始動 ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-07-17/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-17/</guid>
+    <pubDate>Fri, 17 Jul 2026 06:30:00 +0900</pubDate>
+    <description>国産AI基盤モデル、大手44社が結集し始動／ロボットが「使うほど賢くなる」時代へ転換／重み公開の新AI「Inkling」、文字・画像・音声を横断／Microsoft月例更新で約570件修正、ゼロデイ2件は即対応を／NotebookLMが「Gemini Notebook」に改称</description>
+  </item>
+  <item>
     <title>2026-07-16 AI朝刊：みずほ、NVIDIAと自社内AI基盤を共同検証　10億円規模のGPU群も視野 ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-07-16/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-16/</guid>
@@ -159,13 +166,6 @@
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-23/</guid>
     <pubDate>Tue, 23 Jun 2026 06:30:00 +0900</pubDate>
     <description>国産AI「PLaMo 3.0 Prime」公開／Sakana、複数AI束ねるFugu提供／OpenAI、脆弱性修正AIを拡充／国内企業73％がシャドーAI未管理／LINEヤフー、分析AIで2週間を10分に</description>
-  </item>
-  <item>
-    <title>2026-06-22 AI朝刊：AI計算資源、巨額契約も安全性で破談 ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-06-22/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-22/</guid>
-    <pubDate>Mon, 22 Jun 2026 06:30:00 +0900</pubDate>
-    <description>AI計算資源、巨額契約も安全性で破談／Shopify、AI経由の販売管理を拡充／AWS、文脈で脆弱性を推論する新機能／AppleのAI基盤をGoogle Cloudが支援／Vercel、AIエージェント版Next.jsへ</description>
   </item>
 </channel>
 </rss>
