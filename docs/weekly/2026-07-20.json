@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週は「AIを足す」から「業務そのものをAI前提で作り直す」段階への号砲が鳴った週。みずほFGのエージェント3000体構想や楽天の全社AI化が象徴で、小規模事業者でも請求書転記や商品説明づくりを丸ごと自動化できる実用ツールが出そろった。一方Claude Fable 5の有料上位プラン標準搭載でPro実質値上げが進み、AI費用の棚卸しが今週の必須作業になっている。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-07-15",
+      "title": "Claude Cowork、請求書→Excel転記を1プロンプトで自動化",
+      "category": "ツール更新",
+      "source": "ビジネス+IT",
+      "why_picked": "経理の手作業を非エンジニアが今日から丸ごと自動化できる",
+      "tldr": "請求書PDFをチャット指示でExcelへ自動転記",
+      "action": "先月分の請求書1枚で転記を試す",
+      "image": "../assets/images/2026-07-15/topic_8.png",
+      "link": "../news/2026-07-15/#topic-8"
+    },
+    {
+      "rank": 2,
+      "date": "2026-07-19",
+      "title": "最上位AI「Claude Fable 5」、有料上位プラン標準搭載へ",
+      "category": "ツール更新",
+      "source": "Impress PC Watch",
+      "why_picked": "Pro月20ドルは実質値上げ、払い過ぎ点検で固定費が減る",
+      "tldr": "上位AIが月100ドル～プランに標準搭載",
+      "action": "今のAI課金と使用量を1枚に棚卸し",
+      "image": "../assets/images/2026-07-19/topic_1.png",
+      "link": "../news/2026-07-19/#topic-1"
+    },
+    {
+      "rank": 3,
+      "date": "2026-07-16",
+      "title": "楽天、全社AI化で客単価17%向上　5万店の半数が運営支援ツール活用",
+      "category": "業界動向",
+      "source": "MarkeZine",
+      "why_picked": "商品説明づくりを少人数で量産、EC売上に直結する",
+      "tldr": "AI活用で客単価17%増・商品数10倍の店も",
+      "action": "主力商品の説明文をAIで作り直す",
+      "image": "../assets/images/2026-07-16/topic_2.png",
+      "link": "../news/2026-07-16/#topic-2"
+    }
+  ]
+}

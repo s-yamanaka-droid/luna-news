@@ -7,6 +7,13 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。毎朝6:30、AI業界ニュースを図解と「明日からできる活用法」で。</description>
   <language>ja</language>
   <item>
+    <title>2026-07-20 AI朝刊：エヌビディア日本電撃訪問、工場AIで巨大提携 ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-07-20/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-20/</guid>
+    <pubDate>Mon, 20 Jul 2026 06:30:00 +0900</pubDate>
+    <description>エヌビディア日本電撃訪問、工場AIで巨大提携／アリババ、2.4兆規模のQwen3.8を無償公開へ予告／米政権が最先端AIへのアクセスを直接管理へ／AIに期待64.9%も成果は16.4%、鍵はデータ基盤／JR東日本、みどりの窓口に音声AI導入の実証実験</description>
+  </item>
+  <item>
     <title>2026-07-19 AI朝刊：最上位AI「Claude Fable 5」、有料上位プラン標準搭載へ ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-07-19/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-19/</guid>
@@ -159,13 +166,6 @@
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-26/</guid>
     <pubDate>Fri, 26 Jun 2026 06:30:00 +0900</pubDate>
     <description>Google Play手数料、日本も年内刷新／KDDIメール基盤で最大1422万件漏えい／AIエージェントが仕事単位を変える／Salesforce、顧客対応AIを即導入へ／AIロープレで営業育成を3分の1に</description>
-  </item>
-  <item>
-    <title>2026-06-25 AI朝刊：OpenAIがAI専用チップを自社開発 ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-06-25/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-25/</guid>
-    <pubDate>Thu, 25 Jun 2026 06:30:00 +0900</pubDate>
-    <description>OpenAIがAI専用チップを自社開発／GeminiがPC操作エージェントを標準搭載／Devin日本語版、開発AIの成果保証へ／Slackで働くAI「Claude Tag」登場／AIインフラ費、クラウド無駄が25％超</description>
   </item>
 </channel>
 </rss>
