@@ -1,0 +1,202 @@
+[
+  {
+    "title": "Claude Codeを組織で一括管理、SSO・費用上限に対応",
+    "category": "ツール更新",
+    "source": "Publickey",
+    "lede": "AnthropicのAIコーディング支援「Claude Code」を企業が組織単位で導入・管理できる新サービスがAWSとGoogle Cloudに登場した。",
+    "keypoints": [
+      "シングルサインオン（社員認証の一元化）に対応",
+      "チームや個人ごとに費用の上限を設定できる",
+      "全社のデフォルト設定を統一管理",
+      "AWS版とGoogle Cloud版の2種類を提供"
+    ],
+    "pull": "個人で人気のAI開発ツールが、いよいよ企業の統制下で安全に使える段階へ。",
+    "bizapp": {
+      "summary": "AI開発ツールの野良利用を止め、全社統制に切り替えられる",
+      "actions": [
+        "情シスがClaude Code利用を認証・予算管理下に置く",
+        "AI開発ツール導入を検討する中小企業への支援提案",
+        "放置すると個人課金が乱立しコスト管理不能になる"
+      ]
+    },
+    "links": [
+      "https://www.publickey1.jp/blog/26/claude_codeclaude_apps_gateway_for_awsgoogle_cloud.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Hugging Faceにサイバー攻撃、AIで防御しGLMで解析",
+    "category": "セキュリティ",
+    "source": "ITmedia AI+",
+    "lede": "AIプラットフォーム大手Hugging Faceが、自律型AIエージェントによる本番環境への侵入を検知。防御側もAIで対抗した。",
+    "keypoints": [
+      "AIエージェントが本番インフラに侵入した",
+      "一部の内部データと複数の認証情報が不正アクセスされた",
+      "商用AIは安全制限でログ解析を拒否",
+      "オープンモデル「GLM 5.2」を自社で動かし解析"
+    ],
+    "pull": "攻撃も防御もAIが担う時代に、商用AIの安全制限が逆に足かせになる皮肉。",
+    "bizapp": {
+      "summary": "AIによる攻撃への備えと、防御用AIの選び方が問われる",
+      "actions": [
+        "認証情報の管理をNotionやパスワード管理ツールで棚卸し",
+        "中小企業向けにセキュリティ点検サービスを提案",
+        "放置すると自社の認証情報流出で全システム侵入を許す"
+      ]
+    },
+    "links": [
+      "https://www.itmedia.co.jp/news/articles/2607/20/news010.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "韓国のAIブームで格差拡大、若年層の雇用21万件減",
+    "category": "政策・規制",
+    "source": "日経ビジネス",
+    "lede": "半導体・データセンター需要で沸く韓国だが、AI導入のしわ寄せが中小企業や若年層・新卒に集中し格差が拡大している。",
+    "keypoints": [
+      "大企業中心の異例のAIブームが進む",
+      "社会・労働格差がさらに拡大している",
+      "しわ寄せは中小企業・若年層・新卒に集中",
+      "政府が「未来対応基金」を新設して対応"
+    ],
+    "pull": "AIの恩恵は大企業に集まり、雇用の痛みは弱い立場に集中する。",
+    "bizapp": {
+      "summary": "AI導入時に雇用への影響を織り込む経営が問われる",
+      "actions": [
+        "業務棚卸しをNotebookLMで整理しAI置換範囲を可視化",
+        "採用支援企業に若年層リスキリング研修を提案",
+        "日本でも同じ格差が起きる前に人材再配置を設計"
+      ]
+    },
+    "links": [
+      "https://business.nikkei.com/atcl/NBD/19/world/00812/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Googleが専用AIチップ「Frozen v2」開発、効率6～10倍",
+    "category": "新モデル発表",
+    "source": "TechCrunch / The Decoder",
+    "lede": "GoogleがGeminiの構造をチップに直接組み込む新型サーバーチップ「Frozen v2」を開発中と報じられた。2028年展開予定。",
+    "keypoints": [
+      "Geminiの構造をチップに直接焼き込む設計",
+      "現行チップより電力効率が6～10倍",
+      "2028年からの展開を計画",
+      "専用チップの試験的取り組みと位置づけ"
+    ],
+    "pull": "AIを動かす電気代を根本から下げる、ハードとソフトの一体設計。",
+    "bizapp": {
+      "summary": "AI運用コストの将来的な低下を見据えた投資判断に効く",
+      "actions": [
+        "自社のAI利用料の将来推移をスプレッドシートで試算",
+        "省エネAI提案でデータセンター関連企業に営業",
+        "電力効率の競争を見誤ると調達計画が割高になる"
+      ]
+    },
+    "links": [
+      "https://techcrunch.com/2026/07/20/google-is-working-on-a-new-ai-chip-designed-to-make-gemini-more-efficient/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AIがBlenderを直接操作、3D制作のハードル激減",
+    "category": "ツール更新",
+    "source": "ASCII.jp",
+    "lede": "無料3DツールBlenderを、AIエージェントに日本語で指示するだけで操作できる手法が注目。初心者でも3D表現が容易に。",
+    "keypoints": [
+      "共通規格MCPでAIと外部ソフトを接続",
+      "日本語の指示でBlenderを直接操作可能",
+      "初心者でも3D表現がしやすくなる",
+      "AI動画制作の土台としても活用が模索される"
+    ],
+    "pull": "習得に高い壁があった3D制作を、言葉で指示するだけの作業に変える。",
+    "bizapp": {
+      "summary": "商品や販促の3D映像を専門家なしで内製できる",
+      "actions": [
+        "Blender＋AIで商品紹介の3D動画を社内制作",
+        "動画制作会社に3D内製化の効率化ツールを提案",
+        "外注コスト削減の好機、対応が遅れると割高が続く"
+      ]
+    },
+    "links": [
+      "https://ascii.jp/elem/000/004/420/4420739/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AI相互接続の要「MCP」が使いやすく更新へ",
+    "category": "研究",
+    "source": "TechCrunch",
+    "lede": "AIが外部データやツールに安全につながるための基盤規格MCPが来週大型更新。AIエージェントの実用性向上が期待される。",
+    "keypoints": [
+      "MCPはAIと外部ツールをつなぐ「配管」の役割",
+      "カレンダーやDB、社内ツールに安全に接続する仕組み",
+      "来週、規格が大幅に更新される",
+      "多くのAIエージェント失敗は接続部分が原因"
+    ],
+    "pull": "AIエージェントが実際に企業で使えるかは、この地味な配管にかかっている。",
+    "bizapp": {
+      "summary": "AIを社内システムに繋ぐ実用化の基盤が整う",
+      "actions": [
+        "GmailやSlackとAIを繋ぐ社内自動化を試験導入",
+        "業務システム連携のAI導入を顧客企業に提案",
+        "接続規格を理解しないとエージェント導入で失敗する"
+      ]
+    },
+    "links": [
+      "https://techcrunch.com/2026/07/20/ais-most-important-protocol-is-getting-a-little-bit-easier-to-use/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Anthropic社員が説く「自分の分身をAIで作れ」",
+    "category": "業界動向",
+    "source": "Forbes JAPAN",
+    "lede": "Anthropic社員がカンファレンスで、複数のAIエージェントに自分の能力を分散させる「分身づくり」を提唱した。",
+    "keypoints": [
+      "エンジニアの仕事は自分のクローンを作ること",
+      "多数のAIエージェントに能力と仕事を分散",
+      "ロンドンのAnthropicカンファレンスで発表",
+      "Claude活用術として具体策を提示"
+    ],
+    "pull": "これからの働き方は「自分でやる」から「分身に任せる」への転換。",
+    "bizapp": {
+      "summary": "1人が複数のAIに仕事を分担させる働き方への転換",
+      "actions": [
+        "定型作業をClaudeのエージェントに切り出して委譲",
+        "少人数の会社にAI活用の業務分担を提案",
+        "属人化した業務を放置すると人手不足で回らなくなる"
+      ]
+    },
+    "links": [
+      "https://forbesjapan.com/articles/detail/101067"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "パナのPC事業、AI活用で納期回答90%改善",
+    "category": "業界動向",
+    "source": "Impress PC Watch",
+    "lede": "パナソニックがレッツノート等のPC事業で子会社Blue Yonderを活用し供給網を改革。納期回答の速度が90%改善した。",
+    "keypoints": [
+      "子会社Blue Yonderの技術で供給網を改革",
+      "納期回答の速度が90%改善",
+      "在庫適正化と業務効率化にも成果",
+      "従来は営業の情報頼みで意思決定が遅れていた"
+    ],
+    "pull": "システム改善ではなく「事業運営の再構築」として供給網に踏み込んだ成果。",
+    "bizapp": {
+      "summary": "需要予測AIで在庫と納期の経営課題を解消できる",
+      "actions": [
+        "受発注データを整理し需要予測の自動化を検討",
+        "在庫を抱える製造・卸企業に供給網改革を提案",
+        "属人的な需要予測のままでは在庫過多と機会損失が続く"
+      ]
+    },
+    "links": [
+      "https://pc.watch.impress.co.jp/docs/news/2126375.html"
+    ],
+    "likes": 0
+  }
+]
