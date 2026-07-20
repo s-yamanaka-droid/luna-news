@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週は「非エンジニアでも自社でAIを動かせる」実務ツールが一気に前進した週。請求書転記やファイル操作を1プロンプトで済ませるClaude Cowork、社内資料調査を秒で終えるGemini Notebookなど、明日から使える即戦力が揃った。楽天やSUBARUの事例は、少人数・低予算でも成果を出せることを実証。高性能AIの低価格化も進み、小規模事業者にとって「使うか使わないか」で差がつく分岐点に入った。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-07-15",
+      "title": "Claude Cowork、請求書→Excel転記を1プロンプトで自動化",
+      "category": "ツール更新",
+      "source": "ビジネス+IT",
+      "why_picked": "VBA知識ゼロで請求書処理が消える。1人社長の事務時間を直撃",
+      "tldr": "チャット指示だけでPC内のファイル操作を自動化",
+      "action": "自社の請求書PDF1枚でExcel転記を試す",
+      "image": "../assets/images/2026-07-15/topic_8.png",
+      "link": "../news/2026-07-15/#topic-8"
+    },
+    {
+      "rank": 2,
+      "date": "2026-07-16",
+      "title": "楽天、全社AI化で客単価17%向上　5万店の半数が運営支援ツール活用",
+      "category": "業界動向",
+      "source": "MarkeZine",
+      "why_picked": "小規模店が月47時間削減・商品10倍。売上に直結する実例",
+      "tldr": "AI運営支援で少人数・多商品・客単価17%増",
+      "action": "商品説明文の作成をAIで10分に短縮",
+      "image": "../assets/images/2026-07-16/topic_2.png",
+      "link": "../news/2026-07-16/#topic-2"
+    },
+    {
+      "rank": 3,
+      "date": "2026-07-18",
+      "title": "NotebookLMが「Gemini Notebook」に改名　検索連携へ",
+      "category": "ツール更新",
+      "source": "Gihyo.jp",
+      "why_picked": "手持ちの見積書・マニュアルを放り込めば調査が10分に",
+      "tldr": "社内資料を横断調査・要約する無料級ツール",
+      "action": "自社マニュアルを入れて横断検索を試す",
+      "image": "../assets/images/2026-07-18/topic_5.png",
+      "link": "../news/2026-07-18/#topic-5"
+    }
+  ]
+}
