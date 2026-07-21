@@ -7,6 +7,13 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。毎朝6:30、AI業界ニュースを図解と「明日からできる活用法」で。</description>
   <language>ja</language>
   <item>
+    <title>2026-07-22 AI朝刊：Anthropic、著作権和解に2400億円　史上最大 ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-07-22/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-22/</guid>
+    <pubDate>Wed, 22 Jul 2026 06:30:00 +0900</pubDate>
+    <description>Anthropic、著作権和解に2400億円　史上最大／政府、マイナカードをAIエージェントと連携へ／Google、Gemini 3.6 Flashなど新モデル発表／AIトークン消費「24倍」の衝撃　課金の罠に注意／Genspark、全てを記憶する「SecondBrain」投入</description>
+  </item>
+  <item>
     <title>2026-07-21 AI朝刊：Claude Codeを組織で一括管理、SSO・費用上限に対応 ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-07-21/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-21/</guid>
@@ -159,13 +166,6 @@
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-28/</guid>
     <pubDate>Sun, 28 Jun 2026 06:30:00 +0900</pubDate>
     <description>OpenAI、GPT-5.6を限定公開／米政府、Mythos 5を一部再開／生成AI調達指針、2.0版に更新／AIインフラ、電力確保が争点に／AI SDK 7、実運用エージェントへ</description>
-  </item>
-  <item>
-    <title>2026-06-27 AI朝刊：OpenAI、GPT-5.6を限定公開 ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-06-27/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-27/</guid>
-    <pubDate>Sat, 27 Jun 2026 06:30:00 +0900</pubDate>
-    <description>OpenAI、GPT-5.6を限定公開／オムロン、知財AIで工数半減／AWS、Nvidia計算資源を20％値上げ／ChatGPT広告設計を博報堂DYが支援／Claude規制解除へAnthropicが交渉継続</description>
   </item>
 </channel>
 </rss>

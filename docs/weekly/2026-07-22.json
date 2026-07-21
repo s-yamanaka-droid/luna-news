@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週は「高性能AIが安く・無料で手に入る」流れが加速し、小規模事業者にも本番活用の波が届いた。一方でClaude Fable 5の上位プラン移行やトークン課金増など、費用を見直さないと払い過ぎる局面でもある。攻めの内製化と守りのコスト点検、両輪で動くべき一週間。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-07-18",
+      "title": "NotebookLMが「Gemini Notebook」に改名　検索連携へ",
+      "category": "ツール更新",
+      "source": "Gihyo.jp",
+      "why_picked": "社内資料の調査要約が無料級で秒に。今日から時短",
+      "tldr": "資料調査AIが検索と連携し無料級",
+      "action": "自社マニュアルを入れ横断調査を試す",
+      "image": "../assets/images/2026-07-18/topic_5.png",
+      "link": "../news/2026-07-18/#topic-5"
+    },
+    {
+      "rank": 2,
+      "date": "2026-07-16",
+      "title": "楽天、全社AI化で客単価17%向上　5万店の半数が運営支援ツール活用",
+      "category": "業界動向",
+      "source": "MarkeZine",
+      "why_picked": "少人数で商品10倍・月47時間削減の実例。お金に直結",
+      "tldr": "AI活用でEC客単価17%増の実例",
+      "action": "商品説明の作成をAIで10分化する",
+      "image": "../assets/images/2026-07-16/topic_2.png",
+      "link": "../news/2026-07-16/#topic-2"
+    },
+    {
+      "rank": 3,
+      "date": "2026-07-19",
+      "title": "最上位AI「Claude Fable 5」、有料上位プラン標準搭載へ",
+      "category": "ツール更新",
+      "source": "Impress PC Watch",
+      "why_picked": "Pro従量化で実質値上げ。払い過ぎ点検が急務",
+      "tldr": "AI料金が改定、上位プラン前提に",
+      "action": "AI費用の無駄払いを今週点検する",
+      "image": "../assets/images/2026-07-19/topic_1.png",
+      "link": "../news/2026-07-19/#topic-1"
+    }
+  ]
+}
