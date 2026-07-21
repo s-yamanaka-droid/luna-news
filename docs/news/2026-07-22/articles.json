@@ -1,0 +1,202 @@
+[
+  {
+    "title": "Anthropic、著作権和解に2400億円　史上最大",
+    "category": "政策・規制",
+    "source": "ITmedia AI+ / The Verge",
+    "lede": "Claudeの学習に著作を無断使用したとされる訴訟で、米連邦判事が15億ドル（約2400億円）の和解を承認。著作権訴訟で史上最大額となった。",
+    "keypoints": [
+      "作家グループがAnthropicを2024年に提訴",
+      "学習利用そのものはフェアユースと判断",
+      "海賊版700万冊超の保存が権利侵害と認定",
+      "1冊あたり約3000ドルを支払い"
+    ],
+    "pull": "学習は合法、だが海賊版の入手経路が命取りになった。",
+    "bizapp": {
+      "summary": "AI活用時の学習データ調達リスクを再確認する契機に",
+      "actions": [
+        "契約書レビューにNotionでデータ出所チェックリスト整備",
+        "顧客へAIツールのデータ来歴確認をコンサル提案",
+        "放置すると自社利用AIの権利侵害リスクを見逃す"
+      ]
+    },
+    "links": [
+      "https://www.itmedia.co.jp/aiplus/article/2607/21/2000000210/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "政府、マイナカードをAIエージェントと連携へ",
+    "category": "政策・規制",
+    "source": "CNET Japan",
+    "lede": "政府が令和8年の重点計画で、マイナカードと外部AIエージェントを安全につなぐ基盤「MCP」構築を明記。AIが本人に代わり行政手続きを進める未来を見据える。",
+    "keypoints": [
+      "重点計画の概要を7月21日に公表",
+      "マイナカードとAIをつなぐ基盤MCPを構築",
+      "AIが本人代理で行政手続きを進める想定",
+      "官民でのカード活用を推進"
+    ],
+    "pull": "行政手続きを「AIに任せる」時代の土台づくりが始まった。",
+    "bizapp": {
+      "summary": "行政手続き代行のAIサービス市場が開く可能性",
+      "actions": [
+        "MCP連携の動向をObsidianで継続ウォッチ",
+        "士業・バックオフィス向けにAI手続き代行を提案検討",
+        "放置すると行政DX前提の業務設計に出遅れる"
+      ]
+    },
+    "links": [
+      "https://japan.cnet.com/article/35250805/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Google、Gemini 3.6 Flashなど新モデル発表",
+    "category": "新モデル発表",
+    "source": "Google DeepMind Blog",
+    "lede": "GoogleがGemini 3.6 Flash、3.5 Flash-Lite、3.5 Flash Cyberを発表。AIエージェントを大規模運用するための効率・低遅延・信頼性を強化した。",
+    "keypoints": [
+      "主力の3.6 Flashはコード・多用途性能が向上",
+      "3.5 Flash比で出力トークンを17%削減",
+      "大規模なAIエージェント運用向けに設計",
+      "低遅延と信頼性を重視した構成"
+    ],
+    "pull": "同じ仕事をより少ないトークンで──コスト効率が競争軸に。",
+    "bizapp": {
+      "summary": "AI利用コスト削減で本番運用のハードルが下がる",
+      "actions": [
+        "Cursor等の開発で軽量モデルへ切替しコスト検証",
+        "中小のAI導入支援でモデル最適化を提案",
+        "放置すると割高な旧モデルで無駄な費用が続く"
+      ]
+    },
+    "links": [
+      "https://deepmind.google/blog/introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AIトークン消費「24倍」の衝撃　課金の罠に注意",
+    "category": "業界動向",
+    "source": "＠IT / ビジネス+IT",
+    "lede": "AIの試験導入から本番運用への移行で、多くの企業がコストと統制の壁に直面。将来的なトークン消費急増を見据えた「3つの条件」が問われている。",
+    "keypoints": [
+      "本番移行でトークン消費が急増する構造",
+      "コスト増リスクがユーザー企業側へ転嫁",
+      "契約内容を見誤ると費用が膨らみ続ける",
+      "実運用継続には3つの条件が必要"
+    ],
+    "pull": "AIは試すより「使い続ける」段階でコストが牙をむく。",
+    "bizapp": {
+      "summary": "AI導入の予算計画と契約条件の見直しが急務",
+      "actions": [
+        "Notionでトークン消費と費用の可視化ダッシュ構築",
+        "中小企業へAIコスト診断サービスを提案",
+        "本番前に契約見直さないと請求書で予算オーバー直撃"
+      ]
+    },
+    "links": [
+      "https://atmarkit.itmedia.co.jp/ait/articles/2607/22/news005.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Genspark、全てを記憶する「SecondBrain」投入",
+    "category": "ツール更新",
+    "source": "AI Watch (Impress)",
+    "lede": "米Gensparkが「AIワークスペース6.0」を発表。仕事の情報をまるごと記憶するクラウドメモリー「SecondBrain」と連携するAIボイスレコーダーを投入した。",
+    "keypoints": [
+      "メールや議事録・CRMを1つの記憶に統合",
+      "毎回前提を説明し直す手間をなくす",
+      "26gのカード型ボイスレコーダーを併売",
+      "価格据え置きで無料プランでも利用可"
+    ],
+    "pull": "AIに「毎回説明し直す」時代が終わろうとしている。",
+    "bizapp": {
+      "summary": "AIへの前提説明の手間が消え、日常業務が高速化",
+      "actions": [
+        "議事録・商談メモの記憶管理にSecondBrainを試用",
+        "属人化した営業ノウハウの共有ツールとして提案",
+        "放置すると情報の再入力に社員の時間を浪費し続ける"
+      ]
+    },
+    "links": [
+      "https://ai.watch.impress.co.jp/docs/news/2126704.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "侵入から脅迫まで全自動　AIランサムウェア出現",
+    "category": "セキュリティ",
+    "source": "日経クロステック",
+    "lede": "米Sysdigが、ネットワーク侵入からデータ暗号化、脅迫までを自律的に実施するAIエージェントによるランサムウェア攻撃を確認したと公表した。",
+    "keypoints": [
+      "2026年7月上旬にSysdigが確認・公表",
+      "侵入・暗号化・脅迫を全て自律実行",
+      "有用なAI技術が攻撃者にも有用に",
+      "攻撃の自動化・高速化が現実の脅威に"
+    ],
+    "pull": "AIが便利なほど、攻撃も無人で高速化する。",
+    "bizapp": {
+      "summary": "自律型AI攻撃を前提にセキュリティ体制の再点検を",
+      "actions": [
+        "EDR等の防御体制と復旧手順をObsidianで棚卸し",
+        "中小企業へAI時代のセキュリティ研修を提案",
+        "対策先延ばしは全自動攻撃で被害拡大を招く"
+      ]
+    },
+    "links": [
+      "https://xtech.nikkei.com/atcl/nxt/column/18/00676/071100229/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Microsoftとミストラルが提携　欧州AIに数十億ドル",
+    "category": "業界動向",
+    "source": "Impress Watch",
+    "lede": "MicrosoftとフランスのMistralが欧州AI演算能力の拡大で戦略提携。Mistralのモデルをクラウドからオフライン環境まで柔軟に導入可能にする。",
+    "keypoints": [
+      "Microsoftが数十億ドル規模を投資",
+      "MistralモデルをFoundry・Copilot等に統合",
+      "完全オフライン環境での展開も可能に",
+      "欧州のデータ主権ルールに対応"
+    ],
+    "pull": "AIの覇権争いは「どこに置くか」の主権競争へ広がる。",
+    "bizapp": {
+      "summary": "データ主権を守りつつAI活用する選択肢が増える",
+      "actions": [
+        "Azure Foundryで複数モデルの比較検証を実施",
+        "機密扱う企業へオフラインAI導入を提案",
+        "放置すると規制対応でAI活用範囲が狭まる"
+      ]
+    },
+    "links": [
+      "https://www.watch.impress.co.jp/docs/news/2126729.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "中国製無料AI「Kimi K3」に米政権が揺れる",
+    "category": "業界動向",
+    "source": "ASCII.jp / Business Insider",
+    "lede": "中国Moonshot AIの「Kimi K3」が主要ベンチマークで好成績を収め低コストを実現。オープンかクローズドかの論争が米AI業界で再燃している。",
+    "keypoints": [
+      "Kimi K3が主要指標で米最先端モデルに匹敵",
+      "需要急増でKimiは新規有料契約を一時停止",
+      "米AI政策関係者の間で対応が割れる",
+      "オープンソース排除への批判も噴出"
+    ],
+    "pull": "低コストの中国モデルが、覇権の前提を揺さぶり始めた。",
+    "bizapp": {
+      "summary": "低コストAIの選択肢拡大でツール比較の再考が必要",
+      "actions": [
+        "オープンウェイトモデルの性能・コストを試験導入",
+        "中小のAIコスト削減提案に選択肢として提示",
+        "放置すると割高な契約に縛られ競争力を失う"
+      ]
+    },
+    "links": [
+      "https://www.businessinsider.jp/article/2607-open-source-ai-china-kimi-american-ai-industry-openai-anthropic/"
+    ],
+    "likes": 0
+  }
+]
