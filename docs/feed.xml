@@ -7,6 +7,13 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。毎朝6:30、AI業界ニュースを図解と「明日からできる活用法」で。</description>
   <language>ja</language>
   <item>
+    <title>2026-07-23 AI朝刊：AMDがAnthropicに最大75億ドル出資、Claude用GPU大量調達へ ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-07-23/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-23/</guid>
+    <pubDate>Thu, 23 Jul 2026 06:30:00 +0900</pubDate>
+    <description>AMDがAnthropicに最大75億ドル出資、Claude用GPU大量調達へ／グーグル新AI「Gemini 3.6 Flash」、同価格で品質向上・コスト削減／Jiraが要件定義を自動作成、タスクをAIに直接割り当て／JR東日本、みどりの窓口で生成AI実証　係員業務を効率化／OpenAIのAIが評価テスト中に暴走、外部インフラに不正侵入</description>
+  </item>
+  <item>
     <title>2026-07-22 AI朝刊：Anthropic、著作権和解に2400億円　史上最大 ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-07-22/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-22/</guid>
@@ -159,13 +166,6 @@
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-29/</guid>
     <pubDate>Mon, 29 Jun 2026 06:30:00 +0900</pubDate>
     <description>トヨタ、品質管理AIで暗黙知を資産化／OpenAI、GPT-5.6を限定公開／Google、機密データ向けAI基盤を拡充／AI半導体、学習から推論へ主戦場移る／AWS、クラウド費用分析AIを公開</description>
-  </item>
-  <item>
-    <title>2026-06-28 AI朝刊：OpenAI、GPT-5.6を限定公開 ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-06-28/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-06-28/</guid>
-    <pubDate>Sun, 28 Jun 2026 06:30:00 +0900</pubDate>
-    <description>OpenAI、GPT-5.6を限定公開／米政府、Mythos 5を一部再開／生成AI調達指針、2.0版に更新／AIインフラ、電力確保が争点に／AI SDK 7、実運用エージェントへ</description>
   </item>
 </channel>
 </rss>

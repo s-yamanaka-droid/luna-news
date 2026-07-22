@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週はAIの「コスト」と「調達」が主役。最上位Claudeの上位プラン標準搭載やGeminiの値下げで料金体系の見直しが全事業者の急務になる一方、NotebookLMの進化や非エンジニアの内製事例は無料〜低額ツールで調査・資料業務を効率化できる好機を示す。まずは自社のAI費用を1枚に棚卸しし、割高な使い方を軽量ツールへ寄せたい。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-07-19",
+      "title": "最上位AI「Claude Fable 5」、有料上位プラン標準搭載へ",
+      "category": "ツール更新",
+      "source": "Impress PC Watch",
+      "why_picked": "月20ドルProは実質値上げ、業務のAI費用を今週見直せる",
+      "tldr": "最上位Claudeが上位プラン標準に、Proは実質値上げ",
+      "action": "AI月額の無駄払いを1枚で点検",
+      "image": "../assets/images/2026-07-19/topic_1.png",
+      "link": "../news/2026-07-19/#topic-1"
+    },
+    {
+      "rank": 2,
+      "date": "2026-07-23",
+      "title": "グーグル新AI「Gemini 3.6 Flash」、同価格で品質向上・コスト削減",
+      "category": "新モデル発表",
+      "source": "Gihyo.jp / Analytics Vidhya",
+      "why_picked": "同じ料金で出力65%減、大量処理のAI代を今すぐ削れる",
+      "tldr": "同価格で品質向上・トークン最大65%減",
+      "action": "調査や下書き業務を軽量AIに切替",
+      "image": "../assets/images/2026-07-23/topic_2.png",
+      "link": "../news/2026-07-23/#topic-2"
+    },
+    {
+      "rank": 3,
+      "date": "2026-07-18",
+      "title": "NotebookLMが「Gemini Notebook」に改名　検索連携へ",
+      "category": "ツール更新",
+      "source": "Gihyo.jp",
+      "why_picked": "無料で社内資料を横断調査、リサーチ時間が今週縮む",
+      "tldr": "NotebookLM改名、検索連携で調査強化",
+      "action": "社内マニュアルを読み込ませ要約",
+      "image": "../assets/images/2026-07-18/topic_5.png",
+      "link": "../news/2026-07-18/#topic-5"
+    }
+  ]
+}
