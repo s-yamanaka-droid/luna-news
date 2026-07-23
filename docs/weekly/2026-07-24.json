@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週は「安く・速く・手放しで使うAI」への動きが加速した。Gemini 3.6 Flashが同価格で出力コスト最大65%減、Claude音声モードが上位モデルとGmail・Slack連携に対応し、話すだけで事務が進む時代に入った。一方でClaude Fable 5の上位プラン標準搭載で実質値上げも進行。今週は自社のAI費用を点検し、安いモデルと音声操作で足元の作業を軽くするのが正解だ。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-07-24",
+      "title": "Claudeの音声モードが上位モデルに対応　会議調整やメール作成も",
+      "category": "ツール更新",
+      "source": "The Verge AI",
+      "why_picked": "移動中に話すだけで事務が終わる。1人社長の時間を直接生む",
+      "tldr": "話すだけでメール・会議調整が完了",
+      "action": "移動中にメール下書きを音声で試す",
+      "image": "../assets/images/2026-07-24/topic_2.png",
+      "link": "../news/2026-07-24/#topic-2"
+    },
+    {
+      "rank": 2,
+      "date": "2026-07-23",
+      "title": "グーグル新AI「Gemini 3.6 Flash」、同価格で品質向上・コスト削減",
+      "category": "新モデル発表",
+      "source": "Gihyo.jp / Analytics Vidhya",
+      "why_picked": "調査や大量処理のAI代を最大65%圧縮できる。効果が財布に直結",
+      "tldr": "同価格で出力コスト最大65%減",
+      "action": "調査・要約業務を格安Flashに切替",
+      "image": "../assets/images/2026-07-23/topic_2.png",
+      "link": "../news/2026-07-23/#topic-2"
+    },
+    {
+      "rank": 3,
+      "date": "2026-07-19",
+      "title": "最上位AI「Claude Fable 5」、有料上位プラン標準搭載へ",
+      "category": "ツール更新",
+      "source": "Impress PC Watch",
+      "why_picked": "月20ドルProは実質値上げ。放置すると無駄払いが続く",
+      "tldr": "上位AIが上位プラン標準に、Proは従量化",
+      "action": "今週AI課金額と使用量を点検する",
+      "image": "../assets/images/2026-07-19/topic_1.png",
+      "link": "../news/2026-07-19/#topic-1"
+    }
+  ]
+}

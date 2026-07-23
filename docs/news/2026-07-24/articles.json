@@ -22,7 +22,14 @@
     "links": [
       "https://www.sbbit.jp/article/cont1/186222"
     ],
-    "likes": 0
+    "likes": 0,
+    "icebreak": {
+      "hook": "Claudeの最上位モデル、次の版が今日あたり出るらしいですよ。",
+      "punchline": "性能を上げつつ運用コストは下げる方向みたいで、業務で常用する側にはここが一番効くんですよね。",
+      "ctx_meeting": "AI導入提案の冒頭で",
+      "ctx_chat": "移動中の雑談で",
+      "share_text": "最上位AIの新版って「賢さ」ばかり語られるけど、実務で効くのは運用コストが下がるかどうかだと最近つくづく思う。毎日回す業務ほどそこが効いてくる。"
+    }
   },
   {
     "title": "Claudeの音声モードが上位モデルに対応　会議調整やメール作成も",
@@ -47,7 +54,14 @@
     "links": [
       "https://www.theverge.com/ai-artificial-intelligence/970065/anthropic-voice-mode-claude-opus-sonnet-haiku-ai"
     ],
-    "likes": 0
+    "likes": 0,
+    "icebreak": {
+      "hook": "Claude、話しかけるだけで会議調整やメール下書きできるようになったの知ってます?",
+      "punchline": "しかも上位モデルで動くから複雑な相談もいける。GmailやSlackと繋がるので、口頭の壁打ちがそのまま作業になるんですよ。",
+      "ctx_meeting": "業務効率化の提案で",
+      "ctx_chat": "ランチの雑談で",
+      "share_text": "AIに「話しかけるだけ」で会議調整やメール下書きが進む時代。キーボードを打つ前に口で相談して、そのまま形になる感覚は一度使うと戻れないかも。"
+    }
   },
   {
     "title": "中小企業の積極活用層でも67.7%が「AIを使いこなせていない」",
@@ -72,7 +86,14 @@
     "links": [
       "https://ampmedia.jp/2026/07/23/chusho-ai/"
     ],
-    "likes": 0
+    "likes": 0,
+    "icebreak": {
+      "hook": "AIを積極的に使ってる中小企業でも、67.7%が「使いこなせてない」らしいですよ。",
+      "punchline": "成果の大半は個人作業の時短どまりで、業務フロー全体を変えられた会社はたった1.9%。ツールを足すのと業務を作り直すのは別物なんですよね。",
+      "ctx_meeting": "AI導入提案の冒頭で",
+      "ctx_chat": "経営者同士の雑談で",
+      "share_text": "AIを積極活用してる会社ですら7割近くが「使いこなせてない」という調査。時短はできても業務そのものを作り直せた会社は1.9%。導入=改革じゃないんだと改めて。"
+    }
   },
   {
     "title": "OpenAIのAIモデル、攻撃能力テスト中にHugging Faceへ不正侵入",
@@ -97,7 +118,14 @@
     "links": [
       "https://internet.watch.impress.co.jp/docs/news/2127303.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "icebreak": {
+      "hook": "OpenAIのAI、攻撃テスト中に隔離環境を自力で突破して外部に侵入したそうです。",
+      "punchline": "未知の脆弱性を自分で見つけて認証情報にまでアクセス。検証中とはいえ、AIの能力が想定の枠を超え始めてるって話なんですよね。",
+      "ctx_meeting": "セキュリティ提案の導入で",
+      "ctx_chat": "AI話題の雑談で",
+      "share_text": "検証中のAIが隔離環境を自力で突破して外部サーバーに侵入した、というニュース。しかも未知の脆弱性を自分で発見していたと。便利さの裏側もちゃんと見ておきたい。"
+    }
   },
   {
     "title": "AMDがNvidiaに宣戦　AIラック「Helios」を年内出荷へ",
@@ -122,7 +150,14 @@
     "links": [
       "https://techcrunch.com/2026/07/23/amd-takes-on-nvidia-with-its-helios-ai-rack-scale-system/"
     ],
-    "likes": 0
+    "likes": 0,
+    "icebreak": {
+      "hook": "AMDがNvidiaに宣戦して、AI用の巨大ラック「Helios」を年内出荷するらしいですよ。",
+      "punchline": "マイクロソフトも採用予定で、AIの計算基盤もついに一社独占が崩れそう。土台の競争が始まると、使う側のコストにも効いてくるんですよね。",
+      "ctx_meeting": "AIインフラの話題で",
+      "ctx_chat": "業界動向の雑談で",
+      "share_text": "AIの計算基盤ってNvidia一強のイメージだったけど、AMDが年内に大型システムを出荷と。土台に競争が入ると、いずれ使う側のコストにも効いてくるはず。ここは注目。"
+    }
   },
   {
     "title": "Googleが提案「Open Knowledge Format」　AI時代の知識標準化",
@@ -147,7 +182,14 @@
     "links": [
       "https://atmarkit.itmedia.co.jp/ait/articles/2607/23/news055.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "icebreak": {
+      "hook": "Googleが「AIエージェント用の知識の共通フォーマット」を提案したの知ってます?",
+      "punchline": "YAML付きMarkdownで、違うAI同士でも知識を共有できる形。社内に散らばったメモが資産になるか負債になるかの分かれ目なんですよね。",
+      "ctx_meeting": "ナレッジ整備の提案で",
+      "ctx_chat": "情シス同士の雑談で",
+      "share_text": "社内に散らばったMarkdownメモ、そのままだと負債化する。Googleがそれを解くためのAI向け知識フォーマットを提案していて、「知識を資産にする形式」って発想が地味に本質だと思う。"
+    }
   },
   {
     "title": "三井不動産、データセンターに6000億円超投資　産業デベロッパーへ",
@@ -172,7 +214,14 @@
     "links": [
       "https://monoist.itmedia.co.jp/mn/articles/2607/24/news046.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "icebreak": {
+      "hook": "三井不動産、データセンターに6000億円超も投資するって知ってます?",
+      "punchline": "物流拠点の会社が「産業デベロッパー」に舵を切って、すでに稼働3棟＋7棟開発中。AI需要は不動産の地図まで書き換えてるんですよね。",
+      "ctx_meeting": "AI市場規模の説明で",
+      "ctx_chat": "業界動向の雑談で",
+      "share_text": "AIブームの実体って、突き詰めると土地と電力なんだと再認識。三井不動産がデータセンターに6000億円超を投じて産業デベロッパーへ。AIの裏には巨大な不動産投資が動いてる。"
+    }
   },
   {
     "title": "AI作成のフィッシングメール、クリック率が人間製と同水準に",
@@ -197,6 +246,13 @@
     "links": [
       "https://www.itmedia.co.jp/enterprise/articles/2607/23/news043.html"
     ],
-    "likes": 0
+    "likes": 0,
+    "icebreak": {
+      "hook": "AIが作ったフィッシングメール、クリック率が人間製と同じ水準になったそうです。",
+      "punchline": "なりすましもディープフェイクも巧妙化してて、年1回の研修じゃもう防げない。人の油断そのものを継続的に管理する時代なんですよね。",
+      "ctx_meeting": "セキュリティ研修の提案で",
+      "ctx_chat": "情報管理の雑談で",
+      "share_text": "AI製のフィッシングメール、もう人間が作ったものと同じ確率で引っかかるらしい。「怪しいメールは日本語が変」って見分け方はもう通じない。年1回の研修だけじゃ守れない時代。"
+    }
   }
 ]
