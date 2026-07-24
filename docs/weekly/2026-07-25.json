@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週は「高性能AIが安くなる」流れが決定的になった。Claude Opus 5が前世代の約半額で登場し、GoogleのGemini Flashも同価格で最大65%効率化。ChatGPTの複数フォルダ対応や音声操作も加わり、小さな会社でも高性能AIを日常業務で常用できる環境が整った。今こそ「何にいくら払っているか」を点検し、安く速い新モデルへ乗り換える好機だ。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-07-25",
+      "title": "Anthropic「Claude Opus 5」発表、最上位性能を半額で",
+      "category": "新モデル発表",
+      "source": "ASCII.jp / TechCrunch / ZDNet",
+      "why_picked": "最高性能AIが半額。導入をためらう理由が消えた",
+      "tldr": "最上位級の性能が従来の約半額に",
+      "action": "文書分析やメール作成をOpus 5で常用開始",
+      "image": "../assets/images/2026-07-25/topic_1.png",
+      "link": "../news/2026-07-25/#topic-1"
+    },
+    {
+      "rank": 2,
+      "date": "2026-07-25",
+      "title": "ChatGPTアプリ、複数フォルダー対応と音声操作を追加",
+      "category": "ツール更新",
+      "source": "Gihyo.jp",
+      "why_picked": "散らばった資料を横断でき、移動中も声で作業",
+      "tldr": "資料横断と音声操作が可能に",
+      "action": "案件フォルダをまとめ音声で横断検索する",
+      "image": "../assets/images/2026-07-25/topic_4.png",
+      "link": "../news/2026-07-25/#topic-4"
+    },
+    {
+      "rank": 3,
+      "date": "2026-07-25",
+      "title": "Google、Gemini新Flashモデル3種を投入",
+      "category": "新モデル発表",
+      "source": "Google DeepMind Blog",
+      "why_picked": "問い合わせ処理を格安で大量自動化でき時間が浮く",
+      "tldr": "同価格で最大65%効率化の軽量AI",
+      "action": "問い合わせ分類をFlashで自動化してみる",
+      "image": "../assets/images/2026-07-25/topic_7.png",
+      "link": "../news/2026-07-25/#topic-7"
+    }
+  ]
+}
