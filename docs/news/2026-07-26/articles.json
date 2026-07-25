@@ -1,0 +1,202 @@
+[
+  {
+    "title": "Anthropic「Claude Opus 5」登場 最上位を約半額で",
+    "category": "新モデル発表",
+    "source": "Amazon AWS AI Blog / Ars Technica",
+    "lede": "Anthropicが第5世代初の最上位モデル「Claude Opus 5」をAWS上で提供開始。性能は上位モデル並みを保ちつつ、コストを大幅に抑えた点が最大の売り。",
+    "keypoints": [
+      "AWS Bedrockで即利用可能に",
+      "エージェント型のコーディングや長時間作業を改善",
+      "能力の飛躍より「トークン効率（=割安）」が本質",
+      "企業データを保持しない設定が標準"
+    ],
+    "pull": "劇的な賢さの向上ではなく、上位性能をほぼ半額で使える「コスパ革命」が今回の核心。",
+    "bizapp": {
+      "summary": "AI活用のコストを下げつつ品質維持に使える",
+      "actions": [
+        "Cursorに組み込み社内開発の自動化に使える",
+        "中小企業へ低コストAI導入を提案",
+        "AI利用料が高止まりのまま放置すると競合に価格負けする"
+      ]
+    },
+    "links": [
+      "https://aws.amazon.com/blogs/machine-learning/introducing-claude-opus-5-on-aws-anthropics-most-capable-opus-model/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Google「Gemini 3.6 Flash」トークン量17%削減で低コスト化",
+    "category": "ツール更新",
+    "source": "Google DeepMind Blog",
+    "lede": "GoogleがGemini Flashシリーズを刷新。主力の3.6 Flashは出力トークン量を従来比17%削減し、AIエージェントを大量に動かす現場のコストと速度を改善する。",
+    "keypoints": [
+      "3.6 Flashは出力トークンを17%削減",
+      "一部ベンチマークでは最大65%削減",
+      "3.5 Flash-Liteは最速・最軽量モデル",
+      "大量のAI処理を安く回す用途向け"
+    ],
+    "pull": "賢さ競争から「安く速く大量に動かす」効率競争へ、生成AIの主戦場が移りつつある。",
+    "bizapp": {
+      "summary": "問い合わせ対応など大量処理の自動化コストが下がる",
+      "actions": [
+        "Google Workspaceでの資料要約業務に使える",
+        "コールセンターの一次対応自動化を提案",
+        "処理単価を見直さないと運用費が無駄に膨らみ続ける"
+      ]
+    },
+    "links": [
+      "https://deepmind.google/blog/introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AI規制の焦点に「蒸留」浮上 中国の格安モデルが火種",
+    "category": "政策・規制",
+    "source": "CNBC Tech",
+    "lede": "既存AIの知識を安く写し取る「蒸留」技術が、中国発の格安モデル台頭を背景に規制論争の的に。大手は「時期尚早な規制」回避を求める書簡を発表した。",
+    "keypoints": [
+      "中国Moonshotの格安モデルが急台頭",
+      "「蒸留」＝大型AIの知識を安価に写す技術",
+      "大手が過度な規制の回避を政策側に要請",
+      "規制が競争と技術流出を左右する論点に"
+    ],
+    "pull": "蒸留は「安いAIの量産」を可能にする一方、規制次第で市場勢力図が一変しかねない。",
+    "bizapp": {
+      "summary": "業界への示唆：格安AI選択肢の増加と規制動向の注視",
+      "actions": [
+        "低価格な海外モデルの調達候補を情報収集する",
+        "顧客に規制リスクを踏まえたAI選定を助言",
+        "規制方向を見誤ると導入したモデルが使えなくなる恐れ"
+      ]
+    },
+    "links": [
+      "https://www.cnbc.com/2026/07/25/hat-is-distillation-and-why-is-everyone-so-obsessed-with-it-this-week.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "NVIDIA新基盤「Rubin」CESで発表 AI生成コスト1/10へ",
+    "category": "業界動向",
+    "source": "NVIDIA AI Blog",
+    "lede": "NVIDIAのフアンCEOがCES2026で新AI基盤「Rubin」を発表。AIの処理コストを前世代比で約10分の1に下げ、大規模AI導入の経済性を一段引き上げると強調した。",
+    "keypoints": [
+      "6チップ構成の新AI基盤Rubinが量産開始",
+      "AI生成コストを前世代の約1/10に",
+      "自動運転向けオープン推論モデルも公開",
+      "AIがあらゆる機器へ広がると宣言"
+    ],
+    "pull": "AIの土台コストが1桁下がれば、これまで採算に合わなかった用途が一気に現実味を帯びる。",
+    "bizapp": {
+      "summary": "業界への示唆：AI導入コストの構造的な下落",
+      "actions": [
+        "自社のAI活用計画を中長期で再試算する",
+        "製造・物流業へAI本格導入の好機を提案",
+        "コスト前提を更新しないと投資判断を誤る"
+      ]
+    },
+    "links": [
+      "https://blogs.nvidia.com/blog/2026-ces-special-presentation/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "新規コードの75%がAI生成 それでも成果は二分",
+    "category": "業界動向",
+    "source": "Algomatic Tech Blog",
+    "lede": "Googleは新規コードの75%がAI生成と公表。だが「AIは組織の強みも弱みも等しく増幅する」だけで、速さより課題を解けるかが成果を分けるとDORA調査が示す。",
+    "keypoints": [
+      "Googleの新規コード75%がAI生成",
+      "個人のPR数は98%増だが組織成果は横ばい",
+      "AIは組織の力を増幅する装置に過ぎない",
+      "速さより「課題を解けるか」が勝負"
+    ],
+    "pull": "AIで全員が速くなった今、差がつくのは道具ではなく組織の土台そのものだ。",
+    "bizapp": {
+      "summary": "AI導入は業務フロー再設計とセットで成果が出る",
+      "actions": [
+        "Notionで開発要件と仕様を構造化し共有する",
+        "DX支援先へ「ツールより体制」の見直しを提案",
+        "ツール導入だけで満足すると投資が霧散する"
+      ]
+    },
+    "links": [
+      "https://tech.algomatic.jp/entry/turning-Mocks-into-specifications"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "ChatGPTに医療機能 医療記録と連携し健康助言",
+    "category": "ツール更新",
+    "source": "OpenAI Blog",
+    "lede": "OpenAIがChatGPTに健康機能を追加。対象の米国ユーザーは医療記録やApple Healthを安全に連携し、より個別化された健康の洞察を得られるようになる。",
+    "keypoints": [
+      "医療記録とApple Healthを接続可能に",
+      "個々人に合わせた健康の洞察を提供",
+      "まずは米国の対象ユーザーから",
+      "個人データの安全な連携をうたう"
+    ],
+    "pull": "AIが個人の医療データに踏み込む段階へ。ヘルスケア領域のAI活用が本格化する。",
+    "bizapp": {
+      "summary": "業界への示唆：ヘルスケアAIとデータ連携の加速",
+      "actions": [
+        "健康・福祉サービスのAI活用余地を調べる",
+        "健康経営の施策としてAI活用を提案",
+        "個人データ連携は規制・同意設計を怠ると信用失墜"
+      ]
+    },
+    "links": [
+      "https://openai.com/index/health-in-chatgpt"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "国産LLM「PLaMo」進化 半分サイズで大型並みの日本語力",
+    "category": "研究",
+    "source": "Preferred Networks Blog",
+    "lede": "PFNが国産大規模言語モデルPLaMoを前進。日本語評価モデルは31Bの小型サイズで72B級の精度を達成し、NICTと共同で120Bの新モデル開発も完了した。",
+    "keypoints": [
+      "31Bモデルが72B相当の日本語精度を達成",
+      "モデルサイズは半分以下で高効率",
+      "NICTと共同で120B新モデルを開発",
+      "日本語特化の評価手法を独自に整備"
+    ],
+    "pull": "小さく安く高性能。日本語に強い国産AIが、海外勢依存を減らす選択肢になり得る。",
+    "bizapp": {
+      "summary": "業界への示唆：日本語特化・国産AIの実用性向上",
+      "actions": [
+        "国産LLMを社内文書処理の候補に加える",
+        "官公庁・金融など国産志向の顧客へ提案",
+        "海外モデル一択のままだと調達リスクを抱える"
+      ]
+    },
+    "links": [
+      "https://tech.preferred.jp/ja/blog/building-a-strong-japanese-reward-model-on-plamo-ja/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "富士通、製造業のCAD検査をAI自動化 品番特定AIを公開",
+    "category": "研究",
+    "source": "富士通研究所 fltech",
+    "lede": "富士通が製造業向けにCAD検査自動化技術を開発。設計データと要件をAIが読み取り適合性をチェックする仕組みで、人手不足に悩む検査工程の省力化を狙う。",
+    "keypoints": [
+      "CAD図面の検査をAIが自動チェック",
+      "要件書とCADデータをAI向けに構造化",
+      "高精度な「CAD品番特定AI」を公開",
+      "製造業の人手不足解消が狙い"
+    ],
+    "pull": "膨大な設計要件とCADの照合という職人的作業を、AIが肩代わりし始めた。",
+    "bizapp": {
+      "summary": "製造業の設計・検査工程の省人化に使える",
+      "actions": [
+        "自社の図面チェック業務にPoC導入を検討",
+        "製造業クライアントへ検査自動化を提案",
+        "人手依存の検査を放置すると退職で業務が止まる"
+      ]
+    },
+    "links": [
+      "https://blog.fltech.dev/entry/2026/07/15/cad-kozuchi-ja"
+    ],
+    "likes": 0
+  }
+]
