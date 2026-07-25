@@ -7,6 +7,13 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。毎朝6:30、AI業界ニュースを図解と「明日からできる活用法」で。</description>
   <language>ja</language>
   <item>
+    <title>2026-07-26 AI朝刊：Anthropic「Claude Opus 5」登場 最上位を約半額で ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-07-26/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-26/</guid>
+    <pubDate>Sun, 26 Jul 2026 06:30:00 +0900</pubDate>
+    <description>Anthropic「Claude Opus 5」登場 最上位を約半額で／Google「Gemini 3.6 Flash」トークン量17%削減で低コスト化／AI規制の焦点に「蒸留」浮上 中国の格安モデルが火種／NVIDIA新基盤「Rubin」CESで発表 AI生成コスト1/10へ／新規コードの75%がAI生成 それでも成果は二分</description>
+  </item>
+  <item>
     <title>2026-07-25 AI朝刊：Anthropic「Claude Opus 5」発表、最上位性能を半額で ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-07-25/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-25/</guid>
@@ -159,13 +166,6 @@
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-02/</guid>
     <pubDate>Thu, 02 Jul 2026 06:30:00 +0900</pubDate>
     <description>国産AI基盤「Noetra」始動、国費3873億円で開発／Anthropic旗艦「Claude Fable 5」利用再開、無料枠も／Google、高速・低コスト画像生成「Nano Banana 2 Lite」／GitHub Copilotで「Claude Sonnet 5」一般提供開始／NotebookLMに60秒の縦型ショート動画機能</description>
-  </item>
-  <item>
-    <title>2026-07-01 AI朝刊：米政権、GPT-5.6公開に介入 ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-07-01/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-01/</guid>
-    <pubDate>Wed, 01 Jul 2026 06:30:00 +0900</pubDate>
-    <description>米政権、GPT-5.6公開に介入／Claude Sonnet 5、全プランで利用可能に／医療データとLLMで治験候補を抽出／Google、低コスト画像AIを公開／Codex、権限管理を細かく設定可能に</description>
   </item>
 </channel>
 </rss>

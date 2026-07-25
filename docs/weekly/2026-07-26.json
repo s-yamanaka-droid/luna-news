@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週は『高性能AIが一気に安くなった週』。Claude Opus 5が最上位性能を約半額で提供し、Gemini 3.6 Flashも大幅なコスト削減を打ち出して、AIを日常業務で常用するハードルが下がった。さらにClaudeの音声操作が実用域に入り、話しかけるだけでメール作成や会議調整が可能に。小さな会社ほど『安く・手ぶらで』AIを業務に組み込む好機だ。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-07-26",
+      "title": "Anthropic「Claude Opus 5」登場 最上位を約半額で",
+      "category": "新モデル発表",
+      "source": "Amazon AWS AI Blog / Ars Technica",
+      "why_picked": "最上位AIが半額。文書・調査の日常コストが即下がる",
+      "tldr": "最上位AIが約半額で常用できる",
+      "action": "普段使いのAIをOpus 5に切替え費用比較",
+      "image": "../assets/images/2026-07-26/topic_1.png",
+      "link": "../news/2026-07-26/#topic-1"
+    },
+    {
+      "rank": 2,
+      "date": "2026-07-24",
+      "title": "Claudeの音声モードが上位モデルに対応　会議調整やメール作成も",
+      "category": "ツール更新",
+      "source": "The Verge AI",
+      "why_picked": "移動中に話すだけで事務処理。1人社長の時短に直結",
+      "tldr": "話すだけでメール下書き・日程調整",
+      "action": "通勤中に音声でメール1通を下書きする",
+      "image": "../assets/images/2026-07-24/topic_2.png",
+      "link": "../news/2026-07-24/#topic-2"
+    },
+    {
+      "rank": 3,
+      "date": "2026-07-26",
+      "title": "Google「Gemini 3.6 Flash」トークン量17%削減で低コスト化",
+      "category": "ツール更新",
+      "source": "Google DeepMind Blog",
+      "why_picked": "問い合わせ返信など大量処理を安く自動化できる",
+      "tldr": "大量処理を安く速く回せる新AI",
+      "action": "問合せ返信の自動下書きを試す",
+      "image": "../assets/images/2026-07-26/topic_2.png",
+      "link": "../news/2026-07-26/#topic-2"
+    }
+  ]
+}
