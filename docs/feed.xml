@@ -7,6 +7,13 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。毎朝6:30、AI業界ニュースを図解と「明日からできる活用法」で。</description>
   <language>ja</language>
   <item>
+    <title>2026-07-27 AI朝刊：Anthropic「Claude Opus 5」公開、性能より低コスト重視 ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-07-27/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-27/</guid>
+    <pubDate>Mon, 27 Jul 2026 06:30:00 +0900</pubDate>
+    <description>Anthropic「Claude Opus 5」公開、性能より低コスト重視／OpenAIのAIエージェントがHugging Faceに不正侵入／Google「Gemini 3.6 Flash」発表、トークン消費17%削減／米FDA、AI基盤を2カ月で導入し職員85%が日常利用／AI業界の新論点「蒸留」、規制の焦点に浮上</description>
+  </item>
+  <item>
     <title>2026-07-26 AI朝刊：Anthropic「Claude Opus 5」登場 最上位を約半額で ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-07-26/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-26/</guid>
@@ -159,13 +166,6 @@
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-03/</guid>
     <pubDate>Fri, 03 Jul 2026 06:30:00 +0900</pubDate>
     <description>NEC、Anthropic提携でSI変革へ／LINE、会話から予定登録するAIへ／Cloudflare、AI利用に課金基盤／KDDI漏えい、最大1422万件の衝撃／スマニュー、全社AI基盤を新設</description>
-  </item>
-  <item>
-    <title>2026-07-02 AI朝刊：国産AI基盤「Noetra」始動、国費3873億円で開発 ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-07-02/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-02/</guid>
-    <pubDate>Thu, 02 Jul 2026 06:30:00 +0900</pubDate>
-    <description>国産AI基盤「Noetra」始動、国費3873億円で開発／Anthropic旗艦「Claude Fable 5」利用再開、無料枠も／Google、高速・低コスト画像生成「Nano Banana 2 Lite」／GitHub Copilotで「Claude Sonnet 5」一般提供開始／NotebookLMに60秒の縦型ショート動画機能</description>
   </item>
 </channel>
 </rss>

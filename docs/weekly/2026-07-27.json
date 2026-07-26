@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週の主役は「安くなるAI」。Claude Opus 5が最上位性能を約半額で、Gemini 3.6 Flashもトークン17%減と、同じ品質を安く使える流れが一気に来た。一方でChatGPTの音声・複数フォルダー対応やMeshyの3D生成など、非エンジニアが明日から触れて成果を出せる実用ツールも充実。値下げ局面の今こそ、使うAIの契約と用途を見直す好機だ。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-07-27",
+      "title": "Anthropic「Claude Opus 5」公開、性能より低コスト重視",
+      "category": "新モデル発表",
+      "source": "Amazon AWS AI Blog / Ars Technica",
+      "why_picked": "同じ品質が約半額。AI利用料の見直しは即キャッシュに効く",
+      "tldr": "最上位AIを約半額で常用できる",
+      "action": "今使うAIの料金プランを半額前提で見直す",
+      "image": "../assets/images/2026-07-27/topic_1.png",
+      "link": "../news/2026-07-27/#topic-1"
+    },
+    {
+      "rank": 2,
+      "date": "2026-07-25",
+      "title": "ChatGPTアプリ、複数フォルダー対応と音声操作を追加",
+      "category": "ツール更新",
+      "source": "Gihyo.jp",
+      "why_picked": "散らばった資料を音声一言で横断。事務時間が丸ごと浮く",
+      "tldr": "話しかけて複数フォルダの資料を横断",
+      "action": "見積・請求フォルダをまとめ音声で検索してみる",
+      "image": "../assets/images/2026-07-25/topic_4.png",
+      "link": "../news/2026-07-25/#topic-4"
+    },
+    {
+      "rank": 3,
+      "date": "2026-07-23",
+      "title": "AI3D生成「Meshy」が約652億円調達、評価額2445億円に",
+      "category": "ツール更新",
+      "source": "Mogura VR",
+      "why_picked": "商品3D素材を1分で内製。外注費ゼロで販促に差がつく",
+      "tldr": "画像1枚から1分で商品3Dを生成",
+      "action": "主力商品の写真1枚で3D素材を試作する",
+      "image": "../assets/images/2026-07-23/topic_8.png",
+      "link": "../news/2026-07-23/#topic-8"
+    }
+  ]
+}
