@@ -22,7 +22,14 @@
     "links": [
       "https://the-decoder.com/moonshot-ai-releases-kimi-k3-open-weights-and-infrastructure-after-shaking-up-the-frontier-model-race/"
     ],
-    "likes": 0
+    "likes": 0,
+    "icebreak": {
+      "hook": "中国発のAIが、頭脳ごとタダで配られてるの知ってます？",
+      "punchline": "Moonshotの『Kimi K3』が2.8兆パラの重みを無償公開したんです。欧米トップに迫る性能が低コストで手に入る時代になりました。",
+      "ctx_meeting": "AI導入コストの話の冒頭で",
+      "ctx_chat": "ランチ・移動中の会話",
+      "share_text": "中国のKimi K3、2.8兆パラのモデルを重みごと無償公開か。欧米トップに迫る性能を低コストで、という流れが本物なら、自社でどのAIに乗るかの判断軸が完全に変わる気がする。安さだけで選んでいいのか、ちょっと考えさせられる。"
+    }
   },
   {
     "title": "Claude共有チャットがGoogle検索に露出",
@@ -47,7 +54,14 @@
     "links": [
       "https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google/"
     ],
-    "likes": 0
+    "likes": 0,
+    "icebreak": {
+      "hook": "AIとの会話、共有リンクがGoogle検索に出てたらしいですよ。",
+      "punchline": "Claudeの共有URLが検索に索引されて、健康記録や企業文書、子供の氏名や電話番号まで見られる状態になってたんです。『リンクを知る人だけ』の油断が怖いところで。",
+      "ctx_meeting": "情報管理・セキュリティ提案の冒頭で",
+      "ctx_chat": "ランチ・移動中の会話",
+      "share_text": "AIの『チャット共有』で作ったリンクが検索エンジンに拾われてた件、他人事じゃない。子供の名前や電話番号まで出てたらしい。便利な共有機能ほど『リンクを知る全員が見られる』の意味を軽く見てないか、自分の使い方を見直した。"
+    }
   },
   {
     "title": "ナデラCEO「1つのAI依存の企業は生き残れない」",
@@ -72,7 +86,14 @@
     "links": [
       "https://techcrunch.com/2026/07/27/satya-nadella-says-companies-that-trust-one-ai-for-everything-may-not-survive/"
     ],
-    "likes": 0
+    "likes": 0,
+    "icebreak": {
+      "hook": "ナデラが『1つのAIに頼る会社は生き残れない』って言ったの知ってます？",
+      "punchline": "マイクロソフトのトップが、大手AIラボへの全面依存に警鐘を鳴らしたんです。データやプロンプトを渡しすぎず、利用メタデータは自社で持てと。",
+      "ctx_meeting": "AI導入方針の相談で",
+      "ctx_chat": "経営者同士の雑談で",
+      "share_text": "ナデラCEOが『特定のAIに全面依存する企業は生き残れない』と。データもプロンプトも渡しすぎるな、というのは耳が痛い。便利だからと1社に全部預けてる自分に、それでいいのかと問われた気がする。"
+    }
   },
   {
     "title": "Google、高効率AI「Gemini 3.6 Flash」発表",
@@ -97,7 +118,14 @@
     "links": [
       "https://deepmind.google/blog/introducing-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber/"
     ],
-    "likes": 0
+    "likes": 0,
+    "icebreak": {
+      "hook": "Googleの新AI、出力を17%減らして安くなったらしいですよ。",
+      "punchline": "『Gemini 3.6 Flash』は出力トークンを17%削減しつつ、コーディングや業務処理の性能を上げたんです。大規模に使うほどコスト差が効いてきます。",
+      "ctx_meeting": "AI運用コスト削減の提案で",
+      "ctx_chat": "エンジニアとの雑談で",
+      "share_text": "Geminiの新しいFlash、出力トークン17%削減で低コスト化と。AIは性能競争だけかと思いきや、実は『どれだけ安く大量に回せるか』の勝負に移ってる。導入する側としては、この地味な数字のほうが効いてくる気がする。"
+    }
   },
   {
     "title": "AIで「他職種の仕事」に踏み出す人が急増",
@@ -122,7 +150,14 @@
     "links": [
       "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work"
     ],
-    "likes": 0
+    "likes": 0,
+    "icebreak": {
+      "hook": "AIで『自分の専門外の仕事』に手を出す人、増えてるらしいですよ。",
+      "punchline": "OpenAIの調査で、職種特化の問い合わせの43.5%が別職種の仕事だったと。営業が分析、マーケが開発と、職種の壁が溶け始めてるんです。",
+      "ctx_meeting": "業務フロー再設計の提案で",
+      "ctx_chat": "ランチ・移動中の会話",
+      "share_text": "AI利用の43.5%が『自分の職種外の仕事』というOpenAIの調査、面白い。営業がデータ分析、マーケが開発をやり始めてる。中小ほど顕著らしい。職種の境界が溶けるなら、うちの役割分担も一度ゼロから考え直す時期かもしれない。"
+    }
   },
   {
     "title": "エヌビディア・MS、AI安全同盟を設立 主要3社は不参加",
@@ -147,7 +182,14 @@
     "links": [
       "https://www.theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity"
     ],
-    "likes": 0
+    "likes": 0,
+    "icebreak": {
+      "hook": "AIの安全同盟ができたけど、主要3社が入ってないの知ってます？",
+      "punchline": "NvidiaやMS、IBMがオープン型のAI防御で連携したのに、OpenAI・Google・Anthropicは不参加なんです。暴走AIの封じ込め失敗が契機だとか。",
+      "ctx_meeting": "AIリスク管理の話題で",
+      "ctx_chat": "業界ニュースの雑談で",
+      "share_text": "AI安全の同盟にNvidiaやMS、IBMが集まったのに、OpenAI・Google・Anthropicの主要3社は不参加。作る側と守る側で足並みが揃わない構図が見えて、AIの安全って結局は使う側が備えるしかないのかと考えさせられた。"
+    }
   },
   {
     "title": "ChatGPTに健康機能、医療記録を連携可能に",
@@ -172,7 +214,14 @@
     "links": [
       "https://openai.com/index/health-in-chatgpt"
     ],
-    "likes": 0
+    "likes": 0,
+    "icebreak": {
+      "hook": "ChatGPTが医療記録まで連携できるようになったの知ってます？",
+      "punchline": "OpenAIが米国で『Health in ChatGPT』を開始して、Apple Healthや検査結果を文脈付きで理解できるように。週3億人が健康相談に使ってるそうです。",
+      "ctx_meeting": "AI活用領域の拡大提案で",
+      "ctx_chat": "健康の話題になったとき",
+      "share_text": "ChatGPTが医療記録やApple Healthと連携して、検査結果を文脈付きで説明してくれる時代に。週3億人が健康相談に使ってるという規模感が凄い。何を連携するかは本人が選べるとはいえ、AIに預ける範囲がどんどん深くなってきた。"
+    }
   },
   {
     "title": "MS、AzureにAMD最新AIチップを大幅拡張",
@@ -197,6 +246,13 @@
     "links": [
       "https://blogs.microsoft.com/blog/2026/07/20/microsoft-expands-azure-ai-and-hpc-infrastructure-with-amd/"
     ],
-    "likes": 0
+    "likes": 0,
+    "icebreak": {
+      "hook": "マイクロソフトがNvidia以外のAIチップを大量導入したの知ってます？",
+      "punchline": "AzureにAMD最新の『Helios』と次世代EPYCを入れたんです。特定チップ依存から抜けて、性能・コスト・省エネの両立を狙う動きですね。",
+      "ctx_meeting": "インフラ・調達戦略の話で",
+      "ctx_chat": "エンジニアとの雑談で",
+      "share_text": "MicrosoftがAzureにAMDの最新AIチップを大幅拡張。1社のチップに依存しない、という調達の考え方はAIに限らず本質的だと思う。膨らむ需要にどう応えるか、性能・コスト・省エネの三立をどう取るかは自社の設備投資にも通じる話。"
+    }
   }
 ]

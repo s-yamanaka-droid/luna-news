@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週は「高性能AIが一気に安くなった」週。Claude Opus 5が最上位性能を約半額で提供し、Gemini Flashもトークンを最大65%削減、中国Kimi K3も無償公開されコスト競争が本格化した。一方でClaude共有チャットの検索露出やAI自律型攻撃など、便利さの裏側のリスクも噴出。小規模事業者は「安くなったAIを賢く選び直しつつ、共有・権限まわりの穴を今すぐ塞ぐ」のが今週の要点だ。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-07-25",
+      "title": "Anthropic「Claude Opus 5」発表、最上位性能を半額で",
+      "category": "新モデル発表",
+      "source": "ASCII.jp / TechCrunch / ZDNet",
+      "why_picked": "同品質が半額。AI利用料をそのまま圧縮できる即効ネタ",
+      "tldr": "最上位AIが従来比約半額で使える",
+      "action": "今の有料AIプランを半額モデルへ見直す",
+      "image": "../assets/images/2026-07-25/topic_1.png",
+      "link": "../news/2026-07-25/#topic-1"
+    },
+    {
+      "rank": 2,
+      "date": "2026-07-28",
+      "title": "Claude共有チャットがGoogle検索に露出",
+      "category": "セキュリティ",
+      "source": "TechCrunch / Wired",
+      "why_picked": "共有リンクが丸見えに。小規模ほど無防備で即点検が要る",
+      "tldr": "AIの共有URLが検索で誰でも閲覧可能に",
+      "action": "過去の共有リンクを全て削除・非公開化",
+      "image": "../assets/images/2026-07-28/topic_2.png",
+      "link": "../news/2026-07-28/#topic-2"
+    },
+    {
+      "rank": 3,
+      "date": "2026-07-25",
+      "title": "ChatGPTアプリ、複数フォルダー対応と音声操作を追加",
+      "category": "ツール更新",
+      "source": "Gihyo.jp",
+      "why_picked": "散らばった資料を横断・音声操作。明日から時短に直結",
+      "tldr": "複数フォルダを横断、音声で操作可能に",
+      "action": "業務資料フォルダをまとめて音声で試す",
+      "image": "../assets/images/2026-07-25/topic_4.png",
+      "link": "../news/2026-07-25/#topic-4"
+    }
+  ]
+}
