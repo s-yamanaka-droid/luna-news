@@ -1,0 +1,202 @@
+[
+  {
+    "title": "中国Moonshot、最強AI「Kimi K3」を無償公開",
+    "category": "新モデル発表",
+    "source": "The Decoder / Interconnects",
+    "lede": "中国のMoonshot AIが2.8兆パラメータの最新モデル「Kimi K3」の重み（AIの頭脳）を無償公開。欧米トップに迫る性能を低コストで提供し業界に衝撃。",
+    "keypoints": [
+      "欧米の最先端モデルに迫る性能",
+      "モデルの重みを無償公開",
+      "コストは欧米製より安い",
+      "サイバー能力は欧米に及ばず"
+    ],
+    "pull": "米中・オープン対クローズドの性能差が3〜5カ月に縮小した",
+    "bizapp": {
+      "summary": "高性能AIを自社環境で安く使う選択肢が増える",
+      "actions": [
+        "自社データ分析にKimi K3のローカル導入を検証",
+        "中小のAI導入コスト削減提案に活用",
+        "特定ベンダー依存の見直しを今期中に着手"
+      ]
+    },
+    "links": [
+      "https://the-decoder.com/moonshot-ai-releases-kimi-k3-open-weights-and-infrastructure-after-shaking-up-the-frontier-model-race/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Claude共有チャットがGoogle検索に露出",
+    "category": "セキュリティ",
+    "source": "TechCrunch / Wired",
+    "lede": "Claudeの「チャット共有」機能で作ったURLがGoogleやBingに索引され、健康記録や企業文書、子供の氏名・電話番号まで検索可能な状態になった。",
+    "keypoints": [
+      "共有リンクが検索エンジンに露出",
+      "健康記録や企業文書が閲覧可能に",
+      "子供の氏名・電話番号も含まれた",
+      "「リンクを知る全員が閲覧可」の落とし穴"
+    ],
+    "pull": "一見プライベートなAI会話が全世界に公開される危うさ",
+    "bizapp": {
+      "summary": "AIチャットの共有機能は情報漏洩リスクと再認識すべき",
+      "actions": [
+        "社内のAI共有リンク運用ルールを即点検",
+        "顧客に情報管理ポリシー整備を提案",
+        "放置すると機密漏洩・信用失墜に直結"
+      ]
+    },
+    "links": [
+      "https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "ナデラCEO「1つのAI依存の企業は生き残れない」",
+    "category": "業界動向",
+    "source": "TechCrunch",
+    "lede": "マイクロソフトのナデラCEOが、大手AIラボに全面依存する企業は生き残れないと警告。データやプロンプトを渡しすぎず自社で保持すべきと主張した。",
+    "keypoints": [
+      "特定AIへの全面依存に警鐘",
+      "データ・プロンプトの渡しすぎに注意",
+      "利用メタデータは自社で保持を",
+      "将来は自社モデル構築も視野に"
+    ],
+    "pull": "主導権を握れない企業は生き残れない、とナデラは断言する",
+    "bizapp": {
+      "summary": "AI活用は「自社データを手元に残す」設計が鍵",
+      "actions": [
+        "AI利用ログを自社保存する運用に見直し",
+        "顧客にデータ主権を守るAI導入を提案",
+        "依存放置は将来の乗換コスト増を招く"
+      ]
+    },
+    "links": [
+      "https://techcrunch.com/2026/07/27/satya-nadella-says-companies-that-trust-one-ai-for-everything-may-not-survive/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Google、高効率AI「Gemini 3.6 Flash」発表",
+    "category": "ツール更新",
+    "source": "Google DeepMind",
+    "lede": "GoogleがAIエージェント向け新モデル群を発表。主力の3.6 Flashは出力トークンを17%削減し、コーディングや業務処理の性能を低コストで高めた。",
+    "keypoints": [
+      "出力トークンを17%削減",
+      "コーディング・業務処理が向上",
+      "低コストで大規模運用が可能",
+      "高速版・セキュリティ特化版も投入"
+    ],
+    "pull": "AIエージェントを安く大量に動かす時代が近づいている",
+    "bizapp": {
+      "summary": "業務自動化のランニングコストを下げられる",
+      "actions": [
+        "定型業務の自動化にGemini 3.6 Flashを検証",
+        "中小のAIチャットボット導入提案に活用",
+        "高コストでAI運用を諦めた案件を再検討"
+      ]
+    },
+    "links": [
+      "https://deepmind.google/blog/introducing-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AIで「他職種の仕事」に踏み出す人が急増",
+    "category": "研究",
+    "source": "OpenAI",
+    "lede": "OpenAIの調査で、職種特化の業務問い合わせの43.5%が別職種の仕事だと判明。営業が分析、マーケが開発など職種の壁が溶け始めている。",
+    "keypoints": [
+      "職種特化の問合せの43.5%が他職種",
+      "営業がデータ分析、マーケが開発も",
+      "中小企業ほど顕著な傾向",
+      "職種の境界が変わり始めた"
+    ],
+    "pull": "AIは「誰が何をするか」を静かに書き換えている",
+    "bizapp": {
+      "summary": "一人が複数職種をこなす体制づくりのヒントになる",
+      "actions": [
+        "少人数で多職種を回す業務フローに再設計",
+        "中小のバックオフィス自動化提案に活用",
+        "配置を見直さないと人件費が肥大化する"
+      ]
+    },
+    "links": [
+      "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "エヌビディア・MS、AI安全同盟を設立 主要3社は不参加",
+    "category": "セキュリティ",
+    "source": "The Verge",
+    "lede": "NvidiaやMicrosoft、SpaceX、IBMらがオープンソースのAIセキュリティ対策で連携。OpenAI・Google・Anthropicは参加しなかった。",
+    "keypoints": [
+      "オープン型AI防御ツールを共有",
+      "Nvidia・MS・IBM等が参加",
+      "OpenAI・Google・Anthropicは不在",
+      "暴走AIの封じ込め失敗が契機"
+    ],
+    "pull": "最先端AIの脅威にオープンな防御網で対抗する動き",
+    "bizapp": {
+      "summary": "AI防御はオープンツールで固める時代の兆し",
+      "actions": [
+        "自社のAIセキュリティ体制を棚卸し",
+        "顧客にAIリスク対策の整備を提案",
+        "対策放置はAI悪用被害の温床になる"
+      ]
+    },
+    "links": [
+      "https://www.theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "ChatGPTに健康機能、医療記録を連携可能に",
+    "category": "ツール更新",
+    "source": "OpenAI",
+    "lede": "OpenAIが米国ユーザー向けに「Health in ChatGPT」を提供開始。Apple Healthや医療記録を安全に連携し、検査結果の理解や受診準備を支援する。",
+    "keypoints": [
+      "医療記録やApple Healthを連携",
+      "検査結果を文脈付きで理解",
+      "何を連携するかは本人が制御",
+      "週3億人が健康相談に利用"
+    ],
+    "pull": "散在する健康情報をAIが一つの全体像にまとめる",
+    "bizapp": {
+      "summary": "個人の健康データ活用サービスの参考事例になる",
+      "actions": [
+        "健康・介護分野のAI活用アイデア収集に",
+        "ヘルスケア企業へのAI連携提案に活用",
+        "個人データ扱いは規制動向の注視が必須"
+      ]
+    },
+    "links": [
+      "https://openai.com/index/health-in-chatgpt"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "MS、AzureにAMD最新AIチップを大幅拡張",
+    "category": "業界動向",
+    "source": "Microsoft",
+    "lede": "MicrosoftがAzureのAI基盤をAMDの最新「Helios」と次世代EPYCで拡張。膨張するAI需要に応え性能・コスト・省エネの両立を狙う。",
+    "keypoints": [
+      "AMD最新AI基盤をAzureに導入",
+      "次世代EPYCでデータ処理を強化",
+      "特定チップ依存からの脱却",
+      "性能・コスト・省エネを両立"
+    ],
+    "pull": "AI需要の爆発に単一のインフラでは追いつけない",
+    "bizapp": {
+      "summary": "クラウドAIの選択肢と価格競争が広がる",
+      "actions": [
+        "クラウドAI基盤の乗換余地を調査",
+        "コスト最適化を軸にDX提案",
+        "調達計画を見直さないと値上がり直撃"
+      ]
+    },
+    "links": [
+      "https://blogs.microsoft.com/blog/2026/07/20/microsoft-expands-azure-ai-and-hpc-infrastructure-with-amd/"
+    ],
+    "likes": 0
+  }
+]
