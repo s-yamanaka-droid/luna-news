@@ -1,0 +1,202 @@
+[
+  {
+    "title": "AnthropicのAI、ネット暗号の弱点を自力発見",
+    "category": "セキュリティ",
+    "source": "The Decoder",
+    "lede": "AnthropicのAIモデル「Claude Mythos Preview」が、世界標準の暗号方式に数学的な弱点を発見。人間は管理役に回り、AIがほぼ単独で攻撃手法を編み出した。",
+    "keypoints": [
+      "AIが暗号アルゴリズムの弱点を発見",
+      "縮小版AESなど広く使う暗号が対象",
+      "現行システムへの即時影響はなし",
+      "1攻撃あたり約10万ドルのAPI費用"
+    ],
+    "pull": "人間は指示と検証だけ。AIが複数エージェントで自律的に攻撃を組み立てた。",
+    "bizapp": {
+      "summary": "AIによる脆弱性発見が現実になり、防御側も対策必須に",
+      "actions": [
+        "Obsidianで自社の暗号・認証方式を棚卸し",
+        "取引先へセキュリティ点検サービスを提案",
+        "放置すると将来の暗号更新に乗り遅れ情報漏洩リスク"
+      ]
+    },
+    "links": [
+      "https://the-decoder.com/anthropic-says-its-mythos-model-found-vulnerabilities-in-cryptographic-algorithms-that-secure-the-internet/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Google、新AI「Gemini 3.6 Flash」発表 コスト削減",
+    "category": "新モデル発表",
+    "source": "Google DeepMind Blog",
+    "lede": "Googleが業務向けAI「Gemini 3.6 Flash」など新モデルを発表。処理に使うデータ量を17%削減し、コーディングや資料作成を安く速くこなせる。",
+    "keypoints": [
+      "出力トークンを従来比17%削減",
+      "一部作業では最大65%効率化",
+      "低コストでAIエージェントを大量運用可能",
+      "軽量版Flash-Liteも同時投入"
+    ],
+    "pull": "効率と品質の両立で、業務用AIエージェントを大規模に回せる水準に到達。",
+    "bizapp": {
+      "summary": "AI活用のコストが下がり、日常業務への導入が現実的に",
+      "actions": [
+        "Cursorでコード生成コストを実測比較",
+        "中小企業に低コストAI業務自動化を提案",
+        "今動かないと割高な旧モデル契約を継続し損失"
+      ]
+    },
+    "links": [
+      "https://deepmind.google/blog/introducing-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "中国製オープンAI「Kimi K3」、米国との差を急縮小",
+    "category": "業界動向",
+    "source": "Interconnects",
+    "lede": "中国Moonshot AIが2.8兆パラメータの最新モデル「Kimi K3」を公開。誰でも使える重みを無償配布し、米国トップAIとの性能差を数カ月まで縮めた。",
+    "keypoints": [
+      "2.8兆パラメータの最先端モデル",
+      "AIの中身（重み）を無償公開",
+      "米中の性能差が3〜5カ月まで縮小",
+      "無料で使える高性能AIが加速"
+    ],
+    "pull": "オープンと中国製、二つの差が同時に縮まり、AI勢力図が塗り替わる。",
+    "bizapp": {
+      "summary": "無料で高性能なAI選択肢が増え、調達コストを見直せる",
+      "actions": [
+        "自社サーバーで動くオープンAIを検証",
+        "コスト重視の中小企業に無償AI導入を提案",
+        "特定ベンダー依存のままだと価格交渉力を失う"
+      ]
+    },
+    "links": [
+      "https://www.interconnects.ai/p/kimi-k3-the-open-weights-escalation"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Google、AI投資2兆円上振れ 市場が警戒",
+    "category": "業界動向",
+    "source": "The Verge",
+    "lede": "GoogleがAI関連の年間支出見通しを最大2050億ドルへ引き上げ。前回予測から大幅増となり、コスト膨張を嫌気した投資家に動揺が広がった。",
+    "keypoints": [
+      "支出見通しを最大2050億ドルに増額",
+      "前回の1900億ドルから大幅上振れ",
+      "コストを正確に予測できない状態",
+      "AIの高コストに市場が神経質に"
+    ],
+    "pull": "巨額投資が回収できるのか。AIバブルへの警戒が現実味を帯び始めた。",
+    "bizapp": {
+      "summary": "AI関連コストの高騰が、料金値上げとして波及する恐れ",
+      "actions": [
+        "自社のAIツール利用料を四半期ごとに監視",
+        "顧客にコスト効率型のAI活用を提案",
+        "来期予算策定前にAI調達計画を見直さないと直撃"
+      ]
+    },
+    "links": [
+      "https://www.theverge.com/ai-artificial-intelligence/972119/ai-stock-fall-google-capex"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AIで社員が「専門外の仕事」までこなす時代に",
+    "category": "研究",
+    "source": "OpenAI Blog",
+    "lede": "OpenAIの調査で、ChatGPT利用者が本来の職種を超えた業務に踏み込む実態が判明。営業がデータ分析、マーケが開発対応など、役割の壁が崩れつつある。",
+    "keypoints": [
+      "仕事関連メッセージの16.8%が職種外の作業",
+      "職種特有作業の43.5%が他職種に関連",
+      "個人事業主が契約書レビューや財務分析",
+      "「誰が何をやるか」が変化"
+    ],
+    "pull": "AIは仕事の進め方だけでなく、誰がその仕事を担うかまで変える。",
+    "bizapp": {
+      "summary": "少人数で幅広い業務をこなす体制づくりに直結",
+      "actions": [
+        "Notionで職種を跨ぐ業務手順を整備し横展開",
+        "採用支援：多能工化を軸にした組織設計を提案",
+        "今動かないと人手不足のまま生産性で他社に劣後"
+      ]
+    },
+    "links": [
+      "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AI企業社員1100人、政府に「開発ペース抑制」を請願",
+    "category": "政策・規制",
+    "source": "Engadget",
+    "lede": "OpenAIやAnthropic、Google、Metaなど大手AI企業の従業員1100人超が、政府にAI開発の意図的なペース調整を求める請願書に署名した。",
+    "keypoints": [
+      "大手AI企業の社員1100人超が署名",
+      "国際的な統治の仕組み整備を要求",
+      "AI暴走の「現実的リスク」を指摘",
+      "開発当事者からの異例の要請"
+    ],
+    "pull": "作っている本人たちが「速すぎる」と警鐘を鳴らし始めた。",
+    "bizapp": {
+      "summary": "AI規制強化の流れを先読みし、社内ルール整備を",
+      "actions": [
+        "自社AI利用ガイドラインを文書化し備える",
+        "企業向けAIガバナンス支援サービスを提案",
+        "規制化前に体制を整えないと後手で対応コスト増"
+      ]
+    },
+    "links": [
+      "https://www.engadget.com/2225612/ai-company-employees-petition-us-government-for-regulation/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AI連携の標準規格MCPが大改訂、企業導入しやすく",
+    "category": "ツール更新",
+    "source": "Amazon AWS AI Blog",
+    "lede": "AIと外部ツールをつなぐ標準規格「MCP」が発足以来最大の改訂を実施。通常のHTTP基盤で拡張しやすくなり、認証も企業標準に近づいた。",
+    "keypoints": [
+      "MCPが状態を持たない設計に刷新",
+      "一般的なHTTP基盤で拡張が容易に",
+      "認証をOAuth等の企業標準に整合",
+      "既存の連携はそのまま動作継続"
+    ],
+    "pull": "AIエージェントを企業システムに安全につなぐ土台が整った。",
+    "bizapp": {
+      "summary": "社内システムとAIの連携を安全に組みやすくなる",
+      "actions": [
+        "自社ツールとAI連携の技術要件を再確認",
+        "業務システム連携のAI導入支援を提案",
+        "規格移行を怠ると将来の連携改修コストが膨らむ"
+      ]
+    },
+    "links": [
+      "https://aws.amazon.com/blogs/machine-learning/how-agentcore-gateway-supports-the-mcp-2026-07-28-spec/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Apple、時価総額5兆ドル突破 AI投資への評価が転換",
+    "category": "業界動向",
+    "source": "CNBC",
+    "lede": "Appleが時価総額5兆ドルに一時到達し、Nvidiaを抜いて世界一に。巨額AI投資に走る企業から距離を置く投資家心理が株価を押し上げた。",
+    "keypoints": [
+      "時価総額5兆ドルに一時到達",
+      "Nvidiaを抜き世界最高値企業に",
+      "今年の株価は25%上昇",
+      "巨額AI投資への懐疑が背景"
+    ],
+    "pull": "AI設備投資一辺倒への疑念が、投資マネーの流れを変え始めた。",
+    "bizapp": {
+      "summary": "AI投資の費用対効果を厳しく問う潮流を示す",
+      "actions": [
+        "自社AI投資のROIを数字で可視化する",
+        "経営層にAI投資の回収計画づくりを提案",
+        "効果検証なきAI導入は今後予算を通しにくくなる"
+      ]
+    },
+    "links": [
+      "https://www.cnbc.com/2026/07/28/apple-touches-5-trillion-market-cap-for-first-time-.html"
+    ],
+    "likes": 0
+  }
+]
