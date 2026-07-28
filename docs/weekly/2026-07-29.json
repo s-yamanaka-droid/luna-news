@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週は「AIの低コスト化」が最大の潮流で、Opus 5が最上位品質を約半額に、Gemini 3.6 Flashも17%以上のコスト削減を実現した。同時にOpenAIの調査で、AIが職種の壁を溶かし1人で複数業務をこなす動きが中小ほど顕著と判明。安く・広く使える環境が整い、少人数の会社ほど恩恵を受けやすい週だった。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-07-29",
+      "title": "AIで社員が「専門外の仕事」までこなす時代に",
+      "category": "研究",
+      "source": "OpenAI Blog",
+      "why_picked": "1人で契約書も財務も回せ、少人数経営に直結するから",
+      "tldr": "AIで職種の壁が溶け1人が何役もこなす",
+      "action": "苦手な業務1つをAIに任せて試す",
+      "image": "../assets/images/2026-07-29/topic_5.png",
+      "link": "../news/2026-07-29/#topic-5"
+    },
+    {
+      "rank": 2,
+      "date": "2026-07-27",
+      "title": "Anthropic「Claude Opus 5」公開、性能より低コスト重視",
+      "category": "新モデル発表",
+      "source": "Amazon AWS AI Blog / Ars Technica",
+      "why_picked": "同じ品質のAIが約半額。固定費を今週すぐ削れる",
+      "tldr": "最上位AIが従来比ほぼ半額で使える",
+      "action": "今のAI利用料を見直し半額モデルへ",
+      "image": "../assets/images/2026-07-27/topic_1.png",
+      "link": "../news/2026-07-27/#topic-1"
+    },
+    {
+      "rank": 3,
+      "date": "2026-07-29",
+      "title": "Google、新AI「Gemini 3.6 Flash」発表 コスト削減",
+      "category": "新モデル発表",
+      "source": "Google DeepMind Blog",
+      "why_picked": "問い合わせ返信など日常作業を安く自動化できる",
+      "tldr": "処理量17%減で業務AIが安く速く",
+      "action": "問い合わせ返信の自動下書きを試す",
+      "image": "../assets/images/2026-07-29/topic_2.png",
+      "link": "../news/2026-07-29/#topic-2"
+    }
+  ]
+}
