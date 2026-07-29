@@ -7,13 +7,13 @@
 TODAY=$(date +%Y-%m-%d)
 URL="https://nowonair.vercel.app/news/${TODAY}/"
 IMG="https://nowonair.vercel.app/assets/images/${TODAY}/topic_1.png"
-LOG=/Users/yamanakashuto/apps/vigil-news/logs/watchdog.log
+LOG=/Users/yamanakashuto/apps/luna-news/logs/watchdog.log
 
 alert() {
   curl -s -X POST "https://slack.com/api/chat.postMessage" \
     -H "Authorization: Bearer $SLACK_TOKEN" \
     -H "Content-Type: application/json" \
-    -d "{\"channel\":\"C0B3M8YB1B9\",\"text\":\"🚨 Now on AIr 番犬 <@U0A5ALYDKMZ>\\n${TODAY} の朝刊が本番に出ていません\\n理由: $1\\n→ 復旧: cd ~/apps/vigil-news && bash scripts/daily.sh\"}" >/dev/null 2>&1
+    -d "{\"channel\":\"C0B3M8YB1B9\",\"text\":\"🚨 Now on AIr 番犬 <@U0A5ALYDKMZ>\\n${TODAY} の朝刊が本番に出ていません\\n理由: $1\\n→ 復旧: cd ~/apps/luna-news && bash scripts/daily.sh\"}" >/dev/null 2>&1
   echo "$(date '+%F %T') ALERT: $1" >> "$LOG"
 }
 
@@ -27,7 +27,7 @@ for attempt in 1 2 3; do
 done
 if [ "$code" != "200" ]; then
   # ローカルに完了マーカーがあれば「配信は成功・ネット側問題」として文言を変える
-  if [ -f "/Users/yamanakashuto/apps/vigil-news/logs/done_${TODAY}" ]; then
+  if [ -f "/Users/yamanakashuto/apps/luna-news/logs/done_${TODAY}" ]; then
     alert "本番が HTTP ${code} だがローカルは配信成功(done marker有)。Vercel/ネット側の確認を"
   else
     alert "ページが HTTP ${code}（3回リトライ後も応答なし・未配信の可能性）"
