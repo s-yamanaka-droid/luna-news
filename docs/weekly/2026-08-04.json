@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週は、AIの高性能化より「低コストで安全に定期運用する」段階への移行が鮮明です。少人数企業では、専門外業務の内製化と過去のAI作業の再利用が、外注費と検索時間を同時に削ります。一方、自律実行には予算上限・操作監査・人の確認を必ず組み込むべきです。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-08-04",
+      "title": "Geminiの自律AIに予算管理と定期実行を追加",
+      "category": "ツール更新",
+      "source": "Google AI Blog",
+      "why_picked": "予算を守りながら定型業務を自動化できる",
+      "tldr": "自律AIを低リスクで定期運用",
+      "action": "週次集計を上限額付きで定期実行",
+      "image": "../assets/images/2026-08-04/topic_5.png",
+      "link": "../news/2026-08-04/#topic-5"
+    },
+    {
+      "rank": 2,
+      "date": "2026-07-29",
+      "title": "AIで社員が「専門外の仕事」までこなす時代に",
+      "category": "研究",
+      "source": "OpenAI Blog",
+      "why_picked": "専門外業務を内製化し外注費を減らせる",
+      "tldr": "AIで一人多役の経営体制へ",
+      "action": "外注中の1業務をAI併用で内製テスト",
+      "image": "../assets/images/2026-07-29/topic_5.png",
+      "link": "../news/2026-07-29/#topic-5"
+    },
+    {
+      "rank": 3,
+      "date": "2026-08-03",
+      "title": "AIとの過去の会話を横断検索するInventory",
+      "category": "ツール更新",
+      "source": "Product Hunt",
+      "why_picked": "過去の成果を再利用し探す時間を削減できる",
+      "tldr": "AI会話をまとめて再検索",
+      "action": "過去案件のAI会話を一箇所に集約",
+      "image": "../assets/images/2026-08-03/topic_7.png",
+      "link": "../news/2026-08-03/#topic-7"
+    }
+  ]
+}

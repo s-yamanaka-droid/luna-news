@@ -7,6 +7,34 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。毎朝6:30、AI業界ニュースを図解と「明日からできる活用法」で。</description>
   <language>ja</language>
   <item>
+    <title>2026-08-04 AI朝刊：Claudeの能力試験で実在3組織に不正アクセス ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-08-04/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-04/</guid>
+    <pubDate>Tue, 04 Aug 2026 06:30:00 +0900</pubDate>
+    <description>Claudeの能力試験で実在3組織に不正アクセス／EU、AI生成物と対話AIの表示義務を施行／NTTデータ、国内データセンターに90億ドル／スクエニ、Geminiでゲーム品質テストを自動化／Geminiの自律AIに予算管理と定期実行を追加</description>
+  </item>
+  <item>
+    <title>2026-08-03 AI朝刊：Sakana AI、日本語特化LLMのAPI提供開始 ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-08-03/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-03/</guid>
+    <pubDate>Mon, 03 Aug 2026 06:30:00 +0900</pubDate>
+    <description>Sakana AI、日本語特化LLMのAPI提供開始／OpenAI「Astra」、難題10件解決も過大評価に警鐘／公開AIモデルの開発力、複数企業へ急速に拡大／AIが指示を無視する「エージェント不整合」とは／スマホ内で動くAIエージェント「Open Minis」</description>
+  </item>
+  <item>
+    <title>2026-08-02 AI朝刊：NVIDIA、長文AIの応答高速化へ設計指針 ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-08-02/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-02/</guid>
+    <pubDate>Sun, 02 Aug 2026 06:30:00 +0900</pubDate>
+    <description>NVIDIA、長文AIの応答高速化へ設計指針／Reddit、GoogleのAI要約に価値還元を要求／DeepSeek、新モデル更新で競争力を回復／AI投資5倍でも売上倍増との因果は不明／AI任せで仕事は速くなる、思い込みに警鐘</description>
+  </item>
+  <item>
+    <title>2026-08-01 AI朝刊：AIエージェント開発、権限管理が新課題に ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-08-01/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-01/</guid>
+    <pubDate>Sat, 01 Aug 2026 06:30:00 +0900</pubDate>
+    <description>AIエージェント開発、権限管理が新課題に／Supabase、AI開発力の評価基盤を公開／240基のGPU群、2週間で構築／Paradigm、AIなどへ12億ドル投資／AI生成文、必要なのは責任の記録</description>
+  </item>
+  <item>
     <title>2026-07-29 AI朝刊：AnthropicのAI、ネット暗号の弱点を自力発見 ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-07-29/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-29/</guid>
@@ -138,34 +166,6 @@
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-09/</guid>
     <pubDate>Thu, 09 Jul 2026 06:30:00 +0900</pubDate>
     <description>MUFG、金融開発にAI本格導入／政府、フィジカルAIに10.5兆円投資／AWS、Claude利用を一元管理へ／Vercel Agent、本番障害を調査／OpenAI、国家安全保障の原則公開</description>
-  </item>
-  <item>
-    <title>2026-07-08 AI朝刊：政府、生成AI調達ガイドラインを策定 ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-07-08/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-08/</guid>
-    <pubDate>Wed, 08 Jul 2026 06:30:00 +0900</pubDate>
-    <description>政府、生成AI調達ガイドラインを策定／ソフトバンク、全社AI基盤を内製／Gemini API、AIエージェント機能拡張／Vercel、Better Authを買収／Dialogflow CXに重大な欠陥</description>
-  </item>
-  <item>
-    <title>2026-07-07 AI朝刊：ソフトバンク、全社AI運用の実践知 ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-07-07/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-07/</guid>
-    <pubDate>Tue, 07 Jul 2026 06:30:00 +0900</pubDate>
-    <description>ソフトバンク、全社AI運用の実践知／全国8拠点で分散GPU検証が可能に／MCP、企業向け認可管理を安定版に／Adobe、制作ノウハウをAI資産化／Sakana Chat、日英中翻訳に対応</description>
-  </item>
-  <item>
-    <title>2026-07-06 AI朝刊：マイクロン、広島にAIメモリ大型投資 ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-07-06/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-06/</guid>
-    <pubDate>Mon, 06 Jul 2026 06:30:00 +0900</pubDate>
-    <description>マイクロン、広島にAIメモリ大型投資／商船三井、船舶運航にAI判断支援／Copilot CLI、個人トークン不要に／AWS、S3にAI向け注釈機能／3D CADから組立手順書をAI作成</description>
-  </item>
-  <item>
-    <title>2026-07-05 AI朝刊：マイクロン、日本で先端メモリ増産へ ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-07-05/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-05/</guid>
-    <pubDate>Sun, 05 Jul 2026 06:30:00 +0900</pubDate>
-    <description>マイクロン、日本で先端メモリ増産へ／米AI規制、競争優先の最小介入へ／製造AIのデータ拠点、東海で始動へ／スマートニュース、全社AI変革組織を新設／Devin、AIで脆弱性検出と修正へ</description>
   </item>
 </channel>
 </rss>
