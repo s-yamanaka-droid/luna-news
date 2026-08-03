@@ -1,0 +1,202 @@
+[
+  {
+    "title": "AIエージェント開発、権限管理が新課題に",
+    "category": "セキュリティ",
+    "source": "GitLab Blog",
+    "lede": "自律型AIは人の逐次確認なしに変更や配備まで行えるため、権限と操作履歴の統制が重要になる。",
+    "keypoints": [
+      "AIが変更から配備まで実行",
+      "従来の人による確認が減少",
+      "外部ツールやデータにも接続",
+      "権限と操作履歴の管理が必要"
+    ],
+    "pull": "AIの自律性が高まるほど、誰が何を許可したかが重要になる。",
+    "bizapp": {
+      "summary": "AI開発を進める前に、権限と監査の仕組みを整備する。",
+      "actions": [
+        "GitLabでAI変更の承認業務に使える",
+        "中小企業向けAI権限診断を提案",
+        "導入前に整えないと無断変更を追えない"
+      ]
+    },
+    "links": [
+      "https://about.gitlab.com/blog/govern-agentic-ai-mcps-code-assistants/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Supabase、AI開発力の評価基盤を公開",
+    "category": "ツール更新",
+    "source": "Supabase Blog",
+    "lede": "Supabaseが、AIによるデータ設計や障害修正、権限設定の正確さを測る評価基盤を公開した。",
+    "keypoints": [
+      "評価基盤をオープンソース化",
+      "実際の開発課題でAIを採点",
+      "権限設定の修正能力も検証",
+      "社内では毎日性能を監視"
+    ],
+    "pull": "AI開発は、印象ではなく実際の業務課題で測る段階に入った。",
+    "bizapp": {
+      "summary": "AI開発ツールの選定を、実務課題の成績で判断できる。",
+      "actions": [
+        "Supabaseの開発評価業務に使える",
+        "中小企業向けAI開発診断を提案",
+        "評価せず任せると権限設定ミスを見逃す"
+      ]
+    },
+    "links": [
+      "https://supabase.com/blog/introducing-supabase-evals"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "240基のGPU群、2週間で構築",
+    "category": "業界動向",
+    "source": "Turing Tech Blog",
+    "lede": "TuringはGoogle Cloud上に240基のGPU計算基盤を約2週間で構築し、4カ月の運用知見を公開した。",
+    "keypoints": [
+      "240基のGPUを約2週間で構築",
+      "保存容量を段階的に拡張",
+      "GPUや物理機の障害に対応",
+      "コード化した構成で運用"
+    ],
+    "pull": "大規模AI基盤は、構築速度より障害と容量変化への備えが問われる。",
+    "bizapp": {
+      "summary": "AI基盤は、構築時から拡張と障害対応まで設計する。",
+      "actions": [
+        "Google Cloudの基盤設計に使える",
+        "企業向けGPU運用診断を提案",
+        "事前設計しないと容量増と障害で止まる"
+      ]
+    },
+    "links": [
+      "https://zenn.dev/turing_motors/articles/fd34d82e0e56d7"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Paradigm、AIなどへ12億ドル投資",
+    "category": "業界動向",
+    "source": "BRIDGE",
+    "lede": "暗号資産投資で知られるParadigmが12億ドルを調達し、AIやロボット、宇宙・防衛へ対象を広げる。",
+    "keypoints": [
+      "第4号ファンドは12億ドル",
+      "暗号資産への投資も継続",
+      "AIとロボットへ対象拡大",
+      "宇宙・防衛分野も支援"
+    ],
+    "pull": "投資資金が、暗号資産から現実世界を動かす技術へ広がっている。",
+    "bizapp": {
+      "summary": "AI単体ではなく、製造や物流との組み合わせが商機になる。",
+      "actions": [
+        "投資先調査と事業企画に使える",
+        "製造業向けAI導入構想を提案",
+        "来期計画前に見直さないと商機を逃す"
+      ]
+    },
+    "links": [
+      "https://thebridge.jp/2026/07/paradigm-12b-fund-ai-robotics"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AI生成文、必要なのは責任の記録",
+    "category": "研究",
+    "source": "Algomatic Tech Blog",
+    "lede": "AI生成文は読みやすさだけでなく、根拠や検証、残るリスク、最終判断者を明記する必要がある。",
+    "keypoints": [
+      "読みやすさだけでは承認困難",
+      "根拠と検証方法を明記",
+      "残るリスクも隠さない",
+      "最終判断者を明確にする"
+    ],
+    "pull": "信頼される文書には、流暢さではなく判断と責任の跡がある。",
+    "bizapp": {
+      "summary": "AI文書を、根拠と責任者が追える形式に変える。",
+      "actions": [
+        "PR説明と障害報告の整備に使える",
+        "企業向けAI文書基準を提案",
+        "基準がないと誤判断時の責任を追えない"
+      ]
+    },
+    "links": [
+      "https://tech.algomatic.jp/entry/2026/07/31/140229"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "新卒研修、あえてAIコード生成を禁止",
+    "category": "業界動向",
+    "source": "弁護士ドットコム Creators Blog",
+    "lede": "弁護士ドットコムは新卒研修の途中までAIによるコード生成を禁じ、良し悪しを見抜く力の育成を優先した。",
+    "keypoints": [
+      "新卒3人が約1カ月半研修",
+      "途中までAIコード生成を禁止",
+      "AIへの質問や壁打ちは許可",
+      "最後にAI開発研修も実施"
+    ],
+    "pull": "AIを使いこなす前に、出力の良し悪しを判断する力が必要になる。",
+    "bizapp": {
+      "summary": "新人教育は、基礎習得後にAIを解禁する二段構えが有効。",
+      "actions": [
+        "Claude Code研修の設計に使える",
+        "企業向け段階式AI研修を提案",
+        "即時解禁すると誤りを見抜く力が育たない"
+      ]
+    },
+    "links": [
+      "https://creators.bengo4.com/entry/2026/07/31/082907?utm_source=feed"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "10チームのAI開発環境を短時間で準備",
+    "category": "ツール更新",
+    "source": "LayerX エンジニアブログ",
+    "lede": "LayerXは自動構成管理とAI開発支援を組み合わせ、10チーム分の独立環境を短時間で準備した。",
+    "keypoints": [
+      "10チーム分の環境を用意",
+      "半日の社内開発会で活用",
+      "AIの出力は人間が確認",
+      "変更履歴を残して適用"
+    ],
+    "pull": "標準化された基盤があれば、AIは環境準備の負担も大きく減らす。",
+    "bizapp": {
+      "summary": "複数チームの検証環境を標準化し、立ち上げを速められる。",
+      "actions": [
+        "Argo CDの環境構築業務に使える",
+        "企業向けAI検証環境を提案",
+        "標準化しないと実験のたび準備工数を失う"
+      ]
+    },
+    "links": [
+      "https://tech.layerx.co.jp/entry/ai-workforce-gitops-for-hackathon2026"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Gemini Robotics 2、現実世界へ",
+    "category": "研究",
+    "source": "IEEE Spectrum Robotics",
+    "lede": "Google DeepMindが、映像・言語・動作を結び付けて現実世界に対応するGemini Robotics 2を紹介した。",
+    "keypoints": [
+      "現実世界で動くAIを紹介",
+      "映像と言語から動作を判断",
+      "身体を持つAIの推論を追求",
+      "人型ロボットなどを映像で紹介"
+    ],
+    "pull": "AIの競争領域は、画面上の回答から現実世界での行動へ移りつつある。",
+    "bizapp": {
+      "summary": "現場作業を担うAIの進展を、中長期の業務設計に反映する。",
+      "actions": [
+        "Gemini Roboticsの動向調査に使える",
+        "製造現場向け自動化構想を提案",
+        "今期から追わないと設備計画が旧式になる"
+      ]
+    },
+    "links": [
+      "https://spectrum.ieee.org/video-robot-gemini2-ai-robot"
+    ],
+    "likes": 0
+  }
+]
