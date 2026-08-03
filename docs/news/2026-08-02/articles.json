@@ -1,0 +1,202 @@
+[
+  {
+    "title": "NVIDIA、長文AIの応答高速化へ設計指針",
+    "category": "研究",
+    "source": "NVIDIA Developer Blog",
+    "lede": "長文を扱うAIの応答速度を高めるため、計算方式とGPUを一体で最適化する設計指針を示した。",
+    "keypoints": [
+      "入力処理と回答生成で負荷が異なる",
+      "回答生成はグループ数増加で効率化",
+      "ヘッド次元は128か256を推奨",
+      "参照データの圧縮で負荷を削減"
+    ],
+    "pull": "長文AIの速度は、モデルとGPUを一体で設計して決まる",
+    "bizapp": {
+      "summary": "長文資料を扱う社内AIの応答速度改善に使える",
+      "actions": [
+        "NVIDIA環境の長文処理設計に使える",
+        "社内文書AIの高速化を中小企業へ提案",
+        "設計を放置するとGPU費用と待ち時間が増す"
+      ]
+    },
+    "links": [
+      "https://developer.nvidia.com/blog/co-designing-ai-model-attention-for-fast-interactive-long-context-inference/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Reddit、GoogleのAI要約に価値還元を要求",
+    "category": "業界動向",
+    "source": "Ars Technica AI",
+    "lede": "RedditのCEOがGoogleのAI検索要約を批判し、人間の実体験や議論には要約できない価値があると訴えた。",
+    "keypoints": [
+      "AI要約への懸念を投資家に表明",
+      "人間の実体験を強みとして強調",
+      "利用者は要約より議論を求める",
+      "Googleとの契約終了も検討か"
+    ],
+    "pull": "AIが情報を圧縮するほど、人間の実体験が差別化になる",
+    "bizapp": {
+      "summary": "顧客の実体験を蓄積し、AI要約との差別化に使える",
+      "actions": [
+        "Redditで顧客の生の反応調査に使える",
+        "採用広報に社員の実体験発信を提案",
+        "要約依存を放置すると直接訪問を失う"
+      ]
+    },
+    "links": [
+      "https://arstechnica.com/ai/2026/08/reddit-ceo-on-ai-overviews-were-still-looking-for-that-win-win/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "DeepSeek、新モデル更新で競争力を回復",
+    "category": "新モデル発表",
+    "source": "Latent Space",
+    "lede": "DeepSeek V4-Flash 0731が公開され、わずかな費用増で性能と費用のバランスを押し上げた。",
+    "keypoints": [
+      "V4-Flash 0731を公開",
+      "追加学習のみの更新",
+      "従来版から費用増はわずか",
+      "APIのキャッシュ割引が強み"
+    ],
+    "pull": "小幅な更新でも、性能と費用の最前線を動かし得る",
+    "bizapp": {
+      "summary": "AIの性能だけでなく、実処理費用の比較に使える",
+      "actions": [
+        "DeepSeek APIの費用比較に使える",
+        "中小企業向けAI費用診断を提案",
+        "比較を怠ると割安な選択肢を逃す"
+      ]
+    },
+    "links": [
+      "https://www.latent.space/p/ainews-not-much-happened-today-038"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AI投資5倍でも売上倍増との因果は不明",
+    "category": "業界動向",
+    "source": "The New Stack AI",
+    "lede": "TemporalはAI支出を5倍にし売上を倍増させたが、CEOは両者の因果関係を証明できないと認めた。",
+    "keypoints": [
+      "TemporalのAI支出は5倍",
+      "同社の売上は倍増",
+      "CEOは因果関係を証明できず",
+      "AI投資の効果測定が論点"
+    ],
+    "pull": "AI投資と売上が同時に伸びても、効果の証明とは限らない",
+    "bizapp": {
+      "summary": "AI予算を成果指標と結び付ける必要性が分かる",
+      "actions": [
+        "Temporal導入前後の業務指標を測る",
+        "中小企業へAI効果測定設計を提案",
+        "次期予算前に測らないと投資判断を誤る"
+      ]
+    },
+    "links": [
+      "https://thenewstack.io/temporal-ai-adoption-durable-execution/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AI任せで仕事は速くなる、思い込みに警鐘",
+    "category": "研究",
+    "source": "Qiita トレンド",
+    "lede": "手順化できる仕事のAI移行が進む一方、利用者の体感と実際の生産性には差が生じ得ると指摘した。",
+    "keypoints": [
+      "手順化できる仕事はAIへ移行",
+      "業務背景を文章で蓄積して活用",
+      "人間は未整理の仕事へ移る",
+      "体感と実測の速度に差も"
+    ],
+    "pull": "AI時代の人間の価値は、未整理の仕事を構造化する力にある",
+    "bizapp": {
+      "summary": "AI活用を体感ではなく実測で評価する業務設計に使える",
+      "actions": [
+        "Claude Codeの作業時間を実測する",
+        "業務手順のAI移行診断を他社へ提案",
+        "四半期内に測らないと非効率を見逃す"
+      ]
+    },
+    "links": [
+      "https://qiita.com/ktdatascience/items/8d2dace07c9c7a9d0453?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "LanceDBで社内資料をAI検索しやすく",
+    "category": "ツール更新",
+    "source": "Analytics Vidhya",
+    "lede": "文書や画像に情報が分散する課題に対し、LanceDBを使ったベクトルデータベースの機能と実装法を解説した。",
+    "keypoints": [
+      "文書に散らばる情報がAIの課題",
+      "画像など複数形式の情報も対象",
+      "LanceDBの主要機能を解説",
+      "Pythonでの実装例を紹介"
+    ],
+    "pull": "社内情報をAIで使うには、保存より検索できる形への整理が重要",
+    "bizapp": {
+      "summary": "分散した社内文書をAIから検索する基盤づくりに使える",
+      "actions": [
+        "LanceDBで資料検索の試作に使える",
+        "中小企業の社内検索基盤を提案",
+        "整理を先送りするとAIが資料を生かせない"
+      ]
+    },
+    "links": [
+      "https://www.analyticsvidhya.com/blog/2026/08/lancedb-vector-database/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "端末操作なしで使えるClaude Code代替",
+    "category": "ツール更新",
+    "source": "Product Hunt",
+    "lede": "Lumichatsは、文字中心の端末操作を避けたい人向けに登場したClaude Codeの代替ツール。",
+    "keypoints": [
+      "製品名はLumichats",
+      "Claude Codeの代替を掲げる",
+      "端末操作を避けたい人が対象",
+      "操作の敷居を下げる選択肢"
+    ],
+    "pull": "開発AIの普及には、性能だけでなく操作の敷居も影響する",
+    "bizapp": {
+      "summary": "端末操作に不慣れな人の開発AI導入候補に使える",
+      "actions": [
+        "Lumichatsで非技術者の操作を試す",
+        "小規模企業の開発AI導入を提案",
+        "操作性を無視すると社内定着が遅れる"
+      ]
+    },
+    "links": [
+      "https://www.producthunt.com/products/lumichats-offline"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "初心者向け、AIエージェント構築を5段階で解説",
+    "category": "ツール更新",
+    "source": "AINOW",
+    "lede": "AIエージェントの作り方を3つのパターンに整理し、初心者が実践するための5段階を解説した。",
+    "keypoints": [
+      "構築方法を3パターンに整理",
+      "初心者向けの内容",
+      "実践手順を5段階で解説",
+      "AIエージェント作成が主題"
+    ],
+    "pull": "AIエージェント導入は、作り方を選び段階的に進めることが出発点",
+    "bizapp": {
+      "summary": "社内業務をAIエージェント化する検討の入口に使える",
+      "actions": [
+        "AIエージェントの試作業務を選ぶ",
+        "中小企業の定型業務自動化を提案",
+        "今期中に試さないと知見蓄積が遅れる"
+      ]
+    },
+    "links": [
+      "https://ainow.ai/2026/08/02/278291/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e3%2581%25ae%25e4%25bd%259c%25e3%2582%258a%25e6%2596%25b9%25e3%2581%25af3%25e3%2583%2591%25e3%2582%25bf%25e3%2583%25bc%25e3%2583%25b3%25ef%25bc%2581%25e5%2588%259d%25e5%25bf%2583%25e8%2580%2585%25e5%2590%2591%25e3%2581%2591"
+    ],
+    "likes": 0
+  }
+]

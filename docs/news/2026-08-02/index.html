@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>NVIDIA、長文AIの応答高速化へ設計指針 ほか7本｜2026-08-02 AI朝刊 — Now on AIr</title>
+<meta name="description" content="NVIDIA、長文AIの応答高速化へ設計指針、Reddit、GoogleのAI要約に価値還元を要求、DeepSeek、新モデル更新で競争力を回復 など8本を図解で。2026-08-02のAI業界ニュースを毎朝整理。" />
+<link rel="canonical" href="https://nowonair.vercel.app/news/2026-08-02/" />
+<link rel="alternate" type="application/rss+xml" title="Now on AIr RSS" href="https://nowonair.vercel.app/feed.xml" />
+<meta name="robots" content="index,follow" />
+<meta name="theme-color" content="#CE1141" />
+<meta name="referrer" content="strict-origin-when-cross-origin" />
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: https:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; script-src 'self' 'unsafe-inline'; base-uri 'self'" />
+<!-- OGP -->
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Now on AIr" />
+<meta property="og:title" content="NVIDIA、長文AIの応答高速化へ設計指針 ほか7本｜2026-08-02 AI朝刊 — Now on AIr" />
+<meta property="og:description" content="NVIDIA、長文AIの応答高速化へ設計指針、Reddit、GoogleのAI要約に価値還元を要求、DeepSeek、新モデル更新で競争力を回復 など8本を図解で。2026-08-02のAI業界ニュースを毎朝整理。" />
+<meta property="og:url" content="https://nowonair.vercel.app/news/2026-08-02/" />
+<meta property="og:image" content="https://nowonair.vercel.app/assets/images/2026-08-02/topic_1.png?v=1785794869" />
+<meta property="og:locale" content="ja_JP" />
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="NVIDIA、長文AIの応答高速化へ設計指針 ほか7本｜2026-08-02 AI朝刊 — Now on AIr" />
+<meta name="twitter:description" content="NVIDIA、長文AIの応答高速化へ設計指針、Reddit、GoogleのAI要約に価値還元を要求、DeepSeek、新モデル更新で競争力を回復 など8本を図解で。2026-08-02のAI業界ニュースを毎朝整理。" />
+<meta name="twitter:image" content="https://nowonair.vercel.app/assets/images/2026-08-02/topic_1.png?v=1785794869" />
+<!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="../../assets/favicon.svg" />
+<link rel="apple-touch-icon" href="../../assets/favicon.svg" />
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"NewsMediaOrganization","name":"Now on AIr","alternateName":"ナウオンエアー","url":"https://nowonair.vercel.app/","logo":"https://nowonair.vercel.app/assets/og-cover.png","description":"AI業界のモーニングインテリジェンス。毎朝6:30に最新AIニュースを図解で配信。","founder":{"@type":"Person","name":"山中秀斗"},"publisher":{"@type":"Organization","name":"TREPRO"}}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../assets/vigil.css?v5" />
+<!-- Vercel Analytics + Speed Insights（Cookie不要・プライバシー準拠）-->
+<script defer src="/_vercel/insights/script.js"></script>
+<script defer src="/_vercel/speed-insights/script.js"></script>
+</head>
+<body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "NewsArticle", "headline": "NVIDIA、長文AIの応答高速化へ設計指針", "description": "長文を扱うAIの応答速度を高めるため、計算方式とGPUを一体で最適化する設計指針を示した。", "datePublished": "2026-08-02T06:30:00+09:00", "dateModified": "2026-08-02T06:30:00+09:00", "image": ["https://nowonair.vercel.app/assets/images/2026-08-02/topic_1.png"], "url": "https://nowonair.vercel.app/news/2026-08-02/#topic-1", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://nowonair.vercel.app/news/2026-08-02/#topic-1"}, "articleSection": "研究", "author": {"@type": "Person", "name": "山中秀斗"}, "publisher": {"@type": "Organization", "name": "Now on AIr", "logo": {"@type": "ImageObject", "url": "https://nowonair.vercel.app/assets/favicon.svg"}}}, {"@type": "NewsArticle", "headline": "Reddit、GoogleのAI要約に価値還元を要求", "description": "RedditのCEOがGoogleのAI検索要約を批判し、人間の実体験や議論には要約できない価値があると訴えた。", "datePublished": "2026-08-02T06:30:00+09:00", "dateModified": "2026-08-02T06:30:00+09:00", "image": ["https://nowonair.vercel.app/assets/images/2026-08-02/topic_2.png"], "url": "https://nowonair.vercel.app/news/2026-08-02/#topic-2", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://nowonair.vercel.app/news/2026-08-02/#topic-2"}, "articleSection": "業界動向", "author": {"@type": "Person", "name": "山中秀斗"}, "publisher": {"@type": "Organization", "name": "Now on AIr", "logo": {"@type": "ImageObject", "url": "https://nowonair.vercel.app/assets/favicon.svg"}}}, {"@type": "NewsArticle", "headline": "DeepSeek、新モデル更新で競争力を回復", "description": "DeepSeek V4-Flash 0731が公開され、わずかな費用増で性能と費用のバランスを押し上げた。", "datePublished": "2026-08-02T06:30:00+09:00", "dateModified": "2026-08-02T06:30:00+09:00", "image": ["https://nowonair.vercel.app/assets/images/2026-08-02/topic_3.png"], "url": "https://nowonair.vercel.app/news/2026-08-02/#topic-3", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://nowonair.vercel.app/news/2026-08-02/#topic-3"}, "articleSection": "新モデル発表", "author": {"@type": "Person", "name": "山中秀斗"}, "publisher": {"@type": "Organization", "name": "Now on AIr", "logo": {"@type": "ImageObject", "url": "https://nowonair.vercel.app/assets/favicon.svg"}}}, {"@type": "NewsArticle", "headline": "AI投資5倍でも売上倍増との因果は不明", "description": "TemporalはAI支出を5倍にし売上を倍増させたが、CEOは両者の因果関係を証明できないと認めた。", "datePublished": "2026-08-02T06:30:00+09:00", "dateModified": "2026-08-02T06:30:00+09:00", "image": ["https://nowonair.vercel.app/assets/images/2026-08-02/topic_4.png"], "url": "https://nowonair.vercel.app/news/2026-08-02/#topic-4", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://nowonair.vercel.app/news/2026-08-02/#topic-4"}, "articleSection": "業界動向", "author": {"@type": "Person", "name": "山中秀斗"}, "publisher": {"@type": "Organization", "name": "Now on AIr", "logo": {"@type": "ImageObject", "url": "https://nowonair.vercel.app/assets/favicon.svg"}}}, {"@type": "NewsArticle", "headline": "AI任せで仕事は速くなる、思い込みに警鐘", "description": "手順化できる仕事のAI移行が進む一方、利用者の体感と実際の生産性には差が生じ得ると指摘した。", "datePublished": "2026-08-02T06:30:00+09:00", "dateModified": "2026-08-02T06:30:00+09:00", "image": ["https://nowonair.vercel.app/assets/images/2026-08-02/topic_5.png"], "url": "https://nowonair.vercel.app/news/2026-08-02/#topic-5", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://nowonair.vercel.app/news/2026-08-02/#topic-5"}, "articleSection": "研究", "author": {"@type": "Person", "name": "山中秀斗"}, "publisher": {"@type": "Organization", "name": "Now on AIr", "logo": {"@type": "ImageObject", "url": "https://nowonair.vercel.app/assets/favicon.svg"}}}, {"@type": "NewsArticle", "headline": "LanceDBで社内資料をAI検索しやすく", "description": "文書や画像に情報が分散する課題に対し、LanceDBを使ったベクトルデータベースの機能と実装法を解説した。", "datePublished": "2026-08-02T06:30:00+09:00", "dateModified": "2026-08-02T06:30:00+09:00", "image": ["https://nowonair.vercel.app/assets/images/2026-08-02/topic_6.png"], "url": "https://nowonair.vercel.app/news/2026-08-02/#topic-6", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://nowonair.vercel.app/news/2026-08-02/#topic-6"}, "articleSection": "ツール更新", "author": {"@type": "Person", "name": "山中秀斗"}, "publisher": {"@type": "Organization", "name": "Now on AIr", "logo": {"@type": "ImageObject", "url": "https://nowonair.vercel.app/assets/favicon.svg"}}}, {"@type": "NewsArticle", "headline": "端末操作なしで使えるClaude Code代替", "description": "Lumichatsは、文字中心の端末操作を避けたい人向けに登場したClaude Codeの代替ツール。", "datePublished": "2026-08-02T06:30:00+09:00", "dateModified": "2026-08-02T06:30:00+09:00", "image": ["https://nowonair.vercel.app/assets/images/2026-08-02/topic_7.png"], "url": "https://nowonair.vercel.app/news/2026-08-02/#topic-7", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://nowonair.vercel.app/news/2026-08-02/#topic-7"}, "articleSection": "ツール更新", "author": {"@type": "Person", "name": "山中秀斗"}, "publisher": {"@type": "Organization", "name": "Now on AIr", "logo": {"@type": "ImageObject", "url": "https://nowonair.vercel.app/assets/favicon.svg"}}}, {"@type": "NewsArticle", "headline": "初心者向け、AIエージェント構築を5段階で解説", "description": "AIエージェントの作り方を3つのパターンに整理し、初心者が実践するための5段階を解説した。", "datePublished": "2026-08-02T06:30:00+09:00", "dateModified": "2026-08-02T06:30:00+09:00", "image": ["https://nowonair.vercel.app/assets/images/2026-08-02/topic_8.png"], "url": "https://nowonair.vercel.app/news/2026-08-02/#topic-8", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://nowonair.vercel.app/news/2026-08-02/#topic-8"}, "articleSection": "ツール更新", "author": {"@type": "Person", "name": "山中秀斗"}, "publisher": {"@type": "Organization", "name": "Now on AIr", "logo": {"@type": "ImageObject", "url": "https://nowonair.vercel.app/assets/favicon.svg"}}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Now on AIr", "item": "https://nowonair.vercel.app/"}, {"@type": "ListItem", "position": 2, "name": "2026-08-02 朝刊", "item": "https://nowonair.vercel.app/news/2026-08-02/"}]}]}</script>
+
+<style>
+.date-huge{font-family:'JetBrains Mono',monospace;font-weight:800;font-size:clamp(48px,10vw,112px);line-height:.9;letter-spacing:-.03em;margin:8px 0 20px;}
+.date-huge .dot{color:var(--red)}
+.strap{display:flex;gap:28px;flex-wrap:wrap;font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--mute);}
+.strap .count{color:var(--ink);font-weight:700}
+.container{max-width:1400px;margin:0 auto;padding:0 40px}
+.daily-topic{padding:52px 0;border-bottom:1px solid var(--rule);position:relative;opacity:0;transform:translateY(20px);transition:opacity .5s,transform .5s;}
+.daily-topic.is-visible{opacity:1;transform:none}
+.daily-topic::before{content:"";position:absolute;left:0;top:0;width:3px;height:0;background:var(--red);transition:height .4s}
+.daily-topic:hover::before{height:100%}
+.daily-topic .container{display:grid;grid-template-columns:72px 1fr 240px;gap:36px}
+.numeral{font-family:'JetBrains Mono',monospace;font-weight:800;font-size:64px;line-height:1;color:var(--rule-2);position:relative;top:-6px;transition:color .2s}
+.daily-topic:hover .numeral{color:var(--red)}
+.numeral .ord{display:block;font-size:9px;letter-spacing:.16em;color:var(--mute);margin-top:8px;line-height:1.4;white-space:nowrap}
+.cat-line{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--red);margin-bottom:14px}
+.cat-line .sep{color:var(--mute);margin:0 8px}
+.main h2{font-family:'JetBrains Mono',monospace;font-weight:700;font-size:26px;line-height:1.3;margin:0 0 18px;letter-spacing:-.01em}
+.lede{font-family:'Noto Serif JP',serif;font-size:16px;line-height:1.75;margin:0 0 24px;color:var(--ink-2)}
+.main h3{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.2em;text-transform:uppercase;margin:24px 0 10px;color:var(--mute)}
+.keypoints{list-style:none;padding:0;margin:0 0 24px}
+.keypoints li{padding:10px 14px 10px 44px;margin-bottom:2px;background:var(--paper-2);border-left:2px solid transparent;position:relative;font-size:14px;line-height:1.6;transition:border-color .15s,transform .2s}
+.keypoints li:hover{border-left-color:var(--red);transform:translateX(4px)}
+.keypoints li::before{content:attr(data-i);position:absolute;left:14px;top:10px;font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--red);letter-spacing:.1em}
+.pull{padding:18px 22px;border-left:3px solid var(--red);background:var(--paper-2);font-size:14px;line-height:1.7;color:var(--ink-2);font-style:italic;margin-top:24px;transition:border-left-width .2s,padding-left .2s}
+.pull:hover{border-left-width:6px;padding-left:19px}
+.bizapp-block{margin-top:28px;border:1px solid var(--red);padding:20px 22px;}
+.bizapp-block .biz-label{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:.22em;text-transform:uppercase;color:#fff;background:var(--red);display:inline-block;padding:3px 10px;margin-bottom:12px;font-weight:700;}
+.bizapp-block .biz-summary{font-size:14px;font-weight:700;color:var(--ink);line-height:1.65;margin-bottom:10px;font-family:'Noto Serif JP',serif;}
+.bizapp-block ul{list-style:none;padding:0;margin:0;}
+.bizapp-block li{padding:8px 10px 8px 32px;margin-bottom:2px;background:var(--paper-2);border-left:2px solid var(--red);position:relative;font-size:13px;line-height:1.6;color:var(--ink-2);}
+.bizapp-block li .bi{position:absolute;left:8px;top:8px;font-size:12px;}
+.slide-img{margin:20px 0;border:1px solid var(--rule-2);overflow:hidden;cursor:zoom-in;position:relative;transition:border-color .2s}
+.slide-img:hover{border-color:var(--red)}
+.slide-img img{width:100%;height:auto;display:block;transition:transform .5s}
+.slide-img:hover img{transform:scale(1.02)}
+.side{font-size:13px}
+.side dl{margin:0}
+.side dt{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:.18em;text-transform:uppercase;color:var(--mute);margin:18px 0 4px}
+.side dt:first-child{margin-top:0}
+.side dd{margin:0;word-break:break-all}
+.side dd a:hover{color:var(--red)}
+.likes{font-family:'JetBrains Mono',monospace;font-weight:700;font-size:28px;color:var(--red)}
+.likes-label{font-size:11px;color:var(--mute);letter-spacing:.1em;text-transform:uppercase}
+.lightbox-overlay{display:flex;align-items:center;justify-content:center;position:fixed;inset:0;padding:24px;background:rgba(14,13,11,0);z-index:1000;pointer-events:none;transition:background .3s}
+.lightbox-overlay.is-open{background:rgba(14,13,11,.93);pointer-events:auto}
+.lightbox-overlay img{max-width:100%;max-height:90vh;object-fit:contain;opacity:0;transform:scale(.93);transition:opacity .35s,transform .35s}
+.lightbox-overlay.is-open img{opacity:1;transform:scale(1)}
+.lightbox-close{position:absolute;top:20px;right:24px;font-family:'JetBrains Mono',monospace;font-size:12px;color:#F7F5F2;cursor:pointer;background:none;border:1px solid rgba(247,245,242,.3);padding:6px 14px;transition:background .2s}
+.lightbox-close:hover{background:var(--red)}
+@media(max-width:900px){.daily-topic .container{grid-template-columns:1fr}.numeral{font-size:36px}.side{border-top:1px solid var(--rule);padding-top:20px}}
+
+/* ── Quickstart（明日からできる） ── */
+#modal-quickstart{display:none;margin:24px 0;padding:20px 22px;background:#FFF8E5;border:2px solid #FFC107;border-left:6px solid #FF9800;}
+.qs-head{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:#E65100;font-weight:800;margin-bottom:10px;}
+.qs-headline{font-family:'Barlow Condensed','Noto Sans JP',sans-serif;font-size:22px;font-weight:900;line-height:1.3;color:var(--ink);margin-bottom:14px;}
+.qs-meta{display:flex;flex-wrap:wrap;gap:14px;margin-bottom:16px;font-size:12px;}
+.qs-tool,.qs-time{background:#fff;padding:6px 12px;border:1px solid #FFC107;}
+.qs-label{font-family:'JetBrains Mono',monospace;font-size:9px;color:#888;letter-spacing:.1em;text-transform:uppercase;margin-right:6px;}
+#qs-tool-link{color:#E65100;font-weight:700;text-decoration:none;border-bottom:1px solid #E65100;}
+#qs-tool-link:hover{color:#BF360C;}
+.qs-cost{color:#666;font-size:11px;margin-left:4px;}
+#qs-time{font-weight:700;color:var(--ink);}
+.qs-section-label{font-family:'JetBrains Mono',monospace;font-size:10px;color:#E65100;letter-spacing:.12em;text-transform:uppercase;font-weight:700;margin-bottom:8px;}
+.qs-steps-wrap{margin-bottom:16px;}
+.qs-steps{margin:0;padding:0 0 0 24px;}
+.qs-steps li{font-size:13.5px;line-height:1.7;color:var(--ink);margin-bottom:4px;}
+.qs-prompt-wrap{margin-bottom:14px;}
+.qs-prompt{
+  background:#1a1a1a;color:#f5f5f5;padding:14px 16px;font-size:12px;line-height:1.65;
+  font-family:'JetBrains Mono',monospace;border-radius:0;white-space:pre-wrap;word-break:break-word;
+  max-height:200px;overflow-y:auto;margin-bottom:8px;
+}
+.qs-copy-btn{
+  font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;letter-spacing:.08em;
+  background:#FF9800;color:#fff;border:none;padding:9px 20px;cursor:pointer;
+  transition:background .15s;
+}
+.qs-copy-btn:hover{background:#E65100;}
+.qs-roi{
+  font-size:13px;font-weight:700;color:#E65100;padding:10px 14px;
+  background:#fff;border-left:4px solid #FF9800;
+}
+
+/* ── icebreak（会話・商談で使える）── */
+#modal-icebreak{display:none;margin:24px 0;padding:20px 22px;background:#E8F4FD;border:2px solid #64B5F6;border-left:6px solid #1976D2;}
+.ib-head{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:#0D47A1;font-weight:800;margin-bottom:14px;}
+.ib-hook{font-family:'Noto Serif JP',serif;font-size:18px;font-weight:700;line-height:1.55;color:var(--ink);margin-bottom:10px;}
+.ib-punch{font-size:14px;line-height:1.7;color:var(--ink-2);margin-bottom:16px;}
+.ib-ctx{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:16px;}
+.ib-ctx-item{background:#fff;padding:6px 12px;border:1px solid #64B5F6;font-size:12px;}
+.ib-ctx-label{font-family:'JetBrains Mono',monospace;font-size:9px;color:#0D47A1;letter-spacing:.1em;text-transform:uppercase;margin-right:6px;font-weight:700;}
+.ib-share-wrap{margin-top:8px;}
+.ib-share-label{font-family:'JetBrains Mono',monospace;font-size:10px;color:#0D47A1;letter-spacing:.12em;text-transform:uppercase;font-weight:700;margin-bottom:8px;}
+.ib-share{background:#fff;padding:14px 16px;font-size:13px;line-height:1.7;color:var(--ink);border:1px solid #BBDEFB;margin-bottom:8px;font-family:'Noto Sans JP',sans-serif;}
+.ib-copy-btn{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;letter-spacing:.08em;background:#1976D2;color:#fff;border:none;padding:9px 20px;cursor:pointer;transition:background .15s;}
+.ib-copy-btn:hover{background:#0D47A1;}
+
+</style>
+<div class="dispatch">
+  <span class="tick">NOW ON AIr</span>
+  <span class="sep">/</span>
+  <span>№0802</span>
+  <span class="sep">/</span>
+  <span>2026-08-02</span>
+  <span class="sep">/</span>
+  <span>MORNING EDITION</span>
+  <span class="sep">/</span>
+  <span>8 ITEMS</span>
+  <span class="sep">/</span>
+  <span class="live"><span class="dot"></span>LIVE</span>
+  <div class="right">
+    <span class="jst"><b>06:30</b> JST</span>
+    <span>SUN</span>
+  </div>
+</div>
+<nav class="main">
+  <div class="brand"><em class="dot-r">●</em>Now on <em class="brand-ai">AI</em><span class="brand-r">r</span></div>
+  <ul>
+    <li><a href="../../">HOME</a></li>
+    <li><a href="./" class="active">TODAY</a></li>
+    <li><a href="../../#archive">ARCHIVE</a></li>
+    <li><a href="../../#about">ABOUT</a></li>
+  </ul>
+  <a class="subscribe" href="/feed.xml" title="RSSで購読（毎朝6:30更新）">SUBSCRIBE · 06:30 DAILY →</a>
+</nav>
+<div class="hero-wrap">
+  <div class="edition-line">
+    MORNING DISPATCH
+    <span class="sep">//</span>
+    SUNDAY, AUGUST 2, 2026
+    <span class="sep">//</span>
+    ISSUE N°0802
+  </div>
+  <h1 class="date-huge">2026<span class="dot">.</span>08<span class="dot">.</span>02</h1>
+  <div class="strap">
+    <span><span class="count">08</span>&nbsp;ITEMS</span>
+    <span>AI MORNING INTELLIGENCE</span>
+  </div>
+</div>
+
+<article class="daily-topic" id="topic-1">
+  <div class="container">
+    <aside class="numeral">01<span class="ord">TOPIC 01 · NVIDIA DEVELOPER BLOG</span></aside>
+    <div class="main">
+      <div class="cat-line">
+        研究 <span class="sep">/</span> NVIDIA Developer Blog <span class="sep">/</span> NEWS
+      </div>
+      <h2>NVIDIA、長文AIの応答高速化へ設計指針</h2>
+      <div class="slide-img zoom-image" data-src="../../assets/images/2026-08-02/topic_1.png?v=1785794869" data-alt="NVIDIA、長文AIの応答高速化へ設計指針" role="button" tabindex="0">
+        <img src="../../assets/images/2026-08-02/topic_1.png?v=1785794869" alt="NVIDIA、長文AIの応答高速化へ設計指針" width="1536" height="1024" loading="eager" fetchpriority="high" />
+      </div>
+      <p class="lede">長文を扱うAIの応答速度を高めるため、計算方式とGPUを一体で最適化する設計指針を示した。</p>
+      <h3>キーポイント</h3>
+      <ul class="keypoints">
+        <li data-i="01">入力処理と回答生成で負荷が異なる</li>
+        <li data-i="02">回答生成はグループ数増加で効率化</li>
+        <li data-i="03">ヘッド次元は128か256を推奨</li>
+        <li data-i="04">参照データの圧縮で負荷を削減</li>
+      </ul>
+      <div class="pull">長文AIの速度は、モデルとGPUを一体で設計して決まる</div>
+      <div class="bizapp-block">
+        <div class="biz-label">ビジネス活用ポイント</div>
+        <div class="biz-summary">長文資料を扱う社内AIの応答速度改善に使える</div>
+        <ul>
+        <li><span class="bi"></span>NVIDIA環境の長文処理設計に使える</li>        <li><span class="bi"></span>社内文書AIの高速化を中小企業へ提案</li>        <li><span class="bi"></span>設計を放置するとGPU費用と待ち時間が増す</li>
+        </ul>
+      </div>
+    </div>
+    <aside class="side">
+      <dl>
+
+        <dt>SOURCE</dt>
+        <dd>NVIDIA Developer Blog</dd>
+        <dt>PUBLISHED</dt>
+        <dd>2026-08-02</dd>
+        <dt>CATEGORY</dt>
+        <dd>研究</dd>
+        <dt>LINKS</dt>
+        <dd><a href="https://developer.nvidia.com/blog/co-designing-ai-model-attention-for-fast-interactive-long-context-inference/">https://developer.nvidia.com/blog/co-designing-ai-model…</a></dd>
+      </dl>
+    </aside>
+  </div>
+</article>
+<article class="daily-topic" id="topic-2">
+  <div class="container">
+    <aside class="numeral">02<span class="ord">TOPIC 02 · ARS TECHNICA AI</span></aside>
+    <div class="main">
+      <div class="cat-line">
+        業界動向 <span class="sep">/</span> Ars Technica AI <span class="sep">/</span> NEWS
+      </div>
+      <h2>Reddit、GoogleのAI要約に価値還元を要求</h2>
+      <div class="slide-img zoom-image" data-src="../../assets/images/2026-08-02/topic_2.png?v=1785794882" data-alt="Reddit、GoogleのAI要約に価値還元を要求" role="button" tabindex="0">
+        <img src="../../assets/images/2026-08-02/topic_2.png?v=1785794882" alt="Reddit、GoogleのAI要約に価値還元を要求" width="1536" height="1024" loading="lazy" />
+      </div>
+      <p class="lede">RedditのCEOがGoogleのAI検索要約を批判し、人間の実体験や議論には要約できない価値があると訴えた。</p>
+      <h3>キーポイント</h3>
+      <ul class="keypoints">
+        <li data-i="01">AI要約への懸念を投資家に表明</li>
+        <li data-i="02">人間の実体験を強みとして強調</li>
+        <li data-i="03">利用者は要約より議論を求める</li>
+        <li data-i="04">Googleとの契約終了も検討か</li>
+      </ul>
+      <div class="pull">AIが情報を圧縮するほど、人間の実体験が差別化になる</div>
+      <div class="bizapp-block">
+        <div class="biz-label">ビジネス活用ポイント</div>
+        <div class="biz-summary">顧客の実体験を蓄積し、AI要約との差別化に使える</div>
+        <ul>
+        <li><span class="bi"></span>Redditで顧客の生の反応調査に使える</li>        <li><span class="bi"></span>採用広報に社員の実体験発信を提案</li>        <li><span class="bi"></span>要約依存を放置すると直接訪問を失う</li>
+        </ul>
+      </div>
+    </div>
+    <aside class="side">
+      <dl>
+
+        <dt>SOURCE</dt>
+        <dd>Ars Technica AI</dd>
+        <dt>PUBLISHED</dt>
+        <dd>2026-08-02</dd>
+        <dt>CATEGORY</dt>
+        <dd>業界動向</dd>
+        <dt>LINKS</dt>
+        <dd><a href="https://arstechnica.com/ai/2026/08/reddit-ceo-on-ai-overviews-were-still-looking-for-that-win-win/">https://arstechnica.com/ai/2026/08/reddit-ceo-on-ai-ove…</a></dd>
+      </dl>
+    </aside>
+  </div>
+</article>
+<article class="daily-topic" id="topic-3">
+  <div class="container">
+    <aside class="numeral">03<span class="ord">TOPIC 03 · LATENT SPACE</span></aside>
+    <div class="main">
+      <div class="cat-line">
+        新モデル発表 <span class="sep">/</span> Latent Space <span class="sep">/</span> NEWS
+      </div>
+      <h2>DeepSeek、新モデル更新で競争力を回復</h2>
+      <div class="slide-img zoom-image" data-src="../../assets/images/2026-08-02/topic_3.png?v=1785795032" data-alt="DeepSeek、新モデル更新で競争力を回復" role="button" tabindex="0">
+        <img src="../../assets/images/2026-08-02/topic_3.png?v=1785795032" alt="DeepSeek、新モデル更新で競争力を回復" width="1536" height="1024" loading="lazy" />
+      </div>
+      <p class="lede">DeepSeek V4-Flash 0731が公開され、わずかな費用増で性能と費用のバランスを押し上げた。</p>
+      <h3>キーポイント</h3>
+      <ul class="keypoints">
+        <li data-i="01">V4-Flash 0731を公開</li>
+        <li data-i="02">追加学習のみの更新</li>
+        <li data-i="03">従来版から費用増はわずか</li>
+        <li data-i="04">APIのキャッシュ割引が強み</li>
+      </ul>
+      <div class="pull">小幅な更新でも、性能と費用の最前線を動かし得る</div>
+      <div class="bizapp-block">
+        <div class="biz-label">ビジネス活用ポイント</div>
+        <div class="biz-summary">AIの性能だけでなく、実処理費用の比較に使える</div>
+        <ul>
+        <li><span class="bi"></span>DeepSeek APIの費用比較に使える</li>        <li><span class="bi"></span>中小企業向けAI費用診断を提案</li>        <li><span class="bi"></span>比較を怠ると割安な選択肢を逃す</li>
+        </ul>
+      </div>
+    </div>
+    <aside class="side">
+      <dl>
+
+        <dt>SOURCE</dt>
+        <dd>Latent Space</dd>
+        <dt>PUBLISHED</dt>
+        <dd>2026-08-02</dd>
+        <dt>CATEGORY</dt>
+        <dd>新モデル発表</dd>
+        <dt>LINKS</dt>
+        <dd><a href="https://www.latent.space/p/ainews-not-much-happened-today-038">https://www.latent.space/p/ainews-not-much-happened-tod…</a></dd>
+      </dl>
+    </aside>
+  </div>
+</article>
+<article class="daily-topic" id="topic-4">
+  <div class="container">
+    <aside class="numeral">04<span class="ord">TOPIC 04 · THE NEW STACK AI</span></aside>
+    <div class="main">
+      <div class="cat-line">
+        業界動向 <span class="sep">/</span> The New Stack AI <span class="sep">/</span> NEWS
+      </div>
+      <h2>AI投資5倍でも売上倍増との因果は不明</h2>
+      <div class="slide-img zoom-image" data-src="../../assets/images/2026-08-02/topic_4.png?v=1785795051" data-alt="AI投資5倍でも売上倍増との因果は不明" role="button" tabindex="0">
+        <img src="../../assets/images/2026-08-02/topic_4.png?v=1785795051" alt="AI投資5倍でも売上倍増との因果は不明" width="1536" height="1024" loading="lazy" />
+      </div>
+      <p class="lede">TemporalはAI支出を5倍にし売上を倍増させたが、CEOは両者の因果関係を証明できないと認めた。</p>
+      <h3>キーポイント</h3>
+      <ul class="keypoints">
+        <li data-i="01">TemporalのAI支出は5倍</li>
+        <li data-i="02">同社の売上は倍増</li>
+        <li data-i="03">CEOは因果関係を証明できず</li>
+        <li data-i="04">AI投資の効果測定が論点</li>
+      </ul>
+      <div class="pull">AI投資と売上が同時に伸びても、効果の証明とは限らない</div>
+      <div class="bizapp-block">
+        <div class="biz-label">ビジネス活用ポイント</div>
+        <div class="biz-summary">AI予算を成果指標と結び付ける必要性が分かる</div>
+        <ul>
+        <li><span class="bi"></span>Temporal導入前後の業務指標を測る</li>        <li><span class="bi"></span>中小企業へAI効果測定設計を提案</li>        <li><span class="bi"></span>次期予算前に測らないと投資判断を誤る</li>
+        </ul>
+      </div>
+    </div>
+    <aside class="side">
+      <dl>
+
+        <dt>SOURCE</dt>
+        <dd>The New Stack AI</dd>
+        <dt>PUBLISHED</dt>
+        <dd>2026-08-02</dd>
+        <dt>CATEGORY</dt>
+        <dd>業界動向</dd>
+        <dt>LINKS</dt>
+        <dd><a href="https://thenewstack.io/temporal-ai-adoption-durable-execution/">https://thenewstack.io/temporal-ai-adoption-durable-exe…</a></dd>
+      </dl>
+    </aside>
+  </div>
+</article>
+<article class="daily-topic" id="topic-5">
+  <div class="container">
+    <aside class="numeral">05<span class="ord">TOPIC 05 · QIITA トレンド</span></aside>
+    <div class="main">
+      <div class="cat-line">
+        研究 <span class="sep">/</span> Qiita トレンド <span class="sep">/</span> NEWS
+      </div>
+      <h2>AI任せで仕事は速くなる、思い込みに警鐘</h2>
+      <div class="slide-img zoom-image" data-src="../../assets/images/2026-08-02/topic_5.png?v=1785795202" data-alt="AI任せで仕事は速くなる、思い込みに警鐘" role="button" tabindex="0">
+        <img src="../../assets/images/2026-08-02/topic_5.png?v=1785795202" alt="AI任せで仕事は速くなる、思い込みに警鐘" width="1536" height="1024" loading="lazy" />
+      </div>
+      <p class="lede">手順化できる仕事のAI移行が進む一方、利用者の体感と実際の生産性には差が生じ得ると指摘した。</p>
+      <h3>キーポイント</h3>
+      <ul class="keypoints">
+        <li data-i="01">手順化できる仕事はAIへ移行</li>
+        <li data-i="02">業務背景を文章で蓄積して活用</li>
+        <li data-i="03">人間は未整理の仕事へ移る</li>
+        <li data-i="04">体感と実測の速度に差も</li>
+      </ul>
+      <div class="pull">AI時代の人間の価値は、未整理の仕事を構造化する力にある</div>
+      <div class="bizapp-block">
+        <div class="biz-label">ビジネス活用ポイント</div>
+        <div class="biz-summary">AI活用を体感ではなく実測で評価する業務設計に使える</div>
+        <ul>
+        <li><span class="bi"></span>Claude Codeの作業時間を実測する</li>        <li><span class="bi"></span>業務手順のAI移行診断を他社へ提案</li>        <li><span class="bi"></span>四半期内に測らないと非効率を見逃す</li>
+        </ul>
+      </div>
+    </div>
+    <aside class="side">
+      <dl>
+
+        <dt>SOURCE</dt>
+        <dd>Qiita トレンド</dd>
+        <dt>PUBLISHED</dt>
+        <dd>2026-08-02</dd>
+        <dt>CATEGORY</dt>
+        <dd>研究</dd>
+        <dt>LINKS</dt>
+        <dd><a href="https://qiita.com/ktdatascience/items/8d2dace07c9c7a9d0453?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items">https://qiita.com/ktdatascience/items/8d2dace07c9c7a9d0…</a></dd>
+      </dl>
+    </aside>
+  </div>
+</article>
+<article class="daily-topic" id="topic-6">
+  <div class="container">
+    <aside class="numeral">06<span class="ord">TOPIC 06 · ANALYTICS VIDHYA</span></aside>
+    <div class="main">
+      <div class="cat-line">
+        ツール更新 <span class="sep">/</span> Analytics Vidhya <span class="sep">/</span> NEWS
+      </div>
+      <h2>LanceDBで社内資料をAI検索しやすく</h2>
+      <div class="slide-img zoom-image" data-src="../../assets/images/2026-08-02/topic_6.png?v=1785795232" data-alt="LanceDBで社内資料をAI検索しやすく" role="button" tabindex="0">
+        <img src="../../assets/images/2026-08-02/topic_6.png?v=1785795232" alt="LanceDBで社内資料をAI検索しやすく" width="1536" height="1024" loading="lazy" />
+      </div>
+      <p class="lede">文書や画像に情報が分散する課題に対し、LanceDBを使ったベクトルデータベースの機能と実装法を解説した。</p>
+      <h3>キーポイント</h3>
+      <ul class="keypoints">
+        <li data-i="01">文書に散らばる情報がAIの課題</li>
+        <li data-i="02">画像など複数形式の情報も対象</li>
+        <li data-i="03">LanceDBの主要機能を解説</li>
+        <li data-i="04">Pythonでの実装例を紹介</li>
+      </ul>
+      <div class="pull">社内情報をAIで使うには、保存より検索できる形への整理が重要</div>
+      <div class="bizapp-block">
+        <div class="biz-label">ビジネス活用ポイント</div>
+        <div class="biz-summary">分散した社内文書をAIから検索する基盤づくりに使える</div>
+        <ul>
+        <li><span class="bi"></span>LanceDBで資料検索の試作に使える</li>        <li><span class="bi"></span>中小企業の社内検索基盤を提案</li>        <li><span class="bi"></span>整理を先送りするとAIが資料を生かせない</li>
+        </ul>
+      </div>
+    </div>
+    <aside class="side">
+      <dl>
+
+        <dt>SOURCE</dt>
+        <dd>Analytics Vidhya</dd>
+        <dt>PUBLISHED</dt>
+        <dd>2026-08-02</dd>
+        <dt>CATEGORY</dt>
+        <dd>ツール更新</dd>
+        <dt>LINKS</dt>
+        <dd><a href="https://www.analyticsvidhya.com/blog/2026/08/lancedb-vector-database/">https://www.analyticsvidhya.com/blog/2026/08/lancedb-ve…</a></dd>
+      </dl>
+    </aside>
+  </div>
+</article>
+<article class="daily-topic" id="topic-7">
+  <div class="container">
+    <aside class="numeral">07<span class="ord">TOPIC 07 · PRODUCT HUNT</span></aside>
+    <div class="main">
+      <div class="cat-line">
+        ツール更新 <span class="sep">/</span> Product Hunt <span class="sep">/</span> NEWS
+      </div>
+      <h2>端末操作なしで使えるClaude Code代替</h2>
+      <div class="slide-img zoom-image" data-src="../../assets/images/2026-08-02/topic_7.png?v=1785795378" data-alt="端末操作なしで使えるClaude Code代替" role="button" tabindex="0">
+        <img src="../../assets/images/2026-08-02/topic_7.png?v=1785795378" alt="端末操作なしで使えるClaude Code代替" width="1536" height="1024" loading="lazy" />
+      </div>
+      <p class="lede">Lumichatsは、文字中心の端末操作を避けたい人向けに登場したClaude Codeの代替ツール。</p>
+      <h3>キーポイント</h3>
+      <ul class="keypoints">
+        <li data-i="01">製品名はLumichats</li>
+        <li data-i="02">Claude Codeの代替を掲げる</li>
+        <li data-i="03">端末操作を避けたい人が対象</li>
+        <li data-i="04">操作の敷居を下げる選択肢</li>
+      </ul>
+      <div class="pull">開発AIの普及には、性能だけでなく操作の敷居も影響する</div>
+      <div class="bizapp-block">
+        <div class="biz-label">ビジネス活用ポイント</div>
+        <div class="biz-summary">端末操作に不慣れな人の開発AI導入候補に使える</div>
+        <ul>
+        <li><span class="bi"></span>Lumichatsで非技術者の操作を試す</li>        <li><span class="bi"></span>小規模企業の開発AI導入を提案</li>        <li><span class="bi"></span>操作性を無視すると社内定着が遅れる</li>
+        </ul>
+      </div>
+    </div>
+    <aside class="side">
+      <dl>
+
+        <dt>SOURCE</dt>
+        <dd>Product Hunt</dd>
+        <dt>PUBLISHED</dt>
+        <dd>2026-08-02</dd>
+        <dt>CATEGORY</dt>
+        <dd>ツール更新</dd>
+        <dt>LINKS</dt>
+        <dd><a href="https://www.producthunt.com/products/lumichats-offline">https://www.producthunt.com/products/lumichats-offline</a></dd>
+      </dl>
+    </aside>
+  </div>
+</article>
+<article class="daily-topic" id="topic-8">
+  <div class="container">
+    <aside class="numeral">08<span class="ord">TOPIC 08 · AINOW</span></aside>
+    <div class="main">
+      <div class="cat-line">
+        ツール更新 <span class="sep">/</span> AINOW <span class="sep">/</span> NEWS
+      </div>
+      <h2>初心者向け、AIエージェント構築を5段階で解説</h2>
+      <div class="slide-img zoom-image" data-src="../../assets/images/2026-08-02/topic_8.png?v=1785795413" data-alt="初心者向け、AIエージェント構築を5段階で解説" role="button" tabindex="0">
+        <img src="../../assets/images/2026-08-02/topic_8.png?v=1785795413" alt="初心者向け、AIエージェント構築を5段階で解説" width="1536" height="1024" loading="lazy" />
+      </div>
+      <p class="lede">AIエージェントの作り方を3つのパターンに整理し、初心者が実践するための5段階を解説した。</p>
+      <h3>キーポイント</h3>
+      <ul class="keypoints">
+        <li data-i="01">構築方法を3パターンに整理</li>
+        <li data-i="02">初心者向けの内容</li>
+        <li data-i="03">実践手順を5段階で解説</li>
+        <li data-i="04">AIエージェント作成が主題</li>
+      </ul>
+      <div class="pull">AIエージェント導入は、作り方を選び段階的に進めることが出発点</div>
+      <div class="bizapp-block">
+        <div class="biz-label">ビジネス活用ポイント</div>
+        <div class="biz-summary">社内業務をAIエージェント化する検討の入口に使える</div>
+        <ul>
+        <li><span class="bi"></span>AIエージェントの試作業務を選ぶ</li>        <li><span class="bi"></span>中小企業の定型業務自動化を提案</li>        <li><span class="bi"></span>今期中に試さないと知見蓄積が遅れる</li>
+        </ul>
+      </div>
+    </div>
+    <aside class="side">
+      <dl>
+
+        <dt>SOURCE</dt>
+        <dd>AINOW</dd>
+        <dt>PUBLISHED</dt>
+        <dd>2026-08-02</dd>
+        <dt>CATEGORY</dt>
+        <dd>ツール更新</dd>
+        <dt>LINKS</dt>
+        <dd><a href="https://ainow.ai/2026/08/02/278291/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e3%2581%25ae%25e4%25bd%259c%25e3%2582%258a%25e6%2596%25b9%25e3%2581%25af3%25e3%2583%2591%25e3%2582%25bf%25e3%2583%25bc%25e3%2583%25b3%25ef%25bc%2581%25e5%2588%259d%25e5%25bf%2583%25e8%2580%2585%25e5%2590%2591%25e3%2581%2591">https://ainow.ai/2026/08/02/278291/?utm_source=rss&utm_…</a></dd>
+      </dl>
+    </aside>
+  </div>
+</article>
+<div class="colophon">
+  <div class="left"><b>Now on <span class="brand-ai">AI</span>r</b> · AI Morning Intelligence · 山中秀斗 / TREPRO</div>
+  <div class="right">2026-08-02 DISPATCH</div>
+</div>
+
+<!-- Article Modal -->
+<div id="article-modal">
+  <div id="modal-box">
+    <div class="modal-head">
+      <span id="modal-cat"></span>
+      <button id="modal-close">CLOSE</button>
+    </div>
+    <div id="modal-slide-wrap" style="display:none;margin:0;overflow:hidden;border-bottom:1px solid var(--rule-2);text-align:center;background:var(--paper-2);">
+      <img id="modal-slide-img" src="" alt="" />
+    </div>
+    <div class="modal-body">
+      <h2 id="modal-title"></h2>
+      <p id="modal-lede"></p>
+      <div id="modal-kp"></div>
+      <div id="modal-pull"></div>
+      <div id="modal-bizapp">
+        <div class="bizapp-head">ビジネス活用ポイント</div>
+        <div class="bizapp-summary" id="modal-bizapp-summary"></div>
+        <ul class="bizapp-actions" id="modal-bizapp-actions"></ul>
+      </div>
+      <div id="modal-quickstart">
+        <div class="qs-head">明日からできる｜個人事業主・社長向け</div>
+        <div class="qs-headline" id="qs-headline"></div>
+        <div class="qs-meta">
+          <div class="qs-tool"><span class="qs-label">推奨ツール</span> <a id="qs-tool-link" href="#" target="_blank" rel="noopener"></a> <span id="qs-cost" class="qs-cost"></span></div>
+          <div class="qs-time"><span class="qs-label">所要時間</span> <span id="qs-time"></span></div>
+        </div>
+        <div class="qs-steps-wrap">
+          <div class="qs-section-label">3ステップで試す</div>
+          <ol class="qs-steps" id="qs-steps"></ol>
+        </div>
+        <div class="qs-prompt-wrap">
+          <div class="qs-section-label">コピペで使えるプロンプト</div>
+          <div class="qs-prompt" id="qs-prompt"></div>
+          <button class="qs-copy-btn" id="qs-copy-btn">プロンプトをコピー</button>
+        </div>
+        <div class="qs-roi" id="qs-roi"></div>
+      </div>
+      <div id="modal-icebreak">
+        <div class="ib-head">会話・商談で使える</div>
+        <div class="ib-hook" id="ib-hook"></div>
+        <div class="ib-punch" id="ib-punch"></div>
+        <div class="ib-ctx">
+          <div class="ib-ctx-item"><span class="ib-ctx-label">商談シーン</span><span id="ib-ctx-meeting"></span></div>
+          <div class="ib-ctx-item"><span class="ib-ctx-label">雑談シーン</span><span id="ib-ctx-chat"></span></div>
+        </div>
+        <div class="ib-share-wrap">
+          <div class="ib-share-label">SNSでそのまま使える一文</div>
+          <div class="ib-share" id="ib-share"></div>
+          <button class="ib-copy-btn" id="ib-copy-btn">この一文をコピー</button>
+        </div>
+      </div>
+      <div class="modal-foot">
+        <span id="modal-src"></span>
+        <span class="modal-share">
+          <a id="share-x" class="share-btn" href="#" target="_blank" rel="noopener" title="Xでシェア">X で共有</a>
+          <a id="share-line" class="share-btn" href="#" target="_blank" rel="noopener" title="LINEでシェア">LINE</a>
+          <button id="share-copy" class="share-btn" type="button" title="共有テキストをコピー">コピー</button>
+          <a id="modal-link" href="#" target="_blank" rel="noopener">元記事を読む →</a>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Image Lightbox -->
+<div class="lightbox-overlay" id="lightbox">
+  <button class="lightbox-close" id="lightbox-close">× CLOSE</button>
+  <img src="" id="lightbox-img" alt="" />
+</div>
+
+<script>
+(function(){
+  /* ── modal ── */
+  var modal=document.getElementById('article-modal');
+  var box=document.getElementById('modal-box');
+
+  function openModal(card){
+    var d=card.dataset;
+    document.getElementById('modal-cat').textContent=d.category||'';
+    document.getElementById('modal-title').textContent=d.title||'';
+    document.getElementById('modal-lede').textContent=d.lede||'';
+    document.getElementById('modal-src').textContent='SOURCE: '+(d.source||'');
+    var linkEl=document.getElementById('modal-link');
+    linkEl.href=d.link||'#';
+
+    /* share buttons（icebreak.share_text を優先・無ければ見出し）*/
+    var shareText=d.title||'';
+    try{ var ib=JSON.parse(d.icebreak||'null'); if(ib&&ib.share_text){shareText=ib.share_text;} }catch(e){}
+    var pageUrl=location.origin+location.pathname.replace(/index\.html$/,'')+(d.link?d.link.replace(/^\.\//,''):'').replace(/^\.\.\//,'');
+    var shareUrl=(d.link&&d.link.indexOf('http')===0)?d.link:location.href;
+    var full=shareText+' #NowonAIr';
+    var xEl=document.getElementById('share-x');
+    if(xEl)xEl.href='https://twitter.com/intent/tweet?text='+encodeURIComponent(full)+'&url='+encodeURIComponent(shareUrl);
+    var lineEl=document.getElementById('share-line');
+    if(lineEl)lineEl.href='https://line.me/R/msg/text/?'+encodeURIComponent(full+' '+shareUrl);
+    var copyEl=document.getElementById('share-copy');
+    if(copyEl)copyEl.onclick=function(){navigator.clipboard&&navigator.clipboard.writeText(full+' '+shareUrl);copyEl.textContent='コピー済';setTimeout(function(){copyEl.textContent='コピー';},1500);};
+
+    /* slide image */
+    var slideWrap=document.getElementById('modal-slide-wrap');
+    var slideImg=document.getElementById('modal-slide-img');
+    if(d.slide){
+      slideImg.src=d.slide; slideImg.alt=d.title||'';
+      slideWrap.style.display='block';
+    } else { slideWrap.style.display='none'; slideImg.src=''; }
+
+    /* keypoints */
+    var kpEl=document.getElementById('modal-kp');
+    kpEl.innerHTML='';
+    try{
+      var kps=JSON.parse(d.keypoints||'[]');
+      if(kps.length){
+        var ul=document.createElement('ul');
+        kps.forEach(function(kp,i){
+          var li=document.createElement('li');
+          var num=document.createElement('span');
+          num.className='kp-num';
+          num.textContent=String(i+1).padStart(2,'0');
+          li.appendChild(num);
+          li.appendChild(document.createTextNode(kp));
+          ul.appendChild(li);
+        });
+        kpEl.appendChild(ul);
+      }
+    }catch(e){}
+
+    /* pull */
+    var pullEl=document.getElementById('modal-pull');
+    if(d.pull){pullEl.textContent='「'+d.pull+'」';pullEl.style.display='block';}
+    else{pullEl.style.display='none';}
+
+    /* bizapp */
+    var bizEl=document.getElementById('modal-bizapp');
+    try{
+      var biz=JSON.parse(d.bizapp||'null');
+      if(biz&&biz.summary){
+        document.getElementById('modal-bizapp-summary').textContent=biz.summary;
+        var baList=document.getElementById('modal-bizapp-actions');
+        baList.innerHTML='';
+        var icons=['','',''];
+        (biz.actions||[]).forEach(function(act,i){
+          var li=document.createElement('li');
+          var ic=document.createElement('span');
+          ic.className='ba-icon';ic.textContent=icons[i]||'→';
+          li.appendChild(ic);li.appendChild(document.createTextNode(act));
+          baList.appendChild(li);
+        });
+        bizEl.style.display='block';
+      } else { bizEl.style.display='none'; }
+    }catch(e){ bizEl.style.display='none'; }
+
+    /* quickstart */
+    var qsEl=document.getElementById('modal-quickstart');
+    try{
+      var qs=JSON.parse(d.quickstart||'null');
+      if(qs&&qs.headline){
+        document.getElementById('qs-headline').textContent=qs.headline;
+        var toolLink=document.getElementById('qs-tool-link');
+        toolLink.textContent=(qs.tool&&qs.tool.name)||'';
+        toolLink.href=(qs.tool&&qs.tool.url)||'#';
+        document.getElementById('qs-cost').textContent=(qs.tool&&qs.tool.cost)?'· '+qs.tool.cost:'';
+        document.getElementById('qs-time').textContent=qs.time||'';
+        var stepsEl=document.getElementById('qs-steps');
+        stepsEl.innerHTML='';
+        (qs.steps||[]).forEach(function(step){
+          var li=document.createElement('li');
+          li.textContent=step;
+          stepsEl.appendChild(li);
+        });
+        var promptEl=document.getElementById('qs-prompt');
+        promptEl.textContent=qs.prompt||'';
+        var copyBtn=document.getElementById('qs-copy-btn');
+        copyBtn.onclick=function(){
+          navigator.clipboard.writeText(qs.prompt||'').then(function(){
+            copyBtn.textContent='コピー完了';
+            setTimeout(function(){copyBtn.textContent='プロンプトをコピー';},1800);
+          });
+        };
+        document.getElementById('qs-roi').textContent=qs.roi?'想定効果：'+qs.roi:'';
+        qsEl.style.display='block';
+      } else { qsEl.style.display='none'; }
+    }catch(e){ qsEl.style.display='none'; }
+
+    /* icebreak */
+    var ibEl=document.getElementById('modal-icebreak');
+    try{
+      var ib=JSON.parse(d.icebreak||'null');
+      if(ib&&ib.hook){
+        document.getElementById('ib-hook').textContent='「'+ib.hook+'」';
+        document.getElementById('ib-punch').textContent=ib.punchline||'';
+        document.getElementById('ib-ctx-meeting').textContent=ib.ctx_meeting||'';
+        document.getElementById('ib-ctx-chat').textContent=ib.ctx_chat||'';
+        document.getElementById('ib-share').textContent=ib.share_text||'';
+        var ibBtn=document.getElementById('ib-copy-btn');
+        ibBtn.onclick=function(){
+          navigator.clipboard.writeText(ib.share_text||'').then(function(){
+            ibBtn.textContent='コピー完了';
+            setTimeout(function(){ibBtn.textContent='この一文をコピー';},1800);
+          });
+        };
+        ibEl.style.display='block';
+      } else { ibEl.style.display='none'; }
+    }catch(e){ ibEl.style.display='none'; }
+
+    modal.style.display='flex';
+    modal.style.pointerEvents='auto';
+    requestAnimationFrame(function(){
+      modal.style.background='rgba(0,0,0,.72)';
+      box.classList.add('is-open');
+    });
+    document.body.style.overflow='hidden';
+  }
+
+  function closeModal(){
+    modal.style.background='rgba(0,0,0,0)';
+    box.classList.remove('is-open');
+    setTimeout(function(){modal.style.display='none';modal.style.pointerEvents='none';},280);
+    document.body.style.overflow='';
+  }
+
+  document.getElementById('modal-close').addEventListener('click',closeModal);
+  modal.addEventListener('click',function(e){if(e.target===modal)closeModal();});
+
+  /* card click → modal */
+  document.querySelectorAll('.img-card[data-title],.tcard[data-title]').forEach(function(card){
+    card.addEventListener('click',function(e){
+      if(e.target.tagName==='A')return;
+      openModal(card);
+    });
+  });
+
+  /* ── category filter ── */
+  document.querySelectorAll('.filter-pill').forEach(function(pill){
+    pill.addEventListener('click',function(){
+      var cat=pill.dataset.cat;
+      document.querySelectorAll('.filter-pill').forEach(function(p){p.classList.remove('active');});
+      pill.classList.add('active');
+      document.querySelectorAll('.tcard').forEach(function(c){
+        if(!cat||c.dataset.category===cat||cat==='ALL'){
+          c.style.opacity='1'; c.style.pointerEvents=''; c.style.transform='';
+        } else {
+          c.style.opacity='.2'; c.style.pointerEvents='none'; c.style.transform='scale(.97)';
+        }
+      });
+    });
+  });
+
+  /* ── image lightbox ── */
+  var overlay=document.getElementById('lightbox');
+  var img=document.getElementById('lightbox-img');
+  var close=document.getElementById('lightbox-close');
+  document.querySelectorAll('.zoom-image').forEach(function(el){
+    el.addEventListener('click',function(e){e.stopPropagation();
+      img.src=''; overlay.classList.add('is-open');
+      setTimeout(function(){ img.src=el.dataset.src; img.alt=el.dataset.alt||''; },20);
+    });
+  });
+  function closeBox(){
+    img.style.opacity='0'; img.style.transform='scale(0.93)';
+    setTimeout(function(){ overlay.classList.remove('is-open'); img.src=''; img.style.opacity=''; img.style.transform=''; },300);
+  }
+  close.addEventListener('click',closeBox);
+  overlay.addEventListener('click',function(e){if(e.target===overlay)closeBox();});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'){closeBox();closeModal();}});
+
+  /* ── scroll fade-in: .daily-topic (デイリーページ専用) ── */
+  var fadeEls=document.querySelectorAll('.daily-topic');
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(entries){
+      entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('is-visible');io.unobserve(e.target);}});
+    },{threshold:0.05,rootMargin:'0px 0px -24px 0px'});
+    fadeEls.forEach(function(el){io.observe(el);});
+  } else { fadeEls.forEach(function(el){el.classList.add('is-visible');}); }
+
+  /* ── dispatch ticker ── */
+  var row=document.querySelector('.dispatch');
+  if(row && row.dataset.ticker!=='off'){
+    var inner=row.innerHTML; row.innerHTML=inner+inner;
+    var pos=0,spd=0.4;
+    (function tick(){pos+=spd;if(pos>=row.scrollWidth/2)pos=0;row.scrollLeft=pos;requestAnimationFrame(tick);})();
+  }
+})();
+</script>
+
+</body>
+</html>
