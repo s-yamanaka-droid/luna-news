@@ -9,12 +9,16 @@ LLM 抽象レイヤー — Codex CLI をデフォルトに使用（ChatGPT Plus 
 import logging
 import os
 import re
+import shutil
 
 PROVIDER = os.environ.get("LLM_PROVIDER", "codex").lower()
 # 主プロバイダ失敗時に順に試す（重複は自動除去）
 FALLBACK_CHAIN = [p.strip() for p in os.environ.get(
     "LLM_FALLBACK_CHAIN", "codex,claude,openai").lower().split(",") if p.strip()]
 CODEX_TEXT_TIMEOUT = int(os.environ.get("CODEX_TEXT_TIMEOUT", "900"))   # Stage2 巨大プロンプト対応
+# codex は npm 版 / homebrew 版が併存し、古い方は新モデル(gpt-5.6-sol)で 400 になる。
+# PATH 上の最新を優先し、homebrew 固定パスは最後の保険にする（2026-08-04 6日間停止の真因）。
+CODEX_BIN = os.environ.get("CODEX_BIN") or shutil.which("codex") or "/opt/homebrew/bin/codex"
 
 log = logging.getLogger(__name__)
 
@@ -60,7 +64,7 @@ def _codex(system: str, user: str) -> str:
     # stdin=DEVNULL: 引数でprompt渡しても codex が stdin 待ちでハングする現象を防ぐ
     # （6/14 朝刊失敗の codex 側真因「Reading additional input from stdin」対策）
     proc = subprocess.run(
-        ["/opt/homebrew/bin/codex", "exec", "--skip-git-repo-check",
+        [CODEX_BIN, "exec", "--skip-git-repo-check",
          "--sandbox", "read-only", prompt],
         stdin=subprocess.DEVNULL,
         capture_output=True, text=True, timeout=CODEX_TEXT_TIMEOUT,
