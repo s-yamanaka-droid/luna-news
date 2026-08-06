@@ -7,6 +7,27 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。毎朝6:30、AI業界ニュースを図解と「明日からできる活用法」で。</description>
   <language>ja</language>
   <item>
+    <title>2026-08-07 AI朝刊：ChatGPT無料版、会話回数の上限を撤廃 ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-08-07/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-07/</guid>
+    <pubDate>Fri, 07 Aug 2026 06:30:00 +0900</pubDate>
+    <description>ChatGPT無料版、会話回数の上限を撤廃／AI管理体制を証明する「C認証」始動／ChatGPTにアドビ70機能を一括統合／Sakana AI、日本語特化LLM API開始／DeNA、kintone承認確認をAIで自動化</description>
+  </item>
+  <item>
+    <title>2026-08-06 AI朝刊：DynamoDB、超大規模ベクトル検索を標準搭載 ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-08-06/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-06/</guid>
+    <pubDate>Thu, 06 Aug 2026 06:30:00 +0900</pubDate>
+    <description>DynamoDB、超大規模ベクトル検索を標準搭載／米政府とAI大手、公開前安全審査を非公開協議／Airtable、12億8500万ドルで買収へ／AIエージェント、自由度の高い研究はまだ困難／AWS会場で鮮明、AIは「道具」から「働く相棒」へ</description>
+  </item>
+  <item>
+    <title>2026-08-05 AI朝刊：AI管理体制を第三者認証、JDLAが申請開始 ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-08-05/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-05/</guid>
+    <pubDate>Wed, 05 Aug 2026 06:30:00 +0900</pubDate>
+    <description>AI管理体制を第三者認証、JDLAが申請開始／Sakana AIと大和証券、資産管理支援AIを開発／DeNA、kintoneの申請確認をAIで自動化／Notionの専用AI、要望の聞き取りを自動化／端末内で動く小型AI「LFM2.5」登場</description>
+  </item>
+  <item>
     <title>2026-08-04 AI朝刊：Claudeの能力試験で実在3組織に不正アクセス ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-08-04/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-04/</guid>
@@ -152,20 +173,6 @@
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-13/</guid>
     <pubDate>Mon, 13 Jul 2026 06:30:00 +0900</pubDate>
     <description>GPT-5.6、業務AIの新標準に／ChatGPT Work、業務実行AIへ／Google検索データ、AI学習設定に注意／金融機関の生成AI導入、鍵はリスク整理／CopilotにGPT-5.6系モデル追加</description>
-  </item>
-  <item>
-    <title>2026-07-10 AI朝刊：ChatGPT、仕事を完了する相棒へ ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-07-10/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-10/</guid>
-    <pubDate>Fri, 10 Jul 2026 06:30:00 +0900</pubDate>
-    <description>ChatGPT、仕事を完了する相棒へ／GPT-5.6、Microsoft 365標準へ／ソフトバンク、全社RAGで業務削減／Adobe、生成AI制作手順を組織資産に／三菱自動車、国産ロボAI量産へ</description>
-  </item>
-  <item>
-    <title>2026-07-09 AI朝刊：MUFG、金融開発にAI本格導入 ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-07-09/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-09/</guid>
-    <pubDate>Thu, 09 Jul 2026 06:30:00 +0900</pubDate>
-    <description>MUFG、金融開発にAI本格導入／政府、フィジカルAIに10.5兆円投資／AWS、Claude利用を一元管理へ／Vercel Agent、本番障害を調査／OpenAI、国家安全保障の原則公開</description>
   </item>
 </channel>
 </rss>

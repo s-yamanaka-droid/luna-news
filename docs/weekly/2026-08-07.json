@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週は、無料AIの利用拡大と既存業務ツールへの統合が一気に進みました。小規模事業者は、制作と聞き取りの定型作業からAIへ移す好機です。まず1業務を選び、削減時間と成果を実測することが重要です。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-08-07",
+      "title": "ChatGPT無料版、会話回数の上限を撤廃",
+      "category": "新モデル発表",
+      "source": "OpenAI Blog",
+      "why_picked": "追加費用なしで全員の定型業務をすぐ省力化できる",
+      "tldr": "無料ChatGPTの文章会話が無制限に",
+      "action": "全員で一つの定型業務をAI化する",
+      "image": "../assets/images/2026-08-07/topic_1.png",
+      "link": "../news/2026-08-07/#topic-1"
+    },
+    {
+      "rank": 2,
+      "date": "2026-08-05",
+      "title": "Notionの専用AI、要望の聞き取りを自動化",
+      "category": "ツール更新",
+      "source": "LayerX エンジニアブログ",
+      "why_picked": "顧客や社内の聞き取り漏れと担当者待ちを減らせる",
+      "tldr": "AIが要望の聞き取りと情報収集を代行",
+      "action": "受付フォームの追加質問をAI化する",
+      "image": "../assets/images/2026-08-05/topic_4.png",
+      "link": "../news/2026-08-05/#topic-4"
+    },
+    {
+      "rank": 3,
+      "date": "2026-08-07",
+      "title": "ChatGPTにアドビ70機能を一括統合",
+      "category": "ツール更新",
+      "source": "Impress Watch AI",
+      "why_picked": "外注しがちな画像やPDF制作を対話だけで短縮できる",
+      "tldr": "Adobe制作機能をChatGPTから操作",
+      "action": "既存チラシを対話指示で作り直す",
+      "image": "../assets/images/2026-08-07/topic_3.png",
+      "link": "../news/2026-08-07/#topic-3"
+    }
+  ]
+}
