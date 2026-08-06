@@ -1,0 +1,202 @@
+[
+  {
+    "title": "AI管理体制を第三者認証、JDLAが申請開始",
+    "category": "政策・規制",
+    "source": "JDLA 日本ディープラーニング協会",
+    "lede": "JDLAが企業・自治体のAI管理体制を審査する「C認証」を創設し、8月4日に申請受付を開始した。",
+    "keypoints": [
+      "法人単位でAI管理体制を認証",
+      "利用AIの把握やリスク評価を審査",
+      "初回は9社を正式に認証",
+      "認証ロゴを営業資料などに表示可能"
+    ],
+    "pull": "AIを使う能力だけでなく、安全に管理する体制が企業の信用になる。",
+    "bizapp": {
+      "summary": "AI管理体制を取引先へ示し、導入への不安を減らせる。",
+      "actions": [
+        "社内活用例：利用中のAIを棚卸しする",
+        "他社提案例：中小企業の認証準備を支援",
+        "注目理由：審査対応が遅れると信用で劣後"
+      ]
+    },
+    "links": [
+      "https://www.jdla.org/news/20260804001/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Sakana AIと大和証券、資産管理支援AIを開発",
+    "category": "業界動向",
+    "source": "Sakana AI Blog",
+    "lede": "Sakana AIと大和証券グループの共同プロジェクトが本格展開へ移り、資産管理業務を支援するAI開発を始める。",
+    "keypoints": [
+      "共同事業が本格展開へ移行",
+      "資産管理業務をAIで支援",
+      "Sakana AIと大和証券が連携",
+      "金融実務でのAI活用を推進"
+    ],
+    "pull": "金融AIは実験段階から、現場業務を支える展開段階へ移り始めた。",
+    "bizapp": {
+      "summary": "資産管理の業務支援にAIを組み込む参考事例になる。",
+      "actions": [
+        "社内活用例：資産管理業務を棚卸しする",
+        "他社提案例：金融業務支援AIを企画",
+        "注目理由：検討を遅らせると実装経験で劣後"
+      ]
+    },
+    "links": [
+      "/daiwa-shoken-full-scale/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "DeNA、kintoneの申請確認をAIで自動化",
+    "category": "ツール更新",
+    "source": "DeNA Engineering",
+    "lede": "DeNAが予算・ツール名・法務確認を分担するAIを構築し、kintoneの承認前チェックを自動化した。",
+    "keypoints": [
+      "三つの定型確認をAIが分担",
+      "Google ADKで複数AIを構築",
+      "Vertex AI上で運用負荷を軽減",
+      "事前テストで動作を継続評価"
+    ],
+    "pull": "判断基準が明確で件数の多い確認業務は、AIに分担させやすい。",
+    "bizapp": {
+      "summary": "社内申請の照合と一次判定を自動化し、承認を速められる。",
+      "actions": [
+        "社内活用例：kintone申請をADKで確認",
+        "他社提案例：経費承認の照合を自動化",
+        "注目理由：放置すると申請増で承認が滞る"
+      ]
+    },
+    "links": [
+      "https://engineering.dena.com/blog/2026/08/kintone-approve-agent-adk-eval/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Notionの専用AI、要望の聞き取りを自動化",
+    "category": "ツール更新",
+    "source": "LayerX エンジニアブログ",
+    "lede": "LayerXはNotionの専用AIを使い、チケット起票直後の聞き取りや情報収集を自動化した。",
+    "keypoints": [
+      "起票を契機にAIが聞き取り",
+      "必要な背景情報を自動収集",
+      "実装面まで踏み込んで指摘",
+      "埋もれていた要望も拾いやすい"
+    ],
+    "pull": "AIが起票直後に動けば、記憶が新しいうちに要望の背景を残せる。",
+    "bizapp": {
+      "summary": "要望受付の初動を自動化し、担当者待ちと聞き漏れを減らせる。",
+      "actions": [
+        "社内活用例：Notionで要望を自動聞き取り",
+        "他社提案例：顧客要望の整理を自動化",
+        "注目理由：放置すると現場の要望を失う"
+      ]
+    },
+    "links": [
+      "https://tech.layerx.co.jp/entry/2026/08/04/160016"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "端末内で動く小型AI「LFM2.5」登場",
+    "category": "新モデル発表",
+    "source": "Hugging Face Blog",
+    "lede": "LFM2.5-2.6Bはパソコンやスマートフォン上で、外部ツール操作や複数手順の処理を実行できる。",
+    "keypoints": [
+      "端末内でAI処理を完結",
+      "外部ツール操作と連続作業に対応",
+      "必要メモリーは2.5GB未満",
+      "クラウド推論費なしで展開可能"
+    ],
+    "pull": "小型AIが端末で動けば、機密性と利用量に応じた費用を両立できる。",
+    "bizapp": {
+      "summary": "機密データを端末に残したまま、AIによる連続作業を導入できる。",
+      "actions": [
+        "社内活用例：LFM2.5を端末業務で検証",
+        "他社提案例：現場端末向けAIを提案",
+        "注目理由：放置するとクラウド費が膨らむ"
+      ]
+    },
+    "links": [
+      "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "医療AI、利用者の専門性で効果に差",
+    "category": "研究",
+    "source": "MIT News AI",
+    "lede": "MITなどの研究で、非専門家は誤ったAI診断にも従いやすく、臨床医はAIの誤りを見抜きやすいことが示された。",
+    "keypoints": [
+      "AI支援で診断精度は全体に改善",
+      "非専門家は誤回答も信頼しやすい",
+      "臨床医はAIの誤りを発見",
+      "説明方法の効果も知識量で異なる"
+    ],
+    "pull": "AIの説明を増やすだけでは不十分で、利用者の知識に合う設計が要る。",
+    "bizapp": {
+      "summary": "高リスク業務では、利用者の専門性に応じた確認手順が必要になる。",
+      "actions": [
+        "社内活用例：専門家確認を手順化する",
+        "他社提案例：AI回答の確認研修を設計",
+        "注目理由：誤回答の見逃しが判断事故を招く"
+      ]
+    },
+    "links": [
+      "https://news.mit.edu/2026/medical-ai-assistance-benefits-vary-based-on-user-expertise-0804"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "英国、職場監視AIの導入前協議を検討",
+    "category": "政策・規制",
+    "source": "The Register AI/ML",
+    "lede": "英国政府は、生産性採点や打鍵記録、生体情報監視などの導入前に、企業へ従業員との協議を求める案を検討している。",
+    "keypoints": [
+      "職場監視の現行ルールを再検討",
+      "AIによる生産性採点も対象",
+      "打鍵記録や生体情報監視を議論",
+      "法制化を含む選択肢を検討"
+    ],
+    "pull": "従業員を測るAIは、導入効果だけでなく合意形成も経営課題になる。",
+    "bizapp": {
+      "summary": "従業員監視AIの導入前に、目的と協議手順を整える必要がある。",
+      "actions": [
+        "社内活用例：監視ツールの利用状況を確認",
+        "他社提案例：導入前協議の設計を支援",
+        "注目理由：先行導入すると労使対立を招く"
+      ]
+    },
+    "links": [
+      "https://www.theregister.com/software/2026/08/04/uk-mulls-making-employers-ask-before-installing-bossware/5282440"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "NVIDIA、自動運転向け推論モデルを公開",
+    "category": "新モデル発表",
+    "source": "NVIDIA Developer Blog",
+    "lede": "NVIDIAが映像から走行経路や判断過程、場面情報を生成できる自動運転向けモデル「Alpamayo 2 Super」を発表した。",
+    "keypoints": [
+      "340億要素の公開モデル",
+      "最大7台のカメラ映像に対応",
+      "将来の走行経路を生成",
+      "判断過程と学習用ラベルも出力"
+    ],
+    "pull": "走行判断とデータ整備を一つのモデルで扱い、自動運転開発を共通化する。",
+    "bizapp": {
+      "summary": "自動運転の学習・評価・データ整備を共通モデルで進められる。",
+      "actions": [
+        "社内活用例：Alpamayoで走行評価を検証",
+        "他社提案例：車載映像の整理を支援",
+        "注目理由：未検証では開発共通化に出遅れる"
+      ]
+    },
+    "links": [
+      "https://developer.nvidia.com/blog/generate-trajectories-reasoning-traces-and-auto-labels-with-nvidia-alpamayo-2-super/"
+    ],
+    "likes": 0
+  }
+]
