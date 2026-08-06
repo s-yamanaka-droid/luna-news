@@ -1,0 +1,202 @@
+[
+  {
+    "title": "ChatGPT無料版、会話回数の上限を撤廃",
+    "category": "新モデル発表",
+    "source": "OpenAI Blog",
+    "lede": "無料版の標準モデルがGPT-5.6 Lunaになり、文章での会話を回数制限なく利用できるようになった。",
+    "keypoints": [
+      "無料版の文章チャットが無制限に",
+      "標準モデルをLunaへ更新",
+      "難問向けのThinkボタンを追加",
+      "有料版Solは正確性を改善"
+    ],
+    "pull": "生成AIが、利用回数を気にせず使える日常業務の基盤になる。",
+    "bizapp": {
+      "summary": "全社員が日常業務でAIを試せる環境づくりに使える。",
+      "actions": [
+        "ChatGPTで日常の調査業務に使える",
+        "中小企業向けAI定着支援を提案",
+        "今期中に試さないと導入判断が遅れる"
+      ]
+    },
+    "links": [
+      "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AI管理体制を証明する「C認証」始動",
+    "category": "政策・規制",
+    "source": "JDLA 日本ディープラーニング協会",
+    "lede": "JDLAが企業や自治体のAI管理体制を審査し、対外的な信頼の証明に使える第三者認証を開始した。",
+    "keypoints": [
+      "法人単位でAI管理体制を審査",
+      "利用AIの把握状況を確認",
+      "リスク評価と対応体制が対象",
+      "認証ロゴを営業資料に掲載可能"
+    ],
+    "pull": "AI活用の競争力は、性能だけでなく安全に運用できる体制で決まる。",
+    "bizapp": {
+      "summary": "AIの利用ルールと責任体制を取引先への信頼に変えられる。",
+      "actions": [
+        "利用AIの棚卸しと責任体制整備に使える",
+        "中小企業向け認証準備支援を提案",
+        "取引要件になる前に体制化しないと失注する"
+      ]
+    },
+    "links": [
+      "https://www.jdla.org/news/20260804001/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "ChatGPTにアドビ70機能を一括統合",
+    "category": "ツール更新",
+    "source": "Impress Watch AI",
+    "lede": "写真、動画、デザイン、PDFの制作を、ChatGPT上の対話からアドビ製ツールへ横断的に指示できる。",
+    "keypoints": [
+      "70以上のアドビ機能を統合",
+      "対話内容から適切な機能を選択",
+      "高度な編集は各アプリで継続",
+      "完成物はクラウドに保存"
+    ],
+    "pull": "制作担当者は、アプリを選ぶ前に完成イメージを言葉で伝えられる。",
+    "bizapp": {
+      "summary": "画像・動画・PDF制作の入口を一つの対話画面に集約できる。",
+      "actions": [
+        "AdobeでSNS素材制作業務に使える",
+        "採用動画と会社案内の一括制作を提案",
+        "今月試さないと制作時間の削減機会を失う"
+      ]
+    },
+    "links": [
+      "https://www.watch.impress.co.jp/docs/news/2131300.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Sakana AI、日本語特化LLM API開始",
+    "category": "新モデル発表",
+    "source": "Sakana AI Blog",
+    "lede": "Sakana AIが、日本語に特化したLLM（大規模言語モデル）のAPI「Sakana Namazu」の提供を始めた。",
+    "keypoints": [
+      "日本語に特化したLLM",
+      "API形式で提供開始",
+      "名称はSakana Namazu",
+      "日本語業務への組み込み候補"
+    ],
+    "pull": "日本語に特化したモデルが、業務システムへの新たな選択肢になる。",
+    "bizapp": {
+      "summary": "日本語を扱う社内システムのAI化候補として検証できる。",
+      "actions": [
+        "Sakana Namazuを日本語業務に使える",
+        "中小企業向け日本語AI導入を提案",
+        "次期開発前に比べないと選定機会を逃す"
+      ]
+    },
+    "links": [
+      "/namazu-api/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "DeNA、kintone承認確認をAIで自動化",
+    "category": "研究",
+    "source": "DeNA Engineering",
+    "lede": "予算、ツール名、法務確認の三つを別々のAIが点検し、kintoneの承認前作業を自動化した。",
+    "keypoints": [
+      "承認前の三つの確認を自動化",
+      "役割別にAIを分けて設計",
+      "Google ADKで構築",
+      "テストケースで挙動を継続評価"
+    ],
+    "pull": "判断基準が明確な大量の確認作業は、役割別AIで自動化できる。",
+    "bizapp": {
+      "summary": "申請承認の定型確認を自動化し、管理部門の負担を減らせる。",
+      "actions": [
+        "kintoneの申請確認業務に使える",
+        "バックオフィス承認自動化を提案",
+        "件数増加前に着手しないと確認工数が膨らむ"
+      ]
+    },
+    "links": [
+      "https://engineering.dena.com/blog/2026/08/kintone-approve-agent-adk-eval/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "DynamoDB、ベクトル検索を標準搭載",
+    "category": "ツール更新",
+    "source": "Amazon AWS News Blog",
+    "lede": "業務データと意味検索用データをDynamoDBにまとめ、別の検索基盤へ複製せずAI検索を構築できる。",
+    "keypoints": [
+      "ベクトル検索を正式提供",
+      "業務データと検索情報を同居",
+      "別の検索基盤への複製が不要",
+      "サーバー管理なしで拡張可能"
+    ],
+    "pull": "AI検索のためだけにデータを別システムへ移す手間を減らせる。",
+    "bizapp": {
+      "summary": "既存データを生かした社内検索や推薦機能を簡素化できる。",
+      "actions": [
+        "DynamoDBで社内検索業務に使える",
+        "顧客別の商品推薦機能を提案",
+        "次期改修前に比べないと二重管理が残る"
+      ]
+    },
+    "links": [
+      "https://aws.amazon.com/blogs/aws/amazon-dynamodb-now-supports-real-time-vector-search-at-any-scale/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "MCP刷新、AIと外部サービス接続を簡素化",
+    "category": "ツール更新",
+    "source": "Cloudflare Blog",
+    "lede": "AIと外部サービスをつなぐMCPが状態を保持しない方式へ刷新され、サーバー運用の複雑さを減らした。",
+    "keypoints": [
+      "MCPを状態不要の方式へ刷新",
+      "接続維持の管理負担を軽減",
+      "主要四言語の開発部品を更新",
+      "Web基盤へ載せやすい設計に"
+    ],
+    "pull": "AI連携の標準化が、個別接続を作り続ける開発負担を減らす。",
+    "bizapp": {
+      "summary": "AIと社内サービスをつなぐ基盤の開発・運用を簡素化できる。",
+      "actions": [
+        "MCP対応サービスの接続設計に使える",
+        "中小企業向け社内連携基盤を提案",
+        "改修計画前に確認しないと旧設計が残る"
+      ]
+    },
+    "links": [
+      "https://blog.cloudflare.com/mcp-v2/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Anthropic、Claude向け半導体を自社設計へ",
+    "category": "業界動向",
+    "source": "Ars Technica AI",
+    "lede": "AnthropicがClaudeを動かす独自半導体の設計チームを採用し、外部製品も併用する方針を示した。",
+    "keypoints": [
+      "独自半導体の設計チームを採用",
+      "Claude向け基盤を自社開発へ",
+      "外部企業の半導体も併用",
+      "複数製品を使う方針を維持"
+    ],
+    "pull": "AI企業の競争は、モデルだけでなく計算基盤の自社設計へ広がる。",
+    "bizapp": {
+      "summary": "AI調達ではモデルだけでなく計算基盤の変化も見る必要がある。",
+      "actions": [
+        "AI調達で半導体への依存を点検する",
+        "経営層向けAI基盤動向調査を提案",
+        "来期予算前に見ないと調達判断が遅れる"
+      ]
+    },
+    "links": [
+      "https://arstechnica.com/ai/2026/08/anthropic-confirms-plans-to-build-an-in-house-silicon-team/"
+    ],
+    "likes": 0
+  }
+]
