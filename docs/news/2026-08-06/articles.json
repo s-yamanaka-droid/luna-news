@@ -1,0 +1,202 @@
+[
+  {
+    "title": "DynamoDB、超大規模ベクトル検索を標準搭載",
+    "category": "ツール更新",
+    "source": "Amazon AWS News Blog",
+    "lede": "業務データを別の検索基盤へ複製せず、DynamoDB上で意味の近い情報を高速検索できるようになった。",
+    "keypoints": [
+      "運用データとベクトルを一体保存",
+      "検索時間は一桁ミリ秒",
+      "検索精度は99％以上",
+      "数兆件規模まで拡張可能"
+    ],
+    "pull": "AI検索のために別データベースを持つ必要がなくなる",
+    "bizapp": {
+      "summary": "社内検索や推薦機能の基盤をDynamoDBへ集約できる",
+      "actions": [
+        "DynamoDBで社内検索基盤を一体化",
+        "顧客向け推薦・問い合わせ検索を提案",
+        "別基盤の保守を続けるとコスト増"
+      ]
+    },
+    "links": [
+      "https://aws.amazon.com/blogs/aws/amazon-dynamodb-now-supports-real-time-vector-search-at-any-scale/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "米政府とAI大手、公開前安全審査を非公開協議",
+    "category": "政策・規制",
+    "source": "SiliconANGLE AI",
+    "lede": "米政府と主要AI企業が、高性能AIモデルを公開前に政府が審査する安全枠組みについて協議した。",
+    "keypoints": [
+      "政府による公開前審査を検討",
+      "主要AI企業が協議に参加",
+      "協議内容の公開予定は未定",
+      "制御不能への懸念が背景"
+    ],
+    "pull": "AI競争の焦点が性能だけでなく公開前の統制へ移っている",
+    "bizapp": {
+      "summary": "高性能AIの調達では公開前評価と利用停止手順が必要になる",
+      "actions": [
+        "公開前評価の社内基準を整備",
+        "AI提供企業向け安全監査を提案",
+        "非公開協議を無視すると規制対応で後手"
+      ]
+    },
+    "links": [
+      "https://siliconangle.com/2026/08/04/white-house-ai-firms-keep-safety-framework-talks-private/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Airtable、12億8500万ドルで買収へ",
+    "category": "業界動向",
+    "source": "SiliconANGLE AI",
+    "lede": "Bending Spoonsが、業務管理基盤Airtableを現金12億8500万ドルで買収する計画を発表した。",
+    "keypoints": [
+      "全額現金による買収計画",
+      "買収額は累計調達額を下回る",
+      "2021年の評価額から大幅低下",
+      "買収元は製品改善の実績あり"
+    ],
+    "pull": "高評価だった業務基盤にも収益性を問う再編の波が及んだ",
+    "bizapp": {
+      "summary": "Airtable依存業務の契約とデータ管理を点検すべき局面",
+      "actions": [
+        "Airtableの依存業務を棚卸し",
+        "中小企業へ業務基盤整理を提案",
+        "買収後まで放置すると移行判断が遅れる"
+      ]
+    },
+    "links": [
+      "https://siliconangle.com/2026/08/04/bending-spoons-acquire-productivity-software-startup-airtable-1-285b/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AIエージェント、自由度の高い研究はまだ困難",
+    "category": "研究",
+    "source": "AI Snake Oil",
+    "lede": "二つの事例研究から、成果を簡単に判定できない自由度の高いAI研究は、まだ自動化が難しいと指摘された。",
+    "keypoints": [
+      "先端企業はAI研究の自動化を目指す",
+      "既存評価は狭い課題が中心",
+      "研究成果は即座に判定できない",
+      "仮説修正や後戻りが必要"
+    ],
+    "pull": "採点しやすい課題での成功は、研究全体の自動化を意味しない",
+    "bizapp": {
+      "summary": "答えが曖昧な調査や企画では人の判断を残す必要がある",
+      "actions": [
+        "研究判断には人のレビューを残す",
+        "AI研究代行の過剰提案を見直す",
+        "全面自動化すると誤判断を見逃す"
+      ]
+    },
+    "links": [
+      "https://www.normaltech.ai/p/ai-agents-cant-yet-do-open-ended"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AWS会場で鮮明、AIは「道具」から「働く相棒」へ",
+    "category": "業界動向",
+    "source": "NRIネットコム Blog",
+    "lede": "AWS Summit Japan 2026では、自ら計画して作業するAIエージェントが主要テーマとして存在感を示した。",
+    "keypoints": [
+      "主役は自律型AIエージェント",
+      "AIが作業道具から相棒へ変化",
+      "物理世界で動くAIも登場",
+      "現場自身が自動化を組める"
+    ],
+    "pull": "AI活用は文章作成から、仕事を任せる段階へ進み始めた",
+    "bizapp": {
+      "summary": "定型作業をAIへ任せる業務フローづくりに使える",
+      "actions": [
+        "Amazon Quickで定型業務を自動化",
+        "現場主導の自動化研修を提案",
+        "試行を遅らせると業務設計で後手"
+      ]
+    },
+    "links": [
+      "https://tech.nri-net.com/entry/ai_agents_becoming_working_partners"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "DESIGN.md、AI制作のデザインぶれを抑制",
+    "category": "ツール更新",
+    "source": "Zenn トレンド",
+    "lede": "デザイン方針を一つのファイルでAIに共有すると、担当者や作業日が変わっても色や書体を統一しやすくなる。",
+    "keypoints": [
+      "実物74件で効果を測定",
+      "色や書体の指示を統一",
+      "見やすさを機械確認できる",
+      "ファイルだけでは画面生成不可"
+    ],
+    "pull": "AI制作の品質は曖昧な指示より共有可能な設計値で安定する",
+    "bizapp": {
+      "summary": "複数人のAI制作でもブランド表現をそろえやすくなる",
+      "actions": [
+        "DESIGN.mdでブランド値を共有",
+        "中小企業のWeb制作標準化を提案",
+        "未整備ではAI制作の手戻りが続く"
+      ]
+    },
+    "links": [
+      "https://zenn.dev/ait/articles/google-design-md-measured"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "安全重視のnpm代替「vlt」正式版",
+    "category": "セキュリティ",
+    "source": "Publickey",
+    "lede": "JavaScriptの部品管理を安全にするnpm互換の「vlt」が正式版となり、関連サービスの提供も始まった。",
+    "keypoints": [
+      "npm互換の正式版を公開",
+      "安全性を重視した設計",
+      "npmの複製保管機能を提供",
+      "非公開の部品保管にも対応"
+    ],
+    "pull": "部品の導入速度だけでなく、導入時に何を実行させるかが問われる",
+    "bizapp": {
+      "summary": "外部部品を導入する開発工程の安全性を見直す選択肢になる",
+      "actions": [
+        "vltで依存部品の導入を検証",
+        "中小開発会社へ部品管理を提案",
+        "無検証の導入は悪意ある処理を招く"
+      ]
+    },
+    "links": [
+      "https://www.publickey1.jp/blog/26/npmvlt10npm.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "センサー×LLM、人の行動認識を検証",
+    "category": "研究",
+    "source": "ABEJA Tech Blog",
+    "lede": "加速度などのセンサーデータを扱うSensorLLMを使い、人間の行動を認識する方法が検証された。",
+    "keypoints": [
+      "物理世界の情報をAIで扱う",
+      "加速度などのセンサーに対応",
+      "SensorLLMで行動認識を検証",
+      "フィジカルAIの知覚に応用"
+    ],
+    "pull": "AIが現場で動くには、文章だけでなく物理世界の知覚が要る",
+    "bizapp": {
+      "summary": "現場の動作データを業務改善へつなげる検証に使える",
+      "actions": [
+        "SensorLLMで現場動作を検証",
+        "作業行動の把握実験を他社へ提案",
+        "計測を先送りすると学習データが残らない"
+      ]
+    },
+    "links": [
+      "https://tech-blog.abeja.asia/entry/sensorllm-human-activity-recognition-202608"
+    ],
+    "likes": 0
+  }
+]
