@@ -1,0 +1,202 @@
+[
+  {
+    "title": "AI音声の無断利用、既存の権利で保護へ",
+    "category": "政策・規制",
+    "source": "ITmedia AI+",
+    "lede": "法務省は、本人を模したAI音声の無断利用がパブリシティー権などの侵害になり得るとの見解を示した。",
+    "keypoints": [
+      "声も既存の権利で保護できる",
+      "無断のAIカバーも侵害の可能性",
+      "収益化した公開は特に注意",
+      "ものまねや声まねは原則対象外"
+    ],
+    "pull": "AI音声の活用では、生成技術より先に本人の権利確認が必要になる。",
+    "bizapp": {
+      "summary": "広告や動画で使うAI音声の事前審査が必須になる",
+      "actions": [
+        "社内の音声利用を公開前審査へ",
+        "採用動画に本人同意の工程を提案",
+        "確認を怠ると公開後に信用を失う"
+      ]
+    },
+    "links": [
+      "https://www.itmedia.co.jp/aiplus/article/2608/07/2000000452/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AI管理体制を第三者認証、JDLAが新制度",
+    "category": "政策・規制",
+    "source": "JDLA 日本ディープラーニング協会",
+    "lede": "JDLAは、企業や自治体のAI管理体制と運用の仕組みを法人単位で審査する「C認証」の申請受付を始めた。",
+    "keypoints": [
+      "AI管理体制を第三者が認証",
+      "企業と自治体を法人単位で審査",
+      "利用AIの把握やリスク評価が対象",
+      "取得事実を営業資料などに表示可能"
+    ],
+    "pull": "AIを使っているだけでなく、安全に管理できる組織かが問われ始めた。",
+    "bizapp": {
+      "summary": "AI管理体制を取引先への信頼材料として示せる",
+      "actions": [
+        "利用中のAIと責任部署を棚卸し",
+        "中小企業向け認証準備支援を提案",
+        "整備が遅れると取引先の信頼を失う"
+      ]
+    },
+    "links": [
+      "https://www.jdla.org/news/20260804001/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "OpenAI新モデル、重大なサイバー能力を警戒",
+    "category": "セキュリティ",
+    "source": "OpenAI Blog",
+    "lede": "OpenAIは開発中のモデル「Astra」について、重大なサイバー能力を持つ可能性を排除できないとの評価を公表した。",
+    "keypoints": [
+      "Astraの内部評価結果を公表",
+      "自律的な開発能力が大幅に向上",
+      "サイバー攻撃への転用も懸念",
+      "安全策と管理強化を進める"
+    ],
+    "pull": "高性能AIは防御を強める一方、攻撃の速度と規模も変え得る。",
+    "bizapp": {
+      "summary": "高度なAIを前提にサイバー防御を見直す必要がある",
+      "actions": [
+        "重要システムの権限設定を再点検",
+        "中小企業向けAI脅威診断を提案",
+        "導入前に守りを固めないと被害が拡大"
+      ]
+    },
+    "links": [
+      "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AIエージェント部品、6社が共通規格化",
+    "category": "業界動向",
+    "source": "Gihyo.jp",
+    "lede": "AWS、OpenAI、GitHubなど6社が、AIエージェントの機能を異なる対応環境で再利用する共通規格を発表した。",
+    "keypoints": [
+      "6社が共通規格の策定に参加",
+      "エージェント機能を持ち運べる",
+      "スキルを共通形式で梱包",
+      "MCPサーバー設定にも対応"
+    ],
+    "pull": "一度作ったAIエージェント機能を、複数環境で使う流れが始まる。",
+    "bizapp": {
+      "summary": "AI機能の再利用で開発と乗り換えの負担を減らせる",
+      "actions": [
+        "社内スキルを共通形式で整理",
+        "業務別プラグイン導入を企業へ提案",
+        "独自形式のままだと移行費が膨らむ"
+      ]
+    },
+    "links": [
+      "https://gihyo.jp/article/2026/08/agent-plugins?utm_source=feed"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Google検索、文字入力から対話型AIへ転換",
+    "category": "ツール更新",
+    "source": "VentureBeat AI",
+    "lede": "Googleは検索欄を刷新し、文章だけでなく画像やPDF、動画、開いているタブも使える対話型の検索へ移行する。",
+    "keypoints": [
+      "検索欄を対話の起点へ刷新",
+      "画像やPDF、動画も入力可能",
+      "開いているタブも参照できる",
+      "従来検索とAI検索を一体化"
+    ],
+    "pull": "検索はキーワードを入れる場所から、資料を渡して相談する場所へ変わる。",
+    "bizapp": {
+      "summary": "複数資料をまとめて調べる情報収集が速くなる",
+      "actions": [
+        "Google検索でPDF比較を試す",
+        "営業向け競合調査の刷新を提案",
+        "従来SEOだけでは顧客接点を失う"
+      ]
+    },
+    "links": [
+      "https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Codex、GitHub変更の安全性を自動審査",
+    "category": "セキュリティ",
+    "source": "Gihyo.jp",
+    "lede": "OpenAIは、GitHubの変更内容と関連設定を分析し、セキュリティ上の指摘を投稿する機能を研究公開した。",
+    "keypoints": [
+      "変更差分と関連情報を分析",
+      "指摘をGitHub上へ直接投稿",
+      "固有の脅威モデルも参照可能",
+      "Plusプランは利用対象外"
+    ],
+    "pull": "コードの品質確認と安全性の深掘りを、別の観点で自動化できる。",
+    "bizapp": {
+      "summary": "公開前の安全確認を開発工程へ組み込める",
+      "actions": [
+        "GitHubの重要変更で試験利用",
+        "開発会社へ自動安全審査を提案",
+        "確認を省くと脆弱性を本番へ持ち込む"
+      ]
+    },
+    "links": [
+      "https://gihyo.jp/article/2026/08/codex-security-review?utm_source=feed"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "DeNA、既存基盤で全社AIコストを管理",
+    "category": "業界動向",
+    "source": "DeNA Engineering",
+    "lede": "DeNAは既存のクラウド費用管理基盤を流用し、急増するAIコストをプロジェクトやチーム単位で可視化している。",
+    "keypoints": [
+      "全社でAI活用を推進",
+      "既存の費用管理基盤を流用",
+      "千超のクラウド口座を一括管理",
+      "チーム単位でAI費用を可視化"
+    ],
+    "pull": "AI活用を広げるには、現場を止めずに費用を見える化する基盤が要る。",
+    "bizapp": {
+      "summary": "AI費用を部署別に見える化し、投資判断へつなげられる",
+      "actions": [
+        "BigQueryとLookerで費用を可視化",
+        "中小企業へAI費用管理を提案",
+        "予算策定前に整理しないと費用が膨張"
+      ]
+    },
+    "links": [
+      "https://engineering.dena.com/blog/2026/08/ai-token-cost-report/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Gemini新モデル、複数ロボットの協働を実現",
+    "category": "新モデル発表",
+    "source": "Google DeepMind Blog",
+    "lede": "Google DeepMindは、映像を理解して作業を計画し、複数のロボットを連携させる「Gemini Robotics ER 2」を公開した。",
+    "keypoints": [
+      "ロボットの上位頭脳として動作",
+      "空間をリアルタイムで理解",
+      "複数工程の作業を計画",
+      "異なるロボット同士が協働"
+    ],
+    "pull": "ロボットは単体の自動化から、役割を分担して働く段階へ進む。",
+    "bizapp": {
+      "summary": "複数ロボットを使う現場業務の再設計に活用できる",
+      "actions": [
+        "Gemini APIで現場作業を検証",
+        "物流や製造の協働実証を提案",
+        "検証を遅らせると自動化経験で後れ"
+      ]
+    },
+    "links": [
+      "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/"
+    ],
+    "likes": 0
+  }
+]
