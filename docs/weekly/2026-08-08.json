@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週は、無料AIの利用拡大と制作ツールへの統合が一気に進んだ。小規模事業者でも、文章・画像・動画制作を低コストで内製化しやすくなった。成果を出す鍵は、全員で試しつつ制作ルールを共通化することだ。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-08-07",
+      "title": "ChatGPT無料版、会話回数の上限を撤廃",
+      "category": "新モデル発表",
+      "source": "OpenAI Blog",
+      "why_picked": "追加費用なしで全員の事務作業をすぐ効率化できる",
+      "tldr": "無料ChatGPTが文章チャット無制限に",
+      "action": "全員で一つの定型業務をAI化する",
+      "image": "../assets/images/2026-08-07/topic_1.png",
+      "link": "../news/2026-08-07/#topic-1"
+    },
+    {
+      "rank": 2,
+      "date": "2026-08-07",
+      "title": "ChatGPTにアドビ70機能を一括統合",
+      "category": "ツール更新",
+      "source": "Impress Watch AI",
+      "why_picked": "販促物の制作時間と外注費を同時に削減できる",
+      "tldr": "画像・動画・PDF制作を対話で横断",
+      "action": "既存の販促物を一つ作り直してみる",
+      "image": "../assets/images/2026-08-07/topic_3.png",
+      "link": "../news/2026-08-07/#topic-3"
+    },
+    {
+      "rank": 3,
+      "date": "2026-08-06",
+      "title": "DESIGN.md、AI制作のデザインぶれを抑制",
+      "category": "ツール更新",
+      "source": "Zenn トレンド",
+      "why_picked": "少人数でも制作物の統一感を保ち差別化できる",
+      "tldr": "一つの指針でAI制作の品質を統一",
+      "action": "自社の色・書体・禁止例を一枚にする",
+      "image": "../assets/images/2026-08-06/topic_6.png",
+      "link": "../news/2026-08-06/#topic-6"
+    }
+  ]
+}
