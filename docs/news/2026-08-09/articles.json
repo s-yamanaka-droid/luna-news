@@ -1,0 +1,202 @@
+[
+  {
+    "title": "AI管理体制を第三者認証、JDLAが申請開始",
+    "category": "政策・規制",
+    "source": "JDLA 日本ディープラーニング協会",
+    "lede": "企業・自治体のAI管理体制を審査する「C認証」が始まり、安全な活用を対外的に示せるようになった。",
+    "keypoints": [
+      "8月4日から一般申請を受付",
+      "法人単位で管理体制を審査",
+      "利用AIの把握やリスク評価が対象",
+      "初回は9社が認証を取得"
+    ],
+    "pull": "AI活用の信頼性を、自己申告ではなく第三者認証で示す時代になる。",
+    "bizapp": {
+      "summary": "AIの利用状況と責任体制を整え、取引先への信頼材料に使える。",
+      "actions": [
+        "社内活用例：利用AI台帳と責任者を整備",
+        "他社提案例：中小企業向け認証準備を支援",
+        "注目理由：未整備では取引先の信頼を失う"
+      ]
+    },
+    "links": [
+      "https://www.jdla.org/news/20260804001/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AIエージェント部品、6社が共通規格化",
+    "category": "業界動向",
+    "source": "Gihyo.jp",
+    "lede": "主要6社が、AIエージェントのスキルや接続設定を異なる対応製品で再利用する共通規格を発表した。",
+    "keypoints": [
+      "主要6社が規格策定に参加",
+      "初版はバージョン1.0.0",
+      "エージェントスキルを共通化",
+      "MCPサーバー設定にも対応"
+    ],
+    "pull": "一度作ったAI機能を、対応する複数のエージェントで使い回せる。",
+    "bizapp": {
+      "summary": "社内AIの部品を共通化し、製品変更時の作り直しを減らせる。",
+      "actions": [
+        "社内活用例：Agent Pluginsで技能を共通化",
+        "他社提案例：営業支援機能を再利用部品化",
+        "注目理由：独自形式のままでは移行費が膨らむ"
+      ]
+    },
+    "links": [
+      "https://gihyo.jp/article/2026/08/agent-plugins?utm_source=feed"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "OpenAI新モデル、重大なサイバー能力の可能性",
+    "category": "セキュリティ",
+    "source": "OpenAI Blog",
+    "lede": "開発中の「Astra」が高度な自律コーディングとサイバー能力を示し、OpenAIが安全対策の強化を表明した。",
+    "keypoints": [
+      "開発中モデルAstraを評価",
+      "自律コーディング能力が進展",
+      "重大なサイバー能力を否定できず",
+      "安全管理策の強化を進める"
+    ],
+    "pull": "AIの開発力向上は、防御強化と攻撃拡大の両方を加速させる。",
+    "bizapp": {
+      "summary": "高性能AIの導入前に、権限管理と利用監視を経営課題として扱うべきだ。",
+      "actions": [
+        "社内活用例：Astra導入前の権限を棚卸し",
+        "他社提案例：AI利用の監視体制を設計",
+        "注目理由：後回しでは攻撃速度に対処できない"
+      ]
+    },
+    "links": [
+      "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "NVIDIA、AI処理費を10分の1へ",
+    "category": "新モデル発表",
+    "source": "NVIDIA AI Blog",
+    "lede": "NVIDIAが6チップ構成のAI基盤「Rubin」と、自動運転向けの公開推論モデル群を発表した。",
+    "keypoints": [
+      "Rubinは6チップのAI基盤",
+      "すでに本格生産へ移行",
+      "生成費用を従来比約10分の1へ",
+      "自動運転向け公開モデルも発表"
+    ],
+    "pull": "AIの性能競争は、導入できる価格まで下げる競争へ移っている。",
+    "bizapp": {
+      "summary": "大規模AIの採算条件が変わり、止めていた案件を再評価できる。",
+      "actions": [
+        "社内活用例：Rubin前提で処理費を再試算",
+        "他社提案例：大規模AIの採算を再設計",
+        "注目理由：旧単価のままでは投資機会を逃す"
+      ]
+    },
+    "links": [
+      "https://blogs.nvidia.com/blog/2026-ces-special-presentation/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "DynamoDB、リアルタイム類似検索に対応",
+    "category": "ツール更新",
+    "source": "Amazon AWS News Blog",
+    "lede": "DynamoDBが文章などの意味的な類似検索に標準対応し、別の検索用データベースへの複製が不要になった。",
+    "keypoints": [
+      "ベクトル検索を標準搭載",
+      "検索遅延は1桁ミリ秒",
+      "検索再現率は99％以上",
+      "数兆規模のデータにも対応"
+    ],
+    "pull": "業務データとAI検索を一カ所に置き、構成と運用を簡素化できる。",
+    "bizapp": {
+      "summary": "社内検索や推薦機能を、データ複製なしで構築しやすくなる。",
+      "actions": [
+        "社内活用例：DynamoDBで社内検索を構築",
+        "他社提案例：商品推薦の基盤を簡素化",
+        "注目理由：別基盤を維持すると運用費が残る"
+      ]
+    },
+    "links": [
+      "https://aws.amazon.com/blogs/aws/amazon-dynamodb-now-supports-real-time-vector-search-at-any-scale/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Codex、コード変更の安全性を自動審査",
+    "category": "ツール更新",
+    "source": "Gihyo.jp",
+    "lede": "OpenAIがGitHub上のコード変更を調べ、セキュリティ上の指摘を投稿する新機能を試験公開した。",
+    "keypoints": [
+      "コード差分と関連情報を分析",
+      "脅威モデルも前提にできる",
+      "指摘をGitHub上へ直接投稿",
+      "Plusプランは対象外"
+    ],
+    "pull": "一般的なコード確認とは別に、固有のセキュリティリスクを深掘りする。",
+    "bizapp": {
+      "summary": "コード公開前の安全確認を開発工程へ組み込み、見落としを減らせる。",
+      "actions": [
+        "社内活用例：Codexで変更ごとに安全確認",
+        "他社提案例：中小開発会社の審査を標準化",
+        "注目理由：確認なしでは脆弱性が本番に残る"
+      ]
+    },
+    "links": [
+      "https://gihyo.jp/article/2026/08/codex-security-review?utm_source=feed"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Gemini、複数ロボットの協働を可能に",
+    "category": "新モデル発表",
+    "source": "Google DeepMind Blog",
+    "lede": "新モデル「Gemini Robotics ER 2」が映像を理解し、複数工程の計画や異なるロボット同士の協働を担う。",
+    "keypoints": [
+      "ロボットの上位頭脳として動作",
+      "空間をリアルタイムに把握",
+      "複数工程の作業を計画",
+      "異なるロボット同士が協働"
+    ],
+    "pull": "ロボット単体の自動化から、複数台が役割分担する現場へ進む。",
+    "bizapp": {
+      "summary": "物流や製造の複数工程を、協働ロボット前提で再設計できる。",
+      "actions": [
+        "社内活用例：AI Studioで作業を試作",
+        "他社提案例：物流工程の協働化を提案",
+        "注目理由：単体自動化のままでは効率差が開く"
+      ]
+    },
+    "links": [
+      "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "最新LLMにも脆弱性、日英両面で検証",
+    "category": "研究",
+    "source": "富士通研究所 fltech",
+    "lede": "富士通が最新の大規模言語モデルを日英で検査し、攻撃耐性の向上と残存する脆弱性の両方を確認した。",
+    "keypoints": [
+      "最新3モデルを安全性評価",
+      "日本語と英語の両方で検査",
+      "攻撃耐性は全般的に向上",
+      "継続的な評価と対策が必要"
+    ],
+    "pull": "新しいモデルほど安全とは限らず、利用言語ごとの検査が欠かせない。",
+    "bizapp": {
+      "summary": "導入前と更新後に日本語を含む安全性検査を行う必要がある。",
+      "actions": [
+        "社内活用例：脆弱性スキャナーで日英検査",
+        "他社提案例：導入AIの定期診断を提供",
+        "注目理由：更新後の未検査では弱点を見逃す"
+      ]
+    },
+    "links": [
+      "https://blog.fltech.dev/entry/2026/07/30/llm-sec?utm_source=feed"
+    ],
+    "likes": 0
+  }
+]
