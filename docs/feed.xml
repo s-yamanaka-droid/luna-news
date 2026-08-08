@@ -7,6 +7,13 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。毎朝6:30、AI業界ニュースを図解と「明日からできる活用法」で。</description>
   <language>ja</language>
   <item>
+    <title>2026-08-09 AI朝刊：AI管理体制を第三者認証、JDLAが申請開始 ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-08-09/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-09/</guid>
+    <pubDate>Sun, 09 Aug 2026 06:30:00 +0900</pubDate>
+    <description>AI管理体制を第三者認証、JDLAが申請開始／AIエージェント部品、6社が共通規格化／OpenAI新モデル、重大なサイバー能力の可能性／NVIDIA、AI処理費を10分の1へ／DynamoDB、リアルタイム類似検索に対応</description>
+  </item>
+  <item>
     <title>2026-08-08 AI朝刊：AI音声の無断利用、既存の権利で保護へ ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-08-08/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-08/</guid>
@@ -173,13 +180,6 @@
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-14/</guid>
     <pubDate>Tue, 14 Jul 2026 06:30:00 +0900</pubDate>
     <description>みずほFG、Claude Code全社活用でAIネイティブ変革へ／デジタル庁、国産LLM3モデルを政府AI「源内」で評価開始／Apple、OpenAIを提訴　元社員が営業秘密流出と主張／OpenAI GPT-5.6シリーズ、AWS Bedrockで正式提供開始／アニメ特化動画生成AI「AnimeGen」無償公開　商用も可</description>
-  </item>
-  <item>
-    <title>2026-07-13 AI朝刊：GPT-5.6、業務AIの新標準に ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-07-13/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-13/</guid>
-    <pubDate>Mon, 13 Jul 2026 06:30:00 +0900</pubDate>
-    <description>GPT-5.6、業務AIの新標準に／ChatGPT Work、業務実行AIへ／Google検索データ、AI学習設定に注意／金融機関の生成AI導入、鍵はリスク整理／CopilotにGPT-5.6系モデル追加</description>
   </item>
 </channel>
 </rss>

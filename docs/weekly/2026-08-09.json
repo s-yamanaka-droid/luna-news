@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週は、無料AIの利用枠拡大と制作ツール統合で、小規模事業者の導入コストが一段下がった。次の焦点は、申請・要望受付など定型業務をAIへ移すこと。まず一業務を選び、予算上限と人の確認を付けて試す週だ。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-08-07",
+      "title": "ChatGPT無料版、会話回数の上限を撤廃",
+      "category": "新モデル発表",
+      "source": "OpenAI Blog",
+      "why_picked": "追加費用なしで全員の業務効率化を始められる",
+      "tldr": "無料ChatGPTが文章チャット無制限に",
+      "action": "全員で一つの定型業務をAI化する",
+      "image": "../assets/images/2026-08-07/topic_1.png",
+      "link": "../news/2026-08-07/#topic-1"
+    },
+    {
+      "rank": 2,
+      "date": "2026-08-07",
+      "title": "ChatGPTにアドビ70機能を一括統合",
+      "category": "ツール更新",
+      "source": "Impress Watch AI",
+      "why_picked": "外注しがちな画像・動画・PDF制作を内製化できる",
+      "tldr": "アドビ制作をChatGPTから一括操作",
+      "action": "既存チラシを対話操作で作り直す",
+      "image": "../assets/images/2026-08-07/topic_3.png",
+      "link": "../news/2026-08-07/#topic-3"
+    },
+    {
+      "rank": 3,
+      "date": "2026-08-05",
+      "title": "Notionの専用AI、要望の聞き取りを自動化",
+      "category": "ツール更新",
+      "source": "LayerX エンジニアブログ",
+      "why_picked": "受付の往復連絡を減らし少人数でも対応を速められる",
+      "tldr": "要望受付後の聞き取りをAIが代行",
+      "action": "依頼フォーム一つにAI質問を設定する",
+      "image": "../assets/images/2026-08-05/topic_4.png",
+      "link": "../news/2026-08-05/#topic-4"
+    }
+  ]
+}
