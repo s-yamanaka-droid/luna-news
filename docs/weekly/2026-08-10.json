@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週は、AIを日常業務へ組み込む具体策が前進した。無料チャットの開放、受付業務の自動化、制作ルールの標準化は小規模企業でも即実行できる。まず一業務に絞り、時間削減と品質改善を今週中に測るのが得策だ。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-08-07",
+      "title": "ChatGPT無料版、会話回数の上限を撤廃",
+      "category": "新モデル発表",
+      "source": "OpenAI Blog",
+      "why_picked": "全員が費用ゼロで使え、文章業務をすぐ時短できる",
+      "tldr": "無料ChatGPTの文章利用が無制限に",
+      "action": "全員で見積・メール・要約を1件ずつ試す",
+      "image": "../assets/images/2026-08-07/topic_1.png",
+      "link": "../news/2026-08-07/#topic-1"
+    },
+    {
+      "rank": 2,
+      "date": "2026-08-05",
+      "title": "Notionの専用AI、要望の聞き取りを自動化",
+      "category": "ツール更新",
+      "source": "LayerX エンジニアブログ",
+      "why_picked": "要望の聞き取りを自動化し、担当者の待ち時間を減らせる",
+      "tldr": "Notion AIが要望受付を自動化",
+      "action": "受付用DBで質問テンプレを1本試す",
+      "image": "../assets/images/2026-08-05/topic_4.png",
+      "link": "../news/2026-08-05/#topic-4"
+    },
+    {
+      "rank": 3,
+      "date": "2026-08-06",
+      "title": "DESIGN.md、AI制作のデザインぶれを抑制",
+      "category": "ツール更新",
+      "source": "Zenn トレンド",
+      "why_picked": "AI制作の色・書体を統一し、少人数でもブランドを守れる",
+      "tldr": "DESIGN.mdでAI制作のぶれを防止",
+      "action": "自社の色・書体・禁止例を1枚にまとめる",
+      "image": "../assets/images/2026-08-06/topic_6.png",
+      "link": "../news/2026-08-06/#topic-6"
+    }
+  ]
+}

@@ -7,6 +7,13 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。毎朝6:30、AI業界ニュースを図解と「明日からできる活用法」で。</description>
   <language>ja</language>
   <item>
+    <title>2026-08-10 AI朝刊：AIガバナンス第三者認証、国内で始動 ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-08-10/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-10/</guid>
+    <pubDate>Mon, 10 Aug 2026 06:30:00 +0900</pubDate>
+    <description>AIガバナンス第三者認証、国内で始動／AIエージェント共通規格、主要各社が対応／OpenAI、新モデルに重大なサイバー能力／Claude Code、権限確認をAIに標準化／Codex、GitHubの安全審査を自動化</description>
+  </item>
+  <item>
     <title>2026-08-09 AI朝刊：AI管理体制を第三者認証、JDLAが申請開始 ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-08-09/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-09/</guid>
@@ -173,13 +180,6 @@
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-15/</guid>
     <pubDate>Wed, 15 Jul 2026 06:30:00 +0900</pubDate>
     <description>孫正義氏「人間が頂点の時代は終わる」2040年AI論／SB×Sierra、AI受付で解決率83→97%に改善／アクセンチュア、OpenAIと全社変革の“鬼門”に挑む／富士通、NVIDIA「Rubin」対応の国産AIサーバを今秋製造／AIエージェントの危険性、自律レベルとリスクの関係</description>
-  </item>
-  <item>
-    <title>2026-07-14 AI朝刊：みずほFG、Claude Code全社活用でAIネイティブ変革へ ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-07-14/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-14/</guid>
-    <pubDate>Tue, 14 Jul 2026 06:30:00 +0900</pubDate>
-    <description>みずほFG、Claude Code全社活用でAIネイティブ変革へ／デジタル庁、国産LLM3モデルを政府AI「源内」で評価開始／Apple、OpenAIを提訴　元社員が営業秘密流出と主張／OpenAI GPT-5.6シリーズ、AWS Bedrockで正式提供開始／アニメ特化動画生成AI「AnimeGen」無償公開　商用も可</description>
   </item>
 </channel>
 </rss>
