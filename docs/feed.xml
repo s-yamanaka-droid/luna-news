@@ -7,6 +7,13 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。毎朝6:30、AI業界ニュースを図解と「明日からできる活用法」で。</description>
   <language>ja</language>
   <item>
+    <title>2026-08-11 AI朝刊：NEC、部門長から社員まで「全員AI」の組織新設 ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-08-11/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-11/</guid>
+    <pubDate>Tue, 11 Aug 2026 06:30:00 +0900</pubDate>
+    <description>NEC、部門長から社員まで「全員AI」の組織新設／AIエージェント設定を共通化、新標準1.0発表／AI統制を第三者が認証、JDLAが受付開始／OpenAI、サイバー能力を懸念しAstra開発停止／ロボットが映像を理解し協働、Gemini新モデル</description>
+  </item>
+  <item>
     <title>2026-08-10 AI朝刊：AIガバナンス第三者認証、国内で始動 ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-08-10/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-10/</guid>
@@ -173,13 +180,6 @@
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-16/</guid>
     <pubDate>Thu, 16 Jul 2026 06:30:00 +0900</pubDate>
     <description>みずほ、NVIDIAと自社内AI基盤を共同検証　10億円規模のGPU群も視野／楽天、全社AI化で客単価17%向上　5万店の半数が運営支援ツール活用／モノタロウ、AI駆動開発でPR数40〜50%増　レガシーの壁を突破／NVIDIAとトヨタ、提携拡大　工場・都市設計まで現実世界のAI導入へ／Thinking Machines Lab、初の自社モデル「Inkling」公開　重み無償で商用可</description>
-  </item>
-  <item>
-    <title>2026-07-15 AI朝刊：孫正義氏「人間が頂点の時代は終わる」2040年AI論 ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-07-15/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-15/</guid>
-    <pubDate>Wed, 15 Jul 2026 06:30:00 +0900</pubDate>
-    <description>孫正義氏「人間が頂点の時代は終わる」2040年AI論／SB×Sierra、AI受付で解決率83→97%に改善／アクセンチュア、OpenAIと全社変革の“鬼門”に挑む／富士通、NVIDIA「Rubin」対応の国産AIサーバを今秋製造／AIエージェントの危険性、自律レベルとリスクの関係</description>
   </item>
 </channel>
 </rss>

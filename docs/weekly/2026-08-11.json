@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週は、無料AIの利用拡大で小規模事業者の導入障壁がさらに下がった。制作業務は対話型AIへの集約が進み、少人数でも発信量を増やせる。次の差は、AIを使うことではなく、品質基準を仕組み化できるかで決まる。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-08-07",
+      "title": "ChatGPT無料版、会話回数の上限を撤廃",
+      "category": "新モデル発表",
+      "source": "OpenAI Blog",
+      "why_picked": "追加費用なしで全員の業務改善を始められる",
+      "tldr": "無料ChatGPTが文章チャット無制限に",
+      "action": "定型業務を1つ選び全員でAI化を試す",
+      "image": "../assets/images/2026-08-07/topic_1.png",
+      "link": "../news/2026-08-07/#topic-1"
+    },
+    {
+      "rank": 2,
+      "date": "2026-08-07",
+      "title": "ChatGPTにアドビ70機能を一括統合",
+      "category": "ツール更新",
+      "source": "Impress Watch AI",
+      "why_picked": "外注しがちな制作を対話だけで内製化できる",
+      "tldr": "画像・動画・PDF制作を対話で一元化",
+      "action": "既存チラシを1本AI経由で作り直す",
+      "image": "../assets/images/2026-08-07/topic_3.png",
+      "link": "../news/2026-08-07/#topic-3"
+    },
+    {
+      "rank": 3,
+      "date": "2026-08-06",
+      "title": "DESIGN.md、AI制作のデザインぶれを抑制",
+      "category": "ツール更新",
+      "source": "Zenn トレンド",
+      "why_picked": "少人数でも制作物の品質とブランドを揃えられる",
+      "tldr": "デザイン基準を1ファイルでAI共有",
+      "action": "自社の色・書体・禁止例を1枚にまとめる",
+      "image": "../assets/images/2026-08-06/topic_6.png",
+      "link": "../news/2026-08-06/#topic-6"
+    }
+  ]
+}
