@@ -1,0 +1,203 @@
+[
+  {
+    "title": "AIエージェント設定に共通規格、主要各社が対応",
+    "category": "業界動向",
+    "source": "Publickey",
+    "lede": "異なるAIエージェント間で、社内ルールや外部ツールの接続設定を共有できる業界標準が登場した。",
+    "keypoints": [
+      "Agent Plugins 1.0.0を発表",
+      "スキル設定を異なるAIで共有",
+      "外部ツールの接続設定も共通化",
+      "OpenAIやAWSなどが支持"
+    ],
+    "pull": "AIを乗り換えても、蓄積した業務手順を再利用できる時代に入る。",
+    "bizapp": {
+      "summary": "AIごとの設定作業を減らし、社内手順を共通資産にできる",
+      "actions": [
+        "Agent Pluginsで社内手順を共通化",
+        "中小企業向けAI移行支援を提案",
+        "移行費が膨らむ前に共通仕様を検証"
+      ]
+    },
+    "links": [
+      "https://www.publickey1.jp/blog/26/agent_plugins_100aimcpopenaiawsgoogle.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "ChatGPT広告、日本でも提供開始",
+    "category": "ツール更新",
+    "source": "OpenAI Blog",
+    "lede": "OpenAIが日本を含む5カ国でChatGPT広告を開始し、企業向け広告市場への展開を本格化した。",
+    "keypoints": [
+      "日本でChatGPT広告を開始",
+      "英国や韓国などでも提供",
+      "広告は明確に区別して表示",
+      "広告で回答内容は変わらない"
+    ],
+    "pull": "検索広告に続き、AIとの対話が新たな顧客接点になる。",
+    "bizapp": {
+      "summary": "ChatGPTを商品認知や新規顧客獲得の接点として使える",
+      "actions": [
+        "ChatGPT広告を顧客獲得に使える",
+        "中小企業向け広告運用を提案",
+        "競合に先行枠を取られる前に試す"
+      ]
+    },
+    "links": [
+      "https://openai.com/index/testing-ads-in-chatgpt"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AI管理体制を第三者認証、JDLAが新制度",
+    "category": "政策・規制",
+    "source": "JDLA 日本ディープラーニング協会",
+    "lede": "JDLAが企業や自治体のAI管理体制を審査する「C認証」を創設し、一般申請の受け付けを始めた。",
+    "keypoints": [
+      "法人単位でAI管理体制を認証",
+      "利用中のAI把握を審査",
+      "リスク評価や対応組織も対象",
+      "取得企業は認証ロゴを利用可能"
+    ],
+    "pull": "AIを使っている事実より、安全に管理できる体制が信用を左右する。",
+    "bizapp": {
+      "summary": "AI導入時の安全性を取引先や投資家へ客観的に示せる",
+      "actions": [
+        "C認証基準でAI運用を棚卸し",
+        "中小企業向け認証準備を提案",
+        "未整備では取引先の信頼を失う"
+      ]
+    },
+    "links": [
+      "https://www.jdla.org/news/20260804001/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "OpenAI、攻撃懸念でAI停止し防御モデル投入",
+    "category": "セキュリティ",
+    "source": "日経クロステック AI／ITmedia AI+",
+    "lede": "OpenAIは攻撃能力を懸念してAstraの開発を一部停止する一方、防御専用モデルの提供を発表した。",
+    "keypoints": [
+      "Astraの開発を一部停止",
+      "高いサイバー攻撃能力を懸念",
+      "防御向けDaybreakを2階層化",
+      "GPT-5.6-Cyberを投入"
+    ],
+    "pull": "高性能AIは、防御力を高めると同時に攻撃リスクも拡大させる。",
+    "bizapp": {
+      "summary": "AIを脆弱性発見やコード点検などの防御業務に使える",
+      "actions": [
+        "Daybreak Blueを防御業務で検証",
+        "企業向け脆弱性診断を提案",
+        "攻撃AI対策を今期中に見直す"
+      ]
+    },
+    "links": [
+      "https://xtech.nikkei.com/atcl/nxt/column/18/00001/11960/",
+      "https://www.itmedia.co.jp/news/article/2608/11/2000000496/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Claude生成文に見えない透かし、世界で導入へ",
+    "category": "政策・規制",
+    "source": "Fast Company Tech",
+    "lede": "Anthropicは今後のClaudeモデルが生成する文章へ、AI生成を識別する見えない透かしを導入する。",
+    "keypoints": [
+      "AI生成文に見えない透かし",
+      "Claude利用国すべてで適用",
+      "EUの透明性規則に対応",
+      "8月2日以降の新モデルが対象"
+    ],
+    "pull": "AI文章の出所を示す仕組みが、企業の公開物にも影響し始める。",
+    "bizapp": {
+      "summary": "AI生成物の表示ルールと公開前確認の見直しが必要になる",
+      "actions": [
+        "Claude文書の公開手順を整備",
+        "採用広報のAI表示対応を提案",
+        "未対応では公開物の信用を失う"
+      ]
+    },
+    "links": [
+      "https://www.fastcompany.com/91588728/anthropic-models-will-soon-inject-watermarks-identifying-ai-generated-text?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Gemini利用者が月間10億人を突破",
+    "category": "業界動向",
+    "source": "TechCrunch AI",
+    "lede": "GoogleのGeminiアプリが月間利用者10億人を超え、ChatGPTに並ぶ大規模な顧客接点へ成長した。",
+    "keypoints": [
+      "月間利用者が10億人を突破",
+      "Googleで14番目の到達製品",
+      "検索やWorkspaceにも統合",
+      "単体アプリの利用者数を集計"
+    ],
+    "pull": "生成AIは一部の先進層向けから、巨大な日常接点へ変わった。",
+    "bizapp": {
+      "summary": "Google利用企業ではGeminiを業務導線へ組み込みやすくなる",
+      "actions": [
+        "GeminiをWorkspace業務に使える",
+        "営業資料作成の定着支援を提案",
+        "競合より導入が遅れると効率差が開く"
+      ]
+    },
+    "links": [
+      "https://techcrunch.com/2026/08/11/googles-gemini-app-surges-to-one-billion-users/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "DeNA、AI利用料を既存のクラウド基盤で管理",
+    "category": "ツール更新",
+    "source": "DeNA Engineering",
+    "lede": "DeNAは既存のクラウド費用管理基盤を流用し、プロジェクトやチーム単位でAIコストを可視化した。",
+    "keypoints": [
+      "AI活用とコスト管理を両立",
+      "既存の管理基盤を流用",
+      "チーム単位で費用を把握",
+      "BigQueryとLookerで可視化"
+    ],
+    "pull": "AI活用を広げるには、現場を止めず費用を見える化する基盤が要る。",
+    "bizapp": {
+      "summary": "AI費用を部署別に可視化し、無駄を抑えながら活用を広げられる",
+      "actions": [
+        "LookerでAI費用管理に使える",
+        "中小企業向け費用可視化を提案",
+        "予算策定前に利用実態を把握する"
+      ]
+    },
+    "links": [
+      "https://engineering.dena.com/blog/2026/08/ai-token-cost-report/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "国産AI「PLaMo 3」、大型・軽量モデルを評価",
+    "category": "研究",
+    "source": "Preferred Networks Blog",
+    "lede": "Preferred NetworksとNICTが、日本の文化や社会を考慮したPLaMo 3の大型モデルと軽量モデルを評価した。",
+    "keypoints": [
+      "120B事前学習モデルを開発",
+      "31B蒸留モデルも学習",
+      "長い入力への対応学習を実施",
+      "複数の指標で性能を評価"
+    ],
+    "pull": "日本語や国内事情に配慮した国産AIの選択肢が広がりつつある。",
+    "bizapp": {
+      "summary": "日本語業務に適した国産LLMの採用候補として評価できる",
+      "actions": [
+        "PLaMo 3を日本語業務で比較",
+        "国内企業向けAI選定を提案",
+        "海外AIだけでは選定機会を逃す"
+      ]
+    },
+    "links": [
+      "https://tech.preferred.jp/ja/blog/plamo_3_120b_distillation_cpt/"
+    ],
+    "likes": 0
+  }
+]
