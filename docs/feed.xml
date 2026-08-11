@@ -7,6 +7,13 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。毎朝6:30、AI業界ニュースを図解と「明日からできる活用法」で。</description>
   <language>ja</language>
   <item>
+    <title>2026-08-12 AI朝刊：AIエージェント設定に共通規格、主要各社が対応 ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-08-12/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-12/</guid>
+    <pubDate>Wed, 12 Aug 2026 06:30:00 +0900</pubDate>
+    <description>AIエージェント設定に共通規格、主要各社が対応／ChatGPT広告、日本でも提供開始／AI管理体制を第三者認証、JDLAが新制度／OpenAI、攻撃懸念でAI停止し防御モデル投入／Claude生成文に見えない透かし、世界で導入へ</description>
+  </item>
+  <item>
     <title>2026-08-11 AI朝刊：NEC、部門長から社員まで「全員AI」の組織新設 ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-08-11/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-11/</guid>
@@ -173,13 +180,6 @@
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-17/</guid>
     <pubDate>Fri, 17 Jul 2026 06:30:00 +0900</pubDate>
     <description>国産AI基盤モデル、大手44社が結集し始動／ロボットが「使うほど賢くなる」時代へ転換／重み公開の新AI「Inkling」、文字・画像・音声を横断／Microsoft月例更新で約570件修正、ゼロデイ2件は即対応を／NotebookLMが「Gemini Notebook」に改称</description>
-  </item>
-  <item>
-    <title>2026-07-16 AI朝刊：みずほ、NVIDIAと自社内AI基盤を共同検証　10億円規模のGPU群も視野 ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-07-16/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-16/</guid>
-    <pubDate>Thu, 16 Jul 2026 06:30:00 +0900</pubDate>
-    <description>みずほ、NVIDIAと自社内AI基盤を共同検証　10億円規模のGPU群も視野／楽天、全社AI化で客単価17%向上　5万店の半数が運営支援ツール活用／モノタロウ、AI駆動開発でPR数40〜50%増　レガシーの壁を突破／NVIDIAとトヨタ、提携拡大　工場・都市設計まで現実世界のAI導入へ／Thinking Machines Lab、初の自社モデル「Inkling」公開　重み無償で商用可</description>
   </item>
 </channel>
 </rss>
