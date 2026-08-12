@@ -7,6 +7,13 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。毎朝6:30、AI業界ニュースを図解と「明日からできる活用法」で。</description>
   <language>ja</language>
   <item>
+    <title>2026-08-13 AI朝刊：AIエージェント設定、企業をまたぐ共通規格へ ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-08-13/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-13/</guid>
+    <pubDate>Thu, 13 Aug 2026 06:30:00 +0900</pubDate>
+    <description>AIエージェント設定、企業をまたぐ共通規格へ／ChatGPT広告、日本で提供開始／企業AI、回答支援から業務実行へ／AI管理体制を審査、JDLAが第三者認証／DeNA、急増するAI利用料を一括管理</description>
+  </item>
+  <item>
     <title>2026-08-12 AI朝刊：AIエージェント設定に共通規格、主要各社が対応 ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-08-12/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-12/</guid>
@@ -173,13 +180,6 @@
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-18/</guid>
     <pubDate>Sat, 18 Jul 2026 06:30:00 +0900</pubDate>
     <description>みずほFG、AIエージェント3000体構想　銀行業務を再設計／GPT-5.6が利用者のファイルを削除　OpenAIが不具合認める／Kimi K3、史上最大のオープンモデル公開　Opus4.8級の性能／AIエージェントの4割が2027年までに廃止　ガートナー予測／NotebookLMが「Gemini Notebook」に改名　検索連携へ</description>
-  </item>
-  <item>
-    <title>2026-07-17 AI朝刊：国産AI基盤モデル、大手44社が結集し始動 ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-07-17/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-17/</guid>
-    <pubDate>Fri, 17 Jul 2026 06:30:00 +0900</pubDate>
-    <description>国産AI基盤モデル、大手44社が結集し始動／ロボットが「使うほど賢くなる」時代へ転換／重み公開の新AI「Inkling」、文字・画像・音声を横断／Microsoft月例更新で約570件修正、ゼロデイ2件は即対応を／NotebookLMが「Gemini Notebook」に改称</description>
   </item>
 </channel>
 </rss>

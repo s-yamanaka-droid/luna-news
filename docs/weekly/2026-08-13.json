@@ -1,0 +1,41 @@
+{
+  "trend_summary": "無料AIの利用制限が下がり、少人数企業でも全員活用を始めやすくなった。制作・承認など実務を対話と複数AIでつなぎ、作業時間を直接減らす流れが鮮明だ。今週は一業務を選び、実行まで自動化して効果を測るべきだ。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-08-07",
+      "title": "ChatGPT無料版、会話回数の上限を撤廃",
+      "category": "新モデル発表",
+      "source": "OpenAI Blog",
+      "why_picked": "追加費用なしで全員の事務時間をすぐ削減できる",
+      "tldr": "無料で文章チャットが無制限に",
+      "action": "全員で毎日一つの定型業務に使う",
+      "image": "../assets/images/2026-08-07/topic_1.png",
+      "link": "../news/2026-08-07/#topic-1"
+    },
+    {
+      "rank": 2,
+      "date": "2026-08-07",
+      "title": "ChatGPTにアドビ70機能を一括統合",
+      "category": "ツール更新",
+      "source": "Impress Watch AI",
+      "why_picked": "外注しがちな画像やPDF制作を内製化しやすい",
+      "tldr": "制作作業をChatGPTから横断操作",
+      "action": "既存チラシを対話だけで作り直す",
+      "image": "../assets/images/2026-08-07/topic_3.png",
+      "link": "../news/2026-08-07/#topic-3"
+    },
+    {
+      "rank": 3,
+      "date": "2026-08-07",
+      "title": "DeNA、kintone承認確認をAIで自動化",
+      "category": "研究",
+      "source": "DeNA Engineering",
+      "why_picked": "少人数ほど重い確認作業をAIへ移せる好例",
+      "tldr": "申請前の定型確認を複数AIで自動化",
+      "action": "承認業務の確認項目を三つ書き出す",
+      "image": "../assets/images/2026-08-07/topic_5.png",
+      "link": "../news/2026-08-07/#topic-5"
+    }
+  ]
+}
