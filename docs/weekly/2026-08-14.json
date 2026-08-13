@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週は、AIが回答する道具から、集客・資料作成・業務実行を担う基盤へ進みました。小規模事業者は、売上に近い業務へ絞った実験が得策です。同時に、AI利用料の見える化と権限管理を始める週です。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-08-13",
+      "title": "ChatGPT広告、日本で提供開始",
+      "category": "ツール更新",
+      "source": "OpenAI Blog",
+      "why_picked": "小さな予算でも新しい集客経路を先行検証できる",
+      "tldr": "ChatGPTが新たな広告媒体に",
+      "action": "少額で広告を出し問い合わせ率を測る",
+      "image": "../assets/images/2026-08-13/topic_2.png",
+      "link": "../news/2026-08-13/#topic-2"
+    },
+    {
+      "rank": 2,
+      "date": "2026-08-14",
+      "title": "Sakana Chat、コード実行と資料添付に対応",
+      "category": "ツール更新",
+      "source": "Gihyo.jp",
+      "why_picked": "日本語の集計から資料作成まで一気に時短できる",
+      "tldr": "資料分析と作成を一つのAIで",
+      "action": "実データ1件を添付し定例資料を作る",
+      "image": "../assets/images/2026-08-14/topic_7.png",
+      "link": "../news/2026-08-14/#topic-7"
+    },
+    {
+      "rank": 3,
+      "date": "2026-08-13",
+      "title": "DeNA、急増するAI利用料を一括管理",
+      "category": "業界動向",
+      "source": "DeNA Engineering",
+      "why_picked": "AI費用を見える化し利益を削る無駄を発見できる",
+      "tldr": "AI利用料を用途別に見える化",
+      "action": "全AIサービスの月額と用途を一覧化する",
+      "image": "../assets/images/2026-08-13/topic_5.png",
+      "link": "../news/2026-08-13/#topic-5"
+    }
+  ]
+}

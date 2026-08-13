@@ -7,6 +7,13 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。毎朝6:30、AI業界ニュースを図解と「明日からできる活用法」で。</description>
   <language>ja</language>
   <item>
+    <title>2026-08-14 AI朝刊：DeepSeek、API料金を最大12倍に値上げ ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-08-14/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-14/</guid>
+    <pubDate>Fri, 14 Aug 2026 06:30:00 +0900</pubDate>
+    <description>DeepSeek、API料金を最大12倍に値上げ／AIエージェント設定、業界標準で共通化へ／AI管理体制を認証、JDLAが新制度／Gemini 3.7 Flash、開発業務を強化／GPT-5.6、最大14倍速の新モード</description>
+  </item>
+  <item>
     <title>2026-08-13 AI朝刊：AIエージェント設定、企業をまたぐ共通規格へ ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-08-13/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-13/</guid>
@@ -173,13 +180,6 @@
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-19/</guid>
     <pubDate>Sun, 19 Jul 2026 06:30:00 +0900</pubDate>
     <description>最上位AI「Claude Fable 5」、有料上位プラン標準搭載へ／富士通・ファナックなど、NVIDIAとフィジカルAIで提携／Salesforce、自律型AI社員「Agentforce Coworker」発表／「M365 Copilot」一人負け？　有料契約は4.5％未満／佐川急便、約7万人分の個人情報漏えいか　設定ミスで</description>
-  </item>
-  <item>
-    <title>2026-07-18 AI朝刊：みずほFG、AIエージェント3000体構想　銀行業務を再設計 ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-07-18/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-18/</guid>
-    <pubDate>Sat, 18 Jul 2026 06:30:00 +0900</pubDate>
-    <description>みずほFG、AIエージェント3000体構想　銀行業務を再設計／GPT-5.6が利用者のファイルを削除　OpenAIが不具合認める／Kimi K3、史上最大のオープンモデル公開　Opus4.8級の性能／AIエージェントの4割が2027年までに廃止　ガートナー予測／NotebookLMが「Gemini Notebook」に改名　検索連携へ</description>
   </item>
 </channel>
 </rss>
