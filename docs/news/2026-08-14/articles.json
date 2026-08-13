@@ -1,0 +1,202 @@
+[
+  {
+    "title": "DeepSeek、API料金を最大12倍に値上げ",
+    "category": "業界動向",
+    "source": "ITmedia AI+",
+    "lede": "DeepSeekが8月17日からAPI料金を最大約12.1倍に引き上げ、特定時間帯には通常の2倍となる価格を導入する。",
+    "keypoints": [
+      "新料金は8月17日午前1時から",
+      "ピーク時は通常料金の2倍",
+      "V4-Pro入力は最大約12.1倍",
+      "正式版の公開に合わせて改定"
+    ],
+    "pull": "安価なAIを前提にした事業ほど、料金改定が採算を直撃する。",
+    "bizapp": {
+      "summary": "DeepSeek依存業務の原価と利用時間を直ちに見直す。",
+      "actions": [
+        "DeepSeek APIの時間別費用を試算",
+        "中小企業向けAI原価診断を提案",
+        "8月17日までに予算を直さないと赤字化"
+      ]
+    },
+    "links": [
+      "https://www.itmedia.co.jp/aiplus/article/2608/13/2000000533/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AIエージェント設定、業界標準で共通化へ",
+    "category": "業界動向",
+    "source": "Publickey",
+    "lede": "AIのスキルやMCPサーバ設定を異なるエージェント間で共有する標準仕様「Agent Plugins 1.0.0」が発表された。",
+    "keypoints": [
+      "スキル設定を異なるAIで共有",
+      "MCPサーバ設定も共通化",
+      "主要AI・クラウド各社が支援",
+      "組織固有の手順を移行しやすく"
+    ],
+    "pull": "AIを替えるたびに業務設定を作り直す負担が減っていく。",
+    "bizapp": {
+      "summary": "社内AIの手順を共通資産として再利用しやすくなる。",
+      "actions": [
+        "Agent Pluginsで業務手順を共通化",
+        "中小企業へAI乗り換え設計を提案",
+        "独自形式のままだと移行費用が膨らむ"
+      ]
+    },
+    "links": [
+      "https://www.publickey1.jp/blog/26/agent_plugins_100aimcpopenaiawsgoogle.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AI管理体制を認証、JDLAが新制度",
+    "category": "政策・規制",
+    "source": "JDLA 日本ディープラーニング協会",
+    "lede": "JDLAが企業や自治体のAI管理体制を第三者として審査する「C認証」を創設し、一般申請を開始した。",
+    "keypoints": [
+      "法人単位でAI管理体制を審査",
+      "利用AIの把握状況を確認",
+      "リスク評価と対応体制が対象",
+      "取得企業は認証ロゴを表示可能"
+    ],
+    "pull": "AIを使う事実だけでなく、安全に管理できる体制が信用になる。",
+    "bizapp": {
+      "summary": "AI管理体制を営業上の信頼材料として示せる。",
+      "actions": [
+        "C認証基準で利用AIを棚卸し",
+        "取引先向けAI管理整備を提案",
+        "審査要件未整備では商談の信頼を失う"
+      ]
+    },
+    "links": [
+      "https://www.jdla.org/news/20260804001/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Gemini 3.7 Flash、開発業務を強化",
+    "category": "新モデル発表",
+    "source": "Google DeepMind Blog",
+    "lede": "Googleが、コード開発やAIエージェント向けの新モデル「Gemini 3.7 Flash」を発表した。",
+    "keypoints": [
+      "コード開発とAI実行に重点",
+      "ソフトウェア開発能力を改善",
+      "知識業務とウェブ開発も強化",
+      "導入価格は旧モデル当初の半額"
+    ],
+    "pull": "高性能化と低価格化が、AIによる開発の適用範囲を広げる。",
+    "bizapp": {
+      "summary": "開発や知識業務の自動化を低コストで試せる。",
+      "actions": [
+        "Geminiでウェブ開発業務を試行",
+        "中小企業向け開発省力化を提案",
+        "旧モデル継続では費用対効果で遅れる"
+      ]
+    },
+    "links": [
+      "https://deepmind.google/blog/introducing-gemini-3-7-flash/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "GPT-5.6、最大14倍速の新モード",
+    "category": "ツール更新",
+    "source": "OpenAI Blog",
+    "lede": "OpenAIがGPT-5.6 Solを標準処理の最大14倍で動かす「Ultrafast」をAPI向けに先行公開した。",
+    "keypoints": [
+      "標準処理より最大14倍高速",
+      "毎秒最大750トークンを出力",
+      "GPT-5.6 Solに対応",
+      "OpenAI APIから提供開始"
+    ],
+    "pull": "高度なAIでも、応答速度を諦めずリアルタイム業務へ組み込める。",
+    "bizapp": {
+      "summary": "待ち時間が課題だった対話型業務へ高性能AIを導入できる。",
+      "actions": [
+        "OpenAI APIで応答速度を検証",
+        "営業支援の即時応答機能を提案",
+        "速度改善を逃すと顧客体験で差が開く"
+      ]
+    },
+    "links": [
+      "https://openai.com/index/previewing-ultrafast"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "東京でロボタクシー、26年後半に始動",
+    "category": "業界動向",
+    "source": "Impress Watch AI",
+    "lede": "Uberと日の丸交通が提携し、WayveのAIを搭載した日産リーフによる東京での試験運行を2026年後半に始める。",
+    "keypoints": [
+      "日の丸交通が運行主体を担当",
+      "Uberは配車アプリを提供",
+      "WayveのAIを日産リーフに搭載",
+      "初期は安全担当の乗務員が同乗"
+    ],
+    "pull": "自動運転でも、認可・整備・運行を担う地域事業者が要になる。",
+    "bizapp": {
+      "summary": "AIサービスと既存事業者を組み合わせる事業設計の実例だ。",
+      "actions": [
+        "Uber型の役割分担を事業設計に活用",
+        "交通事業者へ運行省力化を提案",
+        "26年後半までに提携役割を固める"
+      ]
+    },
+    "links": [
+      "https://www.watch.impress.co.jp/docs/news/2132583.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Sakana Chat、コード実行と資料添付に対応",
+    "category": "ツール更新",
+    "source": "Gihyo.jp",
+    "lede": "Sakana Chatが日本語向けモデルを刷新し、Pythonコード実行、ファイル添付、生成物のプレビューに対応した。",
+    "keypoints": [
+      "複雑な作業向けFuguを追加",
+      "Namazuの日本語能力を強化",
+      "Pythonコードを実行可能",
+      "画像や文書の添付に対応"
+    ],
+    "pull": "日本語で指示し、分析から成果物の確認まで一つの場で進められる。",
+    "bizapp": {
+      "summary": "日本語の資料作成やデータ処理を一連の業務にできる。",
+      "actions": [
+        "Sakana Chatで資料分析を試す",
+        "営業資料作成の省力化を提案",
+        "試行を遅らせると日本語業務で差が開く"
+      ]
+    },
+    "links": [
+      "https://gihyo.jp/article/2026/08/sakana-chat-updates-with-new-namazu-and-fugu?utm_source=feed"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "最新AIにも脆弱性、日英両面で検証必要",
+    "category": "セキュリティ",
+    "source": "富士通研究所 fltech",
+    "lede": "富士通が最新の大規模言語モデルを検証し、攻撃への耐性は向上した一方、脆弱性が残ると報告した。",
+    "keypoints": [
+      "最新モデルは攻撃耐性が向上",
+      "一方で脆弱性は依然残る",
+      "日本語と英語の両方で評価",
+      "継続的な検証と対策が必要"
+    ],
+    "pull": "モデルが新しくても、安全性を検証せず業務投入してよいわけではない。",
+    "bizapp": {
+      "summary": "AI導入前後の脆弱性検査を継続業務に組み込むべきだ。",
+      "actions": [
+        "LLM脆弱性スキャナーで日英検査",
+        "企業向けAI安全診断を提案",
+        "未検査のままでは情報流出を見逃す"
+      ]
+    },
+    "links": [
+      "https://blog.fltech.dev/entry/2026/07/30/llm-sec?utm_source=feed"
+    ],
+    "likes": 0
+  }
+]
