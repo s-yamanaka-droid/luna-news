@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週は、AIが回答する道具から、作業を再開・実行する実務担当へ進んだ。集客面ではChatGPT広告が日本で始まり、小規模事業者にも新チャネルが開いた。一方でAPI値上げも進み、成果だけでなく原価管理が欠かせない。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-08-15",
+      "title": "ChatGPT、Macの操作履歴から仕事を再開",
+      "category": "ツール更新",
+      "source": "Impress Watch AI",
+      "why_picked": "中断復帰と定型作業の発見で、少人数の時間を直接増やせる",
+      "tldr": "Macの作業履歴から仕事を再開",
+      "action": "定型作業を1件記録し、再開支援を試す",
+      "image": "../assets/images/2026-08-15/topic_1.png",
+      "link": "../news/2026-08-15/#topic-1"
+    },
+    {
+      "rank": 2,
+      "date": "2026-08-13",
+      "title": "ChatGPT広告、日本で提供開始",
+      "category": "ツール更新",
+      "source": "OpenAI Blog",
+      "why_picked": "新しい集客面を小予算で先行検証し、差別化につなげられる",
+      "tldr": "ChatGPTが国内の広告媒体に",
+      "action": "自社商材で少額広告テストを1本出す",
+      "image": "../assets/images/2026-08-13/topic_2.png",
+      "link": "../news/2026-08-13/#topic-2"
+    },
+    {
+      "rank": 3,
+      "date": "2026-08-14",
+      "title": "DeepSeek、API料金を最大12倍に値上げ",
+      "category": "業界動向",
+      "source": "ITmedia AI+",
+      "why_picked": "値上げ前に原価を見直せば、AI利用の利益圧迫を防げる",
+      "tldr": "DeepSeekの利用原価が急上昇",
+      "action": "API利用量と代替モデルの費用を比較する",
+      "image": "../assets/images/2026-08-14/topic_1.png",
+      "link": "../news/2026-08-14/#topic-1"
+    }
+  ]
+}

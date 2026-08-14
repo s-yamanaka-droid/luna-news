@@ -7,6 +7,13 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。毎朝6:30、AI業界ニュースを図解と「明日からできる活用法」で。</description>
   <language>ja</language>
   <item>
+    <title>2026-08-15 AI朝刊：ChatGPT、Macの操作履歴から仕事を再開 ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-08-15/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-15/</guid>
+    <pubDate>Sat, 15 Aug 2026 06:30:00 +0900</pubDate>
+    <description>ChatGPT、Macの操作履歴から仕事を再開／AIエージェントの技能共有、業界標準が始動／Google、新モデルGemini 3.7 Flash発表／AI管理体制を証明、JDLAが第三者認証／GPT-5.6、最大14倍速の新処理モード</description>
+  </item>
+  <item>
     <title>2026-08-14 AI朝刊：DeepSeek、API料金を最大12倍に値上げ ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-08-14/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-14/</guid>
@@ -173,13 +180,6 @@
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-20/</guid>
     <pubDate>Mon, 20 Jul 2026 06:30:00 +0900</pubDate>
     <description>エヌビディア日本電撃訪問、工場AIで巨大提携／アリババ、2.4兆規模のQwen3.8を無償公開へ予告／米政権が最先端AIへのアクセスを直接管理へ／AIに期待64.9%も成果は16.4%、鍵はデータ基盤／JR東日本、みどりの窓口に音声AI導入の実証実験</description>
-  </item>
-  <item>
-    <title>2026-07-19 AI朝刊：最上位AI「Claude Fable 5」、有料上位プラン標準搭載へ ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-07-19/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-19/</guid>
-    <pubDate>Sun, 19 Jul 2026 06:30:00 +0900</pubDate>
-    <description>最上位AI「Claude Fable 5」、有料上位プラン標準搭載へ／富士通・ファナックなど、NVIDIAとフィジカルAIで提携／Salesforce、自律型AI社員「Agentforce Coworker」発表／「M365 Copilot」一人負け？　有料契約は4.5％未満／佐川急便、約7万人分の個人情報漏えいか　設定ミスで</description>
   </item>
 </channel>
 </rss>
