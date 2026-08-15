@@ -1,0 +1,202 @@
+[
+  {
+    "title": "ChatGPTがPC作業を記憶、説明の手間を削減",
+    "category": "ツール更新",
+    "source": "ITmedia AI+",
+    "lede": "PCでの操作履歴を記録し、昨日の作業要約や中断前の状況確認に使える「Computer History」が登場した。",
+    "keypoints": [
+      "クリックや文字入力などを記録",
+      "履歴を基に作業内容を回答",
+      "繰り返し作業の自動化も提案",
+      "履歴は端末内に保存される"
+    ],
+    "pull": "AIに状況を説明する手間が減り、作業の再開が速くなる。",
+    "bizapp": {
+      "summary": "中断した業務の再開や日報作成に使える",
+      "actions": [
+        "Computer Historyを作業引継ぎに使える",
+        "中小企業へ定型作業の自動化を提案",
+        "導入前に記録除外を決めないと情報管理事故"
+      ]
+    },
+    "links": [
+      "https://www.itmedia.co.jp/aiplus/article/2608/14/2000000548/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AIエージェント設定、製品をまたぎ共通化へ",
+    "category": "業界動向",
+    "source": "Publickey",
+    "lede": "スキルやMCPサーバー設定を異なるAIエージェント間で共有する業界標準「Agent Plugins 1.0.0」が発表された。",
+    "keypoints": [
+      "AIのスキル設定を共有可能に",
+      "MCPサーバー設定も共通化",
+      "主要なAI関連企業が対応",
+      "製品ごとの再設定を減らせる"
+    ],
+    "pull": "AI選びが変わっても、組織の知識と作業手順を引き継げる。",
+    "bizapp": {
+      "summary": "AI製品を乗り換えやすい業務基盤を作れる",
+      "actions": [
+        "Agent PluginsでMCP設定を共通化",
+        "AI導入企業へ移行しやすい設計を提案",
+        "独自設定を増やすと乗り換え費用が膨らむ"
+      ]
+    },
+    "links": [
+      "https://www.publickey1.jp/blog/26/agent_plugins_100aimcpopenaiawsgoogle.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AI統治を第三者認証、JDLAが申請開始",
+    "category": "政策・規制",
+    "source": "JDLA 日本ディープラーニング協会",
+    "lede": "企業や自治体のAI管理体制を第三者が審査する「C認証」が始まり、安全な活用体制を対外的に示せるようになった。",
+    "keypoints": [
+      "法人単位でAI管理体制を審査",
+      "利用中のAI把握が審査対象",
+      "リスク評価と対応体制を確認",
+      "認証ロゴを営業資料にも表示可能"
+    ],
+    "pull": "AIを使う企業は、性能だけでなく管理体制も信頼の対象になる。",
+    "bizapp": {
+      "summary": "AI管理体制を取引先への信頼材料に使える",
+      "actions": [
+        "C認証基準で社内AI管理を棚卸し",
+        "自治体や中小企業へ認証取得支援を提案",
+        "申請前に利用AIを把握しないと審査で停滞"
+      ]
+    },
+    "links": [
+      "https://www.jdla.org/news/20260804001/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Claude生成文に電子透かし、編集後も検出可能",
+    "category": "政策・規制",
+    "source": "Impress Watch AI",
+    "lede": "AnthropicはEUのAI規制法に対応し、品質や費用に影響しない電子透かしを世界のClaude出力へ導入する。",
+    "keypoints": [
+      "Claudeの生成文へ透かしを付与",
+      "隠し文字や識別情報は使わない",
+      "軽い編集後もパターンが残る",
+      "文章品質や費用に影響しない"
+    ],
+    "pull": "AI生成文は、見た目を変えずに出所を確かめる時代へ入る。",
+    "bizapp": {
+      "summary": "対外文書のAI利用ルール整備が急務になる",
+      "actions": [
+        "Claude文書の出典管理に使える",
+        "採用広報へAI生成表示ルールを提案",
+        "今決めないと対外文書の扱いが混乱する"
+      ]
+    },
+    "links": [
+      "https://www.watch.impress.co.jp/docs/news/2132925.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "商用利用できるQwen3.8、端末内でも動作",
+    "category": "新モデル発表",
+    "source": "ITmedia AI+",
+    "lede": "Alibaba Cloudが、画像や動画にも対応し、デスクトップPCなどのローカル環境でも動かせるQwen3.8-27Bを公開した。",
+    "keypoints": [
+      "商用利用できる重みを公開",
+      "270億パラメータのAIモデル",
+      "画像や動画の理解にも対応",
+      "推論の深さを三段階で選べる"
+    ],
+    "pull": "高性能AIを、自社環境で動かす選択肢が現実的になった。",
+    "bizapp": {
+      "summary": "商用AIを自社環境で検証する選択肢になる",
+      "actions": [
+        "Qwen3.8をローカル業務検証に使える",
+        "中小企業へ商用AIの内製化を提案",
+        "比較を怠るとAIの調達費用で不利になる"
+      ]
+    },
+    "links": [
+      "https://www.itmedia.co.jp/aiplus/article/2608/15/2000000554/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "GPT-5.6 Sol、最大14倍速の新モード",
+    "category": "ツール更新",
+    "source": "OpenAI Blog",
+    "lede": "OpenAIはGPT-5.6 Solを標準処理の最大14倍で動かし、毎秒最大750トークンを出力する新サービスを公開した。",
+    "keypoints": [
+      "標準処理の最大14倍で動作",
+      "毎秒最大750トークンを出力",
+      "OpenAI APIから提供開始",
+      "高い知能と即時応答を両立"
+    ],
+    "pull": "高性能AIでも、速さを諦めずリアルタイム業務に組み込める。",
+    "bizapp": {
+      "summary": "応答速度が重要な顧客対応や業務処理に使える",
+      "actions": [
+        "OpenAI APIを即時応答業務に使える",
+        "営業支援のリアルタイム化を提案",
+        "速度要件を見直さないと競争力を失う"
+      ]
+    },
+    "links": [
+      "https://openai.com/index/previewing-ultrafast"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "DeNA、AI費用を既存クラウド基盤で管理",
+    "category": "業界動向",
+    "source": "DeNA Engineering",
+    "lede": "DeNAは既存のクラウド費用管理基盤を流用し、プロジェクトやチーム単位でAIコストを可視化する手法を公開した。",
+    "keypoints": [
+      "既存の費用管理基盤を流用",
+      "チーム単位でAI費用を把握",
+      "複数クラウドの費用を横断管理",
+      "導入速度と費用統制を両立"
+    ],
+    "pull": "AI活用を広げるには、費用を制御する守りの基盤が要る。",
+    "bizapp": {
+      "summary": "AI費用を部門別に可視化し予算管理へ使える",
+      "actions": [
+        "BigQueryとLookerでAI費を可視化",
+        "中小企業へAI費用の部門別管理を提案",
+        "利用拡大前に基準を作らないと予算超過"
+      ]
+    },
+    "links": [
+      "https://engineering.dena.com/blog/2026/08/ai-token-cost-report/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "最新AIにも脆弱性、富士通が日英で検証",
+    "category": "セキュリティ",
+    "source": "富士通研究所 fltech",
+    "lede": "富士通が最新の大規模言語モデルを日本語と英語で検査し、攻撃耐性の向上と残存する脆弱性の両方を確認した。",
+    "keypoints": [
+      "最新モデル三種を安全性評価",
+      "日本語と英語の両方で検査",
+      "全般的な攻撃耐性は向上",
+      "脆弱性は依然として残る"
+    ],
+    "pull": "最新モデルを選ぶだけでは不十分で、導入後も継続検査が要る。",
+    "bizapp": {
+      "summary": "AI導入前後の定期的な安全性検査が必要になる",
+      "actions": [
+        "富士通のスキャナーで日英両面を検査",
+        "AI導入企業へ定期脆弱性診断を提案",
+        "本番公開前に検査しないと漏えいリスク"
+      ]
+    },
+    "links": [
+      "https://blog.fltech.dev/entry/2026/07/30/llm-sec?utm_source=feed"
+    ],
+    "likes": 0
+  }
+]
