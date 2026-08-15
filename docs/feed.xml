@@ -7,6 +7,13 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。毎朝6:30、AI業界ニュースを図解と「明日からできる活用法」で。</description>
   <language>ja</language>
   <item>
+    <title>2026-08-16 AI朝刊：ChatGPTがPC作業を記憶、説明の手間を削減 ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-08-16/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-16/</guid>
+    <pubDate>Sun, 16 Aug 2026 06:30:00 +0900</pubDate>
+    <description>ChatGPTがPC作業を記憶、説明の手間を削減／AIエージェント設定、製品をまたぎ共通化へ／AI統治を第三者認証、JDLAが申請開始／Claude生成文に電子透かし、編集後も検出可能／商用利用できるQwen3.8、端末内でも動作</description>
+  </item>
+  <item>
     <title>2026-08-15 AI朝刊：ChatGPT、Macの操作履歴から仕事を再開 ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-08-15/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-15/</guid>
@@ -173,13 +180,6 @@
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-21/</guid>
     <pubDate>Tue, 21 Jul 2026 06:30:00 +0900</pubDate>
     <description>Claude Codeを組織で一括管理、SSO・費用上限に対応／Hugging Faceにサイバー攻撃、AIで防御しGLMで解析／韓国のAIブームで格差拡大、若年層の雇用21万件減／Googleが専用AIチップ「Frozen v2」開発、効率6～10倍／AIがBlenderを直接操作、3D制作のハードル激減</description>
-  </item>
-  <item>
-    <title>2026-07-20 AI朝刊：エヌビディア日本電撃訪問、工場AIで巨大提携 ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-07-20/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-20/</guid>
-    <pubDate>Mon, 20 Jul 2026 06:30:00 +0900</pubDate>
-    <description>エヌビディア日本電撃訪問、工場AIで巨大提携／アリババ、2.4兆規模のQwen3.8を無償公開へ予告／米政権が最先端AIへのアクセスを直接管理へ／AIに期待64.9%も成果は16.4%、鍵はデータ基盤／JR東日本、みどりの窓口に音声AI導入の実証実験</description>
   </item>
 </channel>
 </rss>

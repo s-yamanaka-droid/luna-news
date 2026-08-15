@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週は、AIが回答する段階からPC作業を記憶・実行する段階へ進みました。集客ではChatGPT広告が日本で始まり、新たな顧客接点が生まれています。小規模事業者は、業務手順を共通化し、特定のAIに依存しない運用を始める好機です。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-08-16",
+      "title": "ChatGPTがPC作業を記憶、説明の手間を削減",
+      "category": "ツール更新",
+      "source": "ITmedia AI+",
+      "why_picked": "日報や中断業務の再開時間をすぐ削減できる",
+      "tldr": "PC履歴から仕事を即再開",
+      "action": "日報作成を1週間AIに任せる",
+      "image": "../assets/images/2026-08-16/topic_1.png",
+      "link": "../news/2026-08-16/#topic-1"
+    },
+    {
+      "rank": 2,
+      "date": "2026-08-13",
+      "title": "ChatGPT広告、日本で提供開始",
+      "category": "ツール更新",
+      "source": "OpenAI Blog",
+      "why_picked": "検索広告に続く新しい集客経路を先行検証できる",
+      "tldr": "ChatGPTが新たな広告媒体に",
+      "action": "自社商材の広告出稿条件を確認",
+      "image": "../assets/images/2026-08-13/topic_2.png",
+      "link": "../news/2026-08-13/#topic-2"
+    },
+    {
+      "rank": 3,
+      "date": "2026-08-16",
+      "title": "AIエージェント設定、製品をまたぎ共通化へ",
+      "category": "業界動向",
+      "source": "Publickey",
+      "why_picked": "AI業務手順を資産化し乗り換えコストを減らせる",
+      "tldr": "AIの技能設定を共通資産化",
+      "action": "定型業務のAI手順を1本整理",
+      "image": "../assets/images/2026-08-16/topic_2.png",
+      "link": "../news/2026-08-16/#topic-2"
+    }
+  ]
+}
