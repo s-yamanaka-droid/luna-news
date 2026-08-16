@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週は、AIが回答する段階から実際の業務を動かす段階へ進みました。表計算のアプリ化やPC作業の継続で、少人数でも日常業務を省力化できます。ChatGPT広告も始まり、AIは効率化だけでなく集客経路にもなります。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-08-17",
+      "title": "Google Sheets、指示だけで業務アプリ化",
+      "category": "ツール更新",
+      "source": "Google AI Blog",
+      "why_picked": "既存の表をそのまま業務改善へ転用できる",
+      "tldr": "表計算が指示だけで業務アプリになる",
+      "action": "顧客・案件管理表を1つアプリ化する",
+      "image": "../assets/images/2026-08-17/topic_6.png",
+      "link": "../news/2026-08-17/#topic-6"
+    },
+    {
+      "rank": 2,
+      "date": "2026-08-16",
+      "title": "ChatGPTがPC作業を記憶、説明の手間を削減",
+      "category": "ツール更新",
+      "source": "ITmedia AI+",
+      "why_picked": "作業再開と日報作成の時間をすぐ減らせる",
+      "tldr": "PC履歴から仕事の続きと反復を支援",
+      "action": "定型作業を1日記録し自動化候補を探す",
+      "image": "../assets/images/2026-08-16/topic_1.png",
+      "link": "../news/2026-08-16/#topic-1"
+    },
+    {
+      "rank": 3,
+      "date": "2026-08-13",
+      "title": "ChatGPT広告、日本で提供開始",
+      "category": "ツール更新",
+      "source": "OpenAI Blog",
+      "why_picked": "小規模事業者にも新しい集客口が生まれる",
+      "tldr": "ChatGPTが新たな広告・集客経路に",
+      "action": "自社商材で広告出稿条件を確認する",
+      "image": "../assets/images/2026-08-13/topic_2.png",
+      "link": "../news/2026-08-13/#topic-2"
+    }
+  ]
+}
