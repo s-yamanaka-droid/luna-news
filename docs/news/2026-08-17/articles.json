@@ -1,0 +1,202 @@
+[
+  {
+    "title": "AI統制を第三者認証、JDLAが申請開始",
+    "category": "政策・規制",
+    "source": "JDLA 日本ディープラーニング協会",
+    "lede": "JDLAが企業・自治体のAI管理体制を審査する「C認証」を創設し、一般申請の受け付けを始めた。",
+    "keypoints": [
+      "法人単位でAI管理体制を認証",
+      "利用AIの把握や責任組織を審査",
+      "リスク評価と対応状況も確認",
+      "取得企業は営業資料にも表示可能"
+    ],
+    "pull": "AIを使う能力だけでなく、安全に管理する体制が企業の信用になる。",
+    "bizapp": {
+      "summary": "AI管理体制を整え、顧客や取引先への信頼獲得に使える。",
+      "actions": [
+        "C認証基準で社内AI利用を棚卸し",
+        "中小企業向けAI統制整備を提案",
+        "申請企業が増える前に体制を点検"
+      ]
+    },
+    "links": [
+      "https://www.jdla.org/news/20260804001/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "GPT-5.6、AI業務の性能と費用効率を両立",
+    "category": "新モデル発表",
+    "source": "OpenAI Blog",
+    "lede": "GPT-5.6はAIエージェントの性能と費用効率を高め、複数AIの連携や道具の自動操作も強化した。",
+    "keypoints": [
+      "高性能なAI処理を低コスト化",
+      "少ない推論量でも精度を向上",
+      "複数AIの連携制御に対応",
+      "長時間の業務処理を強化"
+    ],
+    "pull": "高性能モデルを常用できる価格効率が、AI業務の採算を変える。",
+    "bizapp": {
+      "summary": "複雑な定型業務をAIに任せる際の費用対効果が高まる。",
+      "actions": [
+        "Responses APIで業務処理を試す",
+        "営業調査の自動実行を提案",
+        "既存AIの費用比較を今期中に行う"
+      ]
+    },
+    "links": [
+      "https://openai.com/index/builders-guide-to-gpt-5-6"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "ChatGPT、パソコン操作履歴から仕事を継続",
+    "category": "ツール更新",
+    "source": "The Verge AI",
+    "lede": "Mac版ChatGPTに、操作履歴を学んで自動化を提案し、途中の仕事も引き継ぐ機能が加わった。",
+    "keypoints": [
+      "クリックや入力から履歴を作成",
+      "ChatGPTとCodexが履歴を参照",
+      "利用者が有効化する選択制",
+      "対象アプリの除外や削除が可能"
+    ],
+    "pull": "AIは質問への回答役から、仕事の経緯を知る伴走者へ変わる。",
+    "bizapp": {
+      "summary": "中断した作業の再開や、反復操作の自動化に使える。",
+      "actions": [
+        "ChatGPTで反復操作を洗い出す",
+        "事務作業の引き継ぎ支援を提案",
+        "導入前に記録対象を決めないと危険"
+      ]
+    },
+    "links": [
+      "https://www.theverge.com/ai-artificial-intelligence/980742/chatgpts-computer-history-tracks-your-clicks-and-keystrokes"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Gemini 3.7 Flash、開発業務を強化",
+    "category": "新モデル発表",
+    "source": "Google DeepMind Blog",
+    "lede": "GoogleがコーディングやAIエージェント、知識業務を強化したGemini 3.7 Flashを発表した。",
+    "keypoints": [
+      "複雑なソフト開発能力を改善",
+      "知識業務とウェブ開発を強化",
+      "AIエージェント用途を重視",
+      "導入価格は旧モデル当初の半額"
+    ],
+    "pull": "高性能と低価格の両立で、AIを使う開発業務の適用範囲が広がる。",
+    "bizapp": {
+      "summary": "開発や知識業務のAI化を、低い導入費用で試せる。",
+      "actions": [
+        "Gemini 3.7で開発業務を検証",
+        "中小企業のウェブ改善を提案",
+        "旧モデル継続では費用差を逃す"
+      ]
+    },
+    "links": [
+      "https://deepmind.google/blog/introducing-gemini-3-7-flash/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Cloudflare、野良MCP通信を可視化",
+    "category": "セキュリティ",
+    "source": "Cloudflare Blog",
+    "lede": "CloudflareがMCP（AIと外部ツールをつなぐ仕組み）の通信を識別し、利用者と接続先を示す機能を発表した。",
+    "keypoints": [
+      "MCP通信を通信内容から識別",
+      "利用者と接続先を可視化",
+      "未把握のAI接続を発見可能",
+      "AIの高速な誤操作に備える"
+    ],
+    "pull": "人なら一度の誤判断も、AIでは短時間に大量の誤操作へ広がる。",
+    "bizapp": {
+      "summary": "社内で把握していないAI接続の発見と統制に使える。",
+      "actions": [
+        "Cloudflare OneでMCPを確認",
+        "企業向けAI接続監査を提案",
+        "放置すれば誤操作が大量化する"
+      ]
+    },
+    "links": [
+      "https://blog.cloudflare.com/mcp-security-updates/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Google Sheets、指示だけで業務アプリ化",
+    "category": "ツール更新",
+    "source": "Google AI Blog",
+    "lede": "新機能Sheets canvasは、表計算データを指示だけで連動型の画面や小型アプリへ変換する。",
+    "keypoints": [
+      "表データを対話型画面に変換",
+      "プログラミング知識は不要",
+      "元の表と自動で同期",
+      "管理表や座席表などを作成"
+    ],
+    "pull": "表計算が記録の置き場から、現場で使う業務画面へ変わる。",
+    "bizapp": {
+      "summary": "既存の表を、入力しやすい業務アプリへ短時間で変えられる。",
+      "actions": [
+        "Sheets canvasで管理表を画面化",
+        "中小企業の台帳改善を提案",
+        "手作業の集計を今期中に見直す"
+      ]
+    },
+    "links": [
+      "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "DeNA、急増するAI費用を既存基盤で管理",
+    "category": "業界動向",
+    "source": "DeNA Engineering",
+    "lede": "DeNAは既存のクラウド費用管理基盤を流用し、プロジェクトやチーム単位でAI費用を可視化している。",
+    "keypoints": [
+      "AI活用と費用管理を同時に推進",
+      "既存のクラウド基盤を流用",
+      "チーム単位でAI費用を管理",
+      "複数クラウドの費用を横断表示"
+    ],
+    "pull": "AI活用を広げるには、利用制限より先に費用を見える状態にする。",
+    "bizapp": {
+      "summary": "AI費用を部門別に見える化し、投資判断の精度を上げられる。",
+      "actions": [
+        "BigQueryとLookerで費用を可視化",
+        "中小企業向けAI予算管理を提案",
+        "予算策定前に利用主体を分けて管理"
+      ]
+    },
+    "links": [
+      "https://engineering.dena.com/blog/2026/08/ai-token-cost-report/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "国産PLaMo 3、大型・軽量モデルを評価",
+    "category": "研究",
+    "source": "Preferred Networks Blog",
+    "lede": "Preferred NetworksとNICTが、国産LLM（大規模言語モデル）PLaMo 3の大型版と軽量版を開発・評価した。",
+    "keypoints": [
+      "日本文化に配慮した国産AI",
+      "120B大型モデルを事前学習",
+      "大型版から31B版へ知識を移植",
+      "長い入力向けの追加学習を実施"
+    ],
+    "pull": "大型モデルの能力を軽量版へ移す研究が、国産AIの実用性を高める。",
+    "bizapp": {
+      "summary": "日本語や国内文化を重視するAI選定の候補として検討できる。",
+      "actions": [
+        "PLaMo 3で日本語業務を評価",
+        "国内向けAI選定支援を提案",
+        "海外モデル固定では選択肢を失う"
+      ]
+    },
+    "links": [
+      "https://tech.preferred.jp/ja/blog/plamo_3_120b_distillation_cpt/"
+    ],
+    "likes": 0
+  }
+]
