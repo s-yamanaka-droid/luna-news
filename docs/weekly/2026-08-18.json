@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週は、AIが「答える道具」から「業務を動かす仕組み」へ進化しました。小規模事業者は、表計算のアプリ化とPC作業の継続支援で時間を削減できます。さらにChatGPT広告が、新たな集客チャネルとして注目されます。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-08-18",
+      "title": "Google Sheets、指示だけで業務アプリ化",
+      "category": "ツール更新",
+      "source": "Google AI Blog",
+      "why_picked": "既存の表をそのまま業務改善に使え、開発費も抑えられる",
+      "tldr": "表計算を指示だけで業務アプリ化",
+      "action": "管理中の表を1つ選び画面化を試す",
+      "image": "../assets/images/2026-08-18/topic_4.png",
+      "link": "../news/2026-08-18/#topic-4"
+    },
+    {
+      "rank": 2,
+      "date": "2026-08-17",
+      "title": "ChatGPT、パソコン操作履歴から仕事を継続",
+      "category": "ツール更新",
+      "source": "The Verge AI",
+      "why_picked": "作業再開と反復操作の自動化で、少人数の時間を増やせる",
+      "tldr": "PC履歴から仕事を再開・自動化",
+      "action": "Macで履歴機能を有効化し半日試す",
+      "image": "../assets/images/2026-08-17/topic_3.png",
+      "link": "../news/2026-08-17/#topic-3"
+    },
+    {
+      "rank": 3,
+      "date": "2026-08-13",
+      "title": "ChatGPT広告、日本で提供開始",
+      "category": "ツール更新",
+      "source": "OpenAI Blog",
+      "why_picked": "検索広告に次ぐ新たな集客経路を早期検証できる",
+      "tldr": "ChatGPTが日本で広告提供を開始",
+      "action": "自社商材で広告対象の検索意図を洗い出す",
+      "image": "../assets/images/2026-08-13/topic_2.png",
+      "link": "../news/2026-08-13/#topic-2"
+    }
+  ]
+}
