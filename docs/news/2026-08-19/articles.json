@@ -1,0 +1,202 @@
+[
+  {
+    "title": "OpenAI、次世代AIの強化学習を一部停止",
+    "category": "セキュリティ",
+    "source": "ITmedia News",
+    "lede": "OpenAIは高まるサイバー能力に備え、一部モデルの強化学習を止め、研究環境と監視体制を強化した。",
+    "keypoints": [
+      "最新モデルの強化学習を2週間停止",
+      "最大規模モデルの学習は保留中",
+      "研究環境の隔離と監視を多段化",
+      "安全性への確信を開発速度に反映"
+    ],
+    "pull": "AI開発は性能競争だけでなく、安全を確認できる速度へ移る。",
+    "bizapp": {
+      "summary": "高性能AIの導入には、権限制限と監視を先に組み込む必要がある。",
+      "actions": [
+        "OpenAI利用環境の権限を棚卸し",
+        "顧客向けAI安全運用診断を提案",
+        "事故前に監視と停止手順を整える"
+      ]
+    },
+    "links": [
+      "https://www.itmedia.co.jp/news/article/2608/19/2000000605/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "JDLA、AI管理体制の第三者認証を開始",
+    "category": "政策・規制",
+    "source": "JDLA 日本ディープラーニング協会",
+    "lede": "JDLAは企業・自治体のAI管理体制を審査する「C認証」を創設し、一般申請の受け付けを始めた。",
+    "keypoints": [
+      "法人単位でAI管理体制を認証",
+      "利用AIの把握と責任組織を審査",
+      "リスク評価と対応状況も確認",
+      "認証ロゴを営業・IR資料に表示可能"
+    ],
+    "pull": "AIを使える企業から、管理責任を証明できる企業へ競争軸が移る。",
+    "bizapp": {
+      "summary": "AI管理体制の整備を、取引先からの信頼獲得に使える。",
+      "actions": [
+        "利用中AIを一覧化し申請準備",
+        "中小企業向け認証支援を提案",
+        "次回提案前に責任体制を明文化"
+      ]
+    },
+    "links": [
+      "https://www.jdla.org/news/20260804001/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Gemini 3.7 Flash、開発力と価格を刷新",
+    "category": "新モデル発表",
+    "source": "Google DeepMind Blog",
+    "lede": "GoogleはコーディングやAIエージェント向けに性能を高めたGemini 3.7 Flashを発表した。",
+    "keypoints": [
+      "Flashシリーズで最も高知能",
+      "ソフトウェア開発能力を改善",
+      "知識業務とWeb開発も強化",
+      "導入価格は旧価格の半額"
+    ],
+    "pull": "高性能モデルの短期更新と低価格化が、業務AIの見直しを迫る。",
+    "bizapp": {
+      "summary": "開発や定型知識業務のAI費用対効果を改善できる。",
+      "actions": [
+        "Geminiで開発業務を比較検証",
+        "中小企業向け業務AI化を提案",
+        "次期予算前にモデル費用を再試算"
+      ]
+    },
+    "links": [
+      "https://deepmind.google/blog/introducing-gemini-3-7-flash/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Microsoft 365 Copilotに情報流出の穴",
+    "category": "セキュリティ",
+    "source": "Ars Technica AI",
+    "lede": "研究者はMicrosoft 365 Copilotから秘密の入力値を聞き出し、リンククリックだけで情報を盗める攻撃を実証した。",
+    "keypoints": [
+      "Copilot自身が秘密の入力値を開示",
+      "標的はリンクを押すだけで被害",
+      "パスワードなどの流出が可能",
+      "利用者の追加確認を回避"
+    ],
+    "pull": "AIが持つ内部情報そのものが、攻撃手順の発見源になり得る。",
+    "bizapp": {
+      "summary": "社内AIではリンク操作と機密データへの権限分離が急務になる。",
+      "actions": [
+        "Copilotの機密権限を点検",
+        "顧客向けAI情報流出診断を提案",
+        "被害前にリンク経由攻撃を検証"
+      ]
+    },
+    "links": [
+      "https://arstechnica.com/security/2026/08/microsoft-copilot-reveals-secret-input-that-allowed-it-to-be-hacked/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AWS、AIエージェントの自動決済を正式提供",
+    "category": "ツール更新",
+    "source": "Amazon AWS AI Blog",
+    "lede": "AWSはAIエージェントが有料APIやコンテンツを安全に自動購入できる決済機能を正式提供した。",
+    "keypoints": [
+      "AgentCore paymentsを正式提供",
+      "AIが有料APIを自律購入",
+      "利用額を制限する仕組みを内蔵",
+      "Coinbase、Stripeと連携"
+    ],
+    "pull": "AIエージェントは作業の自動化から、支払いを伴う取引主体へ進む。",
+    "bizapp": {
+      "summary": "少額の外部サービス調達まで含む業務を自動化できる。",
+      "actions": [
+        "AgentCoreで支出上限を試験",
+        "購買業務の自動化提案を作る",
+        "自動決済拡大前に承認額を決める"
+      ]
+    },
+    "links": [
+      "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-agentcore-payments-is-now-generally-available-enabling-agents-to-transact-safely-and-autonomously-at-scale/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Google Sheets、指示だけで業務画面を作成",
+    "category": "ツール更新",
+    "source": "Google AI Blog",
+    "lede": "Google Sheetsの新機能「Sheets canvas」は、表のデータから対話型の業務画面をコードなしで生成する。",
+    "keypoints": [
+      "文章で必要な画面を指示できる",
+      "対話型の小型アプリを自動作成",
+      "元の表データと自動で同期",
+      "進捗表や座席表にも対応"
+    ],
+    "pull": "表計算はデータを並べる場所から、業務アプリを作る場所へ変わる。",
+    "bizapp": {
+      "summary": "既存の表を保ったまま、現場向け業務画面に変換できる。",
+      "actions": [
+        "Sheetsで進捗画面を試作",
+        "中小企業の表業務改善を提案",
+        "次回更新前に手作業の表を選別"
+      ]
+    },
+    "links": [
+      "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "DeNA、急増するAI費用を既存基盤で管理",
+    "category": "業界動向",
+    "source": "DeNA Engineering",
+    "lede": "DeNAは既存のクラウド費用管理基盤を流用し、プロジェクトやチーム単位でAIコストを可視化している。",
+    "keypoints": [
+      "千超のクラウド口座を一括管理",
+      "既存の費用管理基盤をAIへ流用",
+      "チーム単位でAI費用を把握",
+      "BigQueryとLookerで可視化"
+    ],
+    "pull": "AI活用を広げるには、現場を止めずに費用を見える化する基盤が要る。",
+    "bizapp": {
+      "summary": "AI費用をチーム別に見える化し、活用と統制を両立できる。",
+      "actions": [
+        "LookerでAI費用を可視化",
+        "中小企業向け費用管理を提案",
+        "予算超過前に利用単位を分ける"
+      ]
+    },
+    "links": [
+      "https://engineering.dena.com/blog/2026/08/ai-token-cost-report/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Google、暗号データを復号せずAI処理",
+    "category": "研究",
+    "source": "Publickey",
+    "lede": "Googleは暗号化したデータを復号せずAIで処理できる、オープンソースのモデル変換基盤「HEIR」を発表した。",
+    "keypoints": [
+      "完全準同型暗号をAI処理に活用",
+      "学習済みモデルを変換して利用",
+      "暗号データを復号せず推論",
+      "オープンソースで提供"
+    ],
+    "pull": "機密データを見せずにAIで分析する道が、実装段階へ近づく。",
+    "bizapp": {
+      "summary": "顧客情報を復号せず分析する安全なAI活用の選択肢になる。",
+      "actions": [
+        "HEIRで機密データ処理を検証",
+        "顧客情報分析の安全案を提案",
+        "本格導入前に処理性能を確かめる"
+      ]
+    },
+    "links": [
+      "https://www.publickey1.jp/blog/26/googleaiheirai.html"
+    ],
+    "likes": 0
+  }
+]
