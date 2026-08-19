@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週は、表計算やPC操作をそのままAIで業務化する流れが加速しました。高性能モデルの低価格化より、既存業務の再設計が成果を左右します。まず一つの定型業務で時間削減を実測する週です。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-08-19",
+      "title": "Google Sheets、指示だけで業務画面を作成",
+      "category": "ツール更新",
+      "source": "Google AI Blog",
+      "why_picked": "使い慣れた表を低コストで業務アプリ化できる",
+      "tldr": "表計算が指示だけで業務アプリになる",
+      "action": "顧客管理表を一つ業務画面に変える",
+      "image": "../assets/images/2026-08-19/topic_6.png",
+      "link": "../news/2026-08-19/#topic-6"
+    },
+    {
+      "rank": 2,
+      "date": "2026-08-16",
+      "title": "ChatGPTがPC作業を記憶、説明の手間を削減",
+      "category": "ツール更新",
+      "source": "ITmedia AI+",
+      "why_picked": "作業再開や日報作成の説明時間を直接減らせる",
+      "tldr": "PC履歴から仕事の続きと自動化を支援",
+      "action": "毎日の反復作業を一つ記録して試す",
+      "image": "../assets/images/2026-08-16/topic_1.png",
+      "link": "../news/2026-08-16/#topic-1"
+    },
+    {
+      "rank": 3,
+      "date": "2026-08-20",
+      "title": "AI導入後も業務量が減らない理由を実証",
+      "category": "業界動向",
+      "source": "LINEヤフー Tech Blog",
+      "why_picked": "AI追加だけで終わる無駄な投資を防げる",
+      "tldr": "AI導入だけでは人の仕事は減らない",
+      "action": "AI化業務の人手確認工程を一つ削る",
+      "image": "../assets/images/2026-08-20/topic_6.png",
+      "link": "../news/2026-08-20/#topic-6"
+    }
+  ]
+}

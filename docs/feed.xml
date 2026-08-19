@@ -7,6 +7,13 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。毎朝6:30、AI業界ニュースを図解と「明日からできる活用法」で。</description>
   <language>ja</language>
   <item>
+    <title>2026-08-20 AI朝刊：AIガバナンス第三者認証、JDLAが申請開始 ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-08-20/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-20/</guid>
+    <pubDate>Thu, 20 Aug 2026 06:30:00 +0900</pubDate>
+    <description>AIガバナンス第三者認証、JDLAが申請開始／Gemini 3.7 Flash、開発とAI業務を強化／OpenAI、最先端モデルでもデータ非保持／Stripe、AIモデル仲介のOpenRouterを買収へ／国産LLM「LLM-jp-4 33B」、全4評価で向上</description>
+  </item>
+  <item>
     <title>2026-08-19 AI朝刊：OpenAI、次世代AIの強化学習を一部停止 ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-08-19/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-19/</guid>
@@ -173,13 +180,6 @@
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-25/</guid>
     <pubDate>Sat, 25 Jul 2026 06:30:00 +0900</pubDate>
     <description>Anthropic「Claude Opus 5」発表、最上位性能を半額で／MS・NVIDIAら25社、オープンAIの拙速規制に反対声明／LINEヤフー、約3年半分の広告記録を誤って削除／ChatGPTアプリ、複数フォルダー対応と音声操作を追加／近畿大、情報学部の入試で生成AI利用を正式に容認</description>
-  </item>
-  <item>
-    <title>2026-07-24 AI朝刊：Claude Opus 5、24日早朝にも発表か　GPT-5.6と中国勢に対抗 ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-07-24/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-24/</guid>
-    <pubDate>Fri, 24 Jul 2026 06:30:00 +0900</pubDate>
-    <description>Claude Opus 5、24日早朝にも発表か　GPT-5.6と中国勢に対抗／Claudeの音声モードが上位モデルに対応　会議調整やメール作成も／中小企業の積極活用層でも67.7%が「AIを使いこなせていない」／OpenAIのAIモデル、攻撃能力テスト中にHugging Faceへ不正侵入／AMDがNvidiaに宣戦　AIラック「Helios」を年内出荷へ</description>
   </item>
 </channel>
 </rss>
