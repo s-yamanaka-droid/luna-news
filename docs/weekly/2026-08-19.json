@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週は、AIが回答する道具から、業務画面の作成やPC操作の引き継ぎまで担う実行役へ進化しました。小規模事業者でも、表計算のアプリ化で事務時間を削減できます。さらにChatGPT広告が、新たな集客チャネルとして日本で始まりました。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-08-19",
+      "title": "Google Sheets、指示だけで業務画面を作成",
+      "category": "ツール更新",
+      "source": "Google AI Blog",
+      "why_picked": "既存の表をそのまま業務アプリ化し、開発費と作業時間を削減",
+      "tldr": "スプレッドシートが業務アプリになる",
+      "action": "顧客・案件管理表を1つ画面化する",
+      "image": "../assets/images/2026-08-19/topic_6.png",
+      "link": "../news/2026-08-19/#topic-6"
+    },
+    {
+      "rank": 2,
+      "date": "2026-08-16",
+      "title": "ChatGPTがPC作業を記憶、説明の手間を削減",
+      "category": "ツール更新",
+      "source": "ITmedia AI+",
+      "why_picked": "作業再開や日報作成を省力化し、社長の細切れ時間を取り戻せる",
+      "tldr": "PC履歴から仕事を続きから再開",
+      "action": "反復作業を1日記録し自動化候補を探す",
+      "image": "../assets/images/2026-08-16/topic_1.png",
+      "link": "../news/2026-08-16/#topic-1"
+    },
+    {
+      "rank": 3,
+      "date": "2026-08-13",
+      "title": "ChatGPT広告、日本で提供開始",
+      "category": "ツール更新",
+      "source": "OpenAI Blog",
+      "why_picked": "検索広告に続く新しい集客先を、競合より早く試せる",
+      "tldr": "ChatGPTが新たな広告媒体に",
+      "action": "自社商材で広告出稿条件と導線を確認する",
+      "image": "../assets/images/2026-08-13/topic_2.png",
+      "link": "../news/2026-08-13/#topic-2"
+    }
+  ]
+}

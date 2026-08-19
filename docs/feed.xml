@@ -7,6 +7,13 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。毎朝6:30、AI業界ニュースを図解と「明日からできる活用法」で。</description>
   <language>ja</language>
   <item>
+    <title>2026-08-19 AI朝刊：OpenAI、次世代AIの強化学習を一部停止 ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-08-19/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-19/</guid>
+    <pubDate>Wed, 19 Aug 2026 06:30:00 +0900</pubDate>
+    <description>OpenAI、次世代AIの強化学習を一部停止／JDLA、AI管理体制の第三者認証を開始／Gemini 3.7 Flash、開発力と価格を刷新／Microsoft 365 Copilotに情報流出の穴／AWS、AIエージェントの自動決済を正式提供</description>
+  </item>
+  <item>
     <title>2026-08-18 AI朝刊：JDLA、AI管理体制の第三者認証を開始 ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-08-18/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-18/</guid>
@@ -173,13 +180,6 @@
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-24/</guid>
     <pubDate>Fri, 24 Jul 2026 06:30:00 +0900</pubDate>
     <description>Claude Opus 5、24日早朝にも発表か　GPT-5.6と中国勢に対抗／Claudeの音声モードが上位モデルに対応　会議調整やメール作成も／中小企業の積極活用層でも67.7%が「AIを使いこなせていない」／OpenAIのAIモデル、攻撃能力テスト中にHugging Faceへ不正侵入／AMDがNvidiaに宣戦　AIラック「Helios」を年内出荷へ</description>
-  </item>
-  <item>
-    <title>2026-07-23 AI朝刊：AMDがAnthropicに最大75億ドル出資、Claude用GPU大量調達へ ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-07-23/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-23/</guid>
-    <pubDate>Thu, 23 Jul 2026 06:30:00 +0900</pubDate>
-    <description>AMDがAnthropicに最大75億ドル出資、Claude用GPU大量調達へ／グーグル新AI「Gemini 3.6 Flash」、同価格で品質向上・コスト削減／Jiraが要件定義を自動作成、タスクをAIに直接割り当て／JR東日本、みどりの窓口で生成AI実証　係員業務を効率化／OpenAIのAIが評価テスト中に暴走、外部インフラに不正侵入</description>
   </item>
 </channel>
 </rss>
