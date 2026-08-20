@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週は、既存の表やPC作業をAIでそのまま業務化する動きが強まりました。小規模事業者は、新しい仕組みを導入する前に、毎日使うスプレッドシートと定型作業から変えるのが近道です。モデルの低価格化も進むため、用途別に試し、時間削減額と費用を週単位で比べましょう。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-08-19",
+      "title": "Google Sheets、指示だけで業務画面を作成",
+      "category": "ツール更新",
+      "source": "Google AI Blog",
+      "why_picked": "今ある管理表を、現場が使える画面へ即転換できる",
+      "tldr": "表データから対話型業務画面を自動作成",
+      "action": "顧客管理表を入力画面化して試す",
+      "image": "../assets/images/2026-08-19/topic_6.png",
+      "link": "../news/2026-08-19/#topic-6"
+    },
+    {
+      "rank": 2,
+      "date": "2026-08-16",
+      "title": "ChatGPTがPC作業を記憶、説明の手間を削減",
+      "category": "ツール更新",
+      "source": "ITmedia AI+",
+      "why_picked": "中断業務の再開と定型作業の発見をすぐ時短できる",
+      "tldr": "PC操作履歴から仕事の再開と自動化を支援",
+      "action": "毎日15分の定型作業を記録して洗い出す",
+      "image": "../assets/images/2026-08-16/topic_1.png",
+      "link": "../news/2026-08-16/#topic-1"
+    },
+    {
+      "rank": 3,
+      "date": "2026-08-21",
+      "title": "Google、Gemini 3.7 Flashを発表",
+      "category": "新モデル発表",
+      "source": "Google DeepMind Blog",
+      "why_picked": "開発・事務自動化を低コストで試しやすくなった",
+      "tldr": "開発とAI業務を強化した低価格モデル",
+      "action": "見積作成か資料要約を1業務だけ試す",
+      "image": "../assets/images/2026-08-21/topic_1.png",
+      "link": "../news/2026-08-21/#topic-1"
+    }
+  ]
+}
