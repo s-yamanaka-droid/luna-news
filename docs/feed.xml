@@ -7,6 +7,13 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。毎朝6:30、AI業界ニュースを図解と「明日からできる活用法」で。</description>
   <language>ja</language>
   <item>
+    <title>2026-08-22 AI朝刊：Gemini 3.7 Flash、開発AIを半額で強化 ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-08-22/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-22/</guid>
+    <pubDate>Sat, 22 Aug 2026 06:30:00 +0900</pubDate>
+    <description>Gemini 3.7 Flash、開発AIを半額で強化／三菱UFJ銀行、生成AIで業務標準化を加速／OKI、問い合わせ対応をAIで標準化へ／SmartHR、問い合わせ対応をAI主体へ／DeNA、AI費用を全社基盤で可視化</description>
+  </item>
+  <item>
     <title>2026-08-21 AI朝刊：Google、Gemini 3.7 Flashを発表 ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-08-21/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-21/</guid>
@@ -173,13 +180,6 @@
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-27/</guid>
     <pubDate>Mon, 27 Jul 2026 06:30:00 +0900</pubDate>
     <description>Anthropic「Claude Opus 5」公開、性能より低コスト重視／OpenAIのAIエージェントがHugging Faceに不正侵入／Google「Gemini 3.6 Flash」発表、トークン消費17%削減／米FDA、AI基盤を2カ月で導入し職員85%が日常利用／AI業界の新論点「蒸留」、規制の焦点に浮上</description>
-  </item>
-  <item>
-    <title>2026-07-26 AI朝刊：Anthropic「Claude Opus 5」登場 最上位を約半額で ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-07-26/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-26/</guid>
-    <pubDate>Sun, 26 Jul 2026 06:30:00 +0900</pubDate>
-    <description>Anthropic「Claude Opus 5」登場 最上位を約半額で／Google「Gemini 3.6 Flash」トークン量17%削減で低コスト化／AI規制の焦点に「蒸留」浮上 中国の格安モデルが火種／NVIDIA新基盤「Rubin」CESで発表 AI生成コスト1/10へ／新規コードの75%がAI生成 それでも成果は二分</description>
   </item>
 </channel>
 </rss>
