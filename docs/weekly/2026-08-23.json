@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週は、既存の表や業務をAIでそのまま使いやすくする流れが強まりました。小規模事業者は、まず手作業の多い管理表・反復作業・制作業務を一つずつAI化するのが有効です。高性能モデルの低価格化で、開発外注前の試作や業務改善も試しやすくなっています。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-08-19",
+      "title": "Google Sheets、指示だけで業務画面を作成",
+      "category": "ツール更新",
+      "source": "Google AI Blog",
+      "why_picked": "使い慣れた管理表をすぐ現場向け画面に変えられる",
+      "tldr": "表データを指示だけで業務画面化",
+      "action": "予約・案件管理表を画面化して試す",
+      "image": "../assets/images/2026-08-19/topic_6.png",
+      "link": "../news/2026-08-19/#topic-6"
+    },
+    {
+      "rank": 2,
+      "date": "2026-08-17",
+      "title": "ChatGPT、パソコン操作履歴から仕事を継続",
+      "category": "ツール更新",
+      "source": "The Verge AI",
+      "why_picked": "中断しがちな反復作業を引き継ぎ、時間を取り戻せる",
+      "tldr": "PC作業の継続と自動化を支援",
+      "action": "毎週の定型作業を1つ記録して試す",
+      "image": "../assets/images/2026-08-17/topic_3.png",
+      "link": "../news/2026-08-17/#topic-3"
+    },
+    {
+      "rank": 3,
+      "date": "2026-08-22",
+      "title": "Gemini 3.7 Flash、開発AIを半額で強化",
+      "category": "新モデル発表",
+      "source": "Google DeepMind Blog",
+      "why_picked": "低コストで業務ツール試作や制作の内製化を始められる",
+      "tldr": "開発・AI業務向けモデルを低価格化",
+      "action": "面倒な業務1つの試作をAIに依頼",
+      "image": "../assets/images/2026-08-22/topic_1.png",
+      "link": "../news/2026-08-22/#topic-1"
+    }
+  ]
+}
