@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週は、既存の表や手順をAIでそのまま業務化する流れが強まりました。小規模事業者は、まず問い合わせ・見積・進捗管理など一つの定型業務を対象に試すのが有効です。高性能モデルの低価格化で、少量から費用対効果を測る実験もしやすくなっています。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-08-19",
+      "title": "Google Sheets、指示だけで業務画面を作成",
+      "category": "ツール更新",
+      "source": "Google AI Blog",
+      "why_picked": "今ある管理表を、すぐ現場用アプリに変えられる",
+      "tldr": "表データを指示だけで業務画面化",
+      "action": "案件管理表を入力画面化して試す",
+      "image": "../assets/images/2026-08-19/topic_6.png",
+      "link": "../news/2026-08-19/#topic-6"
+    },
+    {
+      "rank": 2,
+      "date": "2026-08-24",
+      "title": "OpenAI、GPT-5.6 SolのAPI料金を最大33％値下げ",
+      "category": "ツール更新",
+      "source": "ITmedia AI+",
+      "why_picked": "見積作成や調査自動化を低コストで試せる好機",
+      "tldr": "高性能AIのAPI料金を最大33％値下げ",
+      "action": "一業務を選びAPI費用を試算する",
+      "image": "../assets/images/2026-08-24/topic_1.png",
+      "link": "../news/2026-08-24/#topic-1"
+    },
+    {
+      "rank": 3,
+      "date": "2026-08-24",
+      "title": "三菱UFJ銀行、生成AIで業務標準化の手間を9割減",
+      "category": "業界動向",
+      "source": "ITmedia Enterprise",
+      "why_picked": "社長しかできない仕事を手順化し、任せられる",
+      "tldr": "属人業務の標準化をAIで大幅短縮",
+      "action": "属人業務を一つ録音し手順書化する",
+      "image": "../assets/images/2026-08-24/topic_6.png",
+      "link": "../news/2026-08-24/#topic-6"
+    }
+  ]
+}

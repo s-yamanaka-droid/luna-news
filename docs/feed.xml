@@ -7,6 +7,13 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。毎朝6:30、AI業界ニュースを図解と「明日からできる活用法」で。</description>
   <language>ja</language>
   <item>
+    <title>2026-08-24 AI朝刊：OpenAI、GPT-5.6 SolのAPI料金を最大33％値下げ ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-08-24/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-24/</guid>
+    <pubDate>Mon, 24 Aug 2026 06:30:00 +0900</pubDate>
+    <description>OpenAI、GPT-5.6 SolのAPI料金を最大33％値下げ／Slack上の会話を読み、AIが開発から文書化まで支援／Gemini 3.7 Flash、コードと業務支援を強化／Anthropic、高性能AIで脆弱性スキャンを提供／OKI、AIでコンタクトセンター応対を標準化へ</description>
+  </item>
+  <item>
     <title>2026-08-23 AI朝刊：三菱UFJ銀行、生成AIで業務標準化の手間9割減 ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-08-23/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-23/</guid>
@@ -173,13 +180,6 @@
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-29/</guid>
     <pubDate>Wed, 29 Jul 2026 06:30:00 +0900</pubDate>
     <description>AnthropicのAI、ネット暗号の弱点を自力発見／Google、新AI「Gemini 3.6 Flash」発表 コスト削減／中国製オープンAI「Kimi K3」、米国との差を急縮小／Google、AI投資2兆円上振れ 市場が警戒／AIで社員が「専門外の仕事」までこなす時代に</description>
-  </item>
-  <item>
-    <title>2026-07-28 AI朝刊：中国Moonshot、最強AI「Kimi K3」を無償公開 ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-07-28/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-28/</guid>
-    <pubDate>Tue, 28 Jul 2026 06:30:00 +0900</pubDate>
-    <description>中国Moonshot、最強AI「Kimi K3」を無償公開／Claude共有チャットがGoogle検索に露出／ナデラCEO「1つのAI依存の企業は生き残れない」／Google、高効率AI「Gemini 3.6 Flash」発表／AIで「他職種の仕事」に踏み出す人が急増</description>
   </item>
 </channel>
 </rss>
