@@ -1,0 +1,202 @@
+[
+  {
+    "title": "三菱UFJ銀行、生成AIで業務標準化の手間9割減",
+    "category": "業界動向",
+    "source": "ITmedia Enterprise",
+    "lede": "三菱UFJ銀行は、熟練者頼みだった海外事務の標準化で生成AIを使い、誤情報や回答のばらつきへの対応を進めた。",
+    "keypoints": [
+      "海外事務の標準化を推進",
+      "熟練者依存の業務精査をAI化",
+      "AIの誤情報が導入課題に",
+      "回答のばらつきも克服対象"
+    ],
+    "pull": "生成AI導入の成否は、業務知識をどう教え、回答を制御するかで決まる。",
+    "bizapp": {
+      "summary": "属人業務の手順整理に使え、標準化の停滞を減らせる。",
+      "actions": [
+        "Notionで手順書を集約し標準化に使う",
+        "中小企業へ熟練者業務の棚卸しを提案",
+        "退職・異動前に知識を残さないと継承不能"
+      ]
+    },
+    "links": [
+      "https://www.itmedia.co.jp/enterprise/articles/2608/21/news019.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "OpenAI、GPT-5.6 SolのAPI料金を最大33％値下げ",
+    "category": "ツール更新",
+    "source": "ITmedia AI+",
+    "lede": "OpenAIはGPT-5.6 SolのAPI料金を、少なくとも11月21日まで入力20％、出力約33％引き下げる。",
+    "keypoints": [
+      "入力料金は100万トークン4ドル",
+      "出力料金は100万トークン20ドル",
+      "プロモーションは11月21日まで",
+      "Codexのクレジット消費量も減額"
+    ],
+    "pull": "高性能AIの利用コストは、モデル選定と処理方式で大きく変わる。",
+    "bizapp": {
+      "summary": "高性能AIを使う業務の費用対効果を見直す好機になる。",
+      "actions": [
+        "OpenAI APIの定型処理費を再試算する",
+        "営業提案のAI見積もりを期間内に更新",
+        "11月21日以降の料金変動前に予算を組む"
+      ]
+    },
+    "links": [
+      "https://www.itmedia.co.jp/aiplus/article/2608/23/2000000700/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Google、コード開発向けGemini 3.7 Flashを発表",
+    "category": "新モデル発表",
+    "source": "Google DeepMind Blog",
+    "lede": "Googleは、コーディングやAIエージェントでの利用を想定した新モデル「Gemini 3.7 Flash」を発表した。",
+    "keypoints": [
+      "コード開発とAIエージェント向け",
+      "Gemini 3.6 Flashの3週間後に投入",
+      "開発者の意見を反映して改良",
+      "導入価格は3.6 Flashの半額"
+    ],
+    "pull": "開発支援AIは、性能だけでなく継続利用できる価格が競争力になる。",
+    "bizapp": {
+      "summary": "開発チームの実装・調査支援を低コストで試せる。",
+      "actions": [
+        "Geminiで社内ツール改修案を作る",
+        "顧客へ業務システム改修のAI支援を提案",
+        "開発費比較を次の外注更新前に行う"
+      ]
+    },
+    "links": [
+      "https://deepmind.google/blog/introducing-gemini-3-7-flash/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "OKI、生成AIでコンタクトセンター応対を標準化へ",
+    "category": "ツール更新",
+    "source": "AI Watch",
+    "lede": "OKIは、問い合わせの振り分けや応対支援を自動化する「CTstage AIコンシェルジュ」を2027年1月から提供する。",
+    "keypoints": [
+      "2027年1月に提供開始予定",
+      "問い合わせの一次振り分けを自動化",
+      "会話フローごとに回答ルールを設定",
+      "応対要約と根拠情報を保存可能"
+    ],
+    "pull": "問い合わせAIは、回答の自動化だけでなく、管理できる仕組みが不可欠だ。",
+    "bizapp": {
+      "summary": "問い合わせ一次対応の品質をそろえ、人手不足対策に使える。",
+      "actions": [
+        "CTstageで一次振り分け業務に使う",
+        "採用窓口の定型質問自動化を提案",
+        "人材不足が深まる前に応対ログを整備"
+      ]
+    },
+    "links": [
+      "https://ai.watch.impress.co.jp/docs/news/2134613.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Anthropic、Claudeで脆弱性検出と修正案を提供",
+    "category": "セキュリティ",
+    "source": "ITmedia AI+",
+    "lede": "Anthropicは、Claude Enterprise顧客向けに、Claude Securityでコードの脆弱性検出と修正案を利用可能にした。",
+    "keypoints": [
+      "Enterprise顧客向け公開ベータ",
+      "指定コードを走査して弱点を検出",
+      "修正案と深刻度評価を返す",
+      "適用前に人間のレビューが必要"
+    ],
+    "pull": "AIによる脆弱性検出は、修正の自動化ではなく人間の判断を強くする。",
+    "bizapp": {
+      "summary": "開発中の安全確認を早め、修正漏れの発見に使える。",
+      "actions": [
+        "Claude Securityで改修前コードを点検",
+        "顧客へ保守契約時の安全点検を提案",
+        "公開前に点検しないと修正コストが増える"
+      ]
+    },
+    "links": [
+      "https://www.itmedia.co.jp/aiplus/article/2608/22/2000000697/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AWS、AIエージェントの社内ツール権限を統制",
+    "category": "セキュリティ",
+    "source": "Amazon AWS AI Blog",
+    "lede": "AWSは、AIエージェントによる社内ツール利用を管理・監査するAmazon Bedrock AgentCore Gatewayの考え方を示した。",
+    "keypoints": [
+      "AIの顧客データ接続を可視化",
+      "誰が権限を与えたかを把握",
+      "認証情報流出時の影響を想定",
+      "段階的な統制モデルを提示"
+    ],
+    "pull": "AIエージェントを増やす前に、誰が何へ接続できるかを把握すべきだ。",
+    "bizapp": {
+      "summary": "AIエージェントの権限管理を設計し、情報漏えいを防げる。",
+      "actions": [
+        "BedrockでAI接続先の権限を棚卸し",
+        "顧客へAI利用の監査設計を提案",
+        "認証情報流出前に接続経路を可視化"
+      ]
+    },
+    "links": [
+      "https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-tool-access-with-amazon-bedrock-agentcore-gateway/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "OpenAI、AI投資の費用対効果を測る4指標",
+    "category": "業界動向",
+    "source": "ITmedia Enterprise",
+    "lede": "OpenAIはAI投資を、業務成果、成功費用、信頼性、利用拡大時の価値増加という4項目で評価する考え方を示した。",
+    "keypoints": [
+      "導入数だけでAI価値を測らない",
+      "実際の業務成果を評価軸にする",
+      "成功までの費用を比較する",
+      "拡大時の価値増加も評価する"
+    ],
+    "pull": "AI投資は利用人数ではなく、仕事の成果と信頼性で評価する段階に入った。",
+    "bizapp": {
+      "summary": "AI施策を成果基準で選別し、投資判断を変えられる。",
+      "actions": [
+        "NotionでAI施策の成果指標を管理する",
+        "顧客へAI導入後の効果測定を提案",
+        "来期予算前に利用数だけの評価を改める"
+      ]
+    },
+    "links": [
+      "https://www.itmedia.co.jp/enterprise/articles/2608/22/news002.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "SmartHR、問い合わせ対応をAI主体・人間評価へ",
+    "category": "業界動向",
+    "source": "SmartHR Tech Blog",
+    "lede": "SmartHRは、技術的な問い合わせをAIエージェントが調査・回答し、人間が評価と改善を担う仕組みを開発している。",
+    "keypoints": [
+      "問い合わせ対応AIを社内開発",
+      "Slackの起票でAIが回答を投稿",
+      "過去履歴やヘルプを検索して回答",
+      "人間は結果の評価と改善を担う"
+    ],
+    "pull": "人の仕事は回答作成から、AIの回答品質を高める役割へ移っていく。",
+    "bizapp": {
+      "summary": "社内問い合わせをAIが担い、人は品質改善へ集中できる。",
+      "actions": [
+        "SlackとNotionで社内FAQ対応に使う",
+        "顧客へ労務・IT窓口の一次対応を提案",
+        "問い合わせ履歴を残さないと改善できない"
+      ]
+    },
+    "links": [
+      "https://tech.smarthr.jp/entry/2026/08/21/155452"
+    ],
+    "likes": 0
+  }
+]
