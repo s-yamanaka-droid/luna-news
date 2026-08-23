@@ -1,0 +1,202 @@
+[
+  {
+    "title": "OpenAI、GPT-5.6 SolのAPI料金を最大33％値下げ",
+    "category": "ツール更新",
+    "source": "ITmedia AI+",
+    "lede": "OpenAIはGPT-5.6 SolのAPI料金を11月21日まで引き下げ、入力を20％、出力を約33％安くする。",
+    "keypoints": [
+      "入力料金を100万トークン4ドルに",
+      "出力料金を100万トークン20ドルに",
+      "ChatGPT WorkとCodexの消費量も低減",
+      "長い入力では料金が上がる"
+    ],
+    "pull": "高性能AIの導入費を、期限付きで見直す好機だ。",
+    "bizapp": {
+      "summary": "AI開発の試験導入を低コストで拡大できる。",
+      "actions": [
+        "Cursorで開発支援の利用量を計測",
+        "営業支援AIの小規模検証を提案",
+        "11月21日までに費用対効果を検証"
+      ]
+    },
+    "links": [
+      "https://www.itmedia.co.jp/aiplus/article/2608/23/2000000700/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Slack上の会話を読み、AIが開発から文書化まで支援",
+    "category": "ツール更新",
+    "source": "Publickey",
+    "lede": "Slackは、開発チームの会話を理解したAIエージェントが、コーディングや文書作成に参加するSlack Codeを発表した。",
+    "keypoints": [
+      "AIエージェントが開発会話に参加",
+      "議論の文脈を踏まえコードを書く",
+      "文書作成も担う仕組み",
+      "複数のAI開発支援と連携"
+    ],
+    "pull": "開発の指示と記録が、会話の場でつながり始めた。",
+    "bizapp": {
+      "summary": "開発案件の引き継ぎと記録作成を効率化できる。",
+      "actions": [
+        "Slackで仕様決定を議事録化する",
+        "顧客向け改修の履歴共有を提案",
+        "開発体制の見直しを今期中に開始"
+      ]
+    },
+    "links": [
+      "https://www.publickey1.jp/blog/26/slackaislack_code.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Gemini 3.7 Flash、コードと業務支援を強化",
+    "category": "新モデル発表",
+    "source": "Google DeepMind Blog",
+    "lede": "Google DeepMindは、コーディングやAIエージェント向けの新モデルGemini 3.7 Flashを発表し、導入価格を従来比半額とした。",
+    "keypoints": [
+      "コード作成とAIエージェントを強化",
+      "知的業務の支援性能も向上",
+      "Web開発の作業改善を目指す",
+      "導入価格は3.6 Flashの半額"
+    ],
+    "pull": "高性能モデルの価格競争が、業務AI導入を加速させる。",
+    "bizapp": {
+      "summary": "開発と定型的な知的業務の自動化候補を広げられる。",
+      "actions": [
+        "Geminiで社内ツール改修を試す",
+        "中小企業向け業務自動化を提案",
+        "価格優位がある間に比較検証する"
+      ]
+    },
+    "links": [
+      "https://deepmind.google/blog/introducing-gemini-3-7-flash/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Anthropic、高性能AIで脆弱性スキャンを提供",
+    "category": "セキュリティ",
+    "source": "ITmedia AI+",
+    "lede": "AnthropicはClaude Securityで、Claude Mythos 5を使うコード脆弱性検出と修正案の提示をEnterprise顧客向けに始めた。",
+    "keypoints": [
+      "指定コードを走査して脆弱性を検出",
+      "修正パッチの案を提示する",
+      "利用対象はEnterprise顧客",
+      "修正前に人間の承認が必要"
+    ],
+    "pull": "AIの防御活用は、自動修正より人の承認設計が要だ。",
+    "bizapp": {
+      "summary": "開発中のセキュリティ点検を効率化できる。",
+      "actions": [
+        "Claude Securityでコード点検を行う",
+        "顧客システムの改修前診断を提案",
+        "脆弱性確認を開発工程に組み込む"
+      ]
+    },
+    "links": [
+      "https://www.itmedia.co.jp/aiplus/article/2608/22/2000000697/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "OKI、AIでコンタクトセンター応対を標準化へ",
+    "category": "業界動向",
+    "source": "AI Watch",
+    "lede": "OKIは問い合わせの振り分け、応対支援、履歴記録をAIで行うCTstage AIコンシェルジュを2027年1月に提供開始する。",
+    "keypoints": [
+      "問い合わせの一次振り分けを自動化",
+      "必要時は適切な担当者へ接続",
+      "応対要約と履歴を自動記録",
+      "回答根拠を保存して改善に活用"
+    ],
+    "pull": "応対の自動化は、回答根拠を残して初めて改善循環になる。",
+    "bizapp": {
+      "summary": "問い合わせ対応の品質をそろえ、人手不足を補える。",
+      "actions": [
+        "CTstageで問い合わせ導線を整理",
+        "採用応募者の一次案内自動化を提案",
+        "2027年開始前に応対ルールを整備"
+      ]
+    },
+    "links": [
+      "https://ai.watch.impress.co.jp/docs/news/2134613.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "三菱UFJ銀行、生成AIで業務標準化の手間を9割減",
+    "category": "業界動向",
+    "source": "ITmedia Enterprise",
+    "lede": "三菱UFJ銀行は、熟練者に依存してきた海外事務の業務プロセス精査に生成AIを活用し、標準化の手間を9割減らした。",
+    "keypoints": [
+      "海外事務の標準化にAIを活用",
+      "熟練者依存の業務を見直す",
+      "AIの誤情報と回答のばらつきが課題",
+      "業務知識を教える工夫を進めた"
+    ],
+    "pull": "AI導入の本丸は、熟練者しか説明できない仕事の見える化だ。",
+    "bizapp": {
+      "summary": "属人化した手順の標準化を進める起点になる。",
+      "actions": [
+        "Notionで手順書を集約・整備する",
+        "中小企業の引き継ぎ業務を提案",
+        "退職・異動前に業務知識を棚卸し"
+      ]
+    },
+    "links": [
+      "https://www.itmedia.co.jp/enterprise/articles/2608/21/news019.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "SmartHR、AIが問い合わせ対応し人が評価する体制へ",
+    "category": "業界動向",
+    "source": "SmartHR Tech Blog",
+    "lede": "SmartHRは、問い合わせを調査・回答するDESK AIエージェントを開発し、人間が結果を評価して改善する運用を進めている。",
+    "keypoints": [
+      "AIが問い合わせ内容を調査・回答",
+      "過去対応やヘルプページを検索",
+      "Slackの起票フローから呼び出せる",
+      "人間は結果の評価と改善を担う"
+    ],
+    "pull": "人の役割を回答作成から評価・改善へ移す設計が鍵になる。",
+    "bizapp": {
+      "summary": "社内ヘルプデスクの一次対応を効率化できる。",
+      "actions": [
+        "NotionでFAQと手順書を整備する",
+        "顧客サポートの一次回答導入を提案",
+        "問い合わせ履歴を今期中に集約する"
+      ]
+    },
+    "links": [
+      "https://tech.smarthr.jp/entry/2026/08/21/155452"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AIエージェントの社内ツール接続、統制が急務に",
+    "category": "セキュリティ",
+    "source": "Amazon AWS AI Blog",
+    "lede": "AWSはAIエージェントの社内ツール利用について、権限付与者やデータ接続先を把握できる統制・監査の重要性を示した。",
+    "keypoints": [
+      "AIの社内データ接続にはリスクがある",
+      "誰が権限を与えたかを把握する",
+      "認証情報の漏えいを想定する",
+      "接続・統制・一覧化・強化を提示"
+    ],
+    "pull": "AIエージェントの活用前に、権限の所在を一分で答えられる状態へ。",
+    "bizapp": {
+      "summary": "AIエージェントの権限管理を先に設計すべきだ。",
+      "actions": [
+        "Bedrockで接続先と権限を棚卸し",
+        "顧客向けAI導入に権限設計を提案",
+        "導入前に接続先一覧を作成しないと危険"
+      ]
+    },
+    "links": [
+      "https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-tool-access-with-amazon-bedrock-agentcore-gateway/"
+    ],
+    "likes": 0
+  }
+]
