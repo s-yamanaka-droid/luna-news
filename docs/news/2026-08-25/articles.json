@@ -1,0 +1,202 @@
+[
+  {
+    "title": "Sakana AI、防衛省のAI分析実証を受注",
+    "category": "政策・規制",
+    "source": "Sakana AI Blog",
+    "lede": "Sakana AIは、防衛省から総合分析業務に必要なAI機能の調査・実証を受注した。",
+    "keypoints": [
+      "防衛省の総合分析業務を対象",
+      "必要なAI機能を調査・実証",
+      "行政領域でAI活用を検討",
+      "AIの実務導入が進む動き"
+    ],
+    "pull": "AI活用は、民間だけでなく行政の分析業務にも広がる。",
+    "bizapp": {
+      "summary": "公共・大企業向け提案に、分析業務のAI実証を組み込める。",
+      "actions": [
+        "NotebookLMで調査資料を横断整理する",
+        "自治体向けに文書分析の実証を提案する",
+        "年度予算前にAI活用テーマを棚卸しする"
+      ]
+    },
+    "links": [
+      "/defense-integrated-analysis/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "GPT-5.6、Kiroで開発業務を支援",
+    "category": "ツール更新",
+    "source": "OpenAI Blog",
+    "lede": "GPT-5.6モデル群が開発エージェントKiroで使え、設計から実装、レビュー、テストまでを支援する。",
+    "keypoints": [
+      "KiroでGPT-5.6群を利用可能",
+      "設計からテストまでを支援",
+      "要件とコードベースを踏まえ作業",
+      "反復を減らし開発品質を高める"
+    ],
+    "pull": "開発AIは、コード生成からチーム基準を守る実装支援へ進む。",
+    "bizapp": {
+      "summary": "開発の手戻り削減に、要件起点のAI支援を使える。",
+      "actions": [
+        "Kiroで要件から実装タスクを整理する",
+        "顧客向けに開発レビュー自動化を提案する",
+        "次期開発計画前に導入効果を試算する"
+      ]
+    },
+    "links": [
+      "https://openai.com/index/gpt-5-6-in-kiro"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Gemini 3.7 Flash、低価格で能力向上",
+    "category": "新モデル発表",
+    "source": "Google DeepMind Blog",
+    "lede": "Google DeepMindは、コーディングやAIエージェント向けのGemini 3.7 Flashを発表し、3.6 Flash比で料金を半額にした。",
+    "keypoints": [
+      "Gemini 3.7 Flashを発表",
+      "コーディングとAIエージェント向け",
+      "知識業務やWeb開発も改善",
+      "3.6 Flash比で料金は半額"
+    ],
+    "pull": "高性能化と低価格化が同時に進み、AI導入の採算線が変わる。",
+    "bizapp": {
+      "summary": "AIエージェントの試験導入を、より低い費用で進めやすくなる。",
+      "actions": [
+        "GeminiでWeb制作の作業案を比較する",
+        "中小企業向けに定額AI支援を提案する",
+        "次回の契約更新前に単価を見直す"
+      ]
+    },
+    "links": [
+      "https://deepmind.google/blog/introducing-gemini-3-7-flash/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "30B級オープンモデル、企業利用の選択肢に",
+    "category": "業界動向",
+    "source": "ITmedia AI+",
+    "lede": "Meta、NVIDIA、Alibaba Cloud、国立情報学研究所が30B級のオープンモデルを相次いで公開し、選択肢が増えている。",
+    "keypoints": [
+      "30B級の公開モデルが相次ぐ",
+      "国産LLM-jp-4 33Bも登場",
+      "量子化ならPCで動くモデルも",
+      "性能と稼働効率を両立する動き"
+    ],
+    "pull": "巨大モデル一択ではなく、用途に合う規模を選ぶ時代になった。",
+    "bizapp": {
+      "summary": "社内環境で動かすAIの選定幅を広げられる。",
+      "actions": [
+        "Cursorで公開モデルのコード支援を検証する",
+        "機密文書向けの社内AI導入を提案する",
+        "今期中に用途別のモデル比較を始める"
+      ]
+    },
+    "links": [
+      "https://www.itmedia.co.jp/aiplus/article/2608/24/2000000723/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Claude SecurityにMythos 5を導入",
+    "category": "セキュリティ",
+    "source": "Gihyo.jp",
+    "lede": "Anthropicは、企業向けClaude Securityのコード脆弱性スキャンにClaude Mythos 5を導入した。",
+    "keypoints": [
+      "企業向け機能で公開ベータ提供",
+      "コードの脆弱性を検出",
+      "レビュー向け修正案も提案",
+      "複数部品にまたがる問題を追跡"
+    ],
+    "pull": "AI開発の速度を上げるほど、脆弱性確認を工程に組み込む必要がある。",
+    "bizapp": {
+      "summary": "開発の安全確認を、コードレビュー工程に組み込める。",
+      "actions": [
+        "Claude Securityで脆弱性確認を行う",
+        "顧客向けにAI活用の安全点検を提案する",
+        "次のリリース前に検査工程を固定化する"
+      ]
+    },
+    "links": [
+      "https://gihyo.jp/article/2026/08/mythos-5-to-claude-security?utm_source=feed"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "SmartHR、問い合わせ対応AIを開発",
+    "category": "業界動向",
+    "source": "SmartHR Tech Blog",
+    "lede": "SmartHRは、技術問い合わせを調査・回答し、人間が結果を評価・改善するDESK AIエージェントを開発している。",
+    "keypoints": [
+      "問い合わせ対応AIを開発中",
+      "過去事例やヘルプを検索",
+      "Slack上で回答を投稿",
+      "人間は評価と改善を担う"
+    ],
+    "pull": "問い合わせ業務は、回答作成の補助からAIの評価・改善へ役割が移る。",
+    "bizapp": {
+      "summary": "問い合わせ対応をAI主導・人間評価型へ変えられる。",
+      "actions": [
+        "Notionで対応履歴とFAQを整備する",
+        "顧客向けに一次回答AIを提案する",
+        "繁忙期前に評価基準と履歴を整える"
+      ]
+    },
+    "links": [
+      "https://tech.smarthr.jp/entry/2026/08/21/155452"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "DeNA、AIコストをFinOpsで可視化",
+    "category": "業界動向",
+    "source": "DeNA Engineering",
+    "lede": "DeNAは、既存のクラウドコスト管理基盤を活用し、プロジェクトやチーム単位でAIコストを管理している。",
+    "keypoints": [
+      "AI活用とコスト管理を両立",
+      "既存の管理基盤を活用",
+      "チーム単位でコストを把握",
+      "複数クラウドの費用を横断管理"
+    ],
+    "pull": "AIを全社展開するほど、利用促進と費用管理を同時に設計する必要がある。",
+    "bizapp": {
+      "summary": "AI利用費を可視化し、部門別の投資判断に使える。",
+      "actions": [
+        "Lookerで部門別AI費用を可視化する",
+        "顧客向けにAI費用管理の仕組みを提案する",
+        "来期予算前に利用量と上限を決める"
+      ]
+    },
+    "links": [
+      "https://engineering.dena.com/blog/2026/08/ai-token-cost-report/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "日本語音声認識、Whisper再検証を提言",
+    "category": "研究",
+    "source": "HEROZ Tech Blog",
+    "lede": "HEROZは、日本語音声でWhisper、新しい公開モデル、OpenAIの文字起こしAPIを比較し、新規導入前の再評価を勧めた。",
+    "keypoints": [
+      "11モデルを日本語音声で比較",
+      "3種類の公開データを使用",
+      "Whisperは読み上げ音声で競争力",
+      "新規採用前に最新モデルを比較"
+    ],
+    "pull": "音声AIは定番モデルを使い続けず、自社音声で精度を比べるべきだ。",
+    "bizapp": {
+      "summary": "議事録や通話記録の文字起こし精度を見直せる。",
+      "actions": [
+        "OpenAI Transcribeで会議録を比較する",
+        "営業通話の自動記録・要約を提案する",
+        "更新前に自社音声で精度検証を行う"
+      ]
+    },
+    "links": [
+      "https://techblog.heroz.jp/entry/2026/08/18/120000"
+    ],
+    "likes": 0
+  }
+]
