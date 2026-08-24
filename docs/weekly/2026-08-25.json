@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週は、AIを「使う」段階から、問い合わせ・手順書・業務画面へ組み込み直す実務活用が中心です。小規模事業者は新規システム導入より、既存のスプレッドシート、FAQ、属人業務をAIで再設計すると成果が早いです。まず1業務を小さく試し、削減時間と売上寄与を毎週確認しましょう。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-08-19",
+      "title": "Google Sheets、指示だけで業務画面を作成",
+      "category": "ツール更新",
+      "source": "Google AI Blog",
+      "why_picked": "今ある表を現場向け画面に変え、転記を減らせる",
+      "tldr": "表データから業務用ミニアプリを作れる",
+      "action": "案件管理表を入力画面化して試す",
+      "image": "../assets/images/2026-08-19/topic_6.png",
+      "link": "../news/2026-08-19/#topic-6"
+    },
+    {
+      "rank": 2,
+      "date": "2026-08-24",
+      "title": "SmartHR、AIが問い合わせ対応し人が評価する体制へ",
+      "category": "業界動向",
+      "source": "SmartHR Tech Blog",
+      "why_picked": "同じ質問への返信作成を減らし、接客に時間を戻せる",
+      "tldr": "AIが過去事例から一次回答を作る",
+      "action": "頻出質問10件をFAQ化し回答案を作る",
+      "image": "../assets/images/2026-08-24/topic_7.png",
+      "link": "../news/2026-08-24/#topic-7"
+    },
+    {
+      "rank": 3,
+      "date": "2026-08-24",
+      "title": "三菱UFJ銀行、生成AIで業務標準化の手間を9割減",
+      "category": "業界動向",
+      "source": "ITmedia Enterprise",
+      "why_picked": "社長しかできない仕事を手順化し、任せられる",
+      "tldr": "AIで属人業務の標準化を大幅に短縮",
+      "action": "属人業務1つをAIと手順書にする",
+      "image": "../assets/images/2026-08-24/topic_6.png",
+      "link": "../news/2026-08-24/#topic-6"
+    }
+  ]
+}

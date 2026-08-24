@@ -7,6 +7,13 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。毎朝6:30、AI業界ニュースを図解と「明日からできる活用法」で。</description>
   <language>ja</language>
   <item>
+    <title>2026-08-25 AI朝刊：Sakana AI、防衛省のAI分析実証を受注 ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-08-25/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-25/</guid>
+    <pubDate>Tue, 25 Aug 2026 06:30:00 +0900</pubDate>
+    <description>Sakana AI、防衛省のAI分析実証を受注／GPT-5.6、Kiroで開発業務を支援／Gemini 3.7 Flash、低価格で能力向上／30B級オープンモデル、企業利用の選択肢に／Claude SecurityにMythos 5を導入</description>
+  </item>
+  <item>
     <title>2026-08-24 AI朝刊：OpenAI、GPT-5.6 SolのAPI料金を最大33％値下げ ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-08-24/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-24/</guid>
@@ -173,13 +180,6 @@
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-01/</guid>
     <pubDate>Sat, 01 Aug 2026 06:30:00 +0900</pubDate>
     <description>AIエージェント開発、権限管理が新課題に／Supabase、AI開発力の評価基盤を公開／240基のGPU群、2週間で構築／Paradigm、AIなどへ12億ドル投資／AI生成文、必要なのは責任の記録</description>
-  </item>
-  <item>
-    <title>2026-07-29 AI朝刊：AnthropicのAI、ネット暗号の弱点を自力発見 ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-07-29/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-07-29/</guid>
-    <pubDate>Wed, 29 Jul 2026 06:30:00 +0900</pubDate>
-    <description>AnthropicのAI、ネット暗号の弱点を自力発見／Google、新AI「Gemini 3.6 Flash」発表 コスト削減／中国製オープンAI「Kimi K3」、米国との差を急縮小／Google、AI投資2兆円上振れ 市場が警戒／AIで社員が「専門外の仕事」までこなす時代に</description>
   </item>
 </channel>
 </rss>
