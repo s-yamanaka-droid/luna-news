@@ -7,6 +7,13 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。毎朝6:30、AI業界ニュースを図解と「明日からできる活用法」で。</description>
   <language>ja</language>
   <item>
+    <title>2026-08-26 AI朝刊：14社のAIを最安で使い分け、GMOが統一窓口 ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-08-26/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-26/</guid>
+    <pubDate>Wed, 26 Aug 2026 06:30:00 +0900</pubDate>
+    <description>14社のAIを最安で使い分け、GMOが統一窓口／AIリスク、法令順守だけでは企業を守れない／ChatGPTの予約タスク、無料利用者にも開放／Claude、チャットと実行機能の記憶を統合／DeNA、AI費用を既存クラウド基盤で管理</description>
+  </item>
+  <item>
     <title>2026-08-25 AI朝刊：Sakana AI、防衛省のAI分析実証を受注 ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-08-25/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-25/</guid>
@@ -173,13 +180,6 @@
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-02/</guid>
     <pubDate>Sun, 02 Aug 2026 06:30:00 +0900</pubDate>
     <description>NVIDIA、長文AIの応答高速化へ設計指針／Reddit、GoogleのAI要約に価値還元を要求／DeepSeek、新モデル更新で競争力を回復／AI投資5倍でも売上倍増との因果は不明／AI任せで仕事は速くなる、思い込みに警鐘</description>
-  </item>
-  <item>
-    <title>2026-08-01 AI朝刊：AIエージェント開発、権限管理が新課題に ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-08-01/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-01/</guid>
-    <pubDate>Sat, 01 Aug 2026 06:30:00 +0900</pubDate>
-    <description>AIエージェント開発、権限管理が新課題に／Supabase、AI開発力の評価基盤を公開／240基のGPU群、2週間で構築／Paradigm、AIなどへ12億ドル投資／AI生成文、必要なのは責任の記録</description>
   </item>
 </channel>
 </rss>

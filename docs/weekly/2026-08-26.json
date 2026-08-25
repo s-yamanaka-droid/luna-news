@@ -1,0 +1,41 @@
+{
+  "trend_summary": "AIの低価格化と定例業務の自動化が一段と進みました。一方、AIを追加するだけでは人の仕事は十分に減りません。今週は費用比較より先に、定例作業と確認工程を一つずつ自動化するのが得策です。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-08-26",
+      "title": "ChatGPTの予約タスク、無料利用者にも開放",
+      "category": "ツール更新",
+      "source": "Engadget AI",
+      "why_picked": "定例作業を無料で自動化し、毎週の手間を減らせる",
+      "tldr": "ChatGPTの予約タスクが無料開放",
+      "action": "毎週の定例報告を1件予約設定する",
+      "image": "../assets/images/2026-08-26/topic_3.png",
+      "link": "../news/2026-08-26/#topic-3"
+    },
+    {
+      "rank": 2,
+      "date": "2026-08-26",
+      "title": "AI導入だけでは業務量が減らない理由",
+      "category": "研究",
+      "source": "LINE Engineering",
+      "why_picked": "確認工程まで直せば、AI導入を本当の時短につなげられる",
+      "tldr": "AI導入には確認工程の再設計が必要",
+      "action": "1業務のAI前後の確認工数を測る",
+      "image": "../assets/images/2026-08-26/topic_6.png",
+      "link": "../news/2026-08-26/#topic-6"
+    },
+    {
+      "rank": 3,
+      "date": "2026-08-26",
+      "title": "14社のAIを最安で使い分け、GMOが統一窓口",
+      "category": "ツール更新",
+      "source": "AI Watch（Impress）",
+      "why_picked": "複数AIの比較と費用管理を一つにまとめられる",
+      "tldr": "14社のAIを最安モデルへ自動振り分け",
+      "action": "最頻業務1件の月額を現行AIと比べる",
+      "image": "../assets/images/2026-08-26/topic_1.png",
+      "link": "../news/2026-08-26/#topic-1"
+    }
+  ]
+}
