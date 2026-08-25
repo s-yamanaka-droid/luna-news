@@ -1,0 +1,202 @@
+[
+  {
+    "title": "14社のAIを最安で使い分け、GMOが統一窓口",
+    "category": "ツール更新",
+    "source": "AI Watch（Impress）",
+    "lede": "GMOペパボが、14社のAIモデルを1つのAPIキーで利用し、最安モデルへ自動振り分けできるサービスを開始した。",
+    "keypoints": [
+      "14社のAIモデルを一括利用",
+      "最安モデルへ自動で振り分け",
+      "チーム別の予算上限を設定可能",
+      "初期費用と月額基本料は無料"
+    ],
+    "pull": "AI導入の焦点が、モデル選びからコストを含む一元管理へ移る。",
+    "bizapp": {
+      "summary": "複数AIの調達・切り替え・予算管理を一本化できる。",
+      "actions": [
+        "AIゲートウェイで社内APIを統一",
+        "中小企業へAI費用管理を提案",
+        "利用拡大前に予算上限を設ける"
+      ]
+    },
+    "links": [
+      "https://ai.watch.impress.co.jp/docs/news/2135486.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AIリスク、法令順守だけでは企業を守れない",
+    "category": "政策・規制",
+    "source": "日経クロステック AI",
+    "lede": "AI活用では法令違反だけでなく、社会に受け入れられず信用を損なうリスクまで全社で管理する必要がある。",
+    "keypoints": [
+      "AIリスクはゼロにできない",
+      "合法性と社会的受容性で判断",
+      "合法でも信用を損なう恐れ",
+      "全社横断の体制整備が必要"
+    ],
+    "pull": "法律を守ったかだけでなく、顧客や社会がどう受け取るかが問われる。",
+    "bizapp": {
+      "summary": "AI施策を法務と社会的受容性の二段階で審査すべきだ。",
+      "actions": [
+        "外部文書を二段階で審査する",
+        "顧客向けAI利用基準を提案",
+        "問題発生前に横断体制を作る"
+      ]
+    },
+    "links": [
+      "https://xtech.nikkei.com/atcl/nxt/column/18/03713/00004/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "ChatGPTの予約タスク、無料利用者にも開放",
+    "category": "ツール更新",
+    "source": "Engadget AI",
+    "lede": "ChatGPTの予約タスク管理が無料利用者にも開放され、有料利用者はGmailなどの出来事を起点に処理を実行できる。",
+    "keypoints": [
+      "無料利用者も予約画面を利用",
+      "予約内容の追跡と編集に対応",
+      "他の利用者とタスクを共有",
+      "有料版は外部の出来事で起動"
+    ],
+    "pull": "定時実行に加え、仕事上の出来事をきっかけにAIを動かせる。",
+    "bizapp": {
+      "summary": "定例作業や外部サービス起点の処理を自動化できる。",
+      "actions": [
+        "ChatGPTで週報作成を予約する",
+        "営業フォローの自動化を提案",
+        "手作業の定例処理を今月洗い出す"
+      ]
+    },
+    "links": [
+      "https://www.engadget.com/2244194/free-accounts-can-now-access-chatgpts-upgraded-task-scheduling-tool/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Claude、チャットと実行機能の記憶を統合",
+    "category": "ツール更新",
+    "source": "TechCrunch AI",
+    "lede": "ClaudeがチャットとCoworkの記憶を共有し、調査から実行へ移る際の説明のやり直しを減らせるようになった。",
+    "keypoints": [
+      "チャットとCoworkで記憶共有",
+      "案件説明の繰り返しを削減",
+      "保存内容を利用者が確認可能",
+      "記憶の編集と削除にも対応"
+    ],
+    "pull": "AIが一つの継続的な助手となり、調査から実行まで文脈を引き継ぐ。",
+    "bizapp": {
+      "summary": "長期案件の調査と実行を同じ文脈のまま進められる。",
+      "actions": [
+        "Claude Coworkで案件文脈を継承",
+        "採用業務の引き継ぎ改善を提案",
+        "記憶内容の確認ルールを先に作る"
+      ]
+    },
+    "links": [
+      "https://techcrunch.com/2026/08/25/claude-cowork-finally-remembers-what-you-told-the-app-in-chat/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "DeNA、AI費用を既存クラウド基盤で管理",
+    "category": "業界動向",
+    "source": "DeNA Engineering",
+    "lede": "DeNAは、既存のクラウド費用管理基盤を流用し、プロジェクトやチーム単位で増えるAI費用を管理している。",
+    "keypoints": [
+      "AI活用には費用管理も不可欠",
+      "既存の管理基盤を流用",
+      "チーム単位で費用を把握",
+      "導入速度を落とさず統制"
+    ],
+    "pull": "AI活用を広げるには、現場を止めない費用のガードレールが要る。",
+    "bizapp": {
+      "summary": "既存のクラウド管理をAI費用の統制にも転用できる。",
+      "actions": [
+        "BigQueryとLookerで費用可視化",
+        "中小企業へAI予算管理を提案",
+        "全社展開前に利用単位を分ける"
+      ]
+    },
+    "links": [
+      "https://engineering.dena.com/blog/2026/08/ai-token-cost-report/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AI導入だけでは業務量が減らない理由",
+    "category": "研究",
+    "source": "LINE Engineering",
+    "lede": "商品パトロールへのAI導入で審査効率と判断品質は向上したが、人の確認時間は同じ幅では減らなかった。",
+    "keypoints": [
+      "AIで審査効率は向上",
+      "判断品質も大きく改善",
+      "人の確認時間は残った",
+      "業務設計の見直しが必要"
+    ],
+    "pull": "AIの精度向上だけでは、人が確認する工程そのものはなくならない。",
+    "bizapp": {
+      "summary": "AI導入と同時に、人の確認工程まで再設計する必要がある。",
+      "actions": [
+        "商品審査の確認工程を棚卸し",
+        "人手確認を減らすDXを提案",
+        "導入前に削減時間を定義する"
+      ]
+    },
+    "links": [
+      "https://techblog.lycorp.co.jp/ja/20260819a"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "OpenAI独自半導体、応答速度と省電力を両立",
+    "category": "業界動向",
+    "source": "OpenAI Blog",
+    "lede": "OpenAIの独自推論用半導体Jalapeñoは、消費電力当たりの処理量を高めながら応答時間も短縮した。",
+    "keypoints": [
+      "OpenAI初の独自推論用半導体",
+      "消費電力当たりの処理量向上",
+      "応答時間も同時に短縮",
+      "AIエージェントの反応を改善"
+    ],
+    "pull": "処理量と応答速度の両立が、AIの利用費と使いやすさを変える。",
+    "bizapp": {
+      "summary": "応答の速いAIが、顧客対応や自動処理を使いやすくする。",
+      "actions": [
+        "OpenAI業務の応答待ちを計測",
+        "高速な顧客対応AIを提案",
+        "次回調達前に処理性能を再評価"
+      ]
+    },
+    "links": [
+      "https://openai.com/index/jalapeno-first-results"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Gemini 3.7 Flash、開発能力を強化",
+    "category": "新モデル発表",
+    "source": "Google DeepMind Blog",
+    "lede": "Google DeepMindが、ソフトウェア開発やAIエージェント向けの性能を高めたGemini 3.7 Flashを発表した。",
+    "keypoints": [
+      "開発とAIエージェント向け",
+      "ソフトウェア開発能力を改善",
+      "知識業務とWeb開発も強化",
+      "導入価格は旧モデルの半額"
+    ],
+    "pull": "高性能な実務モデルの低価格化が、AIを使う開発工程を広げる。",
+    "bizapp": {
+      "summary": "開発や知識業務のAI化を、低い導入価格で試せる。",
+      "actions": [
+        "GeminiでWeb開発工程を試す",
+        "中小企業へ開発短納期化を提案",
+        "導入価格の期間中に比較検証する"
+      ]
+    },
+    "links": [
+      "https://deepmind.google/blog/introducing-gemini-3-7-flash/"
+    ],
+    "likes": 0
+  }
+]
