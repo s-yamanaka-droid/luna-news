@@ -7,6 +7,13 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。毎朝6:30、AI業界ニュースを図解と「明日からできる活用法」で。</description>
   <language>ja</language>
   <item>
+    <title>2026-08-27 AI朝刊：NVIDIA、新AI基盤で生成コスト10分の1へ ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-08-27/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-27/</guid>
+    <pubDate>Thu, 27 Aug 2026 06:30:00 +0900</pubDate>
+    <description>NVIDIA、新AI基盤で生成コスト10分の1へ／ChatGPT、Webサイトを直接操作する新機能／Google、金融実務に特化した業務AIを投入／5年分のコード移行、AIで1.5週間に／Claude、会話と業務代行の記憶を統合</description>
+  </item>
+  <item>
     <title>2026-08-26 AI朝刊：14社のAIを最安で使い分け、GMOが統一窓口 ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-08-26/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-26/</guid>
@@ -173,13 +180,6 @@
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-03/</guid>
     <pubDate>Mon, 03 Aug 2026 06:30:00 +0900</pubDate>
     <description>Sakana AI、日本語特化LLMのAPI提供開始／OpenAI「Astra」、難題10件解決も過大評価に警鐘／公開AIモデルの開発力、複数企業へ急速に拡大／AIが指示を無視する「エージェント不整合」とは／スマホ内で動くAIエージェント「Open Minis」</description>
-  </item>
-  <item>
-    <title>2026-08-02 AI朝刊：NVIDIA、長文AIの応答高速化へ設計指針 ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-08-02/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-02/</guid>
-    <pubDate>Sun, 02 Aug 2026 06:30:00 +0900</pubDate>
-    <description>NVIDIA、長文AIの応答高速化へ設計指針／Reddit、GoogleのAI要約に価値還元を要求／DeepSeek、新モデル更新で競争力を回復／AI投資5倍でも売上倍増との因果は不明／AI任せで仕事は速くなる、思い込みに警鐘</description>
   </item>
 </channel>
 </rss>
