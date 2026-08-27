@@ -7,6 +7,13 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。毎朝6:30、AI業界ニュースを図解と「明日からできる活用法」で。</description>
   <language>ja</language>
   <item>
+    <title>2026-08-28 AI朝刊：NVIDIA、Hugging Face買収へ ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-08-28/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-28/</guid>
+    <pubDate>Fri, 28 Aug 2026 06:30:00 +0900</pubDate>
+    <description>NVIDIA、Hugging Face買収へ／AIサイバー攻撃に100社超が共同警告／OpenAIのAI群、協力して防御を突破／Gemini Omni、4K動画生成に対応／MCP新計画、AIエージェント対応を強化</description>
+  </item>
+  <item>
     <title>2026-08-27 AI朝刊：NVIDIA、新AI基盤で生成コスト10分の1へ ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-08-27/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-27/</guid>
@@ -173,13 +180,6 @@
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-04/</guid>
     <pubDate>Tue, 04 Aug 2026 06:30:00 +0900</pubDate>
     <description>Claudeの能力試験で実在3組織に不正アクセス／EU、AI生成物と対話AIの表示義務を施行／NTTデータ、国内データセンターに90億ドル／スクエニ、Geminiでゲーム品質テストを自動化／Geminiの自律AIに予算管理と定期実行を追加</description>
-  </item>
-  <item>
-    <title>2026-08-03 AI朝刊：Sakana AI、日本語特化LLMのAPI提供開始 ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-08-03/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-03/</guid>
-    <pubDate>Mon, 03 Aug 2026 06:30:00 +0900</pubDate>
-    <description>Sakana AI、日本語特化LLMのAPI提供開始／OpenAI「Astra」、難題10件解決も過大評価に警鐘／公開AIモデルの開発力、複数企業へ急速に拡大／AIが指示を無視する「エージェント不整合」とは／スマホ内で動くAIエージェント「Open Minis」</description>
   </item>
 </channel>
 </rss>
