@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週は、AIが回答役から予約実行やWeb操作まで担う実務担当へ進化しました。画像制作も言葉で直せるようになり、専門スキルの壁が下がっています。小規模事業者は、定例作業・Web業務・販促画像から一つずつ試す好機です。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-08-26",
+      "title": "ChatGPTの予約タスク、無料利用者にも開放",
+      "category": "ツール更新",
+      "source": "Engadget AI",
+      "why_picked": "無料で定例作業を自動化し、毎週の手間を減らせる",
+      "tldr": "ChatGPTが無料でも定例業務を予約実行",
+      "action": "毎週繰り返す情報収集を1件予約する",
+      "image": "../assets/images/2026-08-26/topic_3.png",
+      "link": "../news/2026-08-26/#topic-3"
+    },
+    {
+      "rank": 2,
+      "date": "2026-08-27",
+      "title": "ChatGPT、Webサイトを直接操作する新機能",
+      "category": "ツール更新",
+      "source": "Gihyo.jp",
+      "why_picked": "転記や更新作業をAIへ任せ、人手不足を補える",
+      "tldr": "ChatGPTが対応Webサイトを直接操作",
+      "action": "定型的なWeb作業を1件試して計測する",
+      "image": "../assets/images/2026-08-27/topic_2.png",
+      "link": "../news/2026-08-27/#topic-2"
+    },
+    {
+      "rank": 3,
+      "date": "2026-08-29",
+      "title": "Photoshop、言葉で画像を直すAI編集機能",
+      "category": "ツール更新",
+      "source": "AI Watch",
+      "why_picked": "外注せず販促画像を素早く直し、集客を改善できる",
+      "tldr": "言葉の指示だけで販促画像を修正",
+      "action": "既存の広告画像を1枚AIで改善する",
+      "image": "../assets/images/2026-08-29/topic_8.png",
+      "link": "../news/2026-08-29/#topic-8"
+    }
+  ]
+}

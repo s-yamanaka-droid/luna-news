@@ -7,6 +7,13 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。毎朝6:30、AI業界ニュースを図解と「明日からできる活用法」で。</description>
   <language>ja</language>
   <item>
+    <title>2026-08-29 AI朝刊：キオクシアとサンディスク、国内に約5兆円投資 ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-08-29/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-29/</guid>
+    <pubDate>Sat, 29 Aug 2026 06:30:00 +0900</pubDate>
+    <description>キオクシアとサンディスク、国内に約5兆円投資／三菱電機とソニー、AIで動く工場へ新会社／NTTデータ、会議資料を先回りするAI秘書／Anthropic、AIが機器を操る共通規格を発表／中国Z.ai、最上位級AI「GLM-5.3」を無償公開</description>
+  </item>
+  <item>
     <title>2026-08-28 AI朝刊：NVIDIA、Hugging Face買収へ ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-08-28/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-28/</guid>
@@ -173,13 +180,6 @@
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-05/</guid>
     <pubDate>Wed, 05 Aug 2026 06:30:00 +0900</pubDate>
     <description>AI管理体制を第三者認証、JDLAが申請開始／Sakana AIと大和証券、資産管理支援AIを開発／DeNA、kintoneの申請確認をAIで自動化／Notionの専用AI、要望の聞き取りを自動化／端末内で動く小型AI「LFM2.5」登場</description>
-  </item>
-  <item>
-    <title>2026-08-04 AI朝刊：Claudeの能力試験で実在3組織に不正アクセス ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-08-04/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-04/</guid>
-    <pubDate>Tue, 04 Aug 2026 06:30:00 +0900</pubDate>
-    <description>Claudeの能力試験で実在3組織に不正アクセス／EU、AI生成物と対話AIの表示義務を施行／NTTデータ、国内データセンターに90億ドル／スクエニ、Geminiでゲーム品質テストを自動化／Geminiの自律AIに予算管理と定期実行を追加</description>
   </item>
 </channel>
 </rss>
