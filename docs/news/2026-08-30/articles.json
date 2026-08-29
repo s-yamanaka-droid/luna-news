@@ -1,0 +1,202 @@
+[
+  {
+    "title": "OpenAI、11月12日にCursor最新モデル停止",
+    "category": "業界動向",
+    "source": "Impress Watch AI",
+    "lede": "OpenAIはSpaceXによる買収と利用規約への懸念を理由に、Cursorへの最新モデル提供を11月12日に終了する。",
+    "keypoints": [
+      "終了予定日は11月12日",
+      "SpaceXの規約順守に懸念",
+      "約4年続いた協業を終了",
+      "Cursor利用開発者に影響"
+    ],
+    "pull": "AI開発ツールは、性能だけでなくモデル供給の継続性も選定条件になる。",
+    "bizapp": {
+      "summary": "開発環境のモデル依存を洗い出し、代替手段を準備すべきだ。",
+      "actions": [
+        "Cursor利用業務をCodexでも検証",
+        "開発会社へ複数モデル対応を提案",
+        "11月12日前に代替検証しないと開発停滞"
+      ]
+    },
+    "links": [
+      "https://www.watch.impress.co.jp/docs/news/2136717.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "NVIDIA、AI生成コスト10分の1へ新基盤",
+    "category": "新モデル発表",
+    "source": "NVIDIA AI Blog",
+    "lede": "NVIDIAは6チップ構成のAI基盤Rubinと、自動運転開発向けの公開推論モデルAlpamayoを発表した。",
+    "keypoints": [
+      "Rubinは6チップで構成",
+      "すでに本格生産を開始",
+      "AI生成費を約10分の1へ",
+      "自動運転向けモデルも公開"
+    ],
+    "pull": "AIの競争軸はモデル性能から、業務で使い続けられるコストへ広がる。",
+    "bizapp": {
+      "summary": "大規模AIの運用費を下げ、適用できる業務を広げられる。",
+      "actions": [
+        "Rubin前提でAI運用費を再試算",
+        "自動運転企業へAlpamayo検証提案",
+        "来期予算前に基盤費を再計算すべき"
+      ]
+    },
+    "links": [
+      "https://blogs.nvidia.com/blog/2026-ces-special-presentation/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "ソニーとワーナー、Anthropicを著作権提訴",
+    "category": "政策・規制",
+    "source": "Engadget AI",
+    "lede": "音楽出版大手2社は、Claudeの学習を巡る大規模な著作権侵害があったとしてAnthropicを提訴した。",
+    "keypoints": [
+      "音楽出版大手2社が共同提訴",
+      "学習用の違法取得を主張",
+      "数千件の著作権侵害を指摘",
+      "陪審裁判と賠償を要求"
+    ],
+    "pull": "生成AIの導入では、出力だけでなく学習データの扱いも事業リスクになる。",
+    "bizapp": {
+      "summary": "生成AIの契約と著作権対応を調達段階から見直すべきだ。",
+      "actions": [
+        "Claude導入契約の著作権条項を確認",
+        "制作会社へ学習データ監査を提案",
+        "契約責任を詰めないと訴訟費用を負う"
+      ]
+    },
+    "links": [
+      "https://www.engadget.com/2246997/sony-warner-sue-anthropic-for-blatant-violation-of-copyright-law/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "NTTデータ、会議資料を先回りするAI秘書",
+    "category": "ツール更新",
+    "source": "日経クロステック AI",
+    "lede": "NTTデータはLITRONに、予定表や会議情報を読み取り、依頼前に資料を用意するAI秘書機能などを追加する。",
+    "keypoints": [
+      "LITRONに3機能を追加",
+      "会議前の資料を自動準備",
+      "社員自身がAIを作成可能",
+      "作ったAIを他部署で再利用"
+    ],
+    "pull": "AI活用は質問への回答から、予定を読み先回りする業務支援へ進む。",
+    "bizapp": {
+      "summary": "会議準備を自動化し、社員が判断や対話に集中できる。",
+      "actions": [
+        "LITRONで会議前資料を自動準備",
+        "中小企業へ会議準備自動化を提案",
+        "今期中に試さないと定型準備工数が残る"
+      ]
+    },
+    "links": [
+      "https://xtech.nikkei.com/atcl/nxt/column/18/00001/11992/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "MCP新計画、AI連携の認証と通信を強化",
+    "category": "業界動向",
+    "source": "Publickey",
+    "lede": "AIと外部サービスをつなぐMCPは、AIエージェント対応やHTTP通信への統一、本人確認の強化を進める。",
+    "keypoints": [
+      "AIエージェント対応を強化",
+      "通信方式をHTTPへ統一",
+      "本人確認の仕組みを整備",
+      "開発者の使いやすさを改善"
+    ],
+    "pull": "MCPの整備は、社内AIが複数サービスを安全に動かす土台になる。",
+    "bizapp": {
+      "summary": "社内システムとAIの連携方式をMCP中心に整理できる。",
+      "actions": [
+        "MCP連携の認証方式を棚卸し",
+        "中小企業へAI連携基盤を提案",
+        "仕様変更前に確認しないと改修が二重化"
+      ]
+    },
+    "links": [
+      "https://www.publickey1.jp/blog/26/mcpaihttp.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Gemini新動画AI、場面延長と4K出力に対応",
+    "category": "新モデル発表",
+    "source": "Google DeepMind Blog",
+    "lede": "Gemini Omni 1.1 Flashは、場面の延長や開始・終了画像間の補間、4K高解像度化に対応した。",
+    "keypoints": [
+      "動画の場面を自然に延長",
+      "開始と終了画像の間を生成",
+      "4K高解像度出力に対応",
+      "動画試作を高速化"
+    ],
+    "pull": "動画制作は一から作る工程から、素材をつなぎ延ばす編集工程へ変わる。",
+    "bizapp": {
+      "summary": "広告動画の試作と素材展開を短時間で進められる。",
+      "actions": [
+        "Google AI Studioで動画試作",
+        "採用企業へ4K動画制作を提案",
+        "次の販促前に試さないと制作速度で劣る"
+      ]
+    },
+    "links": [
+      "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "DeNAのAI社員、会計システム運用で実働",
+    "category": "業界動向",
+    "source": "DeNA Engineering",
+    "lede": "DeNAのAI社員Berryは独立アカウントを持ち、Slackに常駐して監視やチケット起票、予定調整を担う。",
+    "keypoints": [
+      "独立アカウントでチーム参加",
+      "Slackの専用窓口に常駐",
+      "約20件の定期処理を実行",
+      "最終判断は人や他のAIが担当"
+    ],
+    "pull": "AI社員の価値は万能さではなく、定型手順を止めずに完遂する力にある。",
+    "bizapp": {
+      "summary": "監視や起票など、手順が決まった継続業務をAIに任せられる。",
+      "actions": [
+        "Slack常駐でエラー監視に使える",
+        "経理部門へチケット自動化を提案",
+        "今期に切り分けないと定型業務が残る"
+      ]
+    },
+    "links": [
+      "https://engineering.dena.com/blog/2026/08/ai-comate-berry/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Photoshop、言葉で画像を直すAI編集を公開",
+    "category": "ツール更新",
+    "source": "AI Watch（Impress）",
+    "lede": "アドビはPhotoshopに、自然な言葉で背景除去や不要物削除、画像拡張などを行えるAI編集機能を追加した。",
+    "keypoints": [
+      "AI編集機能をベータ公開",
+      "自然な言葉で画像を編集",
+      "背景除去や不要物削除に対応",
+      "編集結果を生成レイヤーで保存"
+    ],
+    "pull": "画像制作の専門操作が減り、営業や広報も言葉で修正指示を出せる。",
+    "bizapp": {
+      "summary": "商品画像や広告素材の修正を現場担当者だけで進められる。",
+      "actions": [
+        "Photoshopで商品画像の背景除去",
+        "中小企業へ広告画像内製化を提案",
+        "繁忙期前に試さないと外注待ちが続く"
+      ]
+    },
+    "links": [
+      "https://ai.watch.impress.co.jp/docs/news/2136674.html"
+    ],
+    "likes": 0
+  }
+]
