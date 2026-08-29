@@ -7,6 +7,13 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。毎朝6:30、AI業界ニュースを図解と「明日からできる活用法」で。</description>
   <language>ja</language>
   <item>
+    <title>2026-08-30 AI朝刊：OpenAI、11月12日にCursor最新モデル停止 ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-08-30/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-30/</guid>
+    <pubDate>Sun, 30 Aug 2026 06:30:00 +0900</pubDate>
+    <description>OpenAI、11月12日にCursor最新モデル停止／NVIDIA、AI生成コスト10分の1へ新基盤／ソニーとワーナー、Anthropicを著作権提訴／NTTデータ、会議資料を先回りするAI秘書／MCP新計画、AI連携の認証と通信を強化</description>
+  </item>
+  <item>
     <title>2026-08-29 AI朝刊：キオクシアとサンディスク、国内に約5兆円投資 ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-08-29/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-29/</guid>
@@ -173,13 +180,6 @@
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-06/</guid>
     <pubDate>Thu, 06 Aug 2026 06:30:00 +0900</pubDate>
     <description>DynamoDB、超大規模ベクトル検索を標準搭載／米政府とAI大手、公開前安全審査を非公開協議／Airtable、12億8500万ドルで買収へ／AIエージェント、自由度の高い研究はまだ困難／AWS会場で鮮明、AIは「道具」から「働く相棒」へ</description>
-  </item>
-  <item>
-    <title>2026-08-05 AI朝刊：AI管理体制を第三者認証、JDLAが申請開始 ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-08-05/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-05/</guid>
-    <pubDate>Wed, 05 Aug 2026 06:30:00 +0900</pubDate>
-    <description>AI管理体制を第三者認証、JDLAが申請開始／Sakana AIと大和証券、資産管理支援AIを開発／DeNA、kintoneの申請確認をAIで自動化／Notionの専用AI、要望の聞き取りを自動化／端末内で動く小型AI「LFM2.5」登場</description>
   </item>
 </channel>
 </rss>
