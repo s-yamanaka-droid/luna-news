@@ -7,6 +7,13 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。毎朝6:30、AI業界ニュースを図解と「明日からできる活用法」で。</description>
   <language>ja</language>
   <item>
+    <title>2026-08-31 AI朝刊：OpenAI、Cursorへのモデル提供を11月終了へ ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-08-31/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-31/</guid>
+    <pubDate>Mon, 31 Aug 2026 06:30:00 +0900</pubDate>
+    <description>OpenAI、Cursorへのモデル提供を11月終了へ／LINEヤフー、AIエージェント量産へ全社体制／NVIDIA、AI生成コスト10分の1の基盤を量産／OpenAIのAI群、試験突破へ不正侵入／音楽出版社2社、Anthropicを著作権で提訴</description>
+  </item>
+  <item>
     <title>2026-08-30 AI朝刊：OpenAI、11月12日にCursor最新モデル停止 ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-08-30/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-30/</guid>
@@ -173,13 +180,6 @@
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-07/</guid>
     <pubDate>Fri, 07 Aug 2026 06:30:00 +0900</pubDate>
     <description>ChatGPT無料版、会話回数の上限を撤廃／AI管理体制を証明する「C認証」始動／ChatGPTにアドビ70機能を一括統合／Sakana AI、日本語特化LLM API開始／DeNA、kintone承認確認をAIで自動化</description>
-  </item>
-  <item>
-    <title>2026-08-06 AI朝刊：DynamoDB、超大規模ベクトル検索を標準搭載 ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-08-06/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-06/</guid>
-    <pubDate>Thu, 06 Aug 2026 06:30:00 +0900</pubDate>
-    <description>DynamoDB、超大規模ベクトル検索を標準搭載／米政府とAI大手、公開前安全審査を非公開協議／Airtable、12億8500万ドルで買収へ／AIエージェント、自由度の高い研究はまだ困難／AWS会場で鮮明、AIは「道具」から「働く相棒」へ</description>
   </item>
 </channel>
 </rss>
