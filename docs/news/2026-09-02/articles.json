@@ -1,0 +1,202 @@
+[
+  {
+    "title": "OpenAI新モデル、重大なサイバー能力に到達",
+    "category": "セキュリティ",
+    "source": "OpenAI Blog",
+    "lede": "新モデル「Astra」が未知の脆弱性を発見・悪用できる水準に達し、OpenAIは開発と公開の一部を延期した。",
+    "keypoints": [
+      "重大なサイバー能力の基準に到達",
+      "未知の脆弱性を発見できる",
+      "人の逐次指示なしで悪用可能",
+      "保護策強化のため公開を一部延期"
+    ],
+    "pull": "AIの高性能化で、公開前の安全対策が製品要件になった",
+    "bizapp": {
+      "summary": "高性能AIの導入では、機能評価と同時に悪用防止策が必要になる",
+      "actions": [
+        "重要システムのAI権限を棚卸し",
+        "顧客へAI悪用対策の診断を提案",
+        "公開前に権限管理を直さないと危険"
+      ]
+    },
+    "links": [
+      "https://openai.com/index/path-to-astra"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "NVIDIA、MediaTekに35億ドル投資",
+    "category": "業界動向",
+    "source": "AI Watch",
+    "lede": "NVIDIAとMediaTekがAI基盤、端末内AI、自動車の3分野で協業を広げ、次世代の計算基盤を共同開発する。",
+    "keypoints": [
+      "NVIDIAが35億ドルを投資",
+      "AI基盤向け半導体を共同開発",
+      "端末内で動くAI用チップを開発",
+      "AI対応自動車の基盤も継続開発"
+    ],
+    "pull": "AI競争はモデルだけでなく、半導体と端末へ広がっている",
+    "bizapp": {
+      "summary": "AI基盤の調達先と端末構成を中長期で見直す材料になる",
+      "actions": [
+        "DGX Sparkの業務適合性を調査",
+        "中小企業へ端末内AI導入を提案",
+        "来期調達前に選択肢を見直す"
+      ]
+    },
+    "links": [
+      "https://ai.watch.impress.co.jp/docs/news/2137421.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "ChatGPT、EUの最厳格な安全規制対象に",
+    "category": "政策・規制",
+    "source": "Ars Technica AI",
+    "lede": "ChatGPTがEUデジタルサービス法の大規模サービスに指定され、違法コンテンツ対策などの追加義務を負う。",
+    "keypoints": [
+      "ChatGPTが大規模サービスに指定",
+      "違法コンテンツの除去が必要",
+      "未成年者の安全とプライバシー保護",
+      "違反時は世界売上高の最大6％"
+    ],
+    "pull": "生成AIも既存のオンライン安全規制から逃れられない",
+    "bizapp": {
+      "summary": "EU向けAIサービスでは、安全管理を事業設計に組み込む必要がある",
+      "actions": [
+        "ChatGPT利用時の投稿基準を整備",
+        "海外展開企業へ規制対応を提案",
+        "EU提供前に対策しないと制裁リスク"
+      ]
+    },
+    "links": [
+      "https://arstechnica.com/tech-policy/2026/08/chatgtp-and-reddit-now-face-eus-toughest-online-safety-rules/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "総務省、AI業務変革の専門組織を新設",
+    "category": "政策・規制",
+    "source": "ITmedia AI+",
+    "lede": "総務省が「AX・新技術戦略室」を設け、AIによる業務変革施策の取りまとめと省庁間連携を進める。",
+    "keypoints": [
+      "AX・新技術戦略室を新設",
+      "省内のAI施策を取りまとめ",
+      "関係省庁との連携を担当",
+      "国の人工知能基本計画に基づく"
+    ],
+    "pull": "行政のAI活用は個別実験から横断的な業務変革へ移る",
+    "bizapp": {
+      "summary": "行政関連企業は、AI前提の業務設計と提案準備に使える",
+      "actions": [
+        "行政向け業務のAI化候補を整理",
+        "自治体へ業務変革支援を提案",
+        "次期提案前にAI対応を整える"
+      ]
+    },
+    "links": [
+      "https://www.itmedia.co.jp/aiplus/article/2609/01/2000001044/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Claude Fable 5.1、AWSで提供開始",
+    "category": "新モデル発表",
+    "source": "Amazon AWS AI Blog",
+    "lede": "Claude Fable 5.1がAmazon Bedrockで利用可能になり、開発や科学研究、企業業務への活用が広がる。",
+    "keypoints": [
+      "Amazon Bedrockで提供開始",
+      "コード開発と科学研究を強化",
+      "企業業務での利用にも対応",
+      "追加の保持・審査・利用規則を適用"
+    ],
+    "pull": "高性能モデルでは、能力とデータ統制を一体で選ぶ時代になる",
+    "bizapp": {
+      "summary": "高度なAIを、管理されたクラウド環境で業務に組み込める",
+      "actions": [
+        "Bedrockで研究業務を試行",
+        "企業向け安全運用支援を提案",
+        "導入前に保持規則を確認しないと危険"
+      ]
+    },
+    "links": [
+      "https://aws.amazon.com/blogs/machine-learning/introducing-claude-fable-5-1-on-aws/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "富士フイルム、AIで半導体材料開発を半減",
+    "category": "研究",
+    "source": "日経クロステック",
+    "lede": "富士フイルムがAIによる材料設計とロボット実験を組み合わせ、半導体研磨剤の開発期間を約半分に短縮した。",
+    "keypoints": [
+      "AIで材料設計を効率化",
+      "ロボットが実験を自動化",
+      "開発期間を従来の約半分へ",
+      "売上目標達成を2年前倒し"
+    ],
+    "pull": "AIと自動実験の連携が、研究開発の速度と事業計画を変える",
+    "bizapp": {
+      "summary": "研究開発は、設計と実験を一体で自動化すると効果が大きい",
+      "actions": [
+        "材料設計と実験工程を自動化",
+        "製造業へ開発短縮支援を提案",
+        "競合より着手が遅れると開発で劣後"
+      ]
+    },
+    "links": [
+      "https://xtech.nikkei.com/atcl/nxt/column/18/00001/11978/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "日立、設備の音と振動を言葉で診断",
+    "category": "研究",
+    "source": "ロボスタ",
+    "lede": "日立が設備の音、振動、温度を自然言語で解析し、異常診断や原因分析、熟練者の技能伝承を支援する技術を開発した。",
+    "keypoints": [
+      "騒音下でも異常音を検知",
+      "正常音との差を言葉で説明",
+      "文章から類似波形を検索",
+      "少ない異常データを補完"
+    ],
+    "pull": "熟練者の感覚を言葉に変え、設備保全を組織の知識にする",
+    "bizapp": {
+      "summary": "設備保全の属人化を減らし、経験の浅い担当者を支援できる",
+      "actions": [
+        "保全記録とセンサ情報を整理",
+        "工場へ異常診断支援を提案",
+        "熟練者退職前に知見を残す"
+      ]
+    },
+    "links": [
+      "https://robotstart.info/article/2026/09/01/382354.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Gemini動画生成、4K出力と場面延長に対応",
+    "category": "ツール更新",
+    "source": "Google DeepMind Blog",
+    "lede": "Gemini Omni 1.1 Flashが場面の延長、開始・終了画像の指定、4K高画質化に対応し、動画制作の制御性を高めた。",
+    "keypoints": [
+      "生成した場面を延長可能",
+      "開始と終了の画像を指定可能",
+      "滑らかな場面転換を生成",
+      "高解像度の4K出力に対応"
+    ],
+    "pull": "生成動画は試作だけでなく、仕上がりを制御する制作工程へ進む",
+    "bizapp": {
+      "summary": "広告や営業動画を、意図した構成と高画質で制作しやすくなる",
+      "actions": [
+        "Google AI Studioで広告動画を試作",
+        "中小企業へ商品動画制作を提案",
+        "競合に先んじ今月中に制作検証"
+      ]
+    },
+    "links": [
+      "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/"
+    ],
+    "likes": 0
+  }
+]
