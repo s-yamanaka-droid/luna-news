@@ -7,6 +7,13 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。毎朝6:30、AI業界ニュースを図解と「明日からできる活用法」で。</description>
   <language>ja</language>
   <item>
+    <title>2026-09-02 AI朝刊：OpenAI新モデル、重大なサイバー能力に到達 ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-09-02/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-09-02/</guid>
+    <pubDate>Wed, 02 Sep 2026 06:30:00 +0900</pubDate>
+    <description>OpenAI新モデル、重大なサイバー能力に到達／NVIDIA、MediaTekに35億ドル投資／ChatGPT、EUの最厳格な安全規制対象に／総務省、AI業務変革の専門組織を新設／Claude Fable 5.1、AWSで提供開始</description>
+  </item>
+  <item>
     <title>2026-09-01 AI朝刊：約1050自治体、行政AI基盤を導入 ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-09-01/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-09-01/</guid>
@@ -173,13 +180,6 @@
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-09/</guid>
     <pubDate>Sun, 09 Aug 2026 06:30:00 +0900</pubDate>
     <description>AI管理体制を第三者認証、JDLAが申請開始／AIエージェント部品、6社が共通規格化／OpenAI新モデル、重大なサイバー能力の可能性／NVIDIA、AI処理費を10分の1へ／DynamoDB、リアルタイム類似検索に対応</description>
-  </item>
-  <item>
-    <title>2026-08-08 AI朝刊：AI音声の無断利用、既存の権利で保護へ ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-08-08/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-08/</guid>
-    <pubDate>Sat, 08 Aug 2026 06:30:00 +0900</pubDate>
-    <description>AI音声の無断利用、既存の権利で保護へ／AI管理体制を第三者認証、JDLAが新制度／OpenAI新モデル、重大なサイバー能力を警戒／AIエージェント部品、6社が共通規格化／Google検索、文字入力から対話型AIへ転換</description>
   </item>
 </channel>
 </rss>

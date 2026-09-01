@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週は、AIが回答役から実務を動かす担当者へ進化しました。会議記録や画像制作など、少人数企業でも即効性の高い機能が充実しています。まず定型業務を一つ選び、時間削減を測りながら導入する週です。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-09-01",
+      "title": "会議要約を用途別に、AiNote刷新",
+      "category": "ツール更新",
+      "source": "AI Watch",
+      "why_picked": "議事録から顧客報告まで一度に作れ、事務時間を削減",
+      "tldr": "一つの会議から用途別要約を作成",
+      "action": "今週の会議一本で要約テンプレを試す",
+      "image": "../assets/images/2026-09-01/topic_6.png",
+      "link": "../news/2026-09-01/#topic-6"
+    },
+    {
+      "rank": 2,
+      "date": "2026-08-31",
+      "title": "Photoshop、言葉で画像を直すAI編集を公開",
+      "category": "ツール更新",
+      "source": "AI Watch",
+      "why_picked": "外注せず販促画像を直せ、制作費と待ち時間を削減",
+      "tldr": "言葉だけで販促画像を編集",
+      "action": "既存の商品画像を一枚修正して比較",
+      "image": "../assets/images/2026-08-31/topic_6.png",
+      "link": "../news/2026-08-31/#topic-6"
+    },
+    {
+      "rank": 3,
+      "date": "2026-08-27",
+      "title": "ChatGPT、Webサイトを直接操作する新機能",
+      "category": "ツール更新",
+      "source": "Gihyo.jp",
+      "why_picked": "転記や検索などのWeb作業をAIへ任せる入口になる",
+      "tldr": "ChatGPTが対応サイトを直接操作",
+      "action": "毎週繰り返すWeb作業を一つ洗い出す",
+      "image": "../assets/images/2026-08-27/topic_2.png",
+      "link": "../news/2026-08-27/#topic-2"
+    }
+  ]
+}
