@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週は、AIが回答役から定型業務の実行役へ進化しました。会議記録や画像制作など、少人数でもすぐ削減できる実務が増えています。まず一業務だけ試し、浮いた時間と費用を測る週です。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-09-01",
+      "title": "会議要約を用途別に、AiNote刷新",
+      "category": "ツール更新",
+      "source": "AI Watch",
+      "why_picked": "議事録と顧客向け報告を同時に短縮できる",
+      "tldr": "一つの会議から用途別要約を生成",
+      "action": "次の会議で社内用と顧客用を作る",
+      "image": "../assets/images/2026-09-01/topic_6.png",
+      "link": "../news/2026-09-01/#topic-6"
+    },
+    {
+      "rank": 2,
+      "date": "2026-08-31",
+      "title": "Photoshop、言葉で画像を直すAI編集を公開",
+      "category": "ツール更新",
+      "source": "AI Watch",
+      "why_picked": "外注せず販促画像を素早く改善できる",
+      "tldr": "言葉だけで販促画像を編集",
+      "action": "既存の商品画像を1枚修正する",
+      "image": "../assets/images/2026-08-31/topic_6.png",
+      "link": "../news/2026-08-31/#topic-6"
+    },
+    {
+      "rank": 3,
+      "date": "2026-08-26",
+      "title": "ChatGPTの予約タスク、無料利用者にも開放",
+      "category": "ツール更新",
+      "source": "Engadget AI",
+      "why_picked": "無料で定例作業の抜け漏れを減らせる",
+      "tldr": "ChatGPTで定例作業を予約",
+      "action": "毎週の定型作業を一つ予約する",
+      "image": "../assets/images/2026-08-26/topic_3.png",
+      "link": "../news/2026-08-26/#topic-3"
+    }
+  ]
+}

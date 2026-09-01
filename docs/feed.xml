@@ -7,6 +7,13 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。毎朝6:30、AI業界ニュースを図解と「明日からできる活用法」で。</description>
   <language>ja</language>
   <item>
+    <title>2026-09-01 AI朝刊：約1050自治体、行政AI基盤を導入 ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-09-01/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-09-01/</guid>
+    <pubDate>Tue, 01 Sep 2026 06:30:00 +0900</pubDate>
+    <description>約1050自治体、行政AI基盤を導入／業務AIにも「社員証」と「委任状」／DeNAのAI社員、会計システムで実務／LINEヤフー、誰でも作れるAI基盤／Microsoft、業務AIの監視と統制を強化</description>
+  </item>
+  <item>
     <title>2026-08-31 AI朝刊：OpenAI、Cursorへのモデル提供を11月終了へ ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-08-31/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-31/</guid>
@@ -173,13 +180,6 @@
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-08/</guid>
     <pubDate>Sat, 08 Aug 2026 06:30:00 +0900</pubDate>
     <description>AI音声の無断利用、既存の権利で保護へ／AI管理体制を第三者認証、JDLAが新制度／OpenAI新モデル、重大なサイバー能力を警戒／AIエージェント部品、6社が共通規格化／Google検索、文字入力から対話型AIへ転換</description>
-  </item>
-  <item>
-    <title>2026-08-07 AI朝刊：ChatGPT無料版、会話回数の上限を撤廃 ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-08-07/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-07/</guid>
-    <pubDate>Fri, 07 Aug 2026 06:30:00 +0900</pubDate>
-    <description>ChatGPT無料版、会話回数の上限を撤廃／AI管理体制を証明する「C認証」始動／ChatGPTにアドビ70機能を一括統合／Sakana AI、日本語特化LLM API開始／DeNA、kintone承認確認をAIで自動化</description>
   </item>
 </channel>
 </rss>
