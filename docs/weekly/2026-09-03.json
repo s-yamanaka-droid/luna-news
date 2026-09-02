@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週は、同じコストで性能を上げるモデル更新と、画像・会議業務を直接短縮するツール進化が中心です。小規模事業者は毎週繰り返す作業を1つ選び、既存手順と時間を比較するのが得策です。併せてAIには専用権限と上限を設け、安全に任せる範囲を広げる週です。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-09-03",
+      "title": "Google Pics一般提供、画像の部分編集や翻訳に対応",
+      "category": "ツール更新",
+      "source": "Gihyo.jp",
+      "why_picked": "販促物の修正と多言語化を内製しやすい",
+      "tldr": "画像修正と翻訳を短時間で内製",
+      "action": "既存の販促画像を1枚修正する",
+      "image": "../assets/images/2026-09-03/topic_7.png",
+      "link": "../news/2026-09-03/#topic-7"
+    },
+    {
+      "rank": 2,
+      "date": "2026-09-01",
+      "title": "会議要約を用途別に、AiNote刷新",
+      "category": "ツール更新",
+      "source": "AI Watch",
+      "why_picked": "議事録と顧客報告を一度に作れて時短になる",
+      "tldr": "会議録から用途別の要約を作成",
+      "action": "次の会議で社内用と顧客用を作る",
+      "image": "../assets/images/2026-09-01/topic_6.png",
+      "link": "../news/2026-09-01/#topic-6"
+    },
+    {
+      "rank": 3,
+      "date": "2026-09-03",
+      "title": "Gemini 3.8、同価格・速度で推論と開発力を向上",
+      "category": "新モデル発表",
+      "source": "Google DeepMind Blog／The Verge AI",
+      "why_picked": "追加費用なしで複数工程の自動化を強化できる",
+      "tldr": "同価格で推論と業務実行力が向上",
+      "action": "定型業務1件を新旧モデルで比較する",
+      "image": "../assets/images/2026-09-03/topic_2.png",
+      "link": "../news/2026-09-03/#topic-2"
+    }
+  ]
+}

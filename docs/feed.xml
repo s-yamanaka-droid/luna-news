@@ -7,6 +7,13 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。毎朝6:30、AI業界ニュースを図解と「明日からできる活用法」で。</description>
   <language>ja</language>
   <item>
+    <title>2026-09-03 AI朝刊：OpenAI次世代「Astra」、安全策を強化し近日公開 ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-09-03/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-09-03/</guid>
+    <pubDate>Thu, 03 Sep 2026 06:30:00 +0900</pubDate>
+    <description>OpenAI次世代「Astra」、安全策を強化し近日公開／Gemini 3.8、同価格・速度で推論と開発力を向上／米政府、AI学習のフェアユース論でOpenAI支持／Hugging Face製品に未修正のファイル保存脆弱性／Sakana AI、防衛省のAI調査・実証を受注</description>
+  </item>
+  <item>
     <title>2026-09-02 AI朝刊：OpenAI新モデル、重大なサイバー能力に到達 ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-09-02/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-09-02/</guid>
@@ -173,13 +180,6 @@
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-10/</guid>
     <pubDate>Mon, 10 Aug 2026 06:30:00 +0900</pubDate>
     <description>AIガバナンス第三者認証、国内で始動／AIエージェント共通規格、主要各社が対応／OpenAI、新モデルに重大なサイバー能力／Claude Code、権限確認をAIに標準化／Codex、GitHubの安全審査を自動化</description>
-  </item>
-  <item>
-    <title>2026-08-09 AI朝刊：AI管理体制を第三者認証、JDLAが申請開始 ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-08-09/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-09/</guid>
-    <pubDate>Sun, 09 Aug 2026 06:30:00 +0900</pubDate>
-    <description>AI管理体制を第三者認証、JDLAが申請開始／AIエージェント部品、6社が共通規格化／OpenAI新モデル、重大なサイバー能力の可能性／NVIDIA、AI処理費を10分の1へ／DynamoDB、リアルタイム類似検索に対応</description>
   </item>
 </channel>
 </rss>
