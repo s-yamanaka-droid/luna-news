@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週は、AIが答える道具から実務を担う担当者へ進化した。会議要約や画像編集は、小規模事業者でもすぐ工数削減に直結する。一方、AIに与える権限は業務ごとに絞る必要がある。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-09-01",
+      "title": "会議要約を用途別に、AiNote刷新",
+      "category": "ツール更新",
+      "source": "AI Watch",
+      "why_picked": "議事録と顧客報告を一度に作れ、事務時間が浮く",
+      "tldr": "会議録から用途別の要約を自動作成",
+      "action": "今週の会議1件で社内用と顧客用を作る",
+      "image": "../assets/images/2026-09-01/topic_6.png",
+      "link": "../news/2026-09-01/#topic-6"
+    },
+    {
+      "rank": 2,
+      "date": "2026-08-30",
+      "title": "Photoshop、言葉で画像を直すAI編集を公開",
+      "category": "ツール更新",
+      "source": "AI Watch（Impress）",
+      "why_picked": "外注せず商品画像を直せ、販促を素早く回せる",
+      "tldr": "言葉だけで販促画像を修正できる",
+      "action": "売れ筋商品の画像を1枚改善して比較する",
+      "image": "../assets/images/2026-08-30/topic_8.png",
+      "link": "../news/2026-08-30/#topic-8"
+    },
+    {
+      "rank": 3,
+      "date": "2026-09-01",
+      "title": "DeNAのAI社員、会計システムで実務",
+      "category": "業界動向",
+      "source": "DeNA Engineering",
+      "why_picked": "定型作業を丸ごと任せる小規模組織の型になる",
+      "tldr": "AIを担当者として定型業務に配置",
+      "action": "毎週繰り返す業務を1件AI担当にする",
+      "image": "../assets/images/2026-09-01/topic_3.png",
+      "link": "../news/2026-09-01/#topic-3"
+    }
+  ]
+}

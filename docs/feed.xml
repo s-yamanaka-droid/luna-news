@@ -7,6 +7,13 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。毎朝6:30、AI業界ニュースを図解と「明日からできる活用法」で。</description>
   <language>ja</language>
   <item>
+    <title>2026-09-04 AI朝刊：OpenAI「GPT-6 Astra」、重大なサイバー能力 ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-09-04/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-09-04/</guid>
+    <pubDate>Fri, 04 Sep 2026 06:30:00 +0900</pubDate>
+    <description>OpenAI「GPT-6 Astra」、重大なサイバー能力／NVIDIA、Hugging Faceを約1.87兆円で買収／ChatGPT、電子カルテと公的医療情報に直結／パナソニック、AIサーバー電池売上3倍へ／NEC、脆弱性対処をAIで一貫支援</description>
+  </item>
+  <item>
     <title>2026-09-03 AI朝刊：OpenAI次世代「Astra」、安全策を強化し近日公開 ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-09-03/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-09-03/</guid>
@@ -173,13 +180,6 @@
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-11/</guid>
     <pubDate>Tue, 11 Aug 2026 06:30:00 +0900</pubDate>
     <description>NEC、部門長から社員まで「全員AI」の組織新設／AIエージェント設定を共通化、新標準1.0発表／AI統制を第三者が認証、JDLAが受付開始／OpenAI、サイバー能力を懸念しAstra開発停止／ロボットが映像を理解し協働、Gemini新モデル</description>
-  </item>
-  <item>
-    <title>2026-08-10 AI朝刊：AIガバナンス第三者認証、国内で始動 ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-08-10/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-10/</guid>
-    <pubDate>Mon, 10 Aug 2026 06:30:00 +0900</pubDate>
-    <description>AIガバナンス第三者認証、国内で始動／AIエージェント共通規格、主要各社が対応／OpenAI、新モデルに重大なサイバー能力／Claude Code、権限確認をAIに標準化／Codex、GitHubの安全審査を自動化</description>
   </item>
 </channel>
 </rss>
