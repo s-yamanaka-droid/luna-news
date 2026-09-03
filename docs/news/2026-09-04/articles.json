@@ -1,0 +1,203 @@
+[
+  {
+    "title": "OpenAI「GPT-6 Astra」、重大なサイバー能力",
+    "category": "新モデル発表",
+    "source": "The Verge／WIRED Japan",
+    "lede": "OpenAIは、未知の脆弱性を自律発見できる初の「重大」水準モデルGPT-6 Astraを発表した。",
+    "keypoints": [
+      "幅広い専門業務の能力が向上",
+      "未知の脆弱性を自律的に発見",
+      "悪用手法も開発できる水準",
+      "高度機能は一部へ先行提供"
+    ],
+    "pull": "AIの性能向上と同時に、利用権限の管理が経営課題になる。",
+    "bizapp": {
+      "summary": "高度な開発や防御業務に使えるが、権限管理が前提になる。",
+      "actions": [
+        "Astraを脆弱性調査業務に使える",
+        "企業向けAI権限設計を提案",
+        "導入前に利用範囲を決めないと悪用を招く"
+      ]
+    },
+    "links": [
+      "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
+      "https://wired.jp/article/openai-astra-first-ai-model-with-critical-cyber-abilities/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "NVIDIA、Hugging Faceを約1.87兆円で買収",
+    "category": "業界動向",
+    "source": "Impress Watch AI",
+    "lede": "NVIDIAは、300万超のAIモデルを共有するHugging Faceを約1.87兆円で買収する。",
+    "keypoints": [
+      "買収額は約1.87兆円",
+      "利用者は1800万人以上",
+      "20万社以上が導入",
+      "買収後もオープン運営を継続"
+    ],
+    "pull": "AI半導体とモデル共有基盤が、巨大な一つの陣営になる。",
+    "bizapp": {
+      "summary": "AI基盤の選定では、NVIDIA陣営の影響を再評価すべきだ。",
+      "actions": [
+        "Hugging Faceを社内モデル選定に使える",
+        "中小企業向けAI基盤選定を提案",
+        "基盤選定前に買収後の条件を再確認"
+      ]
+    },
+    "links": [
+      "https://www.watch.impress.co.jp/docs/news/2138143.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "ChatGPT、電子カルテと公的医療情報に直結",
+    "category": "ツール更新",
+    "source": "AI Watch",
+    "lede": "ChatGPT for Healthcareが電子カルテと9つの公的医療情報源に接続し、確認や比較を支援する。",
+    "keypoints": [
+      "Epicの電子カルテと連携",
+      "診療履歴や検査結果を要約",
+      "9つの公的情報源を横断",
+      "臨床評価の99.1％で安全"
+    ],
+    "pull": "医療AIは一般回答から、根拠となる患者データの参照へ進んだ。",
+    "bizapp": {
+      "summary": "診察前のカルテ確認や治験情報の比較を短縮できる。",
+      "actions": [
+        "Epic連携を診察前確認に使える",
+        "医療機関へカルテ要約導入を提案",
+        "見送るとカルテ確認の短縮機会を失う"
+      ]
+    },
+    "links": [
+      "https://ai.watch.impress.co.jp/docs/news/2138097.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "パナソニック、AIサーバー電池売上3倍へ",
+    "category": "業界動向",
+    "source": "東洋経済オンライン",
+    "lede": "AIサーバーの電力変動を補うBBU需要を背景に、パナソニックは関連売上高の約3倍増を計画する。",
+    "keypoints": [
+      "BBU世界シェアは約8割",
+      "2028年度に売上9500億円",
+      "ラック消費電力は従来の約3倍",
+      "電池で急な電力変動を吸収"
+    ],
+    "pull": "AI需要の恩恵は半導体だけでなく、電池と電力設備にも広がる。",
+    "bizapp": {
+      "summary": "AI投資では計算能力に加え、電源設備の確保が重要になる。",
+      "actions": [
+        "BBU需要を設備投資判断に使える",
+        "データセンター向け電源提案を強化",
+        "2028年度需要を逃す前に供給網を点検"
+      ]
+    },
+    "links": [
+      "https://toyokeizai.net/articles/-/956661?utm_source=rss&utm_medium=http&utm_campaign=link_back"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "NEC、脆弱性対処をAIで一貫支援",
+    "category": "セキュリティ",
+    "source": "DXマガジン",
+    "lede": "NECは、IT資産の発見から脆弱性の優先順位付け、対処、運用改善までAIで支援する。",
+    "keypoints": [
+      "9月末から3業種へ提供",
+      "資産発見から対処まで支援",
+      "業務影響も含めリスク評価",
+      "3年間で売上300億円を目標"
+    ],
+    "pull": "脆弱性対策は、情報を集める作業から優先順位を実行する運用へ移る。",
+    "bizapp": {
+      "summary": "大量の脆弱性から、自社が先に直すべき対象を絞り込める。",
+      "actions": [
+        "BluStellarを脆弱性管理に使える",
+        "中小企業向け継続監視を提案",
+        "9月末までに資産台帳がないと導入が遅れる"
+      ]
+    },
+    "links": [
+      "https://dxmagazine.jp/news/2640ko104/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "DeNA「AI社員」、会計システム運用の一員に",
+    "category": "業界動向",
+    "source": "DeNA Engineering",
+    "lede": "DeNAは独立アカウントを持つAI社員を会計システムチームへ配属し、監視や起票を任せている。",
+    "keypoints": [
+      "Slackの専用窓口に常駐",
+      "約20個の定期業務を実行",
+      "監視や予定調整を担当",
+      "最終判断は人や別AIと分担"
+    ],
+    "pull": "AI導入の単位が個人の補助から、役割を持つチームメンバーへ変わる。",
+    "bizapp": {
+      "summary": "定型業務をAIの担当役割として切り出す設計に使える。",
+      "actions": [
+        "JIRAの起票・記録業務に使える",
+        "経理部門へAI担当者導入を提案",
+        "定型業務を放置すると24時間対応を逃す"
+      ]
+    },
+    "links": [
+      "https://engineering.dena.com/blog/2026/08/ai-comate-berry/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "JR東日本、双腕ロボットで館内物流自動化",
+    "category": "研究",
+    "source": "ロボスタ",
+    "lede": "ABEJAとJR東日本は、双腕ロボットが荷物を認識し、把持して配送ロボットへ積む工程を実証した。",
+    "keypoints": [
+      "荷物の受け渡しを自動化",
+      "人の動作を模倣学習",
+      "位置や形状の違いに対応",
+      "認識から積み込みまで自律化"
+    ],
+    "pull": "フィジカルAIは、決まった動作だけでは難しい現場作業へ入り始めた。",
+    "bizapp": {
+      "summary": "荷物の向きが一定でない物流現場の省人化に使える。",
+      "actions": [
+        "ABEJA Platformを物流実証に使える",
+        "施設内配送の省人化を提案",
+        "人手受け渡しを残すと自動配送が途切れる"
+      ]
+    },
+    "links": [
+      "https://robotstart.info/article/2026/09/03/382370.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Anthropic、コマースAIの実装を公開",
+    "category": "ツール更新",
+    "source": "Qiita トレンド",
+    "lede": "Anthropicは、買い物客用と店舗用のAIエージェントを含む動作可能な参考実装を公開した。",
+    "keypoints": [
+      "Apache 2.0で公開",
+      "買い物客と店舗の両方に対応",
+      "小売など4業種を収録",
+      "3種類の実行方式を比較可能"
+    ],
+    "pull": "販売AIは接客だけでなく、在庫や販促を担う店舗側まで一体化する。",
+    "bizapp": {
+      "summary": "ECの接客、在庫管理、販促支援を一つの構成で試作できる。",
+      "actions": [
+        "commerce-agentsをEC試作に使える",
+        "小売向け買物・在庫AIを提案",
+        "比較を遅らせると開発方式選定で迷走する"
+      ]
+    },
+    "links": [
+      "https://qiita.com/suwa_nobu/items/1c0f27da8eb685f6ba05?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items"
+    ],
+    "likes": 0
+  }
+]
