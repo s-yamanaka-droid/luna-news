@@ -1,0 +1,202 @@
+[
+  {
+    "title": "OpenAI、最高性能のGPT-6 Astra提供",
+    "category": "新モデル発表",
+    "source": "日経クロステック AI",
+    "lede": "高度な数理推論で競合を上回る新モデルが、強力なサイバー攻撃能力への対策を強化して提供される。",
+    "keypoints": [
+      "一部顧客向けに提供を開始",
+      "数日以内に有料・法人へ展開",
+      "APIとAWS経由でも利用可能",
+      "未知の脆弱性を自律発見できる水準"
+    ],
+    "pull": "性能競争は、業務能力だけでなく悪用防止策の強さも問う段階に入った。",
+    "bizapp": {
+      "summary": "高度な数理分析や専門業務の自動化に使える。",
+      "actions": [
+        "OpenAI APIで数理審査業務に使える",
+        "中小企業向け専門業務AIを提案",
+        "導入前に悪用防止策を決めないと危険"
+      ]
+    },
+    "links": [
+      "https://xtech.nikkei.com/atcl/nxt/news/24/03373/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "RIZAP、個人利用AIに顧客情報を誤送信",
+    "category": "セキュリティ",
+    "source": "ITmedia AI＋",
+    "lede": "従業員が許可されていない生成AIへ、氏名や疾患情報を含む顧客データをアップロードした。",
+    "keypoints": [
+      "個人利用の外部AIへ誤送信",
+      "氏名や住所、疾患情報を含む",
+      "第三者閲覧の有無は確認中",
+      "許可外AIの禁止を再周知"
+    ],
+    "pull": "生成AIの情報漏えいは、個人の注意だけでなく利用環境の統制が問われる。",
+    "bizapp": {
+      "summary": "許可AIと投入禁止情報の明文化が急務になる。",
+      "actions": [
+        "社内許可AIで匿名化集計に使える",
+        "中小企業向けAI利用規程を提案",
+        "事故前に入力制限しないと顧客信用を失う"
+      ]
+    },
+    "links": [
+      "https://www.itmedia.co.jp/aiplus/article/2609/04/2000001166/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "OpenAI、重要インフラ防衛に10億ドル",
+    "category": "セキュリティ",
+    "source": "AI Watch",
+    "lede": "政府や電力、金融などを守る組織へ、AIによる脆弱性調査や修正支援を提供する世界規模の施策が始まる。",
+    "keypoints": [
+      "10億ドル規模の支援策",
+      "重要インフラの防御組織が対象",
+      "35種類以上の製品を提供",
+      "脆弱性発見から修正まで支援"
+    ],
+    "pull": "攻撃側のAI高度化に対し、防御側にも同等のAI能力が必要になる。",
+    "bizapp": {
+      "summary": "老朽システムの脆弱性調査と修正を加速できる。",
+      "actions": [
+        "Daybreakで脆弱性点検に使える",
+        "自治体向け防御体制強化を提案",
+        "攻撃高度化前に点検しないと被害が拡大"
+      ]
+    },
+    "links": [
+      "https://ai.watch.impress.co.jp/docs/news/2138446.html"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Nvidia、Hugging Face買収合意か",
+    "category": "業界動向",
+    "source": "Weights & Biases Blog",
+    "lede": "NvidiaがHugging Faceを130億ドルで買収することで合意したと報じられた。",
+    "keypoints": [
+      "買収額は130億ドルと報道",
+      "Nvidiaが購入で合意か",
+      "対象はHugging Face",
+      "現時点では報道段階"
+    ],
+    "pull": "AIモデルの流通基盤を巡る勢力図を変え得る大型買収報道だ。",
+    "bizapp": {
+      "summary": "AI基盤の調達先と依存度を見直す契機になる。",
+      "actions": [
+        "Hugging Face依存の棚卸しに使える",
+        "企業向けAI基盤分散を提案",
+        "契約更新前に見直さないと選択肢を失う"
+      ]
+    },
+    "links": [
+      "https://wandb.ai/wandb_fc/mlnews/reports/Nvidia-reportedly-agrees-to-purchase-Hugging-Face-for-13B---VmlldzoxNzgxODg4Mw"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "Anthropic、2兆ドル上場で統治に焦点",
+    "category": "業界動向",
+    "source": "Ars Technica AI",
+    "lede": "最大2兆ドル規模の株式公開計画を巡り、外部受託者が取締役会を支配する独自の統治構造に注目が集まる。",
+    "keypoints": [
+      "企業価値は最大2兆ドル規模",
+      "外部受託者が取締役会を統制",
+      "受託組織は株式を持たない",
+      "上場後も統治機能を維持予定"
+    ],
+    "pull": "巨額の成長資金と公益目的をどう両立するかが上場後の争点になる。",
+    "bizapp": {
+      "summary": "AI企業を選ぶ際は性能だけでなく統治も審査すべきだ。",
+      "actions": [
+        "Claude採用時の統治審査に使える",
+        "経営層向けAI調達基準を提案",
+        "契約前に統治を見ないと方針変更に弱い"
+      ]
+    },
+    "links": [
+      "https://arstechnica.com/ai/2026/09/anthropics-2-trillion-ipo-puts-powerful-external-trustees-in-spotlight/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "シャープ、暮らしを理解する統合AI発表",
+    "category": "ツール更新",
+    "source": "日経クロステック AI",
+    "lede": "家電を横断して利用者の状況を理解し、相談対応や機器操作を支援する定額制AI「NIAH」が始まる。",
+    "keypoints": [
+      "9月30日に提供開始",
+      "シャープ製品52機種に対応予定",
+      "複数家電で生活情報を共有",
+      "月30往復までは無料"
+    ],
+    "pull": "家電単体の自動化から、暮らし全体を理解する継続サービスへ競争が移る。",
+    "bizapp": {
+      "summary": "製品販売後も対話型サービスで顧客接点を持てる。",
+      "actions": [
+        "NIAHで家電相談業務に使える",
+        "家電店向け継続支援プランを提案",
+        "早期設計しないと継続収益の機会を失う"
+      ]
+    },
+    "links": [
+      "https://xtech.nikkei.com/atcl/nxt/news/24/03372/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "DeNA、会計システムに「AI社員」配属",
+    "category": "ツール更新",
+    "source": "DeNA Engineering",
+    "lede": "独立アカウントを持つAI社員がSlackに常駐し、監視や起票、日程調整などの定型業務を担っている。",
+    "keypoints": [
+      "会計システム部門へ配属",
+      "Slackの専用チャンネルに常駐",
+      "約20個の定期タスクを実行",
+      "最終判断や完了確認は人が担当"
+    ],
+    "pull": "AI活用は質問への回答から、権限と役割を持つチーム運営へ進み始めた。",
+    "bizapp": {
+      "summary": "定型業務をAIの担当範囲として切り出せる。",
+      "actions": [
+        "JIRAで相談の起票業務に使える",
+        "経理部門向けAI担当者を提案",
+        "今期中に役割を切らないと定型工数が残る"
+      ]
+    },
+    "links": [
+      "https://engineering.dena.com/blog/2026/08/ai-comate-berry/"
+    ],
+    "likes": 0
+  },
+  {
+    "title": "AI、読み取り専用でも障害調査を完遂",
+    "category": "研究",
+    "source": "HEROZ Tech Blog",
+    "lede": "任意コマンドを禁じたAIでも、Linux障害の証跡を集め、人が次の判断に使える報告書を作成できた。",
+    "keypoints": [
+      "読み取り専用ツールで検証",
+      "一次調査と証跡整理に限定",
+      "曖昧な申告から仮説を構築",
+      "最終的な原因判断は人が担う"
+    ],
+    "pull": "AIに変更権限を与えなくても、調査負担を減らす実用価値は生み出せる。",
+    "bizapp": {
+      "summary": "権限を絞ったまま障害の初動調査を自動化できる。",
+      "actions": [
+        "読み取り専用AIで監視業務に使える",
+        "中小企業向け障害一次調査を提案",
+        "障害前に証跡収集を整えないと復旧が遅れる"
+      ]
+    },
+    "links": [
+      "https://techblog.heroz.jp/entry/2026/08/25/120000"
+    ],
+    "likes": 0
+  }
+]
