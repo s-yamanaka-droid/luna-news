@@ -1,0 +1,41 @@
+{
+  "trend_summary": "今週は、AIが回答役から定型業務を担う「社員役」へ進化しました。会議記録や販促画像など、日常業務の時短機能も充実しています。小規模事業者は新モデルを追うより、毎週発生する作業を一つAIへ移すのが近道です。",
+  "top3": [
+    {
+      "rank": 1,
+      "date": "2026-09-01",
+      "title": "DeNAのAI社員、会計システムで実務",
+      "category": "業界動向",
+      "source": "DeNA Engineering",
+      "why_picked": "定型業務をAIへ移し、少人数でも処理量を増やせる",
+      "tldr": "定型業務をAI社員が常時代行",
+      "action": "毎週繰り返す業務を一つAIへ任せる",
+      "image": "../assets/images/2026-09-01/topic_3.png",
+      "link": "../news/2026-09-01/#topic-3"
+    },
+    {
+      "rank": 2,
+      "date": "2026-09-01",
+      "title": "会議要約を用途別に、AiNote刷新",
+      "category": "ツール更新",
+      "source": "AI Watch",
+      "why_picked": "議事録と報告文を同時に作れ、事務時間が浮く",
+      "tldr": "会議一本から用途別要約を生成",
+      "action": "次の会議で社内用と顧客用を作る",
+      "image": "../assets/images/2026-09-01/topic_6.png",
+      "link": "../news/2026-09-01/#topic-6"
+    },
+    {
+      "rank": 3,
+      "date": "2026-09-03",
+      "title": "Google Pics一般提供、画像の部分編集や翻訳に対応",
+      "category": "ツール更新",
+      "source": "Gihyo.jp",
+      "why_picked": "販促物の修正と多言語化を外注せず進められる",
+      "tldr": "画像編集と翻訳をAIで高速化",
+      "action": "既存チラシを修正し外国語版も作る",
+      "image": "../assets/images/2026-09-03/topic_7.png",
+      "link": "../news/2026-09-03/#topic-7"
+    }
+  ]
+}

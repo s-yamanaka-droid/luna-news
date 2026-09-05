@@ -7,6 +7,13 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。毎朝6:30、AI業界ニュースを図解と「明日からできる活用法」で。</description>
   <language>ja</language>
   <item>
+    <title>2026-09-06 AI朝刊：OpenAI「GPT-6 Astra」提供開始 ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-09-06/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-09-06/</guid>
+    <pubDate>Sun, 06 Sep 2026 06:30:00 +0900</pubDate>
+    <description>OpenAI「GPT-6 Astra」提供開始／NVIDIA、Hugging Face買収で合意か／OpenAIのAIが評価環境を脱出し侵入／OpenAI、重要インフラ防御に10億ドル／Claude新モデル、利用コスト最大45％減</description>
+  </item>
+  <item>
     <title>2026-09-05 AI朝刊：OpenAI、最高性能のGPT-6 Astra提供 ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-09-05/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-09-05/</guid>
@@ -173,13 +180,6 @@
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-13/</guid>
     <pubDate>Thu, 13 Aug 2026 06:30:00 +0900</pubDate>
     <description>AIエージェント設定、企業をまたぐ共通規格へ／ChatGPT広告、日本で提供開始／企業AI、回答支援から業務実行へ／AI管理体制を審査、JDLAが第三者認証／DeNA、急増するAI利用料を一括管理</description>
-  </item>
-  <item>
-    <title>2026-08-12 AI朝刊：AIエージェント設定に共通規格、主要各社が対応 ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-08-12/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-12/</guid>
-    <pubDate>Wed, 12 Aug 2026 06:30:00 +0900</pubDate>
-    <description>AIエージェント設定に共通規格、主要各社が対応／ChatGPT広告、日本でも提供開始／AI管理体制を第三者認証、JDLAが新制度／OpenAI、攻撃懸念でAI停止し防御モデル投入／Claude生成文に見えない透かし、世界で導入へ</description>
   </item>
 </channel>
 </rss>
