@@ -29,10 +29,21 @@ trap 'notify_failure "unknown" "daily.sh が異常終了"' ERR
 TODAY=$(date +%Y-%m-%d)
 LOG=/Users/yamanakashuto/apps/luna-news/logs/daily_${TODAY}.log
 DONE_MARKER=/Users/yamanakashuto/apps/luna-news/logs/done_${TODAY}
+READY_MARKER=/Users/yamanakashuto/apps/luna-news/logs/content_ready_${TODAY}
 
 # 冪等ガード：当日完了済みなら何もしない（launchd 1日3回トリガーの2回目以降用）
 if [ -f "$DONE_MARKER" ]; then
   echo "$(date '+%H:%M') already done for $TODAY — skip" >> "$LOG"
+  exit 0
+fi
+
+# 記事・公開まで完了済みで通知だけ失敗した場合は、重い生成をやり直さず配送だけ再試行する。
+if [ -f "$READY_MARKER" ]; then
+  echo "$(date '+%H:%M') content ready for $TODAY — retry delivery only" | tee -a "$LOG"
+  python scripts/notify_slack.py "$TODAY" 2>&1 | tee -a "$LOG"
+  python scripts/sync_obsidian.py "$TODAY" 2>&1 | tee -a "$LOG" || echo "Obsidian同期失敗（処理は継続）" | tee -a "$LOG"
+  touch "$DONE_MARKER"
+  echo "=== 配送完了 $TODAY ===" | tee -a "$LOG"
   exit 0
 fi
 
@@ -92,9 +103,10 @@ git push origin main 2>&1 | tee -a "$LOG"
 echo "[6/7] Vercel 本番デプロイ" | tee -a "$LOG"
 export PATH="$HOME/.npm-global/bin:$PATH"
 vercel deploy --prod --yes 2>&1 | tee -a "$LOG" || echo "Vercelデプロイ失敗（処理は継続）" | tee -a "$LOG"
+touch "$READY_MARKER"
 
 echo "[7/7] Slack #朝刊 通知 + Obsidian同期" | tee -a "$LOG"
-python scripts/notify_slack.py "$TODAY" 2>&1 | tee -a "$LOG" || echo "Slack送信失敗（処理は継続）" | tee -a "$LOG"
+python scripts/notify_slack.py "$TODAY" 2>&1 | tee -a "$LOG"
 python scripts/sync_obsidian.py "$TODAY" 2>&1 | tee -a "$LOG" || echo "Obsidian同期失敗（処理は継続）" | tee -a "$LOG"
 
 touch "$DONE_MARKER"   # 冪等ガード用（成功した日だけ作る）
