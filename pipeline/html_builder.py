@@ -428,6 +428,11 @@ def _head(title, desc, css_path, fonts, canonical=None, og_image=None, asset_pre
 # ── INDEX PAGE ───────────────────────────────────────────────
 
 def build_index(all_dates: list[str], today_articles: list[dict], today_str: str) -> Path:
+    from newspaper import index
+    return index(all_dates, today_articles, today_str)
+
+
+def _legacy_build_index(all_dates: list[str], today_articles: list[dict], today_str: str) -> Path:
     dt       = datetime.strptime(today_str, "%Y-%m-%d")
     issue    = str(int(dt.strftime("%m%d"))).zfill(4)
     weekday  = WEEKDAYS_EN[dt.weekday()]
@@ -814,8 +819,9 @@ def _daily_jsonld(date_str: str, articles: list[dict]) -> str:
             "headline": a["title"][:110],
             "description": a.get("lede", "")[:200],
             "datePublished": f"{date_str}T06:30:00+09:00",
-            "dateModified": f"{date_str}T06:30:00+09:00",
-            "image": [f"{SITE_URL}assets/images/{date_str}/topic_{i}.png"],
+            "dateModified": a.get("updated_at", date_str),
+            **({"image": [f"{SITE_URL}assets/newspaper/{a['image']}.png"]} if a.get("image") in ("research", "infrastructure") else
+               {"image": [f"{SITE_URL}assets/images/{date_str}/topic_{i}.png"]} if (SITE_DIR / "assets" / "images" / date_str / f"topic_{i}.png").exists() else {}),
             "url": f"{page_url}#topic-{i}",
             "mainEntityOfPage": {"@type": "WebPage", "@id": f"{page_url}#topic-{i}"},
             "articleSection": a.get("category", ""),
@@ -831,10 +837,15 @@ def _daily_jsonld(date_str: str, articles: list[dict]) -> str:
     })
     payload = {"@context": "https://schema.org", "@graph": graph}
     return ('\n<script type="application/ld+json">'
-            + _json.dumps(payload, ensure_ascii=False) + '</script>\n')
+            + _json.dumps(payload, ensure_ascii=False).replace("<", "\\u003c") + '</script>\n')
 
 
 def build_daily_page(date_str: str, articles: list[dict], issue_num: int = None) -> Path:
+    from newspaper import daily
+    return daily(date_str, articles, issue_num)
+
+
+def _legacy_build_daily_page(date_str: str, articles: list[dict], issue_num: int = None) -> Path:
     dt        = datetime.strptime(date_str, "%Y-%m-%d")
     issue     = str(issue_num or int(dt.strftime("%m%d"))).zfill(4)
     weekday   = WEEKDAYS_EN[dt.weekday()]

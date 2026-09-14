@@ -7,6 +7,13 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。毎朝6:30、AI業界ニュースを図解と「明日からできる活用法」で。</description>
   <language>ja</language>
   <item>
+    <title>2026-09-14 AI朝刊：Anthropic、AI悪用の実態を公開　企業が点検すべき接続権限 ほか7本</title>
+    <link>https://nowonair.vercel.app/news/2026-09-14/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-09-14/</guid>
+    <pubDate>Mon, 14 Sep 2026 06:30:00 +0900</pubDate>
+    <description>Anthropic、AI悪用の実態を公開　企業が点検すべき接続権限／GoogleのToolGrad、操作の正解からAIの学習データを作る／AIを入れた先に、どれだけ仕事を増やせるか／OpenAI、米政府向けのAI利用支援を地方まで拡大／Microsoft、若年層のAI利用を支える設計原則を発表</description>
+  </item>
+  <item>
     <title>2026-09-07 AI朝刊：OpenAI、業務性能を高めたGPT-6 Astra発表 ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-09-07/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-09-07/</guid>
@@ -173,13 +180,6 @@
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-15/</guid>
     <pubDate>Sat, 15 Aug 2026 06:30:00 +0900</pubDate>
     <description>ChatGPT、Macの操作履歴から仕事を再開／AIエージェントの技能共有、業界標準が始動／Google、新モデルGemini 3.7 Flash発表／AI管理体制を証明、JDLAが第三者認証／GPT-5.6、最大14倍速の新処理モード</description>
-  </item>
-  <item>
-    <title>2026-08-14 AI朝刊：DeepSeek、API料金を最大12倍に値上げ ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-08-14/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-14/</guid>
-    <pubDate>Fri, 14 Aug 2026 06:30:00 +0900</pubDate>
-    <description>DeepSeek、API料金を最大12倍に値上げ／AIエージェント設定、業界標準で共通化へ／AI管理体制を認証、JDLAが新制度／Gemini 3.7 Flash、開発業務を強化／GPT-5.6、最大14倍速の新モード</description>
   </item>
 </channel>
 </rss>

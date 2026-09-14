@@ -81,6 +81,20 @@ SYSTEM = """あなたはAI業界ニュースを「日本人ビジネスパーソ
 - 8本のcategoryが1種に偏らないよう、業界動向・ツール更新・研究などを織り交ぜる"""
 
 
+SYSTEM += """
+
+【新聞型の記事本文】
+従来の項目に加えて、body: [{heading, paragraphs: [段落]}] を必須とする。
+何が発表されたか、対象・制約の2節以上で整理し、元記事にない事実・価格・実績は作らない。
+長い転載を避け、各出典の事実要約は簡潔にする。
+analysis: [{heading, paragraphs: [段落]}] に本誌独自の考察・実務提案を入れ、事実と混ぜない。
+actions: [具体的な実践提案3件]、published_at: 元記事の確認できる発表日 YYYY-MM-DD を含める。
+日付が確認できないソースは選ばない。最新号の日付を元記事の発表日として使わない。
+service は luna / recruitment / crm / fde のうち関連する1つ。関係が薄い記事では省略。
+LunaはLunaTechのサービス。自社の実績や成果数値、提携関係は元データがない限り作らない。
+"""
+
+
 def _rank_articles(raw_articles: list[dict]) -> list[int]:
     """Stage 1: chat_json (provider=codex/claude/openai) で全記事スコアリング → TOP 30 を返す"""
     from llm import extract_json, chat_json

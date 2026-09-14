@@ -54,6 +54,8 @@ print(f"Sitemap → {SITE_DIR / 'sitemap.xml'} ({len(urls)} URLs)")
 
 # ── RSS フィード生成（購読・被リンク・Discover）──
 feed_path = build_feed(all_dates)
+from check_freshness import status
+(SITE_DIR / 'health.json').write_text(json.dumps(status(SITE_DIR, _date.today()), ensure_ascii=False, indent=2), encoding='utf-8')
 print(f"Feed → {feed_path}")
 
 print("\nAll pages rebuilt successfully!")
