@@ -29,9 +29,9 @@ def photo(date, i, article=None):
 
 SERVICES = {
     'luna': ('Luna', '日々の判断や経験を引き継ぐ、AIの右腕。', 'https://lunatech-migration-guide.vercel.app'),
-    'recruitment': ('人材紹介', '事業に必要な役割から、人との出会いを考える。', 'https://lakkan-inc.vercel.app/contact?topic=placement'),
-    'crm': ('CRM構築', '顧客情報と、次のアクションを一つの流れに。', 'https://lakkan-inc.vercel.app/contact?topic=crm'),
-    'fde': ('FDE', '現場に入り、開発から運用・改善まで伴走する。', 'https://lakkan-inc.vercel.app/contact?topic=fde'),
+    'recruitment': ('人財・採用支援', '仕事と採用を見直し、必要な人財を考える。', 'https://lakkan-inc.vercel.app/services#people'),
+    'crm': ('CRM構築', '顧客情報と、次のアクションを一つの流れに。', 'https://lakkan-inc.vercel.app/services#crm'),
+    'fde': ('FDE', '現場に入り、開発から運用・改善まで伴走する。', 'https://lakkan-inc.vercel.app/services#fde'),
 }
 
 
