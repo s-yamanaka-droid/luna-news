@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url><loc>https://nowonair.vercel.app/articles/2026-10-14/story-1/</loc><news:news><news:publication><news:name>Now on AIr</news:name><news:language>ja</news:language></news:publication><news:publication_date>2026-10-14</news:publication_date><news:title>Google、Gemini 4 ArgonをAPIで一般提供　導入価格は11月30日まで</news:title></news:news></url>
-  <url><loc>https://nowonair.vercel.app/articles/2026-10-14/story-2/</loc><news:news><news:publication><news:name>Now on AIr</news:name><news:language>ja</news:language></news:publication><news:publication_date>2026-10-14</news:publication_date><news:title>Anthropic、社内のソース管理を自作システムへ移行　1日の統合数は3万件超に</news:title></news:news></url>
-  <url><loc>https://nowonair.vercel.app/articles/2026-10-14/story-3/</loc><news:news><news:publication><news:name>Now on AIr</news:name><news:language>ja</news:language></news:publication><news:publication_date>2026-10-14</news:publication_date><news:title>OpenAI、GPT-4oなど5つのAPIスナップショットを2027年1月14日に提供終了へ</news:title></news:news></url>
 </urlset>

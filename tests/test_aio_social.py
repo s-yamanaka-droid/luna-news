@@ -83,38 +83,33 @@ class AioSocialTests(unittest.TestCase):
         self.assertEqual(len(set(digests)), 3)
 
     def test_latest_home_article_and_social_use_distinct_images(self):
+        latest = sorted((ROOT / "docs/news").glob("*/articles.json"))[-1]
+        issue_date = latest.parent.name
+        lead = json.loads(latest.read_text())[0]
+        diagram = lead["editorial_diagram"]
         home = (ROOT / "docs/index.html").read_text()
-        article = (ROOT / "docs/articles/2026-10-14/story-1/index.html").read_text()
-        self.assertIn('datetime="2026-10-14"', home)
-        self.assertIn('src="/assets/illustrations/google-gemini-4-argon-home.webp"', home)
-        self.assertNotIn('google-gemini-4-argon-diagram-wide.webp', home)
-        self.assertIn('src="/assets/illustrations/google-gemini-4-argon-diagram-wide.webp"', article)
-        self.assertIn('srcset="/assets/illustrations/google-gemini-4-argon-diagram-mobile.webp"', article)
-        self.assertIn('property="og:image" content="https://nowonair.vercel.app/assets/og/google-gemini-4-argon.png"', article)
+        article = (ROOT / f"docs/articles/{issue_date}/story-1/index.html").read_text()
+        self.assertIn(f'datetime="{issue_date}"', home)
+        self.assertIn(f'src="{lead["hero_image"]}"', home)
+        self.assertNotIn(diagram["wide"], home)
+        self.assertIn(f'src="{diagram["wide"]}"', article)
+        self.assertIn(f'srcset="{diagram["mobile"]}"', article)
+        self.assertIn(f'property="og:image" content="https://nowonair.vercel.app{lead["social_image"]}"', article)
         self.assertNotIn('AIに何を許す', home)
-        paths = [
-            ROOT / "docs/assets/illustrations/google-gemini-4-argon-home.webp",
-            ROOT / "docs/assets/illustrations/google-gemini-4-argon-diagram-wide.webp",
-            ROOT / "docs/assets/illustrations/google-gemini-4-argon-diagram-mobile.webp",
-            ROOT / "docs/assets/og/google-gemini-4-argon.png",
-        ]
+        paths = [ROOT / "docs" / path.lstrip("/") for path in
+                 (lead["hero_image"], diagram["wide"], diagram["mobile"], lead["social_image"])]
         digests = [hashlib.sha256(path.read_bytes()).hexdigest() for path in paths]
         self.assertEqual(len(set(digests)), 4)
 
-    def test_latest_issue_keeps_sources_dates_and_scope(self):
+    def test_october_14_issue_keeps_verified_source_dates(self):
         stories = json.loads((ROOT / "docs/news/2026-10-14/articles.json").read_text())
-        self.assertEqual(len(stories), 3)
+        self.assertEqual(len(stories), 1)
         for story in stories:
             self.assertTrue(story["links"] and all(url.startswith("https://") for url in story["links"]))
             self.assertRegex(story["published_at"], r"^2026-10-1[34]$")
             self.assertEqual(story["verified_at"], "2026-10-14")
-        deprecation = (ROOT / "docs/articles/2026-10-14/story-3/index.html").read_text()
-        for model in ("gpt-4o-2024-08-06", "gpt-4o-2024-11-20", "gpt-4o-mini-2024-07-18",
-                      "gpt-4.1-2025-04-14", "gpt-4.1-mini-2025-04-14", "gpt-6-luna", "2027年1月14日"):
-            self.assertIn(model, deprecation)
-        self.assertIn("GPT-4系列全体やChatGPTの終了を告げたものではない", deprecation)
-        scion = (ROOT / "docs/articles/2026-10-14/story-2/index.html").read_text()
-        self.assertIn("一般用途のgitの代わりにはならず", scion)
+        self.assertEqual(stories[0]["published_at"], "2026-10-13")
+        self.assertIn("introducing-gemini-4-argon", stories[0]["links"][0])
 
     def test_operator_page_is_linked_and_indexed(self):
         index = (ROOT / "docs/index.html").read_text()
