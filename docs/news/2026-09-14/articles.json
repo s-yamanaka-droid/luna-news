@@ -55,10 +55,10 @@
       "失敗時に操作を止める担当者と復旧手順を決める"
     ],
     "service": "crm",
-    "updated_at": "2026-09-14",
+    "updated_at": "2026-10-14",
     "article_kind": "news",
     "pull": "",
-    "verified_at": "2026-09-14"
+    "verified_at": "2026-10-14"
   },
   {
     "title": "Google、正しいツール操作からAIの学習データを作る手法を紹介",
@@ -98,10 +98,10 @@
       "条件が異なる案件でも同じ手順が成立するか確かめる"
     ],
     "service": "fde",
-    "updated_at": "2026-09-14",
+    "updated_at": "2026-10-14",
     "article_kind": "news",
     "pull": "",
-    "verified_at": "2026-09-14"
+    "verified_at": "2026-10-14"
   },
   {
     "title": "OpenAI、AIの価値は「完了した仕事」で見ると説明",
@@ -143,10 +143,10 @@
     ],
     "service": "luna",
     "image": "research",
-    "updated_at": "2026-09-14",
+    "updated_at": "2026-10-14",
     "article_kind": "news",
     "pull": "",
-    "verified_at": "2026-09-14"
+    "verified_at": "2026-10-14"
   },
   {
     "title": "OpenAI、米政府向けのAI利用支援を地方まで拡大",
