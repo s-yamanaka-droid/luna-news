@@ -19,7 +19,8 @@ _RECOVERED_PATHS = set()
 
 BRAND = os.environ.get("NOW_ON_BRAND", "AIr")
 PRI = os.environ.get("NOW_ON_PRIMARY_COLOR", "#CE1141")
-CODEX_BIN = os.environ.get("CODEX_BIN", "/opt/homebrew/bin/codex")
+# llm.py と同じく PATH 上の codex を優先し、homebrew 固定パスは最後の保険にする。
+CODEX_BIN = os.environ.get("CODEX_BIN") or shutil.which("codex") or "/opt/homebrew/bin/codex"
 SLIDE_PROVIDER = os.environ.get("SLIDE_PROVIDER", "codex").lower()  # codex(CLI・$0) / openai(API・高速課金) / playwright(簡易)
 CODEX_TIMEOUT = int(os.environ.get("CODEX_SLIDE_TIMEOUT", "600"))   # 内蔵画像生成は3-5分かかる
 

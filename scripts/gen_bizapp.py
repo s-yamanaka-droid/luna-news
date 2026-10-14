@@ -89,7 +89,7 @@ def process_file(path: Path) -> bool:
 
 
 if __name__ == "__main__":
-    base = Path("/Users/yamanakashuto/apps/vigil-news/docs/news")
+    base = Path(__file__).resolve().parents[1] / "docs" / "news"
     json_files = sorted(base.glob("*/articles.json"))
 
     print(f"Found {len(json_files)} article files")

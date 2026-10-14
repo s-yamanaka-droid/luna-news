@@ -7,6 +7,24 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。公開済みのAIニュースと実務への示唆をお届けします。</description>
   <language>ja</language>
   <item>
+    <title>Google、Gemini 4 ArgonをAPIで一般提供　導入価格は11月30日まで</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-14/story-1/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-14/story-1/</guid>
+    <description>GoogleはGemini 4 Argonを、AI StudioとGemini platformのAPIで開発者・企業向けに一般提供した。導入価格は100万トークンあたり入力2ドル・出力10ドルで、11月30日まで。</description>
+  </item>
+  <item>
+    <title>Anthropic、社内のソース管理を自作システムへ移行　1日の統合数は3万件超に</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-14/story-2/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-14/story-2/</guid>
+    <description>Anthropicは、社内の巨大なmonorepoをgitから自社開発のScionへ移したと公表した。1日のコード統合数は5月の約2,500件から、9月には3万件を超えたという。</description>
+  </item>
+  <item>
+    <title>OpenAI、GPT-4oなど5つのAPIスナップショットを2027年1月14日に提供終了へ</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-14/story-3/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-14/story-3/</guid>
+    <description>OpenAIは10月14日、gpt-4o・gpt-4o-mini・gpt-4.1系の特定スナップショット5つを、2027年1月14日にAPIから削除すると開発者に通知した。推奨の移行先はgpt-6-luna。</description>
+  </item>
+  <item>
     <title>Anthropic、AI悪用の事例を公開　サイバー攻撃・監視・詐欺など7領域</title>
     <link>https://nowonair.vercel.app/articles/2026-09-14/story-1/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-09-14/story-1/</guid>
@@ -137,24 +155,6 @@
     <link>https://nowonair.vercel.app/news/2026-08-25/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-25/</guid>
     <description>Sakana AI、防衛省のAI分析実証を受注／GPT-5.6、Kiroで開発業務を支援／Gemini 3.7 Flash、低価格で能力向上／30B級オープンモデル、企業利用の選択肢に／Claude SecurityにMythos 5を導入</description>
-  </item>
-  <item>
-    <title>2026-08-24 AI朝刊：OpenAI、GPT-5.6 SolのAPI料金を最大33％値下げ ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-08-24/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-24/</guid>
-    <description>OpenAI、GPT-5.6 SolのAPI料金を最大33％値下げ／Slack上の会話を読み、AIが開発から文書化まで支援／Gemini 3.7 Flash、コードと業務支援を強化／Anthropic、高性能AIで脆弱性スキャンを提供／OKI、AIでコンタクトセンター応対を標準化へ</description>
-  </item>
-  <item>
-    <title>2026-08-23 AI朝刊：三菱UFJ銀行、生成AIで業務標準化の手間9割減 ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-08-23/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-23/</guid>
-    <description>三菱UFJ銀行、生成AIで業務標準化の手間9割減／OpenAI、GPT-5.6 SolのAPI料金を最大33％値下げ／Google、コード開発向けGemini 3.7 Flashを発表／OKI、生成AIでコンタクトセンター応対を標準化へ／Anthropic、Claudeで脆弱性検出と修正案を提供</description>
-  </item>
-  <item>
-    <title>2026-08-22 AI朝刊：Gemini 3.7 Flash、開発AIを半額で強化 ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-08-22/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-22/</guid>
-    <description>Gemini 3.7 Flash、開発AIを半額で強化／三菱UFJ銀行、生成AIで業務標準化を加速／OKI、問い合わせ対応をAIで標準化へ／SmartHR、問い合わせ対応をAI主体へ／DeNA、AI費用を全社基盤で可視化</description>
   </item>
 </channel>
 </rss>

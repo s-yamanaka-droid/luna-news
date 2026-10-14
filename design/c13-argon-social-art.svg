@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 390" width="640" height="390">
+  <!-- C13 social art: a calendar page with a marked end date and a price tag.
+       Distinct from the home art and the article diagram. No text. -->
+  <style>
+    .ink{fill:none;stroke:#1b1b1d;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}
+    .paper{fill:#fffdf7;stroke:#1b1b1d;stroke-width:4;stroke-linejoin:round}
+    .shade{fill:#ece6d8}
+  </style>
+  <rect width="640" height="390" fill="#fbfaf8"/>
+  <!-- calendar -->
+  <g transform="translate(70 50) rotate(-4)">
+    <rect class="shade" x="12" y="14" width="290" height="290" rx="12"/>
+    <rect class="paper" x="0" y="0" width="290" height="290" rx="12"/>
+    <rect x="0" y="0" width="290" height="62" rx="12" fill="#821c32" stroke="#1b1b1d" stroke-width="4"/>
+    <path class="ink" d="M70 -16 V24 M220 -16 V24"/>
+    <g fill="#cfc7b6">
+      <rect x="28" y="90" width="34" height="30"/><rect x="78" y="90" width="34" height="30"/><rect x="128" y="90" width="34" height="30"/><rect x="178" y="90" width="34" height="30"/><rect x="228" y="90" width="34" height="30"/>
+      <rect x="28" y="140" width="34" height="30"/><rect x="78" y="140" width="34" height="30"/><rect x="128" y="140" width="34" height="30"/><rect x="178" y="140" width="34" height="30"/><rect x="228" y="140" width="34" height="30"/>
+      <rect x="28" y="190" width="34" height="30"/><rect x="78" y="190" width="34" height="30"/><rect x="128" y="190" width="34" height="30"/><rect x="178" y="190" width="34" height="30"/><rect x="228" y="190" width="34" height="30"/>
+      <rect x="28" y="240" width="34" height="30"/><rect x="78" y="240" width="34" height="30"/>
+    </g>
+    <circle cx="95" cy="255" r="30" fill="none" stroke="#821c32" stroke-width="6"/>
+  </g>
+  <!-- price tag on a string -->
+  <path class="ink" d="M380 60 C 420 90 430 120 440 150"/>
+  <g transform="translate(400 140) rotate(14)">
+    <path class="shade" d="M24 12 H190 L230 82 L190 152 H24 Z" transform="translate(10 10)"/>
+    <path class="paper" d="M24 12 H190 L230 82 L190 152 H24 Z"/>
+    <circle cx="196" cy="82" r="10" fill="#fbfaf8" stroke="#1b1b1d" stroke-width="4"/>
+    <path class="ink" d="M58 52 H150 M58 82 H130"/>
+    <path d="M58 112 H160" stroke="#821c32" stroke-width="6" stroke-linecap="round"/>
+  </g>
+</svg>

@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><title>C13 Gemini 4 Argon 図解</title>
+<!-- 本文図解の原本。?layout=wide で 2172x724、?layout=mobile で 1024x1536 に書き出す。
+     数字はすべて Google 公式ブログ（2026-10-13）の記載どおり。 -->
+<style>
+*{box-sizing:border-box}html,body{margin:0}
+body{font-family:"Noto Sans JP","IPAPGothic","IPAGothic",sans-serif;color:#171719;background:#fbf8f1}
+.board{display:grid;gap:36px;padding:44px 56px;width:2172px;height:724px;grid-template-columns:1.25fr 1fr 1fr}
+body.mobile .board{width:1024px;height:1536px;grid-template-columns:1fr;grid-template-rows:1.25fr 1fr .8fr;padding:48px 52px;gap:30px}
+.panel{background:#fffdf7;border:3px solid #1b1b1d;border-radius:10px;padding:30px 34px;position:relative;box-shadow:10px 10px 0 #ece6d8;display:flex;flex-direction:column}
+.step{font-size:22px;font-weight:800;color:#821c32;letter-spacing:.06em}
+h2{font-size:40px;line-height:1.25;margin:6px 0 18px;letter-spacing:-.03em}
+.note{font-size:21px;color:#53545a;margin:auto 0 0;padding-top:14px;line-height:1.5}
+.bars{display:flex;gap:30px;align-items:flex-end;flex:1;padding:0 10px 4px;border-bottom:3px solid #1b1b1d;min-height:0}
+.group{flex:1;display:flex;flex-direction:column;align-items:stretch;height:100%;justify-content:flex-end}
+.pair{display:flex;gap:14px;align-items:flex-end;height:100%}
+.col{flex:1;display:flex;flex-direction:column;justify-content:flex-end;height:100%}.col b{font-size:28px;font-weight:800;text-align:center;margin-bottom:6px}.bar{border:3px solid #1b1b1d}
+.in{background:#cfc7b6}.out{background:#821c32}
+.label{font-size:24px;font-weight:800;margin-top:12px;text-align:center}
+.label small{display:block;font-size:19px;font-weight:500;color:#53545a}
+.legend{display:flex;gap:22px;font-size:20px;margin:0 0 12px}.legend i{display:inline-block;width:20px;height:20px;border:2px solid #1b1b1d;vertical-align:-3px;margin-right:6px}
+ul.where{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:16px}
+ul.where li{border-left:6px solid #821c32;padding:6px 0 6px 18px;font-size:26px;font-weight:800;line-height:1.35}
+ul.where li span{display:block;font-size:21px;font-weight:500;color:#53545a}
+.big{font-size:92px;font-weight:900;letter-spacing:-.04em;line-height:1;margin:6px 0 10px;color:#821c32}
+.big small{font-size:40px;color:#171719;margin-left:6px}
+.scroll{height:26px;border:3px solid #1b1b1d;border-radius:4px;margin:6px 0 18px;background:repeating-linear-gradient(90deg,#fffdf7 0 34px,#ece6d8 34px 38px)}
+.src{position:absolute;right:30px;bottom:-2px;transform:translateY(100%);font-size:18px;color:#53545a}
+</style></head>
+<body>
+<div class="board">
+  <section class="panel">
+    <div class="step">① API料金（100万トークンあたり）</div>
+    <h2>導入価格は11月30日まで</h2>
+    <div class="legend"><span><i class="in"></i>入力</span><span><i class="out"></i>出力</span></div>
+    <div class="bars">
+      <div class="group">
+        <div class="pair"><div class="col"><b>$2</b><div class="bar in" style="height:9%"></div></div><div class="col"><b>$10</b><div class="bar out" style="height:43%"></div></div></div>
+      </div>
+      <div class="group">
+        <div class="pair"><div class="col"><b>$4</b><div class="bar in" style="height:17%"></div></div><div class="col"><b>$20</b><div class="bar out" style="height:86%"></div></div></div>
+      </div>
+    </div>
+    <div style="display:flex;gap:30px;padding:0 10px">
+      <div class="label" style="flex:1">導入期間<small>〜2026年11月30日</small></div>
+      <div class="label" style="flex:1">導入期間の後<small>原典の注記による</small></div>
+    </div>
+    <p class="note">キャッシュされた入力は95%引き（導入期間の記載）。</p>
+  </section>
+  <section class="panel">
+    <div class="step">② 使える場所</div>
+    <h2>APIは開発者・企業へ<br>一般提供</h2>
+    <ul class="where">
+      <li>Gemini API<span>AI Studio と Gemini platform</span></li>
+      <li>Geminiアプリ・検索のAI Mode<span>Google AI Pro / Ultra 加入者</span></li>
+      <li>Google Antigravity<span>Google AI Ultra 加入者</span></li>
+    </ul>
+  </section>
+  <section class="panel">
+    <div class="step">③ 一度に扱える量</div>
+    <h2>入力と出力の合計</h2>
+    <div class="big">100万<small>トークン</small></div>
+    <div class="scroll"></div>
+    <p class="note">Gemini API 経由の上限<br>（原典の記載）。</p>
+  </section>
+</div>
+<script>
+if (new URLSearchParams(location.search).get('layout') === 'mobile') document.body.classList.add('mobile');
+</script>
+</body></html>

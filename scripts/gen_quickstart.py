@@ -96,7 +96,7 @@ def process_file(path: Path, force: bool = False) -> bool:
 
 if __name__ == "__main__":
     import sys
-    base = Path("/Users/yamanakashuto/apps/vigil-news/docs/news")
+    base = Path(__file__).resolve().parents[1] / "docs" / "news"
 
     if len(sys.argv) > 1:
         # 単一日付指定

@@ -81,7 +81,7 @@ def process_file(path: Path, force: bool = False) -> bool:
 
 
 if __name__ == "__main__":
-    base = Path("/Users/yamanakashuto/apps/vigil-news/docs/news")
+    base = Path(__file__).resolve().parents[1] / "docs" / "news"
     if len(sys.argv) > 1:
         target = base / sys.argv[1] / "articles.json"
         process_file(target, force=True)

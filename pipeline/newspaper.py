@@ -142,7 +142,7 @@ def index(dates, articles, date):
     hero_media = (
         f'<a class="hero-figure-link" href="{esc(featured_url)}" aria-label="トップ記事を読む">'
         f'<img src="{esc(hero_image)}" width="1536" height="1024" alt="{esc(featured.get("hero_image_alt"))}" loading="eager" decoding="async">'
-        '<span>編集イメージ / AI生成</span></a>'
+        f'<span>{esc(featured.get("hero_image_credit") or "編集イメージ / AI生成")}</span></a>'
     ) if hero_image else ''
     rail = ''.join(
         '<article class="hero-rail-story">'
