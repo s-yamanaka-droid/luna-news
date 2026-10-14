@@ -120,7 +120,7 @@ def post_to_threads(text: str) -> dict:
 def post_dispatch(
     articles: list[dict],
     date_str: str,
-    site_url: str = "https://s-yamanaka-droid.github.io/vigil-news/",
+    site_url: str = "https://nowonair.vercel.app/",
     post_x: bool = True,
     post_threads: bool = True,
 ) -> dict:
@@ -170,7 +170,7 @@ if __name__ == "__main__":
     ]
     for platform in ["x", "threads"]:
         text = build_post_text(sample, "2026-04-24",
-                               "https://s-yamanaka-droid.github.io/vigil-news/", platform)
+                               "https://nowonair.vercel.app/", platform)
         print(f"=== {platform.upper()} ({len(text)}文字) ===")
         print(text)
         print()

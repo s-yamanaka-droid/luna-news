@@ -14,7 +14,7 @@ ROOT = Path(__file__).parent.parent
 NEWS_DIR = ROOT / "docs" / "news"
 VAULT_DIR = Path.home() / "vault" / "3-プロジェクト" / "NowOnAIr"
 DAILY_DIR = VAULT_DIR / "daily"
-SITE_URL = "https://s-yamanaka-droid.github.io/nowonair/"
+SITE_URL = "https://nowonair.vercel.app/"
 
 VAULT_DIR.mkdir(parents=True, exist_ok=True)
 DAILY_DIR.mkdir(parents=True, exist_ok=True)

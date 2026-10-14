@@ -15,7 +15,7 @@ import anthropic
 
 ROOT = Path(__file__).parent.parent
 NEWS_DIR = ROOT / "docs" / "news"
-SITE_URL = "https://s-yamanaka-droid.github.io/nowonair/"
+SITE_URL = "https://nowonair.vercel.app/"
 
 PROMPT = """以下のAIニュースから、3つのSNS（X / Threads / Instagram）向けに最適化された投稿テキストを作成してください。
 
