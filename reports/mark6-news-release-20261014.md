@@ -15,11 +15,13 @@
 ## 検証
 
 - `python3 scripts/rebuild_all.py`: 成功、128号を再生成。
-- `python3 -m unittest discover -s tests -v`: 16件成功。
+- `python3 -m unittest discover -s tests -v`: 先行版16件成功。記事1本の右欄に過去記事を元の日付付きで表示する修正後は17件成功。
 - `python3 scripts/check_newspaper.py`: 129ページのローカルリンク・画像・アンカー・件数に合格。
 - 新号のトップ・図解2種・OGは4ファイルすべて異なるbytes。クラウド側のPC/390px実画面検査記録と受領済み画像を照合。
 - `git diff --check`: 成功。変更31ファイルの既存Luna秘密検査に合格。
 - 本番の公開・GET bytes・実画面はpush後に独立して確認する。
+
+先行公開commit `229fceb` はVercelでReady、本番aliasで11件のGET bytes/型/画像decodeが一致。実画面で見つかった1記事時の空の右欄を、日付を明示した過去記事2本の案内へ修正した。過去の記事を今号の新着記事には数えない。
 
 ## 定期更新
 

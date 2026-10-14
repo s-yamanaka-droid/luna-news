@@ -153,6 +153,20 @@ def index(dates, articles, date):
         '</article>'
         for number, article in indexed[1:3]
     )
+    rail_label = 'ほかの掲載記事'
+    rail_title = 'ほかの記事'
+    if not rail:
+        previous_dates = sorted((value for value in dates if value < date), reverse=True)
+        previous_path = SITE / 'news' / previous_dates[0] / 'articles.json' if previous_dates else None
+        previous = json.loads(previous_path.read_text(encoding='utf-8')) if previous_path and previous_path.is_file() else []
+        rail_label = rail_title = '過去の掲載記事'
+        rail = ''.join(
+            '<article class="hero-rail-story">'
+            f'<span class="category">{esc(previous_dates[0])} 掲載</span>'
+            f'<h3><a href="{esc(link(previous_dates[0], number))}">{headline(article.get("title"))}</a></h3>'
+            f'<a class="hero-rail-link" href="{esc(link(previous_dates[0], number))}">過去の記事を読む →</a></article>'
+            for number, article in enumerate(previous[:2], 1)
+        ) or '<p>今号の記事は1本です。<a href="#archive">バックナンバーを読む →</a></p>'
     main_i = next((i for i, a in indexed if a.get('image')), 3 if date == '2026-09-07' and len(articles) >= 3 else 1)
     center = [x for x in indexed if x[0] in (main_i, 4)]
     if not center:
@@ -166,7 +180,7 @@ def index(dates, articles, date):
         f'<h1><a href="{esc(featured_url)}">{headline(featured.get("title"))}</a></h1>'
         f'<p>{esc(featured.get("lede"))}</p>'
         f'<div class="hero-feature-links">{original_link}<a href="{esc(featured_url)}">この記事を読む →</a></div>{hero_media}'
-        '</article><aside class="hero-rail" aria-label="ほかの掲載記事"><h2>ほかの記事</h2>'
+        f'</article><aside class="hero-rail" aria-label="{rail_label}"><h2>{rail_title}</h2>'
         f'{rail}</aside></section>'
         '<section class="editorial-pathways" aria-label="このサイトでできること">'
         '<a href="#all-news"><span>01</span><h2>変化を知る</h2><p>発表日と一次資料を確かめ、AIの動きを読む。</p><b>記事を探す →</b></a>'

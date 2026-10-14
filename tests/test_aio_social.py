@@ -5,11 +5,13 @@ import sys
 import unittest
 from html.parser import HTMLParser
 from pathlib import Path
+from tempfile import TemporaryDirectory
+from unittest.mock import patch
 from xml.etree import ElementTree
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "pipeline"))
-from newspaper import link
+from newspaper import link, index
 
 
 class Tags(HTMLParser):
@@ -110,6 +112,22 @@ class AioSocialTests(unittest.TestCase):
             self.assertEqual(story["verified_at"], "2026-10-14")
         self.assertEqual(stories[0]["published_at"], "2026-10-13")
         self.assertIn("introducing-gemini-4-argon", stories[0]["links"][0])
+
+    def test_single_article_home_labels_archive_rail_with_original_date(self):
+        current = json.loads((ROOT / "docs/news/2026-10-14/articles.json").read_text())[:1]
+        previous = json.loads((ROOT / "docs/news/2026-09-14/articles.json").read_text())[:2]
+        with TemporaryDirectory() as folder:
+            site = Path(folder)
+            archive = site / "news/2026-09-14/articles.json"
+            archive.parent.mkdir(parents=True)
+            archive.write_text(json.dumps(previous))
+            with patch("newspaper.SITE", site):
+                path = index(["2026-09-14", "2026-10-14"], current, "2026-10-14")
+            html = path.read_text()
+        self.assertIn('aria-label="過去の掲載記事"', html)
+        self.assertIn('2026-09-14 掲載', html)
+        self.assertIn(f'href="{link("2026-09-14", 1)}"', html)
+        self.assertNotIn('<h2>ほかの記事</h2>', html)
 
     def test_operator_page_is_linked_and_indexed(self):
         index = (ROOT / "docs/index.html").read_text()
