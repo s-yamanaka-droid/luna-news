@@ -5,9 +5,9 @@
     "source": "Google",
     "published_at": "2026-10-13",
     "lede": "GoogleはGemini 4 Argonを、AI StudioとGemini platformのAPIで開発者・企業向けに一般提供した。導入価格は100万トークンあたり入力2ドル・出力10ドルで、11月30日まで。",
-    "hero_image": "/assets/illustrations/google-gemini-4-argon-home.webp",
-    "hero_image_alt": "コード、財務グラフ、契約書、セキュリティの盾、分子の図を、中央の長い資料の束から点線でつないだ編集部作成のイラスト。実際の製品画面ではない。",
-    "hero_image_credit": "編集イメージ / 編集部作成の図版（生成AI不使用）",
+    "hero_image": "/assets/illustrations/google-gemini-4-argon-racco-bang.webp",
+    "hero_image_alt": "値上がりを示す赤い棒グラフの紙を見て、メガネのラッコのRaccoが目を見開いて驚く。むちむち猫が肩越しにのぞき込み、奥ではアザラシが背を向けて聞いていないふりをしている。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
     "social_image": "/assets/og/google-gemini-4-argon.png",
     "links": [
       "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/"
