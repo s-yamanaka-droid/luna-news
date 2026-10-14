@@ -1,33 +1,27 @@
+"""Prepare one issue, or record a separately published and verified issue.
+
+Preparation uses network/CLI and writes a candidate. It never pushes, posts,
+deploys, calls paid repair, or marks source URLs as seen.
 """
-VIGIL — Main Pipeline
-RSS(300+フィード) + API(HN/Reddit/GitHub/PH) → LLM要約(codex主・claude/openaiフォールバック)
-→ Codex図解8枚(API repairで品質保証) → HTML → GitHub push → Vercel
-通常運用は ChatGPT Plus サブスク内・API課金ほぼゼロ。
-"""
+import argparse
+import hashlib
+import json
+import os
 import sys
-import logging
+import tempfile
 from datetime import datetime
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
-sys.path.insert(0, str(Path(__file__).parent))
-
-from collector import fetch_all, mark_seen
-from generator import generate_articles
+ROOT = Path(__file__).resolve().parents[1]
+sys.path[:0] = [str(ROOT / 'pipeline'), str(ROOT / 'scripts')]
 from html_builder import build_daily_page, build_index, SITE_DIR
-from deploy import git_push
-from social_poster import post_dispatch
+LOG_DIR = ROOT / 'logs'
 
-LOG_DIR = Path(__file__).parent.parent / "logs"
-LOG_DIR.mkdir(exist_ok=True)
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s %(message)s",
-    handlers=[
-        logging.StreamHandler(),
-        logging.FileHandler(LOG_DIR / f"{datetime.now().strftime('%Y%m%d')}.log"),
-    ],
-)
-log = logging.getLogger(__name__)
+
+def issue_date(value=None):
+    from datetime import date
+    return date.fromisoformat(value).isoformat() if value else datetime.now(ZoneInfo('Asia/Tokyo')).date().isoformat()
 
 
 def _filter_by_pubdate(raw: list[dict], date_str: str) -> list[dict]:
@@ -57,96 +51,95 @@ def _filter_by_pubdate(raw: list[dict], date_str: str) -> list[dict]:
             out.append(a)
     return out
 
-
-def run(date_str: str = None, dry_run: bool = False, skip_slides: bool = False, skip_social: bool = False):
-    today = datetime.now().strftime("%Y-%m-%d")
-    backfill = date_str is not None and date_str != today
-    date_str = date_str or today
-    log.info(f"=== VIGIL {date_str}{' (backfill)' if backfill else ''} ===")
-
-    # 1. 多層ソース収集（RSS 300+フィード + API 4ソース・並列）
-    from feeds import RSS_FEEDS
-    log.info(f"1. ソース収集（RSS {len(RSS_FEEDS)}フィード + HN/Reddit/GitHub/PH）")
-    raw = fetch_all(max_per_feed=2, fetch_body=True)
-
-    if backfill:
-        raw = _filter_by_pubdate(raw, date_str)
-        log.info(f"   [backfill] {date_str} の朝刊ウィンドウ内: {len(raw)}件")
-        if len(raw) < 5:
-            log.warning(f"   [backfill] 候補{len(raw)}件は少なすぎ → {date_str} は休刊のまま")
-            return
-
-    # 2. 記事要約（LLM_PROVIDER に従う・フォールバック連鎖付き）
-    log.info("2. 記事生成")
-    articles = generate_articles(raw)
-    log.info(f"   {len(articles)}件生成")
-
-    # 3. スライド画像生成（Codex CLI 並列・ChatGPT Plus サブスク内・API課金ゼロ）
-    if not skip_slides:
-        log.info("3. スライド画像生成（Codex CLI 並列・4 workers）")
-        try:
-            from slide_maker import generate_slides_parallel
-            img_dir = SITE_DIR / "assets" / "images" / date_str
-            success = generate_slides_parallel(articles[:8], img_dir, max_workers=2)  # Codex並列混線回避
-            log.info(f"   {success}/{min(len(articles),8)}枚成功")
-        except Exception as e:
-            log.warning(f"   スライド生成失敗（処理は継続）: {e}")
-    else:
-        log.info("3. スライド画像生成スキップ（--skip-slides）")
-
-    # 4. HTML生成
-    log.info("4. HTML生成")
-
-    # 記事データをJSONで保存（再ビルド時に使えるように）
-    import json
-    data_dir = SITE_DIR / "news" / date_str
-    data_dir.mkdir(parents=True, exist_ok=True)
-    (data_dir / "articles.json").write_text(
-        json.dumps(articles, ensure_ascii=False, indent=2), encoding="utf-8"
-    )
-
-    daily_path = build_daily_page(date_str, articles)
-    log.info(f"   {daily_path}")
-
-    all_dates = sorted([d.name for d in (SITE_DIR / "news").iterdir() if d.is_dir()])
-    index_path = build_index(all_dates, articles, date_str)
-    log.info(f"   {index_path}")
-
-    # 5. デプロイ
+def run(date_str=None, dry_run=True, skip_slides=True, skip_social=True):
     if not dry_run:
-        log.info("5. GitHub push")
-        ok = git_push(f"dispatch: {date_str} — {len(articles)} items")
-        log.info(f"   {'✓ 完了' if ok else '✗ 失敗'}")
-    else:
-        log.info("5. [DRY RUN] push スキップ")
+        raise RuntimeError('Publication is separate: review the candidate, then use deploy.py with explicit paths.')
+    if not skip_slides:
+        raise RuntimeError('Legacy generic slides are not part of the current editorial workflow.')
+    date_str = issue_date(date_str)
+    target = SITE_DIR / 'news' / date_str / 'articles.json'
+    if target.exists():
+        raise FileExistsError('Issue already exists; edit its reviewed source instead of regenerating it.')
+    provider = os.environ.get('LLM_PROVIDER', 'codex').lower()
+    chain = os.environ.get('LLM_FALLBACK_CHAIN', 'codex,claude').lower().split(',')
+    if provider not in ('codex', 'claude') or any(value.strip() not in ('codex', 'claude') for value in chain):
+        raise RuntimeError('Preparation permits codex/claude CLI only; direct API fallback is disabled.')
+    from collector import fetch_all
+    from generator import generate_articles
+    raw = fetch_all(max_per_feed=2, fetch_body=True)
+    if date_str != issue_date():
+        raw = _filter_by_pubdate(raw, date_str)
+    if not raw:
+        raise RuntimeError('No dated source candidates; no issue was written.')
+    articles = generate_articles(raw)
+    if not articles:
+        raise RuntimeError('No articles generated; no issue was written.')
+    target.parent.mkdir(parents=True, exist_ok=True)
+    # Exclusive create protects against another session saving first.
+    with target.open('x', encoding='utf-8') as output:
+        json.dump(articles, output, ensure_ascii=False, indent=2)
+    build_daily_page(date_str, articles)
+    dates = sorted(path.parent.name for path in (SITE_DIR / 'news').glob('*/articles.json'))
+    build_index(dates, articles, date_str)
+    return {'status': 'candidate_needs_editorial_review', 'date': date_str, 'article_count': len(articles),
+            'published': False, 'seen_updated': False, 'social_sent': False}
 
-    # 6. SNS投稿（Threads のみ / X は有料APIのためスキップ。backfill は旧ニュースなので投稿しない）
-    if not dry_run and not skip_social and not backfill:
-        log.info("6. SNS投稿（Threads）")
-        post_dispatch(articles, date_str, post_x=False, post_threads=True)
-    else:
-        log.info("6. SNS投稿スキップ")
 
-    # 7. 使用済みURLを登録（次回の重複スキップ用）
-    # backfill では使った記事だけ登録（raw 全件登録すると当日分の候補を汚染する）
-    used_links = [a.get("links", [""])[0] for a in articles if a.get("links")]
-    if backfill:
-        mark_seen(list(set(used_links)))
-        log.info(f"   既読URL登録(backfill): {len(set(used_links))}件")
-    else:
-        raw_links = [r.get("link", "") for r in raw if r.get("link")]
-        mark_seen(list(set(used_links + raw_links)))
-        log.info(f"   既読URL登録: {len(set(used_links + raw_links))}件")
+def record_published(date_str):
+    from issue_check import check_local, check_public
+    date_str = issue_date(date_str)
+    local = check_local(SITE_DIR, date_str)
+    if not local.get('ok'):
+        raise RuntimeError('Local technical validation failed; no receipt or seen update.')
+    public = check_public('https://nowonair.vercel.app', date_str)
+    if not public.get('ok'):
+        raise RuntimeError('Public readback failed; no receipt or seen update.')
+    if not local.get('articles_sha256') or not local.get('asset_hashes'):
+        raise RuntimeError('Missing content identity; no receipt or seen update.')
+    if any(local.get(key) != public.get(key) for key in ('articles_sha256', 'asset_hashes')):
+        raise RuntimeError('Production differs from this candidate; observe the alias again after deployment.')
+    raw = (SITE_DIR / 'news' / date_str / 'articles.json').read_bytes()
+    if hashlib.sha256(raw).hexdigest() != local['articles_sha256']:
+        raise RuntimeError('Candidate changed during readback; no receipt or seen update.')
+    articles = json.loads(raw)
+    used = sorted({url for article in articles for url in article.get('links', []) if url})
+    from collector import mark_seen
+    mark_seen(used)
+    receipt = {'status': 'published_and_read_back', 'date': date_str,
+               'checked_at': datetime.now(ZoneInfo('Asia/Tokyo')).isoformat(),
+               'articles_sha256': local['articles_sha256'], 'asset_hashes': local['asset_hashes'],
+               'accepted_source_count': len(used), 'social_sent': False}
+    LOG_DIR.mkdir(parents=True, exist_ok=True)
+    with tempfile.NamedTemporaryFile(mode='w', encoding='utf-8', dir=LOG_DIR, delete=False) as output:
+        json.dump(receipt, output, ensure_ascii=False, indent=2)
+        temporary = Path(output.name)
+    temporary.replace(LOG_DIR / f'published_{date_str}.json')
+    return receipt
 
-    log.info("=== 完了 ===")
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    mode = parser.add_mutually_exclusive_group(required=True)
+    mode.add_argument('--prepare', '--dry', dest='prepare', action='store_true',
+                      help='Candidate only: uses network/CLI and writes files.')
+    mode.add_argument('--record-published', action='store_true',
+                      help='Read production before updating accepted URLs and the local receipt.')
+    parser.add_argument('--date', type=issue_date, default=None)
+    parser.add_argument('--skip-slides', action='store_true', help=argparse.SUPPRESS)
+    parser.add_argument('--skip-social', action='store_true', help=argparse.SUPPRESS)
+    args = parser.parse_args()
+    try:
+        result = record_published(args.date) if args.record_published else run(date_str=args.date)
+    except (RuntimeError, FileExistsError, ValueError) as error:
+        print(json.dumps({'ok': False, 'error': str(error)}, ensure_ascii=False))
+        return 1
+    except Exception as error:
+        # Provider stderr/exception bodies can contain credentials.
+        print(json.dumps({'ok': False, 'error': type(error).__name__}))
+        return 1
+    print(json.dumps(result, ensure_ascii=False))
+    return 0
 
 
-if __name__ == "__main__":
-    dry          = "--dry" in sys.argv
-    skip_social  = "--skip-social" in sys.argv
-    date_arg     = None
-    if "--date" in sys.argv:
-        i = sys.argv.index("--date")
-        if i + 1 < len(sys.argv):
-            date_arg = sys.argv[i + 1]
-    run(date_str=date_arg, dry_run=dry, skip_social=skip_social)
+if __name__ == '__main__':
+    raise SystemExit(main())

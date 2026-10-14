@@ -1,6 +1,7 @@
 """
-LLM 抽象レイヤー — Codex CLI をデフォルトに使用（ChatGPT Plus サブスク内・API課金ゼロ）。
-プロバイダ失敗時は自動フォールバック連鎖（codex → claude → openai）。
+LLM 抽象レイヤー — Codex CLI をデフォルトに使用。
+既定のフォールバックは既存ログイン済みCLI（codex → claude）のみ。
+APIプロバイダは実行者が明示設定した場合だけ使う。
 
 2026-06-10 自己修復化:
 - 6/6 Gemini SUSPENDED / 6/7-6/8 claude残高ゼロ / 6/10 codex timeout と
@@ -14,7 +15,7 @@ import shutil
 PROVIDER = os.environ.get("LLM_PROVIDER", "codex").lower()
 # 主プロバイダ失敗時に順に試す（重複は自動除去）
 FALLBACK_CHAIN = [p.strip() for p in os.environ.get(
-    "LLM_FALLBACK_CHAIN", "codex,claude,openai").lower().split(",") if p.strip()]
+    "LLM_FALLBACK_CHAIN", "codex,claude").lower().split(",") if p.strip()]
 CODEX_TEXT_TIMEOUT = int(os.environ.get("CODEX_TEXT_TIMEOUT", "900"))   # Stage2 巨大プロンプト対応
 # codex は npm 版 / homebrew 版が併存し、古い方は新モデル(gpt-5.6-sol)で 400 になる。
 # PATH 上の最新を優先し、homebrew 固定パスは最後の保険にする（2026-08-04 6日間停止の真因）。
@@ -38,8 +39,8 @@ def chat_json(system: str, user: str, max_tokens: int = 4000, model: str | None 
             raise RuntimeError(f"{prov}: empty response")
         except Exception as e:
             last_err = e
-            log.warning(f"[llm] provider={prov} 失敗: {str(e)[:200]} → 次を試行")
-    raise RuntimeError(f"[llm] 全プロバイダ失敗 (chain={chain}): {last_err}")
+            log.warning(f"[llm] provider={prov} failed ({type(e).__name__})")
+    raise RuntimeError(f"[llm] all providers failed (chain={chain}, error={type(last_err).__name__})")
 
 
 def _dispatch(provider: str, system: str, user: str, max_tokens: int, model: str | None) -> str:
@@ -57,33 +58,31 @@ def _dispatch(provider: str, system: str, user: str, max_tokens: int, model: str
 
 
 def _codex(system: str, user: str) -> str:
-    """Codex CLI 経由（ChatGPT Plus サブスク内・API課金ゼロ）。
+    """Codex CLI 経由。認証方式と利用枠は実行端末のログインに依存する。
     Stage2 のような巨大プロンプトは gpt-5 の思考時間が長いので timeout は 900s。"""
     import subprocess
     prompt = f"{system}\n\n{user}"
-    # stdin=DEVNULL: 引数でprompt渡しても codex が stdin 待ちでハングする現象を防ぐ
-    # （6/14 朝刊失敗の codex 側真因「Reading additional input from stdin」対策）
+    # '-' is the documented stdin prompt route; input closes stdin after sending.
     proc = subprocess.run(
         [CODEX_BIN, "exec", "--skip-git-repo-check",
-         "--sandbox", "read-only", prompt],
-        stdin=subprocess.DEVNULL,
+         "--sandbox", "read-only", "-"],
+        input=prompt,
         capture_output=True, text=True, timeout=CODEX_TEXT_TIMEOUT,
     )
     if proc.returncode != 0:
-        err = proc.stderr or proc.stdout[:300]
-        raise RuntimeError(f"codex CLI error (rc={proc.returncode}): {err[:300]}")
+        raise RuntimeError(f"codex CLI failed (rc={proc.returncode})")
     # codex stdout には進捗ログとモデル出力が混ざるので、最後の構造化ブロックを抽出
     return proc.stdout
 
 
 def _claude_code(system: str, user: str) -> str:
-    """Claude Code CLI 経由（サブスク内・API課金ゼロ）。
-    ANTHROPIC_API_KEY を一時的に空にして API 課金モードを回避（残高ゼロ事故防止）。"""
+    """Claude Code CLI 経由。既存のANTHROPIC_API_KEYはこの呼出へ渡さない。
+    認証方式と利用枠は実行端末で確認する。"""
     import subprocess
     import os
     prompt = f"{system}\n\n{user}"
     env = os.environ.copy()
-    env["ANTHROPIC_API_KEY"] = ""    # サブスク経由に強制
+    env["ANTHROPIC_API_KEY"] = ""
     # 長文プロンプトは stdin パイプ経由で渡す（引数長制限回避）
     # timeout は codex(900s)と揃える。6/14 に 180s で timeout し chain が崩れた
     proc = subprocess.run(
@@ -93,9 +92,7 @@ def _claude_code(system: str, user: str) -> str:
         timeout=int(os.environ.get("CLAUDE_TEXT_TIMEOUT", "600")),
     )
     if proc.returncode != 0:
-        # stderr が空なら stdout にエラーが出てる可能性
-        err = proc.stderr or proc.stdout[:300]
-        raise RuntimeError(f"claude CLI error (rc={proc.returncode}): {err[:300]}")
+        raise RuntimeError(f"claude CLI failed (rc={proc.returncode})")
     return proc.stdout
 
 
