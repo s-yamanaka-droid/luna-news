@@ -2,7 +2,9 @@
 
 株式会社Lakkanが運営するAI専門メディア。発表原典、分かりやすい図解、実務で確認すべき点を一つの記事につなぐ。
 
-**現状（2026-10-14 JST）:** Luna-mk6クラウド（Ubuntu）で制作した記事のうち、原稿・固有画像・図解・OGの受領と検証を完了したGemini 4 Argonの1本を10月14日号として公開候補にした。追加2記事はクラウド側で画像を制作済みだが、転送が未完のため非公開。main統合・本番の読戻しはリリース記録で別途確認し、定期配信はまだ再開していない。詳細は `reports/mark6-news-release-20261014.md` を参照。
+**公開状態（2026-10-14 JST）:** Gemini 4 Argonの1本を10月14日号としてmainへ統合し、本番の本文・日付・4画像とPC/モバイル表示を確認済み。制作はLuna-mk6クラウド（Ubuntu）で行った。追加2記事は転送停止のため非公開。物理Mark 6の受信・実行と定期配信は未確認。公開記録は `reports/mark6-news-release-20261014.md`。
+
+**更新処理の修正候補:** 候補制作・Git公開・本番照合を分離した。修正branchの検証は `reports/news-update-recovery-20261014.md`、実行手順は `OPERATIONS.md`。この変更だけで定期配信が再開したとは扱わない。
 
 **公開URL:** https://nowonair.vercel.app
 
@@ -31,35 +33,37 @@ scripts/
   notify_slack.py    Slack #朝刊 配信
   sync_obsidian.py   Obsidian vault 同期
   rebuild_all.py     全HTML再ビルド + sitemap生成
-  daily.sh           旧定期配信入口（現行の起動状態は別確認）
+  daily.sh           明示した1工程を実行（引数なしは読取検査のみ）
+  issue_check.py     号・本文・画像を読取検査しhashを返す
+  watchdog.sh        本番の1回限りの読取検査（通知なし）
 docs/                GitHub Pages / Vercel 公開ディレクトリ
 ```
 
-## セットアップ（5分）
+## 既存リポの実行環境
 
 ```bash
-cd /Users/yamanakashuto/Documents/ChatGPT/Luna/nowonair-journal
-python3 -m venv venv && source venv/bin/activate
-pip install openai anthropic feedparser beautifulsoup4 requests jinja2 playwright
-playwright install chromium
-
-# 環境変数
-export OPENAI_API_KEY=...      # または LLM_PROVIDER=codex（ChatGPT Plus・API課金ゼロ）
-export GEMINI_API_KEY=...      # 画像生成（任意）
-export SLACK_TOKEN=...         # Slack配信
+python3 -m venv venv
+source venv/bin/activate
+python -m pip install Pillow feedparser beautifulsoup4 requests
 ```
+
+Python 3.11以降と、対象端末で通常ログインしたCodex/Claude Code CLIを使う。CLIの利用枠・認証方式はその端末で確認する。直接APIへの自動フォールバックは候補制作で使わない。画像の制作は承認済み編集方針に従って別工程で行う。秘密・他端末の認証ファイルはコピーしない。
 
 ## 実行
 
 ```bash
-bash scripts/daily.sh          # フルパイプライン（毎朝launchdが実行）
-python scripts/rebuild_all.py  # HTMLのみ再生成
+bash scripts/daily.sh --check --date 2026-10-14    # ローカル読取のみ
+bash scripts/watchdog.sh --date 2026-10-14        # 本番読取のみ
+python -m unittest discover -s tests -v
 ```
+
+`--prepare` はネットワーク・CLI・ファイル書込を使う制作工程。公開、SNS、既読登録は実行しない。生成後は事実・画像・PC/モバイルの編集確認が必要。既存号の再生成は停止する。各工程と受入条件は `OPERATIONS.md` を参照。
 
 ## デプロイ
 
-- **Vercel（本番）:** `vercel deploy --prod` — 全セキュリティヘッダー付与（vercel.json）
-- **GitHub Pages:** `git push origin main`（docs/ 配信）
+- **Vercel（本番）:** 既存Git連携でmainからデプロイ。Git push成功と本番の受入を分けて確認する。
+- `pipeline/deploy.py --publish` はmain・既存origin・個別ファイル・技術検査を要求する。既存stageや未選択docs差分があれば停止する。手順は `OPERATIONS.md`。
+- `daily.sh` は公開や通知を行わず、既存のdone/content_ready markerも成功根拠に使わない。新規スケジューラは追加していない。
 
 ## ライセンス / 運営
 
