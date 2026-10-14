@@ -1,10 +1,13 @@
 [
   {
-    "title": "Anthropic、AI悪用の実態を公開　企業が点検すべき接続権限",
+    "title": "Anthropic、AI悪用の事例を公開　サイバー攻撃・監視・詐欺など7領域",
     "category": "セキュリティ",
     "source": "Anthropic",
     "published_at": "2026-09-10",
-    "lede": "Anthropicが9月の脅威レポートを公開。AIの業務活用が広がるほど、接続先と実行権限の設計が問われる。",
+    "lede": "Anthropicが2025年12月〜2026年8月に妨害したAI悪用事例を報告。サイバー攻撃・監視・詐欺など7領域を扱う。",
+    "hero_image": "/assets/illustrations/anthropic-threat-report-home.webp",
+    "hero_image_alt": "サイバー攻撃・監視・詐欺の資料を含む脅威レポートを編集者が確認するイラスト。実際の報告書や事例画像ではない。",
+    "social_image": "/assets/og/anthropic-misuse-report.png",
     "links": [
       "https://www.anthropic.com/threat-intelligence-report-september-2026"
     ],
@@ -13,6 +16,21 @@
       "サイバー攻撃・監視・詐欺など7領域を整理",
       "発表主体が観測した事例であり、悪用全体の統計ではない"
     ],
+    "editorial_diagram": {
+      "kicker": "ANTHROPICの報告 / 具体例3つ",
+      "title": "報告されたAI悪用、どんな事例？",
+      "lead": "Anthropicが妨害した活動の7領域から、サイバー攻撃・監視・詐欺を図で紹介。",
+      "wide": "/assets/illustrations/anthropic-misuse-examples-wide.webp",
+      "mobile": "/assets/illustrations/anthropic-misuse-examples-mobile.webp",
+      "alt": "サーバーの異常を調べる場面、監視カメラと映像を扱う場面、不審なメッセージと送金要求を受け取る場面を並べた模式図。",
+      "examples": [
+        ["サイバー攻撃", "侵入や情報窃取にAIを使った事例。"],
+        ["監視", "人物の特定や追跡に使った事例。"],
+        ["詐欺", "偽のやりとりで金銭を狙った事例。"]
+      ],
+      "note": "Anthropicの報告にある7領域から3領域を編集部が図示。画像は模式表現で、実際の被害者・画面・報告書を再現したものではありません。",
+      "source_url": "https://www.anthropic.com/threat-intelligence-report-september-2026"
+    },
     "body": [
       {
         "heading": "何が発表されたか",
@@ -43,11 +61,11 @@
     "verified_at": "2026-09-14"
   },
   {
-    "title": "GoogleのToolGrad、操作の正解からAIの学習データを作る",
+    "title": "Google、正しいツール操作からAIの学習データを作る手法を紹介",
     "category": "研究",
     "source": "Google Research",
     "published_at": "2026-09-10",
-    "lede": "先に正しいツール操作の連鎖を作り、対応する質問を後から生成する。Google Researchが学習データ作成の研究を紹介した。",
+    "lede": "ToolGradは成功した操作手順を先に作り、それに対応する質問を生成する研究。自社業務での効果は別に検証が必要。",
     "links": [
       "https://research.google/blog/toolgrad-efficient-tool-use-dataset-generation-with-textual-gradients/"
     ],
@@ -86,11 +104,11 @@
     "verified_at": "2026-09-14"
   },
   {
-    "title": "AIを入れた先に、どれだけ仕事を増やせるか",
+    "title": "OpenAI、AIの価値は「完了した仕事」で見ると説明",
     "category": "業界動向",
     "source": "OpenAI",
     "published_at": "2026-09-08",
-    "lede": "OpenAIがAIの業務拡張と計算基盤の関係を説明。導入効果を「使った回数」から「完了した仕事」へ見直すきっかけになる。",
+    "lede": "OpenAIはモデルと計算基盤の改善で実行できる仕事が広がると説明。顧客にとって重要なのは完了した仕事だと述べる。",
     "links": [
       "https://openai.com/index/the-work-now-within-reach/"
     ],

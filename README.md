@@ -1,14 +1,16 @@
-# Now on AIr — AI Morning Intelligence
+# Now on AIr — AIの変化を、仕事の判断に
 
-毎朝6:30、最新AIニュースを図解インフォグラフィックで配信する自動メディア。
+株式会社Lakkanが運営するAI専門メディア。発表原典、分かりやすい図解、実務で確認すべき点を一つの記事につなぐ。
+
+**現状（2026-10-14 JST）:** 最新号は2026-09-14。記事固有のトップ画像・本文図解・SNS画像を分けたC12デザインを実装した。定期配信の再開と検索・SNS流入の改善は確認していない。本番反映は公開URLで別途確認する。
 
 **公開URL:** https://nowonair.vercel.app
 
 ---
 
-## 概要
+## 既存の制作・配信基盤
 
-- RSS収集 → LLM要約 → 図解画像生成 → HTML生成 → 自動デプロイ を全自動化
+- RSS収集 → LLM要約 → 図解画像生成 → HTML生成 → デプロイの構成を持つ。各工程の現在の稼働状況は別途確認する
 - 各記事に「明日からできる」quickstart（3ステップ＋プロンプト＋ROI）付き
 - 週次ダイジェスト（TOP3）・AI活用事例集を併設
 - 配信先：GitHub Pages / Vercel / Slack #朝刊 / Obsidian vault
@@ -17,25 +19,26 @@
 
 ```
 pipeline/
-  researcher.py    RSS収集（本文取得）
+  collector.py     RSS・API収集（本文取得）
   generator.py     記事生成（LLM抽象 llm.py 経由）
   llm.py           LLMプロバイダ抽象（codex / openai / anthropic）
   slide_maker.py   図解画像生成（Playwright HTML→PNG / Codex CLI）
   html_builder.py  サイトHTML生成（SEO・OGP・JSON-LD込み）
+  newspaper.py     編集面・記事別ページ・運営者情報の生成
 scripts/
   gen_quickstart.py  「明日からできる」生成
   gen_weekly.py      週次ダイジェスト生成
   notify_slack.py    Slack #朝刊 配信
   sync_obsidian.py   Obsidian vault 同期
   rebuild_all.py     全HTML再ビルド + sitemap生成
-  daily.sh           launchd エントリポイント（毎朝6:30）
+  daily.sh           旧定期配信入口（現行の起動状態は別確認）
 docs/                GitHub Pages / Vercel 公開ディレクトリ
 ```
 
 ## セットアップ（5分）
 
 ```bash
-cd ~/apps/vigil-news
+cd /Users/yamanakashuto/Documents/ChatGPT/Luna/nowonair-journal
 python3 -m venv venv && source venv/bin/activate
 pip install openai anthropic feedparser beautifulsoup4 requests jinja2 playwright
 playwright install chromium
@@ -60,5 +63,5 @@ python scripts/rebuild_all.py  # HTMLのみ再生成
 
 ## ライセンス / 運営
 
-運営：株式会社TREPRO（編集責任者：山中秀斗）
-© 2026 Now on AIr / TREPRO
+運営：株式会社Lakkan（編集責任者：山中秀斗）
+© 2026 Now on AIr / Lakkan

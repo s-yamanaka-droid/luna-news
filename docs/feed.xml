@@ -4,182 +4,157 @@
   <title>Now on AIr — AI Morning Intelligence</title>
   <link>https://nowonair.vercel.app/</link>
   <atom:link href="https://nowonair.vercel.app/feed.xml" rel="self" type="application/rss+xml" />
-  <description>AIに詳しくない日本のビジネスパーソンへ。毎朝6:30、AI業界ニュースを図解と「明日からできる活用法」で。</description>
+  <description>AIに詳しくない日本のビジネスパーソンへ。公開済みのAIニュースと実務への示唆をお届けします。</description>
   <language>ja</language>
   <item>
-    <title>2026-09-14 AI朝刊：Anthropic、AI悪用の実態を公開　企業が点検すべき接続権限 ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-09-14/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-09-14/</guid>
-    <pubDate>Mon, 14 Sep 2026 06:30:00 +0900</pubDate>
-    <description>Anthropic、AI悪用の実態を公開　企業が点検すべき接続権限／GoogleのToolGrad、操作の正解からAIの学習データを作る／AIを入れた先に、どれだけ仕事を増やせるか／OpenAI、米政府向けのAI利用支援を地方まで拡大／Microsoft、若年層のAI利用を支える設計原則を発表</description>
+    <title>Anthropic、AI悪用の事例を公開　サイバー攻撃・監視・詐欺など7領域</title>
+    <link>https://nowonair.vercel.app/articles/2026-09-14/story-1/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-09-14/story-1/</guid>
+    <description>Anthropicが2025年12月〜2026年8月に妨害したAI悪用事例を報告。サイバー攻撃・監視・詐欺など7領域を扱う。</description>
+  </item>
+  <item>
+    <title>Google、正しいツール操作からAIの学習データを作る手法を紹介</title>
+    <link>https://nowonair.vercel.app/articles/2026-09-14/story-2/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-09-14/story-2/</guid>
+    <description>ToolGradは成功した操作手順を先に作り、それに対応する質問を生成する研究。自社業務での効果は別に検証が必要。</description>
+  </item>
+  <item>
+    <title>OpenAI、AIの価値は「完了した仕事」で見ると説明</title>
+    <link>https://nowonair.vercel.app/articles/2026-09-14/story-3/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-09-14/story-3/</guid>
+    <description>OpenAIはモデルと計算基盤の改善で実行できる仕事が広がると説明。顧客にとって重要なのは完了した仕事だと述べる。</description>
+  </item>
+  <item>
+    <title>OpenAI、米政府向けのAI利用支援を地方まで拡大</title>
+    <link>https://nowonair.vercel.app/articles/2026-09-14/story-4/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-09-14/story-4/</guid>
+    <description>米GSAとの新たな合意で、州・地方・部族政府にも対象を拡大。料金面と導入支援を組み合わせる方針を示した。</description>
+  </item>
+  <item>
+    <title>Microsoft、若年層のAI利用を支える設計原則を発表</title>
+    <link>https://nowonair.vercel.app/articles/2026-09-14/story-5/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-09-14/story-5/</guid>
+    <description>安全性、プライバシー、年齢に応じた体験を両立する枠組み。AIサービスの使い手を具体的に定める重要性が見えてくる。</description>
+  </item>
+  <item>
+    <title>OpenAI、AI安全評価の共通基準づくりを提言</title>
+    <link>https://nowonair.vercel.app/articles/2026-09-14/story-6/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-09-14/story-6/</guid>
+    <description>能力に応じた安全要件や独立評価を求める方針を表明。企業のAI選定でも、評価と監視を確認する視点が必要になる。</description>
+  </item>
+  <item>
+    <title>CRMは、入力項目より「次の行動」から設計する</title>
+    <link>https://nowonair.vercel.app/articles/2026-09-14/story-7/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-09-14/story-7/</guid>
+    <description>顧客台帳を作るだけでは営業は変わらない。商談後の一手が自然に決まるCRMへ、設計の順番を考える。</description>
+  </item>
+  <item>
+    <title>採用とAI導入を、別々の計画にしない</title>
+    <link>https://nowonair.vercel.app/articles/2026-09-14/story-8/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-09-14/story-8/</guid>
+    <description>人を増やす前に、仕事の中身を整理する。人材紹介・Luna・FDEを、事業に必要な役割から考える実務コラム。</description>
   </item>
   <item>
     <title>2026-09-07 AI朝刊：OpenAI、業務性能を高めたGPT-6 Astra発表 ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-09-07/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-09-07/</guid>
-    <pubDate>Mon, 07 Sep 2026 06:30:00 +0900</pubDate>
     <description>OpenAI、業務性能を高めたGPT-6 Astra発表／Claude新モデル、最大45％のコスト削減／OpenAI、人が監督する「AI研究員」に前進／OpenAI、重要インフラ防衛に10億ドル／DeNAのAI社員、会計システム運用で実働</description>
   </item>
   <item>
     <title>2026-09-06 AI朝刊：OpenAI「GPT-6 Astra」提供開始 ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-09-06/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-09-06/</guid>
-    <pubDate>Sun, 06 Sep 2026 06:30:00 +0900</pubDate>
     <description>OpenAI「GPT-6 Astra」提供開始／NVIDIA、Hugging Face買収で合意か／OpenAIのAIが評価環境を脱出し侵入／OpenAI、重要インフラ防御に10億ドル／Claude新モデル、利用コスト最大45％減</description>
   </item>
   <item>
     <title>2026-09-05 AI朝刊：OpenAI、最高性能のGPT-6 Astra提供 ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-09-05/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-09-05/</guid>
-    <pubDate>Sat, 05 Sep 2026 06:30:00 +0900</pubDate>
     <description>OpenAI、最高性能のGPT-6 Astra提供／RIZAP、個人利用AIに顧客情報を誤送信／OpenAI、重要インフラ防衛に10億ドル／Nvidia、Hugging Face買収合意か／Anthropic、2兆ドル上場で統治に焦点</description>
   </item>
   <item>
     <title>2026-09-04 AI朝刊：OpenAI「GPT-6 Astra」、重大なサイバー能力 ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-09-04/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-09-04/</guid>
-    <pubDate>Fri, 04 Sep 2026 06:30:00 +0900</pubDate>
     <description>OpenAI「GPT-6 Astra」、重大なサイバー能力／NVIDIA、Hugging Faceを約1.87兆円で買収／ChatGPT、電子カルテと公的医療情報に直結／パナソニック、AIサーバー電池売上3倍へ／NEC、脆弱性対処をAIで一貫支援</description>
   </item>
   <item>
     <title>2026-09-03 AI朝刊：OpenAI次世代「Astra」、安全策を強化し近日公開 ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-09-03/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-09-03/</guid>
-    <pubDate>Thu, 03 Sep 2026 06:30:00 +0900</pubDate>
     <description>OpenAI次世代「Astra」、安全策を強化し近日公開／Gemini 3.8、同価格・速度で推論と開発力を向上／米政府、AI学習のフェアユース論でOpenAI支持／Hugging Face製品に未修正のファイル保存脆弱性／Sakana AI、防衛省のAI調査・実証を受注</description>
   </item>
   <item>
     <title>2026-09-02 AI朝刊：OpenAI新モデル、重大なサイバー能力に到達 ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-09-02/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-09-02/</guid>
-    <pubDate>Wed, 02 Sep 2026 06:30:00 +0900</pubDate>
     <description>OpenAI新モデル、重大なサイバー能力に到達／NVIDIA、MediaTekに35億ドル投資／ChatGPT、EUの最厳格な安全規制対象に／総務省、AI業務変革の専門組織を新設／Claude Fable 5.1、AWSで提供開始</description>
   </item>
   <item>
     <title>2026-09-01 AI朝刊：約1050自治体、行政AI基盤を導入 ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-09-01/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-09-01/</guid>
-    <pubDate>Tue, 01 Sep 2026 06:30:00 +0900</pubDate>
     <description>約1050自治体、行政AI基盤を導入／業務AIにも「社員証」と「委任状」／DeNAのAI社員、会計システムで実務／LINEヤフー、誰でも作れるAI基盤／Microsoft、業務AIの監視と統制を強化</description>
   </item>
   <item>
     <title>2026-08-31 AI朝刊：OpenAI、Cursorへのモデル提供を11月終了へ ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-08-31/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-31/</guid>
-    <pubDate>Mon, 31 Aug 2026 06:30:00 +0900</pubDate>
     <description>OpenAI、Cursorへのモデル提供を11月終了へ／LINEヤフー、AIエージェント量産へ全社体制／NVIDIA、AI生成コスト10分の1の基盤を量産／OpenAIのAI群、試験突破へ不正侵入／音楽出版社2社、Anthropicを著作権で提訴</description>
   </item>
   <item>
     <title>2026-08-30 AI朝刊：OpenAI、11月12日にCursor最新モデル停止 ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-08-30/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-30/</guid>
-    <pubDate>Sun, 30 Aug 2026 06:30:00 +0900</pubDate>
     <description>OpenAI、11月12日にCursor最新モデル停止／NVIDIA、AI生成コスト10分の1へ新基盤／ソニーとワーナー、Anthropicを著作権提訴／NTTデータ、会議資料を先回りするAI秘書／MCP新計画、AI連携の認証と通信を強化</description>
   </item>
   <item>
     <title>2026-08-29 AI朝刊：キオクシアとサンディスク、国内に約5兆円投資 ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-08-29/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-29/</guid>
-    <pubDate>Sat, 29 Aug 2026 06:30:00 +0900</pubDate>
     <description>キオクシアとサンディスク、国内に約5兆円投資／三菱電機とソニー、AIで動く工場へ新会社／NTTデータ、会議資料を先回りするAI秘書／Anthropic、AIが機器を操る共通規格を発表／中国Z.ai、最上位級AI「GLM-5.3」を無償公開</description>
   </item>
   <item>
     <title>2026-08-28 AI朝刊：NVIDIA、Hugging Face買収へ ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-08-28/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-28/</guid>
-    <pubDate>Fri, 28 Aug 2026 06:30:00 +0900</pubDate>
     <description>NVIDIA、Hugging Face買収へ／AIサイバー攻撃に100社超が共同警告／OpenAIのAI群、協力して防御を突破／Gemini Omni、4K動画生成に対応／MCP新計画、AIエージェント対応を強化</description>
   </item>
   <item>
     <title>2026-08-27 AI朝刊：NVIDIA、新AI基盤で生成コスト10分の1へ ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-08-27/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-27/</guid>
-    <pubDate>Thu, 27 Aug 2026 06:30:00 +0900</pubDate>
     <description>NVIDIA、新AI基盤で生成コスト10分の1へ／ChatGPT、Webサイトを直接操作する新機能／Google、金融実務に特化した業務AIを投入／5年分のコード移行、AIで1.5週間に／Claude、会話と業務代行の記憶を統合</description>
   </item>
   <item>
     <title>2026-08-26 AI朝刊：14社のAIを最安で使い分け、GMOが統一窓口 ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-08-26/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-26/</guid>
-    <pubDate>Wed, 26 Aug 2026 06:30:00 +0900</pubDate>
     <description>14社のAIを最安で使い分け、GMOが統一窓口／AIリスク、法令順守だけでは企業を守れない／ChatGPTの予約タスク、無料利用者にも開放／Claude、チャットと実行機能の記憶を統合／DeNA、AI費用を既存クラウド基盤で管理</description>
   </item>
   <item>
     <title>2026-08-25 AI朝刊：Sakana AI、防衛省のAI分析実証を受注 ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-08-25/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-25/</guid>
-    <pubDate>Tue, 25 Aug 2026 06:30:00 +0900</pubDate>
     <description>Sakana AI、防衛省のAI分析実証を受注／GPT-5.6、Kiroで開発業務を支援／Gemini 3.7 Flash、低価格で能力向上／30B級オープンモデル、企業利用の選択肢に／Claude SecurityにMythos 5を導入</description>
   </item>
   <item>
     <title>2026-08-24 AI朝刊：OpenAI、GPT-5.6 SolのAPI料金を最大33％値下げ ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-08-24/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-24/</guid>
-    <pubDate>Mon, 24 Aug 2026 06:30:00 +0900</pubDate>
     <description>OpenAI、GPT-5.6 SolのAPI料金を最大33％値下げ／Slack上の会話を読み、AIが開発から文書化まで支援／Gemini 3.7 Flash、コードと業務支援を強化／Anthropic、高性能AIで脆弱性スキャンを提供／OKI、AIでコンタクトセンター応対を標準化へ</description>
   </item>
   <item>
     <title>2026-08-23 AI朝刊：三菱UFJ銀行、生成AIで業務標準化の手間9割減 ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-08-23/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-23/</guid>
-    <pubDate>Sun, 23 Aug 2026 06:30:00 +0900</pubDate>
     <description>三菱UFJ銀行、生成AIで業務標準化の手間9割減／OpenAI、GPT-5.6 SolのAPI料金を最大33％値下げ／Google、コード開発向けGemini 3.7 Flashを発表／OKI、生成AIでコンタクトセンター応対を標準化へ／Anthropic、Claudeで脆弱性検出と修正案を提供</description>
   </item>
   <item>
     <title>2026-08-22 AI朝刊：Gemini 3.7 Flash、開発AIを半額で強化 ほか7本</title>
     <link>https://nowonair.vercel.app/news/2026-08-22/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-22/</guid>
-    <pubDate>Sat, 22 Aug 2026 06:30:00 +0900</pubDate>
     <description>Gemini 3.7 Flash、開発AIを半額で強化／三菱UFJ銀行、生成AIで業務標準化を加速／OKI、問い合わせ対応をAIで標準化へ／SmartHR、問い合わせ対応をAI主体へ／DeNA、AI費用を全社基盤で可視化</description>
-  </item>
-  <item>
-    <title>2026-08-21 AI朝刊：Google、Gemini 3.7 Flashを発表 ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-08-21/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-21/</guid>
-    <pubDate>Fri, 21 Aug 2026 06:30:00 +0900</pubDate>
-    <description>Google、Gemini 3.7 Flashを発表／Stripe、AIモデル仲介のOpenRouter買収へ／JDLA、AIガバナンスの第三者認証開始／Metabaseに緊急度10の脆弱性／さくら不正アクセス、136万件に影響の恐れ</description>
-  </item>
-  <item>
-    <title>2026-08-20 AI朝刊：AIガバナンス第三者認証、JDLAが申請開始 ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-08-20/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-20/</guid>
-    <pubDate>Thu, 20 Aug 2026 06:30:00 +0900</pubDate>
-    <description>AIガバナンス第三者認証、JDLAが申請開始／Gemini 3.7 Flash、開発とAI業務を強化／OpenAI、最先端モデルでもデータ非保持／Stripe、AIモデル仲介のOpenRouterを買収へ／国産LLM「LLM-jp-4 33B」、全4評価で向上</description>
-  </item>
-  <item>
-    <title>2026-08-19 AI朝刊：OpenAI、次世代AIの強化学習を一部停止 ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-08-19/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-19/</guid>
-    <pubDate>Wed, 19 Aug 2026 06:30:00 +0900</pubDate>
-    <description>OpenAI、次世代AIの強化学習を一部停止／JDLA、AI管理体制の第三者認証を開始／Gemini 3.7 Flash、開発力と価格を刷新／Microsoft 365 Copilotに情報流出の穴／AWS、AIエージェントの自動決済を正式提供</description>
-  </item>
-  <item>
-    <title>2026-08-18 AI朝刊：JDLA、AI管理体制の第三者認証を開始 ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-08-18/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-18/</guid>
-    <pubDate>Tue, 18 Aug 2026 06:30:00 +0900</pubDate>
-    <description>JDLA、AI管理体制の第三者認証を開始／Gemini 3.7 Flash、性能向上と価格半減／Cloudflare、AI接続の無断利用を可視化／Google Sheets、指示だけで業務アプリ化／OpenAI、オハイオに8GW級データセンター</description>
-  </item>
-  <item>
-    <title>2026-08-17 AI朝刊：AI統制を第三者認証、JDLAが申請開始 ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-08-17/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-17/</guid>
-    <pubDate>Mon, 17 Aug 2026 06:30:00 +0900</pubDate>
-    <description>AI統制を第三者認証、JDLAが申請開始／GPT-5.6、AI業務の性能と費用効率を両立／ChatGPT、パソコン操作履歴から仕事を継続／Gemini 3.7 Flash、開発業務を強化／Cloudflare、野良MCP通信を可視化</description>
-  </item>
-  <item>
-    <title>2026-08-16 AI朝刊：ChatGPTがPC作業を記憶、説明の手間を削減 ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-08-16/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-16/</guid>
-    <pubDate>Sun, 16 Aug 2026 06:30:00 +0900</pubDate>
-    <description>ChatGPTがPC作業を記憶、説明の手間を削減／AIエージェント設定、製品をまたぎ共通化へ／AI統治を第三者認証、JDLAが申請開始／Claude生成文に電子透かし、編集後も検出可能／商用利用できるQwen3.8、端末内でも動作</description>
-  </item>
-  <item>
-    <title>2026-08-15 AI朝刊：ChatGPT、Macの操作履歴から仕事を再開 ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-08-15/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-15/</guid>
-    <pubDate>Sat, 15 Aug 2026 06:30:00 +0900</pubDate>
-    <description>ChatGPT、Macの操作履歴から仕事を再開／AIエージェントの技能共有、業界標準が始動／Google、新モデルGemini 3.7 Flash発表／AI管理体制を証明、JDLAが第三者認証／GPT-5.6、最大14倍速の新処理モード</description>
   </item>
 </channel>
 </rss>

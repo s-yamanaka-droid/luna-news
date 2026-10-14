@@ -132,7 +132,7 @@ def render_html(week_start: str, week_end: str, digest: dict) -> str:
       <span class="why-label">なぜTOP {rank}？</span> {why}
     </div>
     <div class="weekly-action">
-      <span class="action-label">⚡ 今週やる</span> {action}
+      <span class="action-label">⚡ 実務で試す</span> {action}
     </div>
     <a href="{link}" class="weekly-cta">記事を読む →</a>
   </div>"""
@@ -142,8 +142,10 @@ def render_html(week_start: str, week_end: str, digest: dict) -> str:
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>今週のAI3本 — Now on AIr Weekly</title>
-<meta name="description" content="今週のAIニュースから、個人事業主・社長が絶対押さえるべき3本だけ。">
+<title>{week_start}〜{week_end}のAI3本 — Now on AIr Weekly</title>
+<meta name="description" content="{week_start}から{week_end}のAIニュースを、個人事業主・経営者向けに3本選んだ週次ダイジェスト。">
+<link rel="canonical" href="https://nowonair.vercel.app/weekly.html">
+<meta property="og:type" content="website"><meta property="og:title" content="{week_start}〜{week_end}のAI3本 — Now on AIr Weekly"><meta property="og:description" content="{week_start}から{week_end}のAIニュースを3本選んだ週次ダイジェスト。"><meta property="og:url" content="https://nowonair.vercel.app/weekly.html"><meta property="og:image" content="https://nowonair.vercel.app/assets/og-cover.png"><meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@400;600;700&display=swap" rel="stylesheet">
@@ -188,7 +190,7 @@ def render_html(week_start: str, week_end: str, digest: dict) -> str:
 
 <div class="weekly-hero">
   <div class="sub">WEEKLY DIGEST · {week_start} → {week_end}</div>
-  <h1>今週の<em>AI 3本</em></h1>
+  <h1>この週の<em>AI 3本</em></h1>
   <p class="summary">{digest.get('trend_summary','')}</p>
 </div>
 
@@ -197,8 +199,8 @@ def render_html(week_start: str, week_end: str, digest: dict) -> str:
 </div>
 
 <div style="text-align:center;padding:40px 32px 80px;border-top:1px solid var(--rule-2);">
-  <p style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.15em;color:var(--mute);text-transform:uppercase;">毎週月曜更新 · 個人事業主・社長のためのAI週報</p>
-  <a href="./" style="display:inline-block;margin-top:12px;font-family:'JetBrains Mono',monospace;font-size:12px;color:var(--red);font-weight:700;letter-spacing:.1em;">← 毎日のAIニュースに戻る</a>
+  <p style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.15em;color:var(--mute);text-transform:uppercase;">対象週のダイジェスト · 個人事業主・社長のためのAI週報</p>
+  <a href="./" style="display:inline-block;margin-top:12px;font-family:'JetBrains Mono',monospace;font-size:12px;color:var(--red);font-weight:700;letter-spacing:.1em;">← ニュース一覧に戻る</a>
 </div>
 
 </body>

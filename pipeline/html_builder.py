@@ -322,14 +322,15 @@ OG_IMAGE = SITE_URL + "assets/og-cover.png"  # 1200x630 OGPカバー
 
 
 def build_feed(all_dates: list[str], limit: int = 25) -> Path:
-    """RSS 2.0 フィードを docs/feed.xml に生成（購読・被リンク・Discover流入用）。
-    各 <item> = その日の朝刊（タイトル=トップ見出し+本数、説明=上位見出し）。"""
+    """Build RSS items for permanent story URLs, keeping legacy issue URLs."""
     import html as _html
     from email.utils import format_datetime
-    from datetime import datetime as _dt, timezone, timedelta
-    jst = timezone(timedelta(hours=9))
+    from datetime import datetime as _dt
+    from newspaper import PER_ARTICLE_FROM, link as article_link
     items = []
-    for d in sorted(all_dates, reverse=True)[:limit]:
+    for d in sorted(all_dates, reverse=True):
+        if len(items) >= limit:
+            break
         ap = SITE_DIR / "news" / d / "articles.json"
         if not ap.exists():
             continue
@@ -340,22 +341,39 @@ def build_feed(all_dates: list[str], limit: int = 25) -> Path:
         titles = [a.get("title", "") for a in arts if a.get("title")]
         if not titles:
             continue
-        link = f"{SITE_URL}news/{d}/"
-        item_title = _html.escape(f"{d} AI朝刊：{titles[0]} ほか{len(titles)-1}本")
-        desc = _html.escape("／".join(titles[:5]))
-        try:
-            pub = format_datetime(_dt.strptime(d, "%Y-%m-%d").replace(hour=6, minute=30, tzinfo=jst))
-        except Exception:
-            pub = ""
-        items.append(
-            f"  <item>\n"
-            f"    <title>{item_title}</title>\n"
-            f"    <link>{link}</link>\n"
-            f"    <guid isPermaLink=\"true\">{link}</guid>\n"
-            f"    <pubDate>{pub}</pubDate>\n"
-            f"    <description>{desc}</description>\n"
-            f"  </item>"
-        )
+        if d >= PER_ARTICLE_FROM:
+            for number, article in enumerate(arts, 1):
+                url = SITE_URL.rstrip('/') + article_link(d, number)
+                published = article.get('site_published_at')
+                pub = ''
+                if published:
+                    try:
+                        timestamp = _dt.fromisoformat(published)
+                        if timestamp.tzinfo is not None:
+                            pub = f'    <pubDate>{format_datetime(timestamp)}</pubDate>\n'
+                    except ValueError:
+                        pass
+                items.append(
+                    f"  <item>\n"
+                    f"    <title>{_html.escape(article.get('title', ''))}</title>\n"
+                    f"    <link>{_html.escape(url)}</link>\n"
+                    f"    <guid isPermaLink=\"true\">{_html.escape(url)}</guid>\n"
+                    f"{pub}"
+                    f"    <description>{_html.escape(article.get('lede', ''))}</description>\n"
+                    f"  </item>"
+                )
+                if len(items) >= limit:
+                    break
+        else:
+            url = f"{SITE_URL}news/{d}/"
+            items.append(
+                f"  <item>\n"
+                f"    <title>{_html.escape(f'{d} AI朝刊：{titles[0]} ほか{len(titles)-1}本')}</title>\n"
+                f"    <link>{url}</link>\n"
+                f"    <guid isPermaLink=\"true\">{url}</guid>\n"
+                f"    <description>{_html.escape('／'.join(titles[:5]))}</description>\n"
+                f"  </item>"
+            )
     xml = (
         '<?xml version="1.0" encoding="UTF-8"?>\n'
         '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">\n'
@@ -363,7 +381,7 @@ def build_feed(all_dates: list[str], limit: int = 25) -> Path:
         '  <title>Now on AIr — AI Morning Intelligence</title>\n'
         f'  <link>{SITE_URL}</link>\n'
         f'  <atom:link href="{SITE_URL}feed.xml" rel="self" type="application/rss+xml" />\n'
-        '  <description>AIに詳しくない日本のビジネスパーソンへ。毎朝6:30、AI業界ニュースを図解と「明日からできる活用法」で。</description>\n'
+        '  <description>AIに詳しくない日本のビジネスパーソンへ。公開済みのAIニュースと実務への示唆をお届けします。</description>\n'
         '  <language>ja</language>\n'
         + "\n".join(items) + "\n"
         '</channel>\n</rss>\n'
@@ -380,9 +398,9 @@ def _head(title, desc, css_path, fonts, canonical=None, og_image=None, asset_pre
         '{"@context":"https://schema.org","@type":"NewsMediaOrganization",'
         '"name":"Now on AIr","alternateName":"ナウオンエアー",'
         f'"url":"{SITE_URL}","logo":"{OG_IMAGE}",'
-        '"description":"AI業界のモーニングインテリジェンス。毎朝6:30に最新AIニュースを図解で配信。",'
+        '"description":"AIの変化を原典と実務の視点から整理するメディア。",'
         '"founder":{"@type":"Person","name":"山中秀斗"},'
-        '"publisher":{"@type":"Organization","name":"TREPRO"}}'
+        '"publisher":{"@type":"Organization","name":"株式会社Lakkan"}}'
     )
     return f"""<!DOCTYPE html>
 <html lang="ja">
@@ -651,7 +669,7 @@ def _legacy_build_index(all_dates: list[str], today_articles: list[dict], today_
 
     # ── colophon + 運営者フッター（法的対応）──
     colophon = f"""<div class="colophon">
-  <div class="left"><b>Now on <span class="brand-ai">AI</span>r</b> · AI Morning Intelligence · 山中秀斗 / TREPRO</div>
+  <div class="left"><b>Now on <span class="brand-ai">AI</span>r</b> · AI Morning Intelligence · by Lakkan</div>
   <div class="right">{today_str} · BUILD {dt.strftime('%Y%m%d')}.0715</div>
 </div>
 <footer class="site-footer" style="border-top:1px solid var(--rule-2);padding:32px 24px;margin-top:40px;font-family:'JetBrains Mono',monospace;font-size:12px;color:var(--mute);line-height:1.9;text-align:center;">
@@ -664,8 +682,8 @@ def _legacy_build_index(all_dates: list[str], today_articles: list[dict], today_
   <div style="margin-bottom:8px;">この朝刊は、AIの「眠らない右腕」を作る
     <a href="https://vigil-playbook.vercel.app" target="_blank" rel="noopener" style="color:var(--red);text-decoration:none;font-weight:700;border-bottom:1px solid var(--red);">Vigil AI</a>
     の知見から生まれています。</div>
-  <div>運営：株式会社TREPRO（編集責任者：<a href="https://lakkan-inc.vercel.app" target="_blank" rel="noopener" style="color:var(--mute);text-decoration:none;border-bottom:1px solid var(--rule-2);">山中秀斗 / Lakkan</a>）</div>
-  <div>© {dt.strftime('%Y')} Now on AIr / TREPRO. All rights reserved.</div>
+  <div>運営：株式会社Lakkan（編集責任者：<a href="https://lakkan-inc.vercel.app" target="_blank" rel="noopener" style="color:var(--mute);text-decoration:none;border-bottom:1px solid var(--rule-2);">山中秀斗</a>）</div>
+  <div>© {dt.strftime('%Y')} Now on AIr / Lakkan. All rights reserved.</div>
 </footer>"""
 
     html = _head(
@@ -1013,7 +1031,7 @@ def _legacy_build_daily_page(date_str: str, articles: list[dict], issue_num: int
 {daily_head}
 {topics_html}
 <div class="colophon">
-  <div class="left"><b>Now on <span class="brand-ai">AI</span>r</b> · AI Morning Intelligence · 山中秀斗 / TREPRO</div>
+  <div class="left"><b>Now on <span class="brand-ai">AI</span>r</b> · AI Morning Intelligence · by Lakkan</div>
   <div class="right">{date_str} DISPATCH</div>
 </div>
 {INTERACTIVE_JS}
