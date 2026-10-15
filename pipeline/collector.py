@@ -7,6 +7,8 @@ import feedparser
 import requests
 import json
 import logging
+import os
+import tempfile
 from pathlib import Path
 from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -28,7 +30,9 @@ HEADERS = {
 SKIP_TAGS = {"script", "style", "nav", "header", "footer",
              "aside", "form", "button", "noscript", "iframe"}
 
-SEEN_PATH = Path.home() / "agents/cmo/x_agent/seen_urls.json"
+# Kept inside this checkout by default. Legacy CMO state is not copied or changed.
+SEEN_PATH = Path(os.environ.get(
+    "LUNA_NEWS_SEEN_FILE", str(Path(__file__).resolve().parents[1] / "logs" / "seen_urls.json")))
 
 
 def _load_seen() -> set:
@@ -42,11 +46,16 @@ def _load_seen() -> set:
 
 
 def _save_seen(seen: set):
-    SEEN_PATH.write_text(
-        json.dumps({"urls": sorted(seen), "updated": datetime.now().isoformat()},
-                   ensure_ascii=False, indent=2),
-        encoding="utf-8"
-    )
+    SEEN_PATH.parent.mkdir(parents=True, exist_ok=True)
+    with tempfile.NamedTemporaryFile(mode="w", encoding="utf-8", dir=SEEN_PATH.parent,
+                                     prefix=".seen-", delete=False) as handle:
+        temporary = Path(handle.name)
+        json.dump({"urls": sorted(seen), "updated": datetime.now().isoformat()},
+                  handle, ensure_ascii=False, indent=2)
+    try:
+        temporary.replace(SEEN_PATH)
+    finally:
+        temporary.unlink(missing_ok=True)
 
 
 def mark_seen(links: list[str]):
