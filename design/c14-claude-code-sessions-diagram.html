@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><title>C14 Claude Code デスクトップ 図解</title>
+<!-- 本文図解の原本。?layout=wide で 2172x724、?layout=mobile で 1024x1536。内容は gihyo.jp（2026-10-15）と公式ドキュメントの記載どおり。 -->
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}html,body{margin:0}
+body{font-family:"Noto Sans JP","Hiragino Sans","Hiragino Kaku Gothic ProN",sans-serif;color:#171719;background:#fbf8f1}
+.board{display:grid;gap:36px;padding:44px 56px;width:2172px;height:724px;grid-template-columns:1.2fr 1fr 1fr}
+body.mobile .board{width:1024px;height:1536px;grid-template-columns:1fr;grid-template-rows:auto auto auto;align-content:space-evenly;padding:40px 52px;gap:26px}
+body.mobile .note{margin-top:12px;padding-top:6px;font-size:19px}
+body.mobile .board{padding:30px 48px;gap:22px}
+body.mobile .panel{padding:22px 30px}
+body.mobile h2{font-size:33px;margin:4px 0 12px}
+body.mobile h2 br{display:none}
+body.mobile .step{font-size:20px}
+.panel{background:#fffdf7;border:3px solid #1b1b1d;border-radius:10px;padding:28px 34px;position:relative;box-shadow:10px 10px 0 #ece6d8;display:flex;flex-direction:column;min-height:0;overflow:hidden}
+.step{font-size:22px;font-weight:800;color:#821c32;letter-spacing:.06em}
+h2{font-size:38px;line-height:1.25;margin:6px 0 16px;letter-spacing:-.03em}
+.note{font-size:20px;color:#53545a;margin:auto 0 0;padding-top:12px;line-height:1.5}
+.accent{color:#821c32}
+
+.starts{display:flex;flex-direction:column;gap:14px;flex:1;justify-content:center}
+.card{border:3px solid #1b1b1d;border-radius:8px;padding:14px 18px;background:#fffdf7;font-size:25px;font-weight:800}
+.card small{display:block;font-size:19px;font-weight:500;color:#53545a}
+.toggle{display:flex;align-items:center;gap:12px;font-size:21px;font-weight:700}
+.toggle i{width:58px;height:30px;border:3px solid #1b1b1d;border-radius:18px;background:#821c32;position:relative}
+.toggle i:after{content:"";position:absolute;right:3px;top:2px;width:20px;height:20px;border-radius:50%;background:#fff}
+.tree{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:0}
+.main{border:3px solid #1b1b1d;border-radius:8px;background:#821c32;color:#fff;font-size:25px;font-weight:800;padding:12px 28px}
+.links{display:flex;gap:16px;font-size:18px;font-weight:700;color:#53545a;margin:6px 0}
+.links span{display:flex;align-items:center;gap:6px}
+.kids{display:flex;gap:14px;width:100%}
+.kid{flex:1;border:3px solid #1b1b1d;border-radius:8px;background:#fffdf7;text-align:center;padding:12px 6px;font-size:21px;font-weight:800}
+.kid small{display:block;font-size:16px;font-weight:500;color:#53545a}
+.arrows{font-size:30px;font-weight:900;color:#821c32;letter-spacing:40px;margin:2px 0}
+.side{flex:1;display:flex;flex-direction:column;gap:10px;justify-content:center}
+.row{display:flex;justify-content:space-between;align-items:center;border:3px solid #1b1b1d;border-radius:8px;padding:12px 16px;background:#fffdf7;font-size:23px;font-weight:800}
+.row b{font-size:18px;padding:3px 10px;border:2px solid #1b1b1d;border-radius:4px;background:#cfc7b6}
+.row.wait b{background:#821c32;color:#fff}
+</style></head>
+<body>
+<div class="board">
+<section class="panel"><div class="step">① 始める</div><h2>フォルダーか<br>保存した「環境」から</h2><div class="starts"><div class="card">最近使ったフォルダー<small>ワンクリックで選んで、前の作業に戻る</small></div><div class="card">保存した「環境」<small>複数のフォルダー、SSH接続先、クラウドなどの設定</small></div><div class="toggle"><i></i>フォルダーごとにGit worktreeを使うか選べる</div></div></section>
+<section class="panel"><div class="step">② 分ける</div><h2>子セッションが<br>結果をメインへ報告</h2><div class="tree"><div class="main">メインのセッション</div><div class="links"><span>↓ タスクを分ける</span><span>↑ 終わったら結果を報告</span></div><div class="kids"><div class="kid">子セッション<small>タスクA</small></div><div class="kid">子セッション<small>タスクB</small></div><div class="kid">子セッション<small>タスクC</small></div></div></div></section>
+<section class="panel"><div class="step">③ 見守る</div><h2>作業中と対応待ちを区別</h2><div class="side"><div class="row">セッションA<b>作業中</b></div><div class="row wait">セッションB<b>対応待ち</b></div><div class="row">セッションC<b>作業中</b></div></div><p class="note">対応が必要なときは、そのターンの要約カードを表示。利用はPro・Max・Team・Enterprise契約。</p></section>
+</div>
+<script>if (new URLSearchParams(location.search).get('layout') === 'mobile') document.body.classList.add('mobile');</script>
+</body></html>

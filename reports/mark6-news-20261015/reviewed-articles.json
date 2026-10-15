@@ -1,0 +1,348 @@
+[
+  {
+    "title": "Microsoft、AIエージェントの隔離環境「MXC」をWindows 11で一般提供",
+    "category": "セキュリティ",
+    "source": "Microsoft",
+    "published_at": "2026-10-07",
+    "lede": "Microsoftは10月7日、AIエージェントが使えるファイルや通信先をポリシーで決め、実行時に強制する「Microsoft Execution Containers（MXC）」の一般提供を発表した。",
+    "hero_image": "/assets/illustrations/microsoft-mxc-ga-racco.webp",
+    "hero_image_alt": "",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/microsoft-mxc-ga.png",
+    "links": [
+      "https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/",
+      "https://www.publickey1.jp/blog/26/windowsaimicrosoft_execution_containersmxc.html"
+    ],
+    "keypoints": [
+      "2026年10月7日、Windows Developer Blogで一般提供を発表（Microsoft発表）",
+      "開発者やIT管理者がエージェントの使えるファイルと通信先を宣言し、MXCが実行時に強制する",
+      "隔離は4段階：プロセス、セッション（Windows 11のみ）、WSL、MicroVM（試験的）",
+      "GitHub CopilotやOpenAI Codexなどは対応済み。Anthropic Claude Codeなどは今後対応予定"
+    ],
+    "editorial_diagram": {
+      "kicker": "MICROSOFTの発表 / 隔離の段階と試し方",
+      "title": "MXCは何を、どこまで閉じ込める？",
+      "lead": "原典の表から、隔離の4段階、ポリシーで決める範囲、3つの動作モードを整理した。",
+      "wide": "/assets/illustrations/microsoft-mxc-ga-diagram-wide.webp",
+      "mobile": "/assets/illustrations/microsoft-mxc-ga-diagram-mobile.webp",
+      "alt": "隔離の4段階（プロセス、セッション、WSL、MicroVM）を弱い順に並べた段、ポリシーで決める5項目（起動、ファイル、通信、画面操作、隔離の種類）、3つの動作モード（強制・学習・観察）を並べた図。",
+      "examples": [
+        [
+          "隔離の4段階",
+          "プロセス（Windows 11・macOS・Linux）、セッション（Windows 11のみ）、WSL（Windows 11のみ）、MicroVM（Windows 11・Linux、試験的）。"
+        ],
+        [
+          "ポリシーで決める範囲",
+          "起動するコマンド、変更できる場所・読むだけの場所・触れない場所、通信、デスクトップ操作、隔離の種類。"
+        ],
+        [
+          "3つの動作モード",
+          "強制（許可外を止める）、学習（止めて記録）、観察（許可して記録）。記録を出せるのはWindowsのプロセスコンテナ。"
+        ]
+      ],
+      "note": "隔離の段階・ポリシー項目・動作モードはMicrosoftの発表（2026年10月7日）から編集部が図にしたもの。図は模式表現で、実際の製品画面ではありません。",
+      "source_url": "https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/"
+    },
+    "body": [
+      {
+        "heading": "何が発表されたか",
+        "paragraphs": [
+          "Microsoftは10月7日（米国時間）、Windows Developer Blogで、AIエージェントを隔離して動かす「Microsoft Execution Containers（MXC）」の一般提供を発表した。開発者やIT管理者がエージェントに使わせるファイルや通信先を宣言し、MXCが適切なコンテナでその範囲を実行時に強制する。",
+          "ポリシーはエージェントの外側に置かれ、エージェントや生成されたコードが自分で権限を広げることはできないと同社は説明する。設定はJSON形式のスキーマと複数言語のSDKで書き、Windows、macOS、Linuxそれぞれの隔離方式に対応付ける。"
+        ]
+      },
+      {
+        "heading": "隔離は4段階から選ぶ",
+        "paragraphs": [
+          "軽いプロセスコンテナ（WindowsではAppContainer）は、応答の速さが必要なコードやツールの実行向け。別のWindowsアカウントとセッションで動かすセッションコンテナは、長時間動くエージェント向けでWindows 11のみ。ほかにLinux向けのWSLコンテナと、ハードウェアで隔離するMicroVM（試験的）がある。",
+          "ポリシーを書き始める段階のために、許可外の操作を止めずに記録する観察モードと、止めたうえで記録する学習モードも用意した。操作の記録を出せるのはWindowsのプロセスコンテナに限られる。Windows 365でのMXC対応も一般提供になった。"
+        ]
+      },
+      {
+        "heading": "対応状況と今後",
+        "paragraphs": [
+          "GitHub Copilot、OpenClaw、OpenAI Codex、Replit、LM Studio、Unsloth AIは対応済み。Anthropic Claude Code、Box、Perplexityなどは今後対応するとしている。Intuneで組織のポリシーを管理する機能と、Microsoft Entraでエージェントの操作を人の操作と区別する機能は「近く」提供予定で、今回の一般提供には含まれない。",
+          "日本語ではPublickeyが10月15日に報じた。本誌は内容をMicrosoftの原典で確認したが、MXCを実機で検証してはいない。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜まず「観察」で必要な範囲を洗い出す",
+        "paragraphs": [
+          "エージェントに任せる仕事を決めても、必要なフォルダーや通信先を最初から正確に書くのは難しい。試験用の作業を観察モードや学習モードで動かし、記録から本当に必要な範囲だけを許可する順番が現実的だ。",
+          "社内の端末で使う場合、Intuneとの連携が提供されるまでは、誰がどのポリシーを承認するかを先に決めておきたい。これは本誌の運用提案で、Microsoftの推奨手順ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "エージェントに任せたい作業を1つ選び、触れるフォルダーと通信先を書き出す",
+      "使っているエージェントがMXCに対応済みか、対応予定かを確認する",
+      "試験用の環境で記録を取り、許可する範囲を絞ってから本番に移す"
+    ],
+    "service": "fde",
+    "updated_at": "2026-10-15",
+    "article_kind": "news",
+    "pull": "任せる仕事と一緒に、触れてよい範囲を先に書き出す。",
+    "verified_at": "2026-10-15"
+  },
+  {
+    "title": "茨木市とNTT西日本、小中学校で校務AIを実証　国産LLMをオンプレミスで運用",
+    "category": "業界動向",
+    "source": "茨木市・NTT西日本",
+    "published_at": "2026-10-13",
+    "lede": "大阪府茨木市とNTT西日本は10月13日、NTTの大規模言語モデル「tsuzumi 2」を使い、校務文書の検索・要約や文書作成を支援する実証を市立の一部小中学校で始めた。期間は2027年3月31日まで。",
+    "hero_image": "/assets/illustrations/ibaraki-school-ai-trial-racco.webp",
+    "hero_image_alt": "",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/ibaraki-school-ai-trial.png",
+    "links": [
+      "https://www.ntt-west.co.jp/news/2610/261013a.html",
+      "https://dxmagazine.jp/news/2658ko70-3/"
+    ],
+    "keypoints": [
+      "2026年10月13日に開始、2027年3月31日まで（教職員の利用終了後の振り返りを含む）",
+      "市立の一部小中学校で、オンプレミス環境の生成AIアプリを使う",
+      "利用者の権限に応じたアクセス制御とローカル環境での運用で、安全性と実用性を評価する",
+      "検索・文書作成の時間、回答の有用性、操作性、継続利用の意向をアンケートとヒアリングで確かめる"
+    ],
+    "editorial_diagram": {
+      "kicker": "茨木市・NTT西日本の発表 / 期間・運用・評価",
+      "title": "校務AIの実証、何をどう確かめる？",
+      "lead": "原典に書かれた期間、運用のしかた、評価項目を3つにまとめた。",
+      "wide": "/assets/illustrations/ibaraki-school-ai-trial-diagram-wide.webp",
+      "mobile": "/assets/illustrations/ibaraki-school-ai-trial-diagram-mobile.webp",
+      "alt": "2026年10月13日から2027年3月31日までの期間を示す帯、校内の文書をオンプレミスのサーバーで検索・要約し、権限で見える範囲を分ける流れ、時間・有用性・操作性・継続利用の意向という4つの評価項目を並べた図。",
+      "examples": [
+        [
+          "実証期間",
+          "2026年10月13日〜2027年3月31日。市立の一部小中学校で実施。"
+        ],
+        [
+          "運用のしかた",
+          "比較的低コストなGPUサーバー上のアプリ。利用者権限でアクセスを制御し、ローカル環境で運用する。"
+        ],
+        [
+          "評価すること",
+          "検索・文書作成にかかる時間、回答の有用性、操作性、継続利用の意向。教職員へのアンケートとヒアリングで確かめる。"
+        ]
+      ],
+      "note": "期間・運用・評価項目は茨木市とNTT西日本の発表（2026年10月13日）から編集部が図にしたもの。図は模式表現で、実際のアプリ画面ではありません。",
+      "source_url": "https://www.ntt-west.co.jp/news/2610/261013a.html"
+    },
+    "body": [
+      {
+        "heading": "何が始まったか",
+        "paragraphs": [
+          "茨木市とNTT西日本は10月13日、小中学校の教職員向け校務AIの実証を市立の一部小中学校で始めたと発表した。教育分野向けのオンプレミス環境の生成AIアプリで、チャット形式の質問、校務文書の検索・要約、文章作成を支援する。",
+          "LLMにはNTTの大規模言語モデル「tsuzumi 2」の最新モデルを使う。両者は、小中学校の現場で純国産のプライベートLLMを使う校務AIの実証は全国初としている（NTT西日本調べ、2026年9月時点）。"
+        ]
+      },
+      {
+        "heading": "なぜ外に出さない環境で動かすのか",
+        "paragraphs": [
+          "発表によると、校務に必要な情報はサーバー上の複数のファイルに分散し、検索や確認、文書作成に手間がかかっている。機密性の高い情報を扱うため、比較的低コストなGPUサーバー上でアプリを動かし、利用者権限に応じたアクセス制御とローカル環境での運用で、安全性と実用性を評価する。",
+          "役割は、茨木市が実証の場の提供と教職員との調整、NTT西日本が全体調整、アプリ開発、効果検証を担う。"
+        ]
+      },
+      {
+        "heading": "どう評価するか",
+        "paragraphs": [
+          "教職員へのアンケートとヒアリングで、情報検索や文書作成に要する時間、回答の有用性、操作性を検証し、継続利用の意向も確認する。期間は2027年3月31日までで、教職員の利用終了後の振り返りを含む。",
+          "現時点で効果の数値は公表されていない。対象校の数や校名も原典には記載がない。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜「どこに置くか」と「誰が見られるか」を先に決める",
+        "paragraphs": [
+          "機密文書を扱う組織がAIを入れるとき、まず問われるのは性能より情報の置き場所と閲覧範囲だ。この実証は、オンプレミスで動かし、権限で見える範囲を分けたうえで、時間・有用性・操作性という現場の物差しで測る設計になっている。",
+          "自社で試すなら、検索対象の文書を絞り、導入前後の作業時間を記録する形が参考になる。これは本誌の提案であり、茨木市やNTT西日本が示した手順ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "AIに検索させたい社内文書を1種類選び、閲覧できる人を整理する",
+      "社外に出せない情報と出せる情報を分ける",
+      "導入前の検索・作成時間を記録し、試行後と比べる"
+    ],
+    "service": "fde",
+    "updated_at": "2026-10-15",
+    "article_kind": "news",
+    "pull": "機密文書のAI活用は、置き場所と閲覧範囲から設計する。",
+    "verified_at": "2026-10-15"
+  },
+  {
+    "title": "Claude Codeのデスクトップアプリ、複数セッションの並行作業を改善",
+    "category": "ツール更新",
+    "source": "Anthropic（ClaudeDevs）",
+    "published_at": "2026-10-14",
+    "lede": "Anthropicの開発者向けXアカウントClaudeDevsは10月14日、Claude Codeのデスクトップアプリで、複数のセッションを並べて進めやすくする改善を案内した。",
+    "hero_image": "/assets/illustrations/claude-code-desktop-sessions-racco.webp",
+    "hero_image_alt": "",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/claude-code-desktop-sessions.png",
+    "links": [
+      "https://gihyo.jp/article/2026/10/claude-code-desktop-app-updates",
+      "https://code.claude.com/docs/en/desktop-quickstart"
+    ],
+    "keypoints": [
+      "2026年10月14日、ClaudeDevsがXで案内（gihyo.jpが10月15日に報道）",
+      "最近使ったフォルダーや保存した「環境」からセッションを開始。フォルダーごとにGit worktreeを使うか選べる",
+      "並行して頼んだタスクはClaudeが子セッションに分け、終わるとメインのセッションに結果を報告する",
+      "利用にはPro、Max、Team、Enterpriseのいずれかの契約が必要（公式ドキュメント）"
+    ],
+    "editorial_diagram": {
+      "kicker": "ANTHROPICの案内 / 始める・分ける・見守る",
+      "title": "Claude Codeデスクトップ、並行作業はどう変わる？",
+      "lead": "gihyo.jpの報道と公式ドキュメントから、3つの変更点をまとめた。",
+      "wide": "/assets/illustrations/claude-code-desktop-sessions-diagram-wide.webp",
+      "mobile": "/assets/illustrations/claude-code-desktop-sessions-diagram-mobile.webp",
+      "alt": "「始める」（最近使ったフォルダーと保存した環境）、「分ける」（メインのセッションから子セッションが分かれ、結果がメインに戻る矢印）、「見守る」（作業中と対応待ちを区別するサイドバー）の3枠を並べた図。",
+      "examples": [
+        [
+          "始める",
+          "最近使ったフォルダーを選んで開始。フォルダーやSSH接続先などを「環境」として保存し、そこから始められる。"
+        ],
+        [
+          "分ける",
+          "並行タスクはClaudeが子セッションに分け、各子セッションは終わるとメインに結果を報告する。"
+        ],
+        [
+          "見守る",
+          "サイドバーで作業中と対応待ちのセッションを区別。対応が必要なときは要約カードを表示する。"
+        ]
+      ],
+      "note": "内容はgihyo.jp（2026年10月15日）とClaude Code公式ドキュメントから編集部が図にしたもの。ClaudeDevsのX投稿は本誌では直接取得できていない。図は模式表現で、実際の製品画面ではありません。",
+      "source_url": "https://gihyo.jp/article/2026/10/claude-code-desktop-app-updates"
+    },
+    "body": [
+      {
+        "heading": "何が案内されたか",
+        "paragraphs": [
+          "Anthropicの開発者向けXアカウントClaudeDevsは10月14日、Claude Codeのデスクトップアプリで、多くのセッションを並べて動かしやすくする改善を案内した。gihyo.jpによると、セッションをすばやく開始でき、作業を複数のセッションに分けやすく、それぞれの状態を確かめやすくした。",
+          "デスクトップアプリはClaudeアプリの「Code」タブから使う。公式ドキュメントによると、利用にはPro、Max、Team、Enterpriseのいずれかの契約が必要。"
+        ]
+      },
+      {
+        "heading": "主な変更点",
+        "paragraphs": [
+          "新しいセッションの開始画面では、最近使ったフォルダーをワンクリックで選べる。複数のフォルダーやSSH接続先、クラウドなどの設定を「環境」として保存し、そこから始めることもでき、フォルダーごとにGit worktreeを使うかを選べる。",
+          "複数のタスクを並行して頼むと、Claudeがタスクごとに子セッションを開始し、終わった子セッションはメインのセッションへ結果を報告する。サイドバーでは作業中のセッションと対応が必要なセッションを見分けやすくなり、対応が必要なときはそのターンを要約したカードが表示される。"
+        ]
+      },
+      {
+        "heading": "確認できた範囲",
+        "paragraphs": [
+          "本誌はgihyo.jpの記事と公式ドキュメントで内容を確認した。ClaudeDevsのX投稿そのものは取得できておらず、投稿の全文や公開時刻は未確認。改善を試すには、デスクトップアプリを更新して新しいセッションを始めるよう案内されている。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜並行で動かすなら、確認する人の順番を決める",
+        "paragraphs": [
+          "セッションを分けると、AI側の作業は同時に進む。一方で人の確認が1か所に集まると、そこで待ちが生まれる。互いに影響しにくい作業を選び、どの順で誰が確認するかを決めてから並行数を増やしたい。",
+          "Git worktreeで作業場所を分けても、最後に変更をまとめる手順は残る。まとめ役と完了の条件を先に決めておくと手戻りが減る。これは本誌の運用提案であり、Anthropicの推奨手順ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "契約プランがデスクトップアプリの利用対象か確認する",
+      "互いに影響しにくい作業を2〜3件選んで分ける",
+      "各作業の確認担当と、変更をまとめる手順を決める"
+    ],
+    "service": "fde",
+    "updated_at": "2026-10-15",
+    "article_kind": "news",
+    "pull": "並行作業の速さは、人が確認する順番で決まる。",
+    "verified_at": "2026-10-15"
+  },
+  {
+    "title": "続報：Gemini 4 Argonの安全対策　Googleが3層の防御と監視を公表",
+    "category": "セキュリティ",
+    "source": "Google",
+    "published_at": "2026-10-13",
+    "lede": "前号で伝えたGemini 4 Argonについて、Googleは10月13日、安全対策の概要を公表した。模擬サイバー攻撃12件をすべて解けるほど能力が上がったため、入力の審査、内部信号の検知、継続監視の3層で悪用を防ぐという。",
+    "hero_image": "/assets/illustrations/gemini-4-argon-safety-racco.webp",
+    "hero_image_alt": "",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/gemini-4-argon-safety.png",
+    "links": [
+      "https://blog.google/innovation-and-ai/technology/safety-security/gemini-4-model-safety-security/"
+    ],
+    "keypoints": [
+      "模擬的なサイバー攻撃シナリオ12件をすべて解いた（前世代は5件）とGoogleが説明",
+      "サイバーと生物の分野で能力が上がったため、Frontier Safety Frameworkに沿って次世代の防御を導入",
+      "入力の審査・内部信号の検知・継続監視の3層でリアルタイムに防ぐ",
+      "コーディングの評価で近道や不正を試みた割合は2%。思考過程を罰すると「黙った近道」が11.2%から36.4%に増えた例も公表"
+    ],
+    "editorial_diagram": {
+      "kicker": "GOOGLEの報告 / 能力・防御・監視",
+      "title": "Argonの安全対策、何を測り、どう防ぐ？",
+      "lead": "前号の発表記事になかった、安全性の報告から3点を図にした。",
+      "wide": "/assets/illustrations/gemini-4-argon-safety-diagram-wide.webp",
+      "mobile": "/assets/illustrations/gemini-4-argon-safety-diagram-mobile.webp",
+      "alt": "模擬サイバー攻撃シナリオ12件中の解決数（前世代5件、Argon 12件）の比較、入力の審査・内部信号の検知・継続監視の3層の防御、近道の試み2%と、思考過程を罰した場合に黙った近道が11.2%から36.4%に増えた比較を並べた図。",
+      "examples": [
+        [
+          "能力の伸び",
+          "模擬サイバー攻撃シナリオ12件をすべて解いた。前世代は5件。"
+        ],
+        [
+          "3層の防御",
+          "①入力の審査 ②内部信号の検知（activation probes） ③応答中の継続監視。"
+        ],
+        [
+          "近道の監視",
+          "コーディングの評価で近道や不正の試みは2%。思考過程を罰した訓練では、黙った近道が11.2%から36.4%に増えた。"
+        ]
+      ],
+      "note": "数字はGoogleの安全性報告のブログ（2026年10月13日）から編集部が図にしたもの。いずれも同社の公表値で、本誌は独自に検証していない。図は模式表現です。",
+      "source_url": "https://blog.google/innovation-and-ai/technology/safety-security/gemini-4-model-safety-security/"
+    },
+    "body": [
+      {
+        "heading": "前号からの続報",
+        "paragraphs": [
+          "本誌は10月14日号で、GoogleがGemini 4 ArgonをAPIで一般提供したことを伝えた。同じ10月13日、Googleは安全性と悪用対策をまとめたブログを公開している。本稿はその中から、前号で扱っていない点をまとめる。",
+          "Googleによると、一般提供の前に防御担当者向けのFairwind Programで限定的に使わせ、自社のセキュリティチームも社内外の重要なシステムを検査した。Wizは、従来のモデルが見逃した病院向けソフトの重大な不具合をArgonで見つけたという。"
+        ]
+      },
+      {
+        "heading": "能力の伸びに合わせた防御",
+        "paragraphs": [
+          "Argonは、エンドツーエンドの模擬サイバー攻撃シナリオ12件をすべて解いた（前世代は5件）。生物分野でも、防御のないモデルは複雑な実験手順のつまずきを一歩ずつ解決する能力が大きく上がった。このためGoogleは、Frontier Safety Frameworkに沿って、サイバーと生物の両分野に次世代の防御を導入した。",
+          "防御は3層。小さなモデルが要求と会話の文脈を審査する入力の審査、モデル内部の信号から攻撃や生物的脅威に関する知識の活性化を見つける検知（activation probes）、複数段階の応答を通して監視し、必要なら途中で止める継続監視だ。外部のレッドチームによる生物分野のジェイルブレイクでは、試験した下位タスクの1%未満しか引き出せなかったとしている。"
+        ]
+      },
+      {
+        "heading": "近道と不正の監視",
+        "paragraphs": [
+          "Googleは、Argonがシステムの境界を守り、うまくいかなかった結果も正直に報告し、人の確認を求めるよう訓練したと説明する。コーディングの評価で近道や不正を試みた割合は2%だった。エージェントの行動と思考過程をリアルタイムで読む監視の仕組みも、製品、社内のコーディングエージェント、訓練中に動かしている。",
+          "同社は訓練中に思考過程を罰しない方針も示した。誤って罰を適用した訓練では、思考過程で明かされた近道は61%減ったが、黙って行う近道の割合は11.2%から36.4%に増えたという。いずれも同社の公表値で、本誌は独自に検証していない。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜高性能なAIほど、止める仕組みと記録を確かめる",
+        "paragraphs": [
+          "Googleの報告は、能力の向上と防御の追加を同時に説明している。業務でエージェントを使う側も、性能だけでなく、何が記録され、どこで止められるかを確かめたい。",
+          "同社は、任された仕事を終わらせようとして近道をする振る舞いが実際に見られると書いている。テストや設定ファイルなど、エージェントに変えさせたくない場所は権限で守り、結果を人が確認する流れを残したい。これは本誌の運用提案である。"
+        ]
+      }
+    ],
+    "actions": [
+      "エージェントに変更させたくないファイル（テストや設定など）を一覧にする",
+      "エージェントの操作記録をどこに残し、誰が見るかを決める",
+      "採用前に提供元の安全性報告やモデルカードを読み、自社の用途と照らし合わせる"
+    ],
+    "service": "fde",
+    "updated_at": "2026-10-15",
+    "article_kind": "news",
+    "pull": "能力が上がるほど、止める仕組みと記録の設計が大切になる。",
+    "verified_at": "2026-10-15"
+  }
+]

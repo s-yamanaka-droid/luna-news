@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><title>C14 Microsoft MXC 図解</title>
+<!-- 本文図解の原本。?layout=wide で 2172x724、?layout=mobile で 1024x1536。内容は Windows Developer Blog（2026-10-07）の記載どおり。 -->
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}html,body{margin:0}
+body{font-family:"Noto Sans JP","Hiragino Sans","Hiragino Kaku Gothic ProN",sans-serif;color:#171719;background:#fbf8f1}
+.board{display:grid;gap:36px;padding:44px 56px;width:2172px;height:724px;grid-template-columns:1.2fr 1fr 1fr}
+body.mobile .board{width:1024px;height:1536px;grid-template-columns:1fr;grid-template-rows:auto auto auto;align-content:space-evenly;padding:40px 52px;gap:26px}
+body.mobile .note{margin-top:12px;padding-top:6px;font-size:19px}
+body.mobile .board{padding:30px 48px;gap:22px}
+body.mobile .panel{padding:22px 30px}
+body.mobile h2{font-size:33px;margin:4px 0 12px}
+body.mobile h2 br{display:none}
+body.mobile .step{font-size:20px}
+.panel{background:#fffdf7;border:3px solid #1b1b1d;border-radius:10px;padding:28px 34px;position:relative;box-shadow:10px 10px 0 #ece6d8;display:flex;flex-direction:column;min-height:0;overflow:hidden}
+.step{font-size:22px;font-weight:800;color:#821c32;letter-spacing:.06em}
+h2{font-size:38px;line-height:1.25;margin:6px 0 16px;letter-spacing:-.03em}
+.note{font-size:20px;color:#53545a;margin:auto 0 0;padding-top:12px;line-height:1.5}
+.accent{color:#821c32}
+
+.ladder{display:flex;flex-direction:column;gap:12px;flex:1;justify-content:center}
+.rung{display:grid;grid-template-columns:260px 1fr;align-items:center;gap:18px;border-left:6px solid #cfc7b6;padding:4px 0 4px 16px}
+.rung.strong{border-left-color:#821c32}
+.rung b{font-size:26px;font-weight:800}.rung b small{display:block;font-size:17px;font-weight:500;color:#53545a}
+.rung p{margin:0;font-size:21px;line-height:1.4;font-weight:500}
+ul.policy{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:12px}
+ul.policy li{border-left:6px solid #821c32;padding:4px 0 4px 18px;font-size:25px;font-weight:800;line-height:1.35}
+ul.policy li span{display:block;font-size:20px;font-weight:500;color:#53545a}
+table.modes{border-collapse:collapse;width:100%;font-size:23px}
+table.modes th,table.modes td{border-bottom:2px solid #1b1b1d;padding:12px 8px;text-align:left}
+table.modes th{font-size:18px;color:#53545a;font-weight:700}
+table.modes td:first-child{font-weight:900;font-size:27px}
+.tag{display:inline-block;padding:2px 10px;border:2px solid #1b1b1d;border-radius:4px;font-weight:800;font-size:20px}
+.tag.stop{background:#821c32;color:#fff}.tag.go{background:#cfc7b6}
+</style></head>
+<body>
+<div class="board">
+<section class="panel"><div class="step">① 隔離の4段階</div><h2>仕事に合わせて選ぶ</h2><div class="ladder"><div class="rung"><b>プロセス<small>Windows 11・macOS・Linux</small></b><p>応答の速さが要るコードやツールの実行</p></div><div class="rung"><b>セッション<small>Windows 11のみ</small></b><p>長時間動くエージェント。別アカウント・別デスクトップで動かす</p></div><div class="rung"><b>WSL<small>Windows 11のみ</small></b><p>Linux前提のツールや開発環境</p></div><div class="rung strong"><b>MicroVM<small>Windows 11・Linux（試験的）</small></b><p>危険度の高い作業。ハードウェアで隔離</p></div></div><p class="note">用途は原典の表「Best suited for」の要約。</p></section>
+<section class="panel"><div class="step">② ポリシーで決める範囲</div><h2>エージェントの外側で決める</h2><ul class="policy"><li>ファイル<span>変更できる場所／読むだけの場所／触れない場所</span></li><li>通信<span>受信と送信、ホストのループバック経由の接続</span></li><li>画面<span>デスクトップや関連UIに触れるか</span></li><li>起動<span>コマンド、引数、作業フォルダー、環境変数</span></li></ul><p class="note">エージェントや生成コードは自分で権限を広げられない（原典の説明）。</p></section>
+<section class="panel"><div class="step">③ 3つの動作モード</div><h2>許可外の操作をどう扱う？</h2><table class="modes"><tr><th>モード</th><th>許可外の操作</th><th>記録</th></tr><tr><td>強制</td><td><span class="tag stop">止める</span></td><td>なし</td></tr><tr><td>学習</td><td><span class="tag stop">止める</span></td><td>あり</td></tr><tr><td>観察</td><td><span class="tag go">通す</span></td><td>あり</td></tr></table><p class="note">記録（操作レポート）を出せるのはWindowsのプロセスコンテナ。</p></section>
+</div>
+<script>if (new URLSearchParams(location.search).get('layout') === 'mobile') document.body.classList.add('mobile');</script>
+</body></html>

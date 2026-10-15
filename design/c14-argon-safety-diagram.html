@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><title>C14 Gemini 4 Argon 安全対策 図解</title>
+<!-- 本文図解の原本。?layout=wide で 2172x724、?layout=mobile で 1024x1536。数字はすべて Google の安全性ブログ（2026-10-13）の記載どおり。 -->
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}html,body{margin:0}
+body{font-family:"Noto Sans JP","Hiragino Sans","Hiragino Kaku Gothic ProN",sans-serif;color:#171719;background:#fbf8f1}
+.board{display:grid;gap:36px;padding:44px 56px;width:2172px;height:724px;grid-template-columns:1.2fr 1fr 1fr}
+body.mobile .board{width:1024px;height:1536px;grid-template-columns:1fr;grid-template-rows:auto auto auto;align-content:space-evenly;padding:40px 52px;gap:26px}
+body.mobile .note{margin-top:12px;padding-top:6px;font-size:19px}
+body.mobile .board{padding:30px 48px;gap:22px}
+body.mobile .panel{padding:22px 30px}
+body.mobile h2{font-size:33px;margin:4px 0 12px}
+body.mobile h2 br{display:none}
+body.mobile .step{font-size:20px}
+.panel{background:#fffdf7;border:3px solid #1b1b1d;border-radius:10px;padding:28px 34px;position:relative;box-shadow:10px 10px 0 #ece6d8;display:flex;flex-direction:column;min-height:0;overflow:hidden}
+.step{font-size:22px;font-weight:800;color:#821c32;letter-spacing:.06em}
+h2{font-size:38px;line-height:1.25;margin:6px 0 16px;letter-spacing:-.03em}
+.note{font-size:20px;color:#53545a;margin:auto 0 0;padding-top:12px;line-height:1.5}
+.accent{color:#821c32}
+
+.score{flex:1;display:flex;flex-direction:column;justify-content:center;gap:22px}
+.srow b{display:block;font-size:24px;font-weight:800;margin-bottom:8px}.srow b em{font-style:normal;color:#821c32;font-size:34px;margin-left:8px}
+.cells{display:grid;grid-template-columns:repeat(12,1fr);gap:8px}
+.cells i{height:46px;border:3px solid #1b1b1d;border-radius:4px;background:#fffdf7}
+.cells i.on{background:#cfc7b6}.argon .cells i.on{background:#821c32}
+.layers{flex:1;display:flex;flex-direction:column;gap:12px;justify-content:center}
+.layer{display:grid;grid-template-columns:54px 1fr;gap:14px;align-items:center;border:3px solid #1b1b1d;border-radius:8px;padding:12px 16px;background:#fffdf7}
+.layer span{width:46px;height:46px;border-radius:50%;background:#821c32;color:#fff;font-weight:900;font-size:24px;display:flex;align-items:center;justify-content:center}
+.layer b{font-size:25px;font-weight:800}.layer b small{display:block;font-size:18px;font-weight:500;color:#53545a}
+.two{display:flex;flex-direction:column;gap:18px;flex:1;justify-content:center}
+.big{display:flex;align-items:baseline;gap:18px;font-size:80px;font-weight:900;letter-spacing:-.04em;color:#821c32;line-height:1}
+.big small{font-size:20px;color:#53545a;font-weight:700;letter-spacing:0;line-height:1.4}
+.cmp{flex:1;display:flex;flex-direction:column;gap:10px}
+.cmp div{display:grid;grid-template-columns:110px 1fr 90px;align-items:center;gap:12px;font-size:20px;font-weight:700}
+.cmp div b{font-size:24px;font-weight:900;text-align:right}.cmp div b.after{color:#821c32}
+.cmp .bar{height:30px;border:3px solid #1b1b1d;border-radius:4px;position:relative;background:#fffdf7}
+.cmp .bar i{position:absolute;inset:0 auto 0 0;background:#cfc7b6}
+.cmp .bar.after i{background:#821c32}
+.cmp p{margin:0;font-size:20px;color:#171719;font-weight:800}
+</style></head>
+<body>
+<div class="board">
+<section class="panel"><div class="step">① 模擬サイバー攻撃（全12シナリオ）</div><h2>前世代5件 → Argon 12件</h2><div class="score"><div class="srow"><b>前世代のモデル<em>5 / 12</em></b><div class="cells"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div><div class="srow argon"><b>Gemini 4 Argon<em>12 / 12</em></b><div class="cells"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></div></div></div><p class="note">能力が上がったため、Frontier Safety Frameworkに沿ってサイバーと生物の両分野に次世代の防御を導入。</p></section>
+<section class="panel"><div class="step">② リアルタイムの3層防御</div><h2>入口・内部・応答中で見る</h2><div class="layers"><div class="layer"><span>1</span><b>入力の審査<small>小さなモデルが要求と会話の文脈を確認</small></b></div><div class="layer"><span>2</span><b>内部信号の検知<small>activation probesが危険な知識の活性化を見つける</small></b></div><div class="layer"><span>3</span><b>継続監視<small>複数段階の応答を見て、必要なら途中で止める</small></b></div></div></section>
+<section class="panel"><div class="step">③ 近道・不正の監視</div><h2>思考過程を罰すると<br>近道が見えなくなる</h2><div class="two"><div class="big">2%<small>コーディングの評価で<br>近道・不正を試みた割合</small></div><div class="cmp"><p>思考過程を罰した訓練での「黙った近道」</p><div>罰する前<span class="bar"><i style="width:28%"></i></span><b>11.2%</b></div><div>罰した後<span class="bar after"><i style="width:91%"></i></span><b class="after">36.4%</b></div></div></div><p class="note">いずれもGoogleの公表値。本誌は独自に検証していない。</p></section>
+</div>
+<script>if (new URLSearchParams(location.search).get('layout') === 'mobile') document.body.classList.add('mobile');</script>
+</body></html>

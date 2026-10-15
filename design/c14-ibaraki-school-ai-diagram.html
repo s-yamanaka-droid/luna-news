@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><title>C14 茨木市・NTT西日本 校務AI 図解</title>
+<!-- 本文図解の原本。?layout=wide で 2172x724、?layout=mobile で 1024x1536。内容は NTT西日本・茨木市の発表（2026-10-13）の記載どおり。 -->
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}html,body{margin:0}
+body{font-family:"Noto Sans JP","Hiragino Sans","Hiragino Kaku Gothic ProN",sans-serif;color:#171719;background:#fbf8f1}
+.board{display:grid;gap:36px;padding:44px 56px;width:2172px;height:724px;grid-template-columns:1.2fr 1fr 1fr}
+body.mobile .board{width:1024px;height:1536px;grid-template-columns:1fr;grid-template-rows:auto auto auto;align-content:space-evenly;padding:40px 52px;gap:26px}
+body.mobile .note{margin-top:12px;padding-top:6px;font-size:19px}
+body.mobile .board{padding:30px 48px;gap:22px}
+body.mobile .panel{padding:22px 30px}
+body.mobile h2{font-size:33px;margin:4px 0 12px}
+body.mobile h2 br{display:none}
+body.mobile .step{font-size:20px}
+.panel{background:#fffdf7;border:3px solid #1b1b1d;border-radius:10px;padding:28px 34px;position:relative;box-shadow:10px 10px 0 #ece6d8;display:flex;flex-direction:column;min-height:0;overflow:hidden}
+.step{font-size:22px;font-weight:800;color:#821c32;letter-spacing:.06em}
+h2{font-size:38px;line-height:1.25;margin:6px 0 16px;letter-spacing:-.03em}
+.note{font-size:20px;color:#53545a;margin:auto 0 0;padding-top:12px;line-height:1.5}
+.accent{color:#821c32}
+
+.timeline{margin:18px 0 0;flex:1;display:flex;flex-direction:column;justify-content:center}
+.track{display:grid;grid-template-columns:repeat(6,1fr);border:3px solid #1b1b1d;border-radius:6px;overflow:hidden;height:64px}
+.track span{border-right:2px solid #1b1b1d;background:#cfc7b6;display:flex;align-items:center;justify-content:center;font-size:22px;font-weight:800}
+.track span:first-child{background:#821c32;color:#fff}
+.track span:last-child{border-right:0}
+.ends{display:flex;justify-content:space-between;margin-top:14px;font-size:24px;font-weight:800}
+.ends small{display:block;font-size:18px;font-weight:500;color:#53545a}
+.ends div:last-child{text-align:right}
+.flow{display:flex;flex-direction:column;gap:10px;flex:1;justify-content:center}
+.box{border:3px solid #1b1b1d;border-radius:8px;padding:12px 18px;font-size:24px;font-weight:800;background:#fffdf7}
+.box small{display:block;font-size:19px;font-weight:500;color:#53545a}
+.box.core{background:#821c32;color:#fff}.box.core small{color:#f3e6e9}
+.arrow{font-size:26px;text-align:center;line-height:1;color:#821c32;font-weight:900}
+.grid4{display:grid;grid-template-columns:1fr 1fr;gap:14px;flex:1;align-content:center}
+.tile{border:3px solid #1b1b1d;border-radius:8px;padding:16px 18px;background:#fffdf7}
+.tile b{display:block;font-size:30px;font-weight:900}.tile span{font-size:19px;color:#53545a}
+</style></head>
+<body>
+<div class="board">
+<section class="panel"><div class="step">① 実証期間</div><h2>市立の一部小中学校で<br>約5か月半</h2><div class="timeline"><div class="track"><span>10月</span><span>11月</span><span>12月</span><span>1月</span><span>2月</span><span>3月</span></div><div class="ends"><div>2026年10月13日<small>実証を開始</small></div><div>2027年3月31日<small>振り返りを含めて終了</small></div></div></div><p class="note">教職員の利用終了後の振り返りを含む期間（原典の記載）。</p></section>
+<section class="panel"><div class="step">② 運用のしかた</div><h2>文書を外に出さずに<br>検索・要約</h2><div class="flow"><div class="box">校務文書<small>サーバー上の複数のファイルに分散</small></div><div class="arrow">↓</div><div class="box core">オンプレミスの生成AIアプリ<small>tsuzumi 2（最新モデル）・比較的低コストなGPUサーバー</small></div><div class="arrow">↓</div><div class="box">教職員<small>権限に応じて見える範囲を制御</small></div></div></section>
+<section class="panel"><div class="step">③ 評価すること</div><h2>現場の4つの物差し</h2><div class="grid4"><div class="tile"><b>時間</b><span>検索・文書作成にかかる時間</span></div><div class="tile"><b>有用性</b><span>回答が役に立つか</span></div><div class="tile"><b>操作性</b><span>使いやすさ</span></div><div class="tile"><b>継続利用</b><span>使い続けたいか</span></div></div><p class="note">教職員へのアンケートとヒアリングで確かめる。効果の数値は未公表。</p></section>
+</div>
+<script>if (new URLSearchParams(location.search).get('layout') === 'mobile') document.body.classList.add('mobile');</script>
+</body></html>
