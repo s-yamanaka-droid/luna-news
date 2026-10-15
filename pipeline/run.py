@@ -81,6 +81,16 @@ def run(date_str: str = None, dry_run: bool = False, skip_slides: bool = False, 
     articles = generate_articles(raw)
     log.info(f"   {len(articles)}件生成")
 
+    # 2b. トップ記事のキャラクター場面（Racco・むちむち猫・アザラシ / Codex CLI）
+    if articles and not skip_slides:
+        log.info("2b. トップ記事のキャラクター場面")
+        try:
+            from cast_kv import generate_cast_kv
+            ok = generate_cast_kv(articles[0], date_str)
+            log.info(f"   {'✓ 生成' if ok else '✗ 失敗（既存の画像のまま）'}")
+        except Exception as e:
+            log.warning(f"   キャラクター場面の生成失敗（処理は継続）: {e}")
+
     # 3. スライド画像生成（Codex CLI 並列・ChatGPT Plus サブスク内・API課金ゼロ）
     if not skip_slides:
         log.info("3. スライド画像生成（Codex CLI 並列・4 workers）")

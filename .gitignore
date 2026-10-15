@@ -5,3 +5,4 @@ logs/
 venv/
 *.egg-info/
 .vercel
+.cast-tmp/
