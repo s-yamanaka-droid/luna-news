@@ -7,6 +7,30 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。公開済みのAIニュースと実務への示唆をお届けします。</description>
   <language>ja</language>
   <item>
+    <title>Microsoft、AIエージェントの隔離環境「MXC」をWindows 11で一般提供</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-15/story-1/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-15/story-1/</guid>
+    <description>Microsoftは10月7日、AIエージェントが使えるファイルや通信先をポリシーで決め、実行時に強制する「Microsoft Execution Containers（MXC）」の一般提供を発表した。</description>
+  </item>
+  <item>
+    <title>茨木市とNTT西日本、小中学校で校務AIを実証　国産LLMをオンプレミスで運用</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-15/story-2/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-15/story-2/</guid>
+    <description>大阪府茨木市とNTT西日本は10月13日、NTTの大規模言語モデル「tsuzumi 2」を使い、校務文書の検索・要約や文書作成を支援する実証を市立の一部小中学校で始めた。期間は2027年3月31日まで。</description>
+  </item>
+  <item>
+    <title>Claude Codeのデスクトップアプリ、複数セッションの並行作業を改善</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-15/story-3/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-15/story-3/</guid>
+    <description>Anthropicの開発者向けXアカウントClaudeDevsは10月14日、Claude Codeのデスクトップアプリで、複数のセッションを並べて進めやすくする改善を案内した。</description>
+  </item>
+  <item>
+    <title>続報：Gemini 4 Argonの安全対策　Googleが3層の防御と監視を公表</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-15/story-4/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-15/story-4/</guid>
+    <description>前号で伝えたGemini 4 Argonについて、Googleは10月13日、安全対策の概要を公表した。模擬サイバー攻撃12件をすべて解けるほど能力が上がったため、入力の審査、内部信号の検知、継続監視の3層で悪用を防ぐという。</description>
+  </item>
+  <item>
     <title>Google、Gemini 4 ArgonをAPIで一般提供　導入価格は11月30日まで</title>
     <link>https://nowonair.vercel.app/articles/2026-10-14/story-1/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-14/story-1/</guid>
@@ -131,30 +155,6 @@
     <link>https://nowonair.vercel.app/news/2026-08-27/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-27/</guid>
     <description>NVIDIA、新AI基盤で生成コスト10分の1へ／ChatGPT、Webサイトを直接操作する新機能／Google、金融実務に特化した業務AIを投入／5年分のコード移行、AIで1.5週間に／Claude、会話と業務代行の記憶を統合</description>
-  </item>
-  <item>
-    <title>2026-08-26 AI朝刊：14社のAIを最安で使い分け、GMOが統一窓口 ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-08-26/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-26/</guid>
-    <description>14社のAIを最安で使い分け、GMOが統一窓口／AIリスク、法令順守だけでは企業を守れない／ChatGPTの予約タスク、無料利用者にも開放／Claude、チャットと実行機能の記憶を統合／DeNA、AI費用を既存クラウド基盤で管理</description>
-  </item>
-  <item>
-    <title>2026-08-25 AI朝刊：Sakana AI、防衛省のAI分析実証を受注 ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-08-25/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-25/</guid>
-    <description>Sakana AI、防衛省のAI分析実証を受注／GPT-5.6、Kiroで開発業務を支援／Gemini 3.7 Flash、低価格で能力向上／30B級オープンモデル、企業利用の選択肢に／Claude SecurityにMythos 5を導入</description>
-  </item>
-  <item>
-    <title>2026-08-24 AI朝刊：OpenAI、GPT-5.6 SolのAPI料金を最大33％値下げ ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-08-24/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-24/</guid>
-    <description>OpenAI、GPT-5.6 SolのAPI料金を最大33％値下げ／Slack上の会話を読み、AIが開発から文書化まで支援／Gemini 3.7 Flash、コードと業務支援を強化／Anthropic、高性能AIで脆弱性スキャンを提供／OKI、AIでコンタクトセンター応対を標準化へ</description>
-  </item>
-  <item>
-    <title>2026-08-23 AI朝刊：三菱UFJ銀行、生成AIで業務標準化の手間9割減 ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-08-23/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-23/</guid>
-    <description>三菱UFJ銀行、生成AIで業務標準化の手間9割減／OpenAI、GPT-5.6 SolのAPI料金を最大33％値下げ／Google、コード開発向けGemini 3.7 Flashを発表／OKI、生成AIでコンタクトセンター応対を標準化へ／Anthropic、Claudeで脆弱性検出と修正案を提供</description>
   </item>
 </channel>
 </rss>
