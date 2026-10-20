@@ -15,7 +15,8 @@ def esc(value):
 
 
 def headline(value):
-    return re.sub(r'「[^「」]{1,12}」', lambda m: '<span class="keep-phrase">' + m.group(0) + '</span>', esc(value))
+    return re.sub(r'「[^「」]{1,12}」|AIエージェント|Windows\s?11|Claude\s?Code|Microsoft|NTT西日本',
+                  lambda m: '<span class="keep-phrase">' + m.group(0) + '</span>', esc(value))
 
 
 def link(date, i):
@@ -99,6 +100,12 @@ def chrome(title, date, content, canonical='/', description=None, og_image=None,
     absolute_image = BASE_URL + og_image
     edition_label = '最終公開号' if canonical == '/' else '掲載号'
     edition_age = '<span id="edition-age" role="status"></span>' if canonical == '/' else ''
+    home = canonical == '/'
+    home_style = '<link rel="stylesheet" href="/assets/home-edition-20261020.css">' if home else ''
+    body_class = ' class="home-edition"' if home else ''
+    utility = ('<div class="home-utility"><span>LAKKAN JOURNAL</span><p>AIの変化を、仕事の判断に。</p></div>'
+               if home else '')
+    brand_note = '<span class="home-brand-note">NEWS / IDEAS / PRACTICE</span>' if home else ''
     return f'''<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{esc(title)} — Now on AIr</title><meta name="description" content="{esc(description)}"><meta name="theme-color" content="#ffffff">
 <link rel="canonical" href="{esc(absolute_url)}"><link rel="icon" href="/assets/favicon.svg">
@@ -106,9 +113,9 @@ def chrome(title, date, content, canonical='/', description=None, og_image=None,
 <link rel="alternate" type="application/rss+xml" title="Now on AIr RSS" href="/feed.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Noto+Sans+JP:wght@400;500;700;800;900&family=Noto+Serif+JP:wght@400;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/newspaper.css?v=2"><link rel="stylesheet" href="/assets/editorial.css?v=3"><script src="/assets/newspaper.js?v=2" defer></script></head><body>
+<link rel="stylesheet" href="/assets/newspaper.css?v=2"><link rel="stylesheet" href="/assets/editorial.css?v=3">{home_style}<script src="/assets/newspaper.js?v=2" defer></script></head><body{body_class}>
 <a class="skip" href="#main">本文へ移動</a>
-<header class="masthead"><div class="header-main"><a class="nameplate" href="/" aria-label="Now on AIr ホーム"><span class="wordmark-title">now on air</span></a><span class="nameplate-description">AIの変化を、仕事の判断に。</span>
+<header class="masthead">{utility}<div class="header-main"><a class="nameplate" href="/" aria-label="Now on AIr ホーム"><span class="wordmark-title">now on air</span></a><span class="nameplate-description">AIの変化を、仕事の判断に。</span>{brand_note}
 <nav aria-label="主なページ"><a href="/">ニュース</a><a href="/#all-news">分野から探す</a><a href="/cases.html">AI活用事例</a><a href="/about.html">このサイトについて</a></nav>
 <button id="search-toggle" type="button" aria-expanded="false" aria-controls="search-panel" aria-label="記事を検索">⌕</button>
 <details class="mobile-navigation"><summary>メニュー</summary><div><a href="/">ニュース</a><a href="/#all-news">分野から探す</a><a href="/cases.html">AI活用事例</a><a href="/about.html">このサイトについて</a><a href="/weekly.html">週次ダイジェスト</a></div></details></div>
@@ -141,7 +148,7 @@ def index(dates, articles, date):
     hero_image = featured.get('hero_image')
     hero_media = (
         f'<a class="hero-figure-link" href="{esc(featured_url)}" aria-label="トップ記事を読む">'
-        f'<img src="{esc(hero_image)}" width="1536" height="1024" alt="{esc(featured.get("hero_image_alt"))}" loading="eager" decoding="async">'
+        f'<img src="{esc(hero_image)}" width="1536" height="1024" alt="{esc(featured.get("hero_image_alt"))}" loading="eager" fetchpriority="high" decoding="async">'
         f'<span>{esc(featured.get("hero_image_credit") or "編集イメージ / AI生成")}</span></a>'
     ) if hero_image else ''
     rail = ''.join(
@@ -167,19 +174,13 @@ def index(dates, articles, date):
             f'<a class="hero-rail-link" href="{esc(link(previous_dates[0], number))}">過去の記事を読む →</a></article>'
             for number, article in enumerate(previous[:2], 1)
         ) or '<p>今号の記事は1本です。<a href="#archive">バックナンバーを読む →</a></p>'
-    main_i = next((i for i, a in indexed if a.get('image')), 3 if date == '2026-09-07' and len(articles) >= 3 else 1)
-    center = [x for x in indexed if x[0] in (main_i, 4)]
-    if not center:
-        center = indexed[:1]
-    left = [x for x in indexed if x not in center][:3]
-    right = [x for x in indexed if x not in center and x not in left]
     body = (
         '<section class="editorial-hero newsroom-hero" aria-label="主要ニュース">'
-        '<article class="hero-feature">'
+        f'<article class="hero-feature{" has-hero-image" if hero_media else ""}"><div class="hero-copy">'
         f'<p class="hero-date"><span class="category">{esc(featured.get("category"))}</span> ｜ {esc(date)} 掲載</p>'
         f'<h1><a href="{esc(featured_url)}">{headline(featured.get("title"))}</a></h1>'
-        f'<p>{esc(featured.get("lede"))}</p>'
-        f'<div class="hero-feature-links">{original_link}<a href="{esc(featured_url)}">この記事を読む →</a></div>{hero_media}'
+        f'<p class="hero-lede">{esc(featured.get("lede"))}</p>'
+        f'<div class="hero-feature-links"><a class="hero-read" href="{esc(featured_url)}">記事を読む ↗</a>{original_link}</div></div>{hero_media}'
         f'</article><aside class="hero-rail" aria-label="{rail_label}"><h2>{rail_title}</h2>'
         f'{rail}</aside></section>'
         '<section class="editorial-pathways" aria-label="このサイトでできること">'
@@ -187,11 +188,8 @@ def index(dates, articles, date):
         '<a href="#all-news"><span>02</span><h2>分野から探す</h2><p>研究、製品、業務活用、セキュリティから探す。</p><b>分野を見る →</b></a>'
         '<a href="/cases.html"><span>03</span><h2>現場に引きつける</h2><p>導入の場面や使いどころを、事例から考える。</p><b>活用事例を見る →</b></a>'
         '</section>'
-        '<div class="front-label"><h2>掲載記事</h2><a href="#all-news">分野別に探す →</a></div><div class="frontpage">'
+        '<div class="front-label"><h2>分野から探す</h2><a href="/weekly.html">週次ダイジェスト →</a></div>'
     )
-    body += '<section class="news-column briefs" aria-label="主要ニュース">' + ''.join(item(a,date,i) for i,a in left) + '</section>'
-    body += '<section class="news-column centerpiece" aria-label="注目記事">' + ''.join(item(a,date,i,True,j==0) for j,(i,a) in enumerate(center)) + '</section>'
-    body += '<aside class="news-column sidebar"><h2 class="rail-title">AI最前線</h2>' + ''.join(item(a,date,i) for i,a in right) + '<div class="weekly-box"><span>WEEKLY DIGEST</span><h3>一週間の動きを、<br>3つの視点から。</h3><a href="/weekly.html">週次ダイジェストを読む →</a></div></aside></div>'
     groups = [('models','モデル・製品', ['新モデル発表','ツール更新']),('research','研究',['研究']),('business','ビジネス',['業界動向']),('security','セキュリティ・政策',['セキュリティ','政策・規制']),('editors','Lakkanの実務コラム',['Lakkan編集部'])]
     body += '<div id="all-news">'
     for ident, label, cats in groups:
