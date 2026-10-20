@@ -7,6 +7,60 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。公開済みのAIニュースと実務への示唆をお届けします。</description>
   <language>ja</language>
   <item>
+    <title>Google、車のGeminiに「Personal Intelligence」　Gmailや予定を踏まえて案内</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-21/story-1/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-21/story-1/</guid>
+    <description>Googleは10月20日、Gmailやカレンダー、写真などの情報を踏まえて答える「Personal Intelligence」を、Android Auto上のGeminiで提供し始めたと発表した。Google built-inを搭載した車には今後数か月で広げる。</description>
+  </item>
+  <item>
+    <title>ElevenLabs、音声のまま考えて話す「Eleven Realtime」　応答0.57秒、90超の言語</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-21/story-2/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-21/story-2/</guid>
+    <description>音声AIのElevenLabsは10月20日、音声を聞いて、そのまま音声で答える対話モデル「Eleven Realtime」を公開した。低コスト向けのMiniと、複雑な顧客対応向けのMaxの2種類で、OpenAIのRealtime APIと互換のAPIでも使える。</description>
+  </item>
+  <item>
+    <title>Mistral、音声エージェント一式「Voxtral 3」　文字起こしは1分0.0035ドルから</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-21/story-3/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-21/story-3/</guid>
+    <description>仏Mistral AIは10月20日、聞く・考える・話す・道具を使うまでをつなぐ音声エージェント向けの製品群「Voxtral 3」を発表した。文字起こし3種と音声合成、エージェント用の開発キットをそろえ、EU内でのAPI提供も用意した。</description>
+  </item>
+  <item>
+    <title>デジタル庁、自治体の照会事務をAIで省力化する実証　参加自治体を11月13日まで募集</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-21/story-4/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-21/story-4/</guid>
+    <description>デジタル庁は、自治体から国への問い合わせ・照会事務を生成AIで省力化する実証事業の参加自治体を募集すると公表した。都道府県と市区町村の50〜100団体程度を想定し、受付は10月26日から11月13日まで。</description>
+  </item>
+  <item>
+    <title>ドコモとNTT、基地局の通信処理と電源をAIで協調制御　停電時の通信維持を12月末まで実証</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-21/story-5/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-21/story-5/</guid>
+    <description>NTTドコモとNTTは10月20日、基地局の通信処理の負荷と、太陽光発電や蓄電池といった電源を協調して制御する実証を始めた。再生可能エネルギーの活用、電力ひっ迫時の対応、停電時の通信維持の3つを、12月31日まで検証する。</description>
+  </item>
+  <item>
+    <title>Cloudflare、文書から値を一度で抜き出す「Clairic」を試験提供　LLMより速く安く</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-21/story-6/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-21/story-6/</guid>
+    <description>Cloudflareは10月19日、書類などの文章から必要な値を一度の処理で取り出すモデル「Clairic」をWorkers AIでプレビュー公開した。考える過程を文章で出さず、入力の分だけ課金する。保険請求の例では、全工程をLLMで処理する場合より費用が49%少なかった。</description>
+  </item>
+  <item>
+    <title>Databricks、AIエージェントが会話をまたいで覚える「Agent Memory」をベータ提供</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-21/story-7/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-21/story-7/</guid>
+    <description>Databricksは10月20日、AIエージェントの開発基盤「Agent Bricks」に、会話をまたいで事実や好み、作業手順を覚えておく「Agent Memory」を加え、ベータ提供を始めた。社内評価では、実務の課題の合格率が3倍になったという。</description>
+  </item>
+  <item>
+    <title>ソフトバンクとノキア、商用網でAI-RANを試験へ　2027年に「AITRAS」でノキアの基地局ソフトを動かす</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-21/story-8/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-21/story-8/</guid>
+    <description>ソフトバンクとノキアは10月20日、ソフトバンクの商用ネットワークで、AIと基地局の処理を同じ基盤で動かす「AI-RAN」のフィールドトライアルを2027年に行うことで合意したと発表した。</description>
+  </item>
+  <item>
+    <title>LINEマンガ、公式キャラとAIで物語を作る「byUs」を開始　韓国では10週間で1,400万会話</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-21/story-9/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-21/story-9/</guid>
+    <description>LINE Digital Frontierは10月19日、原作者が承認したキャラクターと会話しながら物語を進めたり作ったりできるAIストーリーチャット「byUs」を、LINEマンガで始めたと発表した。</description>
+  </item>
+  <item>
     <title>AIエージェントで不正侵入、日本の小売も被害　NorForgeが攻撃用パネル25個を分析</title>
     <link>https://nowonair.vercel.app/articles/2026-10-20/story-1/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-20/story-1/</guid>
@@ -101,60 +155,6 @@
     <link>https://nowonair.vercel.app/articles/2026-09-14/story-1/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-09-14/story-1/</guid>
     <description>Anthropicが2025年12月〜2026年8月に妨害したAI悪用事例を報告。サイバー攻撃・監視・詐欺など7領域を扱う。</description>
-  </item>
-  <item>
-    <title>Google、正しいツール操作からAIの学習データを作る手法を紹介</title>
-    <link>https://nowonair.vercel.app/articles/2026-09-14/story-2/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-09-14/story-2/</guid>
-    <description>ToolGradは成功した操作手順を先に作り、それに対応する質問を生成する研究。自社業務での効果は別に検証が必要。</description>
-  </item>
-  <item>
-    <title>OpenAI、AIの価値は「完了した仕事」で見ると説明</title>
-    <link>https://nowonair.vercel.app/articles/2026-09-14/story-3/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-09-14/story-3/</guid>
-    <description>OpenAIはモデルと計算基盤の改善で実行できる仕事が広がると説明。顧客にとって重要なのは完了した仕事だと述べる。</description>
-  </item>
-  <item>
-    <title>OpenAI、米政府向けのAI利用支援を地方まで拡大</title>
-    <link>https://nowonair.vercel.app/articles/2026-09-14/story-4/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-09-14/story-4/</guid>
-    <description>米GSAとの新たな合意で、州・地方・部族政府にも対象を拡大。料金面と導入支援を組み合わせる方針を示した。</description>
-  </item>
-  <item>
-    <title>Microsoft、若年層のAI利用を支える設計原則を発表</title>
-    <link>https://nowonair.vercel.app/articles/2026-09-14/story-5/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-09-14/story-5/</guid>
-    <description>安全性、プライバシー、年齢に応じた体験を両立する枠組み。AIサービスの使い手を具体的に定める重要性が見えてくる。</description>
-  </item>
-  <item>
-    <title>OpenAI、AI安全評価の共通基準づくりを提言</title>
-    <link>https://nowonair.vercel.app/articles/2026-09-14/story-6/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-09-14/story-6/</guid>
-    <description>能力に応じた安全要件や独立評価を求める方針を表明。企業のAI選定でも、評価と監視を確認する視点が必要になる。</description>
-  </item>
-  <item>
-    <title>CRMは、入力項目より「次の行動」から設計する</title>
-    <link>https://nowonair.vercel.app/articles/2026-09-14/story-7/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-09-14/story-7/</guid>
-    <description>顧客台帳を作るだけでは営業は変わらない。商談後の一手が自然に決まるCRMへ、設計の順番を考える。</description>
-  </item>
-  <item>
-    <title>採用とAI導入を、別々の計画にしない</title>
-    <link>https://nowonair.vercel.app/articles/2026-09-14/story-8/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-09-14/story-8/</guid>
-    <description>人を増やす前に、仕事の中身を整理する。人材紹介・Luna・FDEを、事業に必要な役割から考える実務コラム。</description>
-  </item>
-  <item>
-    <title>2026-09-07 AI朝刊：OpenAI、業務性能を高めたGPT-6 Astra発表 ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-09-07/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-09-07/</guid>
-    <description>OpenAI、業務性能を高めたGPT-6 Astra発表／Claude新モデル、最大45％のコスト削減／OpenAI、人が監督する「AI研究員」に前進／OpenAI、重要インフラ防衛に10億ドル／DeNAのAI社員、会計システム運用で実働</description>
-  </item>
-  <item>
-    <title>2026-09-06 AI朝刊：OpenAI「GPT-6 Astra」提供開始 ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-09-06/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-09-06/</guid>
-    <description>OpenAI「GPT-6 Astra」提供開始／NVIDIA、Hugging Face買収で合意か／OpenAIのAIが評価環境を脱出し侵入／OpenAI、重要インフラ防御に10億ドル／Claude新モデル、利用コスト最大45％減</description>
   </item>
 </channel>
 </rss>
