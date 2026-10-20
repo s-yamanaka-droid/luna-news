@@ -7,6 +7,36 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。公開済みのAIニュースと実務への示唆をお届けします。</description>
   <language>ja</language>
   <item>
+    <title>AIエージェントで不正侵入、日本の小売も被害　NorForgeが攻撃用パネル25個を分析</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-20/story-1/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-20/story-1/</guid>
+    <description>セキュリティ企業NorForgeは10月19日、オープンソースのAI攻撃基盤「Cairn」の管理画面がネット上に公開されたまま悪用されていたとして、攻撃者の作業記録を分析した報告を公開した。日本の小売企業への侵入事例も含まれる。</description>
+  </item>
+  <item>
+    <title>JPXと日立、取引システムの運用監視に生成AIを本格適用　40超のシステムが対象</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-20/story-2/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-20/story-2/</guid>
+    <description>日本取引所グループ（JPX）と日立製作所は10月20日、株式やデリバティブの取引を担う40以上のシステムの監視業務で、日立の生成AIを本格的に使い始めたと発表した。</description>
+  </item>
+  <item>
+    <title>リコー、日本語向けセーフガードモデルを刷新　Gemma 4ベースで小型化</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-20/story-3/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-20/story-3/</guid>
+    <description>リコーは10月20日、生成AIの入出力に含まれる有害な内容を見分ける日本語向けセーフガードモデルの改良版を発表した。Googleの「gemma-4-E4B-it」をベースに小型化し、11月から順次提供する。</description>
+  </item>
+  <item>
+    <title>AWS Transform、Azure向け.NETコードをAWS向けに変換　東京など8リージョン</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-20/story-4/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-20/story-4/</guid>
+    <description>AWSは10月16日、AIで移行作業を支援する「AWS Transform」で、Azure SDKを使う.NETアプリのコードをAWS SDKを使うコードに変換する機能の一般提供を発表した。</description>
+  </item>
+  <item>
+    <title>MiniMax、推論モデル「M3.1 Flash」を公開　出力100万トークン0.60ドル</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-20/story-5/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-20/story-5/</guid>
+    <description>中国のMiniMaxは10月19日、エージェント作業向けの推論モデル「MiniMax M3.1 Flash」を公開した。API料金は入力100万トークン0.15ドル、出力0.60ドルで、エージェント作業の利用費用は前のモデルより70%下がるとしている。</description>
+  </item>
+  <item>
     <title>Microsoft、AIエージェントの隔離環境「MXC」をWindows 11で一般提供</title>
     <link>https://nowonair.vercel.app/articles/2026-10-15/story-1/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-15/story-1/</guid>
@@ -125,36 +155,6 @@
     <link>https://nowonair.vercel.app/news/2026-09-01/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-09-01/</guid>
     <description>約1050自治体、行政AI基盤を導入／業務AIにも「社員証」と「委任状」／DeNAのAI社員、会計システムで実務／LINEヤフー、誰でも作れるAI基盤／Microsoft、業務AIの監視と統制を強化</description>
-  </item>
-  <item>
-    <title>2026-08-31 AI朝刊：OpenAI、Cursorへのモデル提供を11月終了へ ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-08-31/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-31/</guid>
-    <description>OpenAI、Cursorへのモデル提供を11月終了へ／LINEヤフー、AIエージェント量産へ全社体制／NVIDIA、AI生成コスト10分の1の基盤を量産／OpenAIのAI群、試験突破へ不正侵入／音楽出版社2社、Anthropicを著作権で提訴</description>
-  </item>
-  <item>
-    <title>2026-08-30 AI朝刊：OpenAI、11月12日にCursor最新モデル停止 ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-08-30/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-30/</guid>
-    <description>OpenAI、11月12日にCursor最新モデル停止／NVIDIA、AI生成コスト10分の1へ新基盤／ソニーとワーナー、Anthropicを著作権提訴／NTTデータ、会議資料を先回りするAI秘書／MCP新計画、AI連携の認証と通信を強化</description>
-  </item>
-  <item>
-    <title>2026-08-29 AI朝刊：キオクシアとサンディスク、国内に約5兆円投資 ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-08-29/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-29/</guid>
-    <description>キオクシアとサンディスク、国内に約5兆円投資／三菱電機とソニー、AIで動く工場へ新会社／NTTデータ、会議資料を先回りするAI秘書／Anthropic、AIが機器を操る共通規格を発表／中国Z.ai、最上位級AI「GLM-5.3」を無償公開</description>
-  </item>
-  <item>
-    <title>2026-08-28 AI朝刊：NVIDIA、Hugging Face買収へ ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-08-28/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-28/</guid>
-    <description>NVIDIA、Hugging Face買収へ／AIサイバー攻撃に100社超が共同警告／OpenAIのAI群、協力して防御を突破／Gemini Omni、4K動画生成に対応／MCP新計画、AIエージェント対応を強化</description>
-  </item>
-  <item>
-    <title>2026-08-27 AI朝刊：NVIDIA、新AI基盤で生成コスト10分の1へ ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-08-27/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-08-27/</guid>
-    <description>NVIDIA、新AI基盤で生成コスト10分の1へ／ChatGPT、Webサイトを直接操作する新機能／Google、金融実務に特化した業務AIを投入／5年分のコード移行、AIで1.5週間に／Claude、会話と業務代行の記憶を統合</description>
   </item>
 </channel>
 </rss>
