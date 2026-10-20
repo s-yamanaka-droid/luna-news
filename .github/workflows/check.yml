@@ -11,7 +11,9 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - run: python -m pip install requests
       - run: python -m unittest discover -s tests -v
+      - run: python -c "from runpy import run_path; run_path('tests/test_site_url.py')['test_no_stale_site_urls_in_code']()"
       - run: python scripts/check_newspaper.py
       - run: python scripts/rebuild_frontpage.py
       - run: git diff --exit-code -- docs/index.html
