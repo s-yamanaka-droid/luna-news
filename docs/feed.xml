@@ -37,6 +37,36 @@
     <description>中国のMiniMaxは10月19日、エージェント作業向けの推論モデル「MiniMax M3.1 Flash」を公開した。API料金は入力100万トークン0.15ドル、出力0.60ドルで、エージェント作業の利用費用は前のモデルより70%下がるとしている。</description>
   </item>
   <item>
+    <title>デジタル庁、政府職員18万人向けにAIエージェント環境　利用ルール「源内基準」も公表</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-20/story-6/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-20/story-6/</guid>
+    <description>デジタル庁は10月20日、約18万人の政府職員が使う「ガバメントAI 源内」で、AIエージェントを使える環境の提供を始めたと発表した。あわせて、利用者・管理者・開発者が守るべき事項をまとめた「源内基準」を公表した。</description>
+  </item>
+  <item>
+    <title>Anthropic、株式の5%を公益ファンドに　企業価値の上昇に応じて上乗せも</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-20/story-7/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-20/story-7/</guid>
+    <description>Anthropicは10月18日、自社株式の5%を新たに設ける「Anthropic Public Benefit Fund」に充てると発表した。株主の承認が条件で、企業価値が一定の基準を超えて上がるごとに取締役会の判断で割合を増やす仕組みも示した。</description>
+  </item>
+  <item>
+    <title>DeepSeek、「V4.1-Flash-1017」を公開　重みはMITライセンス、検索APIも全利用者に</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-20/story-8/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-20/story-8/</guid>
+    <description>中国のDeepSeekは10月17日、AIモデル「DeepSeek-V4.1-Flash-1017」を公開した。Webサイト、アプリ、APIで使えるようにし、モデルの重みもHugging FaceとModelScopeで公開した。あわせて、自社の検索エンジンを使う検索・取得APIを全利用者に開放した。</description>
+  </item>
+  <item>
+    <title>Replit、自社のクラウドで開発・公開できる「BYOC」　企業向けにプレビュー</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-20/story-9/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-20/story-9/</guid>
+    <description>AIでアプリを作れる開発サービスのReplitは10月16日、企業が自社のAWS、Google Cloud、Microsoft Azureの環境でReplitの開発や公開を動かせる「Bring Your Own Cloud（BYOC）」を発表した。3つの方式があり、いずれも企業顧客向けのプレビューや早期提供の段階だ。</description>
+  </item>
+  <item>
+    <title>Cloudflare、社内AIコードレビューの費用を68%削減　1回2.43ドルから0.77ドルに</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-20/story-10/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-20/story-10/</guid>
+    <description>Cloudflareは10月19日、社内で使うAIコードレビューの1回あたりの平均費用を2.43ドルから0.77ドルへ、68%減らした取り組みを公式ブログで公開した。プロンプトのキャッシュの使い方や、モデルと推論の強さの選び方を見直したという。</description>
+  </item>
+  <item>
     <title>Microsoft、AIエージェントの隔離環境「MXC」をWindows 11で一般提供</title>
     <link>https://nowonair.vercel.app/articles/2026-10-15/story-1/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-15/story-1/</guid>
@@ -125,36 +155,6 @@
     <link>https://nowonair.vercel.app/news/2026-09-06/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-09-06/</guid>
     <description>OpenAI「GPT-6 Astra」提供開始／NVIDIA、Hugging Face買収で合意か／OpenAIのAIが評価環境を脱出し侵入／OpenAI、重要インフラ防御に10億ドル／Claude新モデル、利用コスト最大45％減</description>
-  </item>
-  <item>
-    <title>2026-09-05 AI朝刊：OpenAI、最高性能のGPT-6 Astra提供 ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-09-05/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-09-05/</guid>
-    <description>OpenAI、最高性能のGPT-6 Astra提供／RIZAP、個人利用AIに顧客情報を誤送信／OpenAI、重要インフラ防衛に10億ドル／Nvidia、Hugging Face買収合意か／Anthropic、2兆ドル上場で統治に焦点</description>
-  </item>
-  <item>
-    <title>2026-09-04 AI朝刊：OpenAI「GPT-6 Astra」、重大なサイバー能力 ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-09-04/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-09-04/</guid>
-    <description>OpenAI「GPT-6 Astra」、重大なサイバー能力／NVIDIA、Hugging Faceを約1.87兆円で買収／ChatGPT、電子カルテと公的医療情報に直結／パナソニック、AIサーバー電池売上3倍へ／NEC、脆弱性対処をAIで一貫支援</description>
-  </item>
-  <item>
-    <title>2026-09-03 AI朝刊：OpenAI次世代「Astra」、安全策を強化し近日公開 ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-09-03/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-09-03/</guid>
-    <description>OpenAI次世代「Astra」、安全策を強化し近日公開／Gemini 3.8、同価格・速度で推論と開発力を向上／米政府、AI学習のフェアユース論でOpenAI支持／Hugging Face製品に未修正のファイル保存脆弱性／Sakana AI、防衛省のAI調査・実証を受注</description>
-  </item>
-  <item>
-    <title>2026-09-02 AI朝刊：OpenAI新モデル、重大なサイバー能力に到達 ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-09-02/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-09-02/</guid>
-    <description>OpenAI新モデル、重大なサイバー能力に到達／NVIDIA、MediaTekに35億ドル投資／ChatGPT、EUの最厳格な安全規制対象に／総務省、AI業務変革の専門組織を新設／Claude Fable 5.1、AWSで提供開始</description>
-  </item>
-  <item>
-    <title>2026-09-01 AI朝刊：約1050自治体、行政AI基盤を導入 ほか7本</title>
-    <link>https://nowonair.vercel.app/news/2026-09-01/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/news/2026-09-01/</guid>
-    <description>約1050自治体、行政AI基盤を導入／業務AIにも「社員証」と「委任状」／DeNAのAI社員、会計システムで実務／LINEヤフー、誰でも作れるAI基盤／Microsoft、業務AIの監視と統制を強化</description>
   </item>
 </channel>
 </rss>
