@@ -6,6 +6,11 @@ set -e
 cd /Users/yamanakashuto/apps/luna-news
 source venv/bin/activate
 
+# npm版 codex(最新) を homebrew版(古い) より先に見せる。
+# launchd の PATH は /opt/homebrew/bin 先頭なので、ここで前置きしないと
+# 古い codex が選ばれ新モデルで 400 になる（2026-08-04 6日間停止の真因）。
+export PATH="$HOME/.npm-global/bin:$PATH"
+
 # 🔒 APIキーは直書き禁止（憲法§秘密番人）。値は launchd plist の EnvironmentVariables
 #    または手動実行時の ~/.zshrc から注入される。ここではデフォルト値を一切持たない。
 export ANTHROPIC_API_KEY="${ANTHROPIC_API_KEY}"
