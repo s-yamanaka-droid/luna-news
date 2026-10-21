@@ -7,6 +7,66 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。公開済みのAIニュースと実務への示唆をお届けします。</description>
   <language>ja</language>
   <item>
+    <title>PHPに認証不要で乗っ取れる重大脆弱性「php2shell」　AIで発見、8.5.12などで修正</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-22/story-1/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-22/story-1/</guid>
+    <description>PHPの開発チームは10月21日（日本時間同日23時）、認証なしで外部からコードを実行されるおそれがある重大な脆弱性2件を修正したPHP 8.5.12、8.4.27、8.3.36、8.2.35を公開し、すぐに更新するよう呼びかけた。脆弱性は「php2shell」と呼ばれ、OpenAIは同日、協力先のCalifが同社のAIモデル「GPT-5.6 Sol」を使って見つけたと発表した。</description>
+  </item>
+  <item>
+    <title>OpenAIのモデル、Google Cloudで提供開始　GPT-6 Astraなど3種を限定プレビュー</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-22/story-2/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-22/story-2/</guid>
+    <description>Google CloudとOpenAIは10月21日、OpenAIのモデルをGoogle Cloudの「model garden」で提供すると発表した。GPT-6 Astra、GPT-6.1 Sol、GPT-6 Lunaの3種を、一部の企業顧客向けの限定プレビューとして順次提供し始めた。</description>
+  </item>
+  <item>
+    <title>Anthropic、先回りするAI「Claude Duet」　米国Pro・Max向けに研究プレビュー</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-22/story-3/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-22/story-3/</guid>
+    <description>Anthropicは10月21日、Claudeが自分から必要な情報を知らせ、頼んだ作業を進める新アプリ「Claude Duet」を研究プレビューとして公開した。まずは米国のProとMaxの契約者を対象に、順番待ち（ウェイトリスト）で提供する。</description>
+  </item>
+  <item>
+    <title>Walmart、AIエージェントの買い物を受け入れ　MCPで「Agent Gateway」公開</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-22/story-4/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-22/story-4/</guid>
+    <description>米小売大手のWalmartは10月21日、利用者に代わってAIエージェントが買い物をするための仕組み「Walmart Agent Gateway」と、エージェントごとに購入を管理する「Agent Profiles」、エージェント向けの利用条件を発表した。Agent Gatewayは企業・開発者向けのベータとして始める。</description>
+  </item>
+  <item>
+    <title>NVIDIA、工場で組み立てるAI設備「DSX POD」　現地展開を最短14日に</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-22/story-5/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-22/story-5/</guid>
+    <description>NVIDIAは10月21日、ドイツで開いたGTC Berlinで、AI向けの計算設備をコンテナ単位で工場で組み上げる設計「DSX POD」を発表した。準備済みの現地への展開を、従来の6か月から最短14日に縮めるとしており、2027年初めから世界で提供する計画だ。</description>
+  </item>
+  <item>
+    <title>デジタル庁、「神Excel」を採点するツール「Harunobu」　AIで直す手順も紹介</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-22/story-6/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-22/story-6/</guid>
+    <description>デジタル庁は10月21日、ExcelやCSVのファイルが機械にとって読みやすいかを100点満点で採点するツール「Harunobu」を公式サイトで紹介した。GitHubで公開しており、採点結果を生成AIに渡してデータを整える手順も公式noteで示した。</description>
+  </item>
+  <item>
+    <title>IBM、音声認識「Granite Speech 5.0」公開　20億パラメータ、日本語対応</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-22/story-7/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-22/story-7/</guid>
+    <description>IBMは10月21日、音声の文字起こしと翻訳ができる公開モデル「Granite Speech 5.0」をHugging Faceで公開した。20億パラメータの「5.0-2b」は日本語を含む6言語の文字起こしに対応し、ライセンスは商用利用もできるApache 2.0。</description>
+  </item>
+  <item>
+    <title>PLAUD、スマホ不要のAIイヤホン「Plaud One」　4万4,000円で年内に数量限定発売</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-22/story-8/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-22/story-8/</guid>
+    <description>PLAUDは10月21日、充電ケースにeSIMを内蔵し、スマートフォンなしで録音のアップロードやAIへの依頼ができるイヤホン型の機器「Plaud One」を発表した。価格は4万4,000円（税込）で、2026年内に数量限定で発売する。</description>
+  </item>
+  <item>
+    <title>Inception、拡散型LLM「Mercury 3」　毎秒1,068トークンと発表</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-22/story-9/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-22/story-9/</guid>
+    <description>米Inceptionは10月19日、文章全体の下書きを何度も手直しして答えを作る「拡散型」の言語モデル「Mercury 3」を発表した。同社は、毎秒1,068トークンの速さでGPT-6 LunaやClaude Haiku 5.5と同等以上の品質だとしているが、第三者による検証は確認できていない。</description>
+  </item>
+  <item>
+    <title>Recursive、ノートPCで動く「Flint」公開　実働25億パラメータ</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-22/story-10/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-22/story-10/</guid>
+    <description>米AIスタートアップのRecursiveは10月21日、ノートPCでも動くコーディング向けの公開モデル「Flint」を発表した。同社は、自動で研究を進めるAIシステム「Eureka Machine」が開発のほぼすべての工程を手伝ったとしている。</description>
+  </item>
+  <item>
     <title>Google、車のGeminiに「Personal Intelligence」　Gmailや予定を踏まえて案内</title>
     <link>https://nowonair.vercel.app/articles/2026-10-21/story-1/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-21/story-1/</guid>
@@ -95,66 +155,6 @@
     <link>https://nowonair.vercel.app/articles/2026-10-20/story-6/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-20/story-6/</guid>
     <description>デジタル庁は10月20日、約18万人の政府職員が使う「ガバメントAI 源内」で、AIエージェントを使える環境の提供を始めたと発表した。あわせて、利用者・管理者・開発者が守るべき事項をまとめた「源内基準」を公表した。</description>
-  </item>
-  <item>
-    <title>Anthropic、株式の5%を公益ファンドに　企業価値の上昇に応じて上乗せも</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-20/story-7/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-20/story-7/</guid>
-    <description>Anthropicは10月18日、自社株式の5%を新たに設ける「Anthropic Public Benefit Fund」に充てると発表した。株主の承認が条件で、企業価値が一定の基準を超えて上がるごとに取締役会の判断で割合を増やす仕組みも示した。</description>
-  </item>
-  <item>
-    <title>DeepSeek、「V4.1-Flash-1017」を公開　重みはMITライセンス、検索APIも全利用者に</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-20/story-8/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-20/story-8/</guid>
-    <description>中国のDeepSeekは10月17日、AIモデル「DeepSeek-V4.1-Flash-1017」を公開した。Webサイト、アプリ、APIで使えるようにし、モデルの重みもHugging FaceとModelScopeで公開した。あわせて、自社の検索エンジンを使う検索・取得APIを全利用者に開放した。</description>
-  </item>
-  <item>
-    <title>Replit、自社のクラウドで開発・公開できる「BYOC」　企業向けにプレビュー</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-20/story-9/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-20/story-9/</guid>
-    <description>AIでアプリを作れる開発サービスのReplitは10月16日、企業が自社のAWS、Google Cloud、Microsoft Azureの環境でReplitの開発や公開を動かせる「Bring Your Own Cloud（BYOC）」を発表した。3つの方式があり、いずれも企業顧客向けのプレビューや早期提供の段階だ。</description>
-  </item>
-  <item>
-    <title>Cloudflare、社内AIコードレビューの費用を68%削減　1回2.43ドルから0.77ドルに</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-20/story-10/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-20/story-10/</guid>
-    <description>Cloudflareは10月19日、社内で使うAIコードレビューの1回あたりの平均費用を2.43ドルから0.77ドルへ、68%減らした取り組みを公式ブログで公開した。プロンプトのキャッシュの使い方や、モデルと推論の強さの選び方を見直したという。</description>
-  </item>
-  <item>
-    <title>Microsoft、AIエージェントの隔離環境「MXC」をWindows 11で一般提供</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-15/story-1/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-15/story-1/</guid>
-    <description>Microsoftは10月7日、AIエージェントが使えるファイルや通信先をポリシーで決め、実行時に強制する「Microsoft Execution Containers（MXC）」の一般提供を発表した。</description>
-  </item>
-  <item>
-    <title>茨木市とNTT西日本、小中学校で校務AIを実証　国産LLMをオンプレミスで運用</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-15/story-2/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-15/story-2/</guid>
-    <description>大阪府茨木市とNTT西日本は10月13日、NTTの大規模言語モデル「tsuzumi 2」を使い、校務文書の検索・要約や文書作成を支援する実証を市立の一部小中学校で始めた。期間は2027年3月31日まで。</description>
-  </item>
-  <item>
-    <title>Claude Codeのデスクトップアプリ、複数セッションの並行作業を改善</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-15/story-3/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-15/story-3/</guid>
-    <description>Anthropicの開発者向けXアカウントClaudeDevsは10月14日、Claude Codeのデスクトップアプリで、複数のセッションを並べて進めやすくする改善を案内した。</description>
-  </item>
-  <item>
-    <title>続報：Gemini 4 Argonの安全対策　Googleが3層の防御と監視を公表</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-15/story-4/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-15/story-4/</guid>
-    <description>前号で伝えたGemini 4 Argonについて、Googleは10月13日、安全対策の概要を公表した。模擬サイバー攻撃12件をすべて解けるほど能力が上がったため、入力の審査、内部信号の検知、継続監視の3層で悪用を防ぐという。</description>
-  </item>
-  <item>
-    <title>Google、Gemini 4 ArgonをAPIで一般提供　導入価格は11月30日まで</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-14/story-1/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-14/story-1/</guid>
-    <description>GoogleはGemini 4 Argonを、AI StudioとGemini platformのAPIで開発者・企業向けに一般提供した。導入価格は100万トークンあたり入力2ドル・出力10ドルで、11月30日まで。</description>
-  </item>
-  <item>
-    <title>Anthropic、AI悪用の事例を公開　サイバー攻撃・監視・詐欺など7領域</title>
-    <link>https://nowonair.vercel.app/articles/2026-09-14/story-1/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-09-14/story-1/</guid>
-    <description>Anthropicが2025年12月〜2026年8月に妨害したAI悪用事例を報告。サイバー攻撃・監視・詐欺など7領域を扱う。</description>
   </item>
 </channel>
 </rss>
