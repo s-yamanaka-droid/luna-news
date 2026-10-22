@@ -145,7 +145,10 @@ class AioSocialTests(unittest.TestCase):
         self.assertIn('href="/articles/2026-09-14/story-1/"', issue)
         rss = ElementTree.parse(ROOT / "docs/feed.xml")
         links = [node.text for node in rss.findall(".//item/link")]
-        self.assertIn("https://nowonair.vercel.app/articles/2026-09-14/story-1/", links)
+        # The feed keeps only the latest items, so check the permalink form rather than one old story.
+        self.assertTrue(links)
+        for url in links:
+            self.assertRegex(url, r"^https://nowonair\.vercel\.app/articles/\d{4}-\d{2}-\d{2}/story-\d+/$")
 
     def test_freshness_report_is_explicitly_a_build_snapshot(self):
         report = json.loads((ROOT / "docs/health.json").read_text())
