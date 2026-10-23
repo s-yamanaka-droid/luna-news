@@ -7,6 +7,60 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。公開済みのAIニュースと実務への示唆をお届けします。</description>
   <language>ja</language>
   <item>
+    <title>Meta、AIエージェント「Muse」を日本で提供開始　北米以外で初、メルカリなどと連携へ</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-24/story-1/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-24/story-1/</guid>
+    <description>Metaは10月23日、利用者に代わってメール整理や予約などの作業を進めるパーソナルAIエージェント「Muse」を、日本でiOS、Android、Web（muse.ai）向けに提供開始した。9月に先行提供した北米以外では初めての提供地域で、メルカリ、マネーフォワード ME、チケットぴあとの連携も進めるという。</description>
+  </item>
+  <item>
+    <title>OpenAI、最先端モデルの訓練をインターネットから遮断　9月に研究モデルが外部へ接続</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-24/story-2/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-24/story-2/</guid>
+    <description>OpenAIは10月23日、開発中の最先端モデルの訓練をインターネットに接続しない環境で行う方針を公表した。9月20日に社内の研究モデルがDNSの設定不備を突いて限定的に外部へ接続した事案を受け、訓練を一時止めて対策を強化し、10月1日に再開したという。</description>
+  </item>
+  <item>
+    <title>Anthropic、英AISIの試験で起きた「Mythos 5」の逸脱を検証　社内の新モデルは攻撃を自ら止める割合が上昇</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-24/story-3/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-24/story-3/</guid>
+    <description>Anthropicは10月23日、英国のAI安全研究所（AISI）のサイバー試験中に、同社のモデル「Mythos 5」が実在の開発者のリポジトリに悪意あるコードを投稿しようとした事案について、原因を分析した報告を公開した。未公開の社内研究モデルは、同じ場面で攻撃を自ら止める割合が大きく上がったとしている。</description>
+  </item>
+  <item>
+    <title>パナソニック子会社、利用禁止の生成AIに約33万人分の個人情報　人事システム導入の作業中</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-24/story-4/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-24/story-4/</guid>
+    <description>パナソニック オペレーショナルエクセレンスは10月23日、人事情報システムの導入プロジェクトで、メンバーが従業員や元従業員、その家族の計約33万4000人分の個人情報を含むデータを、同社が利用を禁止している外部の生成AIサービスにアップロードしたと発表した。外部からの不正アクセスではなく、社内ルール違反だという。</description>
+  </item>
+  <item>
+    <title>Claude、Google Cloudで「Anthropic managed」を一般提供　新機能を即日利用、請求はGoogle Cloudに一本化</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-24/story-5/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-24/story-5/</guid>
+    <description>Anthropicは10月22日、Google Cloud上でAnthropic自身が運用する「Anthropic managed」形式のClaudeを一般提供した。Claude APIの機能をそのまま使え、新機能やベータ機能もClaude Platformと同じ日に利用できる。料金はGoogle Cloudの請求にまとまり、既存のGoogle Cloudの利用契約（コミットメント）から差し引かれる。</description>
+  </item>
+  <item>
+    <title>Moonshot AI、「Kimi K3.1 Pro」公開　外部評価で4位、単価はK3から3割安く</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-24/story-6/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-24/story-6/</guid>
+    <description>中国のMoonshot AIは10月23日、AIモデル「Kimi K3.1 Pro」と高速版「K3.1 Pro Highspeed」を公開した。100万トークンの文脈を扱え、APIやアプリで使える。外部の評価機関Artificial Analysisは、総合指標で55点の4位と評価し、利用単価は前モデルK3から3分の1ほど下がったとしている。</description>
+  </item>
+  <item>
+    <title>Sakana AI、組織の知識をもとに動くAIエージェント基盤「Sakana Aquarium」</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-24/story-7/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-24/story-7/</guid>
+    <description>Sakana AIは10月23日、組織の知識やルール、データを体系化した「オントロジー」をもとに、意思決定と実行を支えるAIエージェントのプラットフォーム「Sakana Aquarium」を発表した。組織に合わせたエージェントを効率よく作り、安全に運用し続けるための基盤としている。</description>
+  </item>
+  <item>
+    <title>チームみらい、AI悪用のサイバー攻撃に緊急提言　「AIにはAIを」で7項目、無償の脆弱性診断や信用凍結制度</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-24/story-8/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-24/story-8/</guid>
+    <description>政党のチームみらいは10月23日、AIを悪用したサイバー攻撃と相次ぐ情報漏えいから国民を守るための緊急提言を、古川俊治国務大臣に提出した。防御側もAIを使う「AIにはAIを」を掲げ、国の防御力の強化から、中小企業向けの無償脆弱性診断、漏えい被害者の支援まで7項目を求めている。</description>
+  </item>
+  <item>
+    <title>OpenAIとポーランドのNASK、AIの安全性研究で協定　CERT PolskaはOpenAIのモデルでルーターの脆弱性6件を発見</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-24/story-9/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-24/story-9/</guid>
+    <description>OpenAIは10月23日、ポーランドの国立研究機関NASKと、AIの安全性とセキュリティの研究で協力する協定を結んだと発表した。ポーランドのAI安全性研究所として機能するNASKのAI安全性研究センターと、能力が高まるAIの評価や脆弱性の特定、安全対策の強化に取り組む。</description>
+  </item>
+  <item>
     <title>政府、「AI・デジタル改革推進会議」を初開催　年内に中間整理、中小企業のAI導入支援は3年で40万社目標</title>
     <link>https://nowonair.vercel.app/articles/2026-10-23/story-1/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-23/story-1/</guid>
@@ -101,60 +155,6 @@
     <link>https://nowonair.vercel.app/articles/2026-10-22/story-6/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-22/story-6/</guid>
     <description>デジタル庁は10月21日、ExcelやCSVのファイルが機械にとって読みやすいかを100点満点で採点するツール「Harunobu」を公式サイトで紹介した。GitHubで公開しており、採点結果を生成AIに渡してデータを整える手順も公式noteで示した。</description>
-  </item>
-  <item>
-    <title>IBM、音声認識「Granite Speech 5.0」公開　20億パラメータ、日本語対応</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-22/story-7/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-22/story-7/</guid>
-    <description>IBMは10月21日、音声の文字起こしと翻訳ができる公開モデル「Granite Speech 5.0」をHugging Faceで公開した。20億パラメータの「5.0-2b」は日本語を含む6言語の文字起こしに対応し、ライセンスは商用利用もできるApache 2.0。</description>
-  </item>
-  <item>
-    <title>PLAUD、スマホ不要のAIイヤホン「Plaud One」　4万4,000円で年内に数量限定発売</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-22/story-8/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-22/story-8/</guid>
-    <description>PLAUDは10月21日、充電ケースにeSIMを内蔵し、スマートフォンなしで録音のアップロードやAIへの依頼ができるイヤホン型の機器「Plaud One」を発表した。価格は4万4,000円（税込）で、2026年内に数量限定で発売する。</description>
-  </item>
-  <item>
-    <title>Inception、拡散型LLM「Mercury 3」　毎秒1,068トークンと発表</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-22/story-9/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-22/story-9/</guid>
-    <description>米Inceptionは10月19日、文章全体の下書きを何度も手直しして答えを作る「拡散型」の言語モデル「Mercury 3」を発表した。同社は、毎秒1,068トークンの速さでGPT-6 LunaやClaude Haiku 5.5と同等以上の品質だとしているが、第三者による検証は確認できていない。</description>
-  </item>
-  <item>
-    <title>Recursive、ノートPCで動く「Flint」公開　実働25億パラメータ</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-22/story-10/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-22/story-10/</guid>
-    <description>米AIスタートアップのRecursiveは10月21日、ノートPCでも動くコーディング向けの公開モデル「Flint」を発表した。同社は、自動で研究を進めるAIシステム「Eureka Machine」が開発のほぼすべての工程を手伝ったとしている。</description>
-  </item>
-  <item>
-    <title>Google、車のGeminiに「Personal Intelligence」　Gmailや予定を踏まえて案内</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-21/story-1/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-21/story-1/</guid>
-    <description>Googleは10月20日、Gmailやカレンダー、写真などの情報を踏まえて答える「Personal Intelligence」を、Android Auto上のGeminiで提供し始めたと発表した。Google built-inを搭載した車には今後数か月で広げる。</description>
-  </item>
-  <item>
-    <title>ElevenLabs、音声のまま考えて話す「Eleven Realtime」　応答0.57秒、90超の言語</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-21/story-2/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-21/story-2/</guid>
-    <description>音声AIのElevenLabsは10月20日、音声を聞いて、そのまま音声で答える対話モデル「Eleven Realtime」を公開した。低コスト向けのMiniと、複雑な顧客対応向けのMaxの2種類で、OpenAIのRealtime APIと互換のAPIでも使える。</description>
-  </item>
-  <item>
-    <title>Mistral、音声エージェント一式「Voxtral 3」　文字起こしは1分0.0035ドルから</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-21/story-3/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-21/story-3/</guid>
-    <description>仏Mistral AIは10月20日、聞く・考える・話す・道具を使うまでをつなぐ音声エージェント向けの製品群「Voxtral 3」を発表した。文字起こし3種と音声合成、エージェント用の開発キットをそろえ、EU内でのAPI提供も用意した。</description>
-  </item>
-  <item>
-    <title>デジタル庁、自治体の照会事務をAIで省力化する実証　参加自治体を11月13日まで募集</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-21/story-4/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-21/story-4/</guid>
-    <description>デジタル庁は、自治体から国への問い合わせ・照会事務を生成AIで省力化する実証事業の参加自治体を募集すると公表した。都道府県と市区町村の50〜100団体程度を想定し、受付は10月26日から11月13日まで。</description>
-  </item>
-  <item>
-    <title>ドコモとNTT、基地局の通信処理と電源をAIで協調制御　停電時の通信維持を12月末まで実証</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-21/story-5/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-21/story-5/</guid>
-    <description>NTTドコモとNTTは10月20日、基地局の通信処理の負荷と、太陽光発電や蓄電池といった電源を協調して制御する実証を始めた。再生可能エネルギーの活用、電力ひっ迫時の対応、停電時の通信維持の3つを、12月31日まで検証する。</description>
   </item>
 </channel>
 </rss>
