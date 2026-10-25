@@ -1,0 +1,318 @@
+[
+  {
+    "updated_at": "2026-10-26",
+    "verified_at": "2026-10-26",
+    "article_kind": "news",
+    "title": "創薬AIのPathos、2億3,700万ドルを調達　評価額約30億ドル、BMSが主導",
+    "category": "業界動向",
+    "source": "Pathos AI",
+    "published_at": "2026-10-23",
+    "lede": "米Pathos AIは10月23日、シリーズEで2億3,700万ドルを調達したと発表した。調達後の企業価値は約30億ドルで、米製薬大手Bristol Myers Squibb（BMS）が主導した。多数のAIエージェントで医薬品開発のデータを集約する自社基盤「Foundry」の拡大と、がん領域の臨床開発に充てる。",
+    "links": [
+      "https://www.pathos.com/pathos-ai-secures-237-million-in-series-e-financing-to-scale-agentic-ai-drug-development-platform-and-advance-oncology-pipeline"
+    ],
+    "keypoints": [
+      "シリーズEで2億3,700万ドルを調達。調達後の企業価値は約30億ドル。BMSが主導し、既存投資家も参加した",
+      "自社基盤「Foundry」は、臨床・ゲノム・検体・競合状況のデータを「数千の専門AIエージェント」がリアルタイムに集約するという（同社の説明）",
+      "資金はFoundryの拡大と、がん領域の臨床段階にある4つの開発品に使う。最優先はTROP2/HER3二重特異性抗体薬物複合体「JSKN016」",
+      "同日、Tempus AI・BMSとアルツハイマー病など神経領域で協業。PathosはTempusのデータを5年間・5,500万ドルでライセンスする"
+    ],
+    "editorial_diagram": {
+      "kicker": "Pathos AIの発表 / AIエージェントで創薬",
+      "title": "2億3,700万ドルで何を進める？",
+      "lead": "Pathos AIの発表から、調達・基盤・協業の3点を整理した。",
+      "examples": [
+        [
+          "シリーズEの調達",
+          "2億3,700万ドルを調達し、企業価値は約30億ドル。BMSが主導した。"
+        ],
+        [
+          "基盤「Foundry」",
+          "数千の専門AIエージェントが臨床・ゲノム・競合のデータを集約するという。"
+        ],
+        [
+          "神経領域の協業",
+          "Tempusの患者データを5年・5,500万ドルでライセンスし、BMSにFoundryを提供する。"
+        ]
+      ],
+      "note": "Pathos AIのプレスリリース（2026年10月23日）から編集部が図にしたもの。AIの性能に関する記述は同社の説明。図は模式表現です。",
+      "source_url": "https://www.pathos.com/pathos-ai-secures-237-million-in-series-e-financing-to-scale-agentic-ai-drug-development-platform-and-advance-oncology-pipeline",
+      "wide": "/assets/illustrations/2026-10-26-story-1-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-10-26-story-1-diagram-mobile.webp",
+      "alt": "シリーズEの調達：2億3,700万ドルを調達し、企業価値は約30億ドル。BMSが主導した。、基盤「Foundry」：数千の専門AIエージェントが臨床・ゲノム・競合のデータを集約するという。、神経領域の協業：Tempusの患者データを5年・5,500万ドルでライセンスし、BMSにFoundryを提供する。"
+    },
+    "body": [
+      {
+        "heading": "BMS主導でシリーズEを調達",
+        "paragraphs": [
+          "Pathos AIは10月23日、シリーズEで2億3,700万ドルを調達したと発表した。調達後の企業価値は約30億ドルで、BMSが主導し、既存の投資家も参加した。他の参加投資家の顔ぶれは発表文に記載がなく、本誌では未確認。",
+          "資金は、自社のAI基盤「Foundry」の拡大と、がん領域の臨床段階にある4つの開発品に充てる。最優先とするのはTROP2/HER3二重特異性の抗体薬物複合体「JSKN016」で、承認申請に向けた試験へ進めるとしている。ほかに前立腺がんなどを対象とする「pocenbrodib」、AstraZenecaと提携するER PROTAC「AZD4241」、METキナーゼ阻害剤「DO-2」がある。"
+        ]
+      },
+      {
+        "heading": "数千のAIエージェントでデータを集約",
+        "paragraphs": [
+          "同社によると、Foundryは「数千の専門AIエージェント」を使い、開発中の薬について臨床データ、ゲノム、生体検体のデータ、競合状況をリアルタイムに集約する。CEOのIker Huerga氏は、医薬品開発の成功確率を体系的に高める基盤をつくると述べた。エージェントの具体的な数や効果の数字は示されておらず、性能は同社の説明にとどまる。",
+          "同日には、Tempus AI・BMSとの神経領域での協業も発表した。Tempusが数十万人規模の神経疾患患者の匿名化された長期データセットを構築し、Pathosはそれを5年間・5,500万ドルでライセンスする。BMSはFoundryを幅広い開発品で非独占的に使えるほか、神経領域の開発では3年間の独占的な利用権を得る。BMS側の金額は開示されていない。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜「エージェントを何に使うか」が資金を呼ぶ",
+        "paragraphs": [
+          "今回の調達は、AIエージェントそのものではなく、創薬の判断に必要なデータを集めて整理する仕組みに大手製薬が資金を出した例といえる。BMSが投資家であると同時に、Foundryの利用者にもなる点が特徴だ。",
+          "業種は違っても、社内外に散らばったデータをエージェントに集めさせ、人の判断を支える構成は一般企業にも応用しやすい。本誌は、まず判断の前に毎回集めている情報を洗い出すことを勧める。これは本誌の提案で、Pathosの推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "自社で判断の前に毎回集めている情報と、その取得元を一覧にする",
+      "AIエージェントにデータ集約を任せる場合の、元データの権利や匿名化の条件を確認する",
+      "Foundryの成果（開発品の進み具合）を今後の発表で追う"
+    ],
+    "service": "fde",
+    "pull": "大手製薬が出資したのは、AIでデータを集めて判断を支える仕組みだった。",
+    "hero_image": "/assets/illustrations/2026-10-26-story-1-cast.webp",
+    "hero_image_alt": "創薬AIの図表に驚くラッコと首をかしげる茶トラ猫、読書を装い横目で二匹をうかがうアザラシ。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-10-26-story-1.png"
+  },
+  {
+    "updated_at": "2026-10-26",
+    "verified_at": "2026-10-26",
+    "article_kind": "news",
+    "title": "GitHub、Teamsの通知からCopilotに修正を頼めるように　旧アプリは11月16日に終了",
+    "category": "ツール更新",
+    "source": "GitHub",
+    "published_at": "2026-10-23",
+    "lede": "GitHubは10月23日、Microsoft Teams向けアプリにCopilotを統合したと発表した。Teamsに届いた通知に対して「@GitHub」と呼びかけると、Copilotが調査や修正を行い、プルリクエストまで作る。従来の「GitHub notifications」アプリを1つにまとめ、旧アプリは11月16日に終了する。",
+    "links": [
+      "https://github.blog/changelog/2026-10-23-turn-notifications-into-code-with-github-copilot-in-teams"
+    ],
+    "keypoints": [
+      "Teams向けの「GitHub app」が、通知機能とCopilotを1つのアプリにまとめた",
+      "チャネル・グループチャット・個人チャットで通知を受け、@GitHubと呼びかけてCopilotに作業を頼める",
+      "例として、Teamsに届いたバグ報告をCopilotが調べて直し、プルリクエストを開く流れを示した",
+      "旧アプリは「GitHub (deprecated)」に名前が変わり、11月16日に終了する。対象プランや提供段階は発表に記載がない"
+    ],
+    "editorial_diagram": {
+      "kicker": "GitHubの発表 / TeamsでCopilot",
+      "title": "Teamsの通知から修正まで",
+      "lead": "GitHubが示した使い方と移行の注意点を3つにまとめた。",
+      "examples": [
+        [
+          "通知を受ける",
+          "チャネルやチャットに、GitHubの通知がこれまでどおり届く。"
+        ],
+        [
+          "@GitHubで頼む",
+          "通知に対して呼びかけると、Copilotが調査・修正し、プルリクエストを開く。"
+        ],
+        [
+          "旧アプリの終了",
+          "旧アプリは11月16日に終了。続けて使うには統合版アプリを入れる。"
+        ]
+      ],
+      "note": "GitHub Changelog（2026年10月23日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://github.blog/changelog/2026-10-23-turn-notifications-into-code-with-github-copilot-in-teams",
+      "wide": "/assets/illustrations/2026-10-26-story-2-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-10-26-story-2-diagram-mobile.webp",
+      "alt": "通知を受ける：チャネルやチャットに、GitHubの通知がこれまでどおり届く。、@GitHubで頼む：通知に対して呼びかけると、Copilotが調査・修正し、プルリクエストを開く。、旧アプリの終了：旧アプリは11月16日に終了。続けて使うには統合版アプリを入れる。"
+    },
+    "body": [
+      {
+        "heading": "通知とCopilotを1つのアプリに",
+        "paragraphs": [
+          "GitHubは10月23日、Microsoft Teams向けのアプリを更新し、これまで「GitHub notifications」と呼んでいた通知アプリにCopilotを統合したと発表した。利用者はチャネル、グループチャット、個人チャットでGitHubの通知を受け取り、その場で「@GitHub」と呼びかけて作業を頼める。",
+          "GitHubは使い方の例として、Teamsに届いたバグ報告に対し、Copilotが原因を調べて修正し、チームが確認・テスト・マージできるプルリクエストを開く流れを示した。"
+        ]
+      },
+      {
+        "heading": "旧アプリは11月16日に終了",
+        "paragraphs": [
+          "すでにGitHub notificationsを入れている場合は、最新版に更新すれば通知機能はそのまま使える。旧来の「GitHub」アプリを使っている場合は統合版を入れる必要があり、旧アプリは「GitHub (deprecated)」に名前が変わって11月16日に終了する。",
+          "統合版では、@GitHubと呼びかけたあと案内に従ってGitHubアカウントをつなぎ、リポジトリを選ぶ。どのCopilotプランで使えるか、プレビューか一般提供かは発表に記載がなく、本誌では未確認。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜会話の場から直接AIに渡す",
+        "paragraphs": [
+          "不具合の報告はTeamsやSlackのような会話の場に届くことが多い。今回の更新で、報告を受けた場所からそのままAIに調査と修正を頼めるようになり、開発の窓口を行き来する手間が減る。",
+          "一方で、チャットから誰でもリポジトリへの変更を頼めるようになるため、どのチャネルからの依頼を受け付けるか、プルリクエストを誰が確認するかを先に決めておく必要がある。これは本誌の提案で、GitHubの推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "Teamsで旧「GitHub」アプリを使っていないか確認し、11月16日までに統合版へ移る",
+      "Copilotに作業を頼めるチャネルと、プルリクエストの確認担当を決める",
+      "自社のCopilotプランで使えるかを管理画面や公式ドキュメントで確かめる"
+    ],
+    "service": "fde",
+    "pull": "バグ報告が届いたチャットで、そのままAIに直しを頼む。",
+    "hero_image": "/assets/illustrations/2026-10-26-story-2-cast.webp",
+    "hero_image_alt": "通知から修正へつながる画面に驚くラッコと、首を傾げて質問する猫を、読書中のアザラシが横目で見ている。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-10-26-story-2.png"
+  },
+  {
+    "updated_at": "2026-10-26",
+    "verified_at": "2026-10-26",
+    "article_kind": "news",
+    "title": "Amazon Bedrockのウェブ検索、参照先を最大100ドメインまで指定・除外　利用者の地域も指定可能に",
+    "category": "ツール更新",
+    "source": "AWS",
+    "published_at": "2026-10-23",
+    "lede": "AWSは10月23日、Amazon Bedrockの「Web Search」に、検索先ドメインの指定・除外と、利用者の地域を指定する機能を追加した。AIの回答の根拠になる検索結果を、信頼できるサイトや地域に合わせて絞り込める。",
+    "links": [
+      "https://aws.amazon.com/about-aws/whats-new/2026/10/bedrock-web-search-domain-user-location/"
+    ],
+    "keypoints": [
+      "ドメイン絞り込み：許可するドメインを最大100件、または除外するドメインを最大100件指定できる",
+      "利用者の地域：位置の情報を指定し、地域の在庫や地元のサービスなどに合った検索結果を得られる",
+      "どちらも、OpenAI Responses API形式のリクエストの「web_search」ツールで設定する",
+      "対象は米国東部（バージニア北部、オハイオ）、米国西部（オレゴン）、AWS GovCloud（米国西部）。料金は料金ページを参照"
+    ],
+    "editorial_diagram": {
+      "kicker": "AWSの発表 / Bedrockのウェブ検索",
+      "title": "AIが見るサイトを絞る",
+      "lead": "今回追加された2つの設定と使える地域をまとめた。",
+      "examples": [
+        [
+          "ドメインを指定",
+          "参照してよいサイトを最大100件、または除外するサイトを最大100件指定する。"
+        ],
+        [
+          "地域を指定",
+          "利用者の位置を指定し、その地域に合った検索結果で回答させる。"
+        ],
+        [
+          "使えるリージョン",
+          "米国東部・米国西部とGovCloud（米国西部）。日本のリージョンは対象外。"
+        ]
+      ],
+      "note": "AWS What's New（2026年10月23日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/10/bedrock-web-search-domain-user-location/",
+      "wide": "/assets/illustrations/2026-10-26-story-3-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-10-26-story-3-diagram-mobile.webp",
+      "alt": "ドメインを指定：参照してよいサイトを最大100件、または除外するサイトを最大100件指定する。、地域を指定：利用者の位置を指定し、その地域に合った検索結果で回答させる。、使えるリージョン：米国東部・米国西部とGovCloud（米国西部）。日本のリージョンは対象外。"
+    },
+    "body": [
+      {
+        "heading": "検索先を許可・除外のリストで管理",
+        "paragraphs": [
+          "AWSは10月23日、Amazon BedrockのWeb Searchに2つの設定を追加したと発表した。1つはドメインによる絞り込みで、filtersパラメーターに許可するドメイン（allowed_domains）を最大100件、または除外するドメイン（blocked_domains）を最大100件指定できる。",
+          "もう1つは利用者の地域の指定で、位置の情報を任意で渡すと、地域ごとの在庫や地元のサービスなど、その地域に合った検索結果をもとに回答させられる。"
+        ]
+      },
+      {
+        "heading": "既存のリクエストに設定を足すだけ",
+        "paragraphs": [
+          "どちらの設定も、OpenAI Responses API形式のリクエストに含まれるweb_searchツールに直接書く。使えるのはWeb Searchが提供されている米国東部（バージニア北部）、米国東部（オハイオ）、米国西部（オレゴン）、AWS GovCloud（米国西部）で、東京リージョンは含まれていない。",
+          "料金は発表に記載がなく、Amazon Bedrockの料金ページを参照するよう案内している。対応するモデルの一覧も発表には書かれていない。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜「どこを見て答えたか」を管理する",
+        "paragraphs": [
+          "AIにウェブ検索させると、根拠の質が検索結果に左右される。参照してよいサイトを100件まで決められれば、社内向けの回答を公的機関や自社サイト、取引先の公式情報に限るといった使い方ができる。",
+          "ただし現時点で使えるのは米国のリージョンだけで、日本のデータを国内で扱う必要がある場合は使えない。本誌は、まず回答の根拠にしてよいサイトの一覧を作ることを勧める。これは本誌の提案で、AWSの推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "AIの回答で根拠にしてよいサイト、使ってはいけないサイトの一覧を作る",
+      "米国リージョンでの処理が自社のデータ方針に合うか確認する",
+      "Bedrockの料金ページでWeb Searchの課金条件を確かめる"
+    ],
+    "service": "fde",
+    "pull": "AIが答えの根拠にするサイトを、100件のリストで決められる。",
+    "hero_image": "/assets/illustrations/2026-10-26-story-3-cast.webp",
+    "hero_image_alt": "検索先の選別と地域指定を示す画面にラッコが驚き、猫が手を上げて尋ね、アザラシが本越しに横目でうかがう。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-10-26-story-3.png"
+  },
+  {
+    "updated_at": "2026-10-26",
+    "verified_at": "2026-10-26",
+    "article_kind": "news",
+    "title": "GitHub Copilotの利用状況API、ツール別の集計に対応　Claude Code・Codex・OpenCodeなどからの利用も",
+    "category": "ツール更新",
+    "source": "GitHub",
+    "published_at": "2026-10-23",
+    "lede": "GitHubは10月23日、Copilotの利用状況を取得するAPIに、どのツールから使われたかを集計する項目を追加した。これまで拾えなかったOpenCodeなどエディタ外のツールからの利用も、リクエスト数やトークン数として見られる。",
+    "links": [
+      "https://github.blog/changelog/2026-10-23-usage-metrics-api-adds-usage-from-tools-like-opencode"
+    ],
+    "keypoints": [
+      "新しい項目「totals_by_client」を、企業・組織・ユーザー単位の1日と28日のレポートに追加した",
+      "集計するツールはOpenCode、Claude Code、Codex、Zed、Copilot CLI、VS Code、JetBrainsなど。判別できないものは「other」",
+      "ツールごとにリクエスト数、セッション数、トークン数を出し、モデル別の内訳も見られる",
+      "ツールの判別は各リクエストが送る連携IDによる「ベストエフォート」で、本人確認済みの区分ではない"
+    ],
+    "editorial_diagram": {
+      "kicker": "GitHubの発表 / Copilotの利用状況API",
+      "title": "誰がどのツールでCopilotを使ったか",
+      "lead": "追加された集計項目と、読むときの注意点を3つに整理した。",
+      "examples": [
+        [
+          "ツール別に集計",
+          "OpenCode、Claude Code、Codex、VS Codeなど、どのツールからの利用かを分けて出す。"
+        ],
+        [
+          "量をトークンで見る",
+          "リクエスト数・セッション数・トークン数を、モデル別の内訳とあわせて見られる。"
+        ],
+        [
+          "数字の読み方",
+          "リクエスト数はモデル呼び出しの回数で、指示の回数とは一致しない。"
+        ]
+      ],
+      "note": "GitHub Changelog（2026年10月23日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://github.blog/changelog/2026-10-23-usage-metrics-api-adds-usage-from-tools-like-opencode",
+      "wide": "/assets/illustrations/2026-10-26-story-4-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-10-26-story-4-diagram-mobile.webp",
+      "alt": "ツール別に集計：OpenCode、Claude Code、Codex、VS Codeなど、どのツールからの利用かを分けて出す。、量をトークンで見る：リクエスト数・セッション数・トークン数を、モデル別の内訳とあわせて見られる。、数字の読み方：リクエスト数はモデル呼び出しの回数で、指示の回数とは一致しない。"
+    },
+    "body": [
+      {
+        "heading": "エディタ外の利用も見えるように",
+        "paragraphs": [
+          "GitHubは10月23日、Copilotの利用状況メトリクスAPIに「totals_by_client」という項目を追加したと発表した。企業・組織、企業内ユーザー・組織内ユーザーの各レポートの1日版と28日版に入る。",
+          "これまでの「totals_by_ide」はエディタから送られる情報に頼っていたため、エディタの外で動くツールの利用は数えられていなかった。今回はサーバー側でリクエストを数えるため、OpenCodeのようなツールの利用も含まれる。集計対象として、opencode、claude_code、codex、zed、copilot_cli、github_app、cloud_agent、code_review、vscode、jetbrainsを挙げている。"
+        ]
+      },
+      {
+        "heading": "トークン数やモデル別の内訳も",
+        "paragraphs": [
+          "ツールごとに、成功したモデルへのリクエスト数、セッション数、トークン数（入力・出力・1リクエストあたりの平均）を出す。モデル別の内訳では、利用者が選んだモデルか、自動選択か、製品側が決めたモデルかも区別する。",
+          "閲覧できるのは企業のオーナーや請求管理者、組織のオーナー、「View Copilot Metrics」権限を持つカスタムロールで、利用状況メトリクスのポリシーを有効にしておく必要がある。GitHubは、リクエスト数はモデルの呼び出し回数で指示の回数とは比べられないこと、ツールの判別はベストエフォートであることを注意点として挙げている。既存の項目は変わらない。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜AIツールの「実際の使われ方」を数字で見る",
+        "paragraphs": [
+          "社内で複数のAIコーディングツールを使い分けると、どれがどれだけ使われているかが見えにくくなる。今回の項目追加で、Copilotの契約の中で各ツールがどれだけトークンを使ったかを比べられるようになる。",
+          "ただしツールの判別は自己申告に近い仕組みで、数字は目安として扱うのが無難だ。本誌は、ライセンスの見直しや利用ルールづくりの前に、まず1カ月分の数字を取って傾向を見ることを勧める。これは本誌の提案で、GitHubの推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "Copilotの利用状況メトリクスのポリシーが有効か確認する",
+      "totals_by_clientで1カ月分のツール別利用量を取り、使われ方の傾向を見る",
+      "リクエスト数を「指示の回数」と取り違えないよう、社内の報告で定義をそろえる"
+    ],
+    "service": "luna",
+    "pull": "どのAIツールがCopilotをどれだけ使ったかを、トークン数で比べられる。",
+    "hero_image": "/assets/illustrations/2026-10-26-story-4-cast.webp",
+    "hero_image_alt": "ツール別の利用グラフに驚くラッコと、首をかしげて指す猫、読書を装い横目で見るアザラシ。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-10-26-story-4.png"
+  }
+]

@@ -7,6 +7,30 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。公開済みのAIニュースと実務への示唆をお届けします。</description>
   <language>ja</language>
   <item>
+    <title>創薬AIのPathos、2億3,700万ドルを調達　評価額約30億ドル、BMSが主導</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-26/story-1/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-26/story-1/</guid>
+    <description>米Pathos AIは10月23日、シリーズEで2億3,700万ドルを調達したと発表した。調達後の企業価値は約30億ドルで、米製薬大手Bristol Myers Squibb（BMS）が主導した。多数のAIエージェントで医薬品開発のデータを集約する自社基盤「Foundry」の拡大と、がん領域の臨床開発に充てる。</description>
+  </item>
+  <item>
+    <title>GitHub、Teamsの通知からCopilotに修正を頼めるように　旧アプリは11月16日に終了</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-26/story-2/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-26/story-2/</guid>
+    <description>GitHubは10月23日、Microsoft Teams向けアプリにCopilotを統合したと発表した。Teamsに届いた通知に対して「@GitHub」と呼びかけると、Copilotが調査や修正を行い、プルリクエストまで作る。従来の「GitHub notifications」アプリを1つにまとめ、旧アプリは11月16日に終了する。</description>
+  </item>
+  <item>
+    <title>Amazon Bedrockのウェブ検索、参照先を最大100ドメインまで指定・除外　利用者の地域も指定可能に</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-26/story-3/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-26/story-3/</guid>
+    <description>AWSは10月23日、Amazon Bedrockの「Web Search」に、検索先ドメインの指定・除外と、利用者の地域を指定する機能を追加した。AIの回答の根拠になる検索結果を、信頼できるサイトや地域に合わせて絞り込める。</description>
+  </item>
+  <item>
+    <title>GitHub Copilotの利用状況API、ツール別の集計に対応　Claude Code・Codex・OpenCodeなどからの利用も</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-26/story-4/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-26/story-4/</guid>
+    <description>GitHubは10月23日、Copilotの利用状況を取得するAPIに、どのツールから使われたかを集計する項目を追加した。これまで拾えなかったOpenCodeなどエディタ外のツールからの利用も、リクエスト数やトークン数として見られる。</description>
+  </item>
+  <item>
     <title>Gemini、会話の中でノートを作成・質問できるように　「Gemini Notebook」を連携アプリに追加、個人アカウントも対象</title>
     <link>https://nowonair.vercel.app/articles/2026-10-25/story-1/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-25/story-1/</guid>
@@ -131,30 +155,6 @@
     <link>https://nowonair.vercel.app/articles/2026-10-23/story-2/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-23/story-2/</guid>
     <description>LINEヤフーは10月22日、飲食店にかかってくる電話にAIが24時間365日応対する「LINE AI予約」の正式提供を始めた。トレタの「トレタ予約台帳」と連携して空席を確かめ、予約をその場で確定する。料金は初期費用0円、初月無料で、月契約は月額1万円（税別）からだ。</description>
-  </item>
-  <item>
-    <title>AnthropicとOpenAI、AIの共通規格を財団に寄贈　「Agent Skills」と「Open Responses」</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-23/story-3/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-23/story-3/</guid>
-    <description>Linux Foundation傘下のAgentic AI Foundation（AAIF）は10月22日、AnthropicのAIエージェント向け手順の標準「Agent Skills」と、OpenAIのLLM API共通仕様「Open Responses」など4つを新たに受け入れると発表した。特定の企業に縛られない共通の規格として、財団のもとで開発を続ける。</description>
-  </item>
-  <item>
-    <title>1Password、AIエージェントにパスワードを見せず代理ログイン　個人・ファミリー版は追加料金なし</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-23/story-4/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-23/story-4/</guid>
-    <description>1Passwordは10月22日、個人向けAIエージェントが利用者の代わりにWebサイトへログインする際、パスワードをエージェントに渡さずに済む「1Password for Agents」を発表した。利用者が自分の端末で承認すると、1Passwordがログイン画面に直接入力し、エージェントは認証情報を受け取らないまま作業を続ける。</description>
-  </item>
-  <item>
-    <title>AWS、AIでコードの脆弱性を検証・修正する「Continuum」を一般提供　米国2リージョン、100万行200ドルから</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-23/story-5/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-23/story-5/</guid>
-    <description>AWSは10月22日、コードの脆弱性を見つけ、実際に悪用できるかを隔離環境で確かめたうえで修正案まで出すサービス「AWS Continuum for code vulnerabilities」の一般提供を始めた。複数の最先端AIモデルを使い分ける仕組みで、提供地域は米国東部（バージニア北部）と米国西部（オレゴン）の2つだ。</description>
-  </item>
-  <item>
-    <title>Google、AIエージェントごとに隔離した小型VMを用意する「Agent Compute Engine」　数カ月内にプレビュー</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-23/story-6/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-23/story-6/</guid>
-    <description>Google Cloudは10月22日、AIエージェント1つずつにハードウェアで隔離した小型の仮想マシン（マイクロVM）を割り当てる計算サービス「Agent Compute Engine」を発表した。すでにGeminiのエージェントを支えており、Google Cloudの利用者向けには今後数カ月でプレビュー提供する。</description>
   </item>
 </channel>
 </rss>
