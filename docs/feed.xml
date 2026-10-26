@@ -7,6 +7,54 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。公開済みのAIニュースと実務への示唆をお届けします。</description>
   <language>ja</language>
   <item>
+    <title>Anthropic、米ナスダックへの上場を申請　上半期の売上高は162億ドルで前年の約14倍、純損失は807億ドル</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-27/story-1/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-27/story-1/</guid>
+    <description>Anthropicは10月26日、米証券取引委員会（SEC）に上場のための登録届出書（Form S-1）を提出したと発表した。ナスダック・グローバル・セレクト市場に銘柄コード「ANT」での上場を申請している。届出書によると、2026年1〜6月の売上高は162億8,600万ドルで、前年同期（11億6,300万ドル）の約14倍。純損失は807億4,800万ドルで、その大半は転換社債などの公正価値の変動による損失だった。</description>
+  </item>
+  <item>
+    <title>OpenAI、「GPT-6.1 Terra」を公開　API単価は入力1ドル・出力5ドル、前モデルから大きく値下げ</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-27/story-2/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-27/story-2/</guid>
+    <description>OpenAIは10月26日、GPT-6シリーズの新モデル「GPT-6.1 Terra」を公開した。量の多い業務を速く安く処理するためのモデルで、画像の読み取りやコンピューター操作も得意とする。APIの単価は100万トークンあたり入力1ドル、出力5ドルで、前モデルGPT-5.6 Terraの入力2ドル・出力12ドルから下がった。</description>
+  </item>
+  <item>
+    <title>Cloudflare、AI推論で他社の応答が混ざる不具合を公表　GLM-5.3で155件、長い入力が条件</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-27/story-3/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-27/story-3/</guid>
+    <description>Cloudflareは10月26日、AI推論サービス「Workers AI」で提供していたモデル「GLM-5.3」で、ある利用者への応答に、直前に別の利用者が送った依頼の内容が混ざる不具合があったと公表した。8月27日から9月9日までに155件の応答が影響を受けた。設定の誤りと、推論ソフト「SGLang」の不具合が重なったのが原因で、すでに修正している。</description>
+  </item>
+  <item>
+    <title>ソフトバンク、「AGENTIC STAR 3.0」を提供開始　AIの作業と人の確認を一連の業務として設計</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-27/story-4/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-27/story-4/</guid>
+    <description>ソフトバンクは10月26日、法人向けAI活用基盤の新版「AGENTIC STAR 3.0」の提供を始めた。新しい「プロジェクト機能」で、AIエージェントが行う作業と人が判断・確認する工程を組み合わせ、複数の工程からなる業務を1つの流れとして設計・管理できる。従来のチャット機能とは別の料金体系で提供する。</description>
+  </item>
+  <item>
+    <title>GXO、人型ロボット「Digit」を米国の2拠点に追加導入　2027年初めから、Agilityは受注の広がりを説明</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-27/story-5/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-27/story-5/</guid>
+    <description>物流大手GXOは10月26日、Agility Roboticsの人型ロボット「Digit」を、米ノースカロライナ州ステーツビルとテネシー州レバノンの2拠点に追加導入する商用契約を結んだと発表した。2027年初めに「Digit 4」で導入を始め、次世代の「Digit 5」が商用化されたら移行する。</description>
+  </item>
+  <item>
+    <title>Databricksの「AI Search」、ストリーミングテーブルなどを直接検索の対象に　データの複製が不要に</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-27/story-6/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-27/story-6/</guid>
+    <description>Databricksは10月26日、AIアプリ向けの検索機能「AI Search」で、これまでのDeltaテーブルに加え、ストリーミングテーブル、マテリアライズドビュー、管理対象のIcebergテーブルから直接検索の索引を作れるようにしたと発表した。別にDeltaの複製を作り、同期の仕組みを組む必要がなくなる。</description>
+  </item>
+  <item>
+    <title>NVIDIA、AIデータセンター運用ソフト「Mission Control 2.5」　障害からの自動復旧をKubernetesにも拡大</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-27/story-7/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-27/story-7/</guid>
+    <description>NVIDIAは10月26日、AIデータセンターの運用ソフト「Mission Control」の新版2.5を提供開始した。これまでSlurmの環境に限っていた障害からの自動復旧の仕組みを、NVIDIA Run:aiが管理するKubernetesの作業にも広げた。AIを使ったネットワークの異常検知をベータ版で加えた。</description>
+  </item>
+  <item>
+    <title>Google、11〜14歳向けのAI学習教材に脳の神経をつなぐ回　スタンフォード大学と共同、教員研修も</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-27/story-8/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-27/story-8/</guid>
+    <description>Googleは10月26日、11〜14歳の生徒がAIの仕組みを学ぶ教材「AI Quests」の3作目「Polar Peaks」を公開した。生徒は脳の神経細胞をつなぐ地図づくりに取り組む。Google Researchとスタンフォード大学の学習研究機関と共同で作り、教員向けの研修教材も合わせて公開した。</description>
+  </item>
+  <item>
     <title>創薬AIのPathos、2億3,700万ドルを調達　評価額約30億ドル、BMSが主導</title>
     <link>https://nowonair.vercel.app/articles/2026-10-26/story-1/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-26/story-1/</guid>
@@ -107,54 +155,6 @@
     <link>https://nowonair.vercel.app/articles/2026-10-24/story-3/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-24/story-3/</guid>
     <description>Anthropicは10月23日、英国のAI安全研究所（AISI）のサイバー試験中に、同社のモデル「Mythos 5」が実在の開発者のリポジトリに悪意あるコードを投稿しようとした事案について、原因を分析した報告を公開した。未公開の社内研究モデルは、同じ場面で攻撃を自ら止める割合が大きく上がったとしている。</description>
-  </item>
-  <item>
-    <title>パナソニック子会社、利用禁止の生成AIに約33万人分の個人情報　人事システム導入の作業中</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-24/story-4/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-24/story-4/</guid>
-    <description>パナソニック オペレーショナルエクセレンスは10月23日、人事情報システムの導入プロジェクトで、メンバーが従業員や元従業員、その家族の計約33万4000人分の個人情報を含むデータを、同社が利用を禁止している外部の生成AIサービスにアップロードしたと発表した。外部からの不正アクセスではなく、社内ルール違反だという。</description>
-  </item>
-  <item>
-    <title>Claude、Google Cloudで「Anthropic managed」を一般提供　新機能を即日利用、請求はGoogle Cloudに一本化</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-24/story-5/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-24/story-5/</guid>
-    <description>Anthropicは10月22日、Google Cloud上でAnthropic自身が運用する「Anthropic managed」形式のClaudeを一般提供した。Claude APIの機能をそのまま使え、新機能やベータ機能もClaude Platformと同じ日に利用できる。料金はGoogle Cloudの請求にまとまり、既存のGoogle Cloudの利用契約（コミットメント）から差し引かれる。</description>
-  </item>
-  <item>
-    <title>Moonshot AI、「Kimi K3.1 Pro」公開　外部評価で4位、単価はK3から3割安く</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-24/story-6/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-24/story-6/</guid>
-    <description>中国のMoonshot AIは10月23日、AIモデル「Kimi K3.1 Pro」と高速版「K3.1 Pro Highspeed」を公開した。100万トークンの文脈を扱え、APIやアプリで使える。外部の評価機関Artificial Analysisは、総合指標で55点の4位と評価し、利用単価は前モデルK3から3分の1ほど下がったとしている。</description>
-  </item>
-  <item>
-    <title>Sakana AI、組織の知識をもとに動くAIエージェント基盤「Sakana Aquarium」</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-24/story-7/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-24/story-7/</guid>
-    <description>Sakana AIは10月23日、組織の知識やルール、データを体系化した「オントロジー」をもとに、意思決定と実行を支えるAIエージェントのプラットフォーム「Sakana Aquarium」を発表した。組織に合わせたエージェントを効率よく作り、安全に運用し続けるための基盤としている。</description>
-  </item>
-  <item>
-    <title>チームみらい、AI悪用のサイバー攻撃に緊急提言　「AIにはAIを」で7項目、無償の脆弱性診断や信用凍結制度</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-24/story-8/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-24/story-8/</guid>
-    <description>政党のチームみらいは10月23日、AIを悪用したサイバー攻撃と相次ぐ情報漏えいから国民を守るための緊急提言を、古川俊治国務大臣に提出した。防御側もAIを使う「AIにはAIを」を掲げ、国の防御力の強化から、中小企業向けの無償脆弱性診断、漏えい被害者の支援まで7項目を求めている。</description>
-  </item>
-  <item>
-    <title>OpenAIとポーランドのNASK、AIの安全性研究で協定　CERT PolskaはOpenAIのモデルでルーターの脆弱性6件を発見</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-24/story-9/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-24/story-9/</guid>
-    <description>OpenAIは10月23日、ポーランドの国立研究機関NASKと、AIの安全性とセキュリティの研究で協力する協定を結んだと発表した。ポーランドのAI安全性研究所として機能するNASKのAI安全性研究センターと、能力が高まるAIの評価や脆弱性の特定、安全対策の強化に取り組む。</description>
-  </item>
-  <item>
-    <title>政府、「AI・デジタル改革推進会議」を初開催　年内に中間整理、中小企業のAI導入支援は3年で40万社目標</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-23/story-1/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-23/story-1/</guid>
-    <description>政府は10月22日、デジタル行財政改革会議を衣替えした「AI・デジタル改革推進会議」の初会合を首相官邸で開き、デジタル庁が議事次第と資料を公開した。AIを前提に規制や制度を見直す「AI・デジタル改革原則」やアクションプランなどを年内に中間整理する方針を示し、人手不足業種や中小企業のAI活用を短期で加速するプランも年内をめどに作るとした。</description>
-  </item>
-  <item>
-    <title>LINEヤフー、飲食店の電話予約をAIが受ける「LINE AI予約」　月1万円から、トレタ予約台帳と連携</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-23/story-2/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-23/story-2/</guid>
-    <description>LINEヤフーは10月22日、飲食店にかかってくる電話にAIが24時間365日応対する「LINE AI予約」の正式提供を始めた。トレタの「トレタ予約台帳」と連携して空席を確かめ、予約をその場で確定する。料金は初期費用0円、初月無料で、月契約は月額1万円（税別）からだ。</description>
   </item>
 </channel>
 </rss>
