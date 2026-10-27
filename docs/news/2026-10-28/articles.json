@@ -1,0 +1,655 @@
+[
+  {
+    "updated_at": "2026-10-28",
+    "verified_at": "2026-10-28",
+    "article_kind": "news",
+    "title": "Apple、Siri AIの日本語対応をベータで開始　画面の内容やメール・写真をもとに答え、アプリの操作も",
+    "category": "ツール更新",
+    "source": "Apple",
+    "published_at": "2026-10-26",
+    "lede": "Appleは、Siri AIを日本語を含む5つの言語でベータ提供すると発表した。iOS・iPadOS・macOS・watchOS・visionOSの27.2で使える。メールや写真などの個人の情報や、いま画面に出ている内容をふまえて答え、対応アプリの中の操作も実行する。",
+    "links": [
+      "https://www.apple.com/jp/newsroom/2026/10/siri-ai-is-available-today-in-more-languages/"
+    ],
+    "keypoints": [
+      "日本語・フランス語・韓国語・ポルトガル語・スペイン語の5言語でSiri AIをベータ提供",
+      "対象はiOS、iPadOS、macOS、watchOS、visionOSの27.2。Apple Intelligenceを有効にし、言語設定を合わせる必要がある",
+      "メッセージ・メール・写真からの情報探し、画面内容への質問、Yahoo!乗換案内などアプリ内の操作に対応",
+      "13歳未満は使えず、EUではiOS・iPadOS・watchOSで使えない。サーバー側の機能には1日の回数制限があり、拡大分は今後有料の予定"
+    ],
+    "editorial_diagram": {
+      "kicker": "Appleの発表 / Siri AI",
+      "title": "日本語のSiriが、画面と予定を読む",
+      "lead": "Appleが示したSiri AIの主な使い方を3つにまとめた。",
+      "examples": [
+        [
+          "自分の情報から探す",
+          "メッセージやメール、写真の中から必要な情報を探して答える。"
+        ],
+        [
+          "画面について聞く",
+          "いま表示している内容について質問し、そのまま操作につなげる。"
+        ],
+        [
+          "アプリを動かす",
+          "Yahoo!乗換案内などの対応アプリで、頼んだ操作を実行する。"
+        ]
+      ],
+      "note": "Appleのニュースリリース（2026年10月26日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://www.apple.com/jp/newsroom/2026/10/siri-ai-is-available-today-in-more-languages/",
+      "wide": "/assets/illustrations/2026-10-28-story-1-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-10-28-story-1-diagram-mobile.webp",
+      "alt": "自分の情報から探す：メッセージやメール、写真の中から必要な情報を探して答える。、画面について聞く：いま表示している内容について質問し、そのまま操作につなげる。、アプリを動かす：Yahoo!乗換案内などの対応アプリで、頼んだ操作を実行する。"
+    },
+    "body": [
+      {
+        "heading": "5言語でベータ提供",
+        "paragraphs": [
+          "Appleは10月26日付のニュースリリースで、Siri AIを日本語、フランス語、韓国語、ポルトガル語、スペイン語の5言語でベータ提供すると発表した。iOS、iPadOS、macOS、watchOS、visionOSの27.2のソフトウェアアップデートで使えるようになる。Apple Intelligenceを有効にしたデバイスで、Siriとデバイスの言語を対応言語に設定する必要がある。",
+          "対応機種の一覧はリリースには載っておらず、本誌では未確認。地域によっては一部のデバイスを利用できない場合があるとしている。"
+        ]
+      },
+      {
+        "heading": "個人の情報と画面を理解する",
+        "paragraphs": [
+          "Siri AIは、メッセージ、メール、写真から情報を探す「パーソナルコンテクスト」の理解、ウェブの情報を使った回答と会話の継続、画面に出ている内容への質問と操作に対応する。Yahoo!乗換案内などのアプリでは、アプリ内のアクションも実行できる。",
+          "iPhoneではカメラアプリに新しいSiriモードを設け、ビジュアルインテリジェンスを統合した。文章の下書き・編集と、システム全体での校正にも対応する。"
+        ]
+      },
+      {
+        "heading": "年齢・地域・回数の制限",
+        "paragraphs": [
+          "13歳未満は利用できない。EUでは現在、iOS、iPadOS、watchOSでSiri AIを使えない。サーバー側のモデルを使う機能には1日の利用回数の制限があり、拡大したアクセスは今後有料で提供する予定としている。料金や回数の具体的な数字は発表になく、本誌では未確認。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜「Siriに頼める業務」が仕事の入口になる",
+        "paragraphs": [
+          "日本語で、手元のメールや画面の内容をもとに操作まで頼めるようになると、社員が最初に触れるAIがスマートフォンの標準機能になる可能性がある。一方で、業務アプリがSiriからの操作に対応しているかどうかで、使える範囲は大きく変わる。",
+          "本誌は、社用端末での利用可否と、業務データを扱うときのルールを先に決めておくことを勧める。これは本誌の提案で、Appleの推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "社用のiPhone・Macで27.2への更新とSiri AIの利用を許可するか決める",
+      "メールや写真など個人の情報を参照する機能について、業務データの扱いを社内ルールに書き足す",
+      "自社アプリがSiriからの操作に対応しているか、開発担当に確認する"
+    ],
+    "service": "luna",
+    "pull": "日本語のSiriが、画面とメールを読んで動く。",
+    "hero_image": "/assets/illustrations/2026-10-28-story-1-cast.webp",
+    "hero_image_alt": "画面のメールや写真をつなぐ図に驚くラッコと、首をかしげて尋ねる猫、本を読みながら横目で聞くアザラシ。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-10-28-story-1.png"
+  },
+  {
+    "updated_at": "2026-10-28",
+    "verified_at": "2026-10-28",
+    "article_kind": "news",
+    "title": "Oracle、OpenAIとの協業で4つの新製品を発表　ChatGPTから業務アプリを操作する「Oracle AI Workspace」など",
+    "category": "業界動向",
+    "source": "Oracle",
+    "published_at": "2026-10-27",
+    "lede": "Oracleは10月27日、年次イベント「Oracle AI World」で、OpenAIのモデルを組み込んだ4つの製品を発表した。中心となる「Oracle AI Workspace」では、ChatGPTのプラグインを通じて、社員がOracleの業務アプリから情報を取り出し、承認された業務の流れを実行できる。提供時期と料金は示されていない。",
+    "links": [
+      "https://www.prnewswire.com/news-releases/oracle-reinvents-enterprise-computing-for-the-ai-era-with-openai-302920226.html",
+      "https://openai.com/index/oracle-apps-in-chatgpt"
+    ],
+    "keypoints": [
+      "Oracle AI Workspace：ChatGPTのプラグインで、Oracleの業務アプリやデータにアクセスし、承認された業務を実行する",
+      "Oracle AI Security Mesh：OpenAIのサイバー向けモデルで、アプリや基盤の脆弱性を見つけて直すマネージドサービス",
+      "Oracle App Composer：Codexでアプリを作り、OracleがOCI上での運用を担う",
+      "中小企業向けの「Oracle AI SMB Bundle」は無料で始められ、年1万2,000ドル分のクラウドクレジットが付く。提供時期は未定"
+    ],
+    "editorial_diagram": {
+      "kicker": "Oracleの発表 / OpenAIとの協業",
+      "title": "業務アプリの入口がChatGPTに",
+      "lead": "Oracleが示した4つの製品のうち、主な3つをまとめた。",
+      "examples": [
+        [
+          "AI Workspace",
+          "ChatGPTから業務アプリの情報を取り出し、承認された業務を実行する。"
+        ],
+        [
+          "AI Security Mesh",
+          "OpenAIのモデルで脆弱性を探して修正する。検査の範囲は顧客が決める。"
+        ],
+        [
+          "App Composer",
+          "Codexでアプリを作り、運用はOracleがOCI上で担う。"
+        ]
+      ],
+      "note": "Oracleのプレスリリース（2026年10月27日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://www.prnewswire.com/news-releases/oracle-reinvents-enterprise-computing-for-the-ai-era-with-openai-302920226.html",
+      "wide": "/assets/illustrations/2026-10-28-story-2-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-10-28-story-2-diagram-mobile.webp",
+      "alt": "AI Workspace：ChatGPTから業務アプリの情報を取り出し、承認された業務を実行する。、AI Security Mesh：OpenAIのモデルで脆弱性を探して修正する。検査の範囲は顧客が決める。、App Composer：Codexでアプリを作り、運用はOracleがOCI上で担う。"
+    },
+    "body": [
+      {
+        "heading": "ChatGPTから業務の流れを動かす",
+        "paragraphs": [
+          "Oracleは10月27日、米ラスベガスで開いた「Oracle AI World」で、OpenAIとの協業による製品を発表した。「Oracle AI Workspace」は、OpenAIのモデルとOracleのアプリ、企業データ、クラウドサービスを1つの画面にまとめる。社員はChatGPTのプラグインから情報を取り出し、承認された業務の流れを実行し、Oracleのシステム内で操作できる。統制と承認の仕組みは維持するとしている。",
+          "接続先として、Fusion Applications、NetSuite、AI Database、OCIなどを挙げた。"
+        ]
+      },
+      {
+        "heading": "脆弱性対策とアプリ作りにも",
+        "paragraphs": [
+          "「Oracle AI Security Mesh」は、OpenAIのサイバー向けモデルを使い、OCIや他社クラウド、オンプレミスのアプリと基盤の脆弱性を探して修正するマネージドサービス。検査を許可する範囲は顧客が決める。「Oracle App Composer」は、プログラミングの知識がない社員でもCodexでアプリを作れるようにし、OCI上での展開と運用をOracleが担う。",
+          "中小企業向けの「Oracle AI SMB Bundle」は、ChatGPT Business、AI Workspace、Codex、App Composer、OCI、NetSuite QuickStartをまとめたもので、無料で始められ、年1万2,000ドル分のOracleクラウドクレジットが付く。条件の詳細は発表にない。"
+        ]
+      },
+      {
+        "heading": "提供時期は未定",
+        "paragraphs": [
+          "リリースは、各製品の提供開始日や料金を示していない。将来の製品に関する内容で、時期や価格は変わりうるとの注記がある。OpenAI側の発表ページは本誌の環境から開けず、本文はOracleのリリースで確認した。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜「ChatGPTから操作できる範囲」を先に決める",
+        "paragraphs": [
+          "業務アプリの操作がチャットから始められるようになると、便利さの一方で、誰がどこまで操作できるかの設計が重くなる。Oracleは承認と統制を維持するとしているが、具体的な仕組みは提供時に確かめる必要がある。",
+          "本誌は、Oracle製品を使う企業に、AIに見せてよいデータと、AIに実行させてよい操作を今のうちに分けておくことを勧める。これは本誌の提案で、OracleやOpenAIの推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "自社で使うOracle製品（Fusion、NetSuiteなど）と担当部門を洗い出す",
+      "AIに参照させるデータと、実行させる操作を一覧にして分ける",
+      "提供時期と料金、承認の仕組みをOracleの担当者に確認する"
+    ],
+    "service": "fde",
+    "pull": "業務アプリの入口が、ChatGPTになる。",
+    "hero_image": "/assets/illustrations/2026-10-28-story-2-cast.webp",
+    "hero_image_alt": "業務アプリをつなぐ画面に驚くラッコと首をかしげる猫の横で、アザラシが読書を装って様子をうかがう。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-10-28-story-2.png"
+  },
+  {
+    "updated_at": "2026-10-28",
+    "verified_at": "2026-10-28",
+    "article_kind": "news",
+    "title": "Google DeepMind、ワールドモデル「Genie 4」を発表　音声も同時に生成し、言葉で天気やカメラを変えられる",
+    "category": "新モデル発表",
+    "source": "Google DeepMind",
+    "published_at": "2026-10-27",
+    "lede": "Google DeepMindは10月27日、操作できる仮想世界をその場で作るワールドモデル「Genie 4」を発表した。映像に加えて音楽や環境音、会話の音声も生成し、動いている最中に言葉で天気を変えたり、人や物を足したりできる。現在は一部の試験利用者向けで、Google AI Ultraの利用者などに近く提供するとしている。",
+    "links": [
+      "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"
+    ],
+    "keypoints": [
+      "映像と同時に、音楽・環境音・対話の音声を生成する",
+      "動いている仮想世界を、言葉の指示で変えられる（天気、カメラの位置、人や物の追加など）",
+      "Gemini 3.8 Flashが案内役として場面を見て、目標を手順に分け、成功したかを確かめる",
+      "現在は信頼できる試験利用者向けの研究プレビュー。Google AI Ultra（Project Genie）やGemini APIの早期利用企業に近く提供"
+    ],
+    "editorial_diagram": {
+      "kicker": "Google DeepMindの発表 / Genie 4",
+      "title": "言葉で動かす、音のある仮想世界",
+      "lead": "Genie 4で新しくなった点を3つにまとめた。",
+      "examples": [
+        [
+          "音も作る",
+          "映像と一緒に、音楽や環境音、会話の音声を生成する。"
+        ],
+        [
+          "言葉で変える",
+          "動いている最中に、天気やカメラ、登場する人や物を指示で変える。"
+        ],
+        [
+          "Geminiが案内",
+          "Gemini 3.8 Flashが目標を手順に分け、できたかを確かめる。"
+        ]
+      ],
+      "note": "Google DeepMindのブログ（2026年10月27日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+      "wide": "/assets/illustrations/2026-10-28-story-3-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-10-28-story-3-diagram-mobile.webp",
+      "alt": "音も作る：映像と一緒に、音楽や環境音、会話の音声を生成する。、言葉で変える：動いている最中に、天気やカメラ、登場する人や物を指示で変える。、Geminiが案内：Gemini 3.8 Flashが目標を手順に分け、できたかを確かめる。"
+    },
+    "body": [
+      {
+        "heading": "音と映像を一緒に生成",
+        "paragraphs": [
+          "Google DeepMindは10月27日、リアルタイムで操作できる仮想世界を作るワールドモデル「Genie 4」を発表した。映像に加え、音楽、環境音、対話の音声もモデル自身が生成する。空気の流れや衝突などの物理も再現し、登場人物は周りに反応して動くとしている。",
+          "動いているシミュレーションに対して、天気を変える、カメラを動かす、人や物を加えるといった変更を、自然な言葉で指示できる。"
+        ]
+      },
+      {
+        "heading": "Geminiと組み合わせて動く",
+        "paragraphs": [
+          "現実の見た目や振る舞いに合わせる役をGemini Omniが担い、他のGeminiモデルが一貫性を保つ。Gemini 3.8 Flashは生成中の案内役として場面を観察し、目標を手順に分け、各手順が成功したかを確かめる。",
+          "解像度、フレームレート、1回に使える時間などの数値は発表になく、本誌では未確認。長く使ったり何度も編集したりすると、細部や物の位置がずれることがあると、同社は限界も挙げている。"
+        ]
+      },
+      {
+        "heading": "まずは試験利用者から",
+        "paragraphs": [
+          "現在は信頼できる試験利用者向けの研究プレビューで、Google AI Ultraの利用者（Project Genie）と、Gemini APIとGoogle AI Studioの早期利用企業に「近く」提供する。具体的な日付は示されていない。生成した映像と音声にはすべて電子透かし「SynthID」を入れる。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜研修やシミュレーションの「下書き」に",
+        "paragraphs": [
+          "言葉で場面を作り替えられる仮想世界は、ゲームだけでなく、接客や安全教育の場面づくり、ロボットの学習環境などに使える可能性がある。ただし、現時点では短い時間の利用が前提で、長く使うと一貫性が崩れると同社自身が認めている。",
+          "本誌は、本番の教材にする前に、短い場面の試作に使って向き不向きを確かめることを勧める。これは本誌の提案で、Google DeepMindの推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "Project Genieの順番待ちリストに登録し、提供開始の連絡を受け取れるようにする",
+      "研修や企画で「場面を見せたい」用途を3つほど書き出しておく",
+      "生成物にSynthIDが入ることをふまえ、社外公開時の表記ルールを決める"
+    ],
+    "service": "luna",
+    "pull": "言葉ひとつで、音のある世界が書き換わる。",
+    "hero_image": "/assets/illustrations/2026-10-28-story-3-cast.webp",
+    "hero_image_alt": "晴れと雨が切り替わる仮想世界の画面にラッコが驚き、猫が画面を指さし、本を持つアザラシが横目で様子をうかがう。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-10-28-story-3.png"
+  },
+  {
+    "updated_at": "2026-10-28",
+    "verified_at": "2026-10-28",
+    "article_kind": "news",
+    "title": "KDDIとELYZA、ロボット向けAIの新会社「ELYZA Robotics」　2030年度までに300億円を投じ、現場に1,000台超",
+    "category": "業界動向",
+    "source": "ELYZA",
+    "published_at": "2026-10-27",
+    "lede": "ELYZAとKDDIは10月27日、KDDIグループのフィジカルAI事業を担う新会社「ELYZA Robotics」が10月1日に事業を始めたと発表した。KDDIグループとして2030年度までに研究開発へ300億円を投資し、300人以上の専門組織をつくる。同年度までに1,000台以上のロボットを現場に導入することを目指す。",
+    "links": [
+      "https://prtimes.jp/main/html/rd/p/000000086.000047565.html"
+    ],
+    "keypoints": [
+      "新会社「ELYZA Robotics」は2026年10月1日に設立・事業開始",
+      "KDDIグループとして2030年度までに研究開発へ300億円を投資し、300人以上の専門組織をつくる",
+      "2030年度までに1,000台以上のロボットを現場に導入することが目標",
+      "2026年からPoCを始め、小売（棚卸し・品出し・接客）、物流（運搬・欠品検知）、製造（精密作業）を想定"
+    ],
+    "editorial_diagram": {
+      "kicker": "ELYZAの発表 / ELYZA Robotics",
+      "title": "言葉のAIを、現場のロボットへ",
+      "lead": "新会社が示した2030年度までの目標をまとめた。",
+      "examples": [
+        [
+          "300億円",
+          "KDDIグループとして、フィジカルAIの研究開発に投資する。"
+        ],
+        [
+          "300人以上",
+          "フィジカルAIの専門組織をつくる。"
+        ],
+        [
+          "1,000台以上",
+          "小売・物流・製造などの現場にロボットを導入する。"
+        ]
+      ],
+      "note": "ELYZAのプレスリリース（2026年10月27日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000086.000047565.html",
+      "wide": "/assets/illustrations/2026-10-28-story-4-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-10-28-story-4-diagram-mobile.webp",
+      "alt": "300億円：KDDIグループとして、フィジカルAIの研究開発に投資する。、300人以上：フィジカルAIの専門組織をつくる。、1,000台以上：小売・物流・製造などの現場にロボットを導入する。"
+    },
+    "body": [
+      {
+        "heading": "フィジカルAIの新会社が始動",
+        "paragraphs": [
+          "ELYZAは10月27日、KDDIとともに設立した新会社「ELYZA Robotics」が10月1日に事業を始めたと発表した。KDDIグループのフィジカルAI事業を推進する。代表取締役社長は曽根岡侑也氏、代表取締役副社長は今井尚樹氏。",
+          "KDDIグループとして2030年度までに研究開発へ300億円を投資し、300人以上のフィジカルAIの専門組織をつくる。2030年度までに1,000台以上のロボットを実際の現場へ導入することを目指す。"
+        ]
+      },
+      {
+        "heading": "小売・物流・製造から",
+        "paragraphs": [
+          "2026年から幅広い現場でPoC（概念実証）を始め、段階的に導入する。想定する領域は、小売の棚卸し・品出し・接客、物流の重い物の運搬と欠品検知、製造の精密作業。その後はサービス業、将来は農業や建設業への展開も目指す。PoCの具体的な相手先や台数は発表になく、本誌では未確認。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜「ロボットに任せる作業」を言葉にしておく",
+        "paragraphs": [
+          "日本語の大規模言語モデルを手がけてきたELYZAが、ロボットの現場に軸足を広げる。1,000台という目標は、実証だけでなく現場への定着を前提にした数字だ。",
+          "本誌は、小売・物流・製造の事業者に、繰り返しが多く、失敗してもすぐ戻せる作業を書き出しておくことを勧める。PoCの声がかかったときに、候補をすぐ示せる。これは本誌の提案で、ELYZAやKDDIの推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "自社の現場で、繰り返しが多く体の負担が大きい作業を書き出す",
+      "その作業を止めたときの影響と、人が戻す手順を確認する",
+      "PoCの募集条件をELYZA Roboticsの発表で追う"
+    ],
+    "service": "fde",
+    "pull": "2030年度までに、現場へ1,000台。",
+    "hero_image": "/assets/illustrations/2026-10-28-story-4-cast.webp",
+    "hero_image_alt": "ロボットの図に驚く眼鏡のラッコと問いかける太った茶トラ猫を、読書中のアザラシが横目でうかがう。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-10-28-story-4.png"
+  },
+  {
+    "updated_at": "2026-10-28",
+    "verified_at": "2026-10-28",
+    "article_kind": "news",
+    "title": "PFN、国産AI「PLaMo 3.1 Prime」を提供開始　調べ物を任せるDeep Researchを搭載、誤答を平均約15%抑制",
+    "category": "新モデル発表",
+    "source": "Preferred Networks",
+    "published_at": "2026-10-27",
+    "lede": "Preferred Networks（PFN）は10月27日、国内で開発する生成AIの最新版「PLaMo 3.1 Prime」の提供を始めた。テーマを入れると、調査の計画から情報収集、出典付きのレポート作成までを自ら進める「Deep Research」を新たに載せた。前版に比べて誤答（ハルシネーション）の指標が平均約15%改善し、速度は1.7倍になった。",
+    "links": [
+      "https://www.preferred.jp/ja/news/pr20261027"
+    ],
+    "keypoints": [
+      "調査の計画・情報収集・分析・出典付きレポートまでを自動で行う「Deep Research」を搭載。所要時間は数分〜数十分",
+      "ハルシネーションに関する8つのベンチマークで、前版のPLaMo 3.0 Primeよりスコアが平均約15%改善",
+      "投機的デコーディングで前版の1.7倍に高速化。非推論モードでは出力トークン数を90%削減",
+      "PLaMo Chat、PLaMo API、オンプレミスで提供。APIのStandardプランは100万トークンあたり入力60円・出力250円"
+    ],
+    "editorial_diagram": {
+      "kicker": "PFNの発表 / PLaMo 3.1 Prime",
+      "title": "国産AIが、調べ物を引き受ける",
+      "lead": "PLaMo 3.1 Primeの主な改善点を3つにまとめた。",
+      "examples": [
+        [
+          "Deep Research",
+          "調査の計画から出典付きレポートまで、数分〜数十分で自動で行う。"
+        ],
+        [
+          "誤答を抑える",
+          "8つのベンチマークで、前版よりスコアが平均約15%改善した。"
+        ],
+        [
+          "速く、短く",
+          "前版の1.7倍に高速化。非推論モードは出力トークンを90%削減。"
+        ]
+      ],
+      "note": "Preferred Networksのニュースリリース（2026年10月27日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://www.preferred.jp/ja/news/pr20261027",
+      "wide": "/assets/illustrations/2026-10-28-story-5-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-10-28-story-5-diagram-mobile.webp",
+      "alt": "Deep Research：調査の計画から出典付きレポートまで、数分〜数十分で自動で行う。、誤答を抑える：8つのベンチマークで、前版よりスコアが平均約15%改善した。、速く、短く：前版の1.7倍に高速化。非推論モードは出力トークンを90%削減。"
+    },
+    "body": [
+      {
+        "heading": "調べ物を最後まで任せる",
+        "paragraphs": [
+          "PFNは10月27日、生成AI基盤モデル「PLaMo」の最新のフラッグシップ「PLaMo 3.1 Prime」の提供を開始した。新たに搭載した「Deep Research」は、テーマを入力すると、調査計画の立案、情報の収集・整理・分析、出典付きレポートの作成までを自律的に行う。所要時間は数分から数十分。オンプレミス環境でも使え、PFNは社内文書と組み合わせた調査にも対応するとしている。"
+        ]
+      },
+      {
+        "heading": "誤答の抑制と高速化",
+        "paragraphs": [
+          "ハルシネーションに関する8つのベンチマークで、PLaMo 3.0 Primeに比べてスコアが平均約15%改善した。これは各ベンチマークのスコア差の平均値だという。投機的デコーディングを採用し、処理速度は前版の1.7倍になった。非推論モードでは、回答の質の低下を抑えながら出力トークン数を90%減らした。"
+        ]
+      },
+      {
+        "heading": "料金と提供形態",
+        "paragraphs": [
+          "PLaMo Chat、PLaMo API、オンプレミスの3つの形で提供する。APIのFreeプランは無料（利用上限・レート制限あり）、Standardプランは100万トークンあたり入力60円、出力250円。企業向けオンプレミスなどは個別見積もり。PLaMo ChatでDeep Researchを1日2回まで無料で使えるキャンペーンを11月30日まで行う。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜「社外に出せない調べ物」の選択肢",
+        "paragraphs": [
+          "Deep Researchは海外のAIでも広がっているが、オンプレミスで動かせる国産モデルに載ったことで、社外にデータを出しにくい企業でも試しやすくなった。",
+          "本誌は、キャンペーン期間中に、自社でよく行う調査テーマを1つ選び、出典の確かさと所要時間を他のAIと比べてみることを勧める。15%改善は前版との比較で、他社モデルとの比較ではない点に注意したい。これは本誌の提案で、PFNの推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "11月30日までのキャンペーンで、PLaMo ChatのDeep Researchを試す",
+      "よく行う調査テーマを1つ決め、出典の正しさと所要時間を記録する",
+      "社外に出せない文書を扱う業務で、オンプレミス提供の条件をPFNに問い合わせる"
+    ],
+    "service": "luna",
+    "pull": "調べ物を、国産AIに任せる。",
+    "hero_image": "/assets/illustrations/2026-10-28-story-5-cast.webp",
+    "hero_image_alt": "調査資料に仰天する眼鏡のラッコに猫が首をかしげ、読書中のアザラシが横目で様子をうかがう。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-10-28-story-5.png"
+  },
+  {
+    "updated_at": "2026-10-28",
+    "verified_at": "2026-10-28",
+    "article_kind": "news",
+    "title": "ドコモ、人と同じ場所で働くロボットを管理する「Physical AI連携基盤」　許されない動作は実行前に止める",
+    "category": "研究",
+    "source": "NTTドコモ",
+    "published_at": "2026-10-27",
+    "lede": "NTTドコモは10月27日、個人向けのAIエージェントとさまざまなロボットをつなぎ、動作の許可と周りの人への配慮をまとめて扱う「Physical AI連携基盤」を開発したと発表した。利用者の年齢などの属性と場面ごとのルールに照らし、許されない動作は実行前に止める。11月18日からの「NTT R&D FORUM 2026」で展示する。",
+    "links": [
+      "https://www.docomo.ne.jp/info/news_release/2026/10/27_02.html"
+    ],
+    "keypoints": [
+      "標準の通信方式「A2A」を使い、個人向けAIエージェントと多様なロボットをつなぐ",
+      "中核の「A2A Gateway」が、利用者の属性と場面ごとのルールを照らし合わせ、許されない動作を実行前に止める",
+      "いつ、どの利用者の指示で、どの動作をしたかを記録する",
+      "周りの状況に応じて、人に不安や不快感を与えない動きを自動で生成する。実用化の時期は未定"
+    ],
+    "editorial_diagram": {
+      "kicker": "NTTドコモの発表 / Physical AI連携基盤",
+      "title": "ロボットに、許可と配慮を",
+      "lead": "ドコモが示した基盤の3つの役割をまとめた。",
+      "examples": [
+        [
+          "つなぐ",
+          "標準の通信方式A2Aで、個人のAIエージェントとロボットを接続する。"
+        ],
+        [
+          "止める",
+          "利用者の属性と場面のルールを照らし、許されない動作を実行前に止める。"
+        ],
+        [
+          "配慮する",
+          "周りの状況に合わせ、人に不安を与えにくい動きを生成する。"
+        ]
+      ],
+      "note": "NTTドコモの報道発表（2026年10月27日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://www.docomo.ne.jp/info/news_release/2026/10/27_02.html",
+      "wide": "/assets/illustrations/2026-10-28-story-6-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-10-28-story-6-diagram-mobile.webp",
+      "alt": "つなぐ：標準の通信方式A2Aで、個人のAIエージェントとロボットを接続する。、止める：利用者の属性と場面のルールを照らし、許されない動作を実行前に止める。、配慮する：周りの状況に合わせ、人に不安を与えにくい動きを生成する。"
+    },
+    "body": [
+      {
+        "heading": "AIの指示とロボットの間に「門番」",
+        "paragraphs": [
+          "NTTドコモは10月27日、人と同じ空間で働くロボットを安全に使うための「Physical AI連携基盤」を開発したと発表した。既存の標準通信プロトコル「A2A」を使い、利用者のパーソナルエージェントと多様なロボットを接続する。",
+          "中核となる「A2A Gateway」は、利用者の年齢などの属性と、利用場面ごとのルールを照らし合わせ、許可されない動作は実行の前に止める。いつ、どの利用者の指示で、どの動作を実行したかも記録する。"
+        ]
+      },
+      {
+        "heading": "人に配慮した動きを生成",
+        "paragraphs": [
+          "周囲の状況に応じて、人に不安や不快感を与えない振る舞いを自動で生成する仕組みも備える。",
+          "NTT R&D FORUM 2026（11月18〜20日、11月24〜25日、NTT武蔵野研究開発センタ）のドコモブースで展示する。提供や実用化の時期は発表になく、今後、社内展開やロボットメーカーとの共同研究、実証実験を視野に実用性を確かめるとしている。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜「AIに頼める」と「ロボットが動いてよい」は別",
+        "paragraphs": [
+          "AIエージェントがロボットに指示を出す時代には、AIが何を頼めるかとは別に、その場でロボットが動いてよいかを判断する仕組みが要る。ドコモの基盤は、その判断と記録を通信の途中に置く設計だ。",
+          "本誌は、ロボット導入を考える企業に、利用者や場所ごとに「してはいけない動作」を先に書き出しておくことを勧める。これは本誌の提案で、ドコモの推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "ロボットを使う場所ごとに、禁止したい動作と利用者の条件を書き出す",
+      "動作の記録を誰がどのくらいの期間保管するかを決めておく",
+      "NTT R&D FORUM 2026の展示で、ルールの設定方法を確かめる"
+    ],
+    "service": "fde",
+    "pull": "許されない動作は、動く前に止める。",
+    "hero_image": "/assets/illustrations/2026-10-28-story-6-cast.webp",
+    "hero_image_alt": "ロボットの動作制限を示す画面に驚くラッコと、首をかしげる猫、本を読みつつ横目で聞くアザラシ。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-10-28-story-6.png"
+  },
+  {
+    "updated_at": "2026-10-28",
+    "verified_at": "2026-10-28",
+    "article_kind": "news",
+    "title": "Supabase、AIエージェントをデータと同じ場所で動かす「Supabase Compute」　非公開アルファで提供",
+    "category": "ツール更新",
+    "source": "Supabase",
+    "published_at": "2026-10-27",
+    "lede": "Supabaseは10月27日、AIエージェントやバックグラウンド処理を、データと同じSupabaseのプロジェクト内で動かす「Supabase Compute」を非公開アルファとして公開した。Node、Deno、任意のDockerfileが使え、数分から数時間かかる処理も実行できる。現時点では米国西部（us-west-2）のプロジェクトのみで、本番利用は想定していない。",
+    "links": [
+      "https://supabase.com/blog/supabase-compute-private-alpha"
+    ],
+    "keypoints": [
+      "AIエージェントやAPI、バックグラウンド処理を、データと同じプロジェクト内のLinux環境で動かす",
+      "Node、Deno、任意のDockerfileに対応。数分〜数時間の処理も実行できる",
+      "サイズは2GB・1vCPUと4GB・2vCPUの2種類。自動拡張、GPU、永続ディスクはない",
+      "非公開アルファで、us-west-2のみ。順番待ちに登録すれば無料で試せる。正式な料金は未発表"
+    ],
+    "editorial_diagram": {
+      "kicker": "Supabaseの発表 / Supabase Compute",
+      "title": "エージェントを、データの隣で",
+      "lead": "Supabase Computeの特徴を3つにまとめた。",
+      "examples": [
+        [
+          "同じ場所で動く",
+          "データと同じプロジェクト内で、エージェントやAPIを動かす。"
+        ],
+        [
+          "長い処理も",
+          "数分から数時間かかる処理を実行できる。"
+        ],
+        [
+          "まだ試験段階",
+          "非公開アルファで、us-west-2のみ。本番利用は想定しない。"
+        ]
+      ],
+      "note": "Supabaseのブログ（2026年10月27日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://supabase.com/blog/supabase-compute-private-alpha",
+      "wide": "/assets/illustrations/2026-10-28-story-7-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-10-28-story-7-diagram-mobile.webp",
+      "alt": "同じ場所で動く：データと同じプロジェクト内で、エージェントやAPIを動かす。、長い処理も：数分から数時間かかる処理を実行できる。、まだ試験段階：非公開アルファで、us-west-2のみ。本番利用は想定しない。"
+    },
+    "body": [
+      {
+        "heading": "データの近くでエージェントを動かす",
+        "paragraphs": [
+          "Supabaseは10月27日、「Supabase Compute」の非公開アルファを発表した。AIエージェント、バックグラウンドの処理、APIを、データと同じSupabaseプロジェクトの中で動かす。各サービスには完全なLinux環境が与えられ、Node、Deno、任意のDockerfileを使える。",
+          "Edge Functionsとは異なり、数分から数時間かかる処理も実行できる。事例として挙げたDreambaseのデータエージェントでは、Postgresへの問い合わせの中央値が2.9ミリ秒で、別の地域からの65ミリ秒より速かったという。"
+        ]
+      },
+      {
+        "heading": "試す前に知っておく制限",
+        "paragraphs": [
+          "利用できるのはus-west-2のプロジェクトのみで、評価用として提供し、本番での利用は想定していない。内容は変わったり終了したりする可能性がある。サイズは2GB・1vCPUと4GB・2vCPUの2種類で、自動拡張、GPU、永続ディスクはない。サービスはいつでも再起動しうるため、長い処理の途中経過はPostgresに保存するよう求めている。",
+          "すべてのサービスにプロジェクトの秘密情報（シークレット）がすべて渡る点も、制限として明記されている。AIエージェント向けのサンドボックスはアルファに含まれない。順番待ちの間は無料で試せるが、正式な料金は発表されておらず、本誌では未確認。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜速さより先に「渡る秘密情報」を確かめる",
+        "paragraphs": [
+          "データの隣でエージェントを動かせば、問い合わせは速くなる。ただ、すべてのサービスにプロジェクトの秘密情報が渡るという制限は、外部の文章を読むAIエージェントを動かすときに特に注意したい。",
+          "本誌は、試すなら本番とは別の検証用プロジェクトを用意し、本番の鍵を置かないことを勧める。これは本誌の提案で、Supabaseの推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "試す場合は、本番とは別にus-west-2の検証用プロジェクトを用意する",
+      "検証用プロジェクトには本番の鍵やデータを置かない",
+      "長い処理の途中経過をPostgresに保存する設計にしておく"
+    ],
+    "service": "luna",
+    "pull": "エージェントを、データのすぐ隣で動かす。",
+    "hero_image": "/assets/illustrations/2026-10-28-story-7-cast.webp",
+    "hero_image_alt": "データとAI処理をまとめた画面に驚くラッコ、首をかしげて指さす猫、本を読みながら横目で聞くアザラシ。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-10-28-story-7.png"
+  },
+  {
+    "updated_at": "2026-10-28",
+    "verified_at": "2026-10-28",
+    "article_kind": "news",
+    "title": "Vercel、AIエージェント「Vercel Agent」の1回あたりの費用を平均67%削減　文脈の扱いを作り直し",
+    "category": "ツール更新",
+    "source": "Vercel",
+    "published_at": "2026-10-27",
+    "lede": "Vercelは10月27日、ダッシュボードとSlackで使うAIエージェント「Vercel Agent」の1回の作業（セッション）にかかる費用が、平均で67%下がったと発表した。会話の文脈の扱いを作り直し、必要なトークン数を減らし、プロンプトキャッシュを使い回しやすくした。料金の単価は変えていない。",
+    "links": [
+      "https://vercel.com/changelog/vercel-agent-sessions-now-cost-67-percent-less"
+    ],
+    "keypoints": [
+      "Vercel Agentのセッション費用が平均67%下がった（ダッシュボードとSlackでの利用）",
+      "会話の文脈の扱いを作り直し、1回に必要なトークン数を減らした",
+      "使い回せる文脈を残し、キャッシュから読める部分を増やした",
+      "課金の仕組みは変わらず、モデル提供元の推論料金に、100万トークンあたり0.25ドルのVercel Agent手数料を加える"
+    ],
+    "editorial_diagram": {
+      "kicker": "Vercelの発表 / Vercel Agent",
+      "title": "同じ仕事を、3分の1の費用で",
+      "lead": "費用が下がった理由を3つにまとめた。",
+      "examples": [
+        [
+          "文脈を整理",
+          "長いSlackのスレッドでも、会話の文脈を効率よく扱う。"
+        ],
+        [
+          "キャッシュを活用",
+          "使い回せる文脈を残し、キャッシュから読む量を増やす。"
+        ],
+        [
+          "手順を明確に",
+          "CLIのスキルを更新し、少ないトークンで作業できるようにした。"
+        ]
+      ],
+      "note": "Vercelの更新情報（2026年10月27日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://vercel.com/changelog/vercel-agent-sessions-now-cost-67-percent-less",
+      "wide": "/assets/illustrations/2026-10-28-story-8-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-10-28-story-8-diagram-mobile.webp",
+      "alt": "文脈を整理：長いSlackのスレッドでも、会話の文脈を効率よく扱う。、キャッシュを活用：使い回せる文脈を残し、キャッシュから読む量を増やす。、手順を明確に：CLIのスキルを更新し、少ないトークンで作業できるようにした。"
+    },
+    "body": [
+      {
+        "heading": "平均67%の費用減",
+        "paragraphs": [
+          "Vercelは10月27日、ダッシュボードとSlackで使う「Vercel Agent」のセッション費用が平均67%下がったと発表した。エージェントが文脈を扱う方法を作り直し、1回のセッションに必要なトークン数を減らすとともに、プロンプトキャッシュを再利用しやすくした。",
+          "具体的には、Vercel CLIのスキルの手順と失敗時の立て直しを明確にし、長いSlackのスレッドなど会話が伸びたときの文脈管理を効率化した。使い回せる文脈を会話の各回で保つことで、キャッシュから読める量を増やした。"
+        ]
+      },
+      {
+        "heading": "単価は据え置き",
+        "paragraphs": [
+          "改善はすでに反映済みで、利用者側の対応は要らない。課金の単価は変わらず、有料のセッションは、モデル提供元の推論料金に、100万トークンあたり0.25ドルのVercel Agent手数料を加えて請求する。67%は平均値で、作業内容によって下がり幅は変わりうる。改善前後の具体的な金額は発表になく、本誌では未確認。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜AIの費用は「単価」より「使い方」で下がる",
+        "paragraphs": [
+          "今回は単価を下げずに、文脈の扱いとキャッシュの工夫で費用を3分の1にした。自社でAIエージェントを作るときも、同じ考え方が使える。",
+          "本誌は、社内のAIエージェントについて、1回あたりのトークン数とキャッシュの再利用率を記録しておくことを勧める。これは本誌の提案で、Vercelの推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "Vercel Agentを使っている場合、ダッシュボードのAgent欄で改善前後の費用を比べる",
+      "社内のAIエージェントで、1回あたりのトークン数を記録し始める",
+      "長い会話で毎回同じ前提を送っていないか見直す"
+    ],
+    "service": "luna",
+    "pull": "単価はそのまま、使い方で3分の1に。",
+    "hero_image": "/assets/illustrations/2026-10-28-story-8-cast.webp",
+    "hero_image_alt": "費用減少を示すグラフに驚くラッコと首をかしげる茶トラ猫を、本を読むふりのアザラシが横目で見ている。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-10-28-story-8.png"
+  }
+]
