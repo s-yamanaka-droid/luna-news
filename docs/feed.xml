@@ -7,6 +7,60 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。公開済みのAIニュースと実務への示唆をお届けします。</description>
   <language>ja</language>
   <item>
+    <title>Google、新モデル「Gemini 4 Carbon」を発表　脆弱性の発見から修正までを強化、まずサイバー防御の担当者に提供</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-29/story-1/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-29/story-1/</guid>
+    <description>Googleは、新しいフロンティアモデル「Gemini 4 Carbon」を発表した。同社で最も高性能なモデルと位置づけ、サイバーセキュリティと長時間の作業で最先端の性能を示したとしている。まず一部のサイバー防御の担当者に提供し、一般向けの提供時期は示していない。</description>
+  </item>
+  <item>
+    <title>GitHub、Enterprise CloudにCopilotを標準で含める新契約　モデルを自動で組み合わせる「Copilot Fusion」も一般提供</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-29/story-2/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-29/story-2/</guid>
+    <description>GitHubは、営業担当を通じて契約するGitHub Enterprise Cloudで、ライセンスを持つ全員がCopilotを使えるようにすると発表した。席ごとの利用枠はなく、AIの利用量は会社の予算から最初の1回目から計る。あわせて、作業ごとにモデルを選んで組み合わせる「Copilot Fusion」を全プランで一般提供した。</description>
+  </item>
+  <item>
+    <title>OpenAIとServiceNow、提携を拡大　ChatGPTから障害対応や記録の更新ができるように、ServiceNowは全社員にChatGPT WorkとCodex</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-29/story-3/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-29/story-3/</guid>
+    <description>OpenAIとServiceNowは、1月に結んだ提携を広げると発表した。ChatGPTの中でServiceNowの情報を調べ、記録を更新できる連携を始めた。ServiceNowの製品にはOpenAIのモデルを使った開発、セキュリティ、音声の機能を順次加え、ServiceNowの全社員にChatGPT WorkとCodexを提供する計画だ。</description>
+  </item>
+  <item>
+    <title>Oracle、Google製AIチップ「TPU」をOracle Cloudで提供へ　Google以外の大手クラウドで初、2027年から</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-29/story-4/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-29/story-4/</guid>
+    <description>OracleとGoogleは、GoogleのAI専用チップ「TPU」をOracle Cloud Infrastructure（OCI）で使えるようにすると発表した。Google以外の大規模クラウドでTPUを提供するのは初めてという。提供は2027年からで、数年かけて規模を広げる。</description>
+  </item>
+  <item>
+    <title>Android Studio、好きなAIエージェントを組み込める機能を安定版に　ClaudeやCodexなど40種類以上に対応</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-29/story-5/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-29/story-5/</guid>
+    <description>Googleは、Androidアプリの開発ツール「Android Studio Rabbit 2」の安定版を公開し、外部のAIエージェントを組み込める「Bring Your Own Agent」を正式な機能にした。共通の接続方式「ACP」に対応する40種類以上のエージェントを使える。</description>
+  </item>
+  <item>
+    <title>Amazon、生成AIの「Alexa+」を国内で提供開始　早期アクセスは無料、その後は月3,000円でプライム会員は追加料金なし</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-29/story-6/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-29/story-6/</guid>
+    <description>Amazonは、生成AIを使った新しい音声アシスタント「Alexa+」の国内提供を始めた。10月29日から早期アクセスとして順次案内し、期間中は無料で使える。終了後は月額3,000円だが、Amazonプライム会員は追加料金なしで使える。</description>
+  </item>
+  <item>
+    <title>LINE、通話の録音・文字起こし機能を「LINEラボ」で無料提供　今冬以降は有料会員の特典に</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-29/story-7/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-29/story-7/</guid>
+    <description>LINEヤフーは、LINEの1対1の通話を録音・録画できる「通話レコーディング」を、新機能を試せる「LINEラボ」で無料提供すると発表した。日本語の音声通話では文字起こしもできる。今冬以降は有料の「LYPプレミアム」の会員特典として提供する予定だ。</description>
+  </item>
+  <item>
+    <title>NVIDIA、文字起こし・話者の聞き分け・翻訳を1つでこなす「Nemotron 3.5 Transcribe」を公開　指示文で出力を変えられる</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-29/story-8/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-29/story-8/</guid>
+    <description>NVIDIAは、音声の文字起こし、話者の聞き分け、翻訳、音声についての質問への回答を1つのモデルで行う「Nemotron 3.5 Transcribe」を、重みを公開する形で出した。指示文で出力の形を変えられる。学習に使った音声データ「Granary v2」も公開した。</description>
+  </item>
+  <item>
+    <title>NTT、4K映像を縮小せずに解析するAIチップで、道路監視の検知距離を3倍以上に　必要な場面だけ画像AIが判断</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-29/story-9/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-29/story-9/</guid>
+    <description>NTTは、自社開発のAIチップで4K映像を縮小せずに解析し、画像と言葉を理解するAI（VLM）と組み合わせる道路監視の試作システムを発表した。遠くの小さな対象を見つけられる距離が従来の3倍以上に延び、事故の判断もできたとしている。</description>
+  </item>
+  <item>
     <title>Apple、Siri AIの日本語対応をベータで開始　画面の内容やメール・写真をもとに答え、アプリの操作も</title>
     <link>https://nowonair.vercel.app/articles/2026-10-28/story-1/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-28/story-1/</guid>
@@ -101,60 +155,6 @@
     <link>https://nowonair.vercel.app/articles/2026-10-27/story-8/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-27/story-8/</guid>
     <description>Googleは10月26日、11〜14歳の生徒がAIの仕組みを学ぶ教材「AI Quests」の3作目「Polar Peaks」を公開した。生徒は脳の神経細胞をつなぐ地図づくりに取り組む。Google Researchとスタンフォード大学の学習研究機関と共同で作り、教員向けの研修教材も合わせて公開した。</description>
-  </item>
-  <item>
-    <title>創薬AIのPathos、2億3,700万ドルを調達　評価額約30億ドル、BMSが主導</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-26/story-1/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-26/story-1/</guid>
-    <description>米Pathos AIは10月23日、シリーズEで2億3,700万ドルを調達したと発表した。調達後の企業価値は約30億ドルで、米製薬大手Bristol Myers Squibb（BMS）が主導した。多数のAIエージェントで医薬品開発のデータを集約する自社基盤「Foundry」の拡大と、がん領域の臨床開発に充てる。</description>
-  </item>
-  <item>
-    <title>GitHub、Teamsの通知からCopilotに修正を頼めるように　旧アプリは11月16日に終了</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-26/story-2/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-26/story-2/</guid>
-    <description>GitHubは10月23日、Microsoft Teams向けアプリにCopilotを統合したと発表した。Teamsに届いた通知に対して「@GitHub」と呼びかけると、Copilotが調査や修正を行い、プルリクエストまで作る。従来の「GitHub notifications」アプリを1つにまとめ、旧アプリは11月16日に終了する。</description>
-  </item>
-  <item>
-    <title>Amazon Bedrockのウェブ検索、参照先を最大100ドメインまで指定・除外　利用者の地域も指定可能に</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-26/story-3/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-26/story-3/</guid>
-    <description>AWSは10月23日、Amazon Bedrockの「Web Search」に、検索先ドメインの指定・除外と、利用者の地域を指定する機能を追加した。AIの回答の根拠になる検索結果を、信頼できるサイトや地域に合わせて絞り込める。</description>
-  </item>
-  <item>
-    <title>GitHub Copilotの利用状況API、ツール別の集計に対応　Claude Code・Codex・OpenCodeなどからの利用も</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-26/story-4/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-26/story-4/</guid>
-    <description>GitHubは10月23日、Copilotの利用状況を取得するAPIに、どのツールから使われたかを集計する項目を追加した。これまで拾えなかったOpenCodeなどエディタ外のツールからの利用も、リクエスト数やトークン数として見られる。</description>
-  </item>
-  <item>
-    <title>Gemini、会話の中でノートを作成・質問できるように　「Gemini Notebook」を連携アプリに追加、個人アカウントも対象</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-25/story-1/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-25/story-1/</guid>
-    <description>Googleは10月23日、資料をまとめて質問できる「Gemini Notebook」を、Geminiアプリの連携アプリ（Connected App）として使えるようにした。チャットで「@Gemini Notebook」と入力すれば、ノートの作成やソースの追加、ノートの内容への質問ができる。全てのGoogle Workspace顧客と個人のGoogleアカウントが対象で、提供はすでに始まっている。</description>
-  </item>
-  <item>
-    <title>NTT、古いシステムの改修をAIで支える技術　設計書の不整合の検出率を27%から80%に</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-25/story-2/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-25/story-2/</guid>
-    <description>NTTは10月23日、既存システムの仕様書・設計書・コード・テストの対応関係をAIで整理し、改修の影響を確かめるテストを自動で作る技術を発表した。予備実験では、設計書に埋め込んだ誤りの検出率が従来手法（RAG）の27%から80%に上がったという。</description>
-  </item>
-  <item>
-    <title>Amazon、「Kindle Unlimited」を「Kindle+」に改名　AI音声で作った朗読本も読み放題の対象に</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-25/story-3/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-25/story-3/</guid>
-    <description>Amazonは10月22日、電子書籍の読み放題「Kindle Unlimited」を「Kindle+」に改名した。著者向けの案内では、KDPセレクトに登録した電子書籍に紐づく「バーチャルボイス」（AI音声）の朗読本も、自動でKindle+の対象になるとしている。日本もKindle+の提供国に含まれる。</description>
-  </item>
-  <item>
-    <title>NVIDIA、AIデータセンターの不調をAIで探す「Minerva」　GPUから通信機器まで1つの画面で</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-25/story-4/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-25/story-4/</guid>
-    <description>NVIDIAは10月22日、大規模なAIデータセンター（同社のいう「AIファクトリー」）の運用を支える基盤「NVIDIA Minerva」を発表した。GPU、ネットワーク、ストレージ、実行中の処理の情報をまとめ、AIで異常を見つけて原因の候補を示す。Dell Technologies、Lenovo、Supermicroが自社の製品群で扱う。</description>
-  </item>
-  <item>
-    <title>Wayve・Stellantis・NVIDIA、フランスで自動運転の展開へ協力　仏政府も規制の見直しで参加</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-25/story-5/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-25/story-5/</guid>
-    <description>英国の自動運転AI企業Wayveは10月23日、自動車大手Stellantis、NVIDIAと、フランスでの自動運転車の展開に向けて協力すると発表した。フランス政府も共同で発表し、規制の枠組みを見直す考えを示した。展開の具体的な時期は示していない。</description>
   </item>
 </channel>
 </rss>

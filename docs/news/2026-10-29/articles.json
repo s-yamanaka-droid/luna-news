@@ -1,0 +1,740 @@
+[
+  {
+    "updated_at": "2026-10-29",
+    "verified_at": "2026-10-29",
+    "article_kind": "news",
+    "title": "Google、新モデル「Gemini 4 Carbon」を発表　脆弱性の発見から修正までを強化、まずサイバー防御の担当者に提供",
+    "category": "新モデル発表",
+    "source": "Google",
+    "published_at": "2026-10-28",
+    "lede": "Googleは、新しいフロンティアモデル「Gemini 4 Carbon」を発表した。同社で最も高性能なモデルと位置づけ、サイバーセキュリティと長時間の作業で最先端の性能を示したとしている。まず一部のサイバー防御の担当者に提供し、一般向けの提供時期は示していない。",
+    "links": [
+      "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+    ],
+    "keypoints": [
+      "2週間前に出た「Gemini 4 Argon」の次のモデル。Googleは同社で最も高性能なモデルと説明",
+      "脆弱性の発見（SEC-bench Pro 88.2%）、検証（ExploitGym 54.8%）、修正（CWE-bench 71.0%）の数値を提示。いずれもGoogleの発表値",
+      "今週から一部のサイバー防御担当者に提供し、「Fairwind Program」で信頼できるパートナーへ広げる。開発者・企業・一般向けは時期未定",
+      "API価格は導入期間中が100万トークンあたり入力2ドル・出力10ドル、その後は入力4ドル・出力20ドル"
+    ],
+    "editorial_diagram": {
+      "kicker": "Googleの発表 / Gemini 4 Carbon",
+      "title": "見つけて、確かめて、直す",
+      "lead": "Googleが示したセキュリティ面の3つの段階を、発表の数値とあわせてまとめた。",
+      "examples": [
+        [
+          "弱点を見つける",
+          "脆弱性の発見を測るSEC-bench Proで88.2%と発表した。"
+        ],
+        [
+          "悪用できるか確かめる",
+          "攻撃が成り立つかを検証するExploitGymで54.8%とした。"
+        ],
+        [
+          "修正を当てる",
+          "パッチ適用のCWE-benchで71.0%。安全なコードの生成はArgonの2倍以上とした。"
+        ]
+      ],
+      "note": "Googleのブログ（2026年10月28日）から編集部が図にしたもの。数値はGoogleの発表値で、図は模式表現です。",
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+      "wide": "/assets/illustrations/2026-10-29-story-1-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-10-29-story-1-diagram-mobile.webp",
+      "alt": "弱点を見つける：脆弱性の発見を測るSEC-bench Proで88.2%と発表した。、悪用できるか確かめる：攻撃が成り立つかを検証するExploitGymで54.8%とした。、修正を当てる：パッチ適用のCWE-benchで71.0%。安全なコードの生成はArgonの2倍以上とした。"
+    },
+    "body": [
+      {
+        "heading": "Argonから2週間で次のモデル",
+        "paragraphs": [
+          "Googleは10月28日、新しいフロンティアモデル「Gemini 4 Carbon」を発表した。2週間前に発表した「Gemini 4 Argon」に続くモデルで、同社で最も高性能なモデルと説明している。サイバーセキュリティと、長い時間をかけて進める作業で最先端の性能を示したとしている。",
+          "Googleが示した数値では、AIの総合指標「Artificial Analysis Intelligence Index v5.0」で59点の1位、ウェブ開発の対戦評価「WebDev Arena」では1768（4位）だった。"
+        ]
+      },
+      {
+        "heading": "セキュリティの数値はGoogleの発表値",
+        "paragraphs": [
+          "脆弱性の発見を測るSEC-bench Proで88.2%、攻撃が成り立つかの検証を測るExploitGymで54.8%、パッチ適用のCWE-benchで71.0%とした。これらの外部ベンチマークは安全上の制限（ガードレール）を外した状態で測ったという。",
+          "安全なコードを書く社内評価では成功率がArgonの2倍以上、Chromeのチームは高品質な修正の作成で他社の大規模モデルより10倍以上よかったと報告したとしている。比較相手のモデル名は明らかにしておらず、本誌では未確認。"
+        ]
+      },
+      {
+        "heading": "提供はまず防御の担当者から",
+        "paragraphs": [
+          "今週から一部のサイバー防御の担当者に提供し、信頼できるパートナーには「Fairwind Program」を通じて段階的に広げる。開発者、企業、一般の利用者への提供は「できるだけ早く」とし、日程は示していない。米国政府の任意のリリース前試験にも参加している。",
+          "API価格は導入期間中がArgonと同じ100万トークンあたり入力2ドル・出力10ドルで、キャッシュした入力は95%引き。導入期間の後は入力4ドル・出力20ドルになる。導入期間の長さは発表になく、本誌では未確認。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜攻撃より先に、守る側に渡す",
+        "paragraphs": [
+          "高い攻撃能力を持ちうるモデルを、まず防御の担当者に限って渡す進め方は、AIの公開手順として定着しつつある。ベンチマークの多くはGoogle自身の測定で、第三者の検証はこれからだ。",
+          "本誌は、自社の脆弱性対応にAIを使う場合でも、発見した弱点の扱いと修正の承認を人が持つ体制を先に決めておくことを勧める。これは本誌の提案で、Googleの推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "自社の脆弱性診断や修正作業で、AIに任せる範囲と人が承認する範囲を書き出す",
+      "一般提供が始まったときに試すため、評価に使う自社の題材（過去の脆弱性など）を選んでおく",
+      "API価格が導入期間後に2倍になる点を、利用費の見積もりに入れておく"
+    ],
+    "service": "luna",
+    "pull": "弱点を見つけて、直すまでをAIに。",
+    "hero_image": "/assets/illustrations/2026-10-29-story-1-cast.webp",
+    "hero_image_alt": "サイバー防御を示す画面に驚くラッコと首をかしげる茶トラ猫を、本を読むふりのアザラシが横目で見ている。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-10-29-story-1.png"
+  },
+  {
+    "updated_at": "2026-10-29",
+    "verified_at": "2026-10-29",
+    "article_kind": "news",
+    "title": "GitHub、Enterprise CloudにCopilotを標準で含める新契約　モデルを自動で組み合わせる「Copilot Fusion」も一般提供",
+    "category": "業界動向",
+    "source": "GitHub",
+    "published_at": "2026-10-28",
+    "lede": "GitHubは、営業担当を通じて契約するGitHub Enterprise Cloudで、ライセンスを持つ全員がCopilotを使えるようにすると発表した。席ごとの利用枠はなく、AIの利用量は会社の予算から最初の1回目から計る。あわせて、作業ごとにモデルを選んで組み合わせる「Copilot Fusion」を全プランで一般提供した。",
+    "links": [
+      "https://github.blog/changelog/2026-10-28-github-enterprise-now-includes-access-to-github-copilot",
+      "https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion"
+    ],
+    "keypoints": [
+      "営業担当経由で契約するGitHub Enterprise Cloudでは、ライセンスを持つ全員がCopilot Enterpriseと同じ機能・モデルを使える",
+      "席ごとの月間AIクレジットや利用枠はなく、利用量は会社の予算から計測。予算がなくてもコード補完は動き、チャットやコードレビューには予算が必要",
+      "Copilot Fusionは全Copilotプランで一般提供。Standard・High・Maxの3段階から選ぶと、Copilotがモデルと組み合わせ方を決める",
+      "Fusionは使った各モデルの標準料金で課金。期間限定で有料プランは30%引き"
+    ],
+    "editorial_diagram": {
+      "kicker": "GitHubの発表 / Copilot Fusion",
+      "title": "1つのモデルで解くか、2つで確かめるか",
+      "lead": "Copilot Fusionが作業ごとに選ぶ3つの進め方を、GitHubの説明からまとめた。",
+      "examples": [
+        [
+          "Single",
+          "1つのモデルがそのまま解く。日常的な作業向け。"
+        ],
+        [
+          "Cascade",
+          "軽いモデルが下書きし、品質チェックで足りなければ強いモデルに引き上げる。"
+        ],
+        [
+          "Critique",
+          "1つのモデルが下書きし、別のモデルが見直し、元のモデルが直す。"
+        ]
+      ],
+      "note": "GitHubのChangelog（2026年10月28日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion",
+      "wide": "/assets/illustrations/2026-10-29-story-2-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-10-29-story-2-diagram-mobile.webp",
+      "alt": "Single：1つのモデルがそのまま解く。日常的な作業向け。、Cascade：軽いモデルが下書きし、品質チェックで足りなければ強いモデルに引き上げる。、Critique：1つのモデルが下書きし、別のモデルが見直し、元のモデルが直す。"
+    },
+    "body": [
+      {
+        "heading": "Enterprise CloudにCopilotを含める",
+        "paragraphs": [
+          "GitHubは10月28日、GitHubまたはMicrosoftの営業担当を通じてGitHub Enterprise Cloudを契約する企業について、ライセンスを持つ全員にCopilotを含めると発表した。機能とモデルはCopilot Enterpriseと同じ。Enterpriseのライセンスを持たない利用者には、1人月10ドルの「Copilot Standalone」を用意する。",
+          "新しい契約では、席ごとの月間AIクレジットや利用枠がない。AIの利用は最初のリクエストから会社の予算に対して計測する。予算がなくてもコード補完と次の編集の提案は動くが、Copilot Chat、コードレビュー、クラウド上のCopilotには予算が必要になる。",
+          "自分で契約を管理するセルフサービスの利用者は、現時点では対象外で、数週間以内に日程を知らせるとしている。既存のセルフサービス契約は影響を受けず、Copilot BusinessとCopilot Enterpriseも引き続き購入できる。Enterpriseに含まれるCopilot分の料金は発表になく、本誌では未確認。"
+        ]
+      },
+      {
+        "heading": "Copilot Fusionを全プランで",
+        "paragraphs": [
+          "同じ日に、作業ごとにモデルと組み合わせ方を自動で決める「Copilot Fusion」を一般提供した。利用者はモデルではなく、Standard、High、Maxの3段階の強さを選ぶ。進め方は、1つのモデルで解く「Single」、軽いモデルの下書きを必要に応じて強いモデルに引き上げる「Cascade」、別のモデルが見直す「Critique」の3種類。",
+          "全Copilotプランで使え、Visual Studio Code、GitHub Copilot app、Copilot CLI、JetBrains IDEに対応する。料金は使った各モデルの標準料金で、期間限定で有料プランは30%引き。GitHubは、Fusion Maxが評価指標でClaude Code（Opus 5.5 Max）と2点以内の差で、APIコストとトークン量は約半分だったとしている。GitHubの発表値で、本誌では検証していない。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜「席の数」から「使った量」の管理へ",
+        "paragraphs": [
+          "席ごとの枠をなくして会社の予算で計る形は、AIの費用を人数ではなく利用量で管理する方向への切り替えを意味する。使う人を増やすほど、部門ごとの予算配分と上限の設定が重要になる。",
+          "本誌は、Enterprise Cloudの契約更新を控える企業は、まず現在のCopilot利用量を部門別に把握し、予算の上限とアラートを決めてから移行を相談することを勧める。これは本誌の提案で、GitHubの推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "自社のGitHub契約がEnterprise Cloud（営業担当経由）かセルフサービスかを確認する",
+      "Copilotの利用量を部門別に把握し、予算の上限とアラートの設定案を作る",
+      "Copilot Fusionを1つのチームで試し、コストと品質を従来のモデル指定と比べる"
+    ],
+    "service": "fde",
+    "pull": "AIの費用は、人数ではなく使った量で。",
+    "hero_image": "/assets/illustrations/2026-10-29-story-2-cast.webp",
+    "hero_image_alt": "共有AI予算の図に驚く眼鏡のラッコと質問する茶トラ猫を、読書中のアザラシが横目でうかがう。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-10-29-story-2.png"
+  },
+  {
+    "updated_at": "2026-10-29",
+    "verified_at": "2026-10-29",
+    "article_kind": "news",
+    "title": "OpenAIとServiceNow、提携を拡大　ChatGPTから障害対応や記録の更新ができるように、ServiceNowは全社員にChatGPT WorkとCodex",
+    "category": "業界動向",
+    "source": "OpenAI",
+    "published_at": "2026-10-28",
+    "lede": "OpenAIとServiceNowは、1月に結んだ提携を広げると発表した。ChatGPTの中でServiceNowの情報を調べ、記録を更新できる連携を始めた。ServiceNowの製品にはOpenAIのモデルを使った開発、セキュリティ、音声の機能を順次加え、ServiceNowの全社員にChatGPT WorkとCodexを提供する計画だ。",
+    "links": [
+      "https://openai.com/index/openai-servicenow-partnership-expansion/"
+    ],
+    "keypoints": [
+      "ServiceNowのMCPプラグインを、OpenAIのマーケットプレイスで同日から提供。機能の強化は2026年末までの予定",
+      "似た障害の検索、変更のリスク評価、記録の更新をChatGPTの中で実行。権限は各社のServiceNowの設定に従う",
+      "共同のセキュリティ製品は2027年1月に早期提供、2027年4〜6月期に一般提供の予定",
+      "ServiceNowは全社員にChatGPT WorkとCodexを提供する計画。OpenAIも社内業務にServiceNowを使う"
+    ],
+    "editorial_diagram": {
+      "kicker": "OpenAIの発表 / ServiceNowとの提携拡大",
+      "title": "ChatGPTから、社内の手続きを動かす",
+      "lead": "OpenAIが示した提供予定を、時期の順に3つにまとめた。",
+      "examples": [
+        [
+          "今日から",
+          "ServiceNowのMCPプラグインをOpenAIのマーケットプレイスで提供する。"
+        ],
+        [
+          "2027年1〜3月",
+          "ServiceNowの管理画面で、声で用途を説明できる機能を提供する予定。"
+        ],
+        [
+          "2027年",
+          "共同のセキュリティ製品を1月に早期提供し、CodexのAI Workflow Factory連携も2027年の予定。"
+        ]
+      ],
+      "note": "OpenAIの発表（2026年10月28日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://openai.com/index/openai-servicenow-partnership-expansion/",
+      "wide": "/assets/illustrations/2026-10-29-story-3-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-10-29-story-3-diagram-mobile.webp",
+      "alt": "今日から：ServiceNowのMCPプラグインをOpenAIのマーケットプレイスで提供する。、2027年1〜3月：ServiceNowの管理画面で、声で用途を説明できる機能を提供する予定。、2027年：共同のセキュリティ製品を1月に早期提供し、CodexのAI Workflow Factory連携も2027年の予定。"
+    },
+    "body": [
+      {
+        "heading": "ChatGPTの中でServiceNowを操作",
+        "paragraphs": [
+          "OpenAIは10月28日、ServiceNowとの提携を拡大すると発表した。1月に発表した提携を広げるもの。新しい連携では、IT担当者がChatGPTを離れずに、似た障害の検索、変更のリスク評価、ServiceNowの記録の更新ができる。",
+          "利用企業は自社のServiceNowとChatGPTをつなぎ、使わせる機能を選ぶ。ServiceNowの「Action Fabric」が既存の業務ルールと権限を当てはめるため、できる操作は各社の設定に従う。ServiceNowのMCPプラグインは同日からOpenAIのマーケットプレイスで提供し、機能の強化は2026年末までに予定している。"
+        ]
+      },
+      {
+        "heading": "開発・セキュリティ・音声の3分野",
+        "paragraphs": [
+          "ServiceNowの製品には、3つの分野でOpenAIの機能を加える。開発では、ServiceNowの「AI Workflow Factory」にCodexを組み込み、2027年に提供する予定。セキュリティでは、OpenAIのサイバーセキュリティ機能とServiceNowの資産・ID情報を組み合わせた共同製品を、2027年1月に早期提供し、2027年4〜6月期に一般提供する。",
+          "音声では、ServiceNowの「Super Intelligence Control Tower」で、AIの使い道を声で説明すると入力欄を埋めて足りない情報を質問する機能を、2027年1〜3月期に提供する予定だ。"
+        ]
+      },
+      {
+        "heading": "社員全員にChatGPT WorkとCodex",
+        "paragraphs": [
+          "ServiceNowは、これまで開発部門に限っていたChatGPT WorkとCodexを、全社員に広げる計画だ。開始時期は発表になく、本誌では未確認。OpenAIも自社の業務でServiceNowのワークフローを使っているという。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜チャット画面が業務システムの入口になる",
+        "paragraphs": [
+          "前日のOracleに続き、業務システムの操作をChatGPTの中から行う動きが広がっている。社員にとっては画面を行き来する手間が減る一方で、どの操作をAI経由で許すかを決める責任は情報システム部門に残る。",
+          "本誌は、ServiceNowを使う企業は、まず参照だけを許す範囲から試し、記録の更新や承認を伴う操作は段階的に広げることを勧める。これは本誌の提案で、OpenAIやServiceNowの推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "ServiceNowを使っている場合、ChatGPTから許す操作を「参照」「更新」「承認」に分けて決める",
+      "障害対応の手順のうち、ChatGPTで調べて記録まで進められる作業を洗い出す",
+      "社員にChatGPT WorkやCodexを広げる場合の費用と利用ルールを試算する"
+    ],
+    "service": "fde",
+    "pull": "障害の調査から記録まで、ChatGPTの中で。",
+    "hero_image": "/assets/illustrations/2026-10-29-story-3-cast.webp",
+    "hero_image_alt": "業務連携を示すパソコンに驚くラッコと、首を傾げて手を挙げる茶トラ猫、読書しながら横目で様子をうかがうアザラシ。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-10-29-story-3.png"
+  },
+  {
+    "updated_at": "2026-10-29",
+    "verified_at": "2026-10-29",
+    "article_kind": "news",
+    "title": "Oracle、Google製AIチップ「TPU」をOracle Cloudで提供へ　Google以外の大手クラウドで初、2027年から",
+    "category": "業界動向",
+    "source": "Oracle",
+    "published_at": "2026-10-27",
+    "lede": "OracleとGoogleは、GoogleのAI専用チップ「TPU」をOracle Cloud Infrastructure（OCI）で使えるようにすると発表した。Google以外の大規模クラウドでTPUを提供するのは初めてという。提供は2027年からで、数年かけて規模を広げる。",
+    "links": [
+      "https://www.oracle.com/news/announcement/ai-world-oracle-brings-google-tpus-to-oracle-cloud-infrastructure-2026-10-27/"
+    ],
+    "keypoints": [
+      "GoogleのTPUをOCIで提供。Google以外の大規模クラウドでは初とOracleは説明",
+      "Oracleが電力、冷却、データセンター内のネットワークを用意し、TPUを大規模に設置する",
+      "大規模モデルの学習・追加学習と、推論・エージェント・長い文脈を扱う処理に使える",
+      "提供は2027年から。数年かけて需要に合わせて増やす"
+    ],
+    "editorial_diagram": {
+      "kicker": "Oracleの発表 / Google TPU on OCI",
+      "title": "1つのクラウドで、AIチップを選ぶ",
+      "lead": "発表が示したTPUの使い道を3つにまとめた。",
+      "examples": [
+        [
+          "学習",
+          "大規模モデルの学習と追加学習に使える。専門家混合型（MoE）のモデルにも対応する。"
+        ],
+        [
+          "推論",
+          "推論やエージェント、長い文脈を扱うアプリの本番処理に使える。"
+        ],
+        [
+          "選び分け",
+          "OCIの中で、処理の性能・量・費用に合わせて計算資源を選べるようにする。"
+        ]
+      ],
+      "note": "Oracleのプレスリリース（2026年10月27日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://www.oracle.com/news/announcement/ai-world-oracle-brings-google-tpus-to-oracle-cloud-infrastructure-2026-10-27/",
+      "wide": "/assets/illustrations/2026-10-29-story-4-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-10-29-story-4-diagram-mobile.webp",
+      "alt": "学習：大規模モデルの学習と追加学習に使える。専門家混合型（MoE）のモデルにも対応する。、推論：推論やエージェント、長い文脈を扱うアプリの本番処理に使える。、選び分け：OCIの中で、処理の性能・量・費用に合わせて計算資源を選べるようにする。"
+    },
+    "body": [
+      {
+        "heading": "Google以外のクラウドで初めて",
+        "paragraphs": [
+          "OracleとGoogleは10月27日、米ラスベガスで開いた「Oracle AI World」で、GoogleのAI専用チップ「TPU（Tensor Processing Unit）」をOracle Cloud Infrastructure（OCI）で提供すると発表した。Oracleは、Google以外の大規模クラウドでTPUを提供するのは初めてとしている。",
+          "OCIは、TPUを大規模に設置するための電力、冷却、データセンター内のネットワークを用意する。利用者はOCIの中で、処理に合わせてTPUを選べるようになる。"
+        ]
+      },
+      {
+        "heading": "学習から推論まで、提供は2027年",
+        "paragraphs": [
+          "TPUは大規模モデルの学習と追加学習に使え、専門家混合型（MoE）のモデルにも対応する。推論やエージェント、長い文脈を扱うアプリの本番処理にも使える。発表では、第8世代のTPUとして学習向けの「TPU 8t」と推論向けの「TPU 8i」を紹介したが、OCIでどの世代を提供するかは明記していない。",
+          "提供は2027年からで、数年かけて需要に合わせて規模を広げる。提供する地域や料金は発表になく、本誌では未確認。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜「どのチップで動かすか」も選ぶ時代に",
+        "paragraphs": [
+          "AIの計算資源は、NVIDIAのGPUに加えて、各社の専用チップを選ぶ形に広がっている。利用企業にとっては、費用や調達のしやすさで選べる余地が増える。",
+          "本誌は、今すぐ乗り換えを考える必要はないが、自社のAI処理が特定のチップに縛られていないかを確認しておくことを勧める。これは本誌の提案で、OracleやGoogleの推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "自社のAI処理（学習・推論）がどのクラウドのどの計算資源で動いているかを一覧にする",
+      "特定のGPUやクラウドに依存した作りになっていないか、開発担当に確認する",
+      "2027年以降の計算資源の調達計画に、選択肢としてOCIのTPUを書き足す"
+    ],
+    "service": "fde",
+    "pull": "GPUだけでなく、TPUも選べるクラウドへ。",
+    "hero_image": "/assets/illustrations/2026-10-29-story-4-cast.webp",
+    "hero_image_alt": "クラウドと半導体の図に驚くラッコ、首をかしげて尋ねる茶トラ猫、本を読みながら横目で聞くアザラシ。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-10-29-story-4.png"
+  },
+  {
+    "updated_at": "2026-10-29",
+    "verified_at": "2026-10-29",
+    "article_kind": "news",
+    "title": "Android Studio、好きなAIエージェントを組み込める機能を安定版に　ClaudeやCodexなど40種類以上に対応",
+    "category": "ツール更新",
+    "source": "Google",
+    "published_at": "2026-10-28",
+    "lede": "Googleは、Androidアプリの開発ツール「Android Studio Rabbit 2」の安定版を公開し、外部のAIエージェントを組み込める「Bring Your Own Agent」を正式な機能にした。共通の接続方式「ACP」に対応する40種類以上のエージェントを使える。",
+    "links": [
+      "https://developer.android.com/blog/posts/android-dev-summit-26-developer-tools-performance"
+    ],
+    "keypoints": [
+      "Android Studio Rabbit 2の安定版で「Bring Your Own Agent」を提供。ACP対応の40種類以上のエージェントに対応",
+      "設定画面からエージェントを探して入れ、複数を切り替えて使える。プロジェクト構成、ビルド、エミュレーター、ログなどを扱える",
+      "画面の見た目を端末なしで描く「android preview」を使うと、社内試験でUIの作業が77%速く、トークンは最大3分の1",
+      "Android CLIには、Antigravity、Claude Code、Codex向けの公式プラグインを用意"
+    ],
+    "editorial_diagram": {
+      "kicker": "Googleの発表 / Android Studio Rabbit 2",
+      "title": "自分のエージェントを、Android Studioへ",
+      "lead": "発表のうち、AIエージェントに関わる3つの要素をまとめた。",
+      "examples": [
+        [
+          "組み込む",
+          "ACPに対応する40種類以上のエージェントを、設定画面から入れて切り替えられる。"
+        ],
+        [
+          "道具を渡す",
+          "ビルド、エミュレーター、ログ、画面のプレビューなどをエージェントが使える。"
+        ],
+        [
+          "見直す",
+          "エージェントの変更を確認し、問題点のレポートを作る「Change Review」を用意した。"
+        ]
+      ],
+      "note": "Android Developers Blog（2026年10月28日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://developer.android.com/blog/posts/android-dev-summit-26-developer-tools-performance",
+      "wide": "/assets/illustrations/2026-10-29-story-5-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-10-29-story-5-diagram-mobile.webp",
+      "alt": "組み込む：ACPに対応する40種類以上のエージェントを、設定画面から入れて切り替えられる。、道具を渡す：ビルド、エミュレーター、ログ、画面のプレビューなどをエージェントが使える。、見直す：エージェントの変更を確認し、問題点のレポートを作る「Change Review」を用意した。"
+    },
+    "body": [
+      {
+        "heading": "40種類以上のエージェントを組み込める",
+        "paragraphs": [
+          "Googleは10月28日、Android Dev Summitにあわせて、開発ツール「Android Studio Rabbit 2」の安定版を公開した。外部のAIエージェントを組み込む「Bring Your Own Agent」が安定版の機能になった。共通の接続方式「ACP（Agent Client Protocol）」に対応する40種類以上のエージェントを使える。",
+          "エージェントは設定画面（Settings > Tools > AI > Agents）から探して入れ、複数を入れて切り替えられる。発表ではClaudeのエージェントを動かす画面を示し、Google Antigravityで最新のGeminiモデルも使えるとした。エージェントはプロジェクトの構成やビルド、エミュレーター、ログなどを扱える。"
+        ]
+      },
+      {
+        "heading": "コマンドで作業を速く、トークンを少なく",
+        "paragraphs": [
+          "コマンドで操作する「Android CLI」も強化した。画面の見た目を描く「android preview」を使ったエージェントは、社内試験でUIの作業を77%速く終え、トークンの使用量は最大3分の1だったという。Antigravity、Claude Code、Codex向けの公式プラグインも用意した。",
+          "このほか、エージェントの変更を見直してレポートを作る「Change Review」、AndroidでのAIの開発力を測る「Android Bench 2.0」などを発表した。数値はGoogleの社内試験によるもので、本誌では検証していない。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜開発ツールが「エージェントを選ぶ場所」になる",
+        "paragraphs": [
+          "開発ツールの側が特定のAIに縛らず、好きなエージェントを差し込める形にしたことで、社内で使うエージェントを統一しやすくなる。一方で、どのエージェントにどこまでの操作を許すかは、使う側が決める必要がある。",
+          "本誌は、Androidアプリを開発・委託している企業は、社内で認めるエージェントと、扱ってよいコードや鍵の範囲を先に決めることを勧める。これは本誌の提案で、Googleの推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "Androidアプリの開発で使っているエージェントと、Android Studioの版を確認する",
+      "社内で認めるAIエージェントの一覧と、扱ってよいコード・鍵の範囲を決める",
+      "開発委託先にも、使うエージェントとその権限を確認する"
+    ],
+    "service": "luna",
+    "pull": "開発ツールに、好きなAIを差し込む。",
+    "hero_image": "/assets/illustrations/2026-10-29-story-5-cast.webp",
+    "hero_image_alt": "AIエージェントを切り替えるパソコンに驚くラッコと、首をかしげる猫、本を読みながら横目で見るアザラシ。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-10-29-story-5.png"
+  },
+  {
+    "updated_at": "2026-10-29",
+    "verified_at": "2026-10-29",
+    "article_kind": "news",
+    "title": "Amazon、生成AIの「Alexa+」を国内で提供開始　早期アクセスは無料、その後は月3,000円でプライム会員は追加料金なし",
+    "category": "ツール更新",
+    "source": "Amazon",
+    "published_at": "2026-10-29",
+    "lede": "Amazonは、生成AIを使った新しい音声アシスタント「Alexa+」の国内提供を始めた。10月29日から早期アクセスとして順次案内し、期間中は無料で使える。終了後は月額3,000円だが、Amazonプライム会員は追加料金なしで使える。",
+    "links": [
+      "https://www.aboutamazon.jp/news/devices/amazon-launches-alexa-plus-in-japan"
+    ],
+    "keypoints": [
+      "10月29日から早期アクセスを開始。対応するEchoやFire TVを持つ人などに順次案内し、Amazon.co.jp/newalexaから申し込める",
+      "早期アクセス期間中は無料。終了後は月額3,000円で、プライム会員は追加料金なし",
+      "商品の比較やレビューの要約、配送状況の確認、学校への連絡メールの送信などを代わりに行う",
+      "食べログのレストラン予約、Uber Eats、出前館、チケットぴあとの連携は今後提供予定"
+    ],
+    "editorial_diagram": {
+      "kicker": "Amazonの発表 / Alexa+",
+      "title": "話しかけるだけで、用事が片づく",
+      "lead": "Amazonが示したAlexa+の使い方を3つにまとめた。",
+      "examples": [
+        [
+          "代わりに調べる",
+          "商品の比較やレビューの要約、ほしい物リストの値下げ通知を行う。"
+        ],
+        [
+          "代わりに手続きする",
+          "配送状況の確認や、学校への連絡メールの送信を頼める。"
+        ],
+        [
+          "家族を見分ける",
+          "声と姿で家族を見分け、使うほど好みを覚えて答える。"
+        ]
+      ],
+      "note": "Amazonの発表（2026年10月29日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://www.aboutamazon.jp/news/devices/amazon-launches-alexa-plus-in-japan",
+      "wide": "/assets/illustrations/2026-10-29-story-6-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-10-29-story-6-diagram-mobile.webp",
+      "alt": "代わりに調べる：商品の比較やレビューの要約、ほしい物リストの値下げ通知を行う。、代わりに手続きする：配送状況の確認や、学校への連絡メールの送信を頼める。、家族を見分ける：声と姿で家族を見分け、使うほど好みを覚えて答える。"
+    },
+    "body": [
+      {
+        "heading": "早期アクセスで順次案内",
+        "paragraphs": [
+          "Amazonは10月29日、生成AIを使った音声アシスタント「Alexa+」の国内提供を始めた。早期アクセスとして、Alexa+に対応するEchoやFire TV、Fire TVを搭載したパナソニックとJVCのテレビ（一部の機種を除く）を持つ人や新たに買った人に、順次案内する。Amazon.co.jp/newalexaから申し込める。",
+          "対応するデバイスのほか、Alexaアプリとブラウザ（alexa.jp）でも使える。早期アクセスの終了時期は発表になく、本誌では未確認。"
+        ]
+      },
+      {
+        "heading": "料金はプライム会員なら追加なし",
+        "paragraphs": [
+          "早期アクセス期間中は無料。終了後は月額3,000円の有料サービスになるが、Amazonプライム会員は追加料金なしで使える。"
+        ]
+      },
+      {
+        "heading": "用事を代わりに進める",
+        "paragraphs": [
+          "自然な会話で意図をくみ取り、商品の比較やレビューの要約、配送状況の確認、ほしい物リストの値下げ通知、プレゼントの提案と注文、学校への連絡メールの送信などを代わりに行う。照明やエアコンの操作、決まった動作の組み合わせの作成にも対応する。",
+          "声と姿で家族一人ひとりを見分け、使うほど好みを覚える。やり取りは「Alexaプライバシーダッシュボード」で確認・管理できる。食べログのレストラン予約、Uber Eats、出前館、チケットぴあとの連携は今後提供する予定だ。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜家庭のAIが「頼める窓口」になる",
+        "paragraphs": [
+          "前日のSiriに続き、家庭や手元の端末で、会話から用事を代わりに進めるAIが日本語で使えるようになった。予約や注文を受け付ける店やサービスにとっては、音声のAI経由で選ばれるかどうかが新しい接点になる。",
+          "本誌は、予約や注文を受けるサービスを持つ企業は、AIアシスタントとの連携の可否と、AI経由の注文の扱いを確認しておくことを勧める。これは本誌の提案で、Amazonの推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "自社の予約・注文サービスが、Alexa+などのAIアシスタントと連携できるか確認する",
+      "AI経由で注文や予約が来た場合の確認・取り消しの流れを決めておく",
+      "社内の会議室などでEchoを使っている場合、Alexa+の案内が来たときの扱いを決める"
+    ],
+    "service": "luna",
+    "pull": "話しかけるだけで、用事が片づく。",
+    "hero_image": "/assets/illustrations/2026-10-29-story-6-cast.webp",
+    "hero_image_alt": "音声アシスタントを前に驚く眼鏡のラッコと首をかしげる茶トラ猫、読書のふりで横目を向けるアザラシ。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-10-29-story-6.png"
+  },
+  {
+    "updated_at": "2026-10-29",
+    "verified_at": "2026-10-29",
+    "article_kind": "news",
+    "title": "LINE、通話の録音・文字起こし機能を「LINEラボ」で無料提供　今冬以降は有料会員の特典に",
+    "category": "ツール更新",
+    "source": "LINEヤフー",
+    "published_at": "2026-10-27",
+    "lede": "LINEヤフーは、LINEの1対1の通話を録音・録画できる「通話レコーディング」を、新機能を試せる「LINEラボ」で無料提供すると発表した。日本語の音声通話では文字起こしもできる。今冬以降は有料の「LYPプレミアム」の会員特典として提供する予定だ。",
+    "links": [
+      "https://www.lycorp.co.jp/ja/news/release/020888/"
+    ],
+    "keypoints": [
+      "対象は1対1の通話。音声通話は録音と文字起こし、ビデオ通話は録画のみ",
+      "文字起こしは日本語の音声通話だけ。LINEのバージョン26.16.0以降が必要",
+      "記録を始めると、双方に音声の案内が流れ、画面に「レコーディング中」と出る",
+      "機種変更や再インストールでデータは消える。今冬以降はLYPプレミアムのスタンダードとwith Netflixの特典に"
+    ],
+    "editorial_diagram": {
+      "kicker": "LINEヤフーの発表 / 通話レコーディング",
+      "title": "LINEの通話を、あとで読める記録に",
+      "lead": "発表から、使い始めるまでの流れを3つにまとめた。",
+      "examples": [
+        [
+          "オンにする",
+          "設定のLINEラボで「通話レコーディング」をオンにする。文字起こしは別に設定する。"
+        ],
+        [
+          "相手に知らせて記録",
+          "記録を始めると、双方に音声の案内が流れ、画面に記録中と表示される。"
+        ],
+        [
+          "あとで確かめる",
+          "記録はトークや通話のメニューから開ける。機種変更で消える点に注意。"
+        ]
+      ],
+      "note": "LINEヤフーのプレスリリース（2026年10月27日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://www.lycorp.co.jp/ja/news/release/020888/",
+      "wide": "/assets/illustrations/2026-10-29-story-7-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-10-29-story-7-diagram-mobile.webp",
+      "alt": "オンにする：設定のLINEラボで「通話レコーディング」をオンにする。文字起こしは別に設定する。、相手に知らせて記録：記録を始めると、双方に音声の案内が流れ、画面に記録中と表示される。、あとで確かめる：記録はトークや通話のメニューから開ける。機種変更で消える点に注意。"
+    },
+    "body": [
+      {
+        "heading": "1対1の通話を記録",
+        "paragraphs": [
+          "LINEヤフーは10月27日、LINEの通話を録音・録画できる「通話レコーディング」を「LINEラボ」で提供すると発表した。対象は1対1の通話で、音声通話は録音と文字起こし、ビデオ通話は録画ができる。文字起こしは日本語の音声通話だけに対応する。",
+          "使うにはLINEのバージョン26.16.0以降が必要。ホームの設定から「LINEラボ」を開き、「通話レコーディング」をオンにする。文字起こしを使う場合は、通話の設定で「通話文字起こし」もオンにする。初回は文字起こし機能のダウンロードが必要になる。対応するOSは発表になく、本誌では未確認。"
+        ]
+      },
+      {
+        "heading": "相手にも知らせる仕組み",
+        "paragraphs": [
+          "通話画面の「レコーディング開始」を押すと、双方に記録開始の音声案内が流れ、双方の画面に「レコーディング中」と表示される。記録はトークルームや通話メニューの「レコーディングファイル」から見られる。",
+          "LINEラボで機能をオフにすると記録を開けなくなり、機種変更やLINEの再インストールでデータは消える。保存できる期間は発表になく、本誌では未確認。"
+        ]
+      },
+      {
+        "heading": "今冬以降は有料会員の特典に",
+        "paragraphs": [
+          "LINEラボでの提供期間中は全員が無料で使える。提供終了後は、今冬以降に月額制の「LYPプレミアム」のスタンダードプランとwith Netflixの会員特典として提供する予定だ。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜仕事の電話がLINEなら、記録の扱いを決める",
+        "paragraphs": [
+          "取引先や現場とのやり取りをLINE通話で済ませている会社では、言った・言わないの確認がしやすくなる。一方で、相手に通知されるとはいえ、録音や文字起こしを残すことへの同意や、記録の保管先は会社として決めておく必要がある。",
+          "本誌は、業務でLINE通話を使う場合、録音してよい場面と、記録を会社の保管場所へ移す手順を決めることを勧める。これは本誌の提案で、LINEヤフーの推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "業務でLINE通話を使っている部署と、その用途を確認する",
+      "通話を録音・文字起こししてよい場面と、相手への伝え方を決める",
+      "端末に残る記録は機種変更で消えるため、残す必要がある記録の保管手順を決める"
+    ],
+    "service": "luna",
+    "pull": "LINEの通話を、あとで読める記録に。",
+    "hero_image": "/assets/illustrations/2026-10-29-story-7-cast.webp",
+    "hero_image_alt": "通話録音と文字起こしを示すスマホに驚くラッコと、首を傾げる猫、読書を装い横目で聞くアザラシ。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-10-29-story-7.png"
+  },
+  {
+    "updated_at": "2026-10-29",
+    "verified_at": "2026-10-29",
+    "article_kind": "news",
+    "title": "NVIDIA、文字起こし・話者の聞き分け・翻訳を1つでこなす「Nemotron 3.5 Transcribe」を公開　指示文で出力を変えられる",
+    "category": "新モデル発表",
+    "source": "NVIDIA",
+    "published_at": "2026-10-28",
+    "lede": "NVIDIAは、音声の文字起こし、話者の聞き分け、翻訳、音声についての質問への回答を1つのモデルで行う「Nemotron 3.5 Transcribe」を、重みを公開する形で出した。指示文で出力の形を変えられる。学習に使った音声データ「Granary v2」も公開した。",
+    "links": [
+      "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary"
+    ],
+    "keypoints": [
+      "文字起こしは40言語、英語との双方向翻訳は31言語、話者の聞き分けは13言語に対応",
+      "最長1時間の録音で、最大8人の話者を聞き分ける。単語ごとの時刻も付けられる",
+      "「話者名付きで書き起こす」「会議の決定事項を抜き出す」など、指示文で出力を変えられる。録音済みの音声向けで、リアルタイムの配信には非対応",
+      "学習データGranary v2は48言語・約46万3,000時間"
+    ],
+    "editorial_diagram": {
+      "kicker": "NVIDIAの発表 / Nemotron 3.5 Transcribe",
+      "title": "書き起こしの形を、言葉で頼む",
+      "lead": "NVIDIAが示した使い方の例を3つにまとめた。",
+      "examples": [
+        [
+          "話者付きで書き起こす",
+          "最長1時間の録音で、最大8人の話者を聞き分けて書き起こす。"
+        ],
+        [
+          "英語に訳す",
+          "31言語と英語の間で、音声から直接訳す。"
+        ],
+        [
+          "要点を抜き出す",
+          "会議の録音から決定事項を抜き出すなど、音声について質問できる。"
+        ]
+      ],
+      "note": "Hugging Faceに掲載されたNVIDIAのブログ（2026年10月28日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+      "wide": "/assets/illustrations/2026-10-29-story-8-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-10-29-story-8-diagram-mobile.webp",
+      "alt": "話者付きで書き起こす：最長1時間の録音で、最大8人の話者を聞き分けて書き起こす。、英語に訳す：31言語と英語の間で、音声から直接訳す。、要点を抜き出す：会議の録音から決定事項を抜き出すなど、音声について質問できる。"
+    },
+    "body": [
+      {
+        "heading": "1つのモデルで4つの仕事",
+        "paragraphs": [
+          "NVIDIAは10月28日、Hugging Faceのブログで「Nemotron 3.5 Transcribe」を公開した。文字起こし、話者の聞き分け、翻訳、音声についての質問への回答を1つのモデルで行う。モデルの重みは公開されている。利用条件（ライセンス）の詳細はブログになく、本誌では未確認。",
+          "文字起こしは40言語、英語との双方向翻訳は31言語、話者の聞き分けは13言語に対応する。最長1時間の録音で最大8人を聞き分け、単語ごとの時刻も付けられる。録音済みの音声向けで、リアルタイムの配信には対応しないと明記している。日本語が対応言語に入るかはブログからは読み取れず、本誌では未確認。"
+        ]
+      },
+      {
+        "heading": "指示文で出力を変える",
+        "paragraphs": [
+          "「話者名を付けて書き起こす」「英語に訳す」「会議の決定事項を抜き出す」といった指示を文章で与えると、その形で出力する。NVIDIAは、英語の文字起こしの評価「Open ASR Leaderboard」で平均の誤り率5.33%となり、重みを公開したモデルの中で1位だったとしている。",
+          "学習に使った音声データ「Granary v2」も公開した。48言語、16の元データから成り、約46万3,000時間分になる。前の版は25言語だった。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜議事録づくりを社内で完結させる選択肢",
+        "paragraphs": [
+          "重みが公開された文字起こしモデルは、会議の音声を外部のサービスに送らず、自社の環境で処理する用途に向く。指示文で話者付きの書き起こしや決定事項の抽出まで頼めるなら、議事録づくりの手間を減らせる可能性がある。",
+          "本誌は、会議の録音を社外に出したくない企業は、日本語への対応と利用条件を確認したうえで、自社の環境での試用を検討することを勧める。これは本誌の提案で、NVIDIAの推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "モデルカードで、日本語への対応と商用利用の条件を確認する",
+      "社外に出せない会議の録音を1本選び、自社環境での書き起こしを試す",
+      "いま使っている文字起こしサービスと、精度・費用・データの扱いを比べる"
+    ],
+    "service": "luna",
+    "pull": "書き起こしの形を、言葉で頼む。",
+    "hero_image": "/assets/illustrations/2026-10-29-story-8-cast.webp",
+    "hero_image_alt": "音声を整理する画面に驚くラッコと、首をかしげる猫、本を読みながら横目で聞くアザラシ。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-10-29-story-8.png"
+  },
+  {
+    "updated_at": "2026-10-29",
+    "verified_at": "2026-10-29",
+    "article_kind": "news",
+    "title": "NTT、4K映像を縮小せずに解析するAIチップで、道路監視の検知距離を3倍以上に　必要な場面だけ画像AIが判断",
+    "category": "研究",
+    "source": "NTT",
+    "published_at": "2026-10-27",
+    "lede": "NTTは、自社開発のAIチップで4K映像を縮小せずに解析し、画像と言葉を理解するAI（VLM）と組み合わせる道路監視の試作システムを発表した。遠くの小さな対象を見つけられる距離が従来の3倍以上に延び、事故の判断もできたとしている。",
+    "links": [
+      "https://group.ntt/jp/newsrelease/2026/10/27/261027b.html"
+    ],
+    "keypoints": [
+      "自社開発の「超高精細映像AI推論LSI」で、4K映像を縮小せず毎秒30コマ、消費電力20W以下で物体を検出",
+      "映像全体を縮小する方法と比べ、遠くの小さな対象を見つけられる距離が3倍以上",
+      "事故を含む1分間の4K映像で、VLMに入力したのは34回。全コマを入力する場合より約98.1%少ない",
+      "2026年度内にNTTイノベーティブデバイスがこのチップを載せた試作品の提供を始める予定"
+    ],
+    "editorial_diagram": {
+      "kicker": "NTTの発表 / 道路監視のPoC",
+      "title": "ふだんはチップ、要るときだけVLM",
+      "lead": "NTTの試作システムの処理の流れを3つにまとめた。",
+      "examples": [
+        [
+          "縮小せずに見張る",
+          "AIチップが4K映像を毎秒30コマで解析し、遠くの小さな対象も見つける。"
+        ],
+        [
+          "切り出して渡す",
+          "気になる対象の周りを4Kのまま切り出し、位置や速さの情報と一緒に渡す。"
+        ],
+        [
+          "必要なときだけ判断",
+          "VLMは事故の判断などが必要な場面でだけ動く。1分の映像で入力は34回だった。"
+        ]
+      ],
+      "note": "NTTのニュースリリース（2026年10月27日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://group.ntt/jp/newsrelease/2026/10/27/261027b.html",
+      "wide": "/assets/illustrations/2026-10-29-story-9-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-10-29-story-9-diagram-mobile.webp",
+      "alt": "縮小せずに見張る：AIチップが4K映像を毎秒30コマで解析し、遠くの小さな対象も見つける。、切り出して渡す：気になる対象の周りを4Kのまま切り出し、位置や速さの情報と一緒に渡す。、必要なときだけ判断：VLMは事故の判断などが必要な場面でだけ動く。1分の映像で入力は34回だった。"
+    },
+    "body": [
+      {
+        "heading": "4K映像をそのまま解析",
+        "paragraphs": [
+          "NTTは10月27日、自社開発の「超高精細映像AI推論LSI」と、画像と言葉を理解するAI（VLM）を組み合わせた道路監視の試作システム（PoC）を発表した。LSIは4K映像を縮小せずに毎秒30コマで物体を検出し、消費電力は20W以下。映像全体を一般的な検出モデルの大きさに縮小する方法と比べ、遠くの小さな対象を見つけられる距離が3倍以上に延びたという。",
+          "気になる対象を見つけると、その周りを4Kのまま320×320画素で切り出し、位置・速さ・向きなどの動きの情報と一緒にVLMに渡す。"
+        ]
+      },
+      {
+        "heading": "VLMへの入力を約98.1%減らす",
+        "paragraphs": [
+          "事故の瞬間を含む1分間（1,800コマ）の4K映像で試したところ、映像全体をVLMに入れた場合は車が縮小でつぶれ、事故と判断できなかった。試作システムでは止まった車を見つけて事故と判断できた。VLMに入力したのは34回で、全コマを入力する場合と比べて約98.1%少なかった。",
+          "11月18〜25日の「NTT R&D FORUM 2026」で展示する。2026年度内に、NTTイノベーティブデバイスがこのLSIを載せた試作品（Engineering Sample）の提供を始める予定で、道路や空港などの監視への適用を進める。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜重いAIは「必要なときだけ」動かす",
+        "paragraphs": [
+          "常に重いAIを動かすのではなく、軽い処理で見張り、必要な場面だけ高度なAIに判断させる組み立ては、監視に限らず費用を抑える基本の形になる。カメラの台数を減らせる可能性もある。",
+          "本誌は、映像を使った監視や点検を検討している企業は、常時解析と詳細判断を分ける構成で費用を見積もることを勧める。これは本誌の提案で、NTTの推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "自社の監視カメラや点検映像で、遠くの対象を見落としている場面がないか確認する",
+      "映像AIの費用を、常時解析と必要時の詳細判断に分けて見積もる",
+      "NTT R&D FORUM 2026（11月18〜25日）の展示を確認する"
+    ],
+    "service": "fde",
+    "pull": "ふだんは軽く、要るときだけ深く見る。",
+    "hero_image": "/assets/illustrations/2026-10-29-story-9-cast.webp",
+    "hero_image_alt": "道路監視の画面に驚くラッコと、首をかしげて指さす猫、読書を装い横目で聞くアザラシ。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-10-29-story-9.png"
+  }
+]
