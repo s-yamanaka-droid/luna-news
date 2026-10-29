@@ -7,6 +7,60 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。公開済みのAIニュースと実務への示唆をお届けします。</description>
   <language>ja</language>
   <item>
+    <title>OpenAI、ChatGPTのProとBusinessに月最大500ドル分のAPIクレジット　Businessは1席20ドルから、未使用分は翌月に繰り越せない</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-30/story-1/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-30/story-1/</guid>
+    <description>OpenAIは、ChatGPTの有料プラン「Pro」と「Business」の契約者に、API（外部のシステムからAIを呼び出す仕組み）で使えるクレジットを毎月付与する特典を始めた。Proは契約額と同じ額、Businessは席の数に応じて、1ワークスペースあたり月500ドルが上限になる。</description>
+  </item>
+  <item>
+    <title>Google、Geminiアプリの中で文書・表・スライドを作って直せるように　全利用者向け、スマホはPDFのみ</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-30/story-2/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-30/story-2/</guid>
+    <description>Googleは、Geminiアプリの会話の中で、文書やPDF、スライド、表などのファイルを作り、表示し、編集できるようにした。Geminiアプリが使えるすべての言語で、すべての利用者に提供する。スマートフォンで編集できるのは今のところPDFだけになる。</description>
+  </item>
+  <item>
+    <title>Apple、KeynoteやPagesにAIアシスタントとMCP対応　外部のAIエージェントが資料を読み書き、11月にCreator Studioで</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-30/story-3/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-30/story-3/</guid>
+    <description>Appleは、クリエイティブアプリのサブスクリプション「Apple Creator Studio」の更新を発表した。Keynote、Pages、NumbersにAIアシスタント（ベータ版）が加わり、外部のAIエージェントがMCPで資料を読み書きできるようになる。App Storeでの提供は11月から。</description>
+  </item>
+  <item>
+    <title>Mistral AI、「Mistral Large 4」の重みを公開　約1兆パラメータ、プレビュー版から3週間の追加学習でコーディングを強化</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-30/story-4/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-30/story-4/</guid>
+    <description>フランスのMistral AIは、10月上旬にプレビュー版を出した大規模言語モデル「Mistral Large 4」の改良版について、モデルの重み（中身のデータ）を公開した。パラメータ数は約1兆。プレビュー版からさらに3週間の追加学習を行い、コーディングとサイバーセキュリティを強化したとしている。</description>
+  </item>
+  <item>
+    <title>KDDI、「AI脆弱性管理ソリューション」を提供開始　ネットワーク設定とソースコードをAIが診断、12月28日まで無償トライアル</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-30/story-5/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-30/story-5/</guid>
+    <description>KDDIは、企業のシステムに潜む弱点を診断し、悪用される可能性や業務への影響から優先して直すべき課題を示す「AI脆弱性管理ソリューション」の提供を始めた。グループのラックの診断と、KDDI総合研究所のAI技術を組み合わせる。</description>
+  </item>
+  <item>
+    <title>ドコモSMTBネット銀行、法人アプリにAIエージェント「NEOBANK ai BIZ」　振込や資金繰りを対話で支援、一部の法人でベータ</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-30/story-6/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-30/story-6/</guid>
+    <description>ドコモSMTBネット銀行は、法人向けアプリのAIエージェント「NEOBANK ai BIZ」のベータテストを、同行が案内した一部の法人顧客を対象に始めた。チャットや音声で頼むと、振込の手続きや資金繰りの確認を手伝う。最終的な取引の操作は利用者が行う。</description>
+  </item>
+  <item>
+    <title>LINEヤフー、法人向け新基盤「LINEヤフー Business OS」を発表　LINE公式アカウントのAIモードを11月に一部企業へ</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-30/story-7/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-30/story-7/</guid>
+    <description>LINEヤフーは、法人向けの新しい基盤「LINEヤフー Business OS」を発表した。顧客との出会いから購入までの体験と、裏側の業務や施策の運用を一つの基盤で支える。企業情報を理解したAIが利用者に話しかける「LINE公式アカウント AIモード」を、11月から一部企業に先行して提供する。</description>
+  </item>
+  <item>
+    <title>GitLab、AIエージェントに開発の全体像を渡す「GitLab Orbit」を一般提供　Claude CodeやCodexからMCPで利用</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-30/story-8/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-30/story-8/</guid>
+    <description>GitLabは、コード、マージリクエスト、作業項目、パイプライン、脆弱性、担当者などのつながりを、AIエージェントが問い合わせられる形にまとめる「GitLab Orbit」を一般提供した。PremiumとUltimateの顧客が対象で、まずGitLab.comから提供する。</description>
+  </item>
+  <item>
+    <title>OpenAI、AIのふるまいの指針「Model Spec」を改訂　人の意図に忠実であることなど5つの中核的な価値を明記</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-30/story-9/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-30/story-9/</guid>
+    <description>OpenAIは、自社のAIモデルがどうふるまうべきかを定めた指針「Model Spec」の新しい版を公開した。人の意図に忠実であること、害を最小にすること、正直で透明であることなど、5つの中核的な価値を掲げている。</description>
+  </item>
+  <item>
     <title>Google、新モデル「Gemini 4 Carbon」を発表　脆弱性の発見から修正までを強化、まずサイバー防御の担当者に提供</title>
     <link>https://nowonair.vercel.app/articles/2026-10-29/story-1/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-29/story-1/</guid>
@@ -101,60 +155,6 @@
     <link>https://nowonair.vercel.app/articles/2026-10-28/story-7/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-28/story-7/</guid>
     <description>Supabaseは10月27日、AIエージェントやバックグラウンド処理を、データと同じSupabaseのプロジェクト内で動かす「Supabase Compute」を非公開アルファとして公開した。Node、Deno、任意のDockerfileが使え、数分から数時間かかる処理も実行できる。現時点では米国西部（us-west-2）のプロジェクトのみで、本番利用は想定していない。</description>
-  </item>
-  <item>
-    <title>Vercel、AIエージェント「Vercel Agent」の1回あたりの費用を平均67%削減　文脈の扱いを作り直し</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-28/story-8/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-28/story-8/</guid>
-    <description>Vercelは10月27日、ダッシュボードとSlackで使うAIエージェント「Vercel Agent」の1回の作業（セッション）にかかる費用が、平均で67%下がったと発表した。会話の文脈の扱いを作り直し、必要なトークン数を減らし、プロンプトキャッシュを使い回しやすくした。料金の単価は変えていない。</description>
-  </item>
-  <item>
-    <title>Anthropic、米ナスダックへの上場を申請　上半期の売上高は162億ドルで前年の約14倍、純損失は807億ドル</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-27/story-1/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-27/story-1/</guid>
-    <description>Anthropicは10月26日、米証券取引委員会（SEC）に上場のための登録届出書（Form S-1）を提出したと発表した。ナスダック・グローバル・セレクト市場に銘柄コード「ANT」での上場を申請している。届出書によると、2026年1〜6月の売上高は162億8,600万ドルで、前年同期（11億6,300万ドル）の約14倍。純損失は807億4,800万ドルで、その大半は転換社債などの公正価値の変動による損失だった。</description>
-  </item>
-  <item>
-    <title>OpenAI、「GPT-6.1 Terra」を公開　API単価は入力1ドル・出力5ドル、前モデルから大きく値下げ</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-27/story-2/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-27/story-2/</guid>
-    <description>OpenAIは10月26日、GPT-6シリーズの新モデル「GPT-6.1 Terra」を公開した。量の多い業務を速く安く処理するためのモデルで、画像の読み取りやコンピューター操作も得意とする。APIの単価は100万トークンあたり入力1ドル、出力5ドルで、前モデルGPT-5.6 Terraの入力2ドル・出力12ドルから下がった。</description>
-  </item>
-  <item>
-    <title>Cloudflare、AI推論で他社の応答が混ざる不具合を公表　GLM-5.3で155件、長い入力が条件</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-27/story-3/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-27/story-3/</guid>
-    <description>Cloudflareは10月26日、AI推論サービス「Workers AI」で提供していたモデル「GLM-5.3」で、ある利用者への応答に、直前に別の利用者が送った依頼の内容が混ざる不具合があったと公表した。8月27日から9月9日までに155件の応答が影響を受けた。設定の誤りと、推論ソフト「SGLang」の不具合が重なったのが原因で、すでに修正している。</description>
-  </item>
-  <item>
-    <title>ソフトバンク、「AGENTIC STAR 3.0」を提供開始　AIの作業と人の確認を一連の業務として設計</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-27/story-4/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-27/story-4/</guid>
-    <description>ソフトバンクは10月26日、法人向けAI活用基盤の新版「AGENTIC STAR 3.0」の提供を始めた。新しい「プロジェクト機能」で、AIエージェントが行う作業と人が判断・確認する工程を組み合わせ、複数の工程からなる業務を1つの流れとして設計・管理できる。従来のチャット機能とは別の料金体系で提供する。</description>
-  </item>
-  <item>
-    <title>GXO、人型ロボット「Digit」を米国の2拠点に追加導入　2027年初めから、Agilityは受注の広がりを説明</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-27/story-5/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-27/story-5/</guid>
-    <description>物流大手GXOは10月26日、Agility Roboticsの人型ロボット「Digit」を、米ノースカロライナ州ステーツビルとテネシー州レバノンの2拠点に追加導入する商用契約を結んだと発表した。2027年初めに「Digit 4」で導入を始め、次世代の「Digit 5」が商用化されたら移行する。</description>
-  </item>
-  <item>
-    <title>Databricksの「AI Search」、ストリーミングテーブルなどを直接検索の対象に　データの複製が不要に</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-27/story-6/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-27/story-6/</guid>
-    <description>Databricksは10月26日、AIアプリ向けの検索機能「AI Search」で、これまでのDeltaテーブルに加え、ストリーミングテーブル、マテリアライズドビュー、管理対象のIcebergテーブルから直接検索の索引を作れるようにしたと発表した。別にDeltaの複製を作り、同期の仕組みを組む必要がなくなる。</description>
-  </item>
-  <item>
-    <title>NVIDIA、AIデータセンター運用ソフト「Mission Control 2.5」　障害からの自動復旧をKubernetesにも拡大</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-27/story-7/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-27/story-7/</guid>
-    <description>NVIDIAは10月26日、AIデータセンターの運用ソフト「Mission Control」の新版2.5を提供開始した。これまでSlurmの環境に限っていた障害からの自動復旧の仕組みを、NVIDIA Run:aiが管理するKubernetesの作業にも広げた。AIを使ったネットワークの異常検知をベータ版で加えた。</description>
-  </item>
-  <item>
-    <title>Google、11〜14歳向けのAI学習教材に脳の神経をつなぐ回　スタンフォード大学と共同、教員研修も</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-27/story-8/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-27/story-8/</guid>
-    <description>Googleは10月26日、11〜14歳の生徒がAIの仕組みを学ぶ教材「AI Quests」の3作目「Polar Peaks」を公開した。生徒は脳の神経細胞をつなぐ地図づくりに取り組む。Google Researchとスタンフォード大学の学習研究機関と共同で作り、教員向けの研修教材も合わせて公開した。</description>
   </item>
 </channel>
 </rss>
