@@ -7,6 +7,54 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。公開済みのAIニュースと実務への示唆をお届けします。</description>
   <language>ja</language>
   <item>
+    <title>デジタル庁、国会答弁の作成を支援するAIを約18万人の政府職員に試験提供　臨時国会で検証し、来年1月の通常国会で本格提供へ</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-31/story-1/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-31/story-1/</guid>
+    <description>デジタル庁は、政府共通のAI基盤「源内」で、国会答弁案の作成を支援する「国会答弁作成支援AIアプリ」のプロトタイプ版を、約18万人の政府職員に提供し始めた。開会中の臨時国会で試し、来年1月からの通常国会で本格提供を始める計画だ。</description>
+  </item>
+  <item>
+    <title>OpenAI、AIの「ずれた行動」を見張る社内監視の仕組みを公開　モデルがネット接続を試みた事例を15分以内に検知</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-31/story-2/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-31/story-2/</guid>
+    <description>OpenAIは、開発中や社内利用中のAIエージェントが意図から外れた行動（ミスアライメント）をとったときに見つけるための、社内の監視システムの仕組みを公開した。学習中のモデルが隔離環境からインターネットに接続しようとした事例を、15分以内に検知したという。</description>
+  </item>
+  <item>
+    <title>OpenAI、サイトが「AI学習に使ってよいか」を複数社にまとめて伝える共通の合図に対応へ　IETFの議論に基づき、数か月以内に</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-31/story-3/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-31/story-3/</guid>
+    <description>OpenAIは、ウェブサイトが自分のコンテンツを生成AIの基盤モデルの学習に使ってよいかを、robots.txtで示す共通の合図（シグナル）を尊重すると発表した。参加するAI企業に一度に意向を伝えられるようになる。対応は今後数か月以内を目指す。</description>
+  </item>
+  <item>
+    <title>OpenAI、ChatGPTの暴力対策と10代の保護を強化　危険な兆候のある会話は自動で終了、半年ごとに安全報告を公開へ</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-31/story-4/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-31/story-4/</guid>
+    <description>OpenAIは、ChatGPTで暴力につながる使い方を防ぐ対策を強めると発表した。暴力へのこだわりが見える会話は自動で終わらせ、18歳未満と推定した利用者には武器に関する情報をさらに絞る。数週間以内に順次始める。</description>
+  </item>
+  <item>
+    <title>Google、Gemini Notebookで数百冊の教科書を無料で追加できるように　回答は教科書に基づき、引用元へのリンク付き</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-31/story-5/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-31/story-5/</guid>
+    <description>Googleは、調べ物や学習を助けるAIノート「Gemini Notebook」で、米国とインドの提供元による数百冊の教科書を無料で追加できるようにした。追加した教科書に基づいて回答し、引用元へのリンクも示す。</description>
+  </item>
+  <item>
+    <title>LINEヤフー、食事の写真を送るとAIがカロリーと栄養を分析する「食事管理」エージェント　LINEのトークからも記録できる</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-31/story-6/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-31/story-6/</guid>
+    <description>LINEヤフーは、AIエージェント「Agent i」に、食事の写真や内容を送るだけでカロリーや栄養素を分析し、目的に合わせた助言をする「食事管理」エージェントを加えた。専用のLINE公式アカウントと連携すれば、LINEのトークからも記録できる。</description>
+  </item>
+  <item>
+    <title>TOPPANや旭化成など6社、量子コンピュータとAIを組み合わせた材料開発の研究を開始　NEDO事業に採択、2028年度まで</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-31/story-7/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-31/story-7/</guid>
+    <description>TOPPANホールディングス、アイシン、旭化成、ソフトバンク、AGC、DICの6社は、量子コンピュータの計算とAIを組み合わせた材料開発基盤の研究開発を始める。NEDOの補助事業に共同提案して採択され、2026年度から2028年度まで取り組む。</description>
+  </item>
+  <item>
+    <title>AWS、AIエージェントが作っている途中のWebアプリをブラウザで確認できる「Session endpoints」　AgentCore Runtimeの新機能</title>
+    <link>https://nowonair.vercel.app/articles/2026-10-31/story-8/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-31/story-8/</guid>
+    <description>AWSは、AIエージェントを動かす「Amazon Bedrock AgentCore Runtime」に、セッションの中で動いているアプリを手元のブラウザから開ける「Session endpoints」を加えた。コーディングエージェントが作っている途中のWebアプリを、その場で確認できる。</description>
+  </item>
+  <item>
     <title>OpenAI、ChatGPTのProとBusinessに月最大500ドル分のAPIクレジット　Businessは1席20ドルから、未使用分は翌月に繰り越せない</title>
     <link>https://nowonair.vercel.app/articles/2026-10-30/story-1/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-30/story-1/</guid>
@@ -107,54 +155,6 @@
     <link>https://nowonair.vercel.app/articles/2026-10-29/story-8/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-29/story-8/</guid>
     <description>NVIDIAは、音声の文字起こし、話者の聞き分け、翻訳、音声についての質問への回答を1つのモデルで行う「Nemotron 3.5 Transcribe」を、重みを公開する形で出した。指示文で出力の形を変えられる。学習に使った音声データ「Granary v2」も公開した。</description>
-  </item>
-  <item>
-    <title>NTT、4K映像を縮小せずに解析するAIチップで、道路監視の検知距離を3倍以上に　必要な場面だけ画像AIが判断</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-29/story-9/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-29/story-9/</guid>
-    <description>NTTは、自社開発のAIチップで4K映像を縮小せずに解析し、画像と言葉を理解するAI（VLM）と組み合わせる道路監視の試作システムを発表した。遠くの小さな対象を見つけられる距離が従来の3倍以上に延び、事故の判断もできたとしている。</description>
-  </item>
-  <item>
-    <title>Apple、Siri AIの日本語対応をベータで開始　画面の内容やメール・写真をもとに答え、アプリの操作も</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-28/story-1/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-28/story-1/</guid>
-    <description>Appleは、Siri AIを日本語を含む5つの言語でベータ提供すると発表した。iOS・iPadOS・macOS・watchOS・visionOSの27.2で使える。メールや写真などの個人の情報や、いま画面に出ている内容をふまえて答え、対応アプリの中の操作も実行する。</description>
-  </item>
-  <item>
-    <title>Oracle、OpenAIとの協業で4つの新製品を発表　ChatGPTから業務アプリを操作する「Oracle AI Workspace」など</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-28/story-2/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-28/story-2/</guid>
-    <description>Oracleは10月27日、年次イベント「Oracle AI World」で、OpenAIのモデルを組み込んだ4つの製品を発表した。中心となる「Oracle AI Workspace」では、ChatGPTのプラグインを通じて、社員がOracleの業務アプリから情報を取り出し、承認された業務の流れを実行できる。提供時期と料金は示されていない。</description>
-  </item>
-  <item>
-    <title>Google DeepMind、ワールドモデル「Genie 4」を発表　音声も同時に生成し、言葉で天気やカメラを変えられる</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-28/story-3/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-28/story-3/</guid>
-    <description>Google DeepMindは10月27日、操作できる仮想世界をその場で作るワールドモデル「Genie 4」を発表した。映像に加えて音楽や環境音、会話の音声も生成し、動いている最中に言葉で天気を変えたり、人や物を足したりできる。現在は一部の試験利用者向けで、Google AI Ultraの利用者などに近く提供するとしている。</description>
-  </item>
-  <item>
-    <title>KDDIとELYZA、ロボット向けAIの新会社「ELYZA Robotics」　2030年度までに300億円を投じ、現場に1,000台超</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-28/story-4/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-28/story-4/</guid>
-    <description>ELYZAとKDDIは10月27日、KDDIグループのフィジカルAI事業を担う新会社「ELYZA Robotics」が10月1日に事業を始めたと発表した。KDDIグループとして2030年度までに研究開発へ300億円を投資し、300人以上の専門組織をつくる。同年度までに1,000台以上のロボットを現場に導入することを目指す。</description>
-  </item>
-  <item>
-    <title>PFN、国産AI「PLaMo 3.1 Prime」を提供開始　調べ物を任せるDeep Researchを搭載、誤答を平均約15%抑制</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-28/story-5/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-28/story-5/</guid>
-    <description>Preferred Networks（PFN）は10月27日、国内で開発する生成AIの最新版「PLaMo 3.1 Prime」の提供を始めた。テーマを入れると、調査の計画から情報収集、出典付きのレポート作成までを自ら進める「Deep Research」を新たに載せた。前版に比べて誤答（ハルシネーション）の指標が平均約15%改善し、速度は1.7倍になった。</description>
-  </item>
-  <item>
-    <title>ドコモ、人と同じ場所で働くロボットを管理する「Physical AI連携基盤」　許されない動作は実行前に止める</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-28/story-6/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-28/story-6/</guid>
-    <description>NTTドコモは10月27日、個人向けのAIエージェントとさまざまなロボットをつなぎ、動作の許可と周りの人への配慮をまとめて扱う「Physical AI連携基盤」を開発したと発表した。利用者の年齢などの属性と場面ごとのルールに照らし、許されない動作は実行前に止める。11月18日からの「NTT R&amp;D FORUM 2026」で展示する。</description>
-  </item>
-  <item>
-    <title>Supabase、AIエージェントをデータと同じ場所で動かす「Supabase Compute」　非公開アルファで提供</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-28/story-7/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-28/story-7/</guid>
-    <description>Supabaseは10月27日、AIエージェントやバックグラウンド処理を、データと同じSupabaseのプロジェクト内で動かす「Supabase Compute」を非公開アルファとして公開した。Node、Deno、任意のDockerfileが使え、数分から数時間かかる処理も実行できる。現時点では米国西部（us-west-2）のプロジェクトのみで、本番利用は想定していない。</description>
   </item>
 </channel>
 </rss>
