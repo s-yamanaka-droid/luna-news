@@ -1,0 +1,323 @@
+[
+  {
+    "updated_at": "2026-11-02",
+    "verified_at": "2026-11-02",
+    "article_kind": "news",
+    "title": "AI学習に使ってよいかをrobots.txtで一括指定へ　Googleは2027年に対応、Microsoftは2027年2月から適用、Anthropicも実装を開始",
+    "category": "政策・規制",
+    "source": "Google Search Central Blog / Bing Webmaster Blog / IETF",
+    "published_at": "2026-10-30",
+    "lede": "サイトの内容をAIの学習に使ってよいかを、AI企業ごとではなく1つの書き方でまとめて伝える仕組みに、Google、Microsoft、Anthropicが10月30日に対応を表明した。robots.txtに共通の名前「__usage_ai-training」を書き、拒否や許可を示す。前号で伝えたOpenAIに続き、主要各社の時期と条件が出そろい始めた。",
+    "links": [
+      "https://developers.google.com/search/blog/2026/10/ai-training-control",
+      "https://blogs.bing.com/search/2026/10/your-content-your-choice-clearer-preferences-for-training-and-grounding/",
+      "https://datatracker.ietf.org/doc/draft-kelley-aipref-training-preference-signal/",
+      "https://mailarchive.ietf.org/arch/msg/ai-control/mddjatOxSR0h6GmLRBWlc839c7w/"
+    ],
+    "keypoints": [
+      "robots.txtで「User-Agent: __usage_ai-training」の下にDisallow／Allowを書き、AI学習への可否を示す",
+      "Googleは他のAI企業とともに2027年に対応する予定。共通の指定で拒否し、Google-Extendedを明示していない場合は、Google-Extendedも拒否として扱う",
+      "Microsoft（Bing）は2027年2月1日から適用。ページ単位の指定や、回答生成（グラウンディング）用の指定も新設",
+      "仕様はAnthropicのKevin Kelley氏が10月30日にIETFへ出した個人ドラフト。IETFの正式な標準ではない"
+    ],
+    "editorial_diagram": {
+      "kicker": "Google・Microsoft・IETFの発表 / AI学習の指定",
+      "title": "1行で「学習に使わないで」を伝える",
+      "lead": "各社の発表とIETFのドラフトから、書き方と各社の時期を並べた。",
+      "examples": [
+        [
+          "書き方",
+          "robots.txtに「User-Agent: __usage_ai-training」と書き、その下のDisallowやAllowで学習への可否を示す。"
+        ],
+        [
+          "Google",
+          "2027年に対応予定。共通の指定で拒否し、Google-Extendedを明示していなければ、それも拒否として扱う。"
+        ],
+        [
+          "Microsoft",
+          "2027年2月1日から適用。metaタグやHTTPヘッダでのページ単位の指定は、robots.txtより優先する。"
+        ]
+      ],
+      "note": "Google Search Central Blog、Bing Webmaster Blog、IETFのドラフト（いずれも2026年10月30日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://datatracker.ietf.org/doc/draft-kelley-aipref-training-preference-signal/",
+      "wide": "/assets/illustrations/2026-11-02-story-1-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-11-02-story-1-diagram-mobile.webp",
+      "alt": "書き方：robots.txtに「User-Agent: __usage_ai-training」と書き、その下のDisallowやAllowで学習への可否を示す。、Google：2027年に対応予定。共通の指定で拒否し、Google-Extendedを明示していなければ、それも拒否として扱う。、Microsoft：2027年2月1日から適用。metaタグやHTTPヘッダでのページ単位の指定は、ro"
+    },
+    "body": [
+      {
+        "heading": "共通の書き方",
+        "paragraphs": [
+          "IETFに10月30日付で出たインターネットドラフト「Machine-Readable Training Preference Signal」は、robots.txtのUser-Agent行に「__usage_ai-training」という名前を書き、その下のDisallowで学習への反対、Allowで賛成を示す方式だ。新しい文法は加えないため、既存のrobots.txtの読み取りの仕組みをそのまま使える。",
+          "著者はAnthropicのKevin Kelley氏で、IETFの承認を受けていない個人提出のドラフトである。正式な標準になるかどうかは今後の議論しだいだ。"
+        ]
+      },
+      {
+        "heading": "各社の対応と時期",
+        "paragraphs": [
+          "Googleは10月30日、他のAI企業とともに2027年にこの共通の指定へ対応する予定だと発表した。共通の指定で学習を拒否し、Google-Extendedを明示していないサイトは、Google-Extendedも拒否したものとして扱う。既存のGoogle-Extendedの指定は引き続き使える。",
+          "Microsoftは同日、Bingで2027年2月1日から新しい指定を適用すると発表した。学習（AI Training）はrobots.txtのほか、metaタグやHTTPヘッダ（X-Robots-Tag）でページ単位に指定でき、ページ単位の指定がrobots.txtより優先される。回答生成に使うかどうか（AI Grounding）はページ単位でのみ指定し、Microsoft自社の体験だけに使わせる「DisallowExtended」という値もある。",
+          "これまでのNoArchive／NoCacheは2027年3月1日以降、学習や回答生成の指定としては読まれなくなる。Anthropicについては、Kelley氏がIETFのメーリングリストで「実装を始めた」と投稿したが、全サービスへの対応時期は示しておらず、本誌はAnthropicの公式発表を未確認。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜サイトごとの方針を1か所に書けるようになる",
+        "paragraphs": [
+          "これまでは、AI企業ごとにクローラーの名前を調べてrobots.txtに並べる必要があった。共通の書き方が広がれば、学習への可否を1か所で示せる。",
+          "ただし、各社の適用は2027年からで、学習と回答生成の扱いも会社ごとに違う。本誌は、学習に使わせるか、AIの回答に載せたいかを分けて社内で決め、各社の適用開始に合わせて設定を見直すことを勧める。これは本誌の提案で、各社の推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "自社サイトのrobots.txtに、どのAIクローラーへの指定が書かれているか確かめる",
+      "学習への利用と、AIの回答に載ることを、分けて許可するか決める",
+      "Microsoftの2027年2月1日、NoArchive／NoCacheの3月1日の期限を予定表に入れる"
+    ],
+    "service": "luna",
+    "pull": "学習の可否を、1つの書き方でまとめて伝える。",
+    "hero_image": "/assets/illustrations/2026-11-02-story-1-cast.webp",
+    "hero_image_alt": "AI学習の許可と拒否を示す図にラッコが驚き、猫が首をかしげて問いかけ、アザラシが本越しに様子をうかがう。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-11-02-story-1.png"
+  },
+  {
+    "updated_at": "2026-11-02",
+    "verified_at": "2026-11-02",
+    "article_kind": "news",
+    "title": "Apple、中国でApple Intelligenceを提供へ　AlibabaのQwenをSiriや作文ツールで利用、12月のiOS 27.3で一般提供",
+    "category": "業界動向",
+    "source": "Apple Newsroom（中国）",
+    "published_at": "2026-10-31",
+    "lede": "Appleは10月31日、中国のiPhone利用者向けにApple Intelligenceを提供すると発表した。11月4日から開発者向けベータで試験を始め、12月のiOS 27.3で一般提供する。Siri、作文ツール、ビジュアルインテリジェンスの一部では、Alibabaの大規模言語モデル「通義千問（Qwen）」を使えるようにする。",
+    "links": [
+      "https://www.apple.com.cn/newsroom/2026/10/apple-intelligence-features-are-coming-to-users-in-china/"
+    ],
+    "keypoints": [
+      "11月4日から最新のiOS開発者向けベータで提供し、12月のiOS 27.3で中国の利用者へ一般提供",
+      "Alibabaと協力し、Siri、作文ツール、ビジュアルインテリジェンスでQwenを利用できる。Qwenの利用にはQwenアカウントかApple IDでのサインインが必要",
+      "ライブ翻訳、作文ツール、通知の要約、写真のクリーンアップ、Genmojiなどが対象",
+      "Siriと端末の言語を英語か中国語（簡体字）にする必要がある。WWDC 2026で発表した次世代の機能は今回は含まれない"
+    ],
+    "editorial_diagram": {
+      "kicker": "Appleの発表 / 中国のApple Intelligence",
+      "title": "中国向けの提供スケジュールと中身",
+      "lead": "Appleのニュースルームの発表から、時期と主な中身を並べた。",
+      "examples": [
+        [
+          "11月4日",
+          "最新のiOS開発者向けベータで、中国向けのApple Intelligenceの試験を始める。"
+        ],
+        [
+          "12月",
+          "iOS 27.3の正式版とともに、中国の利用者へ一般提供する。"
+        ],
+        [
+          "Qwenとの連携",
+          "Siri、作文ツール、ビジュアルインテリジェンスで、AlibabaのQwenを使えるようにする。"
+        ]
+      ],
+      "note": "Apple Newsroom（中国、2026年10月31日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://www.apple.com.cn/newsroom/2026/10/apple-intelligence-features-are-coming-to-users-in-china/",
+      "wide": "/assets/illustrations/2026-11-02-story-2-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-11-02-story-2-diagram-mobile.webp",
+      "alt": "11月4日：最新のiOS開発者向けベータで、中国向けのApple Intelligenceの試験を始める。、12月：iOS 27.3の正式版とともに、中国の利用者へ一般提供する。、Qwenとの連携：Siri、作文ツール、ビジュアルインテリジェンスで、AlibabaのQwenを使えるようにする。"
+    },
+    "body": [
+      {
+        "heading": "提供の時期",
+        "paragraphs": [
+          "Appleは10月31日、中国のニュースルームで、Apple Intelligenceを中国の利用者へ提供すると発表した。11月4日から最新のiOS開発者向けベータで提供し、12月に公開するiOS 27.3で一般の利用者へ広げる。",
+          "対象はiPhone 16以降、iPhone 15 Pro、iPhone 15 Pro Max、iPhone Airなど。ほかの機器への提供は、必要な認可を得た後になるとしている。"
+        ]
+      },
+      {
+        "heading": "Qwenとの連携と主な機能",
+        "paragraphs": [
+          "AppleはAlibabaと協力し、Siri、作文ツール、ビジュアルインテリジェンスで通義千問（Qwen）を使えるようにする。写真やPDF、プレゼン資料について質問したり、作文ツールの「作成」機能で文章を書いたりできる。Qwenを使うには、QwenのアカウントかApple IDでのサインインが必要だ。",
+          "ほかに、メッセージやFaceTime、電話、AirPodsでのライブ翻訳、文章の書き直しや要約、通知やメールの要約、写真のクリーンアップ、Genmojiなどが含まれる。SiriのAI機能など、WWDC 2026で発表した次世代の機能は今回の更新に含まれない。Qwenに送られるデータの扱いについて、本誌は発表文では未確認。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜国や地域で「中のAI」が変わる",
+        "paragraphs": [
+          "同じiPhoneでも、地域によって裏で動くAIモデルが変わる例になる。中国では、Appleの機能の一部をAlibabaのモデルが担う形だ。",
+          "中国の取引先や拠点とiPhoneで資料をやり取りする企業は、翻訳や要約の結果がどのモデルによるものかを意識しておきたい。本誌は、機密資料をAIの要約や質問にかける前に、社内の取り扱いルールを確認することを勧める。これは本誌の提案で、Appleの推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "中国の拠点や取引先で使うiPhoneの機種とOSを確かめる",
+      "AIの要約や翻訳にかけてよい資料の範囲を、社内ルールで確認する",
+      "12月のiOS 27.3の公開後に、実際の機能の範囲を確かめる"
+    ],
+    "service": "fde",
+    "pull": "中国のiPhoneでは、AIの一部をQwenが担う。",
+    "hero_image": "/assets/illustrations/2026-11-02-story-2-cast.webp",
+    "hero_image_alt": "スマホのAI機能に驚く眼鏡のラッコに猫が前足を上げて問いかけ、読書中のアザラシが横目で聞いている。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-11-02-story-2.png"
+  },
+  {
+    "updated_at": "2026-11-02",
+    "verified_at": "2026-11-02",
+    "article_kind": "news",
+    "title": "IPA、2027年度に始める新試験「データ・AI」領域のサンプル問題を公開　プロフェッショナルデジタルスキル試験（仮称）の科目B",
+    "category": "政策・規制",
+    "source": "IPA（情報処理推進機構）",
+    "published_at": "2026-10-30",
+    "lede": "情報処理推進機構（IPA）は10月30日、2027年度から始める予定の新しい試験制度について、「プロフェッショナルデジタルスキル（データ・AI）試験（仮称）」の科目Bのサンプル問題を公開した。データやAIを業務で扱う人材を測る新しい区分で、出題の形を前もって確かめられる。",
+    "links": [
+      "https://www.ipa.go.jp/shiken/syllabus/henkou/2026/20260622.html",
+      "https://www.ipa.go.jp/shiken/syllabus/minaoshi/rqr7mi000000dur4-att/pd-d_kamoku_b_sample.pdf"
+    ],
+    "keypoints": [
+      "10月30日、「プロフェッショナルデジタルスキル（データ・AI）試験（仮称）科目B」のサンプル問題（PDF）を追加",
+      "新しい試験制度は2027年度から始める予定",
+      "同じページでは、ITパスポート試験や情報処理安全確保支援士試験のサンプル問題も公開している",
+      "試験名はまだ「仮称」。出題数や試験時間、受験料などは本誌は未確認"
+    ],
+    "editorial_diagram": {
+      "kicker": "IPAの発表 / 新試験制度",
+      "title": "データ・AIの新試験を先取りする",
+      "lead": "IPAの発表から、今回公開されたものと今後の予定を並べた。",
+      "examples": [
+        [
+          "公開されたもの",
+          "プロフェッショナルデジタルスキル（データ・AI）試験（仮称）の、科目Bのサンプル問題。"
+        ],
+        [
+          "開始の予定",
+          "新しい試験制度は2027年度から始める予定。名称はまだ仮称。"
+        ],
+        [
+          "使い道",
+          "出題の形を前もって確かめ、社内の育成計画や受験の準備に使える。"
+        ]
+      ],
+      "note": "IPAの発表（2026年10月30日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://www.ipa.go.jp/shiken/syllabus/henkou/2026/20260622.html",
+      "wide": "/assets/illustrations/2026-11-02-story-3-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-11-02-story-3-diagram-mobile.webp",
+      "alt": "公開されたもの：プロフェッショナルデジタルスキル（データ・AI）試験（仮称）の、科目Bのサンプル問題。、開始の予定：新しい試験制度は2027年度から始める予定。名称はまだ仮称。、使い道：出題の形を前もって確かめ、社内の育成計画や受験の準備に使える。"
+    },
+    "body": [
+      {
+        "heading": "公開された内容",
+        "paragraphs": [
+          "IPAは10月30日、新しい試験制度のサンプル問題を案内するページに、「プロフェッショナルデジタルスキル（データ・AI）試験（仮称）科目B」のサンプル問題（PDF）を追加した。",
+          "このページでは、ITパスポート試験や情報処理安全確保支援士試験の新制度向けのサンプル問題もあわせて公開している。"
+        ]
+      },
+      {
+        "heading": "新しい試験制度",
+        "paragraphs": [
+          "新しい試験制度は2027年度から始める予定で、データ・AIの区分の名称はまだ仮称だ。報道では、データベーススペシャリスト試験などを再編したものと伝えられているが、本誌はIPAのページでは再編の対象となる試験名を未確認。",
+          "出題数、試験時間、受験料、試験の方式（CBTかどうか）などについても、今回のページには記載がなく、本誌は未確認。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜社内のAI人材育成の「ものさし」になりうる",
+        "paragraphs": [
+          "生成AIの導入が進むと、AIを使う人だけでなく、そのもとになるデータを整える人が足りなくなりやすい。国の試験にデータ・AIの区分ができれば、社内で育成の目標を立てるときの目安になる。",
+          "本誌は、データやAIの担当者にサンプル問題を一度解いてもらい、自社に足りない知識を洗い出すことを勧める。これは本誌の提案で、IPAの推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "データやAIの担当者に、サンプル問題を解いてもらう",
+      "社内の育成計画に、2027年度の新試験を目標として入れるか検討する",
+      "試験名や詳細が決まったら、IPAの発表を確かめる"
+    ],
+    "service": "fde",
+    "pull": "データ・AIを扱う人材を測る、新しい国の試験。",
+    "hero_image": "/assets/illustrations/2026-11-02-story-3-cast.webp",
+    "hero_image_alt": "データとAIの試験問題に驚くラッコ、首をかしげて質問する猫、読書のふりで横目を向けるアザラシ。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-11-02-story-3.png"
+  },
+  {
+    "updated_at": "2026-11-02",
+    "verified_at": "2026-11-02",
+    "article_kind": "news",
+    "title": "Microsoft Research、Copilotの評価用に「架空の会社」のデータを自動で作る仕組みを公開　評価データづくりを数日から自動処理に",
+    "category": "研究",
+    "source": "Microsoft Research Blog",
+    "published_at": "2026-10-30",
+    "lede": "Microsoft Researchは10月30日、Microsoft Copilotの品質を測るために、実在の会社に似せた架空の会社のデータと質問を自動で作る仕組みを紹介した。顧客のデータを使わずに、会議の要約などの評価を業界ごとに行える。社内のチームが評価や回帰テストに使っている。",
+    "links": [
+      "https://www.microsoft.com/en-us/research/blog/from-synthetic-enterprise-data-evaluations-to-real-microsoft-copilot-ai-confidence/"
+    ],
+    "keypoints": [
+      "「Industry Evaluation Data Generation Platform」は、架空の会社の環境、質問の自動生成、品質の評価の3つで構成",
+      "職業データや求人情報、SECへの提出書類など公開データをもとに環境を作り、顧客データは使わない",
+      "製薬、資本市場、IT・ソフトウェアの3業界の環境を作成。品質の複合指標は初期の手法より39％向上",
+      "作ったデータは社内の共有カタログで公開。外部への公開は本誌は未確認"
+    ],
+    "editorial_diagram": {
+      "kicker": "Microsoft Researchの発表 / AIの評価",
+      "title": "架空の会社でAIを試す3つの部品",
+      "lead": "Microsoft Researchのブログから、仕組みの3つの柱を並べた。",
+      "examples": [
+        [
+          "架空の会社の環境",
+          "公開データをもとに、数百人の社員とやり取りの履歴を持つ、実在に近い会社を作る。"
+        ],
+        [
+          "質問の自動生成",
+          "汎用の型を、業界らしい自然な質問に変える6段階の処理で作る。"
+        ],
+        [
+          "品質の評価",
+          "構造の忠実さ、文脈の妥当さ、振る舞いの自然さ、安全性の4つの観点で確かめる。"
+        ]
+      ],
+      "note": "Microsoft Research Blog（2026年10月30日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://www.microsoft.com/en-us/research/blog/from-synthetic-enterprise-data-evaluations-to-real-microsoft-copilot-ai-confidence/",
+      "wide": "/assets/illustrations/2026-11-02-story-4-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-11-02-story-4-diagram-mobile.webp",
+      "alt": "架空の会社の環境：公開データをもとに、数百人の社員とやり取りの履歴を持つ、実在に近い会社を作る。、質問の自動生成：汎用の型を、業界らしい自然な質問に変える6段階の処理で作る。、品質の評価：構造の忠実さ、文脈の妥当さ、振る舞いの自然さ、安全性の4つの観点で確かめる。"
+    },
+    "body": [
+      {
+        "heading": "架空の会社でCopilotを試す",
+        "paragraphs": [
+          "Microsoft Researchは10月30日のブログで、「Industry Evaluation Data Generation Platform」を紹介した。O*NETの職業データ、求人情報、SECへの提出書類などの公開データをもとに、実在の組織に近い架空の会社の環境を作る。顧客のデータは使っていない。",
+          "製薬、資本市場、IT・ソフトウェアの3業界の環境を作り、それぞれに数百人のユーザーとやり取りの履歴がある。汎用の質問の型を業界らしい自然な質問に変える6段階の処理と、構造の忠実さ、文脈の妥当さ、振る舞いの自然さ、安全性の4観点の品質評価を組み合わせる。"
+        ]
+      },
+      {
+        "heading": "効果と使い道",
+        "paragraphs": [
+          "品質の複合指標は初期の手法より39％高まり、一部の環境は1.0満点で0.9を超えたという。評価用データづくりは数日かかる手作業から自動処理に変わり、1つのデータセットあたり約10万ドル、全体で約30万ドルの節約と見積もっている。",
+          "会議の要約や、やるべきことの抽出など、Copilotの実際の使い方を想定した評価に使い、社内で最初の標準的な評価の基準として位置づけている。作ったデータは社内の共有カタログで公開しており、外部への公開や論文の有無は本誌は未確認。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜社内AIの評価は「本物のデータ」なしでも始められる",
+        "paragraphs": [
+          "AIを社内に入れるとき、本物の顧客データでは試しにくく、評価が後回しになりがちだ。今回の取り組みは、架空のデータでも業界らしい質問を作れば、品質を繰り返し測れることを示している。",
+          "本誌は、自社でAIを導入する前に、業務によくある質問を20〜30件ほど架空の資料とともに用意し、更新のたびに同じ質問で結果を比べることを勧める。これは本誌の提案で、Microsoftの推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "自社の業務でAIに頼みたい質問を、20〜30件書き出す",
+      "顧客情報を含まない架空の資料で、評価用のセットを作る",
+      "AIの設定やモデルを変えるたびに、同じ質問で結果を比べる"
+    ],
+    "service": "luna",
+    "pull": "架空の会社のデータで、AIの品質を繰り返し測る。",
+    "hero_image": "/assets/illustrations/2026-11-02-story-4-cast.webp",
+    "hero_image_alt": "架空の会社を模した模型とパソコンにラッコが驚き、猫が首をかしげ、アザラシが本を読みながら横目で見ている。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-11-02-story-4.png"
+  }
+]

@@ -7,6 +7,30 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。公開済みのAIニュースと実務への示唆をお届けします。</description>
   <language>ja</language>
   <item>
+    <title>AI学習に使ってよいかをrobots.txtで一括指定へ　Googleは2027年に対応、Microsoftは2027年2月から適用、Anthropicも実装を開始</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-02/story-1/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-02/story-1/</guid>
+    <description>サイトの内容をAIの学習に使ってよいかを、AI企業ごとではなく1つの書き方でまとめて伝える仕組みに、Google、Microsoft、Anthropicが10月30日に対応を表明した。robots.txtに共通の名前「__usage_ai-training」を書き、拒否や許可を示す。前号で伝えたOpenAIに続き、主要各社の時期と条件が出そろい始めた。</description>
+  </item>
+  <item>
+    <title>Apple、中国でApple Intelligenceを提供へ　AlibabaのQwenをSiriや作文ツールで利用、12月のiOS 27.3で一般提供</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-02/story-2/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-02/story-2/</guid>
+    <description>Appleは10月31日、中国のiPhone利用者向けにApple Intelligenceを提供すると発表した。11月4日から開発者向けベータで試験を始め、12月のiOS 27.3で一般提供する。Siri、作文ツール、ビジュアルインテリジェンスの一部では、Alibabaの大規模言語モデル「通義千問（Qwen）」を使えるようにする。</description>
+  </item>
+  <item>
+    <title>IPA、2027年度に始める新試験「データ・AI」領域のサンプル問題を公開　プロフェッショナルデジタルスキル試験（仮称）の科目B</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-02/story-3/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-02/story-3/</guid>
+    <description>情報処理推進機構（IPA）は10月30日、2027年度から始める予定の新しい試験制度について、「プロフェッショナルデジタルスキル（データ・AI）試験（仮称）」の科目Bのサンプル問題を公開した。データやAIを業務で扱う人材を測る新しい区分で、出題の形を前もって確かめられる。</description>
+  </item>
+  <item>
+    <title>Microsoft Research、Copilotの評価用に「架空の会社」のデータを自動で作る仕組みを公開　評価データづくりを数日から自動処理に</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-02/story-4/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-02/story-4/</guid>
+    <description>Microsoft Researchは10月30日、Microsoft Copilotの品質を測るために、実在の会社に似せた架空の会社のデータと質問を自動で作る仕組みを紹介した。顧客のデータを使わずに、会議の要約などの評価を業界ごとに行える。社内のチームが評価や回帰テストに使っている。</description>
+  </item>
+  <item>
     <title>トヨタとWaymo、国内でロボタクシーの運行を2027年に開始へ　高岡工場で量産する「bZ4X」に自動運転装置を搭載</title>
     <link>https://nowonair.vercel.app/articles/2026-11-01/story-1/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-01/story-1/</guid>
@@ -131,30 +155,6 @@
     <link>https://nowonair.vercel.app/articles/2026-10-30/story-4/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-30/story-4/</guid>
     <description>フランスのMistral AIは、10月上旬にプレビュー版を出した大規模言語モデル「Mistral Large 4」の改良版について、モデルの重み（中身のデータ）を公開した。パラメータ数は約1兆。プレビュー版からさらに3週間の追加学習を行い、コーディングとサイバーセキュリティを強化したとしている。</description>
-  </item>
-  <item>
-    <title>KDDI、「AI脆弱性管理ソリューション」を提供開始　ネットワーク設定とソースコードをAIが診断、12月28日まで無償トライアル</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-30/story-5/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-30/story-5/</guid>
-    <description>KDDIは、企業のシステムに潜む弱点を診断し、悪用される可能性や業務への影響から優先して直すべき課題を示す「AI脆弱性管理ソリューション」の提供を始めた。グループのラックの診断と、KDDI総合研究所のAI技術を組み合わせる。</description>
-  </item>
-  <item>
-    <title>ドコモSMTBネット銀行、法人アプリにAIエージェント「NEOBANK ai BIZ」　振込や資金繰りを対話で支援、一部の法人でベータ</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-30/story-6/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-30/story-6/</guid>
-    <description>ドコモSMTBネット銀行は、法人向けアプリのAIエージェント「NEOBANK ai BIZ」のベータテストを、同行が案内した一部の法人顧客を対象に始めた。チャットや音声で頼むと、振込の手続きや資金繰りの確認を手伝う。最終的な取引の操作は利用者が行う。</description>
-  </item>
-  <item>
-    <title>LINEヤフー、法人向け新基盤「LINEヤフー Business OS」を発表　LINE公式アカウントのAIモードを11月に一部企業へ</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-30/story-7/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-30/story-7/</guid>
-    <description>LINEヤフーは、法人向けの新しい基盤「LINEヤフー Business OS」を発表した。顧客との出会いから購入までの体験と、裏側の業務や施策の運用を一つの基盤で支える。企業情報を理解したAIが利用者に話しかける「LINE公式アカウント AIモード」を、11月から一部企業に先行して提供する。</description>
-  </item>
-  <item>
-    <title>GitLab、AIエージェントに開発の全体像を渡す「GitLab Orbit」を一般提供　Claude CodeやCodexからMCPで利用</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-30/story-8/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-30/story-8/</guid>
-    <description>GitLabは、コード、マージリクエスト、作業項目、パイプライン、脆弱性、担当者などのつながりを、AIエージェントが問い合わせられる形にまとめる「GitLab Orbit」を一般提供した。PremiumとUltimateの顧客が対象で、まずGitLab.comから提供する。</description>
   </item>
 </channel>
 </rss>
