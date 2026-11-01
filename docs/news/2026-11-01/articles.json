@@ -1,0 +1,714 @@
+[
+  {
+    "updated_at": "2026-11-01",
+    "verified_at": "2026-11-01",
+    "article_kind": "news",
+    "title": "トヨタとWaymo、国内でロボタクシーの運行を2027年に開始へ　高岡工場で量産する「bZ4X」に自動運転装置を搭載",
+    "category": "業界動向",
+    "source": "トヨタ自動車",
+    "published_at": "2026-10-30",
+    "lede": "トヨタ自動車とWaymoは、自動運転分野での協業を次の段階に進めると発表した。トヨタの「bZ4X」をWaymoのロボタクシー車両とし、2027年に日本国内で試験・検証を含む初期運行を始める。",
+    "links": [
+      "https://global.toyota/jp/newsroom/corporate/44960910.html"
+    ],
+    "keypoints": [
+      "2025年4月に発表した自動運転分野の協業に関する基本合意を、次の段階に進める",
+      "トヨタ高岡工場（愛知県豊田市）で、車両の組み立てからWaymoの自動運転ハードウェアの搭載まで行う",
+      "2027年に国内で試験・検証を含む初期運行を始め、その後数年で英国などWaymoの市場に順次広げる",
+      "国内で量産された車両による完全自動運転タクシーとしては国内初になるとしている"
+    ],
+    "editorial_diagram": {
+      "kicker": "トヨタ自動車の発表 / Waymoとの協業",
+      "title": "車をつくる側と、走らせる側",
+      "lead": "トヨタの発表文から、両社の役割と今後の段取りを並べた。",
+      "examples": [
+        [
+          "トヨタが量産",
+          "高岡工場でbZ4Xを組み立て、Waymoの自動運転ハードウェアの搭載まで一貫して行う。"
+        ],
+        [
+          "Waymoが運行",
+          "Waymoのロボタクシーサービスの車両として使う。自動運転のレベルは4。"
+        ],
+        [
+          "国内から海外へ",
+          "2027年に国内で初期運行を始め、その後数年で英国などに順次展開する。"
+        ]
+      ],
+      "note": "トヨタ自動車の発表（2026年10月30日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://global.toyota/jp/newsroom/corporate/44960910.html",
+      "wide": "/assets/illustrations/2026-11-01-story-1-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-11-01-story-1-diagram-mobile.webp",
+      "alt": "トヨタが量産：高岡工場でbZ4Xを組み立て、Waymoの自動運転ハードウェアの搭載まで一貫して行う。、Waymoが運行：Waymoのロボタクシーサービスの車両として使う。自動運転のレベルは4。、国内から海外へ：2027年に国内で初期運行を始め、その後数年で英国などに順次展開する。"
+    },
+    "body": [
+      {
+        "heading": "協業を「次の段階」へ",
+        "paragraphs": [
+          "トヨタ自動車とWaymoは10月30日、自動運転分野の協業を次の段階に進めると発表した。両社は2025年4月に基本合意を発表しており、今回はその具体化にあたる。",
+          "Waymoのロボタクシー車両にはトヨタのbZ4Xを使う。トヨタ高岡工場で、ベース車両の組み立てからWaymoの自動運転ハードウェアの搭載まで、全工程を担う。後席の足元を広げ、自動スライドドアやパワーバックドア、室内の間接照明を備えるという。"
+        ]
+      },
+      {
+        "heading": "2027年に国内で初期運行",
+        "paragraphs": [
+          "2027年に日本国内で、試験・検証を含む初期運行を始める。その後数年をかけて、英国などWaymoがサービスを展開する市場に順次広げる。自動運転のレベルはSAEのレベル4としている。",
+          "発表文は運行地域や運行会社の名前を挙げておらず、本誌は国内でどの都市から始まるかを未確認。Waymoの共同CEOは、サービス地域で重傷事故について人の運転より「最大20倍安全」と述べているが、これは同社の主張として紹介されたもの。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜移動の自動化は「運行データ」の勝負になる",
+        "paragraphs": [
+          "今回の発表は、車をつくる会社と、AIで車を走らせる会社が役割を分けた例だ。発表文には、Woven by Toyotaと共にWaymoの運行データを道路の安全に生かす方法を検討することも書かれている。",
+          "本誌は、配送や送迎など移動を伴う業務を持つ企業に、自動運転の導入時期を待つだけでなく、いまの運行記録をデータとして残しておくことを勧める。これは本誌の提案で、両社の推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "自社の業務で、送迎・配送など移動にかかる時間とコストを書き出す",
+      "運行記録や事故・ヒヤリハットの記録を、データとして残せているか確かめる",
+      "国内の運行地域が発表されたら、自社の拠点と重なるかを確認する"
+    ],
+    "service": "fde",
+    "pull": "車はトヨタがつくり、Waymoが走らせる。",
+    "hero_image": "/assets/illustrations/2026-11-01-story-1-cast.webp",
+    "hero_image_alt": "自動運転タクシーと工場の図に驚くラッコ、問いかける茶トラ猫、本を読みながら横目で聞くアザラシ。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-11-01-story-1.png"
+  },
+  {
+    "updated_at": "2026-11-01",
+    "verified_at": "2026-11-01",
+    "article_kind": "news",
+    "title": "Claude、有料プラン「Max 20x」を「Ultra」に改称　認証済みのアカウントは5時間ごとの利用上限をなくす",
+    "category": "ツール更新",
+    "source": "Anthropic",
+    "published_at": "2026-10-30",
+    "lede": "Anthropicは、Claudeの有料プラン「Max 5x」を「Max」、「Max 20x」を「Ultra」に改称した。Ultraでは、認証済みのアカウントは5時間ごとの利用上限がなくなり、週ごとの上限の範囲で使える。",
+    "links": [
+      "https://support.claude.com/ja/articles/17728952-ultra%E3%83%97%E3%83%A9%E3%83%B3%E3%81%A8%E3%81%AF",
+      "https://support.claude.com/ja/articles/11049741-max%E3%83%97%E3%83%A9%E3%83%B3%E3%81%A8%E3%81%AF"
+    ],
+    "keypoints": [
+      "Ultraは月200ドル（Web契約の場合）で、Proの週あたり10倍の利用量",
+      "認証済みアカウントは5時間ごとの上限がなく、週の上限の範囲で使える",
+      "認証は契約・支払いの履歴などから自動で行われる。電話番号の確認では上限は外れない",
+      "Maxは月100ドルで、5時間ごとと週ごとにProの5倍。Max・Ultraには毎月のAPIクレジットが付く"
+    ],
+    "editorial_diagram": {
+      "kicker": "Anthropicのヘルプページ / Claudeの有料プラン",
+      "title": "改称後の2つのプラン",
+      "lead": "Anthropicのヘルプページから、MaxとUltraの違いを並べた。",
+      "examples": [
+        [
+          "Max（旧Max 5x）",
+          "月100ドル。5時間ごとと週ごとに、Proの5倍の利用量。"
+        ],
+        [
+          "Ultra（旧Max 20x）",
+          "月200ドル。Proの週あたり10倍。認証済みなら5時間ごとの上限がない。"
+        ],
+        [
+          "共通の上限",
+          "全モデル共通の週の上限と、上位モデルFable専用の週の上限がある。"
+        ]
+      ],
+      "note": "Anthropicのヘルプページ（2026年11月1日確認）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://support.claude.com/ja/articles/17728952-ultra%E3%83%97%E3%83%A9%E3%83%B3%E3%81%A8%E3%81%AF",
+      "wide": "/assets/illustrations/2026-11-01-story-2-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-11-01-story-2-diagram-mobile.webp",
+      "alt": "Max（旧Max 5x）：月100ドル。5時間ごとと週ごとに、Proの5倍の利用量。、Ultra（旧Max 20x）：月200ドル。Proの週あたり10倍。認証済みなら5時間ごとの上限がない。、共通の上限：全モデル共通の週の上限と、上位モデルFable専用の週の上限がある。"
+    },
+    "body": [
+      {
+        "heading": "名前が変わり、料金は据え置き",
+        "paragraphs": [
+          "Anthropicは10月30日、ClaudeのMax 20xプランをUltraに改称した。ヘルプページによると、既存のMax 20xの契約者は料金を変えずに自動でUltraへ移る。Max 5xはMaxの名前になった。",
+          "Ultraの料金は月200ドル、Maxは月100ドル（いずれもWebで契約した場合で、スマホのアプリでは異なることがある）。どちらも現在は月額契約のみで、毎月のClaude APIクレジットが付く。クレジットの金額は、本誌は今回のページでは未確認。"
+        ]
+      },
+      {
+        "heading": "5時間の上限をなくす条件",
+        "paragraphs": [
+          "Ultraでは、認証済みのアカウントは5時間ごとの上限がなく、週の上限の範囲で自分のペースで使える。認証は、アカウントや支払いの履歴などから自動で行われ、条件を満たすと一時的な上限が外れる。契約時の電話番号の確認は別の手続きで、これでは上限は外れないとしている。",
+          "週の上限は、全モデル共通のものと、上位モデル「Fable」専用のものがある。Anthropicは、混雑に応じて追加の上限を設けることがあるとも書いている。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜長い作業を任せる人ほど影響が大きい",
+        "paragraphs": [
+          "5時間ごとの上限は、資料作成や開発のように長く続く作業を途中で止める原因になっていた。上限が週単位にまとまると、作業の段取りを組みやすくなる。",
+          "本誌は、社内でClaudeの上位プランを使っている場合、誰がどのくらい使っているかを見て、MaxとUltraのどちらが合うかを見直すことを勧める。これは本誌の提案で、Anthropicの推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "社内でMax 20xを契約している人が、Ultraに移っているか確かめる",
+      "設定の「使用量」画面で、5時間ごとの上限が外れているかを確認する",
+      "利用量を見て、MaxとUltraのどちらが業務に合うかを見直す"
+    ],
+    "service": "luna",
+    "pull": "5時間で止まらず、週の上限の中で使い切る。",
+    "hero_image": "/assets/illustrations/2026-11-01-story-2-cast.webp",
+    "hero_image_alt": "利用制限の変化を示す紙に驚くラッコと、首をかしげる猫、本を読みながら横目でうかがうアザラシ。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-11-01-story-2.png"
+  },
+  {
+    "updated_at": "2026-11-01",
+    "verified_at": "2026-11-01",
+    "article_kind": "news",
+    "title": "SB Intuitions、国産LLM「Sarashina」初の思考モデルを公開　考える深さを3段階で選べ、APIの無償ベータで提供",
+    "category": "新モデル発表",
+    "source": "SB Intuitions",
+    "published_at": "2026-10-29",
+    "lede": "ソフトバンクグループのSB Intuitionsは、ゼロから開発している国産LLM「Sarashina」シリーズで初めての思考モデル「Sarashina3.2 mini thinking」を公開した。考える深さを「low」「medium」「high」から選べ、無償ベータ中のSarashinaのAPIで使える。",
+    "links": [
+      "https://www.sbintuitions.co.jp/blog/entry/2026/10/29/133000"
+    ],
+    "keypoints": [
+      "回答の前に考える「思考モデル」。Sarashina3 miniは指示に従うタイプだった",
+      "APIの reasoning_effort で、考える深さを low・medium・high の3段階に設定できる",
+      "事前学習で長い文脈とエージェント向けのデータを増やし、事後学習で検索と安全性の強化学習を加えた",
+      "ツール呼び出しの評価（J-τ、BFCL v3）で比較モデル中もっとも高いスコアだったとしている"
+    ],
+    "editorial_diagram": {
+      "kicker": "SB Intuitionsのブログ / Sarashina3.2 mini thinking",
+      "title": "思考モデルで何が変わったか",
+      "lead": "SB Intuitionsのブログから、新モデルの特徴を3つに分けた。",
+      "examples": [
+        [
+          "考える深さを選ぶ",
+          "low・medium・highの3段階。速さと正確さのバランスを用途で変えられる。"
+        ],
+        [
+          "道具を使う力",
+          "ツール呼び出しや、Web検索の結果に基づく回答を強化した。"
+        ],
+        [
+          "安全性の評価",
+          "日本語の安全性評価（JMT-Safety）で比較モデル中もっとも高いとしている。"
+        ]
+      ],
+      "note": "SB Intuitionsのブログ（2026年10月29日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://www.sbintuitions.co.jp/blog/entry/2026/10/29/133000",
+      "wide": "/assets/illustrations/2026-11-01-story-3-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-11-01-story-3-diagram-mobile.webp",
+      "alt": "考える深さを選ぶ：low・medium・highの3段階。速さと正確さのバランスを用途で変えられる。、道具を使う力：ツール呼び出しや、Web検索の結果に基づく回答を強化した。、安全性の評価：日本語の安全性評価（JMT-Safety）で比較モデル中もっとも高いとしている。"
+    },
+    "body": [
+      {
+        "heading": "Sarashinaシリーズ初の思考モデル",
+        "paragraphs": [
+          "SB Intuitionsは10月29日、技術ブログでSarashina3.2 mini thinkingを公開した。日本語・英語・コードで事前学習した国産LLMで、回答の前に考える過程を持つ。考える深さは、APIの reasoning_effort パラメータで low・medium・high から選ぶ。",
+          "事前学習では長い文脈の処理とエージェント向けのデータを加え、事後学習では教師あり学習や強化学習に加えて、Web検索の能力と安全性のための強化学習を新たに入れた。モデルの大きさ（パラメータ数）は、本誌はブログでは未確認。"
+        ]
+      },
+      {
+        "heading": "得意なことと、まだ弱いこと",
+        "paragraphs": [
+          "12種類のベンチマークで、Qwen3やgpt-oss-120b、GPT-5.4 miniなどと比べた。ツール呼び出しの評価J-τとBFCL v3で最高スコア、日本語の安全性評価JMT-Safetyでも最高だったとしている。一方、GPQA-Diamondなどでは一部の比較モデルに及ばず、JamC-QAは前のモデルより下がった。",
+          "使い道の例として、注文の照会やキャンセルを含む顧客対応、検索結果に基づく回答、表やJSONへの情報整理を挙げている。コーディングエージェント向けの学習はまだ十分ではないと、開発チーム自身が書いている。提供は、10月13日に始まったSarashinaのAPIの無償ベータ版を通じて行う。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜国産モデルを「顧客対応」で試す",
+        "paragraphs": [
+          "考える深さを選べるため、問い合わせ対応のように速さが大事な業務では low、調べものでは high と使い分けられる。開発チームは、顧客対応の例は low でもうまく動くと書いている。",
+          "本誌は、日本語の問い合わせ対応にAIを使っている企業に、無償ベータの間に自社のよくある質問で回答の質と速さを比べてみることを勧める。これは本誌の提案で、SB Intuitionsの推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "自社のよくある質問を10件ほど選び、比較用の評価セットにする",
+      "考える深さを変えて、回答の正確さと応答時間を比べる",
+      "本番で使う前に、有償化の時期と利用条件をSarashinaの公式サイトで確かめる"
+    ],
+    "service": "crm",
+    "pull": "速さが要る場面はlow、調べものはhigh。",
+    "hero_image": "/assets/illustrations/2026-11-01-story-3-cast.webp",
+    "hero_image_alt": "思考の深さを三段階で示す画面にラッコが驚き、猫が指をさす横で、アザラシが読書のふりをして盗み見る。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-11-01-story-3.png"
+  },
+  {
+    "updated_at": "2026-11-01",
+    "verified_at": "2026-11-01",
+    "article_kind": "news",
+    "title": "Google、宇宙に打ち上げたAIサーバーから最初の応答　衛星上のTPUでGemma 4が俳句を生成",
+    "category": "研究",
+    "source": "Google",
+    "published_at": "2026-10-30",
+    "lede": "Googleは、宇宙でAIの計算を行う研究「Project Suncatcher」の試作衛星から、最初のAIの応答を受け取ったと発表した。データセンター向けのTPUを積んだ衛星で、オープンモデルGemma 4が宇宙をテーマにした俳句を返した。",
+    "links": [
+      "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-satellite-response/"
+    ],
+    "keypoints": [
+      "試作衛星は10月1日に打ち上げられ、TPUとホストを起動して初期の機械学習テストを行った",
+      "地上局との通信の時間に指示を送り、応答はノルウェーのスバールバル上空を通るときに届いた",
+      "続けて、機器の状態を報告させる指示なども試した",
+      "今後は熱や放射線の下でのTPUの性能を調べ、2027年に2機をつなぐ衛星を打ち上げる計画"
+    ],
+    "editorial_diagram": {
+      "kicker": "Googleのブログ / Project Suncatcher",
+      "title": "宇宙のAIサーバーの段取り",
+      "lead": "Googleのブログから、試作衛星のこれまでとこれからを並べた。",
+      "examples": [
+        [
+          "打ち上げと起動",
+          "10月1日に打ち上げ。TPUとホストを起動し、初期の機械学習テストを行った。"
+        ],
+        [
+          "最初の応答",
+          "Gemma 4に俳句を頼み、スバールバル上空の通過時に応答を受け取った。"
+        ],
+        [
+          "次の段階",
+          "熱と放射線の下での性能を調べ、2027年には2機をつなぐ衛星に進む。"
+        ]
+      ],
+      "note": "Googleのブログ（2026年10月30日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-satellite-response/",
+      "wide": "/assets/illustrations/2026-11-01-story-4-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-11-01-story-4-diagram-mobile.webp",
+      "alt": "打ち上げと起動：10月1日に打ち上げ。TPUとホストを起動し、初期の機械学習テストを行った。、最初の応答：Gemma 4に俳句を頼み、スバールバル上空の通過時に応答を受け取った。、次の段階：熱と放射線の下での性能を調べ、2027年には2機をつなぐ衛星に進む。"
+    },
+    "body": [
+      {
+        "heading": "軌道上で「Hello World」",
+        "paragraphs": [
+          "Googleは10月30日、Project Suncatcherの試作衛星から最初のAIの応答を受け取ったと公式ブログで発表した。ブログは、データセンター向けのTPUが軌道上で返した最初のAIの応答だとしている。",
+          "衛星は10月1日に打ち上げられた。チームはホストとTPUを起動し、初期の機械学習テストを行ったうえで、地上局との通信の時間に、衛星上のGemma 4へ宇宙についての俳句を頼んだ。応答は、衛星がノルウェーのスバールバル上空を通るときに届いた。"
+        ]
+      },
+      {
+        "heading": "次は熱と放射線の検証",
+        "paragraphs": [
+          "このあと、宇宙をテーマにした五行詩や、機器の状態を報告させる指示も試したという。今後は、軌道上の熱や放射線の下でTPUがどう動くかを調べる。",
+          "次の目標は、2027年に2機の衛星をつないで動かすこと。衛星に積んだTPUの数や製造の協力会社について、本誌は今回のブログでは未確認。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜AIの電力問題への長期の答えの一つ",
+        "paragraphs": [
+          "Project Suncatcherは、太陽光の電力を使って宇宙でAIの計算を行う構想だ。今回はその最初の動作確認で、実用化はまだ先になる。",
+          "企業がすぐに使える技術ではないが、AIの計算に必要な電力が今後の制約になるという見方は、AIの利用計画を立てるうえで押さえておきたい。これは本誌の見方で、Googleの見解ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "自社のAI利用で、計算コストがどこで増えているかを把握する",
+      "AIサービスの料金や提供量が、電力事情で変わる可能性を計画に入れる",
+      "2027年の次の打ち上げの発表を追い、技術の進み具合を確かめる"
+    ],
+    "service": "luna",
+    "pull": "宇宙のTPUが、最初の俳句を返した。",
+    "hero_image": "/assets/illustrations/2026-11-01-story-4-cast.webp",
+    "hero_image_alt": "衛星の図が映るパソコンに驚くラッコと、首をかしげて指さす猫、読書のふりで横目を向けるアザラシ。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-11-01-story-4.png"
+  },
+  {
+    "updated_at": "2026-11-01",
+    "verified_at": "2026-11-01",
+    "article_kind": "news",
+    "title": "Google、シンガポールで医療AIの協力を拡大　研究拠点を新設し、医療向けモデルMedGemmaを現場へ",
+    "category": "業界動向",
+    "source": "Google",
+    "published_at": "2026-10-29",
+    "lede": "Googleは、シンガポールで開いた「Google for Health Summit」で、同国の医療にAIを広げる協力の拡大を発表した。Google Researchの研究拠点を新設し、医療向けのオープンモデル「MedGemma」を現場に持ち込む。",
+    "links": [
+      "https://blog.google/innovation-and-ai/technology/health/google-for-health-summit-singapore/"
+    ],
+    "keypoints": [
+      "シンガポールにGoogle Researchの拠点を新設し、シンガポール国立大学と南洋理工大学と連携する",
+      "MedGemmaなどのオープンモデルを、データを国内に置いたまま医療の現場で使えるようにする",
+      "Google.orgとGoogle DeepMindが、医療の連合体に700万ドルを拠出。うち100万ドルは感染症の検知基盤PathGenに",
+      "国立大学病院グループNUHSと、医師の調べものを助けるAIツールの評価を行う"
+    ],
+    "editorial_diagram": {
+      "kicker": "Googleのブログ / シンガポールの医療AI",
+      "title": "発表された4つの取り組み",
+      "lead": "Googleのブログから、シンガポールでの取り組みを分けて並べた。",
+      "examples": [
+        [
+          "研究拠点",
+          "Google Researchの拠点を新設し、2つの大学と基盤モデルの研究を行う。"
+        ],
+        [
+          "現場のモデル",
+          "MedGemmaなどを、データを国内に置いたまま医療の現場で使う。"
+        ],
+        [
+          "予防と健康管理",
+          "NHG HealthのチャットボットにAIの健康コーチを載せ、生活習慣を助言する。"
+        ]
+      ],
+      "note": "Googleのブログ（2026年10月29日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://blog.google/innovation-and-ai/technology/health/google-for-health-summit-singapore/",
+      "wide": "/assets/illustrations/2026-11-01-story-5-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-11-01-story-5-diagram-mobile.webp",
+      "alt": "研究拠点：Google Researchの拠点を新設し、2つの大学と基盤モデルの研究を行う。、現場のモデル：MedGemmaなどを、データを国内に置いたまま医療の現場で使う。、予防と健康管理：NHG HealthのチャットボットにAIの健康コーチを載せ、生活習慣を助言する。"
+    },
+    "body": [
+      {
+        "heading": "研究から現場まで",
+        "paragraphs": [
+          "Googleは10月29日、シンガポールの医療制度全体に最先端のAIを広げるため、協力を深めると発表した。新たにGoogle Researchの研究拠点を置き、シンガポール国立大学と南洋理工大学と組んで基盤モデルの研究を進める。",
+          "Google Researchは、MedGemmaなどのオープンモデルを医療の現場に持ち込み、データを国内に置いたまま使える形で提供するとしている。"
+        ]
+      },
+      {
+        "heading": "資金と病院での評価",
+        "paragraphs": [
+          "Google.orgとGoogle DeepMindは、Philanthropy Asia Allianceの医療の連合体に700万ドルを拠出する。このうち100万ドルは、病気の脅威を早く見つけてデータを共有するAI基盤「PathGen」に充てる。",
+          "Google DeepMindは国立大学病院グループNUHSと、診療ガイドラインや論文の情報をまとめて医師の質問に答えるツールを評価する。Google Cloudは医療グループNHG Healthと、慢性疾患などのリスク予測を健康コーチのチャットボットにつなぐ。提供の時期について、本誌はブログでは未確認。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜「データを国内に置いたまま」が導入の条件に",
+        "paragraphs": [
+          "医療のように扱うデータの重い分野では、オープンモデルを自分たちの環境で動かす形が広がっている。今回の発表も、データを国内に置くことを明記している。",
+          "本誌は、機密性の高いデータを扱う企業に、AIを導入する前にデータをどこに置くかの条件を先に決めることを勧める。これは本誌の提案で、Googleの推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "自社でAIに渡せないデータの種類を書き出す",
+      "クラウドのAIと、自社環境で動かすオープンモデルの使い分けを検討する",
+      "医療・介護分野の企業は、MedGemmaの利用条件を公式資料で確かめる"
+    ],
+    "service": "fde",
+    "pull": "データは国内に、AIは現場に。",
+    "hero_image": "/assets/illustrations/2026-11-01-story-5-cast.webp",
+    "hero_image_alt": "医療AIを示す病院模型に驚く眼鏡のラッコと問いかける茶トラ猫、本を読みながら横目で様子をうかがうアザラシ。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-11-01-story-5.png"
+  },
+  {
+    "updated_at": "2026-11-01",
+    "verified_at": "2026-11-01",
+    "article_kind": "news",
+    "title": "NVIDIAとSETI研究所、AIエージェントが電波望遠鏡を操作　かに星雲のパルサーをAIで初めてリアルタイムに検出",
+    "category": "研究",
+    "source": "NVIDIA",
+    "published_at": "2026-10-30",
+    "lede": "NVIDIAは、SETI研究所とBreakthrough Listenが、AIエージェントで電波望遠鏡を動かす仕組みを作ったと紹介した。自然な言葉の指示1つで、望遠鏡の操作からデータの処理、AIモデルでの解析までをこなす。",
+    "links": [
+      "https://blogs.nvidia.com/blog/ai-joins-the-search-for-extraterrestrial-signals/"
+    ],
+    "keypoints": [
+      "カリフォルニア州北部のアレン・テレスコープ・アレイで、エージェントが望遠鏡を操作する",
+      "毎秒2.4テラビットのデータを処理でき、推論は望遠鏡のそばのGPUで行う",
+      "かに星雲のパルサーを、AIで初めてリアルタイムに検出したとしている",
+      "今後、NVIDIAのオープンモデルNemotronなどの利用を評価する"
+    ],
+    "editorial_diagram": {
+      "kicker": "NVIDIAのブログ / 電波望遠鏡とAIエージェント",
+      "title": "指示1つで観測から解析まで",
+      "lead": "NVIDIAのブログから、エージェントが担う作業を順に並べた。",
+      "examples": [
+        [
+          "望遠鏡を動かす",
+          "自然な言葉の指示を受けて、エージェントが望遠鏡の向きを操作する。"
+        ],
+        [
+          "データを整える",
+          "流れてくる観測データを、その場でGPUに取り込んで補正する。"
+        ],
+        [
+          "AIで解析",
+          "データの流れにAIモデルを当て、パルサーなどの信号を検出する。"
+        ]
+      ],
+      "note": "NVIDIAのブログ（2026年10月30日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://blogs.nvidia.com/blog/ai-joins-the-search-for-extraterrestrial-signals/",
+      "wide": "/assets/illustrations/2026-11-01-story-6-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-11-01-story-6-diagram-mobile.webp",
+      "alt": "望遠鏡を動かす：自然な言葉の指示を受けて、エージェントが望遠鏡の向きを操作する。、データを整える：流れてくる観測データを、その場でGPUに取り込んで補正する。、AIで解析：データの流れにAIモデルを当て、パルサーなどの信号を検出する。"
+    },
+    "body": [
+      {
+        "heading": "望遠鏡の「指示役」にAIエージェント",
+        "paragraphs": [
+          "NVIDIAは10月30日、公式ブログで、SETI研究所とBreakthrough Listenの取り組みを紹介した。アレン・テレスコープ・アレイで、AIエージェントが望遠鏡を操作し、届いたデータを補正し、AIモデルで解析するまでを、自然な言葉の指示1つで行う。",
+          "データ処理にはNVIDIAのHoloscanを使い、エージェントの土台には観測所向けのWebツール「Nexus」を使う。GPUはRTX PRO 6000 Blackwellで、推論は望遠鏡のそばで行う。"
+        ]
+      },
+      {
+        "heading": "パルサーをリアルタイムに検出",
+        "paragraphs": [
+          "この仕組みは毎秒2.4テラビットのデータを扱え、かに星雲のパルサーをAIで初めてリアルタイムに検出したとしている。検出の詳しい条件や、第三者による検証について、本誌はブログでは未確認。",
+          "ブログはNVIDIA自身による紹介で、人が数週間から数年かかる作業を数時間に縮められるとも書いているが、その根拠となるデータは示されていない。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜「装置を動かすAI」は研究所の外にも広がる",
+        "paragraphs": [
+          "今回の例は、AIエージェントが文章を作るだけでなく、装置を操作してデータを集め、その場で解析するところまで担った点に特徴がある。",
+          "本誌は、検査装置やセンサーを使う現場を持つ企業に、データを集めてから解析するまでのどの工程に人手がかかっているかを洗い出すことを勧める。これは本誌の提案で、NVIDIAの推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "装置やセンサーのデータを、人が手で移している工程を洗い出す",
+      "その場（エッジ）で解析すべきデータと、後でまとめて解析すればよいデータを分ける",
+      "エージェントに装置を操作させる場合の、止め方と記録の残し方を決める"
+    ],
+    "service": "fde",
+    "pull": "指示1つで、望遠鏡が動き、AIが聞き取る。",
+    "hero_image": "/assets/illustrations/2026-11-01-story-6-cast.webp",
+    "hero_image_alt": "電波望遠鏡と波形が映るパソコンにラッコが驚き、猫が首をかしげ、アザラシが本越しに横目で見ている。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-11-01-story-6.png"
+  },
+  {
+    "updated_at": "2026-11-01",
+    "verified_at": "2026-11-01",
+    "article_kind": "news",
+    "title": "Vercel、AIのクローラーと「AIアシスタント」を分けて遮断できるように　学習用の収集は止め、回答のための取得は許可",
+    "category": "ツール更新",
+    "source": "Vercel",
+    "published_at": "2026-10-29",
+    "lede": "Vercelは、Webアプリの防御機能「Vercel Firewall」で、AIのボットを2種類に分けて記録・遮断できるようにした。学習や検索のためにサイトを集めるクローラーは止め、利用者の質問に答えるためにページを取りに来るAIアシスタントは通す、といった設定ができる。",
+    "links": [
+      "https://vercel.com/changelog/block-ai-crawlers-and-assistants-independently-with-managed-rules"
+    ],
+    "keypoints": [
+      "「AIクローラー」は検索の索引づくりやモデルの学習のためにコンテンツを集めるボット",
+      "「AIアシスタント」は利用者の操作や質問をきっかけにページを取りに来るボット",
+      "管理画面のSecurity > Firewall > RulesのAI Botsで、種類ごとに動作を選べる",
+      "全プランで使える。新しいボットが出るとVercelがルールを更新する"
+    ],
+    "editorial_diagram": {
+      "kicker": "Vercelの更新情報 / Firewall",
+      "title": "2種類のAIボットを分けて扱う",
+      "lead": "Vercelの更新情報から、2種類のボットの違いと設定の例を並べた。",
+      "examples": [
+        [
+          "AIクローラー",
+          "検索の索引やモデルの学習のために、サイトの内容を集めに来るボット。"
+        ],
+        [
+          "AIアシスタント",
+          "利用者の質問や操作をきっかけに、その場でページを取りに来るボット。"
+        ],
+        [
+          "設定の例",
+          "クローラーは遮断し、アシスタントは許可して、AIの回答には載るようにする。"
+        ]
+      ],
+      "note": "Vercelの更新情報（2026年10月29日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://vercel.com/changelog/block-ai-crawlers-and-assistants-independently-with-managed-rules",
+      "wide": "/assets/illustrations/2026-11-01-story-7-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-11-01-story-7-diagram-mobile.webp",
+      "alt": "AIクローラー：検索の索引やモデルの学習のために、サイトの内容を集めに来るボット。、AIアシスタント：利用者の質問や操作をきっかけに、その場でページを取りに来るボット。、設定の例：クローラーは遮断し、アシスタントは許可して、AIの回答には載るようにする。"
+    },
+    "body": [
+      {
+        "heading": "AIボットを2種類に分ける",
+        "paragraphs": [
+          "Vercelは10月29日、Vercel FirewallのAI Botsのルールで、AIクローラーとAIアシスタントを別々に記録・遮断できるようにしたと発表した。クローラーは検索の索引づくりやモデルの学習のために内容を集め、アシスタントは利用者の操作や検索をきっかけにページを取りに来る。",
+          "これにより、学習用の収集は止めつつ、利用者の質問に答えるためのアクセスは許可する、といった使い分けができる。"
+        ]
+      },
+      {
+        "heading": "設定の方法",
+        "paragraphs": [
+          "管理画面のSecurity > Firewall > Rulesで、Bot ManagementのAI Botsを有効にし、歯車のアイコンから種類ごとの動作を選んで公開する。Vercel CLIの vercel firewall diff で変更を確かめ、vercel firewall publish で反映することもできる。",
+          "全プランで使え、新しいボットが加わるとVercelがルールを更新するという。どのボットがどちらに分類されるかの一覧について、本誌は更新情報では未確認。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜「学習には使わせないが、AIの回答には載りたい」",
+        "paragraphs": [
+          "AIの検索や回答から自社サイトに来る人が増えるなか、すべてのAIボットを一律に止めると、回答に載る機会まで失いかねない。今回の機能は、その線引きを設定で行えるようにしたものだ。",
+          "本誌は、自社サイトのAIボットへの方針を、学習・検索・回答の用途ごとに決めておくことを勧める。これは本誌の提案で、Vercelの推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "自社サイトへのAIボットのアクセスを、記録モードでまず確かめる",
+      "学習用の収集と、回答のための取得を許可するかどうかを、用途ごとに決める",
+      "Vercel以外のサイトでも、robots.txtなどで同じ方針を示せるか確認する"
+    ],
+    "service": "luna",
+    "pull": "学習用は止め、回答のための取得は通す。",
+    "hero_image": "/assets/illustrations/2026-11-01-story-7-cast.webp",
+    "hero_image_alt": "AIボットを選別する画面にラッコが驚き、猫が首をかしげ、読書中のアザラシが横目で様子をうかがう。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-11-01-story-7.png"
+  },
+  {
+    "updated_at": "2026-11-01",
+    "verified_at": "2026-11-01",
+    "article_kind": "news",
+    "title": "Hugging Faceと米大学など、公的研究のデータをAIで使いやすくする「Project ProtoStar」を開始　11月に気候予測の課題を開催",
+    "category": "業界動向",
+    "source": "Hugging Face",
+    "published_at": "2026-10-29",
+    "lede": "Hugging Faceは、公的資金で生まれた科学データやモデル、コードを、AIで使いやすい形で公開する取り組み「Project ProtoStar」を発表した。カーネギーメロン大学など米国の5大学やAstera Instituteと進め、11月に最初の公開課題を開く。",
+    "links": [
+      "https://huggingface.co/blog/announcing-project-protostar"
+    ],
+    "keypoints": [
+      "公的資金による研究のデータ・モデル・コードを、機械で扱いやすい形で公開するよう促す",
+      "カーネギーメロン大、パデュー大、ジョージア工科大、アリゾナ州立大、ジョージ・ワシントン大が参加",
+      "最初の課題は11月2〜13日。米国210都市の気象データから、2019〜2026年の気候を予測する",
+      "Hugging Faceの科学分野の公開データセットは約1万7000件（医学・数学を含めると約2万9000件）"
+    ],
+    "editorial_diagram": {
+      "kicker": "Hugging Faceのブログ / Project ProtoStar",
+      "title": "公的研究のデータをAIへ",
+      "lead": "Hugging Faceのブログから、取り組みの進め方を3つに分けた。",
+      "examples": [
+        [
+          "AIで使える形に",
+          "公的資金で生まれたデータやモデルを、機械で扱いやすい形式で公開するよう促す。"
+        ],
+        [
+          "大学と組む",
+          "米国の5大学とAstera Institute、Hugging Faceなどが創設に参加した。"
+        ],
+        [
+          "課題で示す",
+          "公開課題を開き、データを公開する価値を実際の成果で示す。"
+        ]
+      ],
+      "note": "Hugging Faceのブログ（2026年10月29日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://huggingface.co/blog/announcing-project-protostar",
+      "wide": "/assets/illustrations/2026-11-01-story-8-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-11-01-story-8-diagram-mobile.webp",
+      "alt": "AIで使える形に：公的資金で生まれたデータやモデルを、機械で扱いやすい形式で公開するよう促す。、大学と組む：米国の5大学とAstera Institute、Hugging Faceなどが創設に参加した。、課題で示す：公開課題を開き、データを公開する価値を実際の成果で示す。"
+    },
+    "body": [
+      {
+        "heading": "公的研究のデータを「AI対応」に",
+        "paragraphs": [
+          "Hugging Faceは10月29日、Project ProtoStarを発表した。公的資金で生まれた科学データやモデル、コードを、AIを使う研究で再利用しやすい形で公開するよう促し、公開課題でその価値を示す。",
+          "創設には、Open Forum for AIを通じて米国の5大学が参加し、Astera Instituteや研究者コミュニティのORCAも加わる。Hugging Faceは基盤の提供を担う。資金の額について、本誌はブログでは未確認。"
+        ]
+      },
+      {
+        "heading": "最初は気候予測の課題",
+        "paragraphs": [
+          "最初の課題「Climate Risk Intelligence Challenge」はカーネギーメロン大学が主催し、11月2〜13日に開く。米国210都市の2018年までの気象データを使い、2019〜2026年の年平均気温や年間降水量など4つの指標を予測する。結果は2027年の初めに出る見込み。",
+          "ブログによると、2026年の最初の9か月に新たに公開された科学データセットは、前年同期の3倍を超えた。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜データを「使える形」で出すことの価値",
+        "paragraphs": [
+          "AIの活用では、データがあるかどうかだけでなく、機械で読める形で整っているかが成果を分ける。ブログでも、Hugging Faceのデータセットのダウンロードの9割は説明が整ったものだと紹介している。",
+          "本誌は、社内のデータをAIで使う前に、項目の説明や更新日などの付帯情報を整えることを勧める。これは本誌の提案で、Hugging Faceの推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "AIで使いたい社内データに、項目の説明や更新日が付いているか確かめる",
+      "公開されている公的データで、自社の業務に使えるものがないか探す",
+      "データを整える担当と、更新の頻度を決める"
+    ],
+    "service": "fde",
+    "pull": "データは、機械が読める形で出してこそ使われる。",
+    "hero_image": "/assets/illustrations/2026-11-01-story-8-cast.webp",
+    "hero_image_alt": "気候データの画面に驚く眼鏡のラッコと質問する茶トラ猫を、読書のふりをしたアザラシが横目で見ている。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-11-01-story-8.png"
+  },
+  {
+    "updated_at": "2026-11-01",
+    "verified_at": "2026-11-01",
+    "article_kind": "news",
+    "title": "IBM、モデルの一部だけを入れ替えて更新する「Granite Switch 4.1.1」を公開　音声認識と判断用の部品を改良",
+    "category": "新モデル発表",
+    "source": "IBM（Hugging Faceブログ）",
+    "published_at": "2026-10-29",
+    "lede": "IBMは、部品を組み合わせて使う「Granite Switch」の更新版4.1.1を公開した。土台のモデルはそのままに、音声認識のモデルと判断用のアダプターだけを作り直した。4.1と完全に互換性があり、移行の作業はいらないとしている。",
+    "links": [
+      "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1"
+    ],
+    "keypoints": [
+      "土台のモデルは変えず、音声認識モデルと判断用アダプターだけを再学習した",
+      "新しい音声認識モデルは10言語に対応し、句読点や大文字小文字も付ける（パラメータ数は約5億）",
+      "Granite Switch 4.1と完全に互換性があり、移行作業は不要",
+      "必要な部品を組み合わせ、同じ窓口（エンドポイント）で動かせる"
+    ],
+    "editorial_diagram": {
+      "kicker": "Hugging FaceのIBMブログ / Granite Switch 4.1.1",
+      "title": "ソフトのように部品だけ更新",
+      "lead": "IBMのブログから、更新の考え方を3つに分けた。",
+      "examples": [
+        [
+          "土台はそのまま",
+          "300億パラメータの土台のモデルは作り直さず、そのまま使う。"
+        ],
+        [
+          "部品を作り直す",
+          "音声認識モデルと判断用のアダプターだけを再学習した。"
+        ],
+        [
+          "組み合わせて使う",
+          "必要な部品を選び、同じエンドポイントにまとめて動かす。"
+        ]
+      ],
+      "note": "Hugging FaceのIBMブログ（2026年10月29日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+      "wide": "/assets/illustrations/2026-11-01-story-9-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-11-01-story-9-diagram-mobile.webp",
+      "alt": "土台はそのまま：300億パラメータの土台のモデルは作り直さず、そのまま使う。、部品を作り直す：音声認識モデルと判断用のアダプターだけを再学習した。、組み合わせて使う：必要な部品を選び、同じエンドポイントにまとめて動かす。"
+    },
+    "body": [
+      {
+        "heading": "一部だけの更新版",
+        "paragraphs": [
+          "IBMは10月29日、Hugging Faceのブログで、Granite Switch 4.1.1を公開した。Granite Switchは、土台のモデルにアダプターなどの部品を組み合わせて使うシリーズ。今回の4.1.1は、ソフトウェアの修正版のように一部だけを更新したもので、4.1と完全に互換性があるという。",
+          "作り直したのは、音声認識モデル「granite-speech-5.0-470m-turboctc」と、granitelib-coreの判断用アダプターの2つ。土台のモデルは変更も再計算もしていない。"
+        ]
+      },
+      {
+        "heading": "音声と判断の部品",
+        "paragraphs": [
+          "新しい音声認識モデルは10言語の文字起こしに対応し、句読点や大文字小文字の付与も行う。判断用アダプターは、評価用のテストで性能が上がったとしている。",
+          "モデルはHugging Faceのibm-graniteで公開されている。開発者や外部の提供者向けのアダプターSDKは準備中とされ、時期は示されていない。ライセンスについて、本誌は今回のブログでは未確認。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜モデル更新の手間を小さくする考え方",
+        "paragraphs": [
+          "AIモデルを業務に組み込むと、更新のたびに動作確認をやり直す負担が大きい。土台を変えずに部品だけ差し替える方式は、その負担を減らす一つの方法だ。",
+          "本誌は、AIを業務システムに組み込む企業に、モデルを更新したときにどこを確認し直すかを、手順として決めておくことを勧める。これは本誌の提案で、IBMの推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "業務で使っているAIモデルの、更新の頻度と確認の手順を書き出す",
+      "更新の前後で結果を比べるための、評価用のデータを用意する",
+      "Granite Switchを試す場合は、ライセンスを公式のモデルページで確かめる"
+    ],
+    "service": "fde",
+    "pull": "土台はそのまま、部品だけを入れ替える。",
+    "hero_image": "/assets/illustrations/2026-11-01-story-9-cast.webp",
+    "hero_image_alt": "部品交換の図に驚く眼鏡のラッコへ猫が首をかしげ、読書中のアザラシが横目で様子をうかがう。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-11-01-story-9.png"
+  }
+]

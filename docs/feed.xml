@@ -7,6 +7,60 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。公開済みのAIニュースと実務への示唆をお届けします。</description>
   <language>ja</language>
   <item>
+    <title>トヨタとWaymo、国内でロボタクシーの運行を2027年に開始へ　高岡工場で量産する「bZ4X」に自動運転装置を搭載</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-01/story-1/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-01/story-1/</guid>
+    <description>トヨタ自動車とWaymoは、自動運転分野での協業を次の段階に進めると発表した。トヨタの「bZ4X」をWaymoのロボタクシー車両とし、2027年に日本国内で試験・検証を含む初期運行を始める。</description>
+  </item>
+  <item>
+    <title>Claude、有料プラン「Max 20x」を「Ultra」に改称　認証済みのアカウントは5時間ごとの利用上限をなくす</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-01/story-2/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-01/story-2/</guid>
+    <description>Anthropicは、Claudeの有料プラン「Max 5x」を「Max」、「Max 20x」を「Ultra」に改称した。Ultraでは、認証済みのアカウントは5時間ごとの利用上限がなくなり、週ごとの上限の範囲で使える。</description>
+  </item>
+  <item>
+    <title>SB Intuitions、国産LLM「Sarashina」初の思考モデルを公開　考える深さを3段階で選べ、APIの無償ベータで提供</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-01/story-3/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-01/story-3/</guid>
+    <description>ソフトバンクグループのSB Intuitionsは、ゼロから開発している国産LLM「Sarashina」シリーズで初めての思考モデル「Sarashina3.2 mini thinking」を公開した。考える深さを「low」「medium」「high」から選べ、無償ベータ中のSarashinaのAPIで使える。</description>
+  </item>
+  <item>
+    <title>Google、宇宙に打ち上げたAIサーバーから最初の応答　衛星上のTPUでGemma 4が俳句を生成</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-01/story-4/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-01/story-4/</guid>
+    <description>Googleは、宇宙でAIの計算を行う研究「Project Suncatcher」の試作衛星から、最初のAIの応答を受け取ったと発表した。データセンター向けのTPUを積んだ衛星で、オープンモデルGemma 4が宇宙をテーマにした俳句を返した。</description>
+  </item>
+  <item>
+    <title>Google、シンガポールで医療AIの協力を拡大　研究拠点を新設し、医療向けモデルMedGemmaを現場へ</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-01/story-5/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-01/story-5/</guid>
+    <description>Googleは、シンガポールで開いた「Google for Health Summit」で、同国の医療にAIを広げる協力の拡大を発表した。Google Researchの研究拠点を新設し、医療向けのオープンモデル「MedGemma」を現場に持ち込む。</description>
+  </item>
+  <item>
+    <title>NVIDIAとSETI研究所、AIエージェントが電波望遠鏡を操作　かに星雲のパルサーをAIで初めてリアルタイムに検出</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-01/story-6/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-01/story-6/</guid>
+    <description>NVIDIAは、SETI研究所とBreakthrough Listenが、AIエージェントで電波望遠鏡を動かす仕組みを作ったと紹介した。自然な言葉の指示1つで、望遠鏡の操作からデータの処理、AIモデルでの解析までをこなす。</description>
+  </item>
+  <item>
+    <title>Vercel、AIのクローラーと「AIアシスタント」を分けて遮断できるように　学習用の収集は止め、回答のための取得は許可</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-01/story-7/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-01/story-7/</guid>
+    <description>Vercelは、Webアプリの防御機能「Vercel Firewall」で、AIのボットを2種類に分けて記録・遮断できるようにした。学習や検索のためにサイトを集めるクローラーは止め、利用者の質問に答えるためにページを取りに来るAIアシスタントは通す、といった設定ができる。</description>
+  </item>
+  <item>
+    <title>Hugging Faceと米大学など、公的研究のデータをAIで使いやすくする「Project ProtoStar」を開始　11月に気候予測の課題を開催</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-01/story-8/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-01/story-8/</guid>
+    <description>Hugging Faceは、公的資金で生まれた科学データやモデル、コードを、AIで使いやすい形で公開する取り組み「Project ProtoStar」を発表した。カーネギーメロン大学など米国の5大学やAstera Instituteと進め、11月に最初の公開課題を開く。</description>
+  </item>
+  <item>
+    <title>IBM、モデルの一部だけを入れ替えて更新する「Granite Switch 4.1.1」を公開　音声認識と判断用の部品を改良</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-01/story-9/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-01/story-9/</guid>
+    <description>IBMは、部品を組み合わせて使う「Granite Switch」の更新版4.1.1を公開した。土台のモデルはそのままに、音声認識のモデルと判断用のアダプターだけを作り直した。4.1と完全に互換性があり、移行の作業はいらないとしている。</description>
+  </item>
+  <item>
     <title>デジタル庁、国会答弁の作成を支援するAIを約18万人の政府職員に試験提供　臨時国会で検証し、来年1月の通常国会で本格提供へ</title>
     <link>https://nowonair.vercel.app/articles/2026-10-31/story-1/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-31/story-1/</guid>
@@ -101,60 +155,6 @@
     <link>https://nowonair.vercel.app/articles/2026-10-30/story-8/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-30/story-8/</guid>
     <description>GitLabは、コード、マージリクエスト、作業項目、パイプライン、脆弱性、担当者などのつながりを、AIエージェントが問い合わせられる形にまとめる「GitLab Orbit」を一般提供した。PremiumとUltimateの顧客が対象で、まずGitLab.comから提供する。</description>
-  </item>
-  <item>
-    <title>OpenAI、AIのふるまいの指針「Model Spec」を改訂　人の意図に忠実であることなど5つの中核的な価値を明記</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-30/story-9/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-30/story-9/</guid>
-    <description>OpenAIは、自社のAIモデルがどうふるまうべきかを定めた指針「Model Spec」の新しい版を公開した。人の意図に忠実であること、害を最小にすること、正直で透明であることなど、5つの中核的な価値を掲げている。</description>
-  </item>
-  <item>
-    <title>Google、新モデル「Gemini 4 Carbon」を発表　脆弱性の発見から修正までを強化、まずサイバー防御の担当者に提供</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-29/story-1/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-29/story-1/</guid>
-    <description>Googleは、新しいフロンティアモデル「Gemini 4 Carbon」を発表した。同社で最も高性能なモデルと位置づけ、サイバーセキュリティと長時間の作業で最先端の性能を示したとしている。まず一部のサイバー防御の担当者に提供し、一般向けの提供時期は示していない。</description>
-  </item>
-  <item>
-    <title>GitHub、Enterprise CloudにCopilotを標準で含める新契約　モデルを自動で組み合わせる「Copilot Fusion」も一般提供</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-29/story-2/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-29/story-2/</guid>
-    <description>GitHubは、営業担当を通じて契約するGitHub Enterprise Cloudで、ライセンスを持つ全員がCopilotを使えるようにすると発表した。席ごとの利用枠はなく、AIの利用量は会社の予算から最初の1回目から計る。あわせて、作業ごとにモデルを選んで組み合わせる「Copilot Fusion」を全プランで一般提供した。</description>
-  </item>
-  <item>
-    <title>OpenAIとServiceNow、提携を拡大　ChatGPTから障害対応や記録の更新ができるように、ServiceNowは全社員にChatGPT WorkとCodex</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-29/story-3/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-29/story-3/</guid>
-    <description>OpenAIとServiceNowは、1月に結んだ提携を広げると発表した。ChatGPTの中でServiceNowの情報を調べ、記録を更新できる連携を始めた。ServiceNowの製品にはOpenAIのモデルを使った開発、セキュリティ、音声の機能を順次加え、ServiceNowの全社員にChatGPT WorkとCodexを提供する計画だ。</description>
-  </item>
-  <item>
-    <title>Oracle、Google製AIチップ「TPU」をOracle Cloudで提供へ　Google以外の大手クラウドで初、2027年から</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-29/story-4/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-29/story-4/</guid>
-    <description>OracleとGoogleは、GoogleのAI専用チップ「TPU」をOracle Cloud Infrastructure（OCI）で使えるようにすると発表した。Google以外の大規模クラウドでTPUを提供するのは初めてという。提供は2027年からで、数年かけて規模を広げる。</description>
-  </item>
-  <item>
-    <title>Android Studio、好きなAIエージェントを組み込める機能を安定版に　ClaudeやCodexなど40種類以上に対応</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-29/story-5/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-29/story-5/</guid>
-    <description>Googleは、Androidアプリの開発ツール「Android Studio Rabbit 2」の安定版を公開し、外部のAIエージェントを組み込める「Bring Your Own Agent」を正式な機能にした。共通の接続方式「ACP」に対応する40種類以上のエージェントを使える。</description>
-  </item>
-  <item>
-    <title>Amazon、生成AIの「Alexa+」を国内で提供開始　早期アクセスは無料、その後は月3,000円でプライム会員は追加料金なし</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-29/story-6/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-29/story-6/</guid>
-    <description>Amazonは、生成AIを使った新しい音声アシスタント「Alexa+」の国内提供を始めた。10月29日から早期アクセスとして順次案内し、期間中は無料で使える。終了後は月額3,000円だが、Amazonプライム会員は追加料金なしで使える。</description>
-  </item>
-  <item>
-    <title>LINE、通話の録音・文字起こし機能を「LINEラボ」で無料提供　今冬以降は有料会員の特典に</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-29/story-7/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-29/story-7/</guid>
-    <description>LINEヤフーは、LINEの1対1の通話を録音・録画できる「通話レコーディング」を、新機能を試せる「LINEラボ」で無料提供すると発表した。日本語の音声通話では文字起こしもできる。今冬以降は有料の「LYPプレミアム」の会員特典として提供する予定だ。</description>
-  </item>
-  <item>
-    <title>NVIDIA、文字起こし・話者の聞き分け・翻訳を1つでこなす「Nemotron 3.5 Transcribe」を公開　指示文で出力を変えられる</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-29/story-8/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-29/story-8/</guid>
-    <description>NVIDIAは、音声の文字起こし、話者の聞き分け、翻訳、音声についての質問への回答を1つのモデルで行う「Nemotron 3.5 Transcribe」を、重みを公開する形で出した。指示文で出力の形を変えられる。学習に使った音声データ「Granary v2」も公開した。</description>
   </item>
 </channel>
 </rss>
