@@ -7,6 +7,30 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。公開済みのAIニュースと実務への示唆をお届けします。</description>
   <language>ja</language>
   <item>
+    <title>OpenAI、12月からChatGPTとCodexの利用枠を共通に　Plus・Pro・Businessが対象、Instantの会話は枠を使わない</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-03/story-1/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-03/story-1/</guid>
+    <description>OpenAIは11月2日に更新したヘルプ記事で、12月からPlus、Pro、Businessの各プランについて、ChatGPTとCodexの利用枠を共通にすると案内した。Workのエージェント機能をChatGPTの通常の画面に取り込むのに合わせた変更で、利用量はトークン単位で数える。</description>
+  </item>
+  <item>
+    <title>OpenAI、データセンターの電力を電力会社と調整する「Grid Protectors」を開始　ジョージア州の計画では最大1,000MWの需要を抑えられる契約</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-03/story-2/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-03/story-2/</guid>
+    <description>OpenAIは11月2日、AI向けの計算拠点が電力網の安定と電気料金の抑制に役立つよう、電力会社や規制当局と取り決めをつくる全米規模の取り組み「Grid Protectors Program」を始めると発表した。電力網がひっ迫したときに拠点の電力使用を減らす仕組みを、今後の拠点の設計と運用の中心に置くという。</description>
+  </item>
+  <item>
+    <title>家電物流で段ボールの傷をAIが判定する実証、富士通やソフトバンクロボティクスなど4者が開始　業界共通の基準をつくり、不要な持ち戻りを減らす</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-03/story-3/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-03/story-3/</guid>
+    <description>家電サプライチェーン協議会、流通経済研究所、富士通、ソフトバンクロボティクスの4者は11月2日、家電の配送で段ボールの汚れや傷を理由に起きる持ち戻りを減らすため、業界共通の判定基準づくりとAIによる判定の実証実験を始めた。期間は2027年1月15日まで。</description>
+  </item>
+  <item>
+    <title>OpenAI、日常の用事をAIがどこまで手伝えるかを測る評価「LifeVal」を公開　保育園探しや家計管理、役所の手続きなど</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-03/story-4/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-03/story-4/</guid>
+    <description>OpenAIは11月2日、保育園探し、行政サービスの利用、家計の管理といった日常生活の用事を、AIがどれだけ実際に片付けられるかを測る評価「LifeVal」を公開した。人々の時間の使い方の調査と、3,995人への新たな調査をもとに課題を選んだ。</description>
+  </item>
+  <item>
     <title>AI学習に使ってよいかをrobots.txtで一括指定へ　Googleは2027年に対応、Microsoftは2027年2月から適用、Anthropicも実装を開始</title>
     <link>https://nowonair.vercel.app/articles/2026-11-02/story-1/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-02/story-1/</guid>
@@ -131,30 +155,6 @@
     <link>https://nowonair.vercel.app/articles/2026-10-31/story-8/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-31/story-8/</guid>
     <description>AWSは、AIエージェントを動かす「Amazon Bedrock AgentCore Runtime」に、セッションの中で動いているアプリを手元のブラウザから開ける「Session endpoints」を加えた。コーディングエージェントが作っている途中のWebアプリを、その場で確認できる。</description>
-  </item>
-  <item>
-    <title>OpenAI、ChatGPTのProとBusinessに月最大500ドル分のAPIクレジット　Businessは1席20ドルから、未使用分は翌月に繰り越せない</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-30/story-1/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-30/story-1/</guid>
-    <description>OpenAIは、ChatGPTの有料プラン「Pro」と「Business」の契約者に、API（外部のシステムからAIを呼び出す仕組み）で使えるクレジットを毎月付与する特典を始めた。Proは契約額と同じ額、Businessは席の数に応じて、1ワークスペースあたり月500ドルが上限になる。</description>
-  </item>
-  <item>
-    <title>Google、Geminiアプリの中で文書・表・スライドを作って直せるように　全利用者向け、スマホはPDFのみ</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-30/story-2/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-30/story-2/</guid>
-    <description>Googleは、Geminiアプリの会話の中で、文書やPDF、スライド、表などのファイルを作り、表示し、編集できるようにした。Geminiアプリが使えるすべての言語で、すべての利用者に提供する。スマートフォンで編集できるのは今のところPDFだけになる。</description>
-  </item>
-  <item>
-    <title>Apple、KeynoteやPagesにAIアシスタントとMCP対応　外部のAIエージェントが資料を読み書き、11月にCreator Studioで</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-30/story-3/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-30/story-3/</guid>
-    <description>Appleは、クリエイティブアプリのサブスクリプション「Apple Creator Studio」の更新を発表した。Keynote、Pages、NumbersにAIアシスタント（ベータ版）が加わり、外部のAIエージェントがMCPで資料を読み書きできるようになる。App Storeでの提供は11月から。</description>
-  </item>
-  <item>
-    <title>Mistral AI、「Mistral Large 4」の重みを公開　約1兆パラメータ、プレビュー版から3週間の追加学習でコーディングを強化</title>
-    <link>https://nowonair.vercel.app/articles/2026-10-30/story-4/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-10-30/story-4/</guid>
-    <description>フランスのMistral AIは、10月上旬にプレビュー版を出した大規模言語モデル「Mistral Large 4」の改良版について、モデルの重み（中身のデータ）を公開した。パラメータ数は約1兆。プレビュー版からさらに3週間の追加学習を行い、コーディングとサイバーセキュリティを強化したとしている。</description>
   </item>
 </channel>
 </rss>
