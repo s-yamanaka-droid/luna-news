@@ -1,0 +1,637 @@
+[
+  {
+    "updated_at": "2026-11-04",
+    "verified_at": "2026-11-04",
+    "article_kind": "news",
+    "title": "Apple、Siri AIを全開発者に開放　App Intentsで他社アプリの操作に対応、iOS 27.3ベータで開発者向けプレビュー",
+    "category": "ツール更新",
+    "source": "Apple",
+    "published_at": "2026-11-03",
+    "lede": "Appleは11月3日、iOS 27.3などのベータ版で、どの開発者でも自分のアプリをSiri AIにつなげられる開発者向けプレビューを始めた。App Intentsを使えば、配達状況の確認や予約、注文といったアプリ独自の操作をSiri AIが代わりに実行できる。App Storeへの提出受付は春から始まる。",
+    "links": [
+      "https://developer.apple.com/news/?id=gdk2umrf",
+      "https://developer.apple.com/documentation/appintents/siri-ai-developer-preview"
+    ],
+    "keypoints": [
+      "iOS、iPadOS、macOS、visionOSの27.3ベータで、Siri AIの開発者向けプレビューを開始した",
+      "アプリはApp Intentsで中身と操作をSiri AIに渡せる。配達の確認、予約、注文などを例に挙げる",
+      "複数の操作を1つにまとめる「スキル」を追加。Spotlightの意味索引にある情報も扱えるようにした",
+      "App Storeへの提出は春から。日本語に対応する一方、EUのiOSなどでは使えず、13歳未満も対象外"
+    ],
+    "editorial_diagram": {
+      "kicker": "Appleの発表 / Siri AI 開発者向けプレビュー",
+      "title": "他社アプリがSiri AIにつながる3つの入り口",
+      "lead": "Apple Developerのお知らせから、開発者ができることを3つに分けた。",
+      "examples": [
+        [
+          "App Intents",
+          "アプリの中身と操作をSiri AIに渡す。配達の確認、予約、注文など独自の操作も実行させられる。"
+        ],
+        [
+          "スキル",
+          "複数の操作を組み合わせ、ひとつの依頼としてSiri AIにこなさせる仕組み。"
+        ],
+        [
+          "Spotlightの意味索引",
+          "決まった型に当てはまらない情報も、Siri AIが見つけて示せるようになる。"
+        ]
+      ],
+      "note": "Apple Developer News（2026年11月3日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://developer.apple.com/news/?id=gdk2umrf",
+      "wide": "/assets/illustrations/2026-11-04-story-1-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-11-04-story-1-diagram-mobile.webp",
+      "alt": "App Intents：アプリの中身と操作をSiri AIに渡す。配達の確認、予約、注文など独自の操作も実行させられる。、スキル：複数の操作を組み合わせ、ひとつの依頼としてSiri AIにこなさせる仕組み。、Spotlightの意味索引：決まった型に当てはまらない情報も、Siri AIが見つけて示せるようになる。"
+    },
+    "body": [
+      {
+        "heading": "何が始まったか",
+        "paragraphs": [
+          "Appleは開発者向けのお知らせ「Siri AI is now open to all developers」で、iOS 27.3、iPadOS 27.3、macOS 27.3、visionOS 27.3のベータ版から、どの開発者も自分のアプリをSiri AIにつなげられる開発者向けプレビューを始めたと発表した。",
+          "アプリはApp Intentsという仕組みを使い、中身と操作をSiri AIに直接渡せる。Siri AIは利用者の状況の理解、画面に映っている内容の把握、自然な言葉での依頼といった能力を使い、配達状況の確認からレストランの予約、注文まで、アプリが用意した独自の操作を実行するという。",
+          "複雑な依頼のために、複数の操作を1つの体験にまとめる「スキル」も加えた。Spotlightの意味索引にある情報は、既存の型に当てはまらないものでもSiri AIが示せるようになる。Apple自身もカレンダー、ファイル、メール、マップ、メッセージ、写真、リマインダー、Safari、ショートカットなどで同じ機能を順に入れている。"
+        ]
+      },
+      {
+        "heading": "時期と条件",
+        "paragraphs": [
+          "App Storeへの提出受付は春に始まり、利用者に届くのは数か月後としている。Apple Intelligenceに対応した端末で、対応言語に設定している必要がある。対応言語は英語、フランス語、日本語、韓国語、ポルトガル語、スペイン語。",
+          "EUではiOS、iPadOS、watchOSでSiri AIを使えず、13歳未満の利用者も対象外。サーバー側で処理する機能には1日の利用上限があり、将来は有料で利用枠を広げられるようにするという。料金や、Siri AI経由の体験に関する利用規約の詳細は未確認で、Appleは追って示すとしている。開発者向けの相談会は11月4日と5日（米太平洋時間）に開く。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜アプリの「操作」をAIに渡す設計が問われる",
+        "paragraphs": [
+          "これまでSiriとつながるのは一部の型に合う機能が中心だったが、今回のプレビューでは、アプリ独自の操作をAIに任せる道が開いた。利用者が画面を開かずに用事を済ませるようになれば、アプリの価値は画面の見た目より「どんな操作を安全に渡せるか」に移っていく。",
+          "本誌は、自社アプリを持つ企業は春の提出受付までに、AIに任せてよい操作と、人の確認を残すべき操作を分けて整理しておくことを勧める。これは本誌の提案で、Appleの推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "自社アプリで、利用者がよく行う操作を3つほど書き出す",
+      "その中で、AIに任せてよい操作と確認が必要な操作を分ける",
+      "iOS 27.3ベータとSiri AI Developer Previewの資料で実装方法を確かめる"
+    ],
+    "service": "fde",
+    "pull": "アプリの価値は、AIに安全に渡せる操作の数で測られ始める。",
+    "hero_image": "/assets/illustrations/2026-11-04-story-1-cast.webp",
+    "hero_image_alt": "アプリ連携を示すパソコンに驚くラッコと、首をかしげる猫、読書しながら横目で様子をうかがうアザラシ。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-11-04-story-1.png"
+  },
+  {
+    "updated_at": "2026-11-04",
+    "verified_at": "2026-11-04",
+    "article_kind": "news",
+    "title": "Anthropic、IPO申請書の修正版で7〜9月期を開示　売上高は169億ドルで前年同期の約12倍、営業損益は5.67億ドルの赤字",
+    "category": "業界動向",
+    "source": "Anthropic（米SEC提出書類）",
+    "published_at": "2026-11-02",
+    "lede": "Anthropicは11月2日、新規株式公開（IPO）に向けて米証券取引委員会（SEC）に出した登録届出書の修正版（S-1/A）で、2026年7〜9月期の業績を開示した。売上高は169億5600万ドルと前年同期の約12倍に増えたが、短期契約で調達した計算資源の費用がかさみ、営業損益は5億6700万ドルの赤字だった。",
+    "links": [
+      "https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm",
+      "https://www.anthropic.com/news/s1-sec"
+    ],
+    "keypoints": [
+      "7〜9月期の売上高は169億5600万ドル。前年同期の13億8200万ドルから約12.3倍、4〜6月期からは約47%増えた",
+      "営業損益は5億6700万ドルの赤字。4〜6月期の9億7400万ドルの黒字から転じた。短期契約の計算資源50億ドル分が主因と説明",
+      "計算資源やインフラなどの支出約束は約8954億ドル。うち約4475億ドルは2030年末までに発生する見込み",
+      "約2138億ドル分は解約権や開始前の条件が付いた契約で、条件を満たさなければ解約になりうる"
+    ],
+    "editorial_diagram": {
+      "kicker": "Anthropicの開示 / S-1/A（2026年11月2日）",
+      "title": "7〜9月期の数字を3つに分けて読む",
+      "lead": "SECに提出された登録届出書の修正版から、主要な数字を抜き出した。",
+      "examples": [
+        [
+          "売上高",
+          "169億5600万ドル。前年同期の約12.3倍、4〜6月期から約47%増えた。"
+        ],
+        [
+          "営業損益",
+          "5億6700万ドルの赤字。割高な短期契約の計算資源50億ドル分が主な理由と説明している。"
+        ],
+        [
+          "支出約束",
+          "約8954億ドル。2030年末までに約4475億ドル、残りの大半は2031〜2045年に発生する見込み。"
+        ]
+      ],
+      "note": "Anthropic, PBC Form S-1/A（2026年11月2日提出）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm",
+      "wide": "/assets/illustrations/2026-11-04-story-2-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-11-04-story-2-diagram-mobile.webp",
+      "alt": "売上高：169億5600万ドル。前年同期の約12.3倍、4〜6月期から約47%増えた。、営業損益：5億6700万ドルの赤字。割高な短期契約の計算資源50億ドル分が主な理由と説明している。、支出約束：約8954億ドル。2030年末までに約4475億ドル、残りの大半は2031〜2045年に発生する見込み。"
+    },
+    "body": [
+      {
+        "heading": "開示された数字",
+        "paragraphs": [
+          "Anthropicは10月26日にIPOの登録届出書（S-1）を提出しており、11月2日に出した修正第1号で7〜9月期の数字を加えた。同期の売上高は169億5600万ドルで、前年同期の13億8200万ドルの約12.3倍、4〜6月期の115億5500万ドルから約47%増えた。",
+          "一方、営業損益は5億6700万ドルの赤字で、4〜6月期の9億7400万ドルの黒字から赤字に転じた。同社は主な理由として、短期契約で調達した50億ドル分の計算資源を挙げ、現在は同等の長期契約より大幅に割高だと説明している。1〜9月の累計では、売上高332億4200万ドル、営業損失12億6000万ドル。9月末の現金・現金同等物と短期投資は合計1318億4500万ドルだった。"
+        ]
+      },
+      {
+        "heading": "巨額の支出約束",
+        "paragraphs": [
+          "同社は9月末時点とその後に結んだ購入契約やリース契約の支出約束が合計約8954億ドルに上ると記載した。ほぼすべてが計算資源とインフラ関連で、約4475億ドルは2030年末までに、残りの大半は2031〜2045年に発生する見込みとしている。",
+          "このうち約2138億ドルは、解約権を行使できる契約や、相手方の資金調達・施設・規制上の承認など開始前の条件が付いた契約に関するもので、条件を満たさなければ解約になりうる。上場予定の市場はNasdaq Global Select Marketで、ティッカーは「ANT」。10月26日の発表時点で、売り出す株数と価格帯は未定だった。修正版での扱いは本誌では未確認。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜AIの価格と提供量は「計算資源の調達」で決まる",
+        "paragraphs": [
+          "売上が急増しても、計算資源の調達条件しだいで利益は大きく振れることが、数字から読み取れる。AIサービスの料金や利用上限が今後も見直される背景には、こうした調達コストがある。",
+          "本誌は、特定のAIサービスに業務を深く頼る企業は、料金や利用上限が変わった場合の代わりの手段を一つ用意しておくことを勧める。これは本誌の提案であり、投資の助言ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "業務で使っているAIサービスと、その料金・利用上限を一覧にする",
+      "料金や上限が変わった場合に切り替えられる代わりの手段を決めておく",
+      "上場手続きの進み具合はSECの提出書類で確かめる"
+    ],
+    "pull": "売上は12倍、それでも赤字。AIの損益は計算資源の調達で決まる。",
+    "hero_image": "/assets/illustrations/2026-11-04-story-2-cast.webp",
+    "hero_image_alt": "急伸する売上と膨らむ計算費用の図に驚くラッコ、首をかしげて尋ねる猫、本を読むふりで横目を向けるアザラシ。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-11-04-story-2.png"
+  },
+  {
+    "updated_at": "2026-11-04",
+    "verified_at": "2026-11-04",
+    "article_kind": "news",
+    "title": "Salesforce、顧客対応AIのCrestaを買収へ　音声エージェントと会話分析をService Cloudに統合",
+    "category": "業界動向",
+    "source": "Salesforce",
+    "published_at": "2026-11-02",
+    "lede": "Salesforceは11月2日、顧客対応向けAIを手がけるCrestaを買収することで最終合意したと発表した。Crestaの音声エージェントと会話分析をService Cloudと組み合わせ、一つひとつの会話を顧客の履歴や対応の結果と結びつける。買収額は公表していない。",
+    "links": [
+      "https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-cresta"
+    ],
+    "keypoints": [
+      "SalesforceがCrestaの買収で最終合意した。買収額は非公表",
+      "Crestaの音声エージェントと会話分析を、顧客対応のService Cloudと組み合わせる",
+      "買収後も、Crestaは顧客がいま使っているコンタクトセンターや電話の仕組みへの対応を続ける",
+      "完了は会計年度2028年の第1四半期（2027年2〜4月）の見込みで、規制当局の承認などが条件"
+    ],
+    "editorial_diagram": {
+      "kicker": "Salesforceの発表 / Cresta買収",
+      "title": "買収で何がつながるか",
+      "lead": "Salesforceの発表から、統合の中身を3つに分けた。",
+      "examples": [
+        [
+          "音声エージェント",
+          "Crestaの音声で応対するAIを、Salesforceの顧客対応の仕組みに取り込む。"
+        ],
+        [
+          "会話分析",
+          "会話の中身を分析し、顧客の履歴や対応の結果と結びつける。"
+        ],
+        [
+          "既存環境への対応",
+          "買収後も、顧客が使っているコンタクトセンターや電話の仕組みへの対応を続ける。"
+        ]
+      ],
+      "note": "Salesforce Newsroom（2026年11月2日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-cresta",
+      "wide": "/assets/illustrations/2026-11-04-story-3-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-11-04-story-3-diagram-mobile.webp",
+      "alt": "音声エージェント：Crestaの音声で応対するAIを、Salesforceの顧客対応の仕組みに取り込む。、会話分析：会話の中身を分析し、顧客の履歴や対応の結果と結びつける。、既存環境への対応：買収後も、顧客が使っているコンタクトセンターや電話の仕組みへの対応を続ける。"
+    },
+    "body": [
+      {
+        "heading": "発表の内容",
+        "paragraphs": [
+          "Salesforceは、顧客対応向けのAIを開発するCrestaを買収する最終契約を結んだと発表した。Crestaの音声エージェントと会話分析をService Cloudと組み合わせ、顧客との会話の一つひとつを、その顧客の履歴や対応の結果と結びつけるという。",
+          "CrestaのCEOは、リアルタイムの会話分析とエージェントの体験をSalesforceの顧客対応の基盤に直接組み込むことが狙いだと述べた。買収後も、Crestaは顧客が現在使っているコンタクトセンターや電話の仕組みへの対応を続ける。発表では、Crestaの顧客としてMarriott、Comcast、Alaska Airlinesの名前を挙げている。"
+        ]
+      },
+      {
+        "heading": "時期と金額",
+        "paragraphs": [
+          "取引の完了は会計年度2028年の第1四半期（2027年2〜4月）を見込み、必要な規制当局の承認などが条件になる。買収額は公表していない。",
+          "米メディアは約27億ドルと報じているが、会社は確認しておらず、本誌は未確認として扱う。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜顧客対応AIは「会話」と「顧客データ」をつなぐ競争に",
+        "paragraphs": [
+          "電話やチャットでの応対をAIに任せる流れの中で、会話の記録を顧客の履歴や成果と結びつけられるかが差になりつつある。今回の買収は、その結びつけを一つの基盤でまかなう動きと読める。",
+          "本誌は、問い合わせ対応にAIを入れる企業は、まず会話の記録を顧客情報と照らせる形で残しているかを確かめることを勧める。これは本誌の提案で、Salesforceの推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "問い合わせ対応の会話記録が、顧客情報と結びつけて残っているか確かめる",
+      "AIに任せたい応対と、人が受けるべき応対を分ける",
+      "使っているコンタクトセンターの仕組みとAIの連携方法を確認する"
+    ],
+    "service": "crm",
+    "pull": "顧客対応AIの勝負どころは、会話と顧客データの結びつけにある。",
+    "hero_image": "/assets/illustrations/2026-11-04-story-3-cast.webp",
+    "hero_image_alt": "音声AIと顧客情報を結ぶ画面に驚くラッコ、首をかしげて指す猫、本を読むふりで横目を向けるアザラシ。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-11-04-story-3.png"
+  },
+  {
+    "updated_at": "2026-11-04",
+    "verified_at": "2026-11-04",
+    "article_kind": "news",
+    "title": "AWS、Amazon BedrockでOpenAIの「GPT-6.1 Terra」を一般提供　Step Functionsの業務フローをAIエージェントの道具として呼び出せるように",
+    "category": "新モデル発表",
+    "source": "AWS",
+    "published_at": "2026-11-02",
+    "lede": "AWSは11月2日の週次まとめで、OpenAIの「GPT-6.1 Terra」をAmazon Bedrockで一般提供したと紹介した。あわせて、AWS Step Functionsで組んだ業務フローを、AIエージェントがMCP経由で道具として呼び出せるようにした。",
+    "links": [
+      "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-gpt-6-1-terra-on-bedrock-step-functions-as-agent-tools-and-more-november-2-2026/"
+    ],
+    "keypoints": [
+      "GPT-6.1 TerraがAmazon Bedrockで一般提供になった。GPT-6系で日常の作業向けのモデル",
+      "入力・出力の料金はGPT-6.1 SolやGPT-5.6 Terraより少なくとも50%安い。入力は最大100万トークンで、文章と画像に対応",
+      "Step Functionsの業務フローを、Bedrock AgentCore Gateway経由でMCPのツールとして呼び出せる",
+      "Step Functionsは220を超えるAWSサービスを組み合わせられる。AgentCore Gatewayの全リージョンで通常料金"
+    ],
+    "editorial_diagram": {
+      "kicker": "AWSの週次まとめ / 2026年11月2日",
+      "title": "Bedrockに加わった2つの変化",
+      "lead": "AWS News Blogの週次まとめから、AI関連の発表を3つの点に分けた。",
+      "examples": [
+        [
+          "GPT-6.1 Terra",
+          "GPT-6系で日常の作業向けのモデル。Bedrockで一般提供になった。"
+        ],
+        [
+          "料金と入力",
+          "GPT-6.1 SolやGPT-5.6 Terraより少なくとも50%安い。入力は最大100万トークン。"
+        ],
+        [
+          "業務フローを道具に",
+          "Step Functionsのフローを、AIエージェントがMCP経由で呼び出して実行できる。"
+        ]
+      ],
+      "note": "AWS News Blog（2026年11月2日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-gpt-6-1-terra-on-bedrock-step-functions-as-agent-tools-and-more-november-2-2026/",
+      "wide": "/assets/illustrations/2026-11-04-story-4-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-11-04-story-4-diagram-mobile.webp",
+      "alt": "GPT-6.1 Terra：GPT-6系で日常の作業向けのモデル。Bedrockで一般提供になった。、料金と入力：GPT-6.1 SolやGPT-5.6 Terraより少なくとも50%安い。入力は最大100万トークン。、業務フローを道具に：Step Functionsのフローを、AIエージェントがMCP経由で呼び出して実行できる。"
+    },
+    "body": [
+      {
+        "heading": "GPT-6.1 TerraがBedrockで使えるように",
+        "paragraphs": [
+          "AWSは週次のまとめ記事で、OpenAIのGPT-6.1 TerraがAmazon Bedrockで一般提供になったと紹介した。TerraはGPT-6系のうち、日常の作業に向けたモデルだという。",
+          "入力と出力のトークン料金は、GPT-6.1 SolやGPT-5.6 Terraより少なくとも50%安い。入力は最大100万トークンで、文章と画像を受け付ける。記事は、OpenAIの評価でGPT-5.6 Terraより15ポイント高い結果を出したなどと紹介しているが、これはOpenAIによる数字で、第三者の検証ではないと断っている。対応リージョンと具体的な単価は本誌では未確認。"
+        ]
+      },
+      {
+        "heading": "業務フローをAIエージェントの道具に",
+        "paragraphs": [
+          "AWS Step Functionsで組んだ業務フローを、Amazon Bedrock AgentCore Gatewayを通じて、MCP（Model Context Protocol）のツールとしてAIエージェントから呼び出せるようにした。いつフローを動かし、何を渡すかはエージェントが決め、手順そのものはStep Functionsが決められた順に実行する。",
+          "StandardとExpressの両方のワークフローを対象にでき、エージェントは実行状況を調べることもできる。AgentCore Gatewayが動くすべてのリージョンで、通常の料金で使える。Step Functionsは220を超えるAWSサービスを組み合わせられるという。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜AIに「決まった手順」を任せる形が現実的に",
+        "paragraphs": [
+          "AIに業務を任せるとき、手順のすべてをAIに考えさせると結果がぶれやすい。決まった手順は既存の業務フローに任せ、いつ動かすかの判断だけをAIが担う今回の形は、業務への組み込み方として現実的だ。",
+          "本誌は、すでにStep Functionsで自動化している業務があるなら、まず読み取りだけのフローからエージェントにつなぎ、動きを確かめることを勧める。これは本誌の提案で、AWSの推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "すでに自動化している業務フローのうち、AIから呼び出したいものを選ぶ",
+      "まず読み取りだけのフローでAgentCore Gateway経由の呼び出しを試す",
+      "GPT-6.1 Terraの単価と対応リージョンをBedrockの料金ページで確かめる"
+    ],
+    "service": "fde",
+    "pull": "決まった手順は業務フローに、いつ動かすかはAIに。",
+    "hero_image": "/assets/illustrations/2026-11-04-story-4-cast.webp",
+    "hero_image_alt": "業務フローの図を映すパソコンに驚くラッコと、首をかしげる猫、読書のふりで様子をうかがうアザラシ。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-11-04-story-4.png"
+  },
+  {
+    "updated_at": "2026-11-04",
+    "verified_at": "2026-11-04",
+    "article_kind": "news",
+    "title": "Snowflake、AIエージェントに社内の用語の定義を渡す「Business Ontology」を発表　利用と費用をまとめて管理する「Cortex AI Gateway」は一般提供",
+    "category": "ツール更新",
+    "source": "Snowflake",
+    "published_at": "2026-11-03",
+    "lede": "Snowflakeは11月3日、オンラインイベント「Expedition 2026」で、社内で承認した業務用語の定義をAIエージェントに渡す「Business Ontology」や、エージェントの接続・ツール呼び出し・モデル利用・費用を1つの方針で管理する「Cortex AI Gateway」の拡張を発表した。",
+    "links": [
+      "https://www.snowflake.com/en/news/press-releases/expedition-2026-business-ontology-ai-gateway/"
+    ],
+    "keypoints": [
+      "Business Ontologyは、承認済みの業務用語の定義を記録し、AIエージェントに渡す。公開プレビューは近日",
+      "Cortex AI Gatewayは一般提供。エージェントの接続、ツール呼び出し、モデル利用、費用に同じ方針をかける",
+      "費用の割り当てと上限の強制、エージェントの記録（Observability）も一般提供",
+      "不正利用の検知やモデルの自動振り分けは限定プレビュー。MCPのツール呼び出しの認可は公開プレビュー"
+    ],
+    "editorial_diagram": {
+      "kicker": "Snowflakeの発表 / Expedition 2026",
+      "title": "AIエージェントを業務に出すための3つの仕組み",
+      "lead": "Snowflakeの発表資料から、機能を役割ごとに3つに分けた。",
+      "examples": [
+        [
+          "用語をそろえる",
+          "Business Ontologyで、承認した業務用語の定義をエージェントに渡す（公開プレビューは近日）。"
+        ],
+        [
+          "まとめて管理",
+          "Cortex AI Gatewayで、接続、ツール、モデル、費用に1つの方針をかける（一般提供）。"
+        ],
+        [
+          "費用と記録",
+          "AIの費用を部署やエージェントに割り当て、上限を強制する。動きは自社のアカウントに記録する。"
+        ]
+      ],
+      "note": "Snowflakeプレスリリース（2026年11月3日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://www.snowflake.com/en/news/press-releases/expedition-2026-business-ontology-ai-gateway/",
+      "wide": "/assets/illustrations/2026-11-04-story-5-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-11-04-story-5-diagram-mobile.webp",
+      "alt": "用語をそろえる：Business Ontologyで、承認した業務用語の定義をエージェントに渡す（公開プレビューは近日）。、まとめて管理：Cortex AI Gatewayで、接続、ツール、モデル、費用に1つの方針をかける（一般提供）。、費用と記録：AIの費用を部署やエージェントに割り当て、上限を強制する。動きは自社のアカウントに記録する。"
+    },
+    "body": [
+      {
+        "heading": "業務の意味をAIに伝える",
+        "paragraphs": [
+          "Snowflakeは「Expedition 2026」で、AIエージェントを業務に使うための機能群を発表した。Business Ontologyは、組織として承認した業務用語の定義を記録し、エージェントに渡す仕組みで、公開プレビューを近く始める。定義されていない業務の文脈を推定するCortex Senseも、公開プレビューを近日予定とした。",
+          "同社が紹介したMIT Technology Review Insightsの調査（年間売上5億ドル以上の企業の幹部400人が対象）では、エージェントの分析の質が低い主な原因として、55%が業務の文脈の不足を挙げたという。"
+        ]
+      },
+      {
+        "heading": "エージェントの管理と費用",
+        "paragraphs": [
+          "Cortex AI Gatewayは一般提供で、エージェントの接続、ツールの呼び出し、モデルへのアクセス、費用に1つの方針をかけられる。AIの費用を割り当てて上限を強制する機能と、エージェントが使ったモデルやツール、判断を顧客のアカウントに記録する機能も一般提供になった。",
+          "エージェントのコードを権限どおりに隔離して動かすCortex Sandboxes、行き過ぎた操作や不正利用を検知する機能、費用や精度、待ち時間に応じて承認済みのモデルへ振り分ける機能は限定プレビュー。MCPのツール呼び出しを実行前に認証・認可する機能は公開プレビュー、プロンプトインジェクションなどへの防御は公開プレビューを近日予定としている。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜AI導入の詰まりは「言葉の定義」と「費用の見える化」",
+        "paragraphs": [
+          "同じ「売上」でも部署ごとに数え方が違う、という状態のままAIに分析を任せると、答えがずれる。用語の定義をそろえることと、エージェントごとの費用を見えるようにすることは、ツールを問わずAI導入の前提になる。",
+          "本誌は、社内でAIに分析を任せる前に、よく使う指標の定義を10個ほど文書にまとめておくことを勧める。これは本誌の提案で、Snowflakeの推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "社内でよく使う指標を10個選び、定義を文書にそろえる",
+      "AIエージェントごと、部署ごとの費用を把握できているか確かめる",
+      "Snowflakeを使っている場合は、各機能の提供段階を発表資料で確認する"
+    ],
+    "service": "fde",
+    "pull": "AIに任せる前に、まず社内の言葉をそろえる。",
+    "hero_image": "/assets/illustrations/2026-11-04-story-5-cast.webp",
+    "hero_image_alt": "用語集とAIの利用管理を示す画面に驚くラッコと、首をかしげて手を挙げる猫、本を読みながら横目で聞くアザラシ。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-11-04-story-5.png"
+  },
+  {
+    "updated_at": "2026-11-04",
+    "verified_at": "2026-11-04",
+    "article_kind": "news",
+    "title": "GitHub Copilot、JetBrainsのエージェント作業環境「Air」で利用可能に　クラウドの作業は隔離されたコンテナで実行",
+    "category": "ツール更新",
+    "source": "GitHub",
+    "published_at": "2026-11-03",
+    "lede": "GitHubは11月3日、JetBrainsの「Air」でGitHub Copilotを使えるようにしたと発表した。Airはコーディング作業をAIに任せ、進め方を指示し、結果を確かめる場で、IDEの中でもクラウドでも作業を動かせる。いま契約しているCopilotのプランをそのまま使える。",
+    "links": [
+      "https://github.blog/changelog/2026-11-03-github-copilot-is-now-available-in-jetbrains-air"
+    ],
+    "keypoints": [
+      "JetBrains Airのエージェント選択でGitHub Copilotを選べるようになった。既存のCopilot契約を使う",
+      "連携にはAgent Client Protocol（ACP）を使い、IDEの中とクラウドの両方で作業を動かせる",
+      "クラウドの作業は、新しい仮想マシン上の隔離されたDockerコンテナで実行し、作業間で状態を引き継がない",
+      "クラウドの作業はJetBrains AIのクレジットではなく、Copilotのプランに計上される"
+    ],
+    "editorial_diagram": {
+      "kicker": "GitHubの発表 / Copilot × JetBrains Air",
+      "title": "AirでCopilotを使うときの3つの要点",
+      "lead": "GitHub Changelogから、使い方と条件を3つに分けた。",
+      "examples": [
+        [
+          "選ぶだけ",
+          "Airのエージェント選択でCopilotを選び、いまのCopilot契約で使う。"
+        ],
+        [
+          "隔離して実行",
+          "クラウドの作業は新しい仮想マシン上のコンテナで動き、作業間で状態を残さない。"
+        ],
+        [
+          "計上先",
+          "クラウドの作業はCopilotのプランに計上。Airの管理画面ではCopilotの費用上限を設定できない。"
+        ]
+      ],
+      "note": "GitHub Changelog（2026年11月3日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://github.blog/changelog/2026-11-03-github-copilot-is-now-available-in-jetbrains-air",
+      "wide": "/assets/illustrations/2026-11-04-story-6-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-11-04-story-6-diagram-mobile.webp",
+      "alt": "選ぶだけ：Airのエージェント選択でCopilotを選び、いまのCopilot契約で使う。、隔離して実行：クラウドの作業は新しい仮想マシン上のコンテナで動き、作業間で状態を残さない。、計上先：クラウドの作業はCopilotのプランに計上。Airの管理画面ではCopilotの費用上限を設定できない。"
+    },
+    "body": [
+      {
+        "heading": "何ができるようになったか",
+        "paragraphs": [
+          "GitHubは、JetBrains AirでGitHub Copilotが使えるようになったと発表した。Airは、コーディング作業をAIに任せ、進め方を指示し、結果を確かめるための場で、連携にはAgent Client Protocol（ACP）を使う。作業はJetBrainsのIDEの中でも、クラウドでも動かせる。",
+          "使うには、Airのエージェント選択でGitHub Copilotを選び、既存のCopilot契約を使う。複数のエージェントの作業を並行して追い、プロジェクトの文脈やIDEの道具を使い、変更をコードと並べて確認できる。"
+        ]
+      },
+      {
+        "heading": "クラウドで動かすときの条件",
+        "paragraphs": [
+          "クラウドの作業は、新しい仮想マシン上の隔離されたDockerコンテナで実行する。通信はプロキシを通り、作業と作業の間で状態は引き継がない。費用はJetBrains AIのクレジットではなく、Copilotのプランに計上される。",
+          "クラウドで使うには、Air Teamsを有効にした法人組織のJetBrainsアカウント、Copilotの契約、Airの管理者によるCopilotの有効化が必要。個人と組織のどちらのCopilotプランを使うかは作業ごとに選べない。Airの管理機能や分析はCopilotの利用を対象にせず、管理者はCopilotを無効にはできるが、Air上で費用の上限は設定できない。提供段階（プレビューか一般提供か）は本誌では未確認。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜道具は増えても、費用と権限の管理はばらける",
+        "paragraphs": [
+          "使い慣れたエディタから好きなAIエージェントを選べるのは便利だが、費用の計上先や管理画面が道具ごとに分かれる。今回も、Air側ではCopilotの費用上限を設定できない。",
+          "本誌は、チームでAIのコーディング支援を複数使う場合、費用の上限と権限をどこで管理するかを先に決めておくことを勧める。これは本誌の提案で、GitHubやJetBrainsの推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "チームで使っているAIのコーディング支援と、それぞれの費用の計上先を一覧にする",
+      "Copilotの費用上限をGitHub側で設定しているか確かめる",
+      "クラウドで動かす作業に渡してよいリポジトリの範囲を決める"
+    ],
+    "service": "luna",
+    "pull": "エディタは選べても、費用の上限は別の場所で決める。",
+    "hero_image": "/assets/illustrations/2026-11-04-story-6-cast.webp",
+    "hero_image_alt": "隔離されたクラウド作業の図に驚くラッコと、質問する茶トラ猫、本を読みながら横目で聞くアザラシ。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-11-04-story-6.png"
+  },
+  {
+    "updated_at": "2026-11-04",
+    "verified_at": "2026-11-04",
+    "article_kind": "news",
+    "title": "AIエージェントが実在のOSSの弱点を直せるかを測る「CWE-bench v2」公開　100課題・91種類、首位の正答率は67.8%",
+    "category": "セキュリティ",
+    "source": "Hugging Face / Collinear AI",
+    "published_at": "2026-11-03",
+    "lede": "Hugging FaceとCollinear AIの研究者は11月3日、AIエージェントが実在するオープンソースのリポジトリでセキュリティ上の弱点を見つけ、既存の機能を壊さずに直せるかを測る評価「CWE-bench v2」を公開した。誰でも動かせる100課題の公開セットを用意した。",
+    "links": [
+      "https://huggingface.co/blog/cwe-bench",
+      "https://huggingface.co/datasets/collinear-ai/cwe-bench"
+    ],
+    "keypoints": [
+      "エージェントは実在のOSSリポジトリと短い指示を受け取り、弱点を見つけて直す。採点はプログラムで機械的に行う",
+      "公開セットは100課題で、91種類のCWE（弱点の分類）を含む",
+      "11モデルを評価し、Gemini 4 Argonが1回目の正答率67.8%で首位、Claude Opus 5.5が67.3%で続いた",
+      "95課題は少なくとも1つのモデルが解いた。課題の利用には利用条件への同意が必要"
+    ],
+    "editorial_diagram": {
+      "kicker": "Hugging Face Blog / CWE-bench v2",
+      "title": "AIは脆弱性をどこまで直せるか",
+      "lead": "公開された評価の仕組みと結果を3つに分けた。",
+      "examples": [
+        [
+          "課題",
+          "実在のOSSリポジトリで、弱点を見つけ、既存の機能を壊さずに直す。100課題・91種類。"
+        ],
+        [
+          "採点",
+          "プログラムで機械的に採点する。同じ答えなら同じ点になる。"
+        ],
+        [
+          "結果",
+          "11モデルを評価。首位は1回目の正答率67.8%。95課題はどれかのモデルが解いた。"
+        ]
+      ],
+      "note": "Hugging Face Blog（2026年11月3日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://huggingface.co/blog/cwe-bench",
+      "wide": "/assets/illustrations/2026-11-04-story-7-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-11-04-story-7-diagram-mobile.webp",
+      "alt": "課題：実在のOSSリポジトリで、弱点を見つけ、既存の機能を壊さずに直す。100課題・91種類。、採点：プログラムで機械的に採点する。同じ答えなら同じ点になる。、結果：11モデルを評価。首位は1回目の正答率67.8%。95課題はどれかのモデルが解いた。"
+    },
+    "body": [
+      {
+        "heading": "どんな評価か",
+        "paragraphs": [
+          "CWE-bench v2は、AIエージェントのサイバーセキュリティの能力を測る評価だ。エージェントは実在するオープンソースのリポジトリと短い指示を受け取り、セキュリティ上の弱点を見つけて、既存の機能を壊さずに修正する。採点はプログラムで機械的に行う。",
+          "今回は誰でも動かせる100課題の公開セットを用意し、91種類のCWE（ソフトウエアの弱点の分類）を含む。課題ごとの品質確認と、全課題の人手による確認を行ったという。公開セット、採点器、実行環境は公開されているが、データの利用には利用条件への同意が必要。別に、非公開の評価用セットもある。"
+        ]
+      },
+      {
+        "heading": "結果",
+        "paragraphs": [
+          "評価した11モデルのうち、Gemini 4 Argonが1回目の正答率（pass@1）67.8%、4回中1回でも正答する率（pass@4）81.0%で首位だった。Claude Opus 5.5はpass@1が67.3%、pass@4が78.0%で続いた。",
+          "100課題のうち95課題は、少なくとも1つのモデルが解いた。費用の面では、DeepSeekのモデルが1回の実行あたり0.04ドルでpass@1が57.0%に達したという。これらは研究者による評価結果で、本誌は独自に再現していない。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜AIに直させるなら、確かめる仕組みとセットで",
+        "paragraphs": [
+          "上位のモデルでも1回目の正答率は7割に届かない。AIに脆弱性の修正を任せる場面は増えるが、修正が正しいかを確かめるテストや人の確認は欠かせない。",
+          "本誌は、AIに修正を任せる前に、既存の機能が壊れていないかを確かめる自動テストを用意しておくことを勧める。これは本誌の提案で、研究者の推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "AIに修正を任せているリポジトリに、自動テストがあるか確かめる",
+      "セキュリティ修正は、AIの提案でも人が確認してから取り込む決まりにする",
+      "自社で使うモデルの成績を、公開セットで試してみる"
+    ],
+    "pull": "首位でも1回目の正答率は7割に届かない。",
+    "hero_image": "/assets/illustrations/2026-11-04-story-7-cast.webp",
+    "hero_image_alt": "弱点修復を示す画面にラッコが仰天し、猫が首をかしげて指さす横で、アザラシが本越しに盗み見している。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-11-04-story-7.png"
+  },
+  {
+    "updated_at": "2026-11-04",
+    "verified_at": "2026-11-04",
+    "article_kind": "news",
+    "title": "Ai2、長い文書で「値の変化」を追えるかを測る評価「StateBench」を公開　最難関の長い問題では最新モデルも正答率13%以下",
+    "category": "研究",
+    "source": "Ai2",
+    "published_at": "2026-11-03",
+    "lede": "米非営利研究機関のAi2は11月3日、言語モデルが長い文書の中で、変数の値がどう変わったかを正しく追えるかを測る評価「StateBench」を公開した。4段階の難しさがあり、最も難しい段階の長い問題では、試した最新モデルの正答率が13%以下に下がった。",
+    "links": [
+      "https://huggingface.co/blog/allenai/statebench",
+      "https://allenai.org/papers/statebench"
+    ],
+    "keypoints": [
+      "値が一度だけ決まる段階から、値の入れ替えが起きる段階まで、4段階の難しさで状態の追跡を測る",
+      "Gemini 3.8 Flash、Claude Opus 5.5、GPT-6 SolとLunaの4モデルは、易しい2段階ではよくできた",
+      "難しい2段階では文書が長くなるほど正答率が大きく下がり、最難関の最長の問題では13%以下だった",
+      "論文、データ、コードを公開した"
+    ],
+    "editorial_diagram": {
+      "kicker": "Ai2の研究 / StateBench",
+      "title": "「値の変化を追う」力を4段階で測る",
+      "lead": "Ai2の解説記事から、評価の仕組みと結果を3つに分けた。",
+      "examples": [
+        [
+          "易しい段階",
+          "値が一度だけ決まる、または上書きされる。最新モデルはよく正解した。"
+        ],
+        [
+          "難しい段階",
+          "値が積み上がる、値どうしを入れ替える。文書が長いほど正答率が大きく下がる。"
+        ],
+        [
+          "結果",
+          "最難関の最も長い問題では、最新モデルでも正答率13%以下だった。"
+        ]
+      ],
+      "note": "Ai2 / Hugging Face Blog（2026年11月3日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://huggingface.co/blog/allenai/statebench",
+      "wide": "/assets/illustrations/2026-11-04-story-8-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-11-04-story-8-diagram-mobile.webp",
+      "alt": "易しい段階：値が一度だけ決まる、または上書きされる。最新モデルはよく正解した。、難しい段階：値が積み上がる、値どうしを入れ替える。文書が長いほど正答率が大きく下がる。、結果：最難関の最も長い問題では、最新モデルでも正答率13%以下だった。"
+    },
+    "body": [
+      {
+        "heading": "何を測るか",
+        "paragraphs": [
+          "StateBenchは、長い文書の中で、ものごとの状態がどう変わったかを言語モデルが正しく追えるかを測る。難しさは4段階で、値が一度決まったら変わらない段階、値が上書きされ最新の値を探す段階、今の値に足し込んでいく段階、ある変数に別の変数の値を入れる（入れ替えが起きる）段階に分かれる。",
+          "Ai2は、論文、データ、コードを公開した。"
+        ]
+      },
+      {
+        "heading": "結果",
+        "paragraphs": [
+          "最新モデルとして試したGemini 3.8 Flash、Claude Opus 5.5、GPT-6のSolとLunaの4つは、易しい2段階ではよくできた。一方、難しい2段階では文書が長くなるほど正答率が大きく下がり、最も難しい段階の最も長い問題では13%以下になった。",
+          "Ai2はあわせて、2億7500万パラメータの小型モデルをこの課題で一から学習させて比べた。Gated DeltaNetと呼ぶ仕組みを使ったモデルの一部は、最難関の段階でも、学習で見た最も長い問題のおよそ10倍の長さまでほぼ完全に正解したという。これらは研究者による結果で、本誌は独自に再現していない。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜長い記録の「最新の状態」をAIに任せきらない",
+        "paragraphs": [
+          "契約の変更履歴や在庫の出入りのように、値が何度も書き換わる長い記録から最新の状態を答えさせると、最新モデルでも誤りやすいことが示された。",
+          "本誌は、こうした業務でAIを使う場合、最新の状態は表やデータベースで管理し、AIには読み取りと説明を任せる形を勧める。これは本誌の提案で、Ai2の推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "値が何度も変わる記録を、AIに文章のまま読ませている業務がないか確かめる",
+      "最新の状態は表やデータベースで持ち、AIにはその結果を渡す",
+      "重要な数字はAIの回答を元の記録と照らして確認する"
+    ],
+    "service": "luna",
+    "pull": "何度も書き換わる記録は、最新モデルでも追いきれない。",
+    "hero_image": "/assets/illustrations/2026-11-04-story-8-cast.webp",
+    "hero_image_alt": "長い紙に並ぶ図形の変化に驚くラッコと、指を差して尋ねる猫、読書しながら横目で見るアザラシ。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-11-04-story-8.png"
+  }
+]
