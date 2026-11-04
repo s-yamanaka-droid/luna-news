@@ -1,0 +1,637 @@
+[
+  {
+    "updated_at": "2026-11-05",
+    "verified_at": "2026-11-05",
+    "article_kind": "news",
+    "title": "OpenAI、Pierreを買収へ　CodexのファイルやDiff表示を支える開発ツール企業、Code StorageもCodexに統合",
+    "category": "業界動向",
+    "source": "OpenAI",
+    "published_at": "2026-11-04",
+    "lede": "OpenAIは11月4日、開発者向けツールを手がけるPierre Computer Companyを買収すると発表した。CodexアプリでファイルをたどるTreesや、変更を確認するDiffsはすでにPierreのライブラリを使っている。買収完了後もCode Storageは使い続けられ、機能をCodexに統合していく。",
+    "links": [
+      "https://openai.com/index/openai-to-acquire-pierre"
+    ],
+    "keypoints": [
+      "OpenAIがPierre Computer Company（Pierre）の買収を発表した。金額などの条件は公表していない",
+      "CodexアプリのファイルブラウズはPierreの「Trees」、変更レビューは「Diffs」のライブラリを使っている",
+      "Gitで履歴を保存するAPI「Code Storage」は買収完了後も利用でき、機能はCodexへ統合していく",
+      "オープンソースのプロジェクトは公開を続ける。完了には規制当局の承認など通常の条件が必要"
+    ],
+    "editorial_diagram": {
+      "kicker": "OpenAIの発表 / Pierre買収",
+      "title": "PierreからCodexに入る3つの道具",
+      "lead": "OpenAIの発表文から、CodexとつながるPierreの製品を3つに整理した。",
+      "examples": [
+        [
+          "Trees と Diffs",
+          "プロジェクト内のファイルをたどる、変更点を確かめる。Codexアプリがすでに使っているライブラリ。"
+        ],
+        [
+          "Highlights",
+          "人の入力やエージェントが流すコードに合わせて表示を更新する、高速なシンタックスハイライター。"
+        ],
+        [
+          "Code Storage",
+          "アプリがGitでコードを保存し履歴を追えるAPI。買収後も使え、機能をCodexに統合する。"
+        ]
+      ],
+      "note": "OpenAIの発表（2026年11月4日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://openai.com/index/openai-to-acquire-pierre",
+      "wide": "/assets/illustrations/2026-11-05-story-1-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-11-05-story-1-diagram-mobile.webp",
+      "alt": "Trees と Diffs：プロジェクト内のファイルをたどる、変更点を確かめる。Codexアプリがすでに使っているライブラリ。、Highlights：人の入力やエージェントが流すコードに合わせて表示を更新する、高速なシンタックスハイライター。、Code Storage：アプリがGitでコードを保存し履歴を追えるAPI。買収後も使え、機能をCodexに統合する。"
+    },
+    "body": [
+      {
+        "heading": "何を発表したか",
+        "paragraphs": [
+          "OpenAIは11月4日、Code Storageとオープンソースの開発者向けツールを手がけるPierre Computer Company（以下Pierre）を買収すると発表した。Codexアプリでファイルを閲覧したり変更をレビューしたりする画面には、すでにPierreの「Trees」と「Diffs」のライブラリが使われているという。",
+          "Pierreはこのほか、レビュー担当者が差分の画面で該当行をその場で直せるDiffsの編集モードや、人の入力やエージェントが流すコードに合わせて表示を更新する高速なシンタックスハイライター「Highlights」を出している。Code Storageは、アプリがGitを使ってコードを保存し、履歴を追えるようにするAPIだ。",
+          "OpenAIは同じ週の11月2日に、社内で開発したGit互換のソース管理バックエンド「Pando」を紹介している。発表文では、エージェントとの並行作業が増えるほどGitまわりの仕組みも変わる必要があるとし、Pierreのチームとともに開発者とエージェントの作業の場をCodexに集めたいとしている。"
+        ]
+      },
+      {
+        "heading": "今後の扱いと条件",
+        "paragraphs": [
+          "Pierreのオープンソースプロジェクトは引き続き公開され、OpenAIも貢献を続ける。Code Storageは買収完了後も利用でき、その間に機能をCodexへ統合していくとしている。",
+          "買収の完了には、規制当局の承認を含む通常の取引完了条件を満たす必要がある。完了までは両社が別々の会社として事業を続ける。買収金額、完了時期、Pierreの従業員数は発表文に記載がなく、未確認。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜AIが書いたコードを「人が確かめる画面」の争い",
+        "paragraphs": [
+          "コードを書く速さはAIで大きく伸びたが、変更を人が読み、正しいか判断する工程は残っている。今回の買収は、AIの性能そのものより、差分の見やすさやGitの履歴といった「確認の道具」を自社に取り込む動きと読める。",
+          "本誌は、Codexなどを業務で使う開発チームは、AIが出した変更を誰が、どの画面で、どこまで確かめるかを決めておくことを勧める。これは本誌の提案で、OpenAIの推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "AIが作った変更を、誰がどの画面でレビューしているかを書き出す",
+      "差分の確認で時間がかかっている作業を1つ選び、原因を整理する",
+      "Code Storageを使っている場合は、Codex統合の告知を追う担当を決める"
+    ],
+    "service": "fde",
+    "pull": "AIの開発競争は、書く速さから「確かめやすさ」へ広がっている。",
+    "hero_image": "/assets/illustrations/2026-11-05-story-1-cast.webp",
+    "hero_image_alt": "開発ツールの統合を示すパソコンに驚くラッコと、首をかしげる猫、本を読みながら横目で様子をうかがうアザラシ。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-11-05-story-1.png"
+  },
+  {
+    "updated_at": "2026-11-05",
+    "verified_at": "2026-11-05",
+    "article_kind": "news",
+    "title": "Cloudflare、利用者の代わりに動く「個人エージェント」の可視化と制御を追加　広告のあるページだけ遮断する設定も",
+    "category": "セキュリティ",
+    "source": "Cloudflare",
+    "published_at": "2026-11-04",
+    "lede": "Cloudflareは11月4日、利用者の代わりにサイトを訪れるAIの「個人エージェント」について、サイト運営者がアクセスの量を把握し、エージェントごとに許可や遮断を選べる機能を発表した。広告を載せたページだけ遮断する選択肢も加えた。",
+    "links": [
+      "https://blog.cloudflare.com/personal-agents-visibility-control/"
+    ],
+    "keypoints": [
+      "Security Analyticsのボット分析に「Personal Assistants」の区分を追加し、エージェントごとのリクエスト数を表示する",
+      "Agentsのポリシーを「AI Crawler and Agent access policies」に改め、エージェントごとに許可・広告ページで遮断・遮断を選べる",
+      "Account Abuse Protectionでは、ログインや登録がエージェント経由かどうかを確認できる。こちらは早期アクセス",
+      "サイト追加時に広告で収益化しているかを尋ね、推奨ポリシーを出し分ける"
+    ],
+    "editorial_diagram": {
+      "kicker": "Cloudflareの発表 / 個人エージェントへの対応",
+      "title": "個人エージェントに選べる3つの扱い",
+      "lead": "Cloudflareのブログから、エージェントごとに選べる設定を3つに分けた。",
+      "examples": [
+        [
+          "許可",
+          "そのエージェントを遮断しない。買い物や問い合わせを代行する利用者を顧客として受け入れる。"
+        ],
+        [
+          "広告ページで遮断",
+          "広告を載せたページだけ遮断する。広告収益を守りつつ、ほかのページは通す。"
+        ],
+        [
+          "遮断",
+          "そのエージェントからのアクセスをすべて止める。検索・学習向けの設定は従来どおり別に選ぶ。"
+        ]
+      ],
+      "note": "Cloudflareのブログ（2026年11月4日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://blog.cloudflare.com/personal-agents-visibility-control/",
+      "wide": "/assets/illustrations/2026-11-05-story-2-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-11-05-story-2-diagram-mobile.webp",
+      "alt": "許可：そのエージェントを遮断しない。買い物や問い合わせを代行する利用者を顧客として受け入れる。、広告ページで遮断：広告を載せたページだけ遮断する。広告収益を守りつつ、ほかのページは通す。、遮断：そのエージェントからのアクセスをすべて止める。検索・学習向けの設定は従来どおり別に選ぶ。"
+    },
+    "body": [
+      {
+        "heading": "何が追加されたか",
+        "paragraphs": [
+          "Cloudflareは11月4日のブログで、利用者の依頼を受けて商品比較や問い合わせ、購入などを代行する「個人エージェント」への対応を発表した。Security Analyticsのボット分析に「Personal Assistants」の区分が加わり、どのエージェントが何件のリクエストを送っているかを一覧できる。エージェントで絞り込むと、アクセス先のパスやステータスコードも確認できる。",
+          "これまでの「Agents」ポリシーは「AI Crawler and Agent access policies」に名前を変え、エージェントごとに「許可」「広告のあるページで遮断」「遮断」を選べるようにした。検索向けや学習向けのポリシーは変わらない。新しくサイトを追加する際には、広告で収益化しているページがあるかを尋ね、答えに応じた推奨設定を示す。"
+        ]
+      },
+      {
+        "heading": "不正対策の側面と提供状況",
+        "paragraphs": [
+          "Account Abuse Protectionでは、エージェントがどの利用者の代わりに動いているか、ある口座に対してどのエージェントが動いているかを見られる。ログインや新規登録がエージェント経由かどうかも表示する。攻撃者がエージェントを悪用していれば、その口座に絞ったWAFルールで対処でき、同じエージェントを使うほかの利用者は遮断せずに済むという。",
+          "Account Abuse Protectionは「早期アクセス」と明記されている。分析画面とポリシー設定の提供範囲（対象プラン）や料金はブログに記載がなく、未確認。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜「AIからのアクセス」を一律に止める時代は終わる",
+        "paragraphs": [
+          "Cloudflare自身がブログで、エージェントを一律に遮断すると顧客を失うおそれがあると書いている。AIに買い物や予約を頼む利用者が増えれば、エージェントは「ボット」ではなく「顧客の代理人」として扱う必要が出てくる。",
+          "本誌は、ECや予約サイトを運営する企業は、エージェントに開くページと閉じるページを、広告収益や不正リスクと合わせて一度棚卸しすることを勧める。これは本誌の提案で、Cloudflareの推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "自社サイトのアクセス解析で、AIエージェント由来のアクセスがあるか確かめる",
+      "エージェントに使ってほしいページと、止めたいページを分けて書き出す",
+      "Cloudflare利用中なら、AI Crawler and Agent access policiesの現在の設定を確認する"
+    ],
+    "service": "fde",
+    "pull": "AIエージェントは、遮断すべきボットではなく顧客の代理人になりつつある。",
+    "hero_image": "/assets/illustrations/2026-11-05-story-2-cast.webp",
+    "hero_image_alt": "エージェントのアクセス制御画面に驚くラッコと首を傾げる猫を、読書中のアザラシが横目で見ている。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-11-05-story-2.png"
+  },
+  {
+    "updated_at": "2026-11-05",
+    "verified_at": "2026-11-05",
+    "article_kind": "news",
+    "title": "Supabase、ClaudeがMCP接続の本人証明を発行する方式に対応　IDプロバイダーが未対応でも社員が同意画面なしで接続",
+    "category": "ツール更新",
+    "source": "Supabase",
+    "published_at": "2026-11-03",
+    "lede": "Supabaseは11月3日、Supabase MCPサーバーの企業向け認証で、Claudeが署名付きの本人証明を発行できるようにしたと発表した。IDプロバイダーがMCPの企業管理認可の拡張に対応していない組織でも、Claudeのメンバーが同意画面なしでSupabaseにつながる。",
+    "links": [
+      "https://supabase.com/blog/claude-issued-enterprise-managed-auth-for-mcp"
+    ],
+    "keypoints": [
+      "これまでIDプロバイダーが出していた本人証明（ID-JAG）を、Claudeが代わりに署名して発行する",
+      "Supabase側はSSOを設定したTeam・Enterpriseで一般提供。Claude側はTeam・Enterprise向けの自動接続ベータ",
+      "社員は既存のSupabaseの権限のまま接続でき、アクセストークンは短時間で切れてClaudeが自動更新する",
+      "IDプロバイダーで利用停止しても権限は消えない。退職時はSupabaseとClaudeの両方から外す必要がある"
+    ],
+    "editorial_diagram": {
+      "kicker": "Supabaseの発表 / Claudeが発行する本人証明",
+      "title": "社員がSupabaseにつながるまでの3段階",
+      "lead": "Supabaseのブログから、接続時に誰が何を確かめるかを3段階にまとめた。",
+      "examples": [
+        [
+          "Claudeが確認",
+          "現在のClaude組織のメンバーか、メールアドレスを確認したうえで、短時間有効なID-JAGに署名する。"
+        ],
+        [
+          "Supabaseが検証",
+          "署名、組織メンバー、SSOの本人一致、管理者がClaudeを承認済みかを確かめる。"
+        ],
+        [
+          "トークン発行",
+          "条件がそろえば短時間有効なアクセストークンを出す。Claudeが自動で更新する。"
+        ]
+      ],
+      "note": "Supabaseのブログ（2026年11月3日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://supabase.com/blog/claude-issued-enterprise-managed-auth-for-mcp",
+      "wide": "/assets/illustrations/2026-11-05-story-3-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-11-05-story-3-diagram-mobile.webp",
+      "alt": "Claudeが確認：現在のClaude組織のメンバーか、メールアドレスを確認したうえで、短時間有効なID-JAGに署名する。、Supabaseが検証：署名、組織メンバー、SSOの本人一致、管理者がClaudeを承認済みかを確かめる。、トークン発行：条件がそろえば短時間有効なアクセストークンを出す。Claudeが自動で更新する。"
+    },
+    "body": [
+      {
+        "heading": "何が変わったか",
+        "paragraphs": [
+          "Supabaseは11月3日、Supabase MCPサーバーの企業管理認証で、Claudeが本人証明を発行できるようになったと発表した。これまでは、MCPの「Enterprise-Managed Authorization」拡張に対応したIDプロバイダーが署名付きの本人証明を出す必要があった。今回、その証明をClaudeが代わりに発行することで、IDプロバイダーが未対応の組織でも使えるようになる。",
+          "仕組みはこうだ。Supabaseの管理者がClaudeを承認し、ClaudeのissuerのURLをSupabaseのSSO設定に登録する。社員が接続すると、ClaudeはそのメンバーがClaude組織に所属しているかとメールアドレスを確認し、短時間有効なID-JAG（Identity Assertion JWT Authorization Grant）に署名する。Supabaseは署名や組織メンバー、SSO上の本人一致を確かめてアクセストークンを出す。社員は既存の権限のまま、同意画面なしで接続できる。"
+        ]
+      },
+      {
+        "heading": "提供条件と注意点",
+        "paragraphs": [
+          "Supabase側はSSOを設定したTeamとEnterpriseの組織で一般提供、Claude側はTeamとEnterprise向けの自動接続ベータとして提供される。SupabaseとClaudeの双方の管理者が必要で、各社員がClaudeと同じメールアドレスで一度はSupabaseにSSOでログインしている必要がある。設定は約10分としている。",
+          "注意点も示されている。ClaudeはIDプロバイダーでのサインインや多要素認証を確認しないため、IDプロバイダーで利用者を停止してもアクセスは取り消されない。退職時はSupabaseとClaudeの両方の組織から外す必要があり、発行済みのトークンは期限まで有効だ。また、ClaudeのissuerのURLに切り替えると、ほかのAIツールが使うIDプロバイダーの証明は受け付けなくなる。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜便利さと引き換えに「退職者管理」の手順が増える",
+        "paragraphs": [
+          "社員一人ひとりに認証作業をさせずにAIと社内データベースをつなげられる点は、導入の手間を大きく減らす。一方で、IDプロバイダーを止めればすべて止まる、という前提が崩れることは、情報システム部門にとって見落としやすい変化だ。",
+          "本誌は、この方式を採るなら、退職・異動時の手順書に「Claude組織とSupabase組織の両方から外す」を明記してから有効にすることを勧める。これは本誌の提案で、SupabaseやAnthropicの推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "Supabaseを使う組織で、IDプロバイダーがMCPの企業管理認可に対応しているか確かめる",
+      "Claude経由で接続させたい社員と、そのSupabase上の権限を一覧にする",
+      "退職・異動時の手順書に、ClaudeとSupabaseの両方から外す手順を加える"
+    ],
+    "service": "luna",
+    "pull": "AIとの接続が楽になるほど、権限を外す手順のほうを先に決めておきたい。",
+    "hero_image": "/assets/illustrations/2026-11-05-story-3-cast.webp",
+    "hero_image_alt": "本人認証の図が映るパソコンに驚くラッコと、首をかしげて尋ねる茶トラ猫、本を読みながら横目で聞くアザラシ。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-11-05-story-3.png"
+  },
+  {
+    "updated_at": "2026-11-05",
+    "verified_at": "2026-11-05",
+    "article_kind": "news",
+    "title": "OpenAI、バグ報奨金を引き上げ　中・高・重大の報奨金を平均4倍超に、ボーナス込みで最大約17万ドル",
+    "category": "セキュリティ",
+    "source": "OpenAI",
+    "published_at": "2026-11-02",
+    "lede": "OpenAIは11月2日、外部の研究者が脆弱性を報告した際に支払うバグ報奨金を引き上げると発表した。深刻度が中・高・重大の報奨金の中央値を平均で従来の4倍超にし、品質やロイヤルティに応じたボーナスも新設した。未払いの報告や直近30日の支払いにもさかのぼって適用する。",
+    "links": [
+      "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties"
+    ],
+    "keypoints": [
+      "深刻度「中」「高」「重大」の報奨金範囲の中央値を、平均で従来の4倍超に引き上げる",
+      "ChatGPT、Codex、APIなど主要製品の重大な脆弱性は最大3万ドル。特に重大なものは最大10万ドル、ボーナス込みで最大約17万2,000ドル",
+      "報告の質に応じた倍率、5段階のロイヤルティボーナス、新機能向けの重点キャンペーンを導入する",
+      "未払いの報告に新基準を適用し、発表前30日の支払いは新基準の方が高ければ差額を払う"
+    ],
+    "editorial_diagram": {
+      "kicker": "OpenAIの発表 / バグ報奨金の改定",
+      "title": "基本額にかかる3つのボーナス",
+      "lead": "OpenAIの発表文から、基本報奨金に上乗せされる倍率の仕組みを3つに分けた。",
+      "examples": [
+        [
+          "品質ボーナス",
+          "バグを切り分け、悪用の条件と影響を示す概念実証がある報告に倍率をかける。例では1.15倍。"
+        ],
+        [
+          "ロイヤルティ",
+          "5段階のランク制。継続して報告する研究者ほど倍率が上がる。例では1.05〜1.15倍。"
+        ],
+        [
+          "重点キャンペーン",
+          "新しく出した機能に専用のボーナス予算を設ける短期の取り組み。例では1.30倍。"
+        ]
+      ],
+      "note": "OpenAIの発表（2026年11月2日）の計算例から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+      "wide": "/assets/illustrations/2026-11-05-story-4-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-11-05-story-4-diagram-mobile.webp",
+      "alt": "品質ボーナス：バグを切り分け、悪用の条件と影響を示す概念実証がある報告に倍率をかける。例では1.15倍。、ロイヤルティ：5段階のランク制。継続して報告する研究者ほど倍率が上がる。例では1.05〜1.15倍。、重点キャンペーン：新しく出した機能に専用のボーナス予算を設ける短期の取り組み。例では1.30倍。"
+    },
+    "body": [
+      {
+        "heading": "何を変えたか",
+        "paragraphs": [
+          "OpenAIは11月2日、セキュリティバグ報奨金プログラムの報奨金を引き上げると発表した。深刻度が「中」「高」「重大」の脆弱性について、報奨金範囲の中央値を平均で従来の4倍超にする。ChatGPT、Codex、APIプラットフォームなど主要製品での重大な脆弱性は最大3万ドル、特に重大な脆弱性は引き続き最大10万ドルで、ボーナスを含めると最大約17万2,000ドルになる。",
+          "新たに3つのボーナスも設けた。バグを切り分け、悪用できる条件と影響を示した質の高い報告には基本額に倍率をかける。継続的に報告する研究者には5段階のロイヤルティボーナスを用意し、新しく出した機能には短期の重点キャンペーンで専用のボーナス予算を充てる。"
+        ]
+      },
+      {
+        "heading": "計算例と遡及適用",
+        "paragraphs": [
+          "発表文の計算例では、ChatGPTでゼロクリックのアカウント乗っ取りが見つかった場合、従来の6,500ドルが、3万ドルに品質1.15倍、重点キャンペーン1.30倍、最上位ランクのロイヤルティ1.15倍をかけて5万1,577ドルになる。OpenAIは、例示した場面と従来額は説明用だとしている。",
+          "すでに提出済みで報奨金を受け取っていない報告には新しい範囲を適用し、発表前30日間に支払った分は新基準の方が高ければ差額を払う。OpenAIのセキュリティチームは11月20〜21日にオークランドで開かれるイベント「PROMPT2PWN」にも参加する。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜AI製品の弱点探しは「外の目」の確保が競争になる",
+        "paragraphs": [
+          "AIが脆弱性探しを助けるようになり、攻撃側も守る側も見つける速さが上がっている。報奨金を数倍にする動きは、腕のよい外部研究者の時間をどれだけ自社に向けてもらえるかの競争が始まっていることを示している。",
+          "本誌は、AIを組み込んだサービスを公開している企業は、少なくとも脆弱性の報告窓口と対応手順を公開しておくことを勧める。報奨金制度がなくても、窓口があるかどうかで報告が届くかが変わる。これは本誌の提案で、OpenAIの推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "自社サービスに脆弱性の報告窓口があるか、サイト上で確かめる",
+      "報告を受けた時に誰が判断し、何日以内に返答するかを決める",
+      "AI機能を新しく出す前に、外部の目で確認してもらう場を検討する"
+    ],
+    "service": "fde",
+    "pull": "AIの弱点探しでは、外部の研究者の時間をどれだけ呼び込めるかが問われる。",
+    "hero_image": "/assets/illustrations/2026-11-05-story-4-cast.webp",
+    "hero_image_alt": "脆弱性の報奨金増額を示すグラフに驚くラッコと首をかしげる茶トラ猫、本を読みながら横目で見るアザラシ。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-11-05-story-4.png"
+  },
+  {
+    "updated_at": "2026-11-05",
+    "verified_at": "2026-11-05",
+    "article_kind": "news",
+    "title": "NVIDIA、CUDA 13.5でVera Rubinへの対応を正式版に　Windows on ArmをDGX Stationに拡大、行列計算の高速化も",
+    "category": "ツール更新",
+    "source": "NVIDIA",
+    "published_at": "2026-11-04",
+    "lede": "NVIDIAは11月4日、GPU向け開発基盤の最新版CUDA 13.5を発表した。次世代GPUのVera Rubinへの対応を早期アクセスから正式版（GA）に移し、Windows on Armの対応をDGX Stationに広げた。数学ライブラリやPython向けの機能も更新した。",
+    "links": [
+      "https://developer.nvidia.com/blog/nvidia-cuda-13-5-brings-nvidia-vera-rubin-ga-support/"
+    ],
+    "keypoints": [
+      "Vera Rubinへの対応が早期アクセスから正式版（GA）になった。RubinではNVFP4とMXFP8の行列計算が速くなった",
+      "Rubin以降のGPUはWindowsでWDDMとMCDMに対応し、TCCには対応しない",
+      "CUDA 13.4で正式版になったWindows on Armを、Windows版DGX Stationに広げた",
+      "cuSPARSEの一部処理が1.65〜2.27倍に、B200のFP64対称更新が最大1.5倍に速くなった"
+    ],
+    "editorial_diagram": {
+      "kicker": "NVIDIAの発表 / CUDA 13.5",
+      "title": "CUDA 13.5の3つの柱",
+      "lead": "NVIDIA Technical Blogから、主な更新を3つに分けた。",
+      "examples": [
+        [
+          "Vera Rubinの正式対応",
+          "早期アクセスから正式版へ。NVFP4とMXFP8の行列計算が、形ごとの調整なしで速くなる。"
+        ],
+        [
+          "GPUの分け方",
+          "SMの区画分けやMPS v3で、1つのGPUを複数の処理で重み付けして共有できる。"
+        ],
+        [
+          "ライブラリの高速化",
+          "cuBLAS、cuSPARSE、nvJPEGなどを更新。cuSPARSEの一部処理は最大2.27倍に。"
+        ]
+      ],
+      "note": "NVIDIA Technical Blog（2026年11月4日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://developer.nvidia.com/blog/nvidia-cuda-13-5-brings-nvidia-vera-rubin-ga-support/",
+      "wide": "/assets/illustrations/2026-11-05-story-5-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-11-05-story-5-diagram-mobile.webp",
+      "alt": "Vera Rubinの正式対応：早期アクセスから正式版へ。NVFP4とMXFP8の行列計算が、形ごとの調整なしで速くなる。、GPUの分け方：SMの区画分けやMPS v3で、1つのGPUを複数の処理で重み付けして共有できる。、ライブラリの高速化：cuBLAS、cuSPARSE、nvJPEGなどを更新。cuSPARSEの一部処理は最大2.27倍に。"
+    },
+    "body": [
+      {
+        "heading": "何が変わったか",
+        "paragraphs": [
+          "NVIDIAは11月4日のTechnical Blogで、CUDA 13.5の内容を公開した。次世代GPUのVera Rubinへの対応は、早期の開発者アクセスから正式版（GA）に移った。Rubin向けの数学ライブラリでは、NVFP4とMXFP8の行列積（GEMM）が、形ごとの自動調整なしで速くなったという。Rubin以降のGPUはWindowsでWDDMとMCDMに対応し、TCCには対応しない。",
+          "CUDA 13.4で正式版になったWindows on Armは、Windows版のDGX Stationにも広げた。cuBLASはGB300ワークステーションを含むBlackwell世代のGPUで、Windows on Armの動作に対応した。"
+        ]
+      },
+      {
+        "heading": "そのほかの主な更新",
+        "paragraphs": [
+          "1つのGPUを複数の処理で分け合う仕組みも強化した。SMを区画に分ける「locality domains」に加え、MPS v3では重み付きの時分割、区画の貸し借り、cgroupによる振り分けなどを追加した。CUDA GraphsではcudaMemcpyBatchAsyncによる一括コピーを取り込めるようになり、Python向けのcuda.core 1.2も出た。",
+          "ライブラリでは、cuSPARSEのCSR形式のSpMMが1.65〜2.27倍、新しいSpSVのアルゴリズムが従来比2.7倍に速くなった。cuBLASではB200のFP64対称ランクk更新が最大1.5倍、nvJPEGのハイブリッド復号は画像の条件によって10〜600%向上したとしている。必要なドライバーやOSの条件はブログに記載がなく、リリースノートで確認が必要だ（未確認）。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜次世代GPUの「使える日」は開発基盤の正式版で決まる",
+        "paragraphs": [
+          "新しいGPUは発表された時点ではなく、開発基盤が正式に対応した時点で業務に使える。今回のGA化で、Vera Rubinを前提にした推論や学習の基盤づくりを本番として計画しやすくなった。",
+          "本誌は、GPUクラウドや自社GPUを使う企業は、利用中のフレームワークがCUDA 13.5とRubinにいつ対応するかを確かめ、更新の順番を決めておくことを勧める。これは本誌の提案で、NVIDIAの推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "自社で使うGPUとCUDAのバージョンを一覧にする",
+      "利用中のライブラリやフレームワークのCUDA 13.5対応状況を確かめる",
+      "CUDA 13.5のリリースノートで、必要なドライバーの条件を確認する"
+    ],
+    "service": "fde",
+    "pull": "次世代GPUが仕事に使えるのは、開発基盤が正式に対応した日からだ。",
+    "hero_image": "/assets/illustrations/2026-11-05-story-5-cast.webp",
+    "hero_image_alt": "行列計算の図が映るパソコンに驚くラッコと、首をかしげる猫、本を読みながら横目で見るアザラシ。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-11-05-story-5.png"
+  },
+  {
+    "updated_at": "2026-11-05",
+    "verified_at": "2026-11-05",
+    "article_kind": "news",
+    "title": "東北大とアイシン、STT-MRAMを載せた16nmのAIチップを開発　電源投入からOS起動まで65.7ミリ秒、物体検出の電力は約50分の1",
+    "category": "研究",
+    "source": "東北大学",
+    "published_at": "2026-11-02",
+    "lede": "東北大学とアイシンは11月2日、32MBのSTT-MRAMを組み込んだ16nm FinFETのAIチップを開発したと発表した。電源投入からOS起動までを65.7ミリ秒にし、従来の約39倍に速めた。物体検出1フレームのエネルギーは従来の約50分の1としている。",
+    "links": [
+      "https://www.tohoku.ac.jp/japanese/2026/11/press20261102-03-emram.html",
+      "https://www.aisin.com/jp/news/2026/010739.html"
+    ],
+    "keypoints": [
+      "32MBの組み込みSTT-MRAMを搭載した16nm FinFETのAI SoCを開発した。両者は「世界初」としている",
+      "電源投入からOS起動まで65.7ミリ秒で、従来比約39倍（本文では38.59倍）速い",
+      "AI処理は約10分の1、システム全体で約25倍速く、Tiny YOLOv3の物体検出は1フレーム50.7mJ",
+      "自動車、ロボット、カメラ、IoT機器などのエッジ機器での物体検出を想定する"
+    ],
+    "editorial_diagram": {
+      "kicker": "東北大学・アイシンの発表 / STT-MRAM搭載AI SoC",
+      "title": "3つの数字で見るチップの性能",
+      "lead": "東北大学のプレスリリースから、主な性能を3つに分けた。",
+      "examples": [
+        [
+          "起動65.7ミリ秒",
+          "電源投入からOS起動まで。従来比約39倍。電源を切っても記憶が残るMRAMを生かした。"
+        ],
+        [
+          "AI処理は約10分の1",
+          "8/16ビットの混在乗算と重み共有で、AI処理の時間を約10分の1に縮めた。"
+        ],
+        [
+          "電力は約50分の1",
+          "Tiny YOLOv3による1フレームの物体検出で50.7mJ。従来比約1/50。"
+        ]
+      ],
+      "note": "東北大学のプレスリリース（2026年11月2日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://www.tohoku.ac.jp/japanese/2026/11/press20261102-03-emram.html",
+      "wide": "/assets/illustrations/2026-11-05-story-6-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-11-05-story-6-diagram-mobile.webp",
+      "alt": "起動65.7ミリ秒：電源投入からOS起動まで。従来比約39倍。電源を切っても記憶が残るMRAMを生かした。、AI処理は約10分の1：8/16ビットの混在乗算と重み共有で、AI処理の時間を約10分の1に縮めた。、電力は約50分の1：Tiny YOLOv3による1フレームの物体検出で50.7mJ。従来比約1/50。"
+    },
+    "body": [
+      {
+        "heading": "何を開発したか",
+        "paragraphs": [
+          "東北大学 国際集積エレクトロニクス研究開発センター（CIES）の遠藤哲郎教授らとアイシンのチームは11月2日、32MBの組み込みSTT-MRAMを載せた16nm FinFETのAI SoCを開発したと発表した。STT-MRAMは電源を切ってもデータが消えないメモリで、両者は「STT-MRAMを搭載した16nm AI SoC」として世界初だとしている。比較の範囲や根拠はプレスリリースに説明がなく、未確認。",
+          "8ビットと16ビットを組み合わせた乗算の仕組みと、重みを共有する技術を取り入れた。成果は台湾・新竹で11月1〜4日に開かれた国際学会IEEE A-SSCC 2026で発表した。"
+        ]
+      },
+      {
+        "heading": "性能と用途",
+        "paragraphs": [
+          "電源投入からOS起動までは65.7ミリ秒で、従来比約39倍（本文では38.59倍）速い。AI処理の時間は約10分の1（10.16倍短縮）、システム全体では約25倍（25.2倍）速くなった。Tiny YOLOv3を使った1フレームの物体検出に必要なエネルギーは50.7mJで、従来の約50分の1という。",
+          "想定する用途は、自動車、ロボット、カメラ、IoT機器などのエッジ機器での物体検出。製品への搭載時期や量産の計画はプレスリリースに記載がなく、未確認。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜「すぐ起きて少ない電力で見る」がエッジAIの条件になる",
+        "paragraphs": [
+          "車載カメラや見回りロボットでは、電源を入れてすぐに認識を始められるか、電池でどれだけ動けるかが実用の壁になる。今回の成果は、AIの賢さではなく、起動の速さと電力という現場の条件を改善した点に意味がある。",
+          "本誌は、カメラやセンサーでAIを使う事業者は、クラウドで処理するか機器側で処理するかの判断に、起動時間と消費電力を指標として加えておくことを勧める。これは本誌の提案で、東北大学やアイシンの推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "自社の現場でAIカメラやセンサーを使う場面を書き出す",
+      "その場面で、起動の速さと電池の持ちがどれだけ重要かを整理する",
+      "クラウド処理と機器側処理の向き不向きを、指標を決めて比べる"
+    ],
+    "service": "fde",
+    "pull": "エッジAIの壁は、賢さより「すぐ起きて少ない電力で見る」ことにある。",
+    "hero_image": "/assets/illustrations/2026-11-05-story-6-cast.webp",
+    "hero_image_alt": "省電力AIチップの図に驚くラッコと、首をかしげる茶トラ猫、読書しながら横目で聞くアザラシ。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-11-05-story-6.png"
+  },
+  {
+    "updated_at": "2026-11-05",
+    "verified_at": "2026-11-05",
+    "article_kind": "news",
+    "title": "イトーキ、オフィス運営を支える3つのAIエージェントの提供を開始　拠点戦略の分析から会議室の「空予約」解消まで",
+    "category": "業界動向",
+    "source": "イトーキ",
+    "published_at": "2026-11-04",
+    "lede": "イトーキは11月4日、総務やファシリティ部門向けのAIサービス「ITOKI OFFICE AI AGENTS」の提供を始めた。拠点戦略の分析、オフィス改善の整理、会議室や席の使われていない予約の解消を、3つのAIエージェントが分担して支援する。",
+    "links": [
+      "https://www.itoki.jp/company/news/2026/1104_aiagents/"
+    ],
+    "keypoints": [
+      "拠点の稼働状況を分析する「Facility Portfolio AI」は、決めたいことを自然な言葉で指示すると分析画面を作る",
+      "「Workplace Insight AI」はアンケートやヒアリング記録、図面から課題と改善の方向を整理する",
+      "「Space Matching AI」はセンサーで空予約を見つける機能と、直前予約のアプリを備える。センサーは個人を識別しない",
+      "分析データは利用者のPC内で管理し、AIには処理に必要な範囲だけを送る。価格は公表していない"
+    ],
+    "editorial_diagram": {
+      "kicker": "イトーキの発表 / ITOKI OFFICE AI AGENTS",
+      "title": "オフィス運営を分担する3つのAI",
+      "lead": "イトーキのニュースリリースから、3つのエージェントの役割を整理した。",
+      "examples": [
+        [
+          "Facility Portfolio AI",
+          "拠点の稼働状況を可視化・分析・シミュレーション。決めたいことを言葉で伝えると分析画面を作る。"
+        ],
+        [
+          "Workplace Insight AI",
+          "移転・改修や改善の上流を支援。アンケートや図面から課題と方向性を整理する。"
+        ],
+        [
+          "Space Matching AI",
+          "センサーで空予約を見つけて解放し、空いた会議室や席をスマホから直前予約できる。"
+        ]
+      ],
+      "note": "イトーキのニュースリリース（2026年11月4日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://www.itoki.jp/company/news/2026/1104_aiagents/",
+      "wide": "/assets/illustrations/2026-11-05-story-7-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-11-05-story-7-diagram-mobile.webp",
+      "alt": "Facility Portfolio AI：拠点の稼働状況を可視化・分析・シミュレーション。決めたいことを言葉で伝えると分析画面を作る。、Workplace Insight AI：移転・改修や改善の上流を支援。アンケートや図面から課題と方向性を整理する。、Space Matching AI：センサーで空予約を見つけて解放し、空いた会議室や席をスマホから直前予約できる。"
+    },
+    "body": [
+      {
+        "heading": "何を始めたか",
+        "paragraphs": [
+          "イトーキは11月4日、ファシリティマネジメント向けのAIサービス「ITOKI OFFICE AI AGENTS」の提供を始めた。2026年2月に発表したワークプレイス事業「Office3.0」の新しいソリューションで、企業の総務・ファシリティ部門や経営企画部門を対象とする。",
+          "「Facility Portfolio AI」は拠点の稼働状況を取り込み、可視化・分析・シミュレーションする。データ整備や分析モデルの設計もAIが支援し、利用者は「何を決めたいか」を自然な言葉で伝えると判断に必要な分析画面を作れる。「Workplace Insight AI」は移転・改修や既存オフィスの改善を上流から支援し、アンケートやヒアリング記録、図面を読み込んで課題と改善の方向性を整理する。",
+          "「Space Matching AI」は会議室や席の稼働率を高める。「No-Show Hunter」はセンサーで在席を検知して予約と照合し、予約したのに使われていない「空予約」を見つける。連携するセンサーは人の在・不在だけを判定し、個人は識別しない。「Open Now」は空いている会議室やWebブース、個人席をスマートフォンで一覧し、ワンタップで予約できる。"
+        ]
+      },
+      {
+        "heading": "導入の進め方とデータの扱い",
+        "paragraphs": [
+          "課題に応じて段階的に導入でき、特定の機器や完全なデータ整備は前提にせず、既存の業務データから始められるとしている。イトーキの専門メンバーがデータの収集・整備や分析目的の整理を支援する。",
+          "分析対象のデータは利用者のPC内で管理し、AIには処理に必要な範囲だけを送る。AIの分析結果は独立した検証ルールで照合し、根拠を確かめられる形で記録するという。価格や導入実績はリリースに記載がなく、未確認。画面は開発中のイメージで、空予約レポートの数値もデモ値としている。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜「AIに渡すデータの範囲」まで書いた点に注目",
+        "paragraphs": [
+          "オフィスの稼働データや社員アンケートは、扱いに慎重さが求められる情報だ。今回のリリースは、機能だけでなく、データを手元に置きAIには必要な範囲だけ送ることや、分析結果を検証ルールで照合することまで明記している。",
+          "本誌は、総務部門がAIサービスを選ぶ際は、機能の比較に加え、どのデータがどこへ送られ、結果の根拠をどう確かめるかを導入前に質問することを勧める。これは本誌の提案で、イトーキの推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "自社の会議室で、予約されたのに使われていない枠がどれくらいあるか調べる",
+      "拠点や席の判断に使っているデータを一覧にする",
+      "AIサービスを比べる際の質問に、データの送り先と根拠の確認方法を加える"
+    ],
+    "service": "fde",
+    "pull": "業務AIの選び方は、機能の数より「データをどこまで渡すか」に移っている。",
+    "hero_image": "/assets/illustrations/2026-11-05-story-7-cast.webp",
+    "hero_image_alt": "空の会議室と予約画面に驚くラッコに猫が首をかしげ、読書中のアザラシが横目で様子をうかがう。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-11-05-story-7.png"
+  },
+  {
+    "updated_at": "2026-11-05",
+    "verified_at": "2026-11-05",
+    "article_kind": "news",
+    "title": "WHERE、衛星データとAIで遊休農地などを事業用地の候補として抽出するサービスを開始　地権者への接点づくりまで支援",
+    "category": "業界動向",
+    "source": "WHERE",
+    "published_at": "2026-11-04",
+    "lede": "WHEREは11月4日、スペースシフトと連携し、衛星データとAIで遊休農地などを新たな事業用地の候補として抽出するサービスの提供を始めた。候補地の抽出から地権者へのアプローチまでを一貫して支援する。まずは再生可能エネルギー分野から始める。",
+    "links": [
+      "https://pntwhere.com/posts/20261104"
+    ],
+    "keypoints": [
+      "衛星データとAIで、遊休農地など活用されていない可能性のある土地を事業用地の候補として抽出する",
+      "候補地の抽出だけでなく、地権者へのアプローチまでを一貫して支援する",
+      "2025年12月にスペースシフトと業務提携の基本合意書を結び、再エネ分野での実証で地権者の反響や商談の成果を得た",
+      "今後は物流施設、倉庫、駐車場など幅広い不動産用途に広げる。価格は公表していない"
+    ],
+    "editorial_diagram": {
+      "kicker": "WHEREの発表 / 衛星データ×AIの用地探索",
+      "title": "用地探しを3段階でつなぐ",
+      "lead": "WHEREの発表から、サービスが支援する流れを3段階に整理した。",
+      "examples": [
+        [
+          "衛星で探す",
+          "衛星データとAIで、遊休農地など活用されていない可能性のある土地を洗い出す。"
+        ],
+        [
+          "候補を絞る",
+          "事業の条件に合う土地を、新たな事業用地の候補として抽出する。"
+        ],
+        [
+          "地権者とつなぐ",
+          "抽出した土地の地権者へのアプローチまで支援する。実証では商談につながる成果があった。"
+        ]
+      ],
+      "note": "WHEREの発表（2026年11月4日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://pntwhere.com/posts/20261104",
+      "wide": "/assets/illustrations/2026-11-05-story-8-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-11-05-story-8-diagram-mobile.webp",
+      "alt": "衛星で探す：衛星データとAIで、遊休農地など活用されていない可能性のある土地を洗い出す。、候補を絞る：事業の条件に合う土地を、新たな事業用地の候補として抽出する。、地権者とつなぐ：抽出した土地の地権者へのアプローチまで支援する。実証では商談につながる成果があった。"
+    },
+    "body": [
+      {
+        "heading": "何を始めたか",
+        "paragraphs": [
+          "WHEREは11月4日、スペースシフトと連携し、衛星データとAIを使って遊休農地などを新たな事業用地の候補として抽出するサービスの提供を始めたと発表した。候補地を見つけるだけでなく、その土地の地権者へのアプローチまでを一貫して支援する。",
+          "両社は2025年12月に業務提携に関する基本合意書を結び、再生可能エネルギー分野で用地探索の実証を進めてきた。実証で実際の地権者からの反響や商談につながる成果が得られたことから、事業者向けのサービスとして提供を始めたという。"
+        ]
+      },
+      {
+        "heading": "対象と今後",
+        "paragraphs": [
+          "まずは再生可能エネルギー分野の事業者を対象とし、今後は物流施設、倉庫、駐車場など幅広い不動産用途への展開を目指す。両社の具体的な役割分担、サービスの価格、抽出できる土地の件数や精度は発表に記載がなく、未確認。",
+          "WHEREは11月5日・6日に開かれる「宇宙×不動産カンファレンス2026（SRC2026）」にも関わっている。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜AIの価値は「見つけた後」の一手まで含めて決まる",
+        "paragraphs": [
+          "衛星画像から土地を見つける技術はすでにあるが、事業になるかどうかは地権者に会えるかで決まる。今回のサービスは、探索と地権者への接点づくりをひとつながりにした点が特徴で、AIの出力を実際の商談まで運ぶ設計といえる。",
+          "本誌は、AIで候補を洗い出す仕組みを考える企業は、候補が出た後に誰が何をするかまで決めてから導入することを勧める。これは本誌の提案で、WHEREの推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "用地や物件の探索で、時間がかかっている工程を書き出す",
+      "候補が見つかった後の連絡や交渉を、誰が担うか決める",
+      "衛星データの活用事例を、自社の事業条件と照らして比べる"
+    ],
+    "service": "fde",
+    "pull": "AIで候補を見つけても、事業は地権者に会えるかで決まる。",
+    "hero_image": "/assets/illustrations/2026-11-05-story-8-cast.webp",
+    "hero_image_alt": "衛星で探す土地の地図に驚くラッコと、指を差して尋ねる猫、本を読みながら横目で聞くアザラシ。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-11-05-story-8.png"
+  }
+]
