@@ -7,6 +7,66 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。公開済みのAIニュースと実務への示唆をお届けします。</description>
   <language>ja</language>
   <item>
+    <title>OpenAI、脆弱性の発見と検証を担う「GPT-6 Cyber」を発表　指定範囲外を攻撃しない率は99.93%、まず承認済みのDaybreak Red利用者に提供</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-06/story-1/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-06/story-1/</guid>
+    <description>OpenAIは11月5日、ソフトウェアの脆弱性を見つけて実際に悪用できるかを確かめ、修正案づくりも助けるモデル「GPT-6 Cyber」を発表した。研究者が決めた作業範囲を守るよう専用に訓練したとしている。まずAPIとCodexで、承認済みの「Daybreak Red」利用者の一部に提供する。</description>
+  </item>
+  <item>
+    <title>Anthropic、Claudeに家計を分析する「Personal Finance」を追加　Plaid経由で銀行口座を読み取り専用で接続、米国の有料プランでベータ</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-06/story-2/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-06/story-2/</guid>
+    <description>Anthropicは11月5日、銀行やカードの口座をつなぎ、支出や請求をClaudeに聞ける「Personal Finance」をベータで公開した。接続にはPlaidを使い、Claudeは残高や取引を読むだけで、お金を動かすことはできない。対象は米国のPro・Max・Ultraプランだ。</description>
+  </item>
+  <item>
+    <title>Google、動画生成の「Gemini Omni 1.2 Flash」を一般提供　15秒まで生成・編集でき、料金は前版から30%値下げ</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-06/story-3/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-06/story-3/</guid>
+    <description>Googleは11月5日、動画生成モデル「Gemini Omni 1.2 Flash」を発表した。1本で生成・編集できる長さを10秒から15秒に延ばし、料金を前版のGemini Omni 1.1から30%下げた。Gemini APIや企業向けのGoogle Cloudで一般提供し、Google Vidsなどにも広げる。</description>
+  </item>
+  <item>
+    <title>OpenAI、画像生成「Images 2.6」を公開　生成は50%速く、GIFで動く画像も作れる　ChatGPTの全プランとCodex、APIで提供</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-06/story-4/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-06/story-4/</guid>
+    <description>OpenAIは11月4日、画像生成の新版「Images 2.6」を公開した。従来より50%速く生成し、キャラクターや商品を動かすGIFも作れる。ChatGPTとCodexのすべてのサブスクリプションプランで世界同時に使え、APIでは速さ重視の「Flare」と精度重視の「Sunburst」の2種類を出す。</description>
+  </item>
+  <item>
+    <title>PFN、翻訳特化の「PLaMo 3 Translate」の重みを公開　53言語に対応、0.8Bから31Bまで4サイズ　社外にデータを出さず翻訳</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-06/story-5/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-06/story-5/</guid>
+    <description>Preferred Networks（PFN）は11月5日、翻訳に特化した大規模言語モデル「PLaMo 3 Translate」の重みを公開した。日本語と英語を含む53言語に対応し、スマートフォンやノートPC、社内サーバーで動かせる。原文や訳文を外部のサーバーに送らずに翻訳できる。</description>
+  </item>
+  <item>
+    <title>Stripe、AIエージェントから決済データを分析できる仕組みを全ユーザーに提供　MCPとQueries API、300超のテーブルを使うReports API</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-06/story-6/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-06/story-6/</guid>
+    <description>Stripeは11月5日、ClaudeやCursorなどのAIエージェントから、自社の決済データを言葉で分析できるようにしたと発表した。Stripe MCP、Queries API、Reports APIの3つの経路を、すべてのStripeユーザーが使える。結果の裏にあるSQLを確かめ、直すこともできる。</description>
+  </item>
+  <item>
+    <title>医学書院・NTT・NTTドコモビジネス、Ubieと医療AIの共同実証を開始　出典付きで答える仕組みをNTT東日本関東病院で検証</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-06/story-7/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-06/story-7/</guid>
+    <description>医学書院、NTT、NTTドコモビジネスは11月5日、Ubieと組み、医療従事者の質問に根拠と出典を示して答える生成AIの共同実証を11月から始めると発表した。3社が開発する「医療AI情報プラットフォーム」とUbieの「ユビー生成AI」をつなぎ、NTT東日本関東病院で使う。</description>
+  </item>
+  <item>
+    <title>旭化成、AIと自動化で材料開発を自律的に回す「スマートラボラトリー」を開設へ　半導体向け材料の開発実験数を約4倍に</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-06/story-8/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-06/story-8/</guid>
+    <description>旭化成は11月5日、材料の設計から実験、顧客の製造工程を想定した評価までをAIと自動化で繰り返す「スマートラボラトリー」を静岡県富士市に開設すると発表した。2027年1月に稼働する予定で、半導体向けの感光性絶縁材料「パイメル」の開発実験数を従来の約4倍に増やす。</description>
+  </item>
+  <item>
+    <title>GitHub NextとMicrosoft Research、AIが書いたコードを数学的に証明する「PDD Kit」を公開　Rustが対象の研究試作</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-06/story-9/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-06/story-9/</guid>
+    <description>GitHub NextとMicrosoft Researchは、AIが書いたコードが仕様どおりに動くことを数学的な証明で確かめる研究試作「PDD Kit（Proof-Driven Development）」を公開した。対話で要求を検証できる仕様にまとめ、コーディングエージェントが実装と証明を書き、検証ツールVerusが確かめる。現在はRustが対象だ。</description>
+  </item>
+  <item>
+    <title>Baidu、280Bパラメータの基盤モデル「ERNIE 5.5 Flash Base」の重みを公開　動くのは14B、推論で100万トークンに対応</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-06/story-10/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-06/story-10/</guid>
+    <description>Baiduは11月5日、事前学習を終えた段階の基盤モデル「ERNIE 5.5 Flash Base」の重みをHugging Faceで公開した。総パラメータは280Bで、1トークンごとに動くのは14B。学習時の文脈長は12.8万トークンで、追加学習と推論では100万トークンまで扱える。</description>
+  </item>
+  <item>
     <title>OpenAI、Pierreを買収へ　CodexのファイルやDiff表示を支える開発ツール企業、Code StorageもCodexに統合</title>
     <link>https://nowonair.vercel.app/articles/2026-11-05/story-1/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-05/story-1/</guid>
@@ -95,66 +155,6 @@
     <link>https://nowonair.vercel.app/articles/2026-11-04/story-7/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-04/story-7/</guid>
     <description>Hugging FaceとCollinear AIの研究者は11月3日、AIエージェントが実在するオープンソースのリポジトリでセキュリティ上の弱点を見つけ、既存の機能を壊さずに直せるかを測る評価「CWE-bench v2」を公開した。誰でも動かせる100課題の公開セットを用意した。</description>
-  </item>
-  <item>
-    <title>Ai2、長い文書で「値の変化」を追えるかを測る評価「StateBench」を公開　最難関の長い問題では最新モデルも正答率13%以下</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-04/story-8/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-04/story-8/</guid>
-    <description>米非営利研究機関のAi2は11月3日、言語モデルが長い文書の中で、変数の値がどう変わったかを正しく追えるかを測る評価「StateBench」を公開した。4段階の難しさがあり、最も難しい段階の長い問題では、試した最新モデルの正答率が13%以下に下がった。</description>
-  </item>
-  <item>
-    <title>OpenAI、12月からChatGPTとCodexの利用枠を共通に　Plus・Pro・Businessが対象、Instantの会話は枠を使わない</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-03/story-1/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-03/story-1/</guid>
-    <description>OpenAIは11月2日に更新したヘルプ記事で、12月からPlus、Pro、Businessの各プランについて、ChatGPTとCodexの利用枠を共通にすると案内した。Workのエージェント機能をChatGPTの通常の画面に取り込むのに合わせた変更で、利用量はトークン単位で数える。</description>
-  </item>
-  <item>
-    <title>OpenAI、データセンターの電力を電力会社と調整する「Grid Protectors」を開始　ジョージア州の計画では最大1,000MWの需要を抑えられる契約</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-03/story-2/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-03/story-2/</guid>
-    <description>OpenAIは11月2日、AI向けの計算拠点が電力網の安定と電気料金の抑制に役立つよう、電力会社や規制当局と取り決めをつくる全米規模の取り組み「Grid Protectors Program」を始めると発表した。電力網がひっ迫したときに拠点の電力使用を減らす仕組みを、今後の拠点の設計と運用の中心に置くという。</description>
-  </item>
-  <item>
-    <title>家電物流で段ボールの傷をAIが判定する実証、富士通やソフトバンクロボティクスなど4者が開始　業界共通の基準をつくり、不要な持ち戻りを減らす</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-03/story-3/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-03/story-3/</guid>
-    <description>家電サプライチェーン協議会、流通経済研究所、富士通、ソフトバンクロボティクスの4者は11月2日、家電の配送で段ボールの汚れや傷を理由に起きる持ち戻りを減らすため、業界共通の判定基準づくりとAIによる判定の実証実験を始めた。期間は2027年1月15日まで。</description>
-  </item>
-  <item>
-    <title>OpenAI、日常の用事をAIがどこまで手伝えるかを測る評価「LifeVal」を公開　保育園探しや家計管理、役所の手続きなど</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-03/story-4/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-03/story-4/</guid>
-    <description>OpenAIは11月2日、保育園探し、行政サービスの利用、家計の管理といった日常生活の用事を、AIがどれだけ実際に片付けられるかを測る評価「LifeVal」を公開した。人々の時間の使い方の調査と、3,995人への新たな調査をもとに課題を選んだ。</description>
-  </item>
-  <item>
-    <title>AI学習に使ってよいかをrobots.txtで一括指定へ　Googleは2027年に対応、Microsoftは2027年2月から適用、Anthropicも実装を開始</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-02/story-1/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-02/story-1/</guid>
-    <description>サイトの内容をAIの学習に使ってよいかを、AI企業ごとではなく1つの書き方でまとめて伝える仕組みに、Google、Microsoft、Anthropicが10月30日に対応を表明した。robots.txtに共通の名前「__usage_ai-training」を書き、拒否や許可を示す。前号で伝えたOpenAIに続き、主要各社の時期と条件が出そろい始めた。</description>
-  </item>
-  <item>
-    <title>Apple、中国でApple Intelligenceを提供へ　AlibabaのQwenをSiriや作文ツールで利用、12月のiOS 27.3で一般提供</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-02/story-2/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-02/story-2/</guid>
-    <description>Appleは10月31日、中国のiPhone利用者向けにApple Intelligenceを提供すると発表した。11月4日から開発者向けベータで試験を始め、12月のiOS 27.3で一般提供する。Siri、作文ツール、ビジュアルインテリジェンスの一部では、Alibabaの大規模言語モデル「通義千問（Qwen）」を使えるようにする。</description>
-  </item>
-  <item>
-    <title>IPA、2027年度に始める新試験「データ・AI」領域のサンプル問題を公開　プロフェッショナルデジタルスキル試験（仮称）の科目B</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-02/story-3/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-02/story-3/</guid>
-    <description>情報処理推進機構（IPA）は10月30日、2027年度から始める予定の新しい試験制度について、「プロフェッショナルデジタルスキル（データ・AI）試験（仮称）」の科目Bのサンプル問題を公開した。データやAIを業務で扱う人材を測る新しい区分で、出題の形を前もって確かめられる。</description>
-  </item>
-  <item>
-    <title>Microsoft Research、Copilotの評価用に「架空の会社」のデータを自動で作る仕組みを公開　評価データづくりを数日から自動処理に</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-02/story-4/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-02/story-4/</guid>
-    <description>Microsoft Researchは10月30日、Microsoft Copilotの品質を測るために、実在の会社に似せた架空の会社のデータと質問を自動で作る仕組みを紹介した。顧客のデータを使わずに、会議の要約などの評価を業界ごとに行える。社内のチームが評価や回帰テストに使っている。</description>
-  </item>
-  <item>
-    <title>トヨタとWaymo、国内でロボタクシーの運行を2027年に開始へ　高岡工場で量産する「bZ4X」に自動運転装置を搭載</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-01/story-1/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-01/story-1/</guid>
-    <description>トヨタ自動車とWaymoは、自動運転分野での協業を次の段階に進めると発表した。トヨタの「bZ4X」をWaymoのロボタクシー車両とし、2027年に日本国内で試験・検証を含む初期運行を始める。</description>
   </item>
 </channel>
 </rss>
