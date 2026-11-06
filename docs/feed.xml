@@ -7,6 +7,66 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。公開済みのAIニュースと実務への示唆をお届けします。</description>
   <language>ja</language>
   <item>
+    <title>Thinking Machines、「Inkling 2 Small」を発表　総594B・動作17BのMoEで画像入力に対応、まずTinkerで推論と追加学習</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-07/story-1/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-07/story-1/</guid>
+    <description>Thinking Machines Labは11月5日、第2世代のモデル「Inkling 2 Small」を発表した。総パラメータ594B、1トークンあたり動くのは17Bの混合エキスパート（MoE）型で、画像を入力でき、考える量（effort）を変えられる。まず同社の学習基盤「Tinker」で、推論と追加学習（ファインチューニング）向けに提供する。</description>
+  </item>
+  <item>
+    <title>METR、AnthropicでAIがAI開発を約2倍に加速していると評価　「早期警告の閾値を越えていた可能性はある」、根拠の多くはAnthropicが非公開に</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-07/story-2/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-07/story-2/</guid>
+    <description>AIの危険な能力を評価する非営利団体METRは11月5日、Anthropicの社内データを調べた独立評価を公開した。2026年10月時点で、Anthropicは明確に定義された課題でのモデルの能力を、2024年3月〜2025年10月の約2倍の速さで伸ばしている可能性が高く、その多くはAIを研究開発に使っていることによるとみる。同日公開の別レポートでは、Anthropicが8月に「越えていない」とした早期警告の閾値について、7月時点で越えていた可能性も「十分ありうる」とした。</description>
+  </item>
+  <item>
+    <title>Perplexity、継続する仕事を受け持つAIエージェント「Teammates」を提供　Maxプラン向けにウェブ版から、Slackのチャンネルで仕事の依頼も</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-07/story-3/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-07/story-3/</guid>
+    <description>Perplexityは11月4日、長く続く仕事を受け持つAIエージェント「Teammates」を発表した。仕事を計画して進め、結果を確認できる形で差し出す。まず最上位のMaxプランの利用者向けに、ウェブ版で提供を始めた。</description>
+  </item>
+  <item>
+    <title>Meta、AIエージェント「Muse」に自作の画面「Spaces」と音声対話を追加　話すだけで旅行計画や結婚式準備の専用ページを作成、音声は米国から</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-07/story-4/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-07/story-4/</guid>
+    <description>Metaは11月6日、AIエージェント「Muse」に、やりたいことを説明するだけで専用の画面を作れる「Spaces」を追加した。前日の5日には、Museとリアルタイムに話せる音声対話と、表情や身ぶりを返すアバターも発表している。音声はまず米国で、モバイル・Web・Macのアプリから提供する。</description>
+  </item>
+  <item>
+    <title>OpenAI、日常的な実験データをAIが正しく読めるかを測る「BioBasicsBench」を公開　100課題でGPT-6 Astraは66.7%、GPT-5.6 Solは43.8%</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-07/story-5/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-07/story-5/</guid>
+    <description>OpenAIは11月6日、生物系の実験室（ウェットラボ）での日常的なデータ分析を、AIエージェントがどこまで正しくこなせるかを測る評価「BioBasicsBench」を公開した。酵素設計のバイオ企業Ligoと共同で作り、ゲル画像や顕微鏡画像など生のデータを使う100課題で構成する。最も高いGPT-6 Astraでも得点は66.7%で、同社は「高い得点は、まだ実験室で信頼できる判断ができることを意味しない」としている。</description>
+  </item>
+  <item>
+    <title>日立、Kongとの協業でAIエージェントの接続管理を拡充　権限・ルール・利用料を一元統制、Kong製品のサポートサービスも開始</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-07/story-6/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-07/story-6/</guid>
+    <description>日立製作所は11月6日、Kongとの協業で「AIエージェント連携ソリューション」を拡充したと発表した。KongのAPI・AIゲートウェイ関連製品とOSSのKeycloakを組み合わせ、増え続けるAIエージェントの接続先を、利用者の権限の範囲内で安全かつ一元的に統制する。Kong製品のライセンスと支援窓口をまとめた「日立OSSサポートサービス for Kong」も始めた。</description>
+  </item>
+  <item>
+    <title>フィックスターズと国際調達情報、国内GPUサーバーで動くAI推論サービスを開始　まずDeepSeek-V4.1-Flash-1017をFastMetalのAPIで提供</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-07/story-7/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-07/story-7/</guid>
+    <description>フィックスターズは11月5日、AIゲートウェイ「FastMetal」を運営する国際調達情報と組み、国内のGPUサーバーで動く推論サービスを始めたと発表した。入力データはフィックスターズが国内に持つGPUサーバーでのみ処理するとしている。まずオープンウェイトモデル「DeepSeek-V4.1-Flash-1017」を提供する。</description>
+  </item>
+  <item>
+    <title>Amazon、Alexaにテキストメッセージで買い物を頼めるように　検索から購入、値下がり通知まで　米国の一部利用者に招待制で提供</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-07/story-8/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-07/story-8/</guid>
+    <description>Amazonは11月6日、AIの買い物アシスタント「Alexa for Shopping」に、スマートフォンのテキストメッセージで話しかけられる機能を追加した。商品の検索や比較、購入までをメッセージのやり取りで済ませられる。まず米国の一部の利用者に招待制で提供し、今後数週間で数百万人に広げる。</description>
+  </item>
+  <item>
+    <title>パナソニックHD、指先の触覚で動きを直すロボットAI「T-Rex」をNVIDIAや米欧の大学と開発　12種類の実作業で平均成功率65%、従来の最良は35%</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-07/story-9/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-07/story-9/</guid>
+    <description>パナソニック ホールディングス（パナソニックHD）は11月5日、指先の触覚に反応して動きをその場で直し、両手で細かな作業をこなすロボット操作AI「T-Rex」を開発したと発表した。米UCバークレー、NVIDIA、スタンフォード大などとの共同研究で、卵の移し替えや電球のねじ込みなど12種類の実作業で平均成功率65%を示した。</description>
+  </item>
+  <item>
+    <title>Ricursive Intelligence、オープンモデル「Ripple-65B Preview」を公開　65Bの密なモデルでTerminalBench 2.1は80.52、開発費は3,200万ドル</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-07/story-10/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-07/story-10/</guid>
+    <description>AIによる半導体設計を手がけるRicursive Intelligenceは11月6日（UTC）、重みを公開したモデル「Ripple-65B Preview」を発表した。自社の半導体設計基盤を動かす非公開モデルの汎用版で、パラメータは65B。AIが端末を操作して開発作業を進める評価「TerminalBench 2.1」で80.52を記録し、米国のオープンウェイトモデルで最高だとしている。</description>
+  </item>
+  <item>
     <title>OpenAI、脆弱性の発見と検証を担う「GPT-6 Cyber」を発表　指定範囲外を攻撃しない率は99.93%、まず承認済みのDaybreak Red利用者に提供</title>
     <link>https://nowonair.vercel.app/articles/2026-11-06/story-1/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-06/story-1/</guid>
@@ -95,66 +155,6 @@
     <link>https://nowonair.vercel.app/articles/2026-11-05/story-5/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-05/story-5/</guid>
     <description>NVIDIAは11月4日、GPU向け開発基盤の最新版CUDA 13.5を発表した。次世代GPUのVera Rubinへの対応を早期アクセスから正式版（GA）に移し、Windows on Armの対応をDGX Stationに広げた。数学ライブラリやPython向けの機能も更新した。</description>
-  </item>
-  <item>
-    <title>東北大とアイシン、STT-MRAMを載せた16nmのAIチップを開発　電源投入からOS起動まで65.7ミリ秒、物体検出の電力は約50分の1</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-05/story-6/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-05/story-6/</guid>
-    <description>東北大学とアイシンは11月2日、32MBのSTT-MRAMを組み込んだ16nm FinFETのAIチップを開発したと発表した。電源投入からOS起動までを65.7ミリ秒にし、従来の約39倍に速めた。物体検出1フレームのエネルギーは従来の約50分の1としている。</description>
-  </item>
-  <item>
-    <title>イトーキ、オフィス運営を支える3つのAIエージェントの提供を開始　拠点戦略の分析から会議室の「空予約」解消まで</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-05/story-7/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-05/story-7/</guid>
-    <description>イトーキは11月4日、総務やファシリティ部門向けのAIサービス「ITOKI OFFICE AI AGENTS」の提供を始めた。拠点戦略の分析、オフィス改善の整理、会議室や席の使われていない予約の解消を、3つのAIエージェントが分担して支援する。</description>
-  </item>
-  <item>
-    <title>WHERE、衛星データとAIで遊休農地などを事業用地の候補として抽出するサービスを開始　地権者への接点づくりまで支援</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-05/story-8/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-05/story-8/</guid>
-    <description>WHEREは11月4日、スペースシフトと連携し、衛星データとAIで遊休農地などを新たな事業用地の候補として抽出するサービスの提供を始めた。候補地の抽出から地権者へのアプローチまでを一貫して支援する。まずは再生可能エネルギー分野から始める。</description>
-  </item>
-  <item>
-    <title>Apple、Siri AIを全開発者に開放　App Intentsで他社アプリの操作に対応、iOS 27.3ベータで開発者向けプレビュー</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-04/story-1/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-04/story-1/</guid>
-    <description>Appleは11月3日、iOS 27.3などのベータ版で、どの開発者でも自分のアプリをSiri AIにつなげられる開発者向けプレビューを始めた。App Intentsを使えば、配達状況の確認や予約、注文といったアプリ独自の操作をSiri AIが代わりに実行できる。App Storeへの提出受付は春から始まる。</description>
-  </item>
-  <item>
-    <title>Anthropic、IPO申請書の修正版で7〜9月期を開示　売上高は169億ドルで前年同期の約12倍、営業損益は5.67億ドルの赤字</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-04/story-2/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-04/story-2/</guid>
-    <description>Anthropicは11月2日、新規株式公開（IPO）に向けて米証券取引委員会（SEC）に出した登録届出書の修正版（S-1/A）で、2026年7〜9月期の業績を開示した。売上高は169億5600万ドルと前年同期の約12倍に増えたが、短期契約で調達した計算資源の費用がかさみ、営業損益は5億6700万ドルの赤字だった。</description>
-  </item>
-  <item>
-    <title>Salesforce、顧客対応AIのCrestaを買収へ　音声エージェントと会話分析をService Cloudに統合</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-04/story-3/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-04/story-3/</guid>
-    <description>Salesforceは11月2日、顧客対応向けAIを手がけるCrestaを買収することで最終合意したと発表した。Crestaの音声エージェントと会話分析をService Cloudと組み合わせ、一つひとつの会話を顧客の履歴や対応の結果と結びつける。買収額は公表していない。</description>
-  </item>
-  <item>
-    <title>AWS、Amazon BedrockでOpenAIの「GPT-6.1 Terra」を一般提供　Step Functionsの業務フローをAIエージェントの道具として呼び出せるように</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-04/story-4/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-04/story-4/</guid>
-    <description>AWSは11月2日の週次まとめで、OpenAIの「GPT-6.1 Terra」をAmazon Bedrockで一般提供したと紹介した。あわせて、AWS Step Functionsで組んだ業務フローを、AIエージェントがMCP経由で道具として呼び出せるようにした。</description>
-  </item>
-  <item>
-    <title>Snowflake、AIエージェントに社内の用語の定義を渡す「Business Ontology」を発表　利用と費用をまとめて管理する「Cortex AI Gateway」は一般提供</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-04/story-5/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-04/story-5/</guid>
-    <description>Snowflakeは11月3日、オンラインイベント「Expedition 2026」で、社内で承認した業務用語の定義をAIエージェントに渡す「Business Ontology」や、エージェントの接続・ツール呼び出し・モデル利用・費用を1つの方針で管理する「Cortex AI Gateway」の拡張を発表した。</description>
-  </item>
-  <item>
-    <title>GitHub Copilot、JetBrainsのエージェント作業環境「Air」で利用可能に　クラウドの作業は隔離されたコンテナで実行</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-04/story-6/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-04/story-6/</guid>
-    <description>GitHubは11月3日、JetBrainsの「Air」でGitHub Copilotを使えるようにしたと発表した。Airはコーディング作業をAIに任せ、進め方を指示し、結果を確かめる場で、IDEの中でもクラウドでも作業を動かせる。いま契約しているCopilotのプランをそのまま使える。</description>
-  </item>
-  <item>
-    <title>AIエージェントが実在のOSSの弱点を直せるかを測る「CWE-bench v2」公開　100課題・91種類、首位の正答率は67.8%</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-04/story-7/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-04/story-7/</guid>
-    <description>Hugging FaceとCollinear AIの研究者は11月3日、AIエージェントが実在するオープンソースのリポジトリでセキュリティ上の弱点を見つけ、既存の機能を壊さずに直せるかを測る評価「CWE-bench v2」を公開した。誰でも動かせる100課題の公開セットを用意した。</description>
   </item>
 </channel>
 </rss>
