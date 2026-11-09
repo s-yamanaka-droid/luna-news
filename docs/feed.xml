@@ -7,6 +7,60 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。公開済みのAIニュースと実務への示唆をお届けします。</description>
   <language>ja</language>
   <item>
+    <title>newmo、シリーズBで208億円を調達　KDDIが主導、通信とAI計算基盤を提供して2028年に堺市で自動運転タクシーの商用化めざす</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-09/story-1/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-09/story-1/</guid>
+    <description>タクシー事業と自動運転タクシーの開発を手がけるnewmoは11月9日、KDDIをリード投資家とするシリーズBで208億円を調達したと発表した。累計調達額は407億円。11月6日にはKDDIとの資本業務提携も発表しており、KDDIが通信やAI計算基盤などを提供する。</description>
+  </item>
+  <item>
+    <title>OpenAI、セキュリティ企業Hacktronと提携して自社システムの脆弱性を探す　外部サービスとのつながりを重点に、Daybreak Redでフロンティアモデルの利用枠を拡大</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-09/story-2/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-09/story-2/</guid>
+    <description>OpenAIは11月6日、セキュリティ企業Hacktronと提携し、OpenAIのシステムの脆弱性を共同で探すと発表した。両社で優先度の高い領域を選び、OpenAIのシステムと外部サービスのつながりを重点的に試す。提携に合わせ、Daybreak Redを通じてHacktronが使えるフロンティアモデルの範囲を広げる。</description>
+  </item>
+  <item>
+    <title>Meta、MuseとMeta AIに「Muse Wonder」で学習した特化モデルを導入　重要な情報を忘れる度合いは2.4分の1、想定外の問題がある日常タスクの完了率は67%向上と発表</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-09/story-3/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-09/story-3/</guid>
+    <description>Metaは11月6日、AIエージェント「Muse」と「Meta AI」に、最上位モデル「Muse Wonder」を使って学習した特化モデルを導入すると発表した。記憶の使い方や、想定外の問題が起きても作業を続ける力を高めたとしている。</description>
+  </item>
+  <item>
+    <title>横須賀市立学校、AI相談「AIちゃん」をこども性暴力防止法に対応した相談窓口として活用開始　24時間受け付け、必要なら有人相談や市の窓口へ</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-09/story-4/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-09/story-4/</guid>
+    <description>神奈川県の横須賀市立学校は、つながりAIが市で提供している傾聴型のAI相談サービス「よこすかAIフレンド AI（あい）ちゃん」を、こどもの性被害に関する相談窓口として運用し始める。12月25日に施行される「こども性暴力防止法」への対応で、子どもに加えて保護者も相談できるようにした。</description>
+  </item>
+  <item>
+    <title>Nous Research、Qwen3.8-27Bを事後学習した「Arete-27B」を公開　政治的な話題の回答を調整、プロパガンダを含む回答は約22%から約1%にと発表</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-09/story-5/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-09/story-5/</guid>
+    <description>オープンソースのエージェント「Hermes Agent」で知られる米Nous Researchは11月6日、AlibabaのオープンモデルQwen3.8-27Bを事後学習した「Arete-27B」を公開した。政治的な話題での回答の偏りを調整したとし、重みと学習データをHugging Faceで公開している。</description>
+  </item>
+  <item>
+    <title>スペースデータ、ロボット実装基盤「RobotBrain」にタワークレーン作業のシミュレーションを搭載　海老名JCTを再現し、クレーン4台と車両6台を物理計算で動かす</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-09/story-6/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-09/story-6/</guid>
+    <description>スペースデータは11月9日、ロボットの現場実装基盤「RobotBrain」に、タワークレーン作業の物理シミュレーション機能を組み込んだと発表した。第1弾として東名高速と圏央道が交わる海老名ジャンクションを再現し、着工前にクレーンの配置や手順、安全条件を検証できるようにした。</description>
+  </item>
+  <item>
+    <title>Vercel、Chat SDKのエージェントが表やボタンを含むカードをストリーミングで出せるように　json-renderでSlackはBlock Kit、TeamsはAdaptive Cardsに変換</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-09/story-7/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-09/story-7/</guid>
+    <description>Vercelは11月6日、Chat SDKで作ったエージェントが、json-renderを使って表やグラフ、ボタンを含む画面（generative UI）をストリーミングで出せるようになったと発表した。エージェントが書いたJSONを、SlackやMicrosoft Teamsなど各サービスの形式のカードに変換して投稿する。</description>
+  </item>
+  <item>
+    <title>AWS、SageMakerの推論でNVIDIAのMulti-Instance GPUに対応　1つのGPUを最大7つに分けて複数のモデルを載せられる、A100・H100・RTX PRO Blackwellのインスタンスで</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-09/story-8/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-09/story-8/</guid>
+    <description>AWSは11月6日、Amazon SageMakerの推論がNVIDIAのMulti-Instance GPU（MIG）に対応したと発表した。1つの物理GPUをハードウェアで分けた区画に分け、複数のモデルを1つのGPUに載せられる。</description>
+  </item>
+  <item>
+    <title>NVIDIA、Black Forest Labsの「FLUX 3 Image Klein」をBlackwellで高速化する手法を公開　NVFP4だけで生成は最大1.62倍、最適化を重ねると単一B200で3.46倍</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-09/story-9/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-09/story-9/</guid>
+    <description>NVIDIAは11月6日、Black Forest Labsの画像生成・編集モデル「FLUX 3 Image Klein」を、Blackwell世代のGPUで速く動かす手法と結果を公開した。4ビットの数値形式NVFP4だけで、文章からの画像生成は最大1.62倍速くなったとしている。</description>
+  </item>
+  <item>
     <title>Thinking Machines、「Inkling 2 Small」を発表　総594B・動作17BのMoEで画像入力に対応、まずTinkerで推論と追加学習</title>
     <link>https://nowonair.vercel.app/articles/2026-11-07/story-1/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-07/story-1/</guid>
@@ -101,60 +155,6 @@
     <link>https://nowonair.vercel.app/articles/2026-11-06/story-6/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-06/story-6/</guid>
     <description>Stripeは11月5日、ClaudeやCursorなどのAIエージェントから、自社の決済データを言葉で分析できるようにしたと発表した。Stripe MCP、Queries API、Reports APIの3つの経路を、すべてのStripeユーザーが使える。結果の裏にあるSQLを確かめ、直すこともできる。</description>
-  </item>
-  <item>
-    <title>医学書院・NTT・NTTドコモビジネス、Ubieと医療AIの共同実証を開始　出典付きで答える仕組みをNTT東日本関東病院で検証</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-06/story-7/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-06/story-7/</guid>
-    <description>医学書院、NTT、NTTドコモビジネスは11月5日、Ubieと組み、医療従事者の質問に根拠と出典を示して答える生成AIの共同実証を11月から始めると発表した。3社が開発する「医療AI情報プラットフォーム」とUbieの「ユビー生成AI」をつなぎ、NTT東日本関東病院で使う。</description>
-  </item>
-  <item>
-    <title>旭化成、AIと自動化で材料開発を自律的に回す「スマートラボラトリー」を開設へ　半導体向け材料の開発実験数を約4倍に</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-06/story-8/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-06/story-8/</guid>
-    <description>旭化成は11月5日、材料の設計から実験、顧客の製造工程を想定した評価までをAIと自動化で繰り返す「スマートラボラトリー」を静岡県富士市に開設すると発表した。2027年1月に稼働する予定で、半導体向けの感光性絶縁材料「パイメル」の開発実験数を従来の約4倍に増やす。</description>
-  </item>
-  <item>
-    <title>GitHub NextとMicrosoft Research、AIが書いたコードを数学的に証明する「PDD Kit」を公開　Rustが対象の研究試作</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-06/story-9/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-06/story-9/</guid>
-    <description>GitHub NextとMicrosoft Researchは、AIが書いたコードが仕様どおりに動くことを数学的な証明で確かめる研究試作「PDD Kit（Proof-Driven Development）」を公開した。対話で要求を検証できる仕様にまとめ、コーディングエージェントが実装と証明を書き、検証ツールVerusが確かめる。現在はRustが対象だ。</description>
-  </item>
-  <item>
-    <title>Baidu、280Bパラメータの基盤モデル「ERNIE 5.5 Flash Base」の重みを公開　動くのは14B、推論で100万トークンに対応</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-06/story-10/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-06/story-10/</guid>
-    <description>Baiduは11月5日、事前学習を終えた段階の基盤モデル「ERNIE 5.5 Flash Base」の重みをHugging Faceで公開した。総パラメータは280Bで、1トークンごとに動くのは14B。学習時の文脈長は12.8万トークンで、追加学習と推論では100万トークンまで扱える。</description>
-  </item>
-  <item>
-    <title>OpenAI、Pierreを買収へ　CodexのファイルやDiff表示を支える開発ツール企業、Code StorageもCodexに統合</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-05/story-1/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-05/story-1/</guid>
-    <description>OpenAIは11月4日、開発者向けツールを手がけるPierre Computer Companyを買収すると発表した。CodexアプリでファイルをたどるTreesや、変更を確認するDiffsはすでにPierreのライブラリを使っている。買収完了後もCode Storageは使い続けられ、機能をCodexに統合していく。</description>
-  </item>
-  <item>
-    <title>Cloudflare、利用者の代わりに動く「個人エージェント」の可視化と制御を追加　広告のあるページだけ遮断する設定も</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-05/story-2/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-05/story-2/</guid>
-    <description>Cloudflareは11月4日、利用者の代わりにサイトを訪れるAIの「個人エージェント」について、サイト運営者がアクセスの量を把握し、エージェントごとに許可や遮断を選べる機能を発表した。広告を載せたページだけ遮断する選択肢も加えた。</description>
-  </item>
-  <item>
-    <title>Supabase、ClaudeがMCP接続の本人証明を発行する方式に対応　IDプロバイダーが未対応でも社員が同意画面なしで接続</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-05/story-3/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-05/story-3/</guid>
-    <description>Supabaseは11月3日、Supabase MCPサーバーの企業向け認証で、Claudeが署名付きの本人証明を発行できるようにしたと発表した。IDプロバイダーがMCPの企業管理認可の拡張に対応していない組織でも、Claudeのメンバーが同意画面なしでSupabaseにつながる。</description>
-  </item>
-  <item>
-    <title>OpenAI、バグ報奨金を引き上げ　中・高・重大の報奨金を平均4倍超に、ボーナス込みで最大約17万ドル</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-05/story-4/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-05/story-4/</guid>
-    <description>OpenAIは11月2日、外部の研究者が脆弱性を報告した際に支払うバグ報奨金を引き上げると発表した。深刻度が中・高・重大の報奨金の中央値を平均で従来の4倍超にし、品質やロイヤルティに応じたボーナスも新設した。未払いの報告や直近30日の支払いにもさかのぼって適用する。</description>
-  </item>
-  <item>
-    <title>NVIDIA、CUDA 13.5でVera Rubinへの対応を正式版に　Windows on ArmをDGX Stationに拡大、行列計算の高速化も</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-05/story-5/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-05/story-5/</guid>
-    <description>NVIDIAは11月4日、GPU向け開発基盤の最新版CUDA 13.5を発表した。次世代GPUのVera Rubinへの対応を早期アクセスから正式版（GA）に移し、Windows on Armの対応をDGX Stationに広げた。数学ライブラリやPython向けの機能も更新した。</description>
   </item>
 </channel>
 </rss>
