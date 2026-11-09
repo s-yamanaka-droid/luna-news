@@ -1,0 +1,639 @@
+[
+  {
+    "updated_at": "2026-11-10",
+    "verified_at": "2026-11-10",
+    "article_kind": "news",
+    "title": "Anthropic、「Claude Fable 5.2」と「Claude Mythos 5.2」を発表　出力は前版より最大30%速く、料金は入力100万トークン8ドル・出力40ドルに値下げ",
+    "category": "新モデル発表",
+    "source": "Anthropic",
+    "published_at": "2026-11-09",
+    "lede": "Anthropicは11月9日、難度の高い技術作業向けのモデル「Claude Fable 5.2」と「Claude Mythos 5.2」を発表した。両者は同じ基盤モデルで、Fableはサイバーセキュリティと生物分野の悪用対策を強めて全利用者に提供し、Mythosは審査を通った組織に提供する。出力は前版より最大30%速く、料金は入力100万トークンあたり8ドル、出力40ドルに下げた。",
+    "links": [
+      "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2"
+    ],
+    "keypoints": [
+      "FableとMythosは同じ基盤モデル。Fableは悪用対策を強めて全利用者向け、Mythosはサイバーと生命科学の審査プログラム経由で提供",
+      "出力はFable 5.1・Mythos 5.1より最大30%速く、料金は入力100万トークン8ドル・出力40ドル。最大2.5倍速い高速モードは16ドル・80ドル",
+      "Anthropicの評価では、オープンソースの変更が採用されるかを測るFrontierCode 2.0で49.1%（Xhighの推論量）。Opus 5.5は45.5%",
+      "Fable 5.2はAWS、Google Cloud、Microsoft Azureを含む全プラットフォームで当日から提供。日常の作業はまずOpus 5.5から始めることを勧めている"
+    ],
+    "editorial_diagram": {
+      "kicker": "Anthropicの発表 / Claude Fable 5.2・Mythos 5.2",
+      "title": "同じモデルを、二つの入口で",
+      "lead": "Anthropicの発表文から、提供のしかた・料金・使い分けを整理した。",
+      "examples": [
+        [
+          "Fableは誰でも、Mythosは審査制",
+          "同じ基盤モデルのうち、悪用対策を強めたFableを全利用者に提供する。Mythosはサイバーと生命科学の審査プログラムを通った組織が使える。"
+        ],
+        [
+          "速く、安く",
+          "出力は前版より最大30%速い。料金は入力100万トークン8ドル、出力40ドル。高速モードは入力16ドル・出力80ドルで最大2.5倍速い。"
+        ],
+        [
+          "普段はOpus、難題でFable",
+          "Anthropicは多くの作業でOpus 5.5から始め、規模や難度に応じてFableやMythosに上げるよう勧めている。"
+        ]
+      ],
+      "note": "Anthropicの発表（2026年11月9日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "wide": "/assets/illustrations/2026-11-10-story-1-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-11-10-story-1-diagram-mobile.webp",
+      "alt": "Fableは誰でも、Mythosは審査制：同じ基盤モデルのうち、悪用対策を強めたFableを全利用者に提供する。Mythosはサイバーと生命科学の審査プログラムを通った組織が使える。、速く、安く：出力は前版より最大30%速い。料金は入力100万トークン8ドル、出力40ドル。高速モードは入力16ドル・出力80ドルで最大2.5倍速い。、普段はOpus、難題でFable：Anthropicは多くの作業で"
+    },
+    "body": [
+      {
+        "heading": "何を発表したか",
+        "paragraphs": [
+          "Anthropicは11月9日、Claude Fable 5.2とClaude Mythos 5.2を発表した。コーディング、推論、画像の読み取りなどを改善したとしている。両者は同じ基盤モデルで、Fableはサイバーセキュリティと生物分野の悪用対策を強めたうえで全利用者に提供する。Mythosは、サイバーセキュリティや生物医学研究に取り組む組織が、Cyber Verification ProgramやLife Sciences Verification Programに申し込んで使う。",
+          "出力の速さは前版のFable 5.1・Mythos 5.1より最大30%速く、料金は入力100万トークンあたり8ドル、出力40ドルに下げた。生成を最大2.5倍速くする任意の高速モードもあり、こちらは入力16ドル・出力80ドル。Fable 5.2はAWS、Google Cloud、Microsoft Azureを含む全プラットフォームで当日から使え、開発者向けのモデル名はclaude-fable-5-2。"
+        ]
+      },
+      {
+        "heading": "評価と使い分け",
+        "paragraphs": [
+          "Anthropicの評価では、オープンソースのリポジトリの管理者に変更が採用されるかを測るFrontierCode 2.0で、Fable 5.2は最も多い推論量（Xhigh）で49.1%だった。Opus 5.5は45.5%。High設定のFable 5.2はOpus 5.5の最高値とほぼ同じ45.3%を、1課題あたり約半分の費用で出したという。Mythos 5.2は社内評価で、公開済みの脆弱性をOpus 5.5より10.2%多く見つけたとしている。",
+          "一方でAnthropicは、多くのコーディングや知識作業はまずOpus 5.5で始め、規模や難度に応じてFableやMythosへ上げるか、Sonnet 5.5やHaiku 5.5へ下げるよう勧めている。数値はいずれもAnthropic自身の評価で、第三者による検証は未確認。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜「いちばん強いモデル」を常用しない設計に",
+        "paragraphs": [
+          "これは本誌の解釈だが、Anthropic自身が普段使いにはOpus 5.5を勧め、Fableを難題用に位置づけた点が実務では大事だ。料金が下がっても、出力100万トークン40ドルは日常の大量処理に向く水準ではないとみる。",
+          "本誌は、AIを業務に組み込んでいる企業に、作業を「日常」と「難題」に分け、難題だけ上位モデルに回す切り替えの基準を決めておくことを勧める。これは本誌の提案で、Anthropicの推奨そのものではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "社内でAIに任せている作業を、日常の処理と難度の高い作業に分けて一覧にする",
+      "難度の高い作業だけ上位モデルに回す場合の、月あたりの費用の上限を決める",
+      "サイバーや生命科学の用途でMythosが必要かを確認し、必要なら審査プログラムの条件を調べる"
+    ],
+    "service": "fde",
+    "pull": "強いモデルほど、使いどころを決めてから使う。",
+    "hero_image": "/assets/illustrations/2026-11-10-story-1-cast.webp",
+    "hero_image_alt": "新モデルの図に驚く眼鏡のラッコと首をかしげる茶トラ猫、本を読むふりで横目を向けるアザラシ。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-11-10-story-1.png"
+  },
+  {
+    "updated_at": "2026-11-10",
+    "verified_at": "2026-11-10",
+    "article_kind": "news",
+    "title": "OpenAI、「ChatGPT Enterprise」をAWS Marketplaceで提供開始　AWSの既存の購買・請求で契約でき、対象の支出はAWSとの利用約束に充当",
+    "category": "業界動向",
+    "source": "OpenAI",
+    "published_at": "2026-11-09",
+    "lede": "OpenAIは11月9日、企業向けの「ChatGPT Enterprise」をAWS Marketplaceで提供し始めた。企業はAWSとの既存の購買・請求の関係を使って契約でき、対象となる支出をAWSとの利用約束に充てられる。機能や新機能の提供時期は、OpenAIから直接契約した場合と同じとしている。",
+    "links": [
+      "https://openai.com/index/chatgpt-enterprise-aws-marketplace/"
+    ],
+    "keypoints": [
+      "ChatGPT EnterpriseをAWS Marketplaceで探し、購入し、管理できるようにした",
+      "AWSの既存の購買・請求の関係で契約でき、対象の支出はAWSとの利用約束（コミットメント）に充当できる",
+      "モデル・機能はOpenAIから直接契約した場合と同じで、新機能も同時に提供される",
+      "条件を満たす顧客は、ChatGPT for HealthcareとChatGPT for Financial ServicesもAWS Marketplace経由で利用できる"
+    ],
+    "editorial_diagram": {
+      "kicker": "OpenAIの発表 / AWS Marketplaceでの提供",
+      "title": "買い方が一つ増えた",
+      "lead": "OpenAIの発表文から、何が変わり、何が同じかを整理した。",
+      "examples": [
+        [
+          "AWSの請求でまとめて払う",
+          "ChatGPT EnterpriseをAWS Marketplaceで購入でき、AWSとの既存の購買・請求の関係をそのまま使える。"
+        ],
+        [
+          "利用約束に充てられる",
+          "対象となる支出は、企業がAWSと結んでいる利用約束（コミットメント）に充当できる。"
+        ],
+        [
+          "中身は直接契約と同じ",
+          "モデル・機能はOpenAIから直接買う場合と同じで、新機能も同時に届く。医療・金融向け版も条件付きで対象。"
+        ]
+      ],
+      "note": "OpenAIの発表（2026年11月9日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace/",
+      "wide": "/assets/illustrations/2026-11-10-story-2-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-11-10-story-2-diagram-mobile.webp",
+      "alt": "AWSの請求でまとめて払う：ChatGPT EnterpriseをAWS Marketplaceで購入でき、AWSとの既存の購買・請求の関係をそのまま使える。、利用約束に充てられる：対象となる支出は、企業がAWSと結んでいる利用約束（コミットメント）に充当できる。、中身は直接契約と同じ：モデル・機能はOpenAIから直接買う場合と同じで、新機能も同時に届く。医療・金融向け版も条件付きで対象。"
+    },
+    "body": [
+      {
+        "heading": "何を発表したか",
+        "paragraphs": [
+          "OpenAIは11月9日、ChatGPT EnterpriseをAWS Marketplaceで提供し始めたと発表した。企業はAWSとの既存の購買・請求の関係を通じてChatGPT Enterpriseを探し、購入し、管理でき、対象となる支出をAWSとの利用約束に充てられる。",
+          "OpenAIによると、AWS経由の顧客もOpenAIから直接契約した場合と同じモデル・機能を使え、新機能も同時に提供される。ChatGPT EnterpriseにはChatGPT、ChatGPT Work、Codex、dotsが含まれるとしている。条件を満たす顧客は、ChatGPT for HealthcareとChatGPT for Financial ServicesもAWS Marketplaceで利用できる。"
+        ]
+      },
+      {
+        "heading": "Bedrockとの関係と、まだ分からないこと",
+        "paragraphs": [
+          "OpenAIは、今回の提供はAmazon Bedrockで使えるOpenAIのモデルを補うものだと説明している。開発者はBedrock上のOpenAIモデルでAIアプリやエージェントを作り、社員は日々の業務でChatGPT Enterpriseを使う、という使い分けを想定している。",
+          "利用開始には、OpenAIまたはAWSの担当チームに対象かどうかを確認する必要がある。日本の企業が対象になるか、価格がOpenAIとの直接契約と同じかは、発表文に記載がなく未確認。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜AI導入の壁は、技術より稟議",
+        "paragraphs": [
+          "これは本誌の解釈だが、今回の変更はAIの性能ではなく「買い方」の話だ。新しい取引先との契約や支払いの手続きは、大企業ほどAI導入を遅らせる要因になりやすい。AWSの請求にまとめられるなら、その手間が減る企業は多いとみる。",
+          "本誌は、AWSと利用約束を結んでいる企業に、AIツールの費用をその枠に充てられるかを購買部門と確認することを勧める。これは本誌の提案で、OpenAIの推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "自社がAWSと利用約束を結んでいるか、残りの枠がどれくらいかを確認する",
+      "ChatGPT Enterpriseを検討中なら、OpenAIまたはAWSの担当に日本での対象可否と価格を問い合わせる",
+      "AIツールの契約を、既存のクラウド契約に寄せるか別契約にするかの方針を決める"
+    ],
+    "service": "fde",
+    "pull": "AI導入の速さは、契約の通りやすさで決まることもある。",
+    "hero_image": "/assets/illustrations/2026-11-10-story-2-cast.webp",
+    "hero_image_alt": "購買画面に驚く眼鏡のラッコに猫が問いかけ、セーター姿のアザラシが本越しに横目で見ている。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-11-10-story-2.png"
+  },
+  {
+    "updated_at": "2026-11-10",
+    "verified_at": "2026-11-10",
+    "article_kind": "news",
+    "title": "Google、第8世代TPUに「TPU 8tx」と「TPU 8i Max」を追加　処理中のデータも守る機密推論向けと、2チップを1つにまとめた長文脈向け",
+    "category": "業界動向",
+    "source": "Google",
+    "published_at": "2026-11-09",
+    "lede": "Googleは11月9日、AI向け半導体TPUの第8世代に新しい2つのシステム「TPU 8tx」と「TPU 8i Max」を加えた。TPU 8txは処理中のデータやモデルの重みもハードウェアで守る機密推論向けで、TPU 8i MaxはTPU 8iのチップ2つを1つのパッケージにまとめ、計算量やメモリ帯域を2倍にした。",
+    "links": [
+      "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/",
+      "https://www.marktechpost.com/2026/11/09/google-tpu-8i-max-tpu-8tx/"
+    ],
+    "keypoints": [
+      "TPU 8txは規制業種や政府向けの機密推論用。TPU 8tと同じシリコンに第5世代AMD EPYCのホストを組み合わせ、処理中のデータとモデルの重みを隔離する",
+      "TPU 8txは低遅延のBoardflyネットワークを採用し、TPU 8tに比べ遅延を最大2分の1にしたとGoogleは説明",
+      "TPU 8i MaxはTPU 8iのチップ2つを1パッケージに載せ、計算量・SRAM・HBM帯域をTPU 8iの2倍に",
+      "Googleは今年4つ目のTPUシステムと説明。TPUの顧客は100社近くとしている"
+    ],
+    "editorial_diagram": {
+      "kicker": "Googleの発表 / TPU 8tx・TPU 8i Max",
+      "title": "第8世代TPUの4つの役割",
+      "lead": "Googleの発表文から、4つのTPUシステムの役割を整理した。",
+      "examples": [
+        [
+          "学習と推論の2本柱",
+          "4月に発表したTPU 8tは大規模な学習向け、TPU 8iは低遅延の推論向け。"
+        ],
+        [
+          "機密の推論はTPU 8tx",
+          "処理中のデータとモデルの重みをハードウェアで守る。規制業種や政府が、機密データのそばでモデルやエージェントを動かす用途を想定する。"
+        ],
+        [
+          "長い文脈はTPU 8i Max",
+          "TPU 8iのチップ2つを1つにまとめ、計算量・SRAM・HBM帯域を2倍にした。ラックあたりの計算密度も最も高いという。"
+        ]
+      ],
+      "note": "Googleの発表（2026年11月9日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/",
+      "wide": "/assets/illustrations/2026-11-10-story-3-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-11-10-story-3-diagram-mobile.webp",
+      "alt": "学習と推論の2本柱：4月に発表したTPU 8tは大規模な学習向け、TPU 8iは低遅延の推論向け。、機密の推論はTPU 8tx：処理中のデータとモデルの重みをハードウェアで守る。規制業種や政府が、機密データのそばでモデルやエージェントを動かす用途を想定する。、長い文脈はTPU 8i Max：TPU 8iのチップ2つを1つにまとめ、計算量・SRAM・HBM帯域を2倍にした。ラックあたりの計算密度も最"
+    },
+    "body": [
+      {
+        "heading": "何を発表したか",
+        "paragraphs": [
+          "Googleは11月9日、第8世代TPUに2つのシステムを加えた。TPU 8txは機密推論向けで、小規模な学習にも向くという。データは保存時や通信時には暗号化されるが、処理する間はメモリ上で解かれるのが普通だ。TPU 8txはTPU 8tと同じシリコンに第5世代AMD EPYCのホストを組み合わせ、処理中もデータとモデルの重みを守り、隔離する仕組みをハードウェアに組み込んだ。",
+          "TPU 8i Maxは、多数のAIエージェントがコード全体や長時間の動画を同時に扱うときのメモリの壁に向けたもの。TPU 8iのチップ2つを1つのパッケージにまとめ、計算量、SRAM、HBMの帯域をいずれもTPU 8iの2倍にした。既存のラックの面積に2倍のシリコンを載せられるとしている。"
+        ]
+      },
+      {
+        "heading": "ソフトウェアと、まだ分からないこと",
+        "paragraphs": [
+          "Googleは合わせて、PyTorchのコードやHugging FaceのモデルをTPUで動かすTorchTPUのオープンソース化（10月）や、Claude Code・Cursor・Google Antigravityから使えるTPU向けのエージェント群（プレビュー）を紹介した。待ち時間の多いエージェントのセッションを自動で止めて再開するAgent Compute Engineも挙げている。",
+          "TPU 8txとTPU 8i Maxの提供開始時期、料金、日本のリージョンで使えるかは、発表文に記載がなく未確認。遅延や性能の数値はGoogle自身の説明による。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜「データを出せない」業務にもAIの道",
+        "paragraphs": [
+          "これは本誌の解釈だが、TPU 8txの狙いは速さよりも、機密データを扱う業務にAIを持ち込むことにある。金融や医療、行政のように、データを外に出せないことがAI活用の壁になっていた分野で選択肢が増えるとみる。",
+          "本誌は、機密データを理由にAI活用を見送ってきた企業に、どのデータが、どの条件なら外部の計算基盤で扱えるかを社内規程と照らして整理することを勧める。これは本誌の提案で、Googleの推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "機密を理由にAIの対象から外している業務とデータを洗い出す",
+      "社内規程で、処理中のデータ保護（機密コンピューティング）が要件を満たすかを情報システム部門と確認する",
+      "Google CloudでTPU 8txやTPU 8i Maxの提供時期と日本での可否を担当に問い合わせる"
+    ],
+    "service": "fde",
+    "pull": "データを外に出せないことが、AIを諦める理由ではなくなりつつある。",
+    "hero_image": "/assets/illustrations/2026-11-10-story-3-cast.webp",
+    "hero_image_alt": "保護されたチップと二つ一組のチップを映すパソコンに驚くラッコと指さす猫を、読書中のアザラシが横目で見る。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-11-10-story-3.png"
+  },
+  {
+    "updated_at": "2026-11-10",
+    "verified_at": "2026-11-10",
+    "article_kind": "news",
+    "title": "OpenAI、研究用のモデルの処理をまとめて止める「Control Room」を公開　停止の判断から35秒以内に出力を止め、障害時は全推論を拒否",
+    "category": "セキュリティ",
+    "source": "OpenAI",
+    "published_at": "2026-11-09",
+    "lede": "OpenAIは11月9日、研究基盤で動くモデルの処理を一元的に追跡し、安全上の懸念があればすばやく止める社内の仕組み「Control Room」を公開した。停止を決めてから35秒以内にモデルの出力を止める。Control Room自体が落ちた場合は、すべての推論要求を拒否する「フェイルクローズ」で動く。",
+    "links": [
+      "https://openai.com/index/control-room/"
+    ],
+    "keypoints": [
+      "Control Roomは研究基盤のすべての推論処理（学習・評価用のエージェント的なサンプリング、データ処理など）をつなぐ社内の仕組み",
+      "推論エンジンは要求に応える前にControl Roomへ許可を確認し、停止済みのジョブなら拒否する",
+      "停止の指示から出力が止まるまでは最大35秒。推論許可のキャッシュによる遅れで、ゼロに近づける作業中という",
+      "Control Roomが落ちると全推論を拒否する。最先端モデルの研究には適用済みで、残りの研究処理にも数日内に広げる"
+    ],
+    "editorial_diagram": {
+      "kicker": "OpenAIの発表 / Control Room",
+      "title": "止めるための仕組み",
+      "lead": "OpenAIの説明から、ジョブが止まるまでの流れを整理した。",
+      "examples": [
+        [
+          "ジョブに番号を振る",
+          "研究者がジョブを始めると、Control Roomがjob_idを発行する。エージェント的な推論をする研究ジョブには、承認済みの安全性の根拠（セーフティケース）が必要。"
+        ],
+        [
+          "推論のたびに許可を確認",
+          "推論エンジンはjob_idを添えてControl Roomに許可を求める。監視モデルが問題を見つけて停止させたジョブは、次の要求から拒否される。"
+        ],
+        [
+          "落ちたら全部止まる",
+          "Control Roomが障害や改ざんで止まると、すべての推論要求を拒否する。停止の指示から出力が止まるまでは最大35秒。"
+        ]
+      ],
+      "note": "OpenAIの発表（2026年11月9日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://openai.com/index/control-room/",
+      "wide": "/assets/illustrations/2026-11-10-story-4-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-11-10-story-4-diagram-mobile.webp",
+      "alt": "ジョブに番号を振る：研究者がジョブを始めると、Control Roomがjob_idを発行する。エージェント的な推論をする研究ジョブには、承認済みの安全性の根拠（セーフティケース）が必要。、推論のたびに許可を確認：推論エンジンはjob_idを添えてControl Roomに許可を求める。監視モデルが問題を見つけて停止させたジョブは、次の要求から拒否される。、落ちたら全部止まる：Control Ro"
+    },
+    "body": [
+      {
+        "heading": "何を公開したか",
+        "paragraphs": [
+          "OpenAIは11月9日、研究基盤でのモデルの処理を追跡し、安全やセキュリティの懸念が出たときにすばやく止める仕組み「Control Room」を説明した。対象は、モデルの学習や評価のためのエージェント的なサンプリング、データ処理など、研究で動くすべての推論処理。OpenAIは、外部向けのモデル提供の基盤はもともと集中管理されており、すぐに止める運用ができているため、必要性が高い研究基盤から導入したとしている。",
+          "仕組みは、研究ジョブ、推論エンジン、Control Roomの3つで成り立つ。ジョブは開始時にjob_idを受け取り、推論のたびにエンジンへjob_idを渡す。エンジンはControl Roomに許可を確認し、停止済みのジョブなら拒否する。OpenAIの最先端の強化学習ジョブはすべて監視モデルの下で動いており、監視モデルが問題を見つけると、深刻度に応じてControl Roomにジョブの停止を指示する。"
+        ]
+      },
+      {
+        "heading": "速さと止まり方",
+        "paragraphs": [
+          "停止の指示を受けてから処理が進まなくなるまでの最大時間は35秒。推論許可のキャッシュによる遅れで、OpenAIはこれをゼロに近づける作業を続けている。停止の仕組みを、頻繁に書き換わる研究コードではなく、数の少ない推論の経路に置いたため、研究コードに不具合があっても効くという。",
+          "Control Roomが障害や改ざんで止まった場合は、すべての推論要求を拒否する。この方式は最先端モデルの研究処理には適用済みで、残りの研究処理にも数日内に広げる。外部の第三者による検証は未確認。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜社内のAIエージェントにも「止めるボタン」を",
+        "paragraphs": [
+          "これは本誌の解釈だが、Control Roomの考え方は研究所だけの話ではない。止める仕組みを、変わりやすい個々のアプリではなく、必ず通る入り口に置く。止める側が落ちたら、全体を止める側に倒す。社内でAIエージェントを動かす企業にもそのまま使える設計だとみる。",
+          "本誌は、AIエージェントを業務で動かしている企業に、誰が、どこで、何分以内に止められるかを書き出しておくことを勧める。これは本誌の提案で、OpenAIの推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "社内で動いているAIエージェントと、それを止める方法・担当者を一覧にする",
+      "AIの呼び出しが必ず通る入り口（ゲートウェイやAPIキー）で止められるかを確認する",
+      "止める仕組み自体が故障したときに、AIを止める側に倒れる設定になっているかを点検する"
+    ],
+    "service": "fde",
+    "pull": "止める仕組みは、いちばん通り道の細いところに置く。",
+    "hero_image": "/assets/illustrations/2026-11-10-story-4-cast.webp",
+    "hero_image_alt": "一括停止ボタンに驚く眼鏡のラッコと首をかしげる猫、本を読むふりで様子をうかがうアザラシ。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-11-10-story-4.png"
+  },
+  {
+    "updated_at": "2026-11-10",
+    "verified_at": "2026-11-10",
+    "article_kind": "news",
+    "title": "PFN、日本の金融知識に特化した「PLaMo 3.0 Fin」を公開　8Bの重みを公開し、閉域クラウドやオンプレミスでGPU1枚から運用可能",
+    "category": "新モデル発表",
+    "source": "Preferred Networks",
+    "published_at": "2026-11-09",
+    "lede": "Preferred Networks（PFN）は11月9日、日本の金融分野に特化した大規模言語モデル「PLaMo 3.0 Fin」を公開した。NICTとの共同研究で得た事前学習モデルに日本中心の金融データで追加学習し、重みをHugging Faceで公開した。クラウドの閉域環境やオンプレミスでGPU1枚から運用でき、PLaMo APIとPLaMo Chatの無料プランでもβ版として試せる。",
+    "links": [
+      "https://www.preferred.jp/ja/news/pr20261109",
+      "https://gihyo.jp/article/2026/11/plamo-3-fin"
+    ],
+    "keypoints": [
+      "NICTとの共同研究による事前学習モデル「PLaMo 3 NICT」を、日本中心の金融データで追加学習。事後学習は自社半導体MN-Core 2で実施",
+      "重みをHugging Faceで公開（モデル名はplamo-3-8b-fin-instruct）。閉域クラウドやオンプレミスにGPU1枚から導入できる",
+      "段階的な推論の過程を日本語で出力し、Web検索・計算・社内データベース参照などの外部ツールも呼び出せる",
+      "PLaMoコミュニティライセンス。直近事業年度の売上が10億円以下の企業・個人は商用でも無償"
+    ],
+    "editorial_diagram": {
+      "kicker": "PFNの発表 / PLaMo 3.0 Fin",
+      "title": "金融の現場で動かすための設計",
+      "lead": "PFNの発表文から、作り方・置き場所・使いどころを整理した。",
+      "examples": [
+        [
+          "日本の金融で追加学習",
+          "NICTとの共同研究で得た事前学習モデルに、日本を中心とした金融データで追加学習し、指示に従う学習も施した。"
+        ],
+        [
+          "社内に置ける大きさ",
+          "重みを公開し、クラウドの閉域環境やオンプレミスにGPU1枚から導入できる。PLaMo APIと無料のChatでもβ版を試せる。"
+        ],
+        [
+          "想定する業務",
+          "問い合わせの分類と振り分け、申込書類からの情報抽出や突合、不正検知のアラート分析、融資先の業況分析などを挙げている。"
+        ]
+      ],
+      "note": "PFNの発表（2026年11月9日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://www.preferred.jp/ja/news/pr20261109",
+      "wide": "/assets/illustrations/2026-11-10-story-5-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-11-10-story-5-diagram-mobile.webp",
+      "alt": "日本の金融で追加学習：NICTとの共同研究で得た事前学習モデルに、日本を中心とした金融データで追加学習し、指示に従う学習も施した。、社内に置ける大きさ：重みを公開し、クラウドの閉域環境やオンプレミスにGPU1枚から導入できる。PLaMo APIと無料のChatでもβ版を試せる。、想定する業務：問い合わせの分類と振り分け、申込書類からの情報抽出や突合、不正検知のアラート分析、融資先の業況分析などを挙"
+    },
+    "body": [
+      {
+        "heading": "何を発表したか",
+        "paragraphs": [
+          "PFNは11月9日、日本の金融分野に特化した大規模言語モデル「PLaMo 3.0 Fin」を公開した。NICTとの共同研究で得た事前学習モデル「PLaMo 3 NICT」をもとに、日本を中心とした金融分野のデータで追加学習し、事後学習では指示に従うための学習を行った。事後学習には自社開発のAI半導体MN-Core 2を使った。",
+          "重みはHugging Faceで公開しており、モデル名からパラメータ数は80億（8B）とみられる。クラウドの閉域環境やオンプレミスにGPU1枚から導入でき、PLaMo APIとPLaMo Chatの無料プラン（利用上限あり）からβ版として使える。段階的に推論してその過程を日本語で出力する機能や、Web検索、計算、社内データベースの参照などの外部ツールを呼び出す機能を持つ。"
+        ]
+      },
+      {
+        "heading": "使いどころとライセンス",
+        "paragraphs": [
+          "PFNは用途の例として、コンタクトセンターでの問い合わせの分類と振り分け、本人確認や預金・為替・融資の手続きでの申込書類からの情報抽出・突合、不正検知のアラート分析、融資先の業況分析を挙げる。各社専用モデルを作るサービスのベースモデルとしても使える。",
+          "ライセンスはPLaMoコミュニティライセンスで、直近事業年度の収入または売上が10億円以下の企業・個人は商用・非商用を問わず無償で使える。それを超える企業の商用利用の条件や、有料版の料金は発表文に記載がなく未確認。評価の詳細はPFNの技術ブログで公開している。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜「外に出せない業務」から小さく試す",
+        "paragraphs": [
+          "これは本誌の解釈だが、金融機関がAIを使うときの壁は性能より、顧客データを社外に出せないことにある。GPU1枚で社内に置ける大きさの専門モデルは、その壁を下げる選択肢になるとみる。",
+          "本誌は、金融に関わる企業に、問い合わせの振り分けのように誤りの影響が小さく件数の多い業務から、手元のデータで精度を試すことを勧める。これは本誌の提案で、PFNの推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "社外にデータを出せないためにAIを見送っている金融関連の業務を洗い出す",
+      "自社の売上規模でPLaMoコミュニティライセンスの無償条件に当てはまるかを確認する",
+      "問い合わせの分類など、誤りの影響が小さい業務で無料版を使い、手元の事例で精度を確かめる"
+    ],
+    "service": "fde",
+    "pull": "外に出せないデータのそばに、AIを置く。",
+    "hero_image": "/assets/illustrations/2026-11-10-story-5-cast.webp",
+    "hero_image_alt": "小型の金融AI端末に驚くラッコと質問する茶トラ猫を、本を読むふりのアザラシが横目で見ている。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-11-10-story-5.png"
+  },
+  {
+    "updated_at": "2026-11-10",
+    "verified_at": "2026-11-10",
+    "article_kind": "news",
+    "title": "NVIDIA、日本の金融向け合成ペルソナデータ「Nemotron-Personas-Finance-Japan」を公開　900万人分、商用利用可のCC BY 4.0で国内の金融機関が設計に協力",
+    "category": "研究",
+    "source": "NVIDIA",
+    "published_at": "2026-11-09",
+    "lede": "NVIDIAは11月9日、日本の公的統計と家計・金融リテラシーのデータをもとに作った合成ペルソナのデータセット「Nemotron-Personas-Finance-Japan」をHugging Faceで公開した。100万レコード×9ペルソナの計900万人分で、実在の顧客データを使わずに金融向けAIを作り、試すことを狙う。ライセンスは商用利用もできるCC BY 4.0。",
+    "links": [
+      "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan"
+    ],
+    "keypoints": [
+      "日本の人口・労働の公的統計と、公的統計・公開調査に基づく家計データから合成した人物像のデータセット",
+      "100万レコード×9ペルソナの計900万人分。1レコード50項目で、合計約15億トークン",
+      "損保ジャパン、東京海上ホールディングス、福岡銀行、みずほフィナンシャルグループ、明治安田生命、金融データ活用推進協会の意見を設計に反映",
+      "ライセンスはCC BY 4.0で商用・非商用とも利用可。同日に日本語の個人情報ラベル付き文書データ「Nemotron-PII-Japan」も公開"
+    ],
+    "editorial_diagram": {
+      "kicker": "NVIDIAの発表 / Nemotron-Personas-Finance-Japan",
+      "title": "実在の顧客を使わずに試す",
+      "lead": "Hugging Faceの発表文から、データの中身と使いどころを整理した。",
+      "examples": [
+        [
+          "統計から作った900万人",
+          "日本の公的統計と家計・金融リテラシーのデータをもとに、100万レコード×9ペルソナの人物像を合成した。1レコードは50項目。"
+        ],
+        [
+          "金融機関の声を反映",
+          "損保ジャパン、東京海上HD、福岡銀行、みずほFG、明治安田生命、金融データ活用推進協会の意見を設計に取り入れた。"
+        ],
+        [
+          "想定する使い方",
+          "顧客対応エージェントの試験、営業・マーケティングの評価、利用者のシミュレーション、レッドチーミング、偏りや公平性の検証などを挙げる。"
+        ]
+      ],
+      "note": "Hugging Face上のNVIDIAの発表（2026年11月9日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
+      "wide": "/assets/illustrations/2026-11-10-story-6-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-11-10-story-6-diagram-mobile.webp",
+      "alt": "統計から作った900万人：日本の公的統計と家計・金融リテラシーのデータをもとに、100万レコード×9ペルソナの人物像を合成した。1レコードは50項目。、金融機関の声を反映：損保ジャパン、東京海上HD、福岡銀行、みずほFG、明治安田生命、金融データ活用推進協会の意見を設計に取り入れた。、想定する使い方：顧客対応エージェントの試験、営業・マーケティングの評価、利用者のシミュレーション、レッドチーミング"
+    },
+    "body": [
+      {
+        "heading": "何を公開したか",
+        "paragraphs": [
+          "NVIDIAは11月9日、Elithと組んで、合成ペルソナのデータセット「Nemotron-Personas-Finance-Japan」をHugging Faceで公開した。既存の「Nemotron-Personas-Japan」を金融分野に広げたもので、日本の人口・労働の公的統計に、公的統計と公開調査に基づく家計や金融リテラシーのデータを組み合わせた。NVIDIAは、公的統計と家計・金融データを組み合わせた100万レコード規模の公開ペルソナデータとしては初めてだとしている。",
+          "規模は100万レコード×9ペルソナの計900万人分。1レコードは50項目（ペルソナ9、属性11、背景情報30）で、合計約15億トークン、名前は約95万種類、職業は1,600分類以上ある。Nemotron-Personas-Japanよりペルソナ数が50%多く、項目数は22から50に増えた。日本語の文章はgemma-4-31B-itで生成した。"
+        ]
+      },
+      {
+        "heading": "誰が関わり、何に使うか",
+        "paragraphs": [
+          "設計には、損保ジャパン、東京海上ホールディングス、福岡銀行、みずほフィナンシャルグループ、明治安田生命保険、金融データ活用推進協会（FDUA）の意見を反映した。ライセンスはCC BY 4.0で、商用・非商用ともに使える。",
+          "想定する用途は、実在の顧客データを使わない、顧客対応エージェントの試験、営業・マーケティングの評価、利用者のシミュレーション、レッドチーミング、偏りや公平性の検証など。同じ日に、個人情報の箇所をラベル付けした日本語のビジネス文書10万件の合成データ「Nemotron-PII-Japan」も公開した。合成データがどこまで実際の顧客の分布に近いかの第三者による検証は未確認。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜テスト用の「架空の顧客」を用意する",
+        "paragraphs": [
+          "これは本誌の解釈だが、金融や保険でAIの顧客対応を試すとき、実在の顧客データを試験に使えないことが開発を遅らせてきた。統計に沿った架空の顧客が900万人分そろったことで、本番前の試験を厚くしやすくなるとみる。",
+          "本誌は、顧客対応にAIを入れようとしている企業に、自社の典型的な顧客像に近いペルソナを抜き出し、回答の質や偏りを本番前に確かめることを勧める。これは本誌の提案で、NVIDIAの推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "AIの顧客対応で、試験に実データを使えず困っている場面を洗い出す",
+      "データセットから自社の主要な顧客層に近いペルソナを抽出し、想定質問への回答を試す",
+      "年齢や地域などで回答の質に偏りがないかを確認する手順を決める"
+    ],
+    "service": "crm",
+    "pull": "本番の顧客に会わせる前に、架空の顧客で練習させる。",
+    "hero_image": "/assets/illustrations/2026-11-10-story-6-cast.webp",
+    "hero_image_alt": "合成人物の金融データに驚く眼鏡のラッコ、カードを指す茶トラ猫、本を読みながら横目で聞くアザラシ。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-11-10-story-6.png"
+  },
+  {
+    "updated_at": "2026-11-10",
+    "verified_at": "2026-11-10",
+    "article_kind": "news",
+    "title": "Automattic、AIで作ったアプリやサイトを公開・管理する「Spacefast」を一般公開　データベースや公開履歴を備え、MCPサーバーでClaudeやChatGPTから操作",
+    "category": "ツール更新",
+    "source": "Automattic",
+    "published_at": "2026-11-09",
+    "lede": "WordPress.comを運営するAutomatticは11月9日、AIで作ったアプリやWebサイトを公開・管理するサービス「Spacefast」を一般公開した。ホスティング、独自ドメイン、SQLデータベース、公開ごとの版管理などを備え、MCPサーバーやCLIを通じてClaude、ChatGPT、Claude Code、Codex、Cursorなどから使える。個人向けの無料プランがある。",
+    "links": [
+      "https://automattic.com/2026/11/09/meet-spacefast/",
+      "https://techcrunch.com/2026/11/09/automattic-debuts-a-platform-to-deploy-vibe-coding-apps-amid-a-changing-internet/"
+    ],
+    "keypoints": [
+      "ホスティング、独自ドメイン、SQLデータベースを提供。アプリ内の認証機能は近日提供",
+      "公開のたびに新しい版と固定URLを作り、元に戻したり古い版を開いたりできる",
+      "API、CLI（npx spacefast publish）、MCPサーバーを用意。ロールバックやDNS変更など影響の大きい操作には承認を挟む",
+      "AIの利用料ではなく基盤の利用に課金する方式で、個人向けの無料プランあり。9月に先行公開し、Automatticから独立した会社として運営"
+    ],
+    "editorial_diagram": {
+      "kicker": "Automatticの発表 / Spacefast",
+      "title": "AIで作ったものの「置き場所」",
+      "lead": "Automatticの発表文から、何ができ、どう使うかを整理した。",
+      "examples": [
+        [
+          "作ったら、そのまま公開",
+          "ホスティング、独自ドメイン、SQLデータベースを備える。公開のたびに版と固定URLが残り、元に戻すこともできる。"
+        ],
+        [
+          "いつものAIから操作",
+          "MCPサーバー、API、CLIを用意し、Claude、ChatGPT、Claude Code、Codex、Cursorなどから公開や管理ができる。"
+        ],
+        [
+          "危ない操作は承認制",
+          "ロールバックやDNSの変更など影響の大きい操作は、エージェントが実行する前に承認を求める。共有はパスワードや招待などで絞れる。"
+        ]
+      ],
+      "note": "Automatticの発表（2026年11月9日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://automattic.com/2026/11/09/meet-spacefast/",
+      "wide": "/assets/illustrations/2026-11-10-story-7-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-11-10-story-7-diagram-mobile.webp",
+      "alt": "作ったら、そのまま公開：ホスティング、独自ドメイン、SQLデータベースを備える。公開のたびに版と固定URLが残り、元に戻すこともできる。、いつものAIから操作：MCPサーバー、API、CLIを用意し、Claude、ChatGPT、Claude Code、Codex、Cursorなどから公開や管理ができる。、危ない操作は承認制：ロールバックやDNSの変更など影響の大きい操作は、エージェントが実行する"
+    },
+    "body": [
+      {
+        "heading": "何を発表したか",
+        "paragraphs": [
+          "Automatticは11月9日、AIで作ったアプリやWebサイトを公開・管理するサービス「Spacefast」を誰でも使えるようにした。ホスティング、独自ドメイン、SQLデータベースを提供し、アプリ内の認証機能は近日提供としている。公開のたびに新しい版と固定のURLが作られ、元に戻したり古い版へのリンクを開いたりできる。共有はパスワード、招待、共有リンク、一般公開から選べる。",
+          "操作の入口として、API、CLI、MCPサーバーを用意した。Claude、ChatGPT、Claude Code、Codex、Cursorなどから使え、ClaudeやChatGPT、Cursorなどには公式のプラグインもある。ロールバックやDNSの変更など影響の大きい操作は、エージェントが実行する前に承認を求める。ページへのコメントをエージェントに渡して直させることもできる。"
+        ]
+      },
+      {
+        "heading": "料金と成り立ち",
+        "paragraphs": [
+          "Spacefastは、AIの利用料ではなく基盤の利用に課金する。利用者は手持ちのAIの契約をそのまま使い、推論の費用を二重に払わずに済むという。個人向けの無料プランがある。基盤はWordPress.comやTumblrと同じAutomatticのものを使う。",
+          "Spacefastは、Automatticが社員に個人の企画に取り組ませた期間に生まれた。9月に先行公開し、その後Automatticから独立した会社になった。有料プランの価格や、日本からの利用条件は発表文に記載がなく未確認。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜「作った後」の置き場所を決めておく",
+        "paragraphs": [
+          "これは本誌の解釈だが、AIで社内ツールを作る人が増えるほど、作ったものがどこに置かれ、誰が見られるかが分からなくなる。版の履歴、共有範囲、危ない操作の承認がそろったサービスが出てきたことは、その管理を考えるきっかけになるとみる。",
+          "本誌は、社員がAIで小さなツールを作り始めている企業に、公開先のサービス、共有範囲、データベースに入れてよい情報の範囲を先に決めることを勧める。これは本誌の提案で、Automatticの推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "社員がAIで作ったツールやページが、今どこに置かれているかを確認する",
+      "社内向けツールの公開先と、共有範囲（社内のみ・招待制など）の決まりを作る",
+      "AIに任せてよい操作と、人の承認が必要な操作を分けて書き出す"
+    ],
+    "service": "luna",
+    "pull": "作るのが速くなった分、置き場所の決まりが要る。",
+    "hero_image": "/assets/illustrations/2026-11-10-story-7-cast.webp",
+    "hero_image_alt": "アプリ公開の図が映るパソコンに驚くラッコと、首を傾げる猫、本を読むふりで横目を向けるアザラシ。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-11-10-story-7.png"
+  },
+  {
+    "updated_at": "2026-11-10",
+    "verified_at": "2026-11-10",
+    "article_kind": "news",
+    "title": "Medium、AIアシスタント入りの執筆ノートアプリ「TK」を公開　文中で「@TK」と打てば調べ物や過去のメモを呼び出し、MCPサーバーで他のAIにもつなぐ",
+    "category": "ツール更新",
+    "source": "Medium",
+    "published_at": "2026-11-09",
+    "lede": "米ブログサービスのMediumは11月9日、文章を書き、考えをまとめるための非公開のノートアプリ「TK」を公開した。執筆中に「@TK」と打つと、AIアシスタントに調べ物や過去のメモの呼び出しを頼める。書いた内容はMCPサーバーとClaudeのスキルを通じて他のAIエージェントからも参照できる。",
+    "links": [
+      "https://medium.com/blog/tk-a-new-private-notebook-app-from-medium-13d3d6efdce1",
+      "https://techcrunch.com/2026/11/09/mediums-new-tk-app-brings-ai-assistance-directly-into-the-writing-process/"
+    ],
+    "keypoints": [
+      "文中で「@TK」と打つと、執筆を中断せずにAIアシスタントへ質問や過去の文章の呼び出しを頼める",
+      "編集面と見出しの助言をするAIスキルを搭載し、Mediumの各媒体の表記ルールとの照合もできる",
+      "検索結果やタグを、要点と元のメモへのリンクを持つWiki風のページにまとめられる。BearやObsidianからの取り込みにも対応",
+      "MCPサーバーとClaudeのスキルを同梱。AI企業が利用者の文章で学習することはないとしている。デスクトップ版はまだない"
+    ],
+    "editorial_diagram": {
+      "kicker": "Mediumの発表 / TK",
+      "title": "書く場所にAIを呼ぶ",
+      "lead": "Mediumの発表文から、TKの3つの狙いを整理した。",
+      "examples": [
+        [
+          "書くのを止めない",
+          "文中で「@TK」と打てば、別のタブに移らずにAIへ調べ物や過去のメモの呼び出しを頼める。音声やテキストを取り込むスマホのウィジェットもある。"
+        ],
+        [
+          "考えるための助言",
+          "編集面と見出しの助言をするAIスキルを持つ。人からの感想をもらうための非公開の共有の場も用意した。"
+        ],
+        [
+          "書いたものを他のAIへ",
+          "MCPサーバーとClaudeのスキルで、他のAIエージェントが利用者のメモや考えを参照できる。"
+        ]
+      ],
+      "note": "Mediumの発表（2026年11月9日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://medium.com/blog/tk-a-new-private-notebook-app-from-medium-13d3d6efdce1",
+      "wide": "/assets/illustrations/2026-11-10-story-8-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-11-10-story-8-diagram-mobile.webp",
+      "alt": "書くのを止めない：文中で「@TK」と打てば、別のタブに移らずにAIへ調べ物や過去のメモの呼び出しを頼める。音声やテキストを取り込むスマホのウィジェットもある。、考えるための助言：編集面と見出しの助言をするAIスキルを持つ。人からの感想をもらうための非公開の共有の場も用意した。、書いたものを他のAIへ：MCPサーバーとClaudeのスキルで、他のAIエージェントが利用者のメモや考えを参照できる。"
+    },
+    "body": [
+      {
+        "heading": "何を発表したか",
+        "paragraphs": [
+          "Mediumは11月9日、CEOのトニー・スタブルバイン氏の名前で、執筆と思考のための非公開のノートアプリ「TK」を発表した。TKは英語圏の編集で「あとで埋める」という意味の目印。アプリでは文中に「@TK」と打つと、執筆を中断せずにAIアシスタントに頼みごとができる。発表文では、ある月の日数を尋ねる例や、前日に書いた段落を呼び出す例を挙げている。",
+          "最初の版は、スマホアプリ、音声とテキストを取り込むウィジェット、Mediumに書いた全記事の取り込み、BearやObsidianの保管庫の取り込みを備える。編集面と見出しの助言をするAIスキルを持ち、Mediumの各媒体の表記ルールとの照合もできる。検索結果やタグは、要点、主な考えの索引、元のメモへのリンクを持つWiki風のページにまとめられる。"
+        ]
+      },
+      {
+        "heading": "他のAIとのつなぎ方と方針",
+        "paragraphs": [
+          "TKはMCPサーバーとClaudeのスキルを同梱し、利用者が自分のAIエージェントにTKを参照させれば、立場や進行中の企画、書きかけの考えを踏まえて動かせるとしている。Mediumは、AI企業が利用者の文章で学習したり、許可なく使ったりすることはないと説明する。文章のうち人が書いた部分とAIが書いた部分を示して公開する機能も持つ。",
+          "Markdownでの取り込みと書き出しに対応するが、共同作業のためにクラウド型を選んだという。デスクトップ版はまだない。料金や日本語での使い勝手は発表文に記載がなく未確認。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜AIに渡す「自分の文脈」をどこに置くか",
+        "paragraphs": [
+          "これは本誌の解釈だが、TKが狙うのは文章の自動生成ではなく、書きためたメモをAIに渡せる形にすることだ。AIエージェントを使う人が増えるほど、自分の考えや過去の判断をどこにまとめておくかが仕事の質を左右するとみる。",
+          "本誌は、AIを仕事で使う人に、議事録やメモの置き場所を一つに決め、AIから参照してよい範囲と参照させない範囲を分けておくことを勧める。これは本誌の提案で、Mediumの推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "仕事のメモや下書きが、いくつのアプリに散らばっているかを数える",
+      "AIエージェントに参照させてよいメモと、させないメモの線引きを決める",
+      "新しいノートアプリを試す前に、書き出し（エクスポート）の方法を確認しておく"
+    ],
+    "service": "luna",
+    "pull": "AIに渡せる自分のメモが、これからの仕事の土台になる。",
+    "hero_image": "/assets/illustrations/2026-11-10-story-8-cast.webp",
+    "hero_image_alt": "ノートを呼び出すパソコンに驚くラッコ、首をかしげて手を上げる猫、本を読みながら横目で見るアザラシ。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-11-10-story-8.png"
+  }
+]

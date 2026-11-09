@@ -7,6 +7,54 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。公開済みのAIニュースと実務への示唆をお届けします。</description>
   <language>ja</language>
   <item>
+    <title>Anthropic、「Claude Fable 5.2」と「Claude Mythos 5.2」を発表　出力は前版より最大30%速く、料金は入力100万トークン8ドル・出力40ドルに値下げ</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-10/story-1/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-10/story-1/</guid>
+    <description>Anthropicは11月9日、難度の高い技術作業向けのモデル「Claude Fable 5.2」と「Claude Mythos 5.2」を発表した。両者は同じ基盤モデルで、Fableはサイバーセキュリティと生物分野の悪用対策を強めて全利用者に提供し、Mythosは審査を通った組織に提供する。出力は前版より最大30%速く、料金は入力100万トークンあたり8ドル、出力40ドルに下げた。</description>
+  </item>
+  <item>
+    <title>OpenAI、「ChatGPT Enterprise」をAWS Marketplaceで提供開始　AWSの既存の購買・請求で契約でき、対象の支出はAWSとの利用約束に充当</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-10/story-2/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-10/story-2/</guid>
+    <description>OpenAIは11月9日、企業向けの「ChatGPT Enterprise」をAWS Marketplaceで提供し始めた。企業はAWSとの既存の購買・請求の関係を使って契約でき、対象となる支出をAWSとの利用約束に充てられる。機能や新機能の提供時期は、OpenAIから直接契約した場合と同じとしている。</description>
+  </item>
+  <item>
+    <title>Google、第8世代TPUに「TPU 8tx」と「TPU 8i Max」を追加　処理中のデータも守る機密推論向けと、2チップを1つにまとめた長文脈向け</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-10/story-3/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-10/story-3/</guid>
+    <description>Googleは11月9日、AI向け半導体TPUの第8世代に新しい2つのシステム「TPU 8tx」と「TPU 8i Max」を加えた。TPU 8txは処理中のデータやモデルの重みもハードウェアで守る機密推論向けで、TPU 8i MaxはTPU 8iのチップ2つを1つのパッケージにまとめ、計算量やメモリ帯域を2倍にした。</description>
+  </item>
+  <item>
+    <title>OpenAI、研究用のモデルの処理をまとめて止める「Control Room」を公開　停止の判断から35秒以内に出力を止め、障害時は全推論を拒否</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-10/story-4/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-10/story-4/</guid>
+    <description>OpenAIは11月9日、研究基盤で動くモデルの処理を一元的に追跡し、安全上の懸念があればすばやく止める社内の仕組み「Control Room」を公開した。停止を決めてから35秒以内にモデルの出力を止める。Control Room自体が落ちた場合は、すべての推論要求を拒否する「フェイルクローズ」で動く。</description>
+  </item>
+  <item>
+    <title>PFN、日本の金融知識に特化した「PLaMo 3.0 Fin」を公開　8Bの重みを公開し、閉域クラウドやオンプレミスでGPU1枚から運用可能</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-10/story-5/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-10/story-5/</guid>
+    <description>Preferred Networks（PFN）は11月9日、日本の金融分野に特化した大規模言語モデル「PLaMo 3.0 Fin」を公開した。NICTとの共同研究で得た事前学習モデルに日本中心の金融データで追加学習し、重みをHugging Faceで公開した。クラウドの閉域環境やオンプレミスでGPU1枚から運用でき、PLaMo APIとPLaMo Chatの無料プランでもβ版として試せる。</description>
+  </item>
+  <item>
+    <title>NVIDIA、日本の金融向け合成ペルソナデータ「Nemotron-Personas-Finance-Japan」を公開　900万人分、商用利用可のCC BY 4.0で国内の金融機関が設計に協力</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-10/story-6/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-10/story-6/</guid>
+    <description>NVIDIAは11月9日、日本の公的統計と家計・金融リテラシーのデータをもとに作った合成ペルソナのデータセット「Nemotron-Personas-Finance-Japan」をHugging Faceで公開した。100万レコード×9ペルソナの計900万人分で、実在の顧客データを使わずに金融向けAIを作り、試すことを狙う。ライセンスは商用利用もできるCC BY 4.0。</description>
+  </item>
+  <item>
+    <title>Automattic、AIで作ったアプリやサイトを公開・管理する「Spacefast」を一般公開　データベースや公開履歴を備え、MCPサーバーでClaudeやChatGPTから操作</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-10/story-7/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-10/story-7/</guid>
+    <description>WordPress.comを運営するAutomatticは11月9日、AIで作ったアプリやWebサイトを公開・管理するサービス「Spacefast」を一般公開した。ホスティング、独自ドメイン、SQLデータベース、公開ごとの版管理などを備え、MCPサーバーやCLIを通じてClaude、ChatGPT、Claude Code、Codex、Cursorなどから使える。個人向けの無料プランがある。</description>
+  </item>
+  <item>
+    <title>Medium、AIアシスタント入りの執筆ノートアプリ「TK」を公開　文中で「@TK」と打てば調べ物や過去のメモを呼び出し、MCPサーバーで他のAIにもつなぐ</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-10/story-8/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-10/story-8/</guid>
+    <description>米ブログサービスのMediumは11月9日、文章を書き、考えをまとめるための非公開のノートアプリ「TK」を公開した。執筆中に「@TK」と打つと、AIアシスタントに調べ物や過去のメモの呼び出しを頼める。書いた内容はMCPサーバーとClaudeのスキルを通じて他のAIエージェントからも参照できる。</description>
+  </item>
+  <item>
     <title>newmo、シリーズBで208億円を調達　KDDIが主導、通信とAI計算基盤を提供して2028年に堺市で自動運転タクシーの商用化めざす</title>
     <link>https://nowonair.vercel.app/articles/2026-11-09/story-1/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-09/story-1/</guid>
@@ -107,54 +155,6 @@
     <link>https://nowonair.vercel.app/articles/2026-11-07/story-8/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-07/story-8/</guid>
     <description>Amazonは11月6日、AIの買い物アシスタント「Alexa for Shopping」に、スマートフォンのテキストメッセージで話しかけられる機能を追加した。商品の検索や比較、購入までをメッセージのやり取りで済ませられる。まず米国の一部の利用者に招待制で提供し、今後数週間で数百万人に広げる。</description>
-  </item>
-  <item>
-    <title>パナソニックHD、指先の触覚で動きを直すロボットAI「T-Rex」をNVIDIAや米欧の大学と開発　12種類の実作業で平均成功率65%、従来の最良は35%</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-07/story-9/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-07/story-9/</guid>
-    <description>パナソニック ホールディングス（パナソニックHD）は11月5日、指先の触覚に反応して動きをその場で直し、両手で細かな作業をこなすロボット操作AI「T-Rex」を開発したと発表した。米UCバークレー、NVIDIA、スタンフォード大などとの共同研究で、卵の移し替えや電球のねじ込みなど12種類の実作業で平均成功率65%を示した。</description>
-  </item>
-  <item>
-    <title>Ricursive Intelligence、オープンモデル「Ripple-65B Preview」を公開　65Bの密なモデルでTerminalBench 2.1は80.52、開発費は3,200万ドル</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-07/story-10/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-07/story-10/</guid>
-    <description>AIによる半導体設計を手がけるRicursive Intelligenceは11月6日（UTC）、重みを公開したモデル「Ripple-65B Preview」を発表した。自社の半導体設計基盤を動かす非公開モデルの汎用版で、パラメータは65B。AIが端末を操作して開発作業を進める評価「TerminalBench 2.1」で80.52を記録し、米国のオープンウェイトモデルで最高だとしている。</description>
-  </item>
-  <item>
-    <title>OpenAI、脆弱性の発見と検証を担う「GPT-6 Cyber」を発表　指定範囲外を攻撃しない率は99.93%、まず承認済みのDaybreak Red利用者に提供</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-06/story-1/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-06/story-1/</guid>
-    <description>OpenAIは11月5日、ソフトウェアの脆弱性を見つけて実際に悪用できるかを確かめ、修正案づくりも助けるモデル「GPT-6 Cyber」を発表した。研究者が決めた作業範囲を守るよう専用に訓練したとしている。まずAPIとCodexで、承認済みの「Daybreak Red」利用者の一部に提供する。</description>
-  </item>
-  <item>
-    <title>Anthropic、Claudeに家計を分析する「Personal Finance」を追加　Plaid経由で銀行口座を読み取り専用で接続、米国の有料プランでベータ</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-06/story-2/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-06/story-2/</guid>
-    <description>Anthropicは11月5日、銀行やカードの口座をつなぎ、支出や請求をClaudeに聞ける「Personal Finance」をベータで公開した。接続にはPlaidを使い、Claudeは残高や取引を読むだけで、お金を動かすことはできない。対象は米国のPro・Max・Ultraプランだ。</description>
-  </item>
-  <item>
-    <title>Google、動画生成の「Gemini Omni 1.2 Flash」を一般提供　15秒まで生成・編集でき、料金は前版から30%値下げ</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-06/story-3/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-06/story-3/</guid>
-    <description>Googleは11月5日、動画生成モデル「Gemini Omni 1.2 Flash」を発表した。1本で生成・編集できる長さを10秒から15秒に延ばし、料金を前版のGemini Omni 1.1から30%下げた。Gemini APIや企業向けのGoogle Cloudで一般提供し、Google Vidsなどにも広げる。</description>
-  </item>
-  <item>
-    <title>OpenAI、画像生成「Images 2.6」を公開　生成は50%速く、GIFで動く画像も作れる　ChatGPTの全プランとCodex、APIで提供</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-06/story-4/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-06/story-4/</guid>
-    <description>OpenAIは11月4日、画像生成の新版「Images 2.6」を公開した。従来より50%速く生成し、キャラクターや商品を動かすGIFも作れる。ChatGPTとCodexのすべてのサブスクリプションプランで世界同時に使え、APIでは速さ重視の「Flare」と精度重視の「Sunburst」の2種類を出す。</description>
-  </item>
-  <item>
-    <title>PFN、翻訳特化の「PLaMo 3 Translate」の重みを公開　53言語に対応、0.8Bから31Bまで4サイズ　社外にデータを出さず翻訳</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-06/story-5/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-06/story-5/</guid>
-    <description>Preferred Networks（PFN）は11月5日、翻訳に特化した大規模言語モデル「PLaMo 3 Translate」の重みを公開した。日本語と英語を含む53言語に対応し、スマートフォンやノートPC、社内サーバーで動かせる。原文や訳文を外部のサーバーに送らずに翻訳できる。</description>
-  </item>
-  <item>
-    <title>Stripe、AIエージェントから決済データを分析できる仕組みを全ユーザーに提供　MCPとQueries API、300超のテーブルを使うReports API</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-06/story-6/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-06/story-6/</guid>
-    <description>Stripeは11月5日、ClaudeやCursorなどのAIエージェントから、自社の決済データを言葉で分析できるようにしたと発表した。Stripe MCP、Queries API、Reports APIの3つの経路を、すべてのStripeユーザーが使える。結果の裏にあるSQLを確かめ、直すこともできる。</description>
   </item>
 </channel>
 </rss>
