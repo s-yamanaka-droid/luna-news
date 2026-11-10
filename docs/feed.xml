@@ -7,6 +7,66 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。公開済みのAIニュースと実務への示唆をお届けします。</description>
   <language>ja</language>
   <item>
+    <title>Google、最上位モデル「Gemini 4 Carbon」を公開　長い手順のエージェント作業とサイバー防御向け、11月末までは入力100万トークン2ドル・出力10ドル</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-11/story-1/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-11/story-1/</guid>
+    <description>Googleは11月10日、同社で最も強力なモデルとする「Gemini 4 Carbon」を公開した。サイバーセキュリティと、知識業務・ソフトウェア開発・科学的推論にまたがる長い手順のエージェント作業に強いとしている。APIは有料の開発者と企業向けに提供し、料金は11月30日までは入力100万トークン2ドル・出力10ドル、その後は4ドル・20ドルになる。</description>
+  </item>
+  <item>
+    <title>OpenAI、企業がChatGPT上の自社情報を管理できる「Businesses in ChatGPT」をベータ公開　言及数などを確認でき、米国のEC・オンラインサービス企業には接客用の「Business Agent」</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-11/story-2/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-11/story-2/</guid>
+    <description>OpenAIは11月10日、企業がChatGPT上で自社を登録・管理できる「Businesses in ChatGPT」をベータ版で公開した。管理画面「Business Hub」で情報や商品データを更新し、ChatGPTでの言及数やサイトへのクリック数を確認できる。米国の条件を満たすEC・オンラインサービス企業は、利用者と会話する「Business Agent」も作れる。</description>
+  </item>
+  <item>
+    <title>Anthropic、Claudeに表計算「Claude Sheets」とホワイトボードを追加　AdobeやAtlassianのアプリをClaudeの中で使える「インタラクティブコネクタ」も、会議の記録は近日</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-11/story-3/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-11/story-3/</guid>
+    <description>Anthropicは11月10日、Claudeにチームで表計算を作る「Claude Sheets」とホワイトボード「Claude Whiteboards」を追加した。旧Dashboardsは「Claude Data」に改め、SnowflakeやSalesforceにつないで集計画面を作れる。提携企業のアプリをClaudeの画面に埋め込むインタラクティブコネクタも始め、通話に参加して記録する「Claude Meetings」は近日提供とした。</description>
+  </item>
+  <item>
+    <title>GoogleとAdobe、連携を拡大　GmailやGoogleドライブからAcrobatで直接編集できるように、Gemini EnterpriseではAdobeの業務エージェントも</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-11/story-4/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-11/story-4/</guid>
+    <description>Googleは11月10日、Adobeとの連携拡大を発表した。GoogleドライブとGmailからAdobe Acrobatへ直接進める入口を近く設けるほか、GeminiとGemini EnterpriseでAcrobatなどのコネクタを増やす。企業はAdobeの「CX Enterprise Coworker」エージェントをGemini Enterpriseで使えるようになり、Google DeepMindとはPhotoshop向けの画像モデルを検討する。</description>
+  </item>
+  <item>
+    <title>メルカリ、外部の商品データの変換をLLMとプロンプト生成エージェントで作り直す　連携件数は40倍以上、工数は約55%減、全項目正解率はルールベースの69.6%に対し85.2%</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-11/story-5/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-11/story-5/</guid>
+    <description>メルカリは11月10日、社外の事業者が持つ商品データを自社のカタログ形式に変換する仕組みを、LLMとAIエージェントを使う形に作り直したと公表した。Goで書いていた変換ルールを自然言語のプロンプトに置き換え、そのプロンプト作りもClaude Code上のエージェントに任せた。導入した四半期は6カテゴリーを連携し、件数は導入前の40倍以上、1カテゴリーあたりの工数は約55%減った。</description>
+  </item>
+  <item>
+    <title>LINEヤフー、AIエージェント「Agent i」のiOSアプリを提供開始　ウィジェットから音声や画像で話しかけ、登録した情報収集の完了を通知、Android版は順次</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-11/story-6/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-11/story-6/</guid>
+    <description>LINEヤフーは11月10日、AIエージェント「Agent i」のスマートフォン・タブレット向けiOSアプリを提供開始した。ホーム画面のウィジェットから新規チャットや画像・音声入力を始められ、登録したタスクが終わるとアプリが通知する。Android版は順次提供する予定。</description>
+  </item>
+  <item>
+    <title>Google DeepMind、AIエージェントでソフトウェアを形式検証する「AlphaProof Code」を発表　Signalの暗号プロトコルの実装を4週間で証明、Leanで600万行超</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-11/story-7/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-11/story-7/</guid>
+    <description>Google DeepMindは11月10日、人の専門家とAIエージェントを組み合わせてソフトウェアを形式検証する「AlphaProof Code」を発表した。人が何を証明するかを決め、Gemini Carbonで動くエージェントが証明を書く。メッセージアプリSignalの暗号プロトコルについて、端末で動くコンパイル済みのコードの安全性を4週間で証明したとしている。</description>
+  </item>
+  <item>
+    <title>OpenAIとUpwork、AIがフリーランスの仕事に与える影響を調査　ChatGPTでよく使われる作業はUpworkでの比率が下がる傾向、AI関連の案件は固定報酬の予算が大きく作業時間も長い</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-11/story-8/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-11/story-8/</guid>
+    <description>OpenAIは11月10日、フリーランスの仲介サイトUpworkと共同で、AIがフリーランスの仕事に与える影響の調査を公表した。ChatGPTで比較的よく使われる作業は、Upworkの募集に占める比率が下がる傾向があった。一方でAI関連の案件は、組み合わせる作業の種類が広がり、固定報酬の予算が大きく、作業時間も長かった。</description>
+  </item>
+  <item>
+    <title>Google Cloud、医療機関向けの「Gemini for healthcare」をプレビュー提供　電子カルテや請求システムをつなぎ、診療記録のまとめや事前承認の確認を人の監督のもとで進める</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-11/story-9/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-11/story-9/</guid>
+    <description>Google Cloudは11月10日、医療機関向けのAI「Gemini for healthcare」を発表し、まずプレビュー版として提供する。電子カルテ、請求システム、診療ガイドライン、メディケアのデータなどにつなぎ、診療記録のまとめや事前承認の確認といった複数の手順の作業を、決めた枠の中で人の監督のもとに進める。米国のHCA Healthcareなどが最初の提携先になる。</description>
+  </item>
+  <item>
+    <title>Meta、小型モデル「Muse Ember」を公開　コンテキスト100万トークン、入力100万トークン0.10ドル・出力0.50ドルでエージェントの繰り返し作業向け</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-11/story-10/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-11/story-10/</guid>
+    <description>Metaは11月9日、同社で最も小さいモデル「Muse Ember」を公開した。コンテキストは100万トークン、最大出力は51万2,000トークンで、テキスト・画像・音声・動画を扱う。20万トークンまでの入力なら料金は入力100万トークンあたり0.10ドル、出力0.50ドル。コーディングエージェント「Muse Code」とMeta Model APIのほか、Google CloudとOracle Cloudでも使える。</description>
+  </item>
+  <item>
     <title>Anthropic、「Claude Fable 5.2」と「Claude Mythos 5.2」を発表　出力は前版より最大30%速く、料金は入力100万トークン8ドル・出力40ドルに値下げ</title>
     <link>https://nowonair.vercel.app/articles/2026-11-10/story-1/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-10/story-1/</guid>
@@ -95,66 +155,6 @@
     <link>https://nowonair.vercel.app/articles/2026-11-09/story-7/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-09/story-7/</guid>
     <description>Vercelは11月6日、Chat SDKで作ったエージェントが、json-renderを使って表やグラフ、ボタンを含む画面（generative UI）をストリーミングで出せるようになったと発表した。エージェントが書いたJSONを、SlackやMicrosoft Teamsなど各サービスの形式のカードに変換して投稿する。</description>
-  </item>
-  <item>
-    <title>AWS、SageMakerの推論でNVIDIAのMulti-Instance GPUに対応　1つのGPUを最大7つに分けて複数のモデルを載せられる、A100・H100・RTX PRO Blackwellのインスタンスで</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-09/story-8/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-09/story-8/</guid>
-    <description>AWSは11月6日、Amazon SageMakerの推論がNVIDIAのMulti-Instance GPU（MIG）に対応したと発表した。1つの物理GPUをハードウェアで分けた区画に分け、複数のモデルを1つのGPUに載せられる。</description>
-  </item>
-  <item>
-    <title>NVIDIA、Black Forest Labsの「FLUX 3 Image Klein」をBlackwellで高速化する手法を公開　NVFP4だけで生成は最大1.62倍、最適化を重ねると単一B200で3.46倍</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-09/story-9/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-09/story-9/</guid>
-    <description>NVIDIAは11月6日、Black Forest Labsの画像生成・編集モデル「FLUX 3 Image Klein」を、Blackwell世代のGPUで速く動かす手法と結果を公開した。4ビットの数値形式NVFP4だけで、文章からの画像生成は最大1.62倍速くなったとしている。</description>
-  </item>
-  <item>
-    <title>Thinking Machines、「Inkling 2 Small」を発表　総594B・動作17BのMoEで画像入力に対応、まずTinkerで推論と追加学習</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-07/story-1/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-07/story-1/</guid>
-    <description>Thinking Machines Labは11月5日、第2世代のモデル「Inkling 2 Small」を発表した。総パラメータ594B、1トークンあたり動くのは17Bの混合エキスパート（MoE）型で、画像を入力でき、考える量（effort）を変えられる。まず同社の学習基盤「Tinker」で、推論と追加学習（ファインチューニング）向けに提供する。</description>
-  </item>
-  <item>
-    <title>METR、AnthropicでAIがAI開発を約2倍に加速していると評価　「早期警告の閾値を越えていた可能性はある」、根拠の多くはAnthropicが非公開に</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-07/story-2/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-07/story-2/</guid>
-    <description>AIの危険な能力を評価する非営利団体METRは11月5日、Anthropicの社内データを調べた独立評価を公開した。2026年10月時点で、Anthropicは明確に定義された課題でのモデルの能力を、2024年3月〜2025年10月の約2倍の速さで伸ばしている可能性が高く、その多くはAIを研究開発に使っていることによるとみる。同日公開の別レポートでは、Anthropicが8月に「越えていない」とした早期警告の閾値について、7月時点で越えていた可能性も「十分ありうる」とした。</description>
-  </item>
-  <item>
-    <title>Perplexity、継続する仕事を受け持つAIエージェント「Teammates」を提供　Maxプラン向けにウェブ版から、Slackのチャンネルで仕事の依頼も</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-07/story-3/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-07/story-3/</guid>
-    <description>Perplexityは11月4日、長く続く仕事を受け持つAIエージェント「Teammates」を発表した。仕事を計画して進め、結果を確認できる形で差し出す。まず最上位のMaxプランの利用者向けに、ウェブ版で提供を始めた。</description>
-  </item>
-  <item>
-    <title>Meta、AIエージェント「Muse」に自作の画面「Spaces」と音声対話を追加　話すだけで旅行計画や結婚式準備の専用ページを作成、音声は米国から</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-07/story-4/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-07/story-4/</guid>
-    <description>Metaは11月6日、AIエージェント「Muse」に、やりたいことを説明するだけで専用の画面を作れる「Spaces」を追加した。前日の5日には、Museとリアルタイムに話せる音声対話と、表情や身ぶりを返すアバターも発表している。音声はまず米国で、モバイル・Web・Macのアプリから提供する。</description>
-  </item>
-  <item>
-    <title>OpenAI、日常的な実験データをAIが正しく読めるかを測る「BioBasicsBench」を公開　100課題でGPT-6 Astraは66.7%、GPT-5.6 Solは43.8%</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-07/story-5/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-07/story-5/</guid>
-    <description>OpenAIは11月6日、生物系の実験室（ウェットラボ）での日常的なデータ分析を、AIエージェントがどこまで正しくこなせるかを測る評価「BioBasicsBench」を公開した。酵素設計のバイオ企業Ligoと共同で作り、ゲル画像や顕微鏡画像など生のデータを使う100課題で構成する。最も高いGPT-6 Astraでも得点は66.7%で、同社は「高い得点は、まだ実験室で信頼できる判断ができることを意味しない」としている。</description>
-  </item>
-  <item>
-    <title>日立、Kongとの協業でAIエージェントの接続管理を拡充　権限・ルール・利用料を一元統制、Kong製品のサポートサービスも開始</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-07/story-6/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-07/story-6/</guid>
-    <description>日立製作所は11月6日、Kongとの協業で「AIエージェント連携ソリューション」を拡充したと発表した。KongのAPI・AIゲートウェイ関連製品とOSSのKeycloakを組み合わせ、増え続けるAIエージェントの接続先を、利用者の権限の範囲内で安全かつ一元的に統制する。Kong製品のライセンスと支援窓口をまとめた「日立OSSサポートサービス for Kong」も始めた。</description>
-  </item>
-  <item>
-    <title>フィックスターズと国際調達情報、国内GPUサーバーで動くAI推論サービスを開始　まずDeepSeek-V4.1-Flash-1017をFastMetalのAPIで提供</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-07/story-7/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-07/story-7/</guid>
-    <description>フィックスターズは11月5日、AIゲートウェイ「FastMetal」を運営する国際調達情報と組み、国内のGPUサーバーで動く推論サービスを始めたと発表した。入力データはフィックスターズが国内に持つGPUサーバーでのみ処理するとしている。まずオープンウェイトモデル「DeepSeek-V4.1-Flash-1017」を提供する。</description>
-  </item>
-  <item>
-    <title>Amazon、Alexaにテキストメッセージで買い物を頼めるように　検索から購入、値下がり通知まで　米国の一部利用者に招待制で提供</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-07/story-8/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-07/story-8/</guid>
-    <description>Amazonは11月6日、AIの買い物アシスタント「Alexa for Shopping」に、スマートフォンのテキストメッセージで話しかけられる機能を追加した。商品の検索や比較、購入までをメッセージのやり取りで済ませられる。まず米国の一部の利用者に招待制で提供し、今後数週間で数百万人に広げる。</description>
   </item>
 </channel>
 </rss>

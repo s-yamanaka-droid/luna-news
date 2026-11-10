@@ -1,0 +1,798 @@
+[
+  {
+    "updated_at": "2026-11-11",
+    "verified_at": "2026-11-11",
+    "article_kind": "news",
+    "title": "Google、最上位モデル「Gemini 4 Carbon」を公開　長い手順のエージェント作業とサイバー防御向け、11月末までは入力100万トークン2ドル・出力10ドル",
+    "category": "新モデル発表",
+    "source": "Google",
+    "published_at": "2026-11-10",
+    "lede": "Googleは11月10日、同社で最も強力なモデルとする「Gemini 4 Carbon」を公開した。サイバーセキュリティと、知識業務・ソフトウェア開発・科学的推論にまたがる長い手順のエージェント作業に強いとしている。APIは有料の開発者と企業向けに提供し、料金は11月30日までは入力100万トークン2ドル・出力10ドル、その後は4ドル・20ドルになる。",
+    "links": [
+      "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+      "https://deepmind.google/blog/gemini-4-carbon-is-now-available/"
+    ],
+    "keypoints": [
+      "Google AI StudioとGemini for business経由で、有料の開発者・企業すべてに提供。Google AI Ultraの契約者にはGeminiアプリ、Antigravity、検索のAIモードで順次提供",
+      "料金は11月30日まで入力100万トークン2ドル・出力10ドル（Argonと同額）、以降は4ドル・20ドル",
+      "Googleは多くのソフト開発・知識業務ではArgonを引き続き推奨。Carbonは推論と検証により多くのトークンを使う",
+      "Googleの評価では、適応型の攻撃エージェントによる攻撃の99%を阻止。1回あたりの突破率はArgonの3.1%から0.8%に下がったとしている"
+    ],
+    "editorial_diagram": {
+      "kicker": "Googleの発表 / Gemini 4 Carbon",
+      "title": "Argonが普段使い、Carbonは長い仕事",
+      "lead": "Googleの発表文から、位置づけ・料金・安全性の数字を整理した。",
+      "examples": [
+        [
+          "長い手順の仕事向け",
+          "複数の手順にわたるコーディングやデバッグ、答えの決まっていない調査など、負荷の高い作業を想定する。多くの作業ではArgonを推奨している。"
+        ],
+        [
+          "料金は2段階",
+          "11月30日までは入力100万トークン2ドル・出力10ドル。12月以降は入力4ドル・出力20ドルになる。"
+        ],
+        [
+          "攻撃への強さ",
+          "Googleの評価では、適応型の攻撃エージェントの攻撃の99%を阻止し、1回あたりの突破率はArgonの3.1%から0.8%に下がった。"
+        ]
+      ],
+      "note": "Googleの発表（2026年11月10日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+      "wide": "/assets/illustrations/2026-11-11-story-1-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-11-11-story-1-diagram-mobile.webp",
+      "alt": "長い手順の仕事向け：複数の手順にわたるコーディングやデバッグ、答えの決まっていない調査など、負荷の高い作業を想定する。多くの作業ではArgonを推奨している。、料金は2段階：11月30日までは入力100万トークン2ドル・出力10ドル。12月以降は入力4ドル・出力20ドルになる。、攻撃への強さ：Googleの評価では、適応型の攻撃エージェントの攻撃の99%を阻止し、1回あたりの突破率はArgonの3"
+    },
+    "body": [
+      {
+        "heading": "何を発表したか",
+        "paragraphs": [
+          "Googleは11月10日、Gemini 4 Carbonを公開した。Google DeepMindのKoray Kavukcuoglu氏の名前で出た発表で、同社で最も強力なモデルと位置づける。サイバーセキュリティと、知識業務・ソフトウェア開発・科学的推論にまたがる長い手順のエージェント作業で最先端の性能を出すとしている。推論と検証により多くのトークンを使う設計で、Googleは多くのソフト開発や知識業務には引き続きArgonを勧めている。",
+          "APIはGoogle AI StudioとGemini for businessを通じて、有料の開発者と企業すべてに提供する。Google AI Ultraの契約者にはGoogle Antigravity、Geminiアプリ、検索のAIモードで順次提供し、開発者向けのAndroid Studio、企業向けのCodeMenderでも使える。料金は11月30日までの導入期間が入力100万トークン2ドル・出力10ドルで、その後は入力4ドル・出力20ドルになる。コンテキスト長は発表文に記載がなく未確認。"
+        ]
+      },
+      {
+        "heading": "評価と提供の条件",
+        "paragraphs": [
+          "Googleによると、CursorBench 4.0、PerplexityのWANDR、ZapierのAutomationBenchで1位となり、AutomationBenchでは次点の外部モデルより1課題あたりの費用が2倍以上安かった。安全面では、適応型の攻撃エージェントを使った模擬攻撃で攻撃の99%を阻止し、1回あたりの突破率はArgonの3.1%から0.8%に下がった。375課題の正直さの評価では92%の課題に合格し、Argonは70%だったという。",
+          "サイバー防御の担当者は「Fairwind Program」を通じて、サイバー用途向けのCarbonに随時申し込める。研究者向けには、ArgonとCarbonを6か月無料で使える枠の募集もあり、資格や受け入れ枠による選考がある。数値の多くはGoogle自身や提携先の評価で、第三者による検証は未確認。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜「導入期間の価格」で費用を見積もらない",
+        "paragraphs": [
+          "これは本誌の解釈だが、Carbonは推論と検証に多くのトークンを使うとGoogle自身が書いており、同じ作業でもArgonより消費量が増える可能性がある。さらに12月からは単価が2倍になるため、11月中の試算だけで導入を決めると費用を読み違えやすいとみる。",
+          "本誌は、Geminiを業務に使っている企業に、Carbonを試す作業を限定し、12月以降の単価とトークン消費量で月額を見積もってから広げることを勧める。これは本誌の提案で、Googleの推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "Carbonで試したい作業を、複数手順のコーディングや長い調査などに絞って書き出す",
+      "同じ作業をArgonとCarbonで流し、トークン消費量と結果を比べる",
+      "12月以降の単価（入力4ドル・出力20ドル）で月額を試算し、上限を決める"
+    ],
+    "service": "fde",
+    "pull": "試すなら11月、決めるのは12月の単価で。",
+    "hero_image": "/assets/illustrations/2026-11-11-story-1-cast.webp",
+    "hero_image_alt": "盾と作業工程が映るパソコンにラッコが驚き、猫が手を挙げ、アザラシが読書のふりで横目を向けている。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-11-11-story-1.png"
+  },
+  {
+    "updated_at": "2026-11-11",
+    "verified_at": "2026-11-11",
+    "article_kind": "news",
+    "title": "OpenAI、企業がChatGPT上の自社情報を管理できる「Businesses in ChatGPT」をベータ公開　言及数などを確認でき、米国のEC・オンラインサービス企業には接客用の「Business Agent」",
+    "category": "業界動向",
+    "source": "OpenAI",
+    "published_at": "2026-11-10",
+    "lede": "OpenAIは11月10日、企業がChatGPT上で自社を登録・管理できる「Businesses in ChatGPT」をベータ版で公開した。管理画面「Business Hub」で情報や商品データを更新し、ChatGPTでの言及数やサイトへのクリック数を確認できる。米国の条件を満たすEC・オンラインサービス企業は、利用者と会話する「Business Agent」も作れる。",
+    "links": [
+      "https://openai.com/index/introducing-businesses-chatgpt/"
+    ],
+    "keypoints": [
+      "Business Hubで自社を登録し、確認後に基本情報や、価格・在庫を含む商品データを自分で更新できる",
+      "ChatGPTでの言及数、サイトへのクリック数、自社サイトが引用された会話の話題を集計で確認できる。会話そのものは企業に渡さない",
+      "ChatGPTが使える地域の条件を満たす企業なら登録できる。Shopifyの店舗は管理画面から接続できる",
+      "Business Agentは米国の条件を満たすEC・オンラインサービス企業から。広告の遷移先にもでき、広告枠には表示が付く"
+    ],
+    "editorial_diagram": {
+      "kicker": "OpenAIの発表 / Businesses in ChatGPT",
+      "title": "ChatGPTの中に「自社の窓口」",
+      "lead": "OpenAIの発表文から、企業ができることを3つに整理した。",
+      "examples": [
+        [
+          "自社情報を自分で直す",
+          "Business Hubで自社を登録し、確認が済めば基本情報や、価格・在庫を含む商品データを更新できる。"
+        ],
+        [
+          "どう見られているかを知る",
+          "言及数、サイトへのクリック数、自社サイトが引用された会話の話題を、集計した形で確認できる。会話の中身は渡さない。"
+        ],
+        [
+          "会話する窓口を置く",
+          "米国の条件を満たすEC・オンラインサービス企業は、利用者の質問に答えるBusiness Agentを作り、公開できる。"
+        ]
+      ],
+      "note": "OpenAIの発表（2026年11月10日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://openai.com/index/introducing-businesses-chatgpt/",
+      "wide": "/assets/illustrations/2026-11-11-story-2-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-11-11-story-2-diagram-mobile.webp",
+      "alt": "自社情報を自分で直す：Business Hubで自社を登録し、確認が済めば基本情報や、価格・在庫を含む商品データを更新できる。、どう見られているかを知る：言及数、サイトへのクリック数、自社サイトが引用された会話の話題を、集計した形で確認できる。会話の中身は渡さない。、会話する窓口を置く：米国の条件を満たすEC・オンラインサービス企業は、利用者の質問に答えるBusiness Agentを作り、公開で"
+    },
+    "body": [
+      {
+        "heading": "何を発表したか",
+        "paragraphs": [
+          "OpenAIは11月10日、Businesses in ChatGPTをベータ版で公開した。週に12億人が使うというChatGPT上で、企業が自社の情報を管理するための仕組みだ。管理画面のBusiness Hubで自社を登録し、確認が済むと主要な情報を更新したり、価格や在庫を含む商品データを自分で追加したりできる。ChatGPTが使える地域にある条件を満たす企業なら登録でき、既存の法人顧客や広告主は担当者経由でも登録できる。Shopifyの店舗はBusiness HubかShopifyの管理画面から接続できる。",
+          "Business Hubでは、ChatGPTでの言及数やサイトへのクリック数、自社サイトが引用された会話に共通する話題を確認できる。OpenAIは、利用者の会話やBusiness Agentとのやり取りを企業には共有せず、集計値も一定の件数に達した場合だけ表示するとしている。"
+        ]
+      },
+      {
+        "heading": "接客用のBusiness Agent",
+        "paragraphs": [
+          "登録を済ませた企業のうち条件を満たすものは、利用者の質問に答えて商品やサービスを案内するBusiness Agentを作り、試し、公開できる。利用者がChatGPTの回答に出た企業のプロフィールを開き、会話を始める形で、元の会話とは分けて表示され、ChatGPT自身の回答とも区別される。企業はBusiness Agentを広告の遷移先にすることもでき、広告枠には広告である表示が付く。",
+          "Business Agentの提供は、米国の条件を満たすEC・オンラインサービス企業から始める。OpenAIは今後、対象の市場と業種を広げるとしているが、日本での提供時期や料金は発表文に記載がなく未確認。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜AIに「どう紹介されているか」を確かめる手段ができた",
+        "paragraphs": [
+          "これは本誌の解釈だが、AIの回答に自社がどう出ているかは、これまで企業側から確かめにくかった。言及数や引用された話題を見られる管理画面が公式に用意されたことで、検索対策と同じように、AI上の自社情報を定期的に点検する仕事が生まれるとみる。",
+          "本誌は、ChatGPT経由の問い合わせや来訪がある企業に、まず自社の基本情報と商品データが正しいかを確かめ、Business Hubに登録できるかを調べることを勧める。これは本誌の提案で、OpenAIの推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "ChatGPTで自社名や主力商品を聞き、回答の内容に誤りがないか確かめる",
+      "Business Hubに自社を登録できるか、条件を確認する",
+      "Shopifyを使っている場合は、商品データの接続方法を調べる"
+    ],
+    "service": "crm",
+    "pull": "AIに紹介される前提で、自社情報を整える。",
+    "hero_image": "/assets/illustrations/2026-11-11-story-2-cast.webp",
+    "hero_image_alt": "企業情報や商品、グラフが並ぶ画面に驚くラッコと指を差す猫、本を読むふりで横目を向けるアザラシ。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-11-11-story-2.png"
+  },
+  {
+    "updated_at": "2026-11-11",
+    "verified_at": "2026-11-11",
+    "article_kind": "news",
+    "title": "Anthropic、Claudeに表計算「Claude Sheets」とホワイトボードを追加　AdobeやAtlassianのアプリをClaudeの中で使える「インタラクティブコネクタ」も、会議の記録は近日",
+    "category": "ツール更新",
+    "source": "Anthropic",
+    "published_at": "2026-11-10",
+    "lede": "Anthropicは11月10日、Claudeにチームで表計算を作る「Claude Sheets」とホワイトボード「Claude Whiteboards」を追加した。旧Dashboardsは「Claude Data」に改め、SnowflakeやSalesforceにつないで集計画面を作れる。提携企業のアプリをClaudeの画面に埋め込むインタラクティブコネクタも始め、通話に参加して記録する「Claude Meetings」は近日提供とした。",
+    "links": [
+      "https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors",
+      "https://claude.com/resources/articles/interactive-connectors-full-tool"
+    ],
+    "keypoints": [
+      "Claude Sheetsは数式の作成・編集や複数タブにまたがる作業に対応。Whiteboardsは会議中に出した案をClaudeが要約する",
+      "Claude Data（旧Dashboards）はSnowflakeやSalesforceにつないで集計画面や説明付きの短い動画を作る。データチームが認定した定義の利用はベータ",
+      "インタラクティブコネクタでAdobeやAtlassianなどのアプリをClaudeの中で操作。Salesforce（ベータ）、NetSuite、Workday（ベータ）のプラグインも",
+      "Enterpriseでは製品・コネクタごとの利用者と支出上限を管理者が設定でき、コネクタの操作も「読むだけ」などに絞れる"
+    ],
+    "editorial_diagram": {
+      "kicker": "Anthropicの発表 / Claude Sheets・Whiteboards・コネクタ",
+      "title": "Claudeの中で仕事を終わらせる",
+      "lead": "Anthropicの発表文から、新しく加わった道具と管理の仕組みを整理した。",
+      "examples": [
+        [
+          "表とホワイトボード",
+          "Claude Sheetsでは数式や複数タブを含む表をチームとClaudeで作る。Whiteboardsでは会議中に出した案をClaudeが要約する。"
+        ],
+        [
+          "他社アプリを中で使う",
+          "インタラクティブコネクタで、AdobeやAtlassianなどのアプリをタブを切り替えずにClaudeの中で操作できる。"
+        ],
+        [
+          "管理者が範囲を決める",
+          "Enterpriseでは製品やコネクタごとに使える人と支出上限を設定でき、Slackは読むだけ、のように操作も絞れる。"
+        ]
+      ],
+      "note": "Anthropicの発表（2026年11月10日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors",
+      "wide": "/assets/illustrations/2026-11-11-story-3-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-11-11-story-3-diagram-mobile.webp",
+      "alt": "表とホワイトボード：Claude Sheetsでは数式や複数タブを含む表をチームとClaudeで作る。Whiteboardsでは会議中に出した案をClaudeが要約する。、他社アプリを中で使う：インタラクティブコネクタで、AdobeやAtlassianなどのアプリをタブを切り替えずにClaudeの中で操作できる。、管理者が範囲を決める：Enterpriseでは製品やコネクタごとに使える人と支出上限"
+    },
+    "body": [
+      {
+        "heading": "何を発表したか",
+        "paragraphs": [
+          "Anthropicは11月10日、Claudeで共同作業をするための機能を発表した。Claude Sheetsでは、チームとClaudeで表計算を作り、データを整理し、数式を作成・編集し、複数のタブにまたがって作業できる。Claude Whiteboardsは会議中にチームで案を並べ、Claudeに結果を要約させるホワイトボードだ。旧Dashboardsは名前をClaude Dataに改め、SnowflakeやSalesforceなどにつないで集計画面や、ナレーション付きの短い動画を作れる。データチームが認定した指標の定義を使う機能はベータ版。",
+          "提携企業が自社のアプリをClaudeの中に埋め込めるインタラクティブコネクタも始めた。利用者はタブを切り替えずにAdobeやAtlassianなどのアプリを操作できる。Salesforce（ベータ）、NetSuite、Workday（ベータ）のプラグインには、商談の準備、財務データの分析、休暇や経費の手続きといった技能が組み込まれている。Claudeが通話に参加して記録を取り、会話中にチームの文書を更新するClaude Meetingsは近日提供としており、時期は未確認。"
+        ]
+      },
+      {
+        "heading": "企業向けの管理",
+        "paragraphs": [
+          "Enterpriseプランでは、管理者がどの製品やコネクタを誰に使わせるかを選び、細かい支出上限を設定できる。コネクタごとに、たとえばSlackは読むだけで送信はさせない、といった制限もかけられる。ベータ版のClaude auto-connectでは、対象のTeam・Enterpriseプランの管理者がNotionやAtlassian、Dropboxなどを一度設定すれば、社員は初めて使うときに接続できる。",
+          "監査ログとCompliance APIはSplunkやCrowdStrikeなど100以上のセキュリティ・コンプライアンスツールと連携し、クラウド上の各セッションは独立した仮想マシンで動き、コネクタの認証情報はその外に置くという。Claude Marketplaceには9,000以上のコネクタとプラグインがあるとしている。各機能の対象プランや日本での提供状況は、発表文では確認できず未確認。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜道具が増えるほど「誰に何を許すか」が先",
+        "paragraphs": [
+          "これは本誌の解釈だが、表計算や他社アプリがClaudeの中で使えるようになると、AIが触れるデータの範囲は一気に広がる。今回の発表で、支出上限やコネクタごとの操作制限が同時に示された点は、導入する企業側にも同じ準備を求めているとみる。",
+          "本誌は、Claudeを全社で使い始めている企業に、つなぐサービスごとに「読むだけ」「書き込みも可」を決めてから接続を広げることを勧める。これは本誌の提案で、Anthropicの推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "Claudeにつないでいる、またはつなぎたい社内サービスを一覧にする",
+      "サービスごとに、AIに許す操作（読むだけ・書き込みも可）を決める",
+      "Enterpriseプランの場合は、製品ごとの利用者と支出上限の設定を確認する"
+    ],
+    "service": "luna",
+    "pull": "つなぐ前に、許す範囲を決めておく。",
+    "hero_image": "/assets/illustrations/2026-11-11-story-3-cast.webp",
+    "hero_image_alt": "表計算画面に驚く眼鏡のラッコと首をかしげる茶トラ猫、本を読みながら横目で二匹をうかがうアザラシ。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-11-11-story-3.png"
+  },
+  {
+    "updated_at": "2026-11-11",
+    "verified_at": "2026-11-11",
+    "article_kind": "news",
+    "title": "GoogleとAdobe、連携を拡大　GmailやGoogleドライブからAcrobatで直接編集できるように、Gemini EnterpriseではAdobeの業務エージェントも",
+    "category": "ツール更新",
+    "source": "Google",
+    "published_at": "2026-11-10",
+    "lede": "Googleは11月10日、Adobeとの連携拡大を発表した。GoogleドライブとGmailからAdobe Acrobatへ直接進める入口を近く設けるほか、GeminiとGemini EnterpriseでAcrobatなどのコネクタを増やす。企業はAdobeの「CX Enterprise Coworker」エージェントをGemini Enterpriseで使えるようになり、Google DeepMindとはPhotoshop向けの画像モデルを検討する。",
+    "links": [
+      "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/"
+    ],
+    "keypoints": [
+      "GoogleドライブとGmailにAcrobatがおすすめアプリとして表示され、ファイルのプレビューに「Edit with」の項目が付く（近日）",
+      "GeminiとGemini EnterpriseでAcrobatや制作ツールのコネクタを拡充。検索のAIモードにもAdobeの制作ツールを入れる",
+      "Gemini EnterpriseでAdobeの「CX Enterprise Coworker」エージェントを使い、デザイン、PDF、マーケティングの作業を進められるように",
+      "Google DeepMindとAdobeはPhotoshop向けの画像モデルを検討。ほぼリアルタイムの編集を目指すが、時期は示していない"
+    ],
+    "editorial_diagram": {
+      "kicker": "Googleの発表 / Adobeとの連携拡大",
+      "title": "いつもの画面から、Adobeへ",
+      "lead": "Googleの発表文から、連携が増える3つの場所を整理した。",
+      "examples": [
+        [
+          "GmailとドライブからAcrobat",
+          "添付やドライブのPDFを開くと、Acrobatがおすすめのアプリとして出て、そのまま編集に進める入口が近く加わる。"
+        ],
+        [
+          "Geminiのコネクタ",
+          "GeminiとGemini Enterpriseで、Acrobatや制作ツールのコネクタを増やす。検索のAIモードにも制作ツールを入れる。"
+        ],
+        [
+          "業務エージェント",
+          "企業はAdobeのCX Enterprise CoworkerをGemini Enterpriseで使い、デザイン、PDF、マーケティングの作業を任せられる。"
+        ]
+      ],
+      "note": "Googleの発表（2026年11月10日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
+      "wide": "/assets/illustrations/2026-11-11-story-4-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-11-11-story-4-diagram-mobile.webp",
+      "alt": "GmailとドライブからAcrobat：添付やドライブのPDFを開くと、Acrobatがおすすめのアプリとして出て、そのまま編集に進める入口が近く加わる。、Geminiのコネクタ：GeminiとGemini Enterpriseで、Acrobatや制作ツールのコネクタを増やす。検索のAIモードにも制作ツールを入れる。、業務エージェント：企業はAdobeのCX Enterprise Coworker"
+    },
+    "body": [
+      {
+        "heading": "何を発表したか",
+        "paragraphs": [
+          "Googleは11月10日、Adobeとの連携を広げると発表した。GoogleドライブとGmailからAdobe Acrobatへ直接進める入口を近く用意する。両サービスでAcrobatがおすすめのアプリとして表示され、ファイルのプレビューには「Edit with」の項目が付く。Adobeは、GeminiとGemini EnterpriseのコネクタにAcrobatや制作ツールを加え、Google検索のAIモードにも制作ツールを持ち込む。",
+          "企業向けには、AdobeのCX Enterprise CoworkerエージェントをGemini Enterpriseで使えるようにし、デザイン、PDF、マーケティングの作業に充てられるとしている。AdobeとGoogle DeepMindは、Photoshop向けの画像モデルから新しい編集機能を検討し、ほぼリアルタイムの編集を目指す。"
+        ]
+      },
+      {
+        "heading": "提供の時期と条件",
+        "paragraphs": [
+          "発表文に具体的な提供日、対象地域、必要なプランは書かれていない。ドライブとGmailの入口は「近く」、Gemini Enterpriseのエージェントは「使えるようになる」という表現にとどまり、DeepMindとの画像モデルは検討段階で時期の記載はない。日本での提供状況や、Acrobatの有料契約が必要かどうかは未確認。",
+          "AdobeとGoogleは2025年10月にGoogle Cloudでの提携拡大を、2026年9月にはAdobeの制作ツールをGeminiに入れることを発表しており、今回はその延長にあたる。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜PDF作業の「入口」がGoogle側に移る",
+        "paragraphs": [
+          "これは本誌の解釈だが、GmailやドライブのファイルからそのままAcrobatへ進めるようになると、社内のPDF作業がどのアカウント、どの契約で行われるかが見えにくくなる。便利さの裏で、社外秘の書類が個人の契約のAdobeで開かれる、といった事態も起こりうるとみる。",
+          "本誌は、Google WorkspaceとAdobeの両方を使っている企業に、業務のPDFをどの契約のAcrobatで編集するかを決め、提供が始まったら管理画面で入口の表示を確かめることを勧める。これは本誌の提案で、GoogleやAdobeの推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "社内でPDFの編集に使っているツールと契約を確認する",
+      "Gemini Enterpriseを使っている場合は、Adobeのコネクタやエージェントを許可するか方針を決める",
+      "提供開始後、Gmailとドライブでの表示と、どのアカウントで開かれるかを確かめる"
+    ],
+    "service": "luna",
+    "pull": "入口が増えたら、どの契約で開くかを決める。",
+    "hero_image": "/assets/illustrations/2026-11-11-story-4-cast.webp",
+    "hero_image_alt": "書類編集の連携を示すパソコンに驚くラッコと、首をかしげる猫、本を読みながら聞き耳を立てるアザラシ。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-11-11-story-4.png"
+  },
+  {
+    "updated_at": "2026-11-11",
+    "verified_at": "2026-11-11",
+    "article_kind": "news",
+    "title": "メルカリ、外部の商品データの変換をLLMとプロンプト生成エージェントで作り直す　連携件数は40倍以上、工数は約55%減、全項目正解率はルールベースの69.6%に対し85.2%",
+    "category": "業界動向",
+    "source": "メルカリ",
+    "published_at": "2026-11-10",
+    "lede": "メルカリは11月10日、社外の事業者が持つ商品データを自社のカタログ形式に変換する仕組みを、LLMとAIエージェントを使う形に作り直したと公表した。Goで書いていた変換ルールを自然言語のプロンプトに置き換え、そのプロンプト作りもClaude Code上のエージェントに任せた。導入した四半期は6カテゴリーを連携し、件数は導入前の40倍以上、1カテゴリーあたりの工数は約55%減った。",
+    "links": [
+      "https://engineering.mercari.com/blog/entry/20261110-ai-native-catalog-construction/"
+    ],
+    "keypoints": [
+      "従来は仕様書をもとにエンジニアがGoで変換ルールを実装し、1四半期に1カテゴリーの連携が限界だった",
+      "変換ルールを自然言語のプロンプトにし、Markdownで管理。カタログの担当者がエンジニアを介さず直せる",
+      "プロンプトはClaude Code上のAgent Skillsとして作ったエージェントが、データの調査から数百件での評価まで行う",
+      "ポケモンカード1,000件の評価で、全項目正解率はルールベース69.6%、本番のgpt-5.4-miniで85.2%、gpt-5.6で98.7%"
+    ],
+    "editorial_diagram": {
+      "kicker": "メルカリの公表 / 商品カタログ連携",
+      "title": "仕様書とコードから、プロンプトへ",
+      "lead": "メルカリのエンジニアリングブログから、変えたことと成果を整理した。",
+      "examples": [
+        [
+          "ルールを言葉で書く",
+          "Goで実装していた変換ルールを自然言語のプロンプトに置き換えた。表記の違いはLLMが文脈から読み取る。"
+        ],
+        [
+          "プロンプトもエージェントが作る",
+          "Claude Code上のエージェントがデータを調べ、プロンプトを書き、数百件で試して直す。担当者だけで回せる。"
+        ],
+        [
+          "成果",
+          "導入した四半期は6カテゴリーを連携し、件数は40倍以上に。1カテゴリーあたりの工数は約55%減った。"
+        ]
+      ],
+      "note": "メルカリの公表（2026年11月10日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://engineering.mercari.com/blog/entry/20261110-ai-native-catalog-construction/",
+      "wide": "/assets/illustrations/2026-11-11-story-5-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-11-11-story-5-diagram-mobile.webp",
+      "alt": "ルールを言葉で書く：Goで実装していた変換ルールを自然言語のプロンプトに置き換えた。表記の違いはLLMが文脈から読み取る。、プロンプトもエージェントが作る：Claude Code上のエージェントがデータを調べ、プロンプトを書き、数百件で試して直す。担当者だけで回せる。、成果：導入した四半期は6カテゴリーを連携し、件数は40倍以上に。1カテゴリーあたりの工数は約55%減った。"
+    },
+    "body": [
+      {
+        "heading": "何を作り直したか",
+        "paragraphs": [
+          "メルカリのProduct Data Teamは11月10日、エンジニアリングブログで商品カタログ連携の取り組みを公表した。社外の小売店やデータ提供事業者が持つ商品データは、そのままではメルカリのカタログに使えず、カード名やレアリティを文章から抜き出すといった変換が要る。従来はカタログの担当者が仕様書を書き、エンジニアがGoのバッチに実装していたが、表記の違いのたびにルールが増え、1四半期に1カテゴリー分の連携が限界だった。",
+          "新しい仕組みでは、変換ルールを自然言語のプロンプトとして書き、LLMに外部データの1件ずつを変換させる。プロンプトはMarkdownのファイルとして置くだけで、担当者がエンジニアを介さず直せる。プロンプト自体は、Claude Code上で使うAgent Skillsとして作ったエージェントが、BigQuery上のデータの調査、プロンプトと出力スキーマの作成、数百件での評価と修正まで、担当者と対話しながら進める。"
+        ]
+      },
+      {
+        "heading": "品質の守り方と成果",
+        "paragraphs": [
+          "誤変換への備えとして、出力の型をJSON Schemaで縛るStructured Outputsを使い、既存商品の重複判定など揺れると困る処理はコードで書く。登録後のデータは定期的に確かめ、誤りは手で直したうえで原因のプロンプトを直す運用にしている。ポケモンカード1,000件を15項目の完全一致で採点した評価では、全項目正解率がルールベースの69.6%に対し、本番で使うgpt-5.4-miniで85.2%、gpt-5.6で98.7%だった。プロンプトの調整に使ったエージェントのモデルはClaude Opus 5.5。",
+          "導入した四半期は、ほぼ同じ人数で6カテゴリーを連携し、連携件数は導入前の40倍以上になった。新しいカテゴリー1つを連携する工数は約55%減った。LLMの利用料は新たにかかるが、1件あたりではごくわずかだとしており、具体的な金額は未確認。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜作業ではなく「往復」をなくした事例",
+        "paragraphs": [
+          "これは本誌の解釈だが、この事例で効いているのは変換の速さより、業務に詳しい担当者が自分でルールを直せるようになった点だ。仕様書を書いてエンジニアに渡し、実装を待つという往復そのものがなくなったことが、件数40倍につながったとみる。",
+          "本誌は、表記ゆれの多いデータを手作業やルールで整えている企業に、まずルールを文章で書き出し、数百件の正解データでAIの変換と比べてみることを勧める。これは本誌の提案で、メルカリの推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "社内で、ルールやマクロでデータを整えている作業を洗い出す",
+      "その作業の正解データを数百件用意し、AIの変換と正解率を比べる",
+      "誤りを見つけたときに、誰がどこを直すかの手順を決める"
+    ],
+    "service": "fde",
+    "pull": "ルールを書く人が、自分で直せるようにする。",
+    "hero_image": "/assets/illustrations/2026-11-11-story-5-cast.webp",
+    "hero_image_alt": "商品データが整列する画面に驚くラッコと、首をかしげる猫、読書しながら横目で様子をうかがうアザラシ。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-11-11-story-5.png"
+  },
+  {
+    "updated_at": "2026-11-11",
+    "verified_at": "2026-11-11",
+    "article_kind": "news",
+    "title": "LINEヤフー、AIエージェント「Agent i」のiOSアプリを提供開始　ウィジェットから音声や画像で話しかけ、登録した情報収集の完了を通知、Android版は順次",
+    "category": "ツール更新",
+    "source": "LINEヤフー",
+    "published_at": "2026-11-10",
+    "lede": "LINEヤフーは11月10日、AIエージェント「Agent i」のスマートフォン・タブレット向けiOSアプリを提供開始した。ホーム画面のウィジェットから新規チャットや画像・音声入力を始められ、登録したタスクが終わるとアプリが通知する。Android版は順次提供する予定。",
+    "links": [
+      "https://www.lycorp.co.jp/ja/news/release/020972/",
+      "https://internet.watch.impress.co.jp/docs/news/2155270.html"
+    ],
+    "keypoints": [
+      "iOS版のスマートフォン・タブレット向けアプリをApp Storeで提供。Android版は順次提供予定で、時期は示していない",
+      "ホーム画面からワンタップで起動。ウィジェットから新規チャット、画像入力、音声入力をすぐに始められる",
+      "タスク機能と通知が連携し、完了をトップ画面で知らせ、未読ならアプリから通知する",
+      "LINEアカウントかYahoo! JAPAN IDでログイン。Agent iは2026年4月に始まり、領域エージェントはベータ版を含め累計40領域"
+    ],
+    "editorial_diagram": {
+      "kicker": "LINEヤフーの発表 / Agent iアプリ",
+      "title": "頼んだ調べものが、終わったら届く",
+      "lead": "LINEヤフーの発表文から、アプリで変わることを整理した。",
+      "examples": [
+        [
+          "すぐ話しかける",
+          "ホーム画面のウィジェットから、新規チャット、画像入力、音声入力をすぐに始められる。"
+        ],
+        [
+          "終わったら知らせる",
+          "登録したタスクが終わると、トップ画面で知らせ、未読のときはアプリから通知する。"
+        ],
+        [
+          "まずiOSから",
+          "iOSのスマートフォン・タブレット版から提供し、Android版は順次提供する予定。"
+        ]
+      ],
+      "note": "LINEヤフーの発表（2026年11月10日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://www.lycorp.co.jp/ja/news/release/020972/",
+      "wide": "/assets/illustrations/2026-11-11-story-6-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-11-11-story-6-diagram-mobile.webp",
+      "alt": "すぐ話しかける：ホーム画面のウィジェットから、新規チャット、画像入力、音声入力をすぐに始められる。、終わったら知らせる：登録したタスクが終わると、トップ画面で知らせ、未読のときはアプリから通知する。、まずiOSから：iOSのスマートフォン・タブレット版から提供し、Android版は順次提供する予定。"
+    },
+    "body": [
+      {
+        "heading": "何を発表したか",
+        "paragraphs": [
+          "LINEヤフーは11月10日、AIエージェント「Agent i」のスマートフォン・タブレット向けアプリ（iOS版）の提供を始めた。ホーム画面からワンタップで起動でき、ウィジェットからは新規チャット、画像入力、音声入力をすぐに始められる。Android版は順次提供する予定で、時期は示していない。",
+          "アプリはAgent iのタスク機能と通知が連携する。登録したキーワードの最新情報や値下がり、イベント開催などを届けるタスクが終わると、トップ画面で知らせ、未読の場合はアプリから通知する。ログインはLINEアカウントかYahoo! JAPAN IDで、ログインしなくても一部の機能は使える。"
+        ]
+      },
+      {
+        "heading": "Agent iの位置づけ",
+        "paragraphs": [
+          "Agent iは2026年4月に提供が始まったAIエージェントで、分野ごとの「領域エージェント」はベータ版を含めて累計40領域になった。9月24日には、好きなアーティストやキャラクターのイベント、チケット、グッズの情報を整理する「推し活」を加えている。",
+          "料金や利用者数は発表文に記載がなく未確認。法人の業務で使うことを想定した機能や管理の仕組みについても、今回の発表では触れていない。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜「待っていれば届く」AIが日常のアプリに",
+        "paragraphs": [
+          "これは本誌の解釈だが、頼んだ調べものの完了を通知で受け取る使い方が、LINEやYahoo! JAPANの利用者に広がると、AIに仕事を「預けて待つ」感覚が一般の人にも当たり前になる。顧客が情報を受け取る経路が、検索からエージェントの通知へ少しずつ移るとみる。",
+          "本誌は、新商品や値下げ、イベントの情報を発信している企業に、自社の情報がこうしたエージェントに拾われやすい形で公開されているかを確かめることを勧める。これは本誌の提案で、LINEヤフーの推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "Agent iに自社の商品名やイベント名でタスクを登録し、どう届くかを試す",
+      "価格や開催日などの情報が、自社サイトで最新の状態になっているか確認する",
+      "社員が業務でAgent iを使う場合のルール（入力してよい情報）を決める"
+    ],
+    "service": "crm",
+    "pull": "顧客は、検索せずに通知で知るようになる。",
+    "hero_image": "/assets/illustrations/2026-11-11-story-6-cast.webp",
+    "hero_image_alt": "スマホの通知に驚く眼鏡のラッコに猫が問いかけ、本を読むアザラシが横目で様子をうかがう。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-11-11-story-6.png"
+  },
+  {
+    "updated_at": "2026-11-11",
+    "verified_at": "2026-11-11",
+    "article_kind": "news",
+    "title": "Google DeepMind、AIエージェントでソフトウェアを形式検証する「AlphaProof Code」を発表　Signalの暗号プロトコルの実装を4週間で証明、Leanで600万行超",
+    "category": "研究",
+    "source": "Google DeepMind",
+    "published_at": "2026-11-10",
+    "lede": "Google DeepMindは11月10日、人の専門家とAIエージェントを組み合わせてソフトウェアを形式検証する「AlphaProof Code」を発表した。人が何を証明するかを決め、Gemini Carbonで動くエージェントが証明を書く。メッセージアプリSignalの暗号プロトコルについて、端末で動くコンパイル済みのコードの安全性を4週間で証明したとしている。",
+    "links": [
+      "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "https://google-deepmind.github.io/code-verification"
+    ],
+    "keypoints": [
+      "人の専門家が証明する性質を決め、複数のモデルで下書きした仕様を一つずつ確認。証明はGemini Carbonのエージェントが書く",
+      "対象はSignalの暗号プロトコルの、端末で動くコンパイル済みのコード。端末が一時的に乗っ取られた前後でもメッセージが守られる性質などを証明",
+      "エージェントは証明言語Leanで600万行以上を生成。人が詳しく見るべき部分として約1%を示し、残りはLeanが自動で確認",
+      "過去に修正済みの不具合2件を隔離した複製に戻すと、2件とも安全でないことを機械で確かめられる証明を出した"
+    ],
+    "editorial_diagram": {
+      "kicker": "Google DeepMindの発表 / AlphaProof Code",
+      "title": "人が「何を」、AIが「どう」証明するか",
+      "lead": "Google DeepMindの発表文から、分担と結果を整理した。",
+      "examples": [
+        [
+          "人が決める",
+          "専門家が証明すべき性質を決め、複数のモデルで下書きした形式的な仕様を一つずつ確認する。"
+        ],
+        [
+          "AIが証明する",
+          "Gemini Carbonで動くエージェントがLeanで600万行以上の証明を書き、約1%だけを人の確認に回した。"
+        ],
+        [
+          "4週間で",
+          "Signalの暗号プロトコルの実装を4週間で検証した。専門チームなら何年もかかってきた作業だとしている。"
+        ]
+      ],
+      "note": "Google DeepMindの発表（2026年11月10日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "wide": "/assets/illustrations/2026-11-11-story-7-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-11-11-story-7-diagram-mobile.webp",
+      "alt": "人が決める：専門家が証明すべき性質を決め、複数のモデルで下書きした形式的な仕様を一つずつ確認する。、AIが証明する：Gemini Carbonで動くエージェントがLeanで600万行以上の証明を書き、約1%だけを人の確認に回した。、4週間で：Signalの暗号プロトコルの実装を4週間で検証した。専門チームなら何年もかかってきた作業だとしている。"
+    },
+    "body": [
+      {
+        "heading": "何を発表したか",
+        "paragraphs": [
+          "Google DeepMindは11月10日、人の専門家とAIエージェントを組み合わせてソフトウェアを形式検証する枠組み「AlphaProof Code」を発表した。形式検証は、プログラムが決めた性質を必ず満たすことを数学的に証明する手法だ。人が何を証明するかを決め、複数のモデルで形式的な仕様を下書きして専門家が一つずつ確認し、Gemini Carbonで動くエージェントが証明を書く。",
+          "最初の対象は、数十億の私的な会話を守るとされるメッセージアプリSignalの暗号プロトコルだ。端末が一時的に乗っ取られた前後でもメッセージが守られるといった主要な安全性を、設計ではなく端末で実際に動くコンパイル済みのコードについて証明した。エージェントは証明言語Leanで600万行以上を生成し、人が詳しく確かめるべき部分としてコードの約1%を示した。残りはLeanが自動で確かめる。作業は4週間で、専門家のチームなら何年もかかってきたとしている。"
+        ]
+      },
+      {
+        "heading": "確かめ方と公開範囲",
+        "paragraphs": [
+          "正しいコードと不具合のあるコードを見分けられるかを試すため、チームは過去に修正済みの不具合2件を、隔離したSignalのコードの複製に戻した。どちらの場合も、不具合のある版が安全でないことを機械で確かめられる証明を出したという。本番のコードで新しい不具合が見つかったとの記載はない。",
+          "検証で作った成果物はgoogle-deepmind.github.io/code-verificationでオープンソースとして公開する。AlphaProof Code自体を外部が使える提供の予定は発表文に記載がなく未確認。今回はSignalの中核の暗号部分が対象で、規模を広げるには研究を続ける必要があるとしている。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜「AIが書いたコードをAIが証明する」入口",
+        "paragraphs": [
+          "これは本誌の解釈だが、AIでコードを書く量が増えるほど、その正しさを人が読んで確かめる手間がボトルネックになる。何を証明するかは人が決め、証明の大部分をAIに任せるという今回の分担は、検証の手間を減らす現実的な方向を示しているとみる。",
+          "本誌は、決済や認証などの重要なコードを持つ企業に、今すぐ形式検証を導入するのではなく、「必ず守るべき性質」を文章で書き出しておくことを勧める。これは本誌の提案で、Google DeepMindの推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "自社のシステムで、絶対に破れてはいけない性質（二重決済しない等）を書き出す",
+      "その性質を、今はテストやレビューでどう確かめているかを整理する",
+      "公開された検証の成果物を開発担当に共有し、使える場面がないか検討する"
+    ],
+    "service": "fde",
+    "pull": "何を守るかは人が決め、証明はAIが書く。",
+    "hero_image": "/assets/illustrations/2026-11-11-story-7-cast.webp",
+    "hero_image_alt": "暗号の安全性を示す画面に驚くラッコと、首をかしげる猫、読書を装い横目で聞くアザラシ。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-11-11-story-7.png"
+  },
+  {
+    "updated_at": "2026-11-11",
+    "verified_at": "2026-11-11",
+    "article_kind": "news",
+    "title": "OpenAIとUpwork、AIがフリーランスの仕事に与える影響を調査　ChatGPTでよく使われる作業はUpworkでの比率が下がる傾向、AI関連の案件は固定報酬の予算が大きく作業時間も長い",
+    "category": "研究",
+    "source": "OpenAI",
+    "published_at": "2026-11-10",
+    "lede": "OpenAIは11月10日、フリーランスの仲介サイトUpworkと共同で、AIがフリーランスの仕事に与える影響の調査を公表した。ChatGPTで比較的よく使われる作業は、Upworkの募集に占める比率が下がる傾向があった。一方でAI関連の案件は、組み合わせる作業の種類が広がり、固定報酬の予算が大きく、作業時間も長かった。",
+    "links": [
+      "https://openai.com/index/ai-effect-on-freelance-work/",
+      "https://cdn.openai.com/pdf/openai-upwork-full-report.pdf"
+    ],
+    "keypoints": [
+      "分析した63の仕事の分類のうち43で、ChatGPTでよく使われる作業ほどUpworkでの比率が下がった。残り20は逆の傾向",
+      "AI関連の募集に含まれる作業の多様さは2023年初めから2025年末に45%増。等しく出る作業が約15種類から約21種類になった規模",
+      "時給の提示額はAI関連とそれ以外で同程度だが、AI関連は固定報酬の予算が大きく、作業時間も長い",
+      "OpenAIは、単純にAIが人の仕事を置き換えているという結果ではないとしている"
+    ],
+    "editorial_diagram": {
+      "kicker": "OpenAIとUpworkの調査 / フリーランスの仕事",
+      "title": "減る作業と、束ね直される仕事",
+      "lead": "OpenAIの発表文から、調査で分かったことを3つに整理した。",
+      "examples": [
+        [
+          "よく使われる作業は比率が下がる",
+          "63分類のうち43で、ChatGPTでよく使われる作業ほどUpworkの募集での比率が下がった。残り20は逆だった。"
+        ],
+        [
+          "作業の組み合わせが広がる",
+          "AI関連の募集に含まれる作業の多様さは45%増えた。AI動画、編集、モーショングラフィックスを1件で頼む例もある。"
+        ],
+        [
+          "予算は大きく、時間は長い",
+          "時給は同程度だが、AI関連の案件は固定報酬の予算が大きく、作業時間も長かった。"
+        ]
+      ],
+      "note": "OpenAIの発表（2026年11月10日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://openai.com/index/ai-effect-on-freelance-work/",
+      "wide": "/assets/illustrations/2026-11-11-story-8-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-11-11-story-8-diagram-mobile.webp",
+      "alt": "よく使われる作業は比率が下がる：63分類のうち43で、ChatGPTでよく使われる作業ほどUpworkの募集での比率が下がった。残り20は逆だった。、作業の組み合わせが広がる：AI関連の募集に含まれる作業の多様さは45%増えた。AI動画、編集、モーショングラフィックスを1件で頼む例もある。、予算は大きく、時間は長い：時給は同程度だが、AI関連の案件は固定報酬の予算が大きく、作業時間も長かった。"
+    },
+    "body": [
+      {
+        "heading": "何を調べたか",
+        "paragraphs": [
+          "OpenAIは11月10日、経済調査チームの連載「Work at the Frontier」の一つとして、Upworkと共同で行ったフリーランスの仕事の調査を公表した。Upworkの募集の内容と、人々がChatGPTで直接行っている作業を突き合わせている。Upworkの2026年の調査では、米国の熟練した知識労働者の38%がフリーランスとして働いているという。",
+          "分析した63の仕事の分類のうち43では、ChatGPTで比較的よく使われる作業ほど、Upworkの募集に占める比率が下がり、あまり使われない作業は比率が上がった。残り20の分類は逆の傾向で、OpenAIはChatGPTの利用だけでフリーランスの需要の変化は説明できないとしている。文章の作成はChatGPTの利用で大きな比率を占め、動画やアニメーションはUpworkの募集で大きな比率を占めた。"
+        ]
+      },
+      {
+        "heading": "AI関連の案件の特徴",
+        "paragraphs": [
+          "2025年末までに、チャットボットの開発、動画制作、マーケティングの自動化、アプリの連携など、より多くの種類の仕事でAIの活用を求める募集が出た。AI関連の募集に含まれる作業の多様さは、2023年初めから2025年末にかけて45%増え、等しく出る作業が約15種類から約21種類に増えた規模にあたる。AI動画、編集、モーショングラフィックスを1件の募集でまとめて頼む例もあった。",
+          "時給の提示額はAI関連とそれ以外で同程度だったが、AI関連の案件は固定報酬の予算が大きく、作業時間も長かった。OpenAIは、予算の大きさは仕事の範囲が広いことを一部反映している可能性があるとし、単純な置き換えの話ではないと結論づけている。データは米国中心のUpworkのもので、日本の市場に当てはまるかは未確認。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜外注は「作業」より「仕上がり」で頼む形へ",
+        "paragraphs": [
+          "これは本誌の解釈だが、AI関連の案件で作業の組み合わせが広がり予算も大きいという結果は、発注側が細かい作業ではなく、完成品をまとめて頼むようになっていることを示しているとみる。AIで足りる作業は減り、組み合わせて仕上げる力に値段が付く流れだ。",
+          "本誌は、外部に制作や開発を発注している企業に、作業単位の発注を見直し、AIで社内で済む作業と、まとめて外に頼む仕上げを分けることを勧める。これは本誌の提案で、OpenAIやUpworkの推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "直近の外注案件を、作業の内容ごとに一覧にする",
+      "そのうち、AIを使えば社内で済む作業に印を付ける",
+      "残りを「完成品」単位でまとめて発注できないか検討する"
+    ],
+    "service": "fde",
+    "pull": "AIで足りる作業は減り、束ねる仕事に値が付く。",
+    "hero_image": "/assets/illustrations/2026-11-11-story-8-cast.webp",
+    "hero_image_alt": "仕事の変化を示すグラフに驚くラッコと、首を傾げる茶トラ猫、本を読みながら横目で聞くアザラシ。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-11-11-story-8.png"
+  },
+  {
+    "updated_at": "2026-11-11",
+    "verified_at": "2026-11-11",
+    "article_kind": "news",
+    "title": "Google Cloud、医療機関向けの「Gemini for healthcare」をプレビュー提供　電子カルテや請求システムをつなぎ、診療記録のまとめや事前承認の確認を人の監督のもとで進める",
+    "category": "業界動向",
+    "source": "Google Cloud",
+    "published_at": "2026-11-10",
+    "lede": "Google Cloudは11月10日、医療機関向けのAI「Gemini for healthcare」を発表し、まずプレビュー版として提供する。電子カルテ、請求システム、診療ガイドライン、メディケアのデータなどにつなぎ、診療記録のまとめや事前承認の確認といった複数の手順の作業を、決めた枠の中で人の監督のもとに進める。米国のHCA Healthcareなどが最初の提携先になる。",
+    "links": [
+      "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/"
+    ],
+    "keypoints": [
+      "臨床、運営、事務に分かれたシステムをつなぎ、情報を探すだけでなく作業を進めることを狙う",
+      "既存の他社システムとつなぐ専用の技能とデータコネクタを備え、電子カルテ、請求、診療ガイドライン、メディケアのデータを扱う",
+      "診療記録のまとめや事前承認の確認などを、決めた制限の中で人の監督のもとに進める",
+      "最初はプレビュー版。提携先はHCA Healthcare、Highmark Health、Northwell Health"
+    ],
+    "editorial_diagram": {
+      "kicker": "Google Cloudの発表 / Gemini for healthcare",
+      "title": "ばらばらの医療システムをつなぐ",
+      "lead": "Google Cloudの発表文から、つなぐもの・任せる作業・提供の状態を整理した。",
+      "examples": [
+        [
+          "つなぐもの",
+          "電子カルテ、請求システム、診療ガイドライン、メディケアのデータに、専用のコネクタでつなぐ。"
+        ],
+        [
+          "任せる作業",
+          "診療記録のまとめや、保険の事前承認の確認など、複数の手順にわたる作業を進める。"
+        ],
+        [
+          "人が監督する",
+          "決めた制限の中で、人の監督のもとに動かす。最初はプレビュー版で、米国の3つの医療機関が提携先。"
+        ]
+      ],
+      "note": "Google Cloudの発表（2026年11月10日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
+      "wide": "/assets/illustrations/2026-11-11-story-9-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-11-11-story-9-diagram-mobile.webp",
+      "alt": "つなぐもの：電子カルテ、請求システム、診療ガイドライン、メディケアのデータに、専用のコネクタでつなぐ。、任せる作業：診療記録のまとめや、保険の事前承認の確認など、複数の手順にわたる作業を進める。、人が監督する：決めた制限の中で、人の監督のもとに動かす。最初はプレビュー版で、米国の3つの医療機関が提携先。"
+    },
+    "body": [
+      {
+        "heading": "何を発表したか",
+        "paragraphs": [
+          "Google Cloudは11月10日、Gemini for healthcareを発表した。臨床、運営、事務に分かれた医療機関のシステムをつなぐAIの仕組みで、情報を探して見せるだけでなく、分断されたデータをもとに作業を進めることを狙う。既存の他社システムとつなぐための専用の技能とデータコネクタを備え、電子カルテ、請求システム、診療ガイドライン、米国の公的医療保険メディケアのデータを扱える。",
+          "対象の作業として、診療記録のまとめや、保険の事前承認の審査といった複数の手順の業務を挙げる。これらは決めた制限の中で、適切な人の監督のもとに進めるとしている。Google CloudとHarris Pollの2024年の調査では、医療従事者は書類や事務作業に週28時間近くを取られているという。"
+        ]
+      },
+      {
+        "heading": "提供の状態",
+        "paragraphs": [
+          "Gemini for healthcareは、まずプレビュー版として提供する。最初の提携先は米国のHCA Healthcare、Highmark Health、Northwell Healthの3者。",
+          "一般提供の時期、料金、対象の国や地域、米国の医療情報保護の規制などへの対応は、発表文に記載がなく未確認。扱うデータの例がメディケアなど米国の制度に沿っており、日本の医療機関での利用は現時点では想定されていないとみられるが、これも未確認。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜「規制の重い業界の事務」から入るAI",
+        "paragraphs": [
+          "これは本誌の解釈だが、医療で最初に挙がる作業が診断ではなく、記録のまとめや事前承認の確認といった事務である点は、規制の重い業界でのAI導入の順番をよく表している。人の監督を前提に、判断ではなく準備を任せる形から入っているとみる。",
+          "本誌は、医療や介護、保険など規制の重い業界の企業に、AIに任せる対象をまず書類の下準備に絞り、最終判断は人が行う流れを先に決めることを勧める。これは本誌の提案で、Google Cloudの推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "自社の業務で、書類の作成や確認に使っている時間を書き出す",
+      "そのうち、AIに下準備を任せられるものと、人が判断すべきものを分ける",
+      "AIの出力を誰が確認し、記録をどう残すかの流れを決める"
+    ],
+    "service": "fde",
+    "pull": "規制の重い業界は、判断ではなく準備から任せる。",
+    "hero_image": "/assets/illustrations/2026-11-11-story-9-cast.webp",
+    "hero_image_alt": "医療情報をつなぐ画面に驚くラッコと、手を挙げて尋ねる猫、読書を装い横目で聞くアザラシ。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-11-11-story-9.png"
+  },
+  {
+    "updated_at": "2026-11-11",
+    "verified_at": "2026-11-11",
+    "article_kind": "news",
+    "title": "Meta、小型モデル「Muse Ember」を公開　コンテキスト100万トークン、入力100万トークン0.10ドル・出力0.50ドルでエージェントの繰り返し作業向け",
+    "category": "新モデル発表",
+    "source": "Meta",
+    "published_at": "2026-11-09",
+    "lede": "Metaは11月9日、同社で最も小さいモデル「Muse Ember」を公開した。コンテキストは100万トークン、最大出力は51万2,000トークンで、テキスト・画像・音声・動画を扱う。20万トークンまでの入力なら料金は入力100万トークンあたり0.10ドル、出力0.50ドル。コーディングエージェント「Muse Code」とMeta Model APIのほか、Google CloudとOracle Cloudでも使える。",
+    "links": [
+      "https://research.meta.ai/blog/muse-ember",
+      "https://gihyo.jp/article/2026/11/muse-ember"
+    ],
+    "keypoints": [
+      "モデルIDはmuse-ember-1.0。コンテキスト100万トークン、最大出力51万2,000トークン、テキスト・画像・音声・動画に対応",
+      "料金は20万トークンまで入力0.10ドル・キャッシュ入力0.004ドル・出力0.50ドル。それを超えると0.30ドル・0.012ドル・1.50ドル",
+      "Metaの評価ではAutomationBench-AAで37.8%（Claude Haiku 5.5は13.9%、GPT-6 Lunaは20.2%）。FrontierCode 2.0-AAではHaiku 5.5の34.9%に対し27.2%",
+      "Muse Code、Meta Model API、Google Cloud、Oracle Cloudで提供。Responses APIに対応"
+    ],
+    "editorial_diagram": {
+      "kicker": "Metaの発表 / Muse Ember",
+      "title": "計画は大きいモデル、繰り返しは小さいモデル",
+      "lead": "Metaの発表文から、仕様・料金・評価を整理した。",
+      "examples": [
+        [
+          "長く読めて、たくさん出せる",
+          "コンテキストは100万トークン、最大出力は51万2,000トークン。テキスト、画像、音声、動画をそのまま扱う。"
+        ],
+        [
+          "安い単価",
+          "20万トークンまでの入力なら、入力100万トークン0.10ドル、出力0.50ドル。超えると入力0.30ドル、出力1.50ドル。"
+        ],
+        [
+          "得意と不得意",
+          "Metaの評価では業務自動化のAutomationBench-AAで37.8%と高い一方、FrontierCode 2.0-AAは27.2%でHaiku 5.5の34.9%を下回る。"
+        ]
+      ],
+      "note": "Metaの発表（2026年11月9日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://research.meta.ai/blog/muse-ember",
+      "wide": "/assets/illustrations/2026-11-11-story-10-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-11-11-story-10-diagram-mobile.webp",
+      "alt": "長く読めて、たくさん出せる：コンテキストは100万トークン、最大出力は51万2,000トークン。テキスト、画像、音声、動画をそのまま扱う。、安い単価：20万トークンまでの入力なら、入力100万トークン0.10ドル、出力0.50ドル。超えると入力0.30ドル、出力1.50ドル。、得意と不得意：Metaの評価では業務自動化のAutomationBench-AAで37.8%と高い一方、FrontierC"
+    },
+    "body": [
+      {
+        "heading": "何を発表したか",
+        "paragraphs": [
+          "Metaは11月9日、小型モデルMuse Emberを公開した。同社で最も小さいモデルで、モデルIDはmuse-ember-1.0。コンテキストは100万トークン、最大出力は51万2,000トークンで、テキスト、画像、音声、動画をそのまま扱える。コーディングエージェントのMuse CodeとMeta Model APIに加え、Google CloudとOracle Cloudでも提供し、Responses APIに対応する。",
+          "料金は、20万トークンまでの入力で入力100万トークンあたり0.10ドル、キャッシュされた入力0.004ドル、出力0.50ドル。それより長い入力では0.30ドル、0.012ドル、1.50ドルになる。Artificial AnalysisのIntelligence Indexの1課題あたりの費用は約0.14ドルとしている。"
+        ]
+      },
+      {
+        "heading": "評価",
+        "paragraphs": [
+          "Metaの評価（最大の推論設定）では、AutomationBench-AAで37.8%と、Claude Haiku 5.5の13.9%、GPT-6 Lunaの20.2%を上回った。Terminal-Bench 4.0は40.9でHaiku 5.5は39.2、OSWorld 2.1の部分点方式は69.5%でHaiku 5.5は68.9%。一方、FrontierCode 2.0-AAは27.2でHaiku 5.5の34.9を下回った。",
+          "PerceptionBench、OSWorld 2.1、Personal Superintelligence IndexなどはMeta社内の評価で、Terminal-Bench 4.0は各モデルが公開している最良の実行環境で測っており、条件はそろっていない。図の費用は提案価格での見積もりとの注記もある。第三者による検証は未確認。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜安いモデルは「得意な作業」で選ぶ",
+        "paragraphs": [
+          "これは本誌の解釈だが、Muse Emberは業務自動化の評価で高い一方、コード変更の評価では他社の小型モデルを下回っており、小型モデルの間でも得意不得意がはっきり分かれてきた。単価の安さだけで選ぶと、作業によっては品質が落ちるとみる。",
+          "本誌は、エージェントの繰り返し作業に小型モデルを使っている企業に、自社の代表的な作業を20〜30件用意し、候補のモデルで結果と費用を比べてから切り替えることを勧める。これは本誌の提案で、Metaの推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "エージェントに繰り返しさせている作業を、種類ごとに書き出す",
+      "代表的な作業を20〜30件選び、Muse Emberと今のモデルで結果と費用を比べる",
+      "社外のクラウド（Google Cloud・Oracle Cloud）経由で使う場合の契約条件を確認する"
+    ],
+    "service": "fde",
+    "pull": "小さいモデルほど、得意な作業で選ぶ。",
+    "hero_image": "/assets/illustrations/2026-11-11-story-10-cast.webp",
+    "hero_image_alt": "小型AIの作業図に驚くラッコと、手を上げて尋ねる茶トラ猫を、読書中のアザラシが横目で見ている。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-11-11-story-10.png"
+  }
+]
