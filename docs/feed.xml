@@ -7,6 +7,60 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。公開済みのAIニュースと実務への示唆をお届けします。</description>
   <language>ja</language>
   <item>
+    <title>Google、日常のエージェント作業向け「Gemini 4 Hydrogen」を公開　入力100万トークン1.50ドル・出力7.50ドル、検索とGeminiアプリにも同日展開</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-13/story-1/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-13/story-1/</guid>
+    <description>Googleは11月12日、新モデル「Gemini 4 Hydrogen」を発表した。コーディングを含むエージェント作業を速くこなす「日常使い」のモデルという位置づけで、料金は入力100万トークン1.50ドル、出力7.50ドル。同日から開発者向けのGemini APIやGoogle AI Studio、Geminiアプリ、Google検索で順次使えるようになる。上位のGemini 4 CarbonやArgonと組み合わせて使うこともできる。</description>
+  </item>
+  <item>
+    <title>Anthropic、Claudeがビデオ会議に参加する「Claude Meetings」をベータ公開　Google Meetに対応、社外の人がいる会議には初期設定で入らない</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-13/story-2/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-13/story-2/</guid>
+    <description>Anthropicは11月12日、Claudeがビデオ会議に参加者として入る「Claude Meetings」をベータ版として公開した。会議中の質問に答え、資料やホワイトボードをその場で作り、議事メモと担当作業を記録する。対応する会議ツールはまずGoogle Meetで、TeamプランとEnterpriseプランに順次提供する。社外の人が招待されている会議には、初期設定では参加しない。</description>
+  </item>
+  <item>
+    <title>Salesforce、AIエージェントが侵入を進める攻撃基盤「ARTEX」に注意喚起　盗まれた認証情報で顧客環境が標的に、プラットフォームの脆弱性ではないと説明</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-13/story-3/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-13/story-3/</guid>
+    <description>Salesforceの脅威インテリジェンスチームは11月12日、複数のAIエージェントが連携して侵入を進める攻撃基盤「ARTEX」について注意を呼びかけた。同社は、盗まれたアプリの認証情報や連携用のセッションを使って顧客の環境を狙う攻撃を確認したとしている。Salesforceのプラットフォームの脆弱性によるものではなく、影響を受けた顧客には直接通知したと説明した。</description>
+  </item>
+  <item>
+    <title>Google、AIが画面を組み立てる共通仕様「A2UI」の安定版1.0を公開　React・Flutter・SwiftUIなどで描画、AtlassianやBloombergが採用</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-13/story-4/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-13/story-4/</guid>
+    <description>Googleは11月11日、AIエージェントが文章の代わりに入力フォームやグラフなどの画面を返すための公開仕様「A2UI」の、初の安定版となる1.0を公開した。エージェントは画面の構成だけを伝え、アプリ側が自分の部品で描画する。Web、Android、iOS向けの描画用SDKと、Python・TypeScript・Dart向けのエージェント用SDKを公開した。早期の採用企業としてAtlassian、Alation、Bloomberg、ByteDanceを挙げている。</description>
+  </item>
+  <item>
+    <title>豪政府、最先端AIの開発企業に安全対策を義務づけへ　第三者による評価の受け入れと事故の報告を求め、罰則を執行する規制機関の新設も提案</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-13/story-5/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-13/story-5/</guid>
+    <description>オーストラリア政府は11月10日、最先端のAIモデルを開発する企業に、安全とセキュリティの対策を法律で義務づけると発表した。オーストラリアで事業をしようとするすべての最先端AI企業が対象で、第三者による評価の受け入れ、事故の速やかな報告、安全の枠組みの公表などを求める。AIの安全を担当する規制機関の新設を提案し、従わない企業には「重大な罰則」を科せるようにする方針だ。</description>
+  </item>
+  <item>
+    <title>AWS、手元のPCでAWSを再現する「AWS Emulator」を公開　追加料金なし、開発と保守はAIエージェントが担当</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-13/story-6/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-13/story-6/</guid>
+    <description>AWSは11月11日、自分のPCの上でAWSのAPIを再現する「AWS Emulator」を公開した。AWS CLIやSDK、コーディングエージェントが手元の接続先につなぎ、クラウドに出さずにアプリを試せる。追加のサービス料金はかからない。AWSによると、このソフトはAIエージェントが開発と保守を担っており、本物のAWSと同じ結果を返すかを確かめるテストの成績をサービスごとに公開する。</description>
+  </item>
+  <item>
+    <title>Google、Geminiを使えるメガネを12月10日に発売　Gentle Monsterは449ドルから、Warby Parkerは395ドルから、まず米国と韓国</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-13/story-7/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-13/story-7/</guid>
+    <description>Googleは11月12日、Geminiを使えるメガネの予約受け付けを始めた。メガネブランドのGentle MonsterとWarby Parkerと共同で開発し、製造技術はSamsungが担当した。価格はGentle Monsterが449ドルから、Warby Parkerが395ドルからで、12月10日に店舗とオンラインで発売する。利用には米国か韓国のGoogleアカウントが必要で、日本での発売は発表に記載がない。</description>
+  </item>
+  <item>
+    <title>アルティウスリンク、電話応対AIの導入から育成・運用までを担う「AI Voice サービス」を開始　一次受付で終わらせず、用件の完結を目指す</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-13/story-8/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-13/story-8/</guid>
+    <description>コンタクトセンター大手のアルティウスリンクは11月11日、電話で人と自然に会話して用件を完結させるAIオペレーターを、導入から育成、運用、品質改善まで一体で提供する「AI Voice サービス」を始めた。AIオペレーターを人と同じように育成・評価・改善し、任せる業務を広げていく。料金や具体的な数値目標、使っている技術は発表に記載がない。</description>
+  </item>
+  <item>
+    <title>ElevenLabs、音声認識「Scribe v3」と「Scribe v3 Live」を公開　102言語で単語の誤りを前版より27%減らし、リアルタイムの話者分けに初対応</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-13/story-9/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-13/story-9/</guid>
+    <description>ElevenLabsは11月10日、音声を文字にするモデルの新版「Scribe v3」と、リアルタイム向けの「Scribe v3 Live」を公開した。録音向けのScribe v3は、102言語で単語の誤りを前版のScribe v2より27%減らしたとしている。Scribe v3 Liveは、誰が話したかを分ける話者分けにリアルタイムで初めて対応し、会話の流れから「話し終わり」を判断する。数値はいずれも同社の公表値。</description>
+  </item>
+  <item>
     <title>Google、選択や判定だけを返す「Gemini Decisions API」を公開　新モデルGemini Decision 1で最大1,000問を一度に判定、入力100万トークン0.10ドル・出力は無料</title>
     <link>https://nowonair.vercel.app/articles/2026-11-12/story-1/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-12/story-1/</guid>
@@ -101,60 +155,6 @@
     <link>https://nowonair.vercel.app/articles/2026-11-11/story-7/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-11/story-7/</guid>
     <description>Google DeepMindは11月10日、人の専門家とAIエージェントを組み合わせてソフトウェアを形式検証する「AlphaProof Code」を発表した。人が何を証明するかを決め、Gemini Carbonで動くエージェントが証明を書く。メッセージアプリSignalの暗号プロトコルについて、端末で動くコンパイル済みのコードの安全性を4週間で証明したとしている。</description>
-  </item>
-  <item>
-    <title>OpenAIとUpwork、AIがフリーランスの仕事に与える影響を調査　ChatGPTでよく使われる作業はUpworkでの比率が下がる傾向、AI関連の案件は固定報酬の予算が大きく作業時間も長い</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-11/story-8/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-11/story-8/</guid>
-    <description>OpenAIは11月10日、フリーランスの仲介サイトUpworkと共同で、AIがフリーランスの仕事に与える影響の調査を公表した。ChatGPTで比較的よく使われる作業は、Upworkの募集に占める比率が下がる傾向があった。一方でAI関連の案件は、組み合わせる作業の種類が広がり、固定報酬の予算が大きく、作業時間も長かった。</description>
-  </item>
-  <item>
-    <title>Google Cloud、医療機関向けの「Gemini for healthcare」をプレビュー提供　電子カルテや請求システムをつなぎ、診療記録のまとめや事前承認の確認を人の監督のもとで進める</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-11/story-9/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-11/story-9/</guid>
-    <description>Google Cloudは11月10日、医療機関向けのAI「Gemini for healthcare」を発表し、まずプレビュー版として提供する。電子カルテ、請求システム、診療ガイドライン、メディケアのデータなどにつなぎ、診療記録のまとめや事前承認の確認といった複数の手順の作業を、決めた枠の中で人の監督のもとに進める。米国のHCA Healthcareなどが最初の提携先になる。</description>
-  </item>
-  <item>
-    <title>Meta、小型モデル「Muse Ember」を公開　コンテキスト100万トークン、入力100万トークン0.10ドル・出力0.50ドルでエージェントの繰り返し作業向け</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-11/story-10/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-11/story-10/</guid>
-    <description>Metaは11月9日、同社で最も小さいモデル「Muse Ember」を公開した。コンテキストは100万トークン、最大出力は51万2,000トークンで、テキスト・画像・音声・動画を扱う。20万トークンまでの入力なら料金は入力100万トークンあたり0.10ドル、出力0.50ドル。コーディングエージェント「Muse Code」とMeta Model APIのほか、Google CloudとOracle Cloudでも使える。</description>
-  </item>
-  <item>
-    <title>Anthropic、「Claude Fable 5.2」と「Claude Mythos 5.2」を発表　出力は前版より最大30%速く、料金は入力100万トークン8ドル・出力40ドルに値下げ</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-10/story-1/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-10/story-1/</guid>
-    <description>Anthropicは11月9日、難度の高い技術作業向けのモデル「Claude Fable 5.2」と「Claude Mythos 5.2」を発表した。両者は同じ基盤モデルで、Fableはサイバーセキュリティと生物分野の悪用対策を強めて全利用者に提供し、Mythosは審査を通った組織に提供する。出力は前版より最大30%速く、料金は入力100万トークンあたり8ドル、出力40ドルに下げた。</description>
-  </item>
-  <item>
-    <title>OpenAI、「ChatGPT Enterprise」をAWS Marketplaceで提供開始　AWSの既存の購買・請求で契約でき、対象の支出はAWSとの利用約束に充当</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-10/story-2/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-10/story-2/</guid>
-    <description>OpenAIは11月9日、企業向けの「ChatGPT Enterprise」をAWS Marketplaceで提供し始めた。企業はAWSとの既存の購買・請求の関係を使って契約でき、対象となる支出をAWSとの利用約束に充てられる。機能や新機能の提供時期は、OpenAIから直接契約した場合と同じとしている。</description>
-  </item>
-  <item>
-    <title>Google、第8世代TPUに「TPU 8tx」と「TPU 8i Max」を追加　処理中のデータも守る機密推論向けと、2チップを1つにまとめた長文脈向け</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-10/story-3/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-10/story-3/</guid>
-    <description>Googleは11月9日、AI向け半導体TPUの第8世代に新しい2つのシステム「TPU 8tx」と「TPU 8i Max」を加えた。TPU 8txは処理中のデータやモデルの重みもハードウェアで守る機密推論向けで、TPU 8i MaxはTPU 8iのチップ2つを1つのパッケージにまとめ、計算量やメモリ帯域を2倍にした。</description>
-  </item>
-  <item>
-    <title>OpenAI、研究用のモデルの処理をまとめて止める「Control Room」を公開　停止の判断から35秒以内に出力を止め、障害時は全推論を拒否</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-10/story-4/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-10/story-4/</guid>
-    <description>OpenAIは11月9日、研究基盤で動くモデルの処理を一元的に追跡し、安全上の懸念があればすばやく止める社内の仕組み「Control Room」を公開した。停止を決めてから35秒以内にモデルの出力を止める。Control Room自体が落ちた場合は、すべての推論要求を拒否する「フェイルクローズ」で動く。</description>
-  </item>
-  <item>
-    <title>PFN、日本の金融知識に特化した「PLaMo 3.0 Fin」を公開　8Bの重みを公開し、閉域クラウドやオンプレミスでGPU1枚から運用可能</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-10/story-5/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-10/story-5/</guid>
-    <description>Preferred Networks（PFN）は11月9日、日本の金融分野に特化した大規模言語モデル「PLaMo 3.0 Fin」を公開した。NICTとの共同研究で得た事前学習モデルに日本中心の金融データで追加学習し、重みをHugging Faceで公開した。クラウドの閉域環境やオンプレミスでGPU1枚から運用でき、PLaMo APIとPLaMo Chatの無料プランでもβ版として試せる。</description>
-  </item>
-  <item>
-    <title>NVIDIA、日本の金融向け合成ペルソナデータ「Nemotron-Personas-Finance-Japan」を公開　900万人分、商用利用可のCC BY 4.0で国内の金融機関が設計に協力</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-10/story-6/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-10/story-6/</guid>
-    <description>NVIDIAは11月9日、日本の公的統計と家計・金融リテラシーのデータをもとに作った合成ペルソナのデータセット「Nemotron-Personas-Finance-Japan」をHugging Faceで公開した。100万レコード×9ペルソナの計900万人分で、実在の顧客データを使わずに金融向けAIを作り、試すことを狙う。ライセンスは商用利用もできるCC BY 4.0。</description>
   </item>
 </channel>
 </rss>
