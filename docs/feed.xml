@@ -7,6 +7,60 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。公開済みのAIニュースと実務への示唆をお届けします。</description>
   <language>ja</language>
   <item>
+    <title>Anthropic、新規株式公開の価格を1株83ドルに決定　9億8,000万株を売り出し、Nasdaqに銘柄コード「ANT」で上場</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-20/story-1/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-20/story-1/</guid>
+    <description>Anthropicは米国時間11月18日、新規株式公開（IPO）の公開価格を1株83ドルに決めたと発表した。クラスA普通株式9億8,000万株を売り出し、11月19日からNasdaq Global Select Marketで銘柄コード「ANT」として取引を始めた。株数と価格から計算すると、売り出し総額は約813億ドルになる。</description>
+  </item>
+  <item>
+    <title>Google、Mac版Geminiにパソコン操作の代行機能　アプリやウェブを裏側のウィンドウで操作、まず米国の英語版で有料プラン向け</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-20/story-2/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-20/story-2/</guid>
+    <description>Googleは11月19日、Mac版Geminiアプリに、パソコンの操作を代わりに行う機能（computer use）を加えたと発表した。Geminiがデスクトップアプリやウェブサイトをクリック・入力して複数手順の作業を進める。作業は独立した裏側のウィンドウで動き、利用者は元の作業を続けられる。</description>
+  </item>
+  <item>
+    <title>Next.js、2026年のセキュリティ告知は51件に　AIで古い欠陥が見つかりやすくなったと説明、全プルリクエストをAIが攻撃者目線で点検</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-20/story-3/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-20/story-3/</guid>
+    <description>ウェブ開発の枠組み「Next.js」の開発チームは11月17日、セキュリティ告知が2024年の6件から2026年は51件に増えた理由を説明した。AIによって古いコードの欠陥が安く見つかるようになったためで、51件の70%は1年以上前のコードにあったという。新しいコードについては、AIが全てのプルリクエストを攻撃者の目線で点検する仕組みを入れた。</description>
+  </item>
+  <item>
+    <title>Replit、複数のAIエージェントに目標を任せる「Missions」を開始　予算と承認の範囲内で計画・開発・検証をくり返す</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-20/story-4/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-20/story-4/</guid>
+    <description>Replitは11月17日、利用者が決めた目標に向けて複数のAIエージェントを動かす新機能「Missions」を発表した。エージェント群が計画、開発、テスト、改善をくり返し、利用者が設けた予算と範囲の中で結果を目指す。成果は独立したAIの審査役が、利用者の決めた成功条件と照らして確かめる。</description>
+  </item>
+  <item>
+    <title>Microsoft、複数のデータベースを一か所で見る「Database Hub」を正式提供　異常を見つけて根拠と対策を示すエージェントはプレビュー</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-20/story-5/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-20/story-5/</guid>
+    <description>Microsoftは11月17日、Microsoft Fabric上で社内の複数のデータベースを一覧・監視・調査できる「Database Hub」を正式提供すると発表した。あわせて、選んだデータベースを見張り、問題があれば根拠と推奨対策を示す「Database Agents」をパブリックプレビューで公開した。</description>
+  </item>
+  <item>
+    <title>Airbnb、AIの学習前に文章から個人情報を取り除く仕組みを公開　名前や住所を「それらしい偽の値」に置き換え</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-20/story-6/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-20/story-6/</guid>
+    <description>Airbnbは11月17日、メッセージやレビュー、問い合わせのやり取りを機械学習に使う前に、文章から個人情報を見つけて置き換える仕組みを技術ブログで公開した。オープンソースの「Presidio」を土台に、自社固有の番号や住所の検出を強化し、消した箇所は記号ではなく自然な偽の値で埋める。</description>
+  </item>
+  <item>
+    <title>Jパワー・日立・マクニカ、重要インフラ向けフィジカルAIの開発基盤を共同検討　第一弾は送電線点検ドローンの実証</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-20/story-7/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-20/story-7/</guid>
+    <description>電源開発（Jパワー）、日立製作所、マクニカの3社は11月19日、発電や送電など重要な社会インフラでAIを現場の機械に使う「フィジカルAI」の開発基盤づくりを共同で検討することに合意したと発表した。仮想空間で学ばせたAIを実機に移す仕組みを作り、第一弾として次世代の送電線点検ドローンの実証を検討する。</description>
+  </item>
+  <item>
+    <title>さくらインターネット、「さくらのAI Engine」で2モデルをパブリックプレビュー　月3,000リクエストまで無償</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-20/story-8/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-20/story-8/</guid>
+    <description>さくらインターネットは11月18日、生成AIの推論APIサービス「さくらのAI Engine」で、「GLM-5.3-Flash」と「DeepSeek-V4.1-Flash-1017」のパブリックプレビューを始めた。1か月あたり3,000リクエストまで無償で使える。</description>
+  </item>
+  <item>
+    <title>Netflix、テレビで好みのテーマから作品を探す「AI Discover」の裏側を公開　AIは計画を立て、実行の可否はコードが決める</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-20/story-9/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-20/story-9/</guid>
+    <description>Netflixは11月17日、テレビアプリで一部の会員が試せる新しいタブ「AI Discover」の仕組みを技術ブログで公開した。会員がテーマを選ぶと、合う作品の列と理由、次に絞り込むテーマが出る。裏側では、大規模言語モデル（LLM）が計画を立て、既存の推薦システムと組み合わせて実行する。</description>
+  </item>
+  <item>
     <title>OpenAI、「GPT-6.2 Astra」と「GPT-6.2 Sol」を公開　Astraは入力100万トークン8ドルで旧版より2割安、ChatGPTとCodex、APIで同日提供</title>
     <link>https://nowonair.vercel.app/articles/2026-11-19/story-1/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-19/story-1/</guid>
@@ -101,60 +155,6 @@
     <link>https://nowonair.vercel.app/articles/2026-11-15/story-6/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-15/story-6/</guid>
     <description>マサチューセッツ工科大学（MIT）の研究チームは11月13日、構造物の形を計算で決める設計手法に、人の判断を途中で取り込む仕組みを発表した。AIが、人の設計者が直したくなりそうな箇所を見つけて示し、意見を聞く。実演では、作りやすさと座屈荷重が39%向上し、追加でかかった設計時間は15秒だったという。</description>
-  </item>
-  <item>
-    <title>矢野経済研究所、AIで動くロボットの世界出荷は2035年に約321万台と予測　2026年は約10万台で前年比47.7%増の見込み</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-15/story-7/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-15/story-7/</guid>
-    <description>矢野経済研究所は11月13日、フィジカルAIの世界市場についての調査結果を発表した。AIの認識・判断が動作に直接使われるロボットの出荷台数は、主要7分野の合計で2025年が約7万台、2026年は約10万台（前年比47.7%増）の見込み。2035年には約321万台に伸びると予測した。</description>
-  </item>
-  <item>
-    <title>NTT西日本、京都大学と組みフィジカルAIの人材育成プログラムを開発　座学と実機の演習を組み合わせ、11月18日からのNTT R&amp;D FORUMで展示</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-15/story-8/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-15/story-8/</guid>
-    <description>NTT西日本は11月13日、ロボットなどをAIで動かす「フィジカルAI」の人材育成に向け、京都大学成長戦略本部との連携を強めると発表した。京都大学を拠点とするコミュニティの運営法人XPACと共同で、座学と実機の演習を組み合わせた育成プログラムを開発している。提供の時期は決まっていない。</description>
-  </item>
-  <item>
-    <title>初の「日本AI大賞」、組織の部の大賞は博報堂DYコーポレートイニシアティブ　応募126件、従業員5人の農場や市の水道局も受賞</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-15/story-9/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-15/story-9/</guid>
-    <description>AIを「何を目指して活用したか」で評価する「日本AI大賞2026」の表彰式が11月12日、東京・五反田で開かれた。応募は126件。組織の部の大賞は、社員が同僚のためにAIアプリを作る活動を広げた博報堂DYコーポレートイニシアティブ、個人の部の大賞はダイハツ工業の太古無限氏が受けた。</description>
-  </item>
-  <item>
-    <title>Vercel、月30ドルの「Token Pass」で使えるトークンを80ドル分から150ドル分に増量　対象は公開モデル5種、枠を使い切ると止まる設定も</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-15/story-10/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-15/story-10/</guid>
-    <description>Vercelは11月13日、月30ドルの追加契約「Token Pass」に含まれるトークンを、月80ドル分から150ドル分に増やしたと発表した。料金は変わらない。Kimi K3やGLM 5.3など、重みが公開されているモデル5種をAI Gateway経由で使うための枠で、Proチーム向けの早期提供である。</description>
-  </item>
-  <item>
-    <title>NVIDIA、創業者のジェンスン・フアン氏が社長兼CEOと取締役を即日辞任　暫定CEOはCFOのコレット・クレス氏、理由は発表に記載なし</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-14/story-1/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-14/story-1/</guid>
-    <description>NVIDIAは11月12日、ジェンスン・フアン氏が社長兼CEOと取締役を即日辞任したと発表した。執行副社長兼CFOのコレット・クレス氏が、CFOを続けながら暫定CEOを務める。取締役会は同社で初めての議長にハーベイ・C・ジョーンズ氏を選び、社内外から後任のCEOを探す。辞任の理由は発表に書かれていない。</description>
-  </item>
-  <item>
-    <title>OpenAI、AIエージェントが代わりに支払う「ChatGPT Wallet」を公開　購入のたびに顔や指紋で承認、まず米国のChatGPT Pro契約者から</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-14/story-2/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-14/story-2/</guid>
-    <description>OpenAIは11月13日、AIエージェントが利用者の代わりに支払いをする「ChatGPT Wallet」を発表した。American Express、Mastercard、Visaと組み、エージェントには本物のカード番号を渡さず、購入のたびにFace IDや指紋などで本人が承認する。まず米国のChatGPT Pro契約者（18歳以上、米国発行の対象カード）に、エージェント機能「dots」の中で提供を始めた。</description>
-  </item>
-  <item>
-    <title>Anthropic、製造業向けプラグイン「Claude for Manufacturing」を公開　見積もりや品質報告を既存システムから下書き、17のスキルを用意</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-14/story-3/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-14/story-3/</guid>
-    <description>Anthropicは11月12日、製造業向けのプラグイン「Claude for Manufacturing」を発表した。見積書、品質報告、仕入れ先への依頼などを、工場がすでに使っているシステムの記録から下書きする。営業・品質・生産・調達・設計・初期設定にまたがる17のスキルがあり、Autodesk Fusion、Infor、Microsoft 365、Oracle NetSuiteとつながる。TeamとEnterpriseの各プランで使える。設備の操作はしない。</description>
-  </item>
-  <item>
-    <title>Cloudflare、AIで侵入を試みるツールの通信が10月から約30倍に増えたと報告　3日間で50系統超を観測、「ARTEX」とその派生が6割超</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-14/story-4/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-14/story-4/</guid>
-    <description>Cloudflareは11月13日、AIエージェントが侵入テストや攻撃の手順を自動で進めるツールの広がりについて報告した。3日間で50を超える系統のツールが世界中の顧客を走査しているのを観測し、こうしたツールからの1日あたりの通信は10月1日から約30倍に増えた。11月12日時点で「ARTEX」とその派生が6割超を占める。侵入の原因としては、期限のない認証トークンの管理不備を挙げた。</description>
-  </item>
-  <item>
-    <title>Replit、AIエージェントが事業の備品を買い、Google広告を出せるように　購入は合計額を確認して承認、StripeのLinkとVisaを利用</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-14/story-5/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-14/story-5/</guid>
-    <description>Replitは11月12日、開発AI「Replit Agent」に2つの機能を加えたと発表した。1つは事業に必要な品物をAIが探して購入の手前まで進める機能で、事業主が合計額を承認するまで請求は起きない。Stripeの「Link」とVisaの仕組みを使う。もう1つはGoogle広告の作成と運用の支援で、AIが広告文や画像、1日の予算案を用意し、事業主が確認して出稿する。</description>
   </item>
 </channel>
 </rss>
