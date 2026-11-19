@@ -1,0 +1,813 @@
+[
+  {
+    "updated_at": "2026-11-19",
+    "verified_at": "2026-11-19",
+    "article_kind": "news",
+    "title": "OpenAI、「GPT-6.2 Astra」と「GPT-6.2 Sol」を公開　Astraは入力100万トークン8ドルで旧版より2割安、ChatGPTとCodex、APIで同日提供",
+    "category": "新モデル発表",
+    "source": "OpenAI",
+    "published_at": "2026-11-17",
+    "lede": "OpenAIは11月17日、上位モデル「GPT-6.2 Astra」と日常業務向けの「GPT-6.2 Sol」を公開した。ChatGPTの作業画面「Work」とプログラミング支援の「Codex」、APIで同日から使える。APIの料金は100万トークンあたりAstraが入力8ドル・出力40ドル、Solが入力2ドル・出力10ドルである。",
+    "links": [
+      "https://learn.chatgpt.com/docs/whats-new/gpt-62-astra-sol",
+      "https://developers.openai.com/api/docs/models/gpt-6.2-astra",
+      "https://developers.openai.com/api/docs/models/gpt-6.2-sol",
+      "https://developers.openai.com/api/docs/models/gpt-6-astra",
+      "https://developers.openai.com/api/docs/changelog",
+      "https://openai.com/index/introducing-gpt-6-2-astra-sol/"
+    ],
+    "keypoints": [
+      "Astraは難しい推論やサービスをまたぐ不具合調査向け、Solは日常のコーディングや文章作成、多段階の作業向けと位置づけた",
+      "API料金（100万トークンあたり）はAstraが入力8ドル・キャッシュ入力0.40ドル・出力40ドル、Solが入力2ドル・キャッシュ入力0.10ドル・出力10ドル",
+      "どちらも最大約105万トークンを扱え、出力は最大12.8万トークン。知識の区切りはAstraが2026年5月18日、Solが6月1日",
+      "ChatGPTのWorkはPlus、Pro、Business、Enterprise、Eduで利用可。EnterpriseとEduは管理者が先に有効にする必要がある"
+    ],
+    "editorial_diagram": {
+      "kicker": "OpenAIの発表 / GPT-6.2",
+      "title": "重い仕事はAstra、毎日の仕事はSol",
+      "lead": "OpenAIの公式ドキュメントから、2つのモデルの役割と料金を整理した。",
+      "examples": [
+        [
+          "Astra：入力8ドル・出力40ドル",
+          "100万トークンあたりのAPI料金。サービスをまたぐ不具合調査や、報告書から資料を作るような重い推論向け。"
+        ],
+        [
+          "Sol：入力2ドル・出力10ドル",
+          "日常のコーディング、文章作成、多段階の作業向け。ChatGPTの新しいWorkの会話は既定でSolになる。"
+        ],
+        [
+          "ChatGPT・Codex・APIで同日提供",
+          "WorkはPlus以上の有料プラン、CodexはアプリとCLIで選べる。CodexとWorkは利用上限を共有する。"
+        ]
+      ],
+      "note": "OpenAIの公式ドキュメント（2026年11月17日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://learn.chatgpt.com/docs/whats-new/gpt-62-astra-sol",
+      "wide": "/assets/illustrations/2026-11-19-story-1-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-11-19-story-1-diagram-mobile.webp",
+      "alt": "Astra：入力8ドル・出力40ドル：100万トークンあたりのAPI料金。サービスをまたぐ不具合調査や、報告書から資料を作るような重い推論向け。、Sol：入力2ドル・出力10ドル：日常のコーディング、文章作成、多段階の作業向け。ChatGPTの新しいWorkの会話は既定でSolになる。、ChatGPT・Codex・APIで同日提供：WorkはPlus以上の有料プラン、CodexはアプリとCLIで選"
+    },
+    "body": [
+      {
+        "heading": "2つのモデルの役割と料金",
+        "paragraphs": [
+          "OpenAIは11月17日、GPT-6.2 AstraとGPT-6.2 Solを公開した。同社の説明では、Astraはサービスをまたいだ不具合の追跡、報告書からのスライド作成、調査テーマでの資料比較といった複雑な推論に向く。Solは日常のコーディングや文章作成、多段階の作業を受け持ち、同じ有料プランでGPT-6.1 Solより多くの作業をこなせるとしている。",
+          "APIの料金は100万トークンあたり、Astraが入力8ドル、キャッシュ済み入力0.40ドル、出力40ドル。Solが入力2ドル、キャッシュ済み入力0.10ドル、出力10ドルである。Astraの入力・出力単価は前のGPT-6 Astra（入力10ドル・出力50ドル）より2割安い。どちらも文字と画像を受け取り、文字を返す。扱える長さは最大約105万トークン（入力は最大92.2万トークン）、出力は最大12.8万トークン。APIのResponsesとChat Completionsで使えるが、ツール呼び出しにはResponses APIが必要だ。"
+        ]
+      },
+      {
+        "heading": "ChatGPTとCodexでの提供範囲",
+        "paragraphs": [
+          "ChatGPTでは、作業用の画面Workで、Plus、Pro、Business、Enterprise、Eduの各プランがウェブ、デスクトップ、モバイルから使える。EnterpriseとEduは管理者がワークスペース設定でモデルを有効にする必要がある。個人向けプランでは新しいWorkの会話が既定でSol（推論の深さはLight）になり、Enterpriseでは既定がSol（Medium）になる。",
+          "プログラミング支援のCodexでは、アプリとCLIでモデルを選べる。同社はAstraをサービスをまたぐ不具合の修正に、Solをプルリクエストのレビューや指摘に沿った修正に勧めている。CodexとWorkは利用上限を共有する。高速応答の「Ultrafast」モードは、月200ドルのProではSolのみ、月500ドルのProでは両モデルで使える。ベンチマークの数字や安全性評価の詳細は、openai.comの発表ページが本誌の環境から開けず、未確認である。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜「どちらを既定にするか」を先に決める",
+        "paragraphs": [
+          "これは本誌の解釈だが、今回の発表の要点は性能の上積みよりも、上位のAstraと日常用のSolの役割分担がはっきりしたことにある。料金は入力・出力とも4倍の差があり、ChatGPTの既定もSolになった。重い仕事だけをAstraに回す、という使い分けを会社側が前提にしているように見える。",
+          "本誌は、ChatGPTやAPIを業務で使っている企業に、まず既定はSolのままにし、Astraを使う仕事を「不具合調査」「長い資料づくり」など名前を付けて決めることを勧める。Codexとの利用上限の共有もあるため、誰が上限を食っているかを月に一度見るとよい。これは本誌の提案で、OpenAIの推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "社内でAstraを使ってよい仕事を2〜3種類に絞って書き出す",
+      "APIで旧モデルを使っている処理について、GPT-6.2 Solに替えた場合の月額を試算する",
+      "Enterprise・Eduの管理者は、ワークスペース設定で新モデルを有効にするかどうかを決める"
+    ],
+    "service": "fde",
+    "pull": "重い仕事はAstra、毎日の仕事はSol。",
+    "hero_image": "/assets/illustrations/2026-11-19-story-1-cast.webp",
+    "hero_image_alt": "新モデルと値下げを示す図に驚くラッコ、首をかしげて指さす茶トラ猫、読書のふりで横目を向けるアザラシ。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-11-19-story-1.png"
+  },
+  {
+    "updated_at": "2026-11-19",
+    "verified_at": "2026-11-19",
+    "article_kind": "news",
+    "title": "MicrosoftとSalesforce、提携「Copilotforce」を発表　Copilotで顧客データを扱うプラグインを公開プレビュー、営業向け機能は38種超",
+    "category": "業界動向",
+    "source": "Microsoft / Salesforce",
+    "published_at": "2026-11-17",
+    "lede": "MicrosoftとSalesforceは11月17日、新しい提携「Copilotforce」を発表した。Salesforceの顧客情報や業務の手続きを、MicrosoftのAIアシスタント「Copilot」の中から使えるようにする。中心となるプラグイン「Salesforce in Copilot」は同日から公開プレビュー（試験提供）を始め、商談の見直しなど38種類を超える営業向けの機能を備える。",
+    "links": [
+      "https://news.microsoft.com/source/2026/11/17/microsoft-and-salesforce-announce-copilotforce-bringing-trusted-customer-context-and-action-into-microsoft-ai-experiences/"
+    ],
+    "keypoints": [
+      "提携の名前は「Copilotforce」。中心はCopilot向けプラグイン「Salesforce in Copilot」で、11月17日から公開プレビュー",
+      "営業向けにあらかじめ用意された機能（スキル）は38種超。商談の見直し、受注計画、顧客の健全度、更新時期の確認、商談後のフォローなど",
+      "CRMへの書き戻しは利用者の明示的な確認が必要で、既存の入力ルールにも従う。データへの接続はSalesforceの権限の範囲内",
+      "TeamsにSalesforceの情報を出す「Sales Cloud in Teams」は大企業で試験運用中、公開ベータは年内予定。料金は発表に書かれていない"
+    ],
+    "editorial_diagram": {
+      "kicker": "Microsoft・Salesforceの発表 / Copilotforce",
+      "title": "営業の情報を「いつも使う画面」に寄せる",
+      "lead": "両社の発表から、提携の中身を3つに整理した。",
+      "examples": [
+        [
+          "CopilotからSalesforceへ",
+          "プラグイン「Salesforce in Copilot」で、商談や顧客の情報の確認と一部の更新をCopilotの中で行う。11月17日から公開プレビュー。"
+        ],
+        [
+          "TeamsにSalesforceを表示",
+          "「Sales Cloud in Teams」で、商談の進み具合や目標の達成度、通知、打ち合わせ前の資料をTeamsに出す。現在は試験運用。"
+        ],
+        [
+          "データを複製せずにつなぐ",
+          "Salesforce Data 360とMicrosoft Fabricを双方向につなぐ。OneLakeからData 360への連携は正式提供、逆向きは公開プレビュー。"
+        ]
+      ],
+      "note": "Microsoftの発表（2026年11月17日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://news.microsoft.com/source/2026/11/17/microsoft-and-salesforce-announce-copilotforce-bringing-trusted-customer-context-and-action-into-microsoft-ai-experiences/",
+      "wide": "/assets/illustrations/2026-11-19-story-2-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-11-19-story-2-diagram-mobile.webp",
+      "alt": "CopilotからSalesforceへ：プラグイン「Salesforce in Copilot」で、商談や顧客の情報の確認と一部の更新をCopilotの中で行う。11月17日から公開プレビュー。、TeamsにSalesforceを表示：「Sales Cloud in Teams」で、商談の進み具合や目標の達成度、通知、打ち合わせ前の資料をTeamsに出す。現在は試験運用。、データを複製せずにつな"
+    },
+    "body": [
+      {
+        "heading": "提携の中身",
+        "paragraphs": [
+          "MicrosoftとSalesforceは11月17日、Microsoftの年次イベント「Ignite」で提携「Copilotforce」を発表した。Salesforceにある顧客の情報、業務の手続き、操作を、CopilotなどMicrosoftのAI製品の中から使えるようにするものだ。Copilotforceは提携の名前で、製品としての中心はCopilot向けのプラグイン「Salesforce in Copilot」である。",
+          "Salesforce in Copilotは11月17日から公開プレビュー（ベータ）として提供が始まった。あらかじめ用意された営業向けのスキルは38種類を超える。発表では、商談全体の見直し（Pipeline Review）、受注に向けた計画（Close Planning）、個別商談の確認（Deal Review）、顧客の健全度（Customer Health）、契約更新の確認（Renewal Radar）、商談後のフォロー（Call Follow-Up）を例に挙げた。Copilotの背後で働く「Work IQ」が、Teamsの会議、Outlookのメール、SharePointやOneDriveの文書から関連する情報を補うとしている。",
+          "Teams向けには「Sales Cloud in Teams」を用意する。商談の進み具合や目標の達成度、商談の通知、打ち合わせ前の資料をTeamsの中に表示する。現在は大企業の顧客と試験運用中で、公開ベータは年内の予定という。データ面では、Salesforce Data 360とMicrosoft Fabricを、データを複製せずに双方向でつなぐ。OneLakeからData 360への連携は正式提供、Data 360からOneLakeへの共有は公開プレビューである。"
+        ]
+      },
+      {
+        "heading": "権限と提供条件",
+        "paragraphs": [
+          "営業担当者は、認証されたSalesforceのMCP接続（AIが外部のシステムを使うための共通の接続方式）を通じて、すでに持っているSalesforceの権限の範囲内で情報を取り出したり操作したりする。データへのアクセスと業務の操作はSalesforce側が管理し、会話や文書にはMicrosoftの統制機能が適用されるとしている。CRMへの書き戻しは、利用者の明示的な確認が必要で、既存の入力チェックのルールにも従う。",
+          "料金と、必要なライセンス（Microsoft 365 CopilotやSales Cloudの契約の要否など）は発表に書かれておらず、未確認である。提供地域についても「顧客との契約による」とするだけで、日本で使えるかどうかは未確認だ。",
+          "Accentureが設計・導入のパートナー兼最初の利用企業となり、自社の営業組織に導入する。同社はCopilotを74万人超、Salesforceを約5万5,000人が使っているという。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜CRMに入力する仕事が「確認する仕事」に変わる",
+        "paragraphs": [
+          "これは本誌の解釈だが、今回の提携の要点は、営業担当者がCRMの画面を開かなくても、会議やメールの流れの中で顧客情報を見て、更新まで進められるようにすることにある。書き戻しに人の確認を必須にしている点からも、AIが下書きし、人が確かめて登録するという分担が前提になっていると読める。",
+          "本誌は、SalesforceとMicrosoft 365の両方を使っている企業に、プレビューを試す前に「AIに書き戻させてよい項目」と「人が必ず入力する項目」を分けておくことを勧める。商談の段階や金額のように、集計や評価に直結する項目は特に慎重に扱いたい。これは本誌の提案で、両社の推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "CRMの項目のうち、AIの下書きを人が確認して登録してよいものと、手入力に限るものを分けておく",
+      "営業担当者のSalesforce権限が現在の役割に合っているかを点検する（AIは既存の権限の範囲で動くため）",
+      "自社の契約でプレビューが使えるかを、MicrosoftとSalesforceの担当窓口に確認する"
+    ],
+    "service": "crm",
+    "pull": "AIが下書きし、人が確かめて登録する。",
+    "hero_image": "/assets/illustrations/2026-11-19-story-2-cast.webp",
+    "hero_image_alt": "顧客情報とAIを結ぶ画面に驚くラッコ、確認ボタンを指す猫、読書しながら横目で様子をうかがうアザラシ。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-11-19-story-2.png"
+  },
+  {
+    "updated_at": "2026-11-19",
+    "verified_at": "2026-11-19",
+    "article_kind": "news",
+    "title": "Microsoft、自社製コード生成AI「MAI Code 2」をGitHub Copilotに投入　競合の96〜98%の性能を5〜40%の費用でと主張、軽量版は無料プランでも",
+    "category": "新モデル発表",
+    "source": "Microsoft",
+    "published_at": "2026-11-17",
+    "lede": "Microsoftは11月17日、年次イベント「Ignite」で自社開発のAIモデル群を発表した。中心はプログラミング向けの「MAI Code 2」と軽量版「MAI Code 2 Flash」で、同日からGitHub Copilotで選べる。同社によると、MAI Code 2は4つのベンチマークの平均でGPT-6.1 Solの98%の性能を約4割の費用で出すという。",
+    "links": [
+      "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/",
+      "https://github.blog/changelog/2026-11-17-mai-code-2-and-mai-code-2-flash-in-github-copilot/",
+      "https://microsoft.ai/news/microsoft-ignite-2026/"
+    ],
+    "keypoints": [
+      "MAI Code 2は本番向けのコード作成、難しい不具合調査、複数ファイルにまたがる実装、画面づくり向け。Flashはコードの説明や小さな修正を大量にこなす用途",
+      "GitHub Copilotでは、MAI Code 2がPro、Pro+、Max、Business、Enterprise、FlashはFreeとStudentを含む全プランで利用できる",
+      "同社によると、MAI Code 2はGPT-6.1 Solの98%の性能を約40%の費用で、Claude Opus 5.5の96%の性能を5%の費用で出す",
+      "同じ日に画像生成のMAI Image 2.7、音声対話のMAI Realtime 1、防御向けのMAI Cyber 2 Flashなども発表した"
+    ],
+    "editorial_diagram": {
+      "kicker": "Microsoftの発表 / Ignite 2026",
+      "title": "自社製のコード生成AIをCopilotの選択肢に",
+      "lead": "Microsoft AIとGitHubの発表から、2つのコード向けモデルと提供範囲を整理した。",
+      "examples": [
+        [
+          "MAI Code 2",
+          "複数ファイルの実装や難しい不具合調査向け。Copilotの有料プラン（Pro、Pro+、Max、Business、Enterprise）で選べる。"
+        ],
+        [
+          "MAI Code 2 Flash",
+          "コードの説明や小さな修正を大量にこなす軽量版。CopilotのFreeとStudentでも使え、Microsoft Foundryでは限定プレビュー。"
+        ],
+        [
+          "費用は競合の5〜40%と主張",
+          "4つのベンチマーク平均での同社の比較。いずれも最大の推論設定で、Copilot CLIを使って測ったとしている。"
+        ]
+      ],
+      "note": "Microsoft AIとGitHubの発表（2026年11月17日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/",
+      "wide": "/assets/illustrations/2026-11-19-story-3-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-11-19-story-3-diagram-mobile.webp",
+      "alt": "MAI Code 2：複数ファイルの実装や難しい不具合調査向け。Copilotの有料プラン（Pro、Pro+、Max、Business、Enterprise）で選べる。、MAI Code 2 Flash：コードの説明や小さな修正を大量にこなす軽量版。CopilotのFreeとStudentでも使え、Microsoft Foundryでは限定プレビュー。、費用は競合の5〜40%と主張：4つのベンチマ"
+    },
+    "body": [
+      {
+        "heading": "2つのコード向けモデル",
+        "paragraphs": [
+          "Microsoftは11月17日、自社のAI部門が開発したMAI Code 2とMAI Code 2 Flashを発表した。MAI Code 2は本番に出すコードの作成、深い不具合調査、複数ファイルにまたがる実装、リポジトリ全体を見た推論に向け、ダッシュボードなど画面づくりにも調整したという。Flashはコードの説明、狙いを絞った修正、定型的な直し、短い試行の繰り返しを受け持つ。同社は、どちらも基礎科学の研究やとても長い自律作業のような難しい問題には「まだ調整していない」と明記している。",
+          "性能について同社は、DeepSWE 1.1、Terminal Bench 2.1、SWE-Atlas、FrontierCode v1.1の4つの平均で、MAI Code 2がGPT-6.1 Solの98%の性能を約40%の費用で、Claude Opus 5.5の96%の性能を5%の費用で出すとしている。Flashは日常的なコーディングの3つのベンチマークで、GPT-6 LunaやClaude Haiku 5.5と同程度だという。いずれも同社の測定で、全モデルを最大の推論設定にし、GitHub Copilot CLIで測ったと説明している。料金の金額は発表に書かれておらず、未確認である。"
+        ]
+      },
+      {
+        "heading": "GitHub Copilotでの提供と、ほかの発表",
+        "paragraphs": [
+          "GitHubによると、MAI Code 2はCopilotのPro、Pro+、Max、Business、Enterpriseで、FlashはFreeとStudentを含む全プランで、年間プランの対象契約者が使える。VS Code、Visual Studio、Copilot CLI、github.com、GitHub Mobile、JetBrains、Xcode、Eclipseなどのモデル選択画面から選ぶ。料金は使用量に応じた課金である。BusinessとEnterpriseでは、管理者がモデルの利用方針で管理し、既定では新しいモデルは自動で有効になる。Flashは開発基盤のMicrosoft Foundryで限定プレビューとなり、OpenRouterやVercelなどへの提供も「近く」としている。",
+          "Microsoft AIはIgniteの発表で、自社モデル7つを出したとしている。コード向けの2つのほか、画像生成・編集のMAI Image 2.7とその軽量版、音声で会話するMAI Realtime 1（音声1分あたり0.01ドルから）、サイバー防御向けのMAI Cyber 2 Flashなどを挙げた。7つの数え方は発表ページの一覧と見出しで一致しておらず、本誌では内訳を確定できていない。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜Copilotの「中身」が選べる時代の管理",
+        "paragraphs": [
+          "これは本誌の解釈だが、今回の意味は、MicrosoftがGitHub Copilotの裏側で動くモデルを他社製だけに頼らず、自社製でも賄い始めたことにある。性能は他社の上位モデルにわずかに届かないが、費用が大きく下がるという売り方で、日常の大量の作業を安いモデルに寄せる流れをはっきりさせた。",
+          "本誌は、Copilot BusinessやEnterpriseを使う企業に、新しいモデルが既定で自動的に有効になる設定のままでよいかを確認することを勧める。社内のコードをどのモデルに渡してよいかの方針がある会社では、知らないうちに選択肢が増えることになる。これは本誌の提案で、Microsoftの推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "Copilot BusinessやEnterpriseの管理者は、新モデルを既定で有効にする設定を見直す",
+      "コードの説明や小さな修正など、軽量モデルに任せられる作業を洗い出す",
+      "使用量課金の明細で、モデルごとの費用を月に一度確認する"
+    ],
+    "service": "fde",
+    "pull": "少し劣っても、ずっと安い。",
+    "hero_image": "/assets/illustrations/2026-11-19-story-3-cast.webp",
+    "hero_image_alt": "低コストのコード生成AIを示す図に驚くラッコと、首をかしげて尋ねる猫、読書のふりで横目を向けるアザラシ。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-11-19-story-3.png"
+  },
+  {
+    "updated_at": "2026-11-19",
+    "verified_at": "2026-11-19",
+    "article_kind": "news",
+    "title": "Google、Geminiアプリの「タスク」を日本など6か国で無料提供　店への電話予約や買い物の決済まで代行、支払いの上限額も設定可能",
+    "category": "ツール更新",
+    "source": "Google",
+    "published_at": "2026-11-17",
+    "lede": "Googleは11月17日、Geminiアプリに用事を代わりに片づけさせる「タスク」の更新を発表した。新しいモデル「Gemini 4 Hydrogen」を使い、米国、日本、韓国、カナダ、オーストラリア、インドで無料で順次提供する。店への電話での予約、請求書の分析、買い物の決済などを例に挙げ、一部の高度な機能は米国から始めるとしている。",
+    "links": [
+      "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/"
+    ],
+    "keypoints": [
+      "アプリのホーム画面の切り替えを「Chat」から「Task」にすると使える。米国・日本・韓国・カナダ・オーストラリア・インドで無料提供",
+      "使うモデルは新しい「Gemini 4 Hydrogen」。一部の高度な機能は米国から。メール転送やテキストメッセージでの依頼も米国から",
+      "支払いは決済の共通規格「AP2」を使い、MastercardとVisaに対応（American Expressは近く対応）。支出の上限を先に決められる",
+      "作業はアカウントごとに隔離された仮想マシンで行い、「購入」などの重要な操作の前に確認を求める"
+    ],
+    "editorial_diagram": {
+      "kicker": "Googleの発表 / Geminiアプリ",
+      "title": "「話す」から「任せる」へ切り替えるスイッチ",
+      "lead": "Googleの発表から、タスク機能でできることと守りの仕組みを整理した。",
+      "examples": [
+        [
+          "電話して予約する",
+          "近くの店に同時に電話をかけ、空き時間を見つけて予約し、カレンダーに入れる。電話の相手にはAIであることを伝える。"
+        ],
+        [
+          "比べて買う",
+          "商品を比較し、Google Payで決済する。カードはMastercardとVisaに対応し、支出の上限を先に設定できる。"
+        ],
+        [
+          "確認してから進む",
+          "作業は隔離された環境で行う。「購入」の前には確認を求め、日常的な操作は「常に許可」にもできる。"
+        ]
+      ],
+      "note": "Googleの発表（2026年11月17日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+      "wide": "/assets/illustrations/2026-11-19-story-4-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-11-19-story-4-diagram-mobile.webp",
+      "alt": "電話して予約する：近くの店に同時に電話をかけ、空き時間を見つけて予約し、カレンダーに入れる。電話の相手にはAIであることを伝える。、比べて買う：商品を比較し、Google Payで決済する。カードはMastercardとVisaに対応し、支出の上限を先に設定できる。、確認してから進む：作業は隔離された環境で行う。「購入」の前には確認を求め、日常的な操作は「常に許可」にもできる。"
+    },
+    "body": [
+      {
+        "heading": "何ができるようになったか",
+        "paragraphs": [
+          "Googleは11月17日、Geminiアプリの「タスク」機能の更新を発表した。同社によると、新しいモデル「Gemini 4 Hydrogen」を使い、米国、日本、韓国、カナダ、オーストラリア、インドの数億人に無料で順次提供する。あわせて一部の高度な機能を米国から提供するとしている。どの機能が米国先行なのかの一覧は発表になく、日本でどこまで使えるかは未確認である。",
+          "使い方は、アプリのホーム画面の切り替えを「Chat」から「Task」に変えて、頼みたいことを伝えるだけだ。米国ではメールをgemini@google.comに転送したり、AndroidやiOSのテキストメッセージで頼んだりもできる（テキストは米国の電話番号と対応する携帯会社が必要）。",
+          "発表では、Gemini担当副社長のジョシュ・ウッドワード氏が自分の使い方を紹介している。車の点検のために近くの販売店2か所に同時に電話をかけ、5分足らずで予約を取りカレンダーに入れた。電話を受けた店側にはAIであることをすぐ伝え、店は受け付けを断ることもできる。Google パスワード マネージャーと連携して電力会社のサイトに入り、389ドルの電気代の原因を過去の明細から調べたという。電話機能は、米国のインディアナ、ルイジアナ、ミネソタ、モンタナ、ネブラスカの5州では使えない。"
+        ]
+      },
+      {
+        "heading": "支払いと安全の仕組み",
+        "paragraphs": [
+          "買い物は、Googleのショッピンググラフ（商品データベース）で比較し、Google Payで決済する。支払いにはAIエージェント向けの決済の規格「AP2」を使い、MastercardとVisaの対応カードで使える。American Expressは近く対応する。支出の上限を先に決めておけば、その範囲で動くよう設計されている。カードのポイントや購入保護はそのまま受けられるという。食料品はInstacartの注文に品物を追加し、最後の注文は利用者がInstacart側で確定する例を挙げた。連携するアプリは60を超える。",
+          "作業はGoogle CloudのAgent Compute Engineを使い、アカウントごとに専用の、ハードウェアで隔離された仮想マシンの中で行う。ウェブページなどに仕込まれた不正な指示（プロンプトインジェクション）を検知するフィルターも重ねている。「購入」を押す前などの重要な場面では確認を求め、日常的な操作は「常に許可」に設定できる。同社は、間違いをすべてなくせたわけではなく、作業が完了しないことや意図とずれることがあると認めている。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜任せる前に「上限」と「確認」を決める",
+        "paragraphs": [
+          "これは本誌の解釈だが、今回の発表は、AIに答えを聞く使い方から、AIに用事を任せる使い方への切り替えを、無料版にまで広げた点が大きい。日本も無料提供の対象国に入っているが、電話や決済などの機能が日本でいつ使えるかは発表からは読み取れない。",
+          "本誌は、個人や小さな職場でこの機能を試すなら、最初は予定の登録や情報の整理など、お金が動かない用事から始めることを勧める。決済を任せるときは、支出の上限を必ず先に設定し、「常に許可」は品目と金額が決まっている買い物に限るのが安全だ。これは本誌の提案で、Googleの推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "Geminiアプリで「Task」への切り替えが表示されるかを確認し、まずお金が動かない用事で試す",
+      "決済を任せる場合は、支出の上限を先に設定してから使う",
+      "「常に許可」にする操作を、繰り返し買う決まった品物などに限って一覧にしておく"
+    ],
+    "service": "luna",
+    "pull": "聞くAIから、任せるAIへ。",
+    "hero_image": "/assets/illustrations/2026-11-19-story-4-cast.webp",
+    "hero_image_alt": "用事の代行と支払い上限を示すパソコンに驚くラッコ、首をかしげる猫、読書のふりで様子をうかがうアザラシ。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-11-19-story-4.png"
+  },
+  {
+    "updated_at": "2026-11-19",
+    "verified_at": "2026-11-19",
+    "article_kind": "news",
+    "title": "Google、中位モデル「Gemini 4 Neon」を公開　入力100万トークン3ドル・扱える長さ100万トークン、上位Carbonより1タスクの費用32%減と主張",
+    "category": "新モデル発表",
+    "source": "Google",
+    "published_at": "2026-11-18",
+    "lede": "Googleは11月18日、AIモデル「Gemini 4 Neon」を公開した。最上位のGemini 4 Carbonと高速なGemini 4 Hydrogenの間に位置し、深さと効率の釣り合いを狙う。APIの料金は100万トークンあたり入力3ドル、出力15ドルで、一度に扱える長さは100万トークン。同日からAPIやGeminiアプリなどで順次提供する。",
+    "links": [
+      "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+      "https://deepmind.google/blog/introducing-gemini-4-neon/",
+      "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-4-Neon-Model-Card.pdf"
+    ],
+    "keypoints": [
+      "Gemini 4 Neonは、難しい長期作業向けのCarbonと日常の高速処理向けのHydrogenの中間。ソフト開発、知的作業、科学を想定する",
+      "APIの料金は100万トークンあたり入力3ドル、キャッシュ済み入力0.15ドル、出力15ドル。扱える長さは100万トークン",
+      "推論の深さは4段階で、既定は「high」。同社によるとhighでの1タスクあたりの費用はCarbonより32%低い",
+      "Gemini API（有料枠）、Google AI Studio、Android Studio、企業向けGemini、開発環境Antigravity、Geminiアプリ（Google AI Pro・Ultra）で11月18日から順次提供"
+    ],
+    "editorial_diagram": {
+      "kicker": "Googleの発表 / Gemini 4",
+      "title": "上位と高速の間に入る「真ん中」のモデル",
+      "lead": "Googleの発表から、Gemini 4 Neonの位置づけ、料金、提供先を整理した。",
+      "examples": [
+        [
+          "Carbonと Hydrogenの中間",
+          "最上位のCarbonは難しい長期の作業向け、Hydrogenは日常の高速処理向け。Neonはその間で深さと効率の釣り合いを取るとしている。"
+        ],
+        [
+          "入力3ドル・出力15ドル",
+          "100万トークンあたりのAPI料金。キャッシュ済み入力は0.15ドルで、扱える長さは100万トークン。"
+        ],
+        [
+          "APIからGeminiアプリまで",
+          "Gemini APIの有料枠、AI Studio、企業向けGemini、Antigravity、Geminiアプリ（Google AI ProとUltra）で順次提供する。"
+        ]
+      ],
+      "note": "Googleの発表（2026年11月18日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+      "wide": "/assets/illustrations/2026-11-19-story-5-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-11-19-story-5-diagram-mobile.webp",
+      "alt": "Carbonと Hydrogenの中間：最上位のCarbonは難しい長期の作業向け、Hydrogenは日常の高速処理向け。Neonはその間で深さと効率の釣り合いを取るとしている。、入力3ドル・出力15ドル：100万トークンあたりのAPI料金。キャッシュ済み入力は0.15ドルで、扱える長さは100万トークン。、APIからGeminiアプリまで：Gemini APIの有料枠、AI Studio、企業向"
+    },
+    "body": [
+      {
+        "heading": "位置づけと料金",
+        "paragraphs": [
+          "Googleは11月18日、Google DeepMindのコライ・カヴクチュオール氏の名前でGemini 4 Neonを発表した。同社はNeonを、難しい長期の作業向けのGemini 4 Carbonと、日常の素早い処理向けのGemini 4 Hydrogenの間に置き、ソフトウェア開発、知的作業、科学の分野で「最先端の知能」と速い作業完了を両立させるモデルと説明している。推論の深さは4段階で、既定は「high」、最も深いのは「xhigh」である。",
+          "APIの料金は100万トークンあたり入力3ドル、キャッシュ済み入力0.15ドル、出力15ドル。一度に扱える長さは100万トークン。同社によると、highの設定での1タスクあたりの費用はCarbonより32%低く、xhighでは競合モデルの最高設定より36%以上低いという。"
+        ]
+      },
+      {
+        "heading": "提供先と性能の主張",
+        "paragraphs": [
+          "提供は11月18日から順次始まる。開発者向けにはGemini APIの有料枠、Google AI Studio、Android Studio、企業向けにはGemini for businessのAPIやモデル選択画面、開発環境のGoogle Antigravity（Google AI ProとUltraの有料会員）、一般向けにはGeminiアプリ（Google AI ProまたはUltraの会員）で選べる。サイバー防御向けの版は、同社の審査を通った防御側の組織に「数日のうちに」提供するとしている。地域ごとの提供範囲は発表に書かれておらず、未確認である。",
+          "性能について同社は、外部の評価指標Artificial Analysis Intelligence Indexでxhighの設定で61点（全体3位）、Vals Indexで70.9%（2位）、Terminal-Bench 4.1で65.2%などの数字を挙げている。いずれもGoogleが発表で示した結果である。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜「真ん中」のモデルで足りる仕事は多い",
+        "paragraphs": [
+          "これは本誌の解釈だが、今回の発表は最上位の性能競争より、費用あたりの性能を前面に出している点が目立つ。OpenAIやMicrosoftも同じ週に「上位と日常用」を分けたモデルを出しており、各社とも、すべての仕事を最上位モデルに任せる使い方を前提にしなくなっている。",
+          "本誌は、Geminiを業務で使う企業に、今Carbonなど上位モデルで回している処理のうち、Neonに替えても結果が変わらないものを10件ほど試して比べることを勧める。費用の差は、件数が多い処理ほど効いてくる。これは本誌の提案で、Googleの推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "上位モデルで回している定型処理を10件選び、Neonに替えて結果を比べる",
+      "Gemini APIの有料枠で、Neonにした場合の月額を試算する",
+      "Google AI Pro・Ultraの契約者は、Geminiアプリのモデル選択でNeonが選べるかを確認する"
+    ],
+    "service": "fde",
+    "pull": "最上位でなくても、足りる仕事は多い。",
+    "hero_image": "/assets/illustrations/2026-11-19-story-5-cast.webp",
+    "hero_image_alt": "中間の棒が赤いグラフに驚くラッコと、首をかしげて指す茶トラ猫、本を読むふりで横目を向けるアザラシ。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-11-19-story-5.png"
+  },
+  {
+    "updated_at": "2026-11-19",
+    "verified_at": "2026-11-19",
+    "article_kind": "news",
+    "title": "Microsoft、AIエージェントで防御を回す「Perception」を正式提供　攻撃模擬・検知・修復の3役を連携、重要な操作は人が承認",
+    "category": "セキュリティ",
+    "source": "Microsoft",
+    "published_at": "2026-11-17",
+    "lede": "Microsoftは11月17日、AIエージェントを使ってサイバー攻撃への備えと対応を回す基盤「Microsoft Perception」の正式提供を発表した。攻撃を模擬する「レッド」、検知と調査を担う「ブルー」、修復を担う「グリーン」の3種のエージェントを、手順書（プレイブック）に沿って連携させる。AIによって脆弱性が攻撃に使われるまでの時間が縮んでいることへの対抗策と位置づけている。",
+    "links": [
+      "https://www.microsoft.com/en-us/security/blog/2026/11/17/security-for-the-agentic-era-powered-by-microsoft-perception/"
+    ],
+    "keypoints": [
+      "Microsoft Perceptionを正式提供。攻撃の模擬、検知・調査、修復の3種のエージェントを手順書に沿って連携させる",
+      "影響の大きい操作は担当チームが承認する。自動起動は、利用企業が決めた条件に合う事案だけ",
+      "警告の振り分けや攻撃の調査など多くのエージェントは正式提供、ウェブアプリの侵入テストと修復提案の一部はプレビュー",
+      "同社によると、2026年に公開された脆弱性は9万6,000件超で、2024年の約4万件から急増した"
+    ],
+    "editorial_diagram": {
+      "kicker": "Microsoftの発表 / Microsoft Perception",
+      "title": "攻める・見つける・直すを、エージェントで一巡させる",
+      "lead": "Microsoftの発表から、Perceptionの3つの役割を整理した。",
+      "examples": [
+        [
+          "レッド：攻撃を模擬する",
+          "侵入される前に、偵察やウェブアプリの侵入テストで弱点を探す。侵入テストのエージェントはプレビュー。"
+        ],
+        [
+          "ブルー：見つけて調べる",
+          "警告の振り分け、攻撃の調査、検知ルールの作成、脅威情報の収集を担う。いずれも正式提供。"
+        ],
+        [
+          "グリーン：直す",
+          "対策の優先順位をつけ、修復を進める。修正が出るまでの一時的な防御（プレビュー）も提案する。"
+        ]
+      ],
+      "note": "Microsoftの発表（2026年11月17日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://www.microsoft.com/en-us/security/blog/2026/11/17/security-for-the-agentic-era-powered-by-microsoft-perception/",
+      "wide": "/assets/illustrations/2026-11-19-story-6-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-11-19-story-6-diagram-mobile.webp",
+      "alt": "レッド：攻撃を模擬する：侵入される前に、偵察やウェブアプリの侵入テストで弱点を探す。侵入テストのエージェントはプレビュー。、ブルー：見つけて調べる：警告の振り分け、攻撃の調査、検知ルールの作成、脅威情報の収集を担う。いずれも正式提供。、グリーン：直す：対策の優先順位をつけ、修復を進める。修正が出るまでの一時的な防御（プレビュー）も提案する。"
+    },
+    "body": [
+      {
+        "heading": "Perceptionの仕組み",
+        "paragraphs": [
+          "Microsoftは11月17日、同社のセキュリティブログで「Microsoft Perception」の正式提供を発表した。執筆はMicrosoft Securityのプレジデント兼チーフアーキテクト、アレシュ・ホレチェク氏。発表はイベント「Ignite」の会期に合わせたものである。",
+          "Perceptionは、攻撃を模擬する「レッドチーム」、攻撃を検知して調べる「ブルーチーム」、弱点を直す「グリーンチーム」の3種のAIエージェントを、手順書に沿って連携させる。正式提供のエージェントは、警告の振り分け、攻撃の調査、検知ルールの作成、脅威情報、偵察、対策の優先順位づけの6つ。ウェブアプリの侵入テストと、リスクを減らす修復のエージェントはプレビューである。ウェブアプリの侵入テストから見つかった弱点の修正をGitHubのコードまで進める手順書も用意した。",
+          "利用企業は守るべき範囲（ガードレール）を決め、影響の大きい操作は担当チームが承認する。手順書が自動で動くのは、事案が利用企業の定めた条件に合うときだけだという。AIの利用量を追跡し、費用を見積もる画面も加えた。同社によると、500を超える接続先とつながり、Microsoftと提携先から1日に165兆件を超える信号を集めている。Perceptionの料金とライセンス条件は発表に書かれておらず、未確認である。"
+        ]
+      },
+      {
+        "heading": "背景にあるAIによる攻撃の加速",
+        "paragraphs": [
+          "同社は、最先端のAIモデルがソフトウェアの欠陥を見つけて悪用する能力を高め、安全対策の弱い公開モデルにも同様の能力が広がりつつあると指摘する。脆弱性の発見から攻撃に使われるまでの時間は「数か月から数分へ」縮んでいるという。2026年に公開された脆弱性は9万6,000件を超え、2024年の約4万件から大きく増えた。一方、米政府機関CISAが「実際に悪用された」と認定した脆弱性のうち、2025年に修正されたのは26%にとどまるとしている。",
+          "同じ発表では、Defenderの統合的な監視機能（ISOC）の中核機能の正式提供や、社内で動くAIエージェントを「新しい内部関係者」として見つけ出し、権限を管理する機能のプレビューも示した。後者は、Claude Code、OpenAI Codex、GitHub Copilotなどパソコン上で動くエージェントの検出対象を35種類から60種類に広げる。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜「AIに直させる範囲」を先に線引きする",
+        "paragraphs": [
+          "これは本誌の解釈だが、今回の発表は、AIで攻撃が速くなるなら、守る側も見つけてから直すまでをAIで速く回すしかない、という考え方を製品にしたものだ。ただし、影響の大きい操作は人が承認する設計であり、どこまでを自動に任せるかを決めるのは利用企業の側である。",
+          "本誌は、Microsoftのセキュリティ製品を使っている企業に、導入の検討より先に「自動で実行してよい対応」と「必ず人が承認する対応」の一覧を作ることを勧める。あわせて、社員のパソコンで動いているAIコーディングツールなどのエージェントを棚卸ししておくと、権限管理の議論が進めやすい。これは本誌の提案で、Microsoftの推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "セキュリティ対応のうち、AIに自動で任せてよいものと人の承認が必要なものを一覧にする",
+      "社員のパソコンやクラウドで動いているAIエージェントを洗い出し、持たせている権限を確認する",
+      "自社の契約でPerceptionやDefenderの新機能が使えるか、料金とあわせて販売窓口に確認する"
+    ],
+    "service": "fde",
+    "pull": "攻撃が速くなるなら、守りも速く回す。",
+    "hero_image": "/assets/illustrations/2026-11-19-story-6-cast.webp",
+    "hero_image_alt": "赤青緑の防御連携図にラッコが驚き、猫が承認ボタンに手を伸ばし、アザラシが読書しながら横目で見る。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-11-19-story-6.png"
+  },
+  {
+    "updated_at": "2026-11-19",
+    "verified_at": "2026-11-19",
+    "article_kind": "news",
+    "title": "AWS、サーバー管理不要のLambdaでGPUを使えるように　自社AIモデルの推論を1回最長90分、Gシリーズ7種に対応しGPU分の管理料は9.75％",
+    "category": "ツール更新",
+    "source": "Amazon Web Services",
+    "published_at": "2026-11-18",
+    "lede": "Amazon Web Services（AWS）は11月18日、サーバー管理なしでプログラムを動かす「AWS Lambda」で、GPU（AI計算向けの半導体）を積んだ仮想サーバーを使えるようにしたと発表した。「Lambda Managed Instances」上のイベント関数が対象で、自社で用意したAIモデルの推論などを想定する。同日から一般提供している。",
+    "links": [
+      "https://aws.amazon.com/blogs/aws/aws-lambda-now-supports-gpu-instances-for-event-functions-on-lambda-managed-instances/"
+    ],
+    "keypoints": [
+      "Lambda Managed Instances上の「イベント関数」で、EC2のGシリーズ（G4dn、G5、G6、G6f、Gr6、Gr6f、G6e）を使える。一般提供で、対象は今後広げる",
+      "料金はEC2の利用料に、GPU向けの管理料9.75％と、100万リクエストあたり0.20ドルのリクエスト料を足したもの",
+      "非同期やイベント経由の呼び出しは最長90分。コンテナイメージは最大32GB、GPUメモリは3〜48GBを指定できる",
+      "用途は推論向けで、学習向けではない。vLLMなどを入れた基本イメージをAWSが用意し、ドライバーやCUDAの管理は不要としている"
+    ],
+    "editorial_diagram": {
+      "kicker": "AWSの発表 / Lambda Managed Instances",
+      "title": "「ファイルが届いたらGPUで推論」をサーバー管理なしで",
+      "lead": "AWSの発表から、使える範囲と料金の考え方を整理した。",
+      "examples": [
+        [
+          "GPU付きのGシリーズ",
+          "G4dn、G5、G6、G6f、Gr6、Gr6f、G6eに対応した。複数の型を指定すると、空きのある安い型をLambdaが選ぶ。"
+        ],
+        [
+          "イベントで動き出す",
+          "S3へのアップロードやSQSのメッセージなど、200以上のイベントからGPUの処理を直接呼び出せる。"
+        ],
+        [
+          "料金はEC2＋管理料",
+          "EC2の利用料に、GPU向けの管理料9.75％と1回ごとのリクエスト料を足す。Savings Plansなどの割引も使える。"
+        ]
+      ],
+      "note": "AWSの発表（2026年11月18日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://aws.amazon.com/blogs/aws/aws-lambda-now-supports-gpu-instances-for-event-functions-on-lambda-managed-instances/",
+      "wide": "/assets/illustrations/2026-11-19-story-7-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-11-19-story-7-diagram-mobile.webp",
+      "alt": "GPU付きのGシリーズ：G4dn、G5、G6、G6f、Gr6、Gr6f、G6eに対応した。複数の型を指定すると、空きのある安い型をLambdaが選ぶ。、イベントで動き出す：S3へのアップロードやSQSのメッセージなど、200以上のイベントからGPUの処理を直接呼び出せる。、料金はEC2＋管理料：EC2の利用料に、GPU向けの管理料9.75％と1回ごとのリクエスト料を足す。Savings Plans"
+    },
+    "body": [
+      {
+        "heading": "何ができるようになったか",
+        "paragraphs": [
+          "AWSは11月18日、Lambda Managed Instances（Lambdaの関数を自社アカウントのEC2仮想サーバー上で動かす仕組み）のイベント関数で、GPUを積んだEC2のGシリーズを使えるようにしたと公式ブログで発表した。一般提供で、対応する型はG4dn、G5、G6、G6f、Gr6、Gr6f、G6e。今後ほかの型にも広げるとしている。",
+          "関数はコンテナイメージとして配置する。同社によると、GPUのドライバーやCUDA（GPU計算用のソフト）の版合わせ、クラスターの運用は不要で、配置や負荷分散はLambda側が担う。CUDAだけのものや、PyTorch入り、AIモデルを配信するvLLM・SGLang入りなどの基本イメージを用意した。S3、SQS、API Gateway、EventBridgeなど200以上のイベントから直接呼び出せる。",
+          "想定する用途は、自社で用意したモデルの推論（画像認識、音声の文字起こしや読み上げ、文書の分析、中小規模の言語モデルなど）、動画や画像の変換、3D描画、科学計算や金融のリスク分析などだ。学習ではなく推論向けで、Amazon Bedrockにあるような大規模な基盤モデルではなく、自社のモデルを動かす用途に向けたものだとしている。"
+        ]
+      },
+      {
+        "heading": "上限と料金",
+        "paragraphs": [
+          "非同期の呼び出しやイベント経由の呼び出しでは、1回の処理を最長90分まで動かせる。コンテナイメージは最大32GB、一時保存領域は最大32GB、メモリは2,048〜32,768MB、GPUメモリは3〜48GBの範囲で指定する。1つの実行環境で最大48件の要求を同時に処理でき、同じGPUに要求をまとめて使用率を上げられるという。新しいアカウントではGシリーズの利用枠が0の場合があり、先に上限の引き上げ申請が要るとしている。",
+          "料金は、もとになるEC2の利用料に、GPU向けの管理料9.75％と、100万リクエストあたり0.20ドルのLambdaのリクエスト料を足したもの。EC2の利用料にはSavings PlansやReserved Instancesの割引を使える。使えるリージョン（地域）は料金ページで案内するとしており、東京リージョンで使えるかは発表本文では確認できず、未確認である。",
+          "ブログの手順例では、オハイオ（us-east-2）でvLLMの基本イメージを使い、公開モデルのQwen2.5-1.5B-Instructを動かした。モデルの指定から使える状態になるまで約10分で、4件を同時に送っても1件とほぼ同じ時間で終わったという。いずれもAWSの説明である。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜「常時起動のGPU」を持たずに済む業務が増える",
+        "paragraphs": [
+          "これは本誌の解釈だが、今回の更新が効くのは、毎日一定量だけ発生する推論だ。届いた書類の読み取り、録音の文字起こし、画像の検品などは、GPUを常に動かすほどの量はないが、CPUでは遅い。こうした処理を、イベントで呼び出してGPUで動かす形にしやすくなる。",
+          "ただし、料金はGPUの仮想サーバーが動いている時間で決まり、呼び出しの回数だけで決まるわけではない。本誌は、試す前に1日の処理件数と1件あたりの処理時間を見積もり、常時起動のGPUや外部のAIサービスと月額で比べることを勧める。これは本誌の提案で、AWSの推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "社内で「ファイルが届いたらAIで処理する」作業を洗い出し、1日の件数と1件の処理時間を書き出す",
+      "使いたいリージョンでGシリーズが使えるか、アカウントのGPU利用枠が0になっていないかを確認する",
+      "試した後は関数とキャパシティプロバイダーを削除し、GPUの課金が止まったことを請求画面で確かめる"
+    ],
+    "service": "fde",
+    "pull": "GPUを持たずに、GPUの推論を呼び出す。",
+    "hero_image": "/assets/illustrations/2026-11-19-story-7-cast.webp",
+    "hero_image_alt": "クラウドと半導体の図が映るパソコンにラッコが驚き、猫が指を差す横で、アザラシが読書を装い横目で聞いている。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-11-19-story-7.png"
+  },
+  {
+    "updated_at": "2026-11-19",
+    "verified_at": "2026-11-19",
+    "article_kind": "news",
+    "title": "Sakana AI、日本の金融資格試験でAIを測る「JFinBench」を公開　2026年の6試験・321問、首位はClaude Fable 5の95.8点",
+    "category": "研究",
+    "source": "Sakana AI",
+    "published_at": "2026-11-17",
+    "lede": "Sakana AIは11月17日、日本の金融資格試験を使ってAIの金融知識を測るベンチマーク（評価用の問題集）「JFinBench」を公開した。公認会計士試験や税理士試験など6試験の2026年版から321問を集め、12のモデルを採点した。道具を使わない条件ではClaude Fable 5が95.8点で最も高かった。",
+    "links": [
+      "https://sakana.ai/jfinbench/"
+    ],
+    "keypoints": [
+      "公認会計士試験（短答式）、税理士試験（全11科目）、FP技能検定1級（学科）など6試験の2026年版から321問。うち193問が選択式、128問が記述式",
+      "道具なし・推論を最大にした条件の全体スコアは、Claude Fable 5が95.8、GPT-6 Astraが93.6。公開モデルの最高はKimi K3.1 Proの83.4",
+      "誤答の主な原因は計算ミスではなく「日本の制度に関する知識の不足」だと分析した",
+      "ターミナルとWeb検索を使える条件では全モデルが改善し、商用と公開モデルの差は約4.4点に縮んだ。問題と採点コードはHugging FaceとGitHubで公開"
+    ],
+    "editorial_diagram": {
+      "kicker": "Sakana AIの発表 / JFinBench",
+      "title": "日本の金融資格試験で、AIの「制度の知識」を測る",
+      "lead": "Sakana AIの発表から、問題の作り方と結果の要点を整理した。",
+      "examples": [
+        [
+          "最新の6試験・321問",
+          "2026年に実施・公開された試験だけを使った。学習データに問題が混ざり、暗記で解けてしまうのを避けるためだという。"
+        ],
+        [
+          "道具なしの首位は95.8点",
+          "Claude Fable 5が95.8、GPT-6 Astraが93.6。公開モデルで最も高いKimi K3.1 Proは83.4で、約12点の差があった。"
+        ],
+        [
+          "道具を使うと差が縮む",
+          "ターミナルとWebを使える条件では、最高はGPT-6 Astraの97.3。商用と公開モデルの差は約4.4点になった。"
+        ]
+      ],
+      "note": "Sakana AIの発表（2026年11月17日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://sakana.ai/jfinbench/",
+      "wide": "/assets/illustrations/2026-11-19-story-8-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-11-19-story-8-diagram-mobile.webp",
+      "alt": "最新の6試験・321問：2026年に実施・公開された試験だけを使った。学習データに問題が混ざり、暗記で解けてしまうのを避けるためだという。、道具なしの首位は95.8点：Claude Fable 5が95.8、GPT-6 Astraが93.6。公開モデルで最も高いKimi K3.1 Proは83.4で、約12点の差があった。、道具を使うと差が縮む：ターミナルとWebを使える条件では、最高はGPT-6"
+    },
+    "body": [
+      {
+        "heading": "どんな問題集か",
+        "paragraphs": [
+          "JFinBenchは、日本の6つの金融資格試験の2026年版から作った問題集だ。内訳は、公認会計士試験の短答式（5月24日実施）93問、税理士試験の全11科目（8月5〜6日実施）40問、FP技能検定1級の学科（5月24日実施）65問、金融窓口サービス技能検定1級（2026年5月公開）66問、日商簿記検定1級（6月14日実施）24問、全商簿記実務検定1級（6月28日実施）33問で、計321問。193問が選択式、128問が記述式で、12問は画像を含む。",
+          "同社によると、2026年に実施された最新の試験だけを使ったのは、学習データに問題が混ざる「データ汚染」を抑えるためだ。公開済みの問題が学習に使われると、点数は理解ではなく暗記を測ることになるため、定期的に作り直す必要があるとしている。問題はコーディング用のAIエージェントで作り、著者の1人が全321問を原典と突き合わせて確認した。確認には1試験あたり約2時間、計約12時間かかったという。",
+          "論文（arXiv 2611.18130）、データセット（Hugging Face）、コード（GitHub）、順位表を公開した。データとコードの利用条件（ライセンス）は発表ページでは確認できず、未確認である。"
+        ]
+      },
+      {
+        "heading": "採点の結果",
+        "paragraphs": [
+          "道具を使わず、推論の量を最大にした条件で、12モデルを3回ずつ解かせた平均を比べた。首位はClaude Fable 5の95.8で、GPT-6 Astraが93.6、Gemini 3.8 Flashが88.8と続いた。重みが公開されているモデルの最高はKimi K3.1 Proの83.4で、GPT-6 Astraとは約10点、Claude Fable 5とは約12点の差がある。同社は、この差はプログラミング系のベンチマークでは見えにくいと指摘している。",
+          "誤答の原因を6種類に分けると、最も多かったのは知識不足で、計算ミスは少なかった。同社は課題の中心を「日本の制度に関する知識の不足」としている。",
+          "ターミナルとWebアクセスを使える条件（1回の試行は最長6時間）では、全モデルの点数が上がった。最高はGPT-6 Astraの97.3で、Claude Fable 5は96.4、Kimi K3.1 Proは92.9。商用と公開モデルの最高点の差は約4.4点に縮んだ。全体の点数はモデルの大きさ（パラメータ数）と相関が強い（相関係数0.82）が、学習後の調整も効いているという。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜弱点は「計算」より「制度の知識」",
+        "paragraphs": [
+          "これは本誌の解釈だが、この結果で実務に効くのは順位より誤答の中身だ。AIは計算より、日本の税制や金融制度の知識で間違えやすい。道具でWebや法令を調べさせると点数が上がる、という結果もこれと合う。",
+          "本誌は、経理・税務・金融の窓口業務にAIを入れる企業に、AIに制度を「覚えさせる」より、最新の法令や社内規程を「調べさせる」仕組みを先に用意することを勧める。試験で95点でも、改正直後の制度は知らない可能性がある。これは本誌の提案で、Sakana AIの推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "経理・税務でAIに任せている作業を、計算と制度判断に分けて一覧にする",
+      "制度判断を含む作業には、参照すべき法令・通達・社内規程の置き場所を決めてAIに渡す",
+      "法改正や制度変更のたびに、AIの回答を見直す担当者と時期を決める"
+    ],
+    "service": "fde",
+    "pull": "AIがつまずくのは、計算ではなく日本の制度だった。",
+    "hero_image": "/assets/illustrations/2026-11-19-story-8-cast.webp",
+    "hero_image_alt": "金融試験の答案に驚くラッコと、首をかしげて質問する茶トラ猫、本を読みながら横目で様子をうかがうアザラシ。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-11-19-story-8.png"
+  },
+  {
+    "updated_at": "2026-11-19",
+    "verified_at": "2026-11-19",
+    "article_kind": "news",
+    "title": "Google、操作できる仮想世界を生成する「Genie 4」を提供開始　探索中に文字の指示で世界を変更、場面に合わせた音声も生成、まずAI Ultra会員向け",
+    "category": "ツール更新",
+    "source": "Google DeepMind",
+    "published_at": "2026-11-18",
+    "lede": "Googleは11月18日、文章や画像から歩き回れる仮想の世界をつくる「世界モデル」の新版「Genie 4」を、ブラウザで使える「Project Genie」で提供し始めた。探索の途中で文字の指示を出して天気や登場人物を変えられ、映像に合わせて音声もその場で生成する。使えるのは対象のGoogle AI Ultra会員で、Google AI Pro会員は順番待ちに登録できる。",
+    "links": [
+      "https://deepmind.google/blog/genie-4-is-now-available/",
+      "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/"
+    ],
+    "keypoints": [
+      "Genie 4は同社によると「最も写実的で操作性の高い世界モデル」。Project Genie（labs.google/projectgenie）で使える",
+      "探索の途中で新しい指示を入力し、天気を変える、人物を加えるなど世界をその場で変更できる",
+      "Genieとして初めて、場面に合わせて変わる環境音や登場人物のせりふなどの音声を映像と一緒に生成する",
+      "提供は対象のGoogle AI Ultra会員から。Pro会員は順番待ち。旧版Genie 3は1回の生成が最長3分に延びた"
+    ],
+    "editorial_diagram": {
+      "kicker": "Googleの発表 / Genie 4",
+      "title": "見るだけの映像から、入って動かせる世界へ",
+      "lead": "Googleの発表から、Genie 4で新しくなった点を3つに整理した。",
+      "examples": [
+        [
+          "途中で世界を変える",
+          "歩き回っている最中に指示を入力すると、天気や登場人物、出来事がその場で変わる。"
+        ],
+        [
+          "音も一緒に生まれる",
+          "場面に合わせて変わる環境音や、登場人物のせりふを映像と同時に生成する。Genieでは初めて。"
+        ],
+        [
+          "透かしと安全確認",
+          "生成した映像と音声にはすべて電子透かし「SynthID」を入れ、入力と出力に安全確認をかける。"
+        ]
+      ],
+      "note": "Googleの発表（2026年11月18日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://deepmind.google/blog/genie-4-is-now-available/",
+      "wide": "/assets/illustrations/2026-11-19-story-9-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-11-19-story-9-diagram-mobile.webp",
+      "alt": "途中で世界を変える：歩き回っている最中に指示を入力すると、天気や登場人物、出来事がその場で変わる。、音も一緒に生まれる：場面に合わせて変わる環境音や、登場人物のせりふを映像と同時に生成する。Genieでは初めて。、透かしと安全確認：生成した映像と音声にはすべて電子透かし「SynthID」を入れ、入力と出力に安全確認をかける。"
+    },
+    "body": [
+      {
+        "heading": "Genie 4でできること",
+        "paragraphs": [
+          "Googleは11月18日、世界モデル「Genie 4」の提供を始めた。世界モデルは、文章や画像の指示から、利用者が中を移動したり操作したりできる仮想の世界を、その場で生成し続けるAIである。Genie 4は、ブラウザで世界をつくって探索する「Project Genie」（labs.google/projectgenie）で使える。同社はGenie 4を「最も写実的で操作性の高い世界モデル」と説明している。",
+          "新しい点は2つある。1つは、探索の途中で新しい指示を入力すると、天気を変える、人物を加える、出来事の流れを変えるといった変更がその場で反映されること。もう1つは音声で、Genieとして初めて、場面の進行に合わせて変わる環境音や登場人物のせりふを映像と一緒に生成する。解像度、フレームレート、Genie 4で1回に探索できる時間は発表に書かれておらず、未確認である。",
+          "Project Genieには、会話で世界づくりを手伝うエージェントや、作品を公開・改変できるギャラリーも加わった。旧版のGenie 3も引き続き選べ、1回の生成が60秒から最長3分に延びたほか、複数の世界をつなぐ機能や、360度のパノラマ画像から世界をつくる機能が加わった。"
+        ]
+      },
+      {
+        "heading": "使える人と注意点",
+        "paragraphs": [
+          "提供は対象のGoogle AI Ultra会員から始まり、Google AI Pro会員は順番待ちに登録できる。提供国、年齢条件、利用回数の上限は発表に書かれておらず、日本から使えるかどうかは未確認である。",
+          "生成した映像と音声には、すべて電子透かし「SynthID」を入れる。入力と出力には安全確認をかけている。同社は、カメラ操作の遅れ、複雑な物理的な動き、音声の正確さ、長時間にわたって場面を保つことは、まだ改善中の課題だとしている。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜まだ遊び場だが、試作の道具になりうる",
+        "paragraphs": [
+          "これは本誌の解釈だが、Genie 4は現時点では高額な会員向けの体験版に近く、業務にそのまま使う段階ではない。ただ、指示ひとつで場面を変えられる点は、店舗のレイアウト案やイベント会場の雰囲気、映像の絵コンテなど、言葉だけでは伝わりにくいイメージを関係者と共有する試作に向いている。",
+          "本誌は、すでにAI Ultraを契約している人には、実在の場所や人物を使わない架空の場面で、社内の説明用の短い試作をつくってみることを勧める。生成物には透かしが入るが、外部に公開する場合はAIで作ったと明記するのが無難だ。これは本誌の提案で、Googleの推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "自分の契約がGoogle AI UltraかProかを確認し、Proなら順番待ちに登録する",
+      "言葉で説明しにくい場面（売り場、会場、映像の一場面など）を1つ選び、試作の題材にする",
+      "生成した映像を社外に出す場合の表記ルール（AI生成であることの明記など）を決めておく"
+    ],
+    "service": "luna",
+    "pull": "指示ひとつで、世界の天気が変わる。",
+    "hero_image": "/assets/illustrations/2026-11-19-story-9-cast.webp",
+    "hero_image_alt": "仮想世界が映るパソコンに驚くラッコと首をかしげる猫、読書しながら横目で聞くアザラシ。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-11-19-story-9.png"
+  },
+  {
+    "updated_at": "2026-11-19",
+    "verified_at": "2026-11-19",
+    "article_kind": "news",
+    "title": "Cloudflare、書類から項目を抜き出すAI「Clairic」を重み公開　PDFにも対応、Workers AIでは入力100万トークン0.10ドルから",
+    "category": "ツール更新",
+    "source": "Cloudflare",
+    "published_at": "2026-11-18",
+    "lede": "Cloudflareは11月18日、請求書や契約書などから必要な項目を抜き出すAIモデル「Clairic」と軽量版「Clairic-flash」の更新版を、中身の重みごと公開した。新たにPDFを読めるようになり、同社のAI実行基盤Workers AIでも使える。料金は入力100万トークンあたりClairicが0.24ドル、Clairic-flashが0.10ドルで、12月1日までは両方0.10ドルになる。",
+    "links": [
+      "https://blog.cloudflare.com/open-clairic/",
+      "https://huggingface.co/Cloudflare/clairic",
+      "https://huggingface.co/Cloudflare/clairic-flash"
+    ],
+    "keypoints": [
+      "Clairicは270億パラメータ、Clairic-flashは90億パラメータの抽出専用モデル。重みはHugging Faceで公開した",
+      "プレビュー版から、PDFの読み取りに対応し、表・一覧・日付の扱いを改善した。1回のリクエストで画像かPDFのページを合計4枚まで渡せる",
+      "Workers AIの料金は入力100万トークンあたりClairic 0.24ドル、Clairic-flash 0.10ドル。出力の費用は同社が負担する。12月1日までは両方0.10ドル",
+      "Hugging Faceのモデル説明によると、ClairicのライセンスはApache-2.0、元になったモデルはQwen3.8-27B"
+    ],
+    "editorial_diagram": {
+      "kicker": "Cloudflareの発表 / Clairic",
+      "title": "書類の「どこに何が書いてあるか」を取り出すAI",
+      "lead": "Cloudflareのブログから、2つのモデルの違いと料金を整理した。",
+      "examples": [
+        [
+          "Clairic（270億パラメータ）",
+          "表や明細、日付の読み取りを強化した本体。Workers AIでは入力100万トークンあたり0.24ドル（12月1日までは0.10ドル）。"
+        ],
+        [
+          "Clairic-flash（90億パラメータ）",
+          "より軽く速い版。入力100万トークンあたり0.10ドル。同社の測定では、どの評価でも応答時間の中央値がClairicより短い。"
+        ],
+        [
+          "重みを公開",
+          "Hugging Faceで重みを公開し、自社のサーバーでも動かせる。Workers AIでは入力分だけを課金する。"
+        ]
+      ],
+      "note": "Cloudflareの発表（2026年11月18日）とHugging Faceの公開ページから編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://blog.cloudflare.com/open-clairic/",
+      "wide": "/assets/illustrations/2026-11-19-story-10-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-11-19-story-10-diagram-mobile.webp",
+      "alt": "Clairic（270億パラメータ）：表や明細、日付の読み取りを強化した本体。Workers AIでは入力100万トークンあたり0.24ドル（12月1日までは0.10ドル）。、Clairic-flash（90億パラメータ）：より軽く速い版。入力100万トークンあたり0.10ドル。同社の測定では、どの評価でも応答時間の中央値がClairicより短い。、重みを公開：Hugging Faceで重みを公開"
+    },
+    "body": [
+      {
+        "heading": "何が変わったか",
+        "paragraphs": [
+          "Cloudflareは11月18日、書類から決まった項目を取り出す「抽出」専用のAIモデル、Clairicの正式な更新版と、軽量版のClairic-flashを公開した。Clairicは270億、Clairic-flashは90億のパラメータ（モデルの規模を示す数）を持つ。プレビュー版から、画像に加えてPDFも読めるようになり、1回のリクエストで画像かPDFのページを合計4枚まで渡せる。表・一覧・日付の扱いを改善し、明細の行を品名・数量・価格のまとまりのまま返せるようにした。答えごとの確信度や、原文のどこから取ったかを示す情報は引き続き返す。API（呼び出しの形式）はプレビューから変えておらず、プレビューの利用者は自動で新しいモデルに移る。",
+          "両モデルの重みはHugging Faceで公開した。同社のブログはライセンス名を書いていないが、Hugging FaceのClairicのページはApache-2.0で公開したと記し、元になったモデルをQwen3.8-27Bとしている。Clairic-flashの元のモデルとライセンスは本誌では未確認である。"
+        ]
+      },
+      {
+        "heading": "料金と同社の測定結果",
+        "paragraphs": [
+          "Workers AIでの料金は、入力100万トークンあたりClairicが0.24ドル、Clairic-flashが0.10ドル。課金は入力分だけで、出力の費用は同社が負担するという。12月1日まではキャンペーン価格として両方とも0.10ドルになる。",
+          "同社は自社の評価で、領収書の項目576件をClairicもClairic-flashも全て正しく取り出したとしている。プレビュー版は369件だった。画像の読み取りの誤りは207件から0件に減ったという。公開された抽出の評価指標がまだないため、これらは方向性を示す参考値だと同社自身が断っている。応答時間はおおむね1秒未満を見込む。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜「読み取り」は小さな専用モデルで回せる",
+        "paragraphs": [
+          "これは本誌の解釈だが、請求書や見積書から金額や日付を取り出す仕事は、大きな汎用モデルに任せなくても、こうした専用モデルで安く速く回せる段階に来ている。重みが公開されたことで、書類を社外に出したくない会社が自社の環境で動かす選択肢もできた。",
+          "本誌は、経理や総務で紙やPDFの転記に時間を取られている企業に、まず過去の書類50枚ほどで取り出したい項目を決め、試しに読ませて正解と照らすことを勧める。確信度の低い項目だけ人が見る運用にすれば、確認の手間を絞れる。これは本誌の提案で、Cloudflareの推奨ではない。"
+        ]
+      }
+    ],
+    "actions": [
+      "転記している書類の種類と、取り出したい項目を一覧にする",
+      "過去の書類50枚ほどで試し読みし、正解と照らして誤りの傾向を見る",
+      "書類を社外に出せるかどうかを確認し、Workers AIか自社環境かを決める"
+    ],
+    "service": "fde",
+    "pull": "転記の仕事は、小さなAIで足りる。",
+    "hero_image": "/assets/illustrations/2026-11-19-story-10-cast.webp",
+    "hero_image_alt": "書類から項目を抜き出す画面に驚くラッコと、首をかしげて指さす猫、読書のふりで横目を向けるアザラシ。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-11-19-story-10.png"
+  }
+]

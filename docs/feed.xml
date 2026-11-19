@@ -7,6 +7,66 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。公開済みのAIニュースと実務への示唆をお届けします。</description>
   <language>ja</language>
   <item>
+    <title>OpenAI、「GPT-6.2 Astra」と「GPT-6.2 Sol」を公開　Astraは入力100万トークン8ドルで旧版より2割安、ChatGPTとCodex、APIで同日提供</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-19/story-1/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-19/story-1/</guid>
+    <description>OpenAIは11月17日、上位モデル「GPT-6.2 Astra」と日常業務向けの「GPT-6.2 Sol」を公開した。ChatGPTの作業画面「Work」とプログラミング支援の「Codex」、APIで同日から使える。APIの料金は100万トークンあたりAstraが入力8ドル・出力40ドル、Solが入力2ドル・出力10ドルである。</description>
+  </item>
+  <item>
+    <title>MicrosoftとSalesforce、提携「Copilotforce」を発表　Copilotで顧客データを扱うプラグインを公開プレビュー、営業向け機能は38種超</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-19/story-2/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-19/story-2/</guid>
+    <description>MicrosoftとSalesforceは11月17日、新しい提携「Copilotforce」を発表した。Salesforceの顧客情報や業務の手続きを、MicrosoftのAIアシスタント「Copilot」の中から使えるようにする。中心となるプラグイン「Salesforce in Copilot」は同日から公開プレビュー（試験提供）を始め、商談の見直しなど38種類を超える営業向けの機能を備える。</description>
+  </item>
+  <item>
+    <title>Microsoft、自社製コード生成AI「MAI Code 2」をGitHub Copilotに投入　競合の96〜98%の性能を5〜40%の費用でと主張、軽量版は無料プランでも</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-19/story-3/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-19/story-3/</guid>
+    <description>Microsoftは11月17日、年次イベント「Ignite」で自社開発のAIモデル群を発表した。中心はプログラミング向けの「MAI Code 2」と軽量版「MAI Code 2 Flash」で、同日からGitHub Copilotで選べる。同社によると、MAI Code 2は4つのベンチマークの平均でGPT-6.1 Solの98%の性能を約4割の費用で出すという。</description>
+  </item>
+  <item>
+    <title>Google、Geminiアプリの「タスク」を日本など6か国で無料提供　店への電話予約や買い物の決済まで代行、支払いの上限額も設定可能</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-19/story-4/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-19/story-4/</guid>
+    <description>Googleは11月17日、Geminiアプリに用事を代わりに片づけさせる「タスク」の更新を発表した。新しいモデル「Gemini 4 Hydrogen」を使い、米国、日本、韓国、カナダ、オーストラリア、インドで無料で順次提供する。店への電話での予約、請求書の分析、買い物の決済などを例に挙げ、一部の高度な機能は米国から始めるとしている。</description>
+  </item>
+  <item>
+    <title>Google、中位モデル「Gemini 4 Neon」を公開　入力100万トークン3ドル・扱える長さ100万トークン、上位Carbonより1タスクの費用32%減と主張</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-19/story-5/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-19/story-5/</guid>
+    <description>Googleは11月18日、AIモデル「Gemini 4 Neon」を公開した。最上位のGemini 4 Carbonと高速なGemini 4 Hydrogenの間に位置し、深さと効率の釣り合いを狙う。APIの料金は100万トークンあたり入力3ドル、出力15ドルで、一度に扱える長さは100万トークン。同日からAPIやGeminiアプリなどで順次提供する。</description>
+  </item>
+  <item>
+    <title>Microsoft、AIエージェントで防御を回す「Perception」を正式提供　攻撃模擬・検知・修復の3役を連携、重要な操作は人が承認</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-19/story-6/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-19/story-6/</guid>
+    <description>Microsoftは11月17日、AIエージェントを使ってサイバー攻撃への備えと対応を回す基盤「Microsoft Perception」の正式提供を発表した。攻撃を模擬する「レッド」、検知と調査を担う「ブルー」、修復を担う「グリーン」の3種のエージェントを、手順書（プレイブック）に沿って連携させる。AIによって脆弱性が攻撃に使われるまでの時間が縮んでいることへの対抗策と位置づけている。</description>
+  </item>
+  <item>
+    <title>AWS、サーバー管理不要のLambdaでGPUを使えるように　自社AIモデルの推論を1回最長90分、Gシリーズ7種に対応しGPU分の管理料は9.75％</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-19/story-7/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-19/story-7/</guid>
+    <description>Amazon Web Services（AWS）は11月18日、サーバー管理なしでプログラムを動かす「AWS Lambda」で、GPU（AI計算向けの半導体）を積んだ仮想サーバーを使えるようにしたと発表した。「Lambda Managed Instances」上のイベント関数が対象で、自社で用意したAIモデルの推論などを想定する。同日から一般提供している。</description>
+  </item>
+  <item>
+    <title>Sakana AI、日本の金融資格試験でAIを測る「JFinBench」を公開　2026年の6試験・321問、首位はClaude Fable 5の95.8点</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-19/story-8/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-19/story-8/</guid>
+    <description>Sakana AIは11月17日、日本の金融資格試験を使ってAIの金融知識を測るベンチマーク（評価用の問題集）「JFinBench」を公開した。公認会計士試験や税理士試験など6試験の2026年版から321問を集め、12のモデルを採点した。道具を使わない条件ではClaude Fable 5が95.8点で最も高かった。</description>
+  </item>
+  <item>
+    <title>Google、操作できる仮想世界を生成する「Genie 4」を提供開始　探索中に文字の指示で世界を変更、場面に合わせた音声も生成、まずAI Ultra会員向け</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-19/story-9/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-19/story-9/</guid>
+    <description>Googleは11月18日、文章や画像から歩き回れる仮想の世界をつくる「世界モデル」の新版「Genie 4」を、ブラウザで使える「Project Genie」で提供し始めた。探索の途中で文字の指示を出して天気や登場人物を変えられ、映像に合わせて音声もその場で生成する。使えるのは対象のGoogle AI Ultra会員で、Google AI Pro会員は順番待ちに登録できる。</description>
+  </item>
+  <item>
+    <title>Cloudflare、書類から項目を抜き出すAI「Clairic」を重み公開　PDFにも対応、Workers AIでは入力100万トークン0.10ドルから</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-19/story-10/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-19/story-10/</guid>
+    <description>Cloudflareは11月18日、請求書や契約書などから必要な項目を抜き出すAIモデル「Clairic」と軽量版「Clairic-flash」の更新版を、中身の重みごと公開した。新たにPDFを読めるようになり、同社のAI実行基盤Workers AIでも使える。料金は入力100万トークンあたりClairicが0.24ドル、Clairic-flashが0.10ドルで、12月1日までは両方0.10ドルになる。</description>
+  </item>
+  <item>
     <title>Microsoft 365の障害でClaudeとChatGPTの連携機能も停止　メール・予定・検索の呼び出しがほぼ動かず、復旧まで1日あまり</title>
     <link>https://nowonair.vercel.app/articles/2026-11-15/story-1/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-15/story-1/</guid>
@@ -95,66 +155,6 @@
     <link>https://nowonair.vercel.app/articles/2026-11-14/story-5/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-14/story-5/</guid>
     <description>Replitは11月12日、開発AI「Replit Agent」に2つの機能を加えたと発表した。1つは事業に必要な品物をAIが探して購入の手前まで進める機能で、事業主が合計額を承認するまで請求は起きない。Stripeの「Link」とVisaの仕組みを使う。もう1つはGoogle広告の作成と運用の支援で、AIが広告文や画像、1日の予算案を用意し、事業主が確認して出稿する。</description>
-  </item>
-  <item>
-    <title>llama.cppとggmlがバージョン1.0.0に　手元のPCでAIを動かす定番ソフト、互換性が崩れる変更はメジャー番号で示す方針</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-14/story-6/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-14/story-6/</guid>
-    <description>AIモデルを手元のパソコンやサーバーで動かすためのオープンソースソフト「llama.cpp」と、その土台のライブラリ「ggml」が11月13日、そろってバージョン1.0.0になった。今後は番号の付け方を決まりに沿わせ、これらを組み込んだソフトが動かなくなるような変更は、いちばん左の番号（メジャー）を上げて知らせる。開発チームがHugging Faceのブログで発表した。</description>
-  </item>
-  <item>
-    <title>Ai2、AIが「質問の前提の間違い」に気づけるかを測る8,115問の「XYBench」を公開　主要モデルは本当の目的より聞かれたことに答えがち</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-14/story-7/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-14/story-7/</guid>
-    <description>米国のアレン人工知能研究所（Ai2）は11月13日、AIアシスタントが利用者の思い違いに気づき、本当の目的に向けて答えられるかを測るベンチマーク「XYBench」を紹介した。8,115問からなり、プログラミングと、料理や家の修理などの日常の作業を扱う。試した主要モデルはいずれも、質問の裏にある目的より、聞かれたことそのものに答える傾向があった。</description>
-  </item>
-  <item>
-    <title>IBM、AIへの入力で「指示」と「データ」を専用の記号で分ける記法「LLMON」を公開　Granite 4.1の試作モデルで、紛れ込んだ命令に従いにくく</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-14/story-8/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-14/story-8/</guid>
-    <description>IBMは11月12日、AIモデルに渡す文章の中で、従うべき指示と、読むだけのデータを専用の記号で区切る記法「LLMON」（レモン）を公開した。対応する試作モデルとして、Granite 4.1の3Bと8Bの2つをHugging Faceで公開している。文書やツールの結果に紛れ込ませた命令にAIが従ってしまう「プロンプトインジェクション」に強くなるとしているが、実験的な試作で、本番での利用はまだ勧めていない。</description>
-  </item>
-  <item>
-    <title>那須ハイランドパーク、園内カメラが来園者を自動で撮りAIが動画にする「プレスマ」を正式導入　顔を登録していない人は自動でぼかす</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-14/story-9/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-14/story-9/</guid>
-    <description>吉積ホールディングスは、AIによる自動撮影サービス「プレスマ」の正式な提供を、栃木県の遊園地「那須ハイランドパーク」で始めたと発表した。園内の約50台のカメラが来園者を自動で撮り、AIがその日のハイライト動画を作る。顔を登録した本人だけを見分け、登録していない人の顔は自動でぼかす。2025年11月からの試験提供で、登録者は累計約1万人になった。AI Watchは11月12日の発表と伝えている。</description>
-  </item>
-  <item>
-    <title>Google、日常のエージェント作業向け「Gemini 4 Hydrogen」を公開　入力100万トークン1.50ドル・出力7.50ドル、検索とGeminiアプリにも同日展開</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-13/story-1/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-13/story-1/</guid>
-    <description>Googleは11月12日、新モデル「Gemini 4 Hydrogen」を発表した。コーディングを含むエージェント作業を速くこなす「日常使い」のモデルという位置づけで、料金は入力100万トークン1.50ドル、出力7.50ドル。同日から開発者向けのGemini APIやGoogle AI Studio、Geminiアプリ、Google検索で順次使えるようになる。上位のGemini 4 CarbonやArgonと組み合わせて使うこともできる。</description>
-  </item>
-  <item>
-    <title>Anthropic、Claudeがビデオ会議に参加する「Claude Meetings」をベータ公開　Google Meetに対応、社外の人がいる会議には初期設定で入らない</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-13/story-2/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-13/story-2/</guid>
-    <description>Anthropicは11月12日、Claudeがビデオ会議に参加者として入る「Claude Meetings」をベータ版として公開した。会議中の質問に答え、資料やホワイトボードをその場で作り、議事メモと担当作業を記録する。対応する会議ツールはまずGoogle Meetで、TeamプランとEnterpriseプランに順次提供する。社外の人が招待されている会議には、初期設定では参加しない。</description>
-  </item>
-  <item>
-    <title>Salesforce、AIエージェントが侵入を進める攻撃基盤「ARTEX」に注意喚起　盗まれた認証情報で顧客環境が標的に、プラットフォームの脆弱性ではないと説明</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-13/story-3/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-13/story-3/</guid>
-    <description>Salesforceの脅威インテリジェンスチームは11月12日、複数のAIエージェントが連携して侵入を進める攻撃基盤「ARTEX」について注意を呼びかけた。同社は、盗まれたアプリの認証情報や連携用のセッションを使って顧客の環境を狙う攻撃を確認したとしている。Salesforceのプラットフォームの脆弱性によるものではなく、影響を受けた顧客には直接通知したと説明した。</description>
-  </item>
-  <item>
-    <title>Google、AIが画面を組み立てる共通仕様「A2UI」の安定版1.0を公開　React・Flutter・SwiftUIなどで描画、AtlassianやBloombergが採用</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-13/story-4/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-13/story-4/</guid>
-    <description>Googleは11月11日、AIエージェントが文章の代わりに入力フォームやグラフなどの画面を返すための公開仕様「A2UI」の、初の安定版となる1.0を公開した。エージェントは画面の構成だけを伝え、アプリ側が自分の部品で描画する。Web、Android、iOS向けの描画用SDKと、Python・TypeScript・Dart向けのエージェント用SDKを公開した。早期の採用企業としてAtlassian、Alation、Bloomberg、ByteDanceを挙げている。</description>
-  </item>
-  <item>
-    <title>豪政府、最先端AIの開発企業に安全対策を義務づけへ　第三者による評価の受け入れと事故の報告を求め、罰則を執行する規制機関の新設も提案</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-13/story-5/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-13/story-5/</guid>
-    <description>オーストラリア政府は11月10日、最先端のAIモデルを開発する企業に、安全とセキュリティの対策を法律で義務づけると発表した。オーストラリアで事業をしようとするすべての最先端AI企業が対象で、第三者による評価の受け入れ、事故の速やかな報告、安全の枠組みの公表などを求める。AIの安全を担当する規制機関の新設を提案し、従わない企業には「重大な罰則」を科せるようにする方針だ。</description>
-  </item>
-  <item>
-    <title>AWS、手元のPCでAWSを再現する「AWS Emulator」を公開　追加料金なし、開発と保守はAIエージェントが担当</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-13/story-6/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-13/story-6/</guid>
-    <description>AWSは11月11日、自分のPCの上でAWSのAPIを再現する「AWS Emulator」を公開した。AWS CLIやSDK、コーディングエージェントが手元の接続先につなぎ、クラウドに出さずにアプリを試せる。追加のサービス料金はかからない。AWSによると、このソフトはAIエージェントが開発と保守を担っており、本物のAWSと同じ結果を返すかを確かめるテストの成績をサービスごとに公開する。</description>
   </item>
 </channel>
 </rss>
