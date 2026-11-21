@@ -7,6 +7,54 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。公開済みのAIニュースと実務への示唆をお届けします。</description>
   <language>ja</language>
   <item>
+    <title>AWS、AIの仕事場「AWS Quick」を更新　会話で業務フローを作成、複数エージェントの同時作業や日本語対応も</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-22/story-1/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-22/story-1/</guid>
+    <description>AWSは11月20日（米国時間）、業務向けAIワークスペース「AWS Quick」の更新を発表した。チャットで説明するだけで業務フローを組み立てられるようにし、複数のエージェントが1つの依頼を同時に分担する機能や、日本語を含む言語対応を加えた。</description>
+  </item>
+  <item>
+    <title>AWS、書類から欲しい項目を言葉で指定して抜き出す「Amazon Textract Insights」を正式提供　値ごとに確信度と根拠ページ</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-22/story-2/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-22/story-2/</guid>
+    <description>AWSは11月20日（米国時間）、書類から取り出したい項目を自然な言葉で指定すると、構造化したデータで返す生成AI機能「Amazon Textract Insights」の一般提供を始めた。値ごとに確信度と、どのページから取ったかの根拠が付く。</description>
+  </item>
+  <item>
+    <title>慶應大・東海大・NECなど、1回の採血でがんを早期に見つけるAI検査法を開発　卵巣がんで特異度99.5%・感度65%、6種類のがんで臨床試験</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-22/story-3/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-22/story-3/</guid>
+    <description>慶應義塾大学医学部、東海大学、湘南医療大学、NECの共同研究チームは11月20日、血液中の「糖ペプチド」と腫瘍マーカーをAIで解析してがんを早期に見つける検査技術「CSGSA法」を開発したと発表した。卵巣がんでは、内部検証で従来の単一マーカーを上回る結果を示した。</description>
+  </item>
+  <item>
+    <title>Amazon Polly、数分の録音から本人の声を再現する「音声クローン」を提供開始　7言語対応、作成のたびに本人同意を確認</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-22/story-4/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-22/story-4/</guid>
+    <description>AWSは11月19日（米国時間）、音声合成サービス「Amazon Polly」で、話者の数分の録音からその人の声で読み上げる音声を作る「音声クローン」の一般提供を始めた。利用は申請制で、声を作るたびに話者の同意を得ていることの確認を求める。</description>
+  </item>
+  <item>
+    <title>Sakana AI、サイバー防御とAIの安全性を研究する「Security Research Group」を設立　事業から切り離し、成果やベンチマークを公開へ</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-22/story-5/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-22/story-5/</guid>
+    <description>Sakana AIは11月20日、AIを使った集合的なサイバー防御と、AIシステム自体の安全性を研究する独立チーム「Security Research Group」の設立を発表した。事業とは切り離した組織として、研究成果や再現できるベンチマーク、実践的な指針を公開するとしている。</description>
+  </item>
+  <item>
+    <title>GitLab、AIエージェント基盤「Duo Agent Platform」のクレジット効率を最大2倍に　モデルへの要求回数を減らし、節約分を利用者へ</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-22/story-6/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-22/story-6/</guid>
+    <description>GitLabは11月19日、AIエージェント基盤「GitLab Duo Agent Platform」で、1つの作業に必要なAIモデルへの要求回数を減らしたと発表した。多くの顧客で、同じクレジット（GitLab Credits）で最大2倍の作業ができるようになるとしている。</description>
+  </item>
+  <item>
+    <title>AMDとUnsloth、PC上でAIを動かす「Unsloth Desktop」がRyzen AIのNPUに対応　100超のエージェント系アプリから省電力で利用</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-22/story-7/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-22/story-7/</guid>
+    <description>AMDは11月19日（米国時間）、AIモデルを手元のPCで動かすアプリ「Unsloth Desktop」が、同社のXDNA 2アーキテクチャのNPU（AI専用の処理装置）に対応したと発表した。Unsloth Desktopが対応する初めてのNPUだとしている。</description>
+  </item>
+  <item>
+    <title>Apple、普通のカメラ映像から距離をメートル単位で推定する「Depth Pro 2」を公開　写真も動画も1つのモデルで、コードと重みも</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-22/story-8/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-22/story-8/</guid>
+    <description>Appleの機械学習研究チームは11月、普通のカメラで撮った写真や動画から、画素ごとの距離をメートル単位で推定する研究「Depth Pro 2」を公開した。物の輪郭のくっきりさと、動画でのちらつきのなさを両立したとしており、コードとモデルの重みも公開した。</description>
+  </item>
+  <item>
     <title>OpenAI、推論の中身を抜き取る「敵対的蒸留」への対策を公表　GPT-6.2 Astraでは攻撃成功率を54.0%から0.2%に</title>
     <link>https://nowonair.vercel.app/articles/2026-11-21/story-1/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-21/story-1/</guid>
@@ -107,54 +155,6 @@
     <link>https://nowonair.vercel.app/articles/2026-11-20/story-7/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-20/story-7/</guid>
     <description>電源開発（Jパワー）、日立製作所、マクニカの3社は11月19日、発電や送電など重要な社会インフラでAIを現場の機械に使う「フィジカルAI」の開発基盤づくりを共同で検討することに合意したと発表した。仮想空間で学ばせたAIを実機に移す仕組みを作り、第一弾として次世代の送電線点検ドローンの実証を検討する。</description>
-  </item>
-  <item>
-    <title>さくらインターネット、「さくらのAI Engine」で2モデルをパブリックプレビュー　月3,000リクエストまで無償</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-20/story-8/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-20/story-8/</guid>
-    <description>さくらインターネットは11月18日、生成AIの推論APIサービス「さくらのAI Engine」で、「GLM-5.3-Flash」と「DeepSeek-V4.1-Flash-1017」のパブリックプレビューを始めた。1か月あたり3,000リクエストまで無償で使える。</description>
-  </item>
-  <item>
-    <title>Netflix、テレビで好みのテーマから作品を探す「AI Discover」の裏側を公開　AIは計画を立て、実行の可否はコードが決める</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-20/story-9/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-20/story-9/</guid>
-    <description>Netflixは11月17日、テレビアプリで一部の会員が試せる新しいタブ「AI Discover」の仕組みを技術ブログで公開した。会員がテーマを選ぶと、合う作品の列と理由、次に絞り込むテーマが出る。裏側では、大規模言語モデル（LLM）が計画を立て、既存の推薦システムと組み合わせて実行する。</description>
-  </item>
-  <item>
-    <title>OpenAI、「GPT-6.2 Astra」と「GPT-6.2 Sol」を公開　Astraは入力100万トークン8ドルで旧版より2割安、ChatGPTとCodex、APIで同日提供</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-19/story-1/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-19/story-1/</guid>
-    <description>OpenAIは11月17日、上位モデル「GPT-6.2 Astra」と日常業務向けの「GPT-6.2 Sol」を公開した。ChatGPTの作業画面「Work」とプログラミング支援の「Codex」、APIで同日から使える。APIの料金は100万トークンあたりAstraが入力8ドル・出力40ドル、Solが入力2ドル・出力10ドルである。</description>
-  </item>
-  <item>
-    <title>MicrosoftとSalesforce、提携「Copilotforce」を発表　Copilotで顧客データを扱うプラグインを公開プレビュー、営業向け機能は38種超</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-19/story-2/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-19/story-2/</guid>
-    <description>MicrosoftとSalesforceは11月17日、新しい提携「Copilotforce」を発表した。Salesforceの顧客情報や業務の手続きを、MicrosoftのAIアシスタント「Copilot」の中から使えるようにする。中心となるプラグイン「Salesforce in Copilot」は同日から公開プレビュー（試験提供）を始め、商談の見直しなど38種類を超える営業向けの機能を備える。</description>
-  </item>
-  <item>
-    <title>Microsoft、自社製コード生成AI「MAI Code 2」をGitHub Copilotに投入　競合の96〜98%の性能を5〜40%の費用でと主張、軽量版は無料プランでも</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-19/story-3/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-19/story-3/</guid>
-    <description>Microsoftは11月17日、年次イベント「Ignite」で自社開発のAIモデル群を発表した。中心はプログラミング向けの「MAI Code 2」と軽量版「MAI Code 2 Flash」で、同日からGitHub Copilotで選べる。同社によると、MAI Code 2は4つのベンチマークの平均でGPT-6.1 Solの98%の性能を約4割の費用で出すという。</description>
-  </item>
-  <item>
-    <title>Google、Geminiアプリの「タスク」を日本など6か国で無料提供　店への電話予約や買い物の決済まで代行、支払いの上限額も設定可能</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-19/story-4/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-19/story-4/</guid>
-    <description>Googleは11月17日、Geminiアプリに用事を代わりに片づけさせる「タスク」の更新を発表した。新しいモデル「Gemini 4 Hydrogen」を使い、米国、日本、韓国、カナダ、オーストラリア、インドで無料で順次提供する。店への電話での予約、請求書の分析、買い物の決済などを例に挙げ、一部の高度な機能は米国から始めるとしている。</description>
-  </item>
-  <item>
-    <title>Google、中位モデル「Gemini 4 Neon」を公開　入力100万トークン3ドル・扱える長さ100万トークン、上位Carbonより1タスクの費用32%減と主張</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-19/story-5/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-19/story-5/</guid>
-    <description>Googleは11月18日、AIモデル「Gemini 4 Neon」を公開した。最上位のGemini 4 Carbonと高速なGemini 4 Hydrogenの間に位置し、深さと効率の釣り合いを狙う。APIの料金は100万トークンあたり入力3ドル、出力15ドルで、一度に扱える長さは100万トークン。同日からAPIやGeminiアプリなどで順次提供する。</description>
-  </item>
-  <item>
-    <title>Microsoft、AIエージェントで防御を回す「Perception」を正式提供　攻撃模擬・検知・修復の3役を連携、重要な操作は人が承認</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-19/story-6/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-19/story-6/</guid>
-    <description>Microsoftは11月17日、AIエージェントを使ってサイバー攻撃への備えと対応を回す基盤「Microsoft Perception」の正式提供を発表した。攻撃を模擬する「レッド」、検知と調査を担う「ブルー」、修復を担う「グリーン」の3種のエージェントを、手順書（プレイブック）に沿って連携させる。AIによって脆弱性が攻撃に使われるまでの時間が縮んでいることへの対抗策と位置づけている。</description>
   </item>
 </channel>
 </rss>
