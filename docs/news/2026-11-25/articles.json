@@ -1,0 +1,474 @@
+[
+  {
+    "updated_at": "2026-11-25",
+    "verified_at": "2026-11-25",
+    "article_kind": "news",
+    "title": "Anthropic、コードの取り込みまでを支える「Claude Ship」を発表　レビュー後の修正と承認をAIが手伝う、TeamとEnterprise向けにベータ提供",
+    "category": "ツール更新",
+    "source": "Anthropic",
+    "published_at": "2026-11-23",
+    "lede": "Anthropicは11月23日、GitHub上のコード変更をレビューから取り込みまで支援する「Claude Ship」を発表した。一般提供済みのCode Reviewに、修正を手伝う「PR Steward」と承認を手伝う「Claude Approvals」（いずれもベータ）を組み合わせる。",
+    "links": [
+      "https://claude.com/resources/articles/introducing-claude-ship"
+    ],
+    "keypoints": [
+      "Claude Shipは、Code Review（一般提供済み）、PR Steward（ベータ）、Claude Approvals（ベータ）の3つで構成",
+      "対象はClaude TeamとEnterpriseプランの組織で、GitHub上のリポジトリのみ",
+      "料金はプラン料金とは別のトークン量課金。Code ReviewとPR Stewardには管理者が月の利用上限を設定できる",
+      "Zero Data Retention、HIPAA構成、顧客管理の暗号鍵（CMK）を使う組織は利用できない"
+    ],
+    "editorial_diagram": {
+      "kicker": "Anthropicの発表 / Introducing Claude Ship",
+      "title": "書いた後の「確認と取り込み」をAIが手伝う",
+      "lead": "Claude Shipを構成する3つの機能を整理した。",
+      "examples": [
+        [
+          "Code Review",
+          "コード変更をレビューする機能。一般提供済みで、レビューの深さをQuick・Standard・Deepから選べる。"
+        ],
+        [
+          "PR Steward",
+          "レビューの指摘などを受けて、変更の取り込みまでの作業を手伝う機能。ベータで提供する。"
+        ],
+        [
+          "Claude Approvals",
+          "チームが決めたルールに沿って承認を手伝う機能。ベータで、基本料金はないが内部の分類器は課金対象。"
+        ]
+      ],
+      "note": "Anthropicの発表（2026年11月23日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://claude.com/resources/articles/introducing-claude-ship",
+      "wide": "/assets/illustrations/2026-11-25-story-1-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-11-25-story-1-diagram-mobile.webp",
+      "alt": "Code Review：コード変更をレビューする機能。一般提供済みで、レビューの深さをQuick・Standard・Deepから選べる。、PR Steward：レビューの指摘などを受けて、変更の取り込みまでの作業を手伝う機能。ベータで提供する。、Claude Approvals：チームが決めたルールに沿って承認を手伝う機能。ベータで、基本料金はないが内部の分類器は課金対象。"
+    },
+    "body": [
+      {
+        "heading": "3つの機能で構成",
+        "paragraphs": [
+          "Claude Shipは、GitHubでのコード変更（プルリクエスト）を、レビューから取り込みまで支援する仕組みだ。すでに一般提供しているCode Reviewに、ベータの「PR Steward」と「Claude Approvals」を加えた。Code Reviewのレビューの深さは、Quick・Standard・Deepの3段階から選べる。",
+          "Claude Codeとデスクトップアプリでは、発表当日から `/ship` コマンドの段階的な提供を始めた。`/ship` の実行分は、通常のClaude Codeの利用量に含まれる。"
+        ]
+      },
+      {
+        "heading": "提供条件と料金",
+        "paragraphs": [
+          "対象はClaude TeamとEnterpriseプランの組織で、GitHub上のリポジトリに限られる。料金はプラン料金とは別のトークン量課金で、Code ReviewとPR Stewardには管理者が月の利用上限を設定できる。Claude Approvalsに基本料金はないが、ポリシーの判定に使う分類器は課金対象になる。",
+          "Zero Data Retention、HIPAA構成、顧客管理の暗号鍵（CMK）を使う組織は利用できない。条件を満たすEnterprise組織は、最低1万ドル分のClaude Shipクレジットを2027年1月15日まで申請でき、申請後30日以内に使う必要がある（条件あり）。",
+          "一部報道にある、PR Stewardの実行環境やGitHub側の保護ルールとの関係の細部は、今回読んだ発表文では確認できず未確認である。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜速く書けるほど「確認の設計」が効く",
+        "paragraphs": [
+          "これは本誌の解釈だが、AIでコードを書く速さが上がった結果、詰まりやすいのはレビュー待ちと承認になってきた。Claude Shipはその後ろの工程に手を入れる製品と言える。",
+          "試す場合は、AIに承認を任せてよい変更の種類と、月の利用上限を先に決めておくのが安全だ。これは本誌の提案である。"
+        ]
+      }
+    ],
+    "actions": [
+      "AIに承認を任せてよい変更と、人が必ず見る変更を書き出す",
+      "Code ReviewとPR Stewardの月の利用上限を決めてから試す",
+      "影響の小さいリポジトリ1つで、確認待ち時間と費用を記録する"
+    ],
+    "service": "fde",
+    "pull": "書く速さの次は、確認と取り込みの設計。",
+    "hero_image": "/assets/illustrations/2026-11-25-story-1-cast.webp",
+    "hero_image_alt": "コードの確認・修正・取り込みを示す図に驚くラッコと、指さして尋ねる猫、読書しながら横目で聞くアザラシ。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-11-25-story-1.png"
+  },
+  {
+    "updated_at": "2026-11-25",
+    "verified_at": "2026-11-25",
+    "article_kind": "news",
+    "title": "OpenAIとCisco、AIが作る「盾」で稼働中のLinuxを守る「Shirudo」を公開　再起動せずに攻撃を遮断、オープンソースで提供",
+    "category": "セキュリティ",
+    "source": "OpenAI / Cisco",
+    "published_at": "2026-11-23",
+    "lede": "OpenAIとCiscoは11月23日、AIエージェントが作る小さな遮断用プログラム（shield）で、稼働中のLinuxシステムを守るオープンソースのランタイム「Shirudo」を公開した。",
+    "links": [
+      "https://openai.com/index/introducing-shirudo/",
+      "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m11/cisco-and-openai-launch-shirudo-a-new-project-to-safeguard-agentic-ai.html"
+    ],
+    "keypoints": [
+      "Linuxの仕組みeBPFを使い、AIエージェントが作った「shield」で攻撃を遮断する",
+      "OpenAIの管理された試験では、Codexが作ったshieldが稼働中のElasticsearchへのJava4Shell攻撃を再起動なしで遮断",
+      "shieldは署名され、読み込み前に検証。LinuxのeBPF verifierも確認し、TPMで読み込み・削除の記録を検証できる",
+      "ライセンスはBSD 2-Clause（BPFプログラムはBSDとGPLのデュアル）"
+    ],
+    "editorial_diagram": {
+      "kicker": "OpenAI・Ciscoの発表 / Introducing Shirudo",
+      "title": "直すまでの間、AIが作った盾で守る",
+      "lead": "発表から、Shirudoが攻撃を止めるまでの流れを3段階で整理した。",
+      "examples": [
+        [
+          "AIが盾を作る",
+          "AIエージェントが、特定の攻撃を遮断する小さなプログラム（shield）をeBPFで作る。"
+        ],
+        [
+          "検証してから適用",
+          "shieldは署名され、読み込み前に検証される。運用者は影響を試してから承認できる。"
+        ],
+        [
+          "止めずに守る",
+          "承認後はサービスを止めずに適用。OpenAIの試験では再起動なしで攻撃を遮断した。"
+        ]
+      ],
+      "note": "OpenAIとCiscoの発表（2026年11月23日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://openai.com/index/introducing-shirudo/",
+      "wide": "/assets/illustrations/2026-11-25-story-2-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-11-25-story-2-diagram-mobile.webp",
+      "alt": "AIが盾を作る：AIエージェントが、特定の攻撃を遮断する小さなプログラム（shield）をeBPFで作る。、検証してから適用：shieldは署名され、読み込み前に検証される。運用者は影響を試してから承認できる。、止めずに守る：承認後はサービスを止めずに適用。OpenAIの試験では再起動なしで攻撃を遮断した。"
+    },
+    "body": [
+      {
+        "heading": "何を公開したか",
+        "paragraphs": [
+          "Shirudoは、Linux向けのオープンソースのランタイムだ。Linuxの仕組みであるeBPFを使い、AIエージェントが作った小さな遮断用プログラム「shield」を、稼働中のシステムに適用する。名前は英語のshieldを日本語読みにしたものだと説明している。",
+          "OpenAIの管理された試験では、Codexで作ったshieldが、稼働中のElasticsearchに対するJava4Shellの攻撃を再起動なしで遮断した。Ciscoも、Java4ShellとPHPの欠陥を対象に、悪用の試みを検知して遮断するコードを作ったとしているが、数値の結果は示していない。"
+        ]
+      },
+      {
+        "heading": "安全の仕組みと参加方法",
+        "paragraphs": [
+          "shieldは署名され、読み込み前に検証される。LinuxのeBPF verifierもチェックし、TPMで読み込み・削除の記録を検証できる。運用者は一時的な対策の影響を事前に試し、承認してからサービスを止めずに適用できる。",
+          "ライセンスはBSD 2-Clause（BPFプログラムはBSDとGPLのデュアル）。12月15日に詳しい解説のウェビナーを開く。一部報道にある動作に必要なカーネルの条件などは、今回読んだ発表文では確認できず未確認である。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜「直すまでの時間」をAIで埋める",
+        "paragraphs": [
+          "これは本誌の解釈だが、脆弱性の修正版を待つ間の無防備な時間を、AIが作る一時的な遮断で埋める発想は、運用現場の悩みに直接応えるものだ。",
+          "一方で、AIが作ったプログラムを本番に入れる以上、誰が承認し、どう記録するかの手順が欠かせない。導入を考えるなら、まず検証環境で承認の流れを決めることを勧めたい。"
+        ]
+      }
+    ],
+    "actions": [
+      "自社のLinuxサーバーで、修正版を待つ間の対応手順を確認する",
+      "AIが作った対策を本番に入れる前の承認者を決める",
+      "公開されたクイックスタートを検証環境で試す"
+    ],
+    "service": "fde",
+    "pull": "直すまでの空白を、AIの盾で埋める。",
+    "hero_image": "/assets/illustrations/2026-11-25-story-2-cast.webp",
+    "hero_image_alt": "盾が攻撃を防ぐパソコンに驚くラッコと、首をかしげて指す太った猫、本を読みながら横目でうかがうアザラシ。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-11-25-story-2.png"
+  },
+  {
+    "updated_at": "2026-11-25",
+    "verified_at": "2026-11-25",
+    "article_kind": "news",
+    "title": "Google検索のAI Mode、Google Walletとつないで支出を踏まえた回答に　オプトインで提供開始、DriveとGeminiアプリの接続は数週間内",
+    "category": "ツール更新",
+    "source": "Google",
+    "published_at": "2026-11-23",
+    "lede": "Googleは11月23日、検索のAI Modeで使う「Personal Intelligence」にGoogle Walletを接続できる機能の提供を始めた。利用者が自分で接続を選ぶオプトイン方式で、Google DriveとGeminiアプリの接続は今後数週間で提供するとしている。",
+    "links": [
+      "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/"
+    ],
+    "keypoints": [
+      "AI ModeのPersonal IntelligenceにGoogle Walletを接続する機能を、11月23日から順次提供（オプトイン）",
+      "Wallet接続時、AI Modeは口座情報を読むだけで、お金の移動・管理・投資はできないと明記",
+      "Google DriveとGeminiアプリの接続、GeminiアプリとAI Modeの文脈共有は「今後数週間」で提供",
+      "提供地域や日本での提供時期は、発表に記載がなく未確認"
+    ],
+    "editorial_diagram": {
+      "kicker": "Googleの発表 / A more tailored Google Search",
+      "title": "検索が「自分の情報」を踏まえて答える",
+      "lead": "発表から、AI Modeにつなげるアプリと使い方を整理した。",
+      "examples": [
+        [
+          "Walletをつなぐ",
+          "11月23日から順次提供。支出の把握やカードの還元の比較などに使える。"
+        ],
+        [
+          "読むだけ",
+          "AI Modeは口座情報を読むのみで、お金の移動・管理・投資はできない。"
+        ],
+        [
+          "接続は自分で選ぶ",
+          "設定のConnected Appsで、接続と解除をいつでも切り替えられる。"
+        ]
+      ],
+      "note": "Googleの発表（2026年11月23日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+      "wide": "/assets/illustrations/2026-11-25-story-3-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-11-25-story-3-diagram-mobile.webp",
+      "alt": "Walletをつなぐ：11月23日から順次提供。支出の把握やカードの還元の比較などに使える。、読むだけ：AI Modeは口座情報を読むのみで、お金の移動・管理・投資はできない。、接続は自分で選ぶ：設定のConnected Appsで、接続と解除をいつでも切り替えられる。"
+    },
+    "body": [
+      {
+        "heading": "何が変わるか",
+        "paragraphs": [
+          "Googleは、検索のAI Modeで利用者の個人情報を踏まえて答える「Personal Intelligence」に、Google Walletを接続できるようにした。11月23日から順次提供し、利用者が自分で接続を選ぶオプトイン方式とした。これまではGmail、カレンダー、フォトを接続できた。",
+          "使い方の例として、支出の把握、クレジットカードの還元（キャッシュバック、旅行特典、ポイント）の比較、税務シーズンに向けた準備を挙げている。Wallet接続時、AI Modeは口座情報を読むだけで、お金の移動・管理・投資はできないと明記した。"
+        ]
+      },
+      {
+        "heading": "今後の予定と未確認の点",
+        "paragraphs": [
+          "Google DriveとGeminiアプリの接続、GeminiアプリとAI Modeの間の文脈の共有は「今後数週間」で提供する。AIが使った情報を確かめられる「Personalization」アイコンも近く加える。接続と解除は、検索の設定にあるConnected Appsからいつでも行える。",
+          "提供地域、対象プラン、日本での提供時期は発表に記載がなく、未確認である。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜便利さと「何を見せたか」の管理",
+        "paragraphs": [
+          "これは本誌の解釈だが、検索が個人のお金やファイルを踏まえて答えるようになると、便利さと引き換えに「どの情報をAIに見せているか」を本人が把握する必要が出てくる。",
+          "会社のアカウントで使う場合は、業務データをどこまで接続してよいかを先に決めておくことを勧めたい。"
+        ]
+      }
+    ],
+    "actions": [
+      "自分のGoogleアカウントで接続中のアプリを確認する",
+      "業務用アカウントで接続してよいデータの範囲を決める",
+      "日本での提供開始の続報を確認する"
+    ],
+    "service": "luna",
+    "pull": "検索が、自分の財布を踏まえて答える。",
+    "hero_image": "/assets/illustrations/2026-11-25-story-3-cast.webp",
+    "hero_image_alt": "財布と支出グラフの画面に驚くラッコと指さす茶トラ猫、赤い本を抱えながら横目で様子をうかがうアザラシ。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-11-25-story-3.png"
+  },
+  {
+    "updated_at": "2026-11-25",
+    "verified_at": "2026-11-25",
+    "article_kind": "news",
+    "title": "Google DeepMind、Gemini 4のエージェント群で量子アルゴリズムを改良　証明支援系Leanで正しさを確認、核融合の計算コストを11.8分の1に",
+    "category": "研究",
+    "source": "Google DeepMind",
+    "published_at": "2026-11-23",
+    "lede": "Google DeepMindとGoogle Quantum AIは11月23日、Gemini 4のエージェントのチームが既存の量子アルゴリズムを改良し、その正しさを証明支援系Leanで確認したと発表した。検証用のライブラリと結果はGitHubで公開した。",
+    "links": [
+      "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/"
+    ],
+    "keypoints": [
+      "問題ごとに独立したエージェントのチームを作り、アイデアをLeanで検証してから共有ノートに載せた",
+      "核融合（慣性閉じ込め）の計算では、コスト指標（量子ビット数×操作数）を11.8分の1に、必要な量子ビットを5,650から4,338に削減",
+      "シトクロムP450の計算で2.5倍の改善、グローバー法の特定実装で2.57倍、arcsinの処理で290倍の高速化",
+      "科学計算は、最初の誤り訂正量子コンピューターの能力をなお上回る資源が必要だと注記"
+    ],
+    "editorial_diagram": {
+      "kicker": "Google DeepMindの発表 / Faster quantum algorithms",
+      "title": "AIが考え、証明で確かめる",
+      "lead": "発表から、エージェントが量子アルゴリズムを改良した流れを整理した。",
+      "examples": [
+        [
+          "チームで考える",
+          "問題ごとに独立したGemini 4エージェントのチームが改良案を出す。4時間ごとに仮想の会議で共有した。"
+        ],
+        [
+          "Leanで確かめる",
+          "案は証明支援系Leanで正しさを検証してから、共有ノートに載せる。"
+        ],
+        [
+          "結果を公開",
+          "核融合の計算コストを11.8分の1にするなどの成果と、検証ライブラリをGitHubで公開した。"
+        ]
+      ],
+      "note": "Google DeepMindの発表（2026年11月23日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+      "wide": "/assets/illustrations/2026-11-25-story-4-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-11-25-story-4-diagram-mobile.webp",
+      "alt": "チームで考える：問題ごとに独立したGemini 4エージェントのチームが改良案を出す。4時間ごとに仮想の会議で共有した。、Leanで確かめる：案は証明支援系Leanで正しさを検証してから、共有ノートに載せる。、結果を公開：核融合の計算コストを11.8分の1にするなどの成果と、検証ライブラリをGitHubで公開した。"
+    },
+    "body": [
+      {
+        "heading": "どう進めたか",
+        "paragraphs": [
+          "Google DeepMindとGoogle Quantum AIは、Gemini 4のエージェントのチームに既存の量子アルゴリズムの改良を任せた。問題ごとに独立したチームを用意し、出てきたアイデアは証明支援系Leanで正しさを確かめてから共有ノートに載せた。エージェントは4時間ごとに仮想の会議で情報を共有したという。",
+          "Leanのライブラリ、問題の定義、検証済みの解はGitHubで公開した。論文はarXivに掲載している。"
+        ]
+      },
+      {
+        "heading": "主な成果と限界",
+        "paragraphs": [
+          "核融合（慣性閉じ込め）の計算では、量子ビット数と操作数を掛けたコスト指標を11.8分の1にし、必要な誤り訂正済み量子ビットを5,650から4,338に減らした。光に反応する分子の量子シミュレーションは8分の1のコストに、シトクロムP450では2.5倍改善し、必要な量子ビットを481から333に減らした。",
+          "グローバー法の特定の実装では2.57倍、arcsinの処理では290倍の高速化を示した。一方で、こうした科学計算には、最初の誤り訂正量子コンピューターが提供できる見込みを上回る計算資源がなお必要だと注記している。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜「AIの答えを証明で縛る」流れ",
+        "paragraphs": [
+          "これは本誌の解釈だが、AIの出した案をLeanのような形式検証で確かめる流れは、数学や科学で続けて見られるようになった。答えの正しさを人の目以外で保証できる分野から、AIの研究利用が進みそうだ。",
+          "業務でも、AIの出力を機械的なチェックで確かめられる仕事から任せていくと、品質を保ちやすい。"
+        ]
+      }
+    ],
+    "actions": [
+      "自社業務で、AIの出力を機械的に検証できる作業を洗い出す",
+      "公開されたLeanライブラリと論文で、検証の方法を確認する"
+    ],
+    "pull": "AIが考え、証明が確かめる。",
+    "hero_image": "/assets/illustrations/2026-11-25-story-4-cast.webp",
+    "hero_image_alt": "量子計算の図に驚く眼鏡のラッコと首をかしげる茶トラ猫を、本を読むふりのアザラシが横目で見ている。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-11-25-story-4.png"
+  },
+  {
+    "updated_at": "2026-11-25",
+    "verified_at": "2026-11-25",
+    "article_kind": "news",
+    "title": "キヤノンITS、マネージドSOCサービスにAI相関分析と初動の自動化を追加　関連アラートを1件にまとめ、端末隔離やアカウント無効化まで",
+    "category": "セキュリティ",
+    "source": "キヤノンITソリューションズ",
+    "published_at": "2026-11-24",
+    "lede": "キヤノンITソリューションズは11月24日、マネージドSOCサービスを強化し、AIで関連するアラートをまとめる相関分析と、端末の隔離などの初動対応の自動化を同日から提供すると発表した。",
+    "links": [
+      "https://www.canon-its.co.jp/corporate/newsrelease/2026/pr-1124"
+    ],
+    "keypoints": [
+      "監視対象にActive Directory、FortiGate、ID Entranceを追加（既存のCato SASE Platformに加えて）",
+      "AIが監視対象のアラートを相関分析し、関連する事象を1つのケースにまとめて管理",
+      "マルウェア感染が疑われる端末のネットワーク隔離や、不正利用が疑われるアカウントの無効化を自動化",
+      "ライトプラン（基本2GB）は年額98万円（税別）。最低利用期間1年、別途初期費用"
+    ],
+    "editorial_diagram": {
+      "kicker": "キヤノンITソリューションズの発表 / マネージドSOC強化",
+      "title": "アラートをまとめ、初動を自動で",
+      "lead": "発表から、強化したサービスの流れを3段階で整理した。",
+      "examples": [
+        [
+          "AIでまとめる",
+          "複数の監視対象のアラートをAIが相関分析し、関連する事象を1つのケースにまとめる。"
+        ],
+        [
+          "初動を自動化",
+          "感染が疑われる端末の隔離や、不正利用が疑われるアカウントの無効化を自動で行う。"
+        ],
+        [
+          "人が判断する",
+          "SOCアナリストが深刻度を判定し、対処方針を示す。上位プランは原因分析まで行う。"
+        ]
+      ],
+      "note": "キヤノンITソリューションズの発表（2026年11月24日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://www.canon-its.co.jp/corporate/newsrelease/2026/pr-1124",
+      "wide": "/assets/illustrations/2026-11-25-story-5-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-11-25-story-5-diagram-mobile.webp",
+      "alt": "AIでまとめる：複数の監視対象のアラートをAIが相関分析し、関連する事象を1つのケースにまとめる。、初動を自動化：感染が疑われる端末の隔離や、不正利用が疑われるアカウントの無効化を自動で行う。、人が判断する：SOCアナリストが深刻度を判定し、対処方針を示す。上位プランは原因分析まで行う。"
+    },
+    "body": [
+      {
+        "heading": "何を強化したか",
+        "paragraphs": [
+          "キヤノンITソリューションズは、マネージドSOCサービスの監視対象に、Active Directory、FortiGate、ID Entranceを加えた。2026年3月から対応しているCato SASE Platformに続く追加となる。",
+          "AIが監視対象のアラートを相関分析し、関連する事象を1つのケースとしてまとめて管理する。マルウェア感染が疑われる端末のネットワーク隔離や、不正利用が疑われるアカウントの無効化といった初動対応も自動化した。SOCアナリストは深刻度を判定し、対処方針を示す。"
+        ]
+      },
+      {
+        "heading": "プランと価格",
+        "paragraphs": [
+          "上位の「アドバンス」プランでは、攻撃の全体像の調査、根本原因の分析、再発防止策の提案まで対応する。サプライチェーンのセキュリティ対策評価制度（SCS評価制度）で求められる監視やインシデント対応の取り組みも支援するとしている。",
+          "価格はライトプラン（基本2GB）が年額98万円（税別）。スタンダードは問い合わせで、アドバンスの価格は今回確認できず未確認である。最低利用期間は1年で自動更新、別途初期費用がかかる。提供開始は11月24日。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜人手の足りない監視を、まとめて減らす",
+        "paragraphs": [
+          "これは本誌の解釈だが、セキュリティ監視の現場ではアラートの多さが担当者の負担になりやすい。AIで関連するものをまとめ、定型の初動を自動化する流れは、人手の少ない中堅企業ほど効果が出やすい。",
+          "ただし自動での隔離や無効化は業務を止める可能性もあるため、どの条件で自動実行するかを事前に取り決めておくことを勧めたい。"
+        ]
+      }
+    ],
+    "actions": [
+      "自社で1日に届くセキュリティアラートの件数を確認する",
+      "端末隔離やアカウント停止を自動で行ってよい条件を決める",
+      "取引先からSCS評価制度への対応を求められていないか確認する"
+    ],
+    "service": "fde",
+    "pull": "アラートの山を、1件のケースにまとめる。",
+    "hero_image": "/assets/illustrations/2026-11-25-story-5-cast.webp",
+    "hero_image_alt": "警告の集約と端末隔離を示す画面にラッコが驚き、猫が指さして問いかけ、アザラシは読書のふりで横目を向ける。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-11-25-story-5.png"
+  },
+  {
+    "updated_at": "2026-11-25",
+    "verified_at": "2026-11-25",
+    "article_kind": "news",
+    "title": "MIT、小さな言語モデルでアナログ回路を設計する手法「SLIC」を開発　ノートPCで動く規模で大型モデルに迫る、設計データを社外に出さずに使える",
+    "category": "研究",
+    "source": "MIT News",
+    "published_at": "2026-11-23",
+    "lede": "MITの研究者は11月23日、数十億パラメータの小さな言語モデルを強化学習で鍛え、アナログ集積回路の設計を大型モデルと同等以上にこなせるようにする手法「SLIC」を発表した。",
+    "links": [
+      "https://news.mit.edu/2026/ai-driven-technique-could-help-engineers-design-analog-chips-faster-and-less-expensive-1123"
+    ],
+    "keypoints": [
+      "小型モデルは数十億パラメータで、数兆パラメータの大型モデルより数千倍小さい",
+      "ノートPCで動く規模のため、社内の回路設計データを外に出さずに学習・利用できる",
+      "大型モデルの設計手順を真似たあと、シミュレーション結果を報酬に多段階の強化学習で鍛える",
+      "論文はNeurIPS 2026で発表予定。数値の詳細は論文本体では未確認"
+    ],
+    "editorial_diagram": {
+      "kicker": "MIT Newsの発表 / SLIC",
+      "title": "小さなAIを、回路設計の専門家に",
+      "lead": "発表から、SLICで小型モデルを鍛える流れを整理した。",
+      "examples": [
+        [
+          "真似る",
+          "大型モデルが示した設計の進め方を、小型モデルが学ぶ。"
+        ],
+        [
+          "試して直す",
+          "小型モデルが新しい設計課題に取り組み、シミュレーション結果を手がかりに改善を重ねる。"
+        ],
+        [
+          "手元で使う",
+          "ノートPCで動く規模なので、社内の設計データを外に出さずに使える。"
+        ]
+      ],
+      "note": "MIT Newsの発表（2026年11月23日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://news.mit.edu/2026/ai-driven-technique-could-help-engineers-design-analog-chips-faster-and-less-expensive-1123",
+      "wide": "/assets/illustrations/2026-11-25-story-6-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-11-25-story-6-diagram-mobile.webp",
+      "alt": "真似る：大型モデルが示した設計の進め方を、小型モデルが学ぶ。、試して直す：小型モデルが新しい設計課題に取り組み、シミュレーション結果を手がかりに改善を重ねる。、手元で使う：ノートPCで動く規模なので、社内の設計データを外に出さずに使える。"
+    },
+    "body": [
+      {
+        "heading": "どんな手法か",
+        "paragraphs": [
+          "MITの研究者は、アナログ集積回路の設計をAIで効率化する手法「SLIC（Small LM Iterating on Circuits）」を開発した。まず大型の言語モデルが設計の進め方を示し、小型モデルがそれを真似る。その後、小型モデルが自ら新しい課題に取り組み、回路シミュレーションの結果を報酬にした多段階の強化学習で改善を重ねる。",
+          "小型モデルは数十億パラメータで、数兆パラメータの大型モデルより数千倍小さい。ノートPCで動く規模のため、企業は回路設計データを社外に出さずに学習と利用ができると説明している。"
+        ]
+      },
+      {
+        "heading": "結果と今後",
+        "paragraphs": [
+          "発表によると、小型モデルは比較したベースラインやオープンウェイトの大型モデルより効果的に目標性能を満たす設計を生み、GPT-6-Astraの性能にも迫った。使う計算資源は一部で済むという。見たことのない回路構造や、より先端の製造プロセス、商用プロセスでも性能を保ったとしている。",
+          "論文は2026年のNeurIPSで発表予定。研究はAnalog Devices、IBMなどが一部支援した。具体的な評価の数値は論文本体を読んでおらず、未確認である。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜「小さく、手元で、専門特化」",
+        "paragraphs": [
+          "これは本誌の解釈だが、設計データのように外に出しにくい情報を扱う分野では、手元で動く小型の専門モデルが現実的な選択肢になりつつある。",
+          "自社でも、機密データを使う業務は「大きな汎用AI」ではなく「小さな専門AI」で足りないかを検討する価値がある。"
+        ]
+      }
+    ],
+    "actions": [
+      "社外に出せないデータを使う業務を洗い出す",
+      "手元で動く小型モデルで代替できる作業がないか検討する"
+    ],
+    "pull": "小さなAIでも、専門なら大きなAIに迫る。",
+    "hero_image": "/assets/illustrations/2026-11-25-story-6-cast.webp",
+    "hero_image_alt": "回路図を映すノートPCに驚くラッコと、指をさして尋ねる茶トラ猫、本を読みながら横目で聞くアザラシ。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-11-25-story-6.png"
+  }
+]

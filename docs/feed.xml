@@ -7,6 +7,42 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。公開済みのAIニュースと実務への示唆をお届けします。</description>
   <language>ja</language>
   <item>
+    <title>Anthropic、コードの取り込みまでを支える「Claude Ship」を発表　レビュー後の修正と承認をAIが手伝う、TeamとEnterprise向けにベータ提供</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-25/story-1/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-25/story-1/</guid>
+    <description>Anthropicは11月23日、GitHub上のコード変更をレビューから取り込みまで支援する「Claude Ship」を発表した。一般提供済みのCode Reviewに、修正を手伝う「PR Steward」と承認を手伝う「Claude Approvals」（いずれもベータ）を組み合わせる。</description>
+  </item>
+  <item>
+    <title>OpenAIとCisco、AIが作る「盾」で稼働中のLinuxを守る「Shirudo」を公開　再起動せずに攻撃を遮断、オープンソースで提供</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-25/story-2/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-25/story-2/</guid>
+    <description>OpenAIとCiscoは11月23日、AIエージェントが作る小さな遮断用プログラム（shield）で、稼働中のLinuxシステムを守るオープンソースのランタイム「Shirudo」を公開した。</description>
+  </item>
+  <item>
+    <title>Google検索のAI Mode、Google Walletとつないで支出を踏まえた回答に　オプトインで提供開始、DriveとGeminiアプリの接続は数週間内</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-25/story-3/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-25/story-3/</guid>
+    <description>Googleは11月23日、検索のAI Modeで使う「Personal Intelligence」にGoogle Walletを接続できる機能の提供を始めた。利用者が自分で接続を選ぶオプトイン方式で、Google DriveとGeminiアプリの接続は今後数週間で提供するとしている。</description>
+  </item>
+  <item>
+    <title>Google DeepMind、Gemini 4のエージェント群で量子アルゴリズムを改良　証明支援系Leanで正しさを確認、核融合の計算コストを11.8分の1に</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-25/story-4/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-25/story-4/</guid>
+    <description>Google DeepMindとGoogle Quantum AIは11月23日、Gemini 4のエージェントのチームが既存の量子アルゴリズムを改良し、その正しさを証明支援系Leanで確認したと発表した。検証用のライブラリと結果はGitHubで公開した。</description>
+  </item>
+  <item>
+    <title>キヤノンITS、マネージドSOCサービスにAI相関分析と初動の自動化を追加　関連アラートを1件にまとめ、端末隔離やアカウント無効化まで</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-25/story-5/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-25/story-5/</guid>
+    <description>キヤノンITソリューションズは11月24日、マネージドSOCサービスを強化し、AIで関連するアラートをまとめる相関分析と、端末の隔離などの初動対応の自動化を同日から提供すると発表した。</description>
+  </item>
+  <item>
+    <title>MIT、小さな言語モデルでアナログ回路を設計する手法「SLIC」を開発　ノートPCで動く規模で大型モデルに迫る、設計データを社外に出さずに使える</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-25/story-6/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-25/story-6/</guid>
+    <description>MITの研究者は11月23日、数十億パラメータの小さな言語モデルを強化学習で鍛え、アナログ集積回路の設計を大型モデルと同等以上にこなせるようにする手法「SLIC」を発表した。</description>
+  </item>
+  <item>
     <title>数学者アルペゲ氏、Claudeと共同で「リーマン予想」を証明したと発表　Leanコミュニティが形式証明の正しさを認める共同声明</title>
     <link>https://nowonair.vercel.app/articles/2026-11-23/story-1/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-23/story-1/</guid>
@@ -119,42 +155,6 @@
     <link>https://nowonair.vercel.app/articles/2026-11-21/story-3/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-21/story-3/</guid>
     <description>Vercelは11月18日、複数のAIエージェントや人がタスクを受け渡し、進み具合と結果を1か所に残すための掲示板「Vercel Board」を実験的な機能として公開した。全プランで使え、エージェントはVercel CLIかJavaScript SDKから読み書きする。</description>
-  </item>
-  <item>
-    <title>Gemini API、使うツールの定義だけを後から読み込む「Tool Retrieval」をプレビュー提供　入力トークンを削減、追加料金なし</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-21/story-4/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-21/story-4/</guid>
-    <description>Googleは11月19日、Gemini APIのInteractions APIで「Tool Retrieval」のプレビュー提供を始めた。多数のツールを登録しても、最初は名前と説明だけを読み込み、必要になったツールの詳しい定義だけを後から読み込むため、入力トークンを減らせる。</description>
-  </item>
-  <item>
-    <title>Thinking Machines Lab、手元のPCでも動くオープンモデル「Inkling 2 Mini」を公開　総パラメータ264億、Apache 2.0で画像も読める</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-21/story-5/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-21/story-5/</guid>
-    <description>Thinking Machines Labは11月20日、画像とテキストを読めるオープンウェイトのモデル「Inkling 2 Mini」を公開した。総パラメータは264億で、1回の処理で使うのは34億。ライセンスはApache 2.0で、Hugging Faceから入手できる。</description>
-  </item>
-  <item>
-    <title>OpenAI、創薬化学の推論力を測る「MedChemBench」を公開　論文・特許117本から99問、GPT-6.2 Astraは84.5%</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-21/story-6/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-21/story-6/</guid>
-    <description>OpenAIは11月20日、創薬の候補化合物を考える「医薬化学」の推論力を測るベンチマーク「MedChemBench」を公開した。117本の論文と特許から作った99問で、分子構造の読み取りや化合物の選び方などを評価する。同社の最新モデルGPT-6.2 Astraは全体で84.5%だった。</description>
-  </item>
-  <item>
-    <title>DeNA、社内で30人が働く「AI社員」を外部企業に提供へ　事前登録を開始、使用量を「勤務時間」として管理</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-21/story-7/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-21/story-7/</guid>
-    <description>DeNAは11月20日、配属して育てられるAIエージェント「AI社員 by DeNA」を外部企業に提供すると発表し、事前登録を始めた。社内ではすでに30人のAI社員が働いているという。AIの使用量を「勤務時間」、上限を「残業上限」として管理するのが特徴だ。</description>
-  </item>
-  <item>
-    <title>日立、OpenAIのサイバー防御パートナー「Daybreak Defense Network」に参画　脆弱性の発見から修復の確認までをつなぐ</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-21/story-8/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-21/story-8/</guid>
-    <description>日立製作所は11月20日、OpenAIが進めるサイバー防御のパートナープログラム「Daybreak Defense Network」に参画すると発表した。OpenAIの技術チームと連携し、脆弱性の発見から検証、修復、修復結果の確認までを一連でつなぐ防御ワークフローの構築をめざす。</description>
-  </item>
-  <item>
-    <title>富士通、Google Cloudとの戦略的提携を拡大　AIを使ったサイバー防御や高機密クラウド、小売のAI活用で連携</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-21/story-9/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-21/story-9/</guid>
-    <description>富士通は11月19日、グーグル・クラウド・ジャパンとの戦略的パートナーシップを拡大したと発表した。Google CloudのAI・クラウドを社内で使う範囲を広げる契約を結び、サイバーセキュリティ、高い機密性が必要なクラウド活用、顧客先に入り込む技術者（FDE）の支援、小売分野のAI活用の4領域で連携を進める。</description>
   </item>
 </channel>
 </rss>
