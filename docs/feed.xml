@@ -7,6 +7,48 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。公開済みのAIニュースと実務への示唆をお届けします。</description>
   <language>ja</language>
   <item>
+    <title>Google、GmailやドライブをAIから操作する「Workspace MCPサーバー」と公式CLIを一般提供　8サービス対応、1日5,000リクエストまでの無料枠も</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-26/story-1/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-26/story-1/</guid>
+    <description>Googleは11月24日、AIエージェントがGmailやドライブ、カレンダーなどを直接操作できる「Workspace MCPサーバー」と公式コマンドラインツール「gwscli」の一般提供を発表した。2週間かけて全ドメインへ順次展開する。</description>
+  </item>
+  <item>
+    <title>Anthropic、MCPサーバーから「使い方のスキル」も配れるように　ClaudeとClaude Codeでベータ提供、長時間の処理を裏で進める「Tasks」は一般提供</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-26/story-2/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-26/story-2/</guid>
+    <description>Anthropicは11月24日、MCPサーバーがツールと一緒に「スキル」（作業手順）を配れる「Skills over MCP」をClaudeとClaude Codeでパブリックベータとして提供開始した。長時間処理の「Tasks」と、途中で利用者に入力を求める「Elicitation」は一般提供となった。</description>
+  </item>
+  <item>
+    <title>Claude、作った「アーティファクト」をMacやWindowsのアプリとして入れられる機能をベータ提供　全プランで順次、権限は3段階</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-26/story-3/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-26/story-3/</guid>
+    <description>Anthropicは11月24日、Claudeで作ったアーティファクト（画面付きの成果物）を、MacやWindowsのデスクトップアプリとしてインストールできる「Install as app」を全プランでベータとして順次提供すると発表した。</description>
+  </item>
+  <item>
+    <title>Sakana AI、300億パラメータの思考モデル「Sakana Namazu Small」を発表　Web検索や長い文書の読解に強く、オンプレミス提供の詳細は12月前半</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-26/story-4/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-26/story-4/</guid>
+    <description>Sakana AIは11月25日、NVIDIAのオープンモデル「Nemotron 3 Nano」の事前学習済みモデルを土台に、自社で追加学習した300億パラメータの思考モデル「Sakana Namazu Small」を発表した。</description>
+  </item>
+  <item>
+    <title>Google DeepMind、質量分析のデータから分子を特定する「Mass Spec Skills」を公開　専用の手順を与えると正答が約97%に、Antigravityで利用可能</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-26/story-5/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-26/story-5/</guid>
+    <description>Google DeepMindは11月25日、質量分析（MS/MS）のスペクトルから分子の構造を割り出すスキル群「Mass Spec Skills」を、エージェント開発環境「Google Antigravity」向けに公開した。</description>
+  </item>
+  <item>
+    <title>Sakana AI、現実の複雑なシステムをAIで解く「Applied Research Lab」を設立　第1弾は金融・経済、成果は顧客へ</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-26/story-6/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-26/story-6/</guid>
+    <description>Sakana AIは11月24日、自社の研究を市場や経済などの複雑な現実のシステムに応用し、成果を顧客に届ける社内組織「Sakana AI Applied Research Lab」を設立したと発表した。最初の取り組みは金融・経済分野となる。</description>
+  </item>
+  <item>
+    <title>軽井沢・プリンスショッピングプラザ、スマホで持ち歩ける4言語の「AI案内」を実証　12月1日から4か月、西武グループとkiwami</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-26/story-7/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-26/story-7/</guid>
+    <description>西武不動産プロパティマネジメント、西武ホールディングス、kiwamiの3社は11月25日、軽井沢・プリンスショッピングプラザで、アバターとAIを使った案内サービスの実証実験を12月1日から始めると発表した。</description>
+  </item>
+  <item>
     <title>Anthropic、コードの取り込みまでを支える「Claude Ship」を発表　レビュー後の修正と承認をAIが手伝う、TeamとEnterprise向けにベータ提供</title>
     <link>https://nowonair.vercel.app/articles/2026-11-25/story-1/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-25/story-1/</guid>
@@ -113,48 +155,6 @@
     <link>https://nowonair.vercel.app/articles/2026-11-22/story-4/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-22/story-4/</guid>
     <description>AWSは11月19日（米国時間）、音声合成サービス「Amazon Polly」で、話者の数分の録音からその人の声で読み上げる音声を作る「音声クローン」の一般提供を始めた。利用は申請制で、声を作るたびに話者の同意を得ていることの確認を求める。</description>
-  </item>
-  <item>
-    <title>Sakana AI、サイバー防御とAIの安全性を研究する「Security Research Group」を設立　事業から切り離し、成果やベンチマークを公開へ</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-22/story-5/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-22/story-5/</guid>
-    <description>Sakana AIは11月20日、AIを使った集合的なサイバー防御と、AIシステム自体の安全性を研究する独立チーム「Security Research Group」の設立を発表した。事業とは切り離した組織として、研究成果や再現できるベンチマーク、実践的な指針を公開するとしている。</description>
-  </item>
-  <item>
-    <title>GitLab、AIエージェント基盤「Duo Agent Platform」のクレジット効率を最大2倍に　モデルへの要求回数を減らし、節約分を利用者へ</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-22/story-6/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-22/story-6/</guid>
-    <description>GitLabは11月19日、AIエージェント基盤「GitLab Duo Agent Platform」で、1つの作業に必要なAIモデルへの要求回数を減らしたと発表した。多くの顧客で、同じクレジット（GitLab Credits）で最大2倍の作業ができるようになるとしている。</description>
-  </item>
-  <item>
-    <title>AMDとUnsloth、PC上でAIを動かす「Unsloth Desktop」がRyzen AIのNPUに対応　100超のエージェント系アプリから省電力で利用</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-22/story-7/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-22/story-7/</guid>
-    <description>AMDは11月19日（米国時間）、AIモデルを手元のPCで動かすアプリ「Unsloth Desktop」が、同社のXDNA 2アーキテクチャのNPU（AI専用の処理装置）に対応したと発表した。Unsloth Desktopが対応する初めてのNPUだとしている。</description>
-  </item>
-  <item>
-    <title>Apple、普通のカメラ映像から距離をメートル単位で推定する「Depth Pro 2」を公開　写真も動画も1つのモデルで、コードと重みも</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-22/story-8/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-22/story-8/</guid>
-    <description>Appleの機械学習研究チームは11月、普通のカメラで撮った写真や動画から、画素ごとの距離をメートル単位で推定する研究「Depth Pro 2」を公開した。物の輪郭のくっきりさと、動画でのちらつきのなさを両立したとしており、コードとモデルの重みも公開した。</description>
-  </item>
-  <item>
-    <title>OpenAI、推論の中身を抜き取る「敵対的蒸留」への対策を公表　GPT-6.2 Astraでは攻撃成功率を54.0%から0.2%に</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-21/story-1/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-21/story-1/</guid>
-    <description>OpenAIは11月20日、自社モデルの出力を使って他社が性能を写し取る「敵対的蒸留」への対策を公表した。モデル内部の推論（chain-of-thought）を抜き出す攻撃について、社内の検証では、GPT-6.2 Astraで攻撃成功率が1%未満に下がったとしている。</description>
-  </item>
-  <item>
-    <title>ChatGPTの作業代行AI「dots」、米国のBusiness Standardと一部のPlusに拡大　モバイルアプリにはdot専用タブ</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-21/story-2/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-21/story-2/</guid>
-    <description>OpenAIは11月19日、ChatGPTで常に動き続ける個人用エージェント「dots」の対象を広げた。米国のChatGPT Business Standardの対象メンバーに提供を始め、Plusの一部利用者でも試験提供する。モバイルアプリの新デザインも同日から順次配信している。</description>
-  </item>
-  <item>
-    <title>Vercel、複数のAIエージェントが仕事を分け合う掲示板「Vercel Board」を実験提供　全プランで利用可、Claude CodeやCodexとも連携</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-21/story-3/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-21/story-3/</guid>
-    <description>Vercelは11月18日、複数のAIエージェントや人がタスクを受け渡し、進み具合と結果を1か所に残すための掲示板「Vercel Board」を実験的な機能として公開した。全プランで使え、エージェントはVercel CLIかJavaScript SDKから読み書きする。</description>
   </item>
 </channel>
 </rss>

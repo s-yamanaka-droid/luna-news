@@ -1,0 +1,558 @@
+[
+  {
+    "updated_at": "2026-11-26",
+    "verified_at": "2026-11-26",
+    "article_kind": "news",
+    "title": "Google、GmailやドライブをAIから操作する「Workspace MCPサーバー」と公式CLIを一般提供　8サービス対応、1日5,000リクエストまでの無料枠も",
+    "category": "ツール更新",
+    "source": "Google Workspace Updates",
+    "published_at": "2026-11-24",
+    "lede": "Googleは11月24日、AIエージェントがGmailやドライブ、カレンダーなどを直接操作できる「Workspace MCPサーバー」と公式コマンドラインツール「gwscli」の一般提供を発表した。2週間かけて全ドメインへ順次展開する。",
+    "links": [
+      "https://workspaceupdates.googleblog.com/2026/11/mcp-servers-cli-standardized-usage-tiers-now-available.html",
+      "https://developers.google.com/workspace/guides/workspace-cli",
+      "https://developers.google.com/workspace/tools-safety"
+    ],
+    "keypoints": [
+      "対象はGmail、ドライブ、ドキュメント、スプレッドシート、スライド、カレンダー、Chat、ToDoリストの8サービス（Keepは近日対応）",
+      "Googleがサーバーを運用し、AIエージェントは用意済みの操作（下書き作成、ファイル検索、予定作成など）をすぐ呼び出せる",
+      "無料の「Standard」枠は、プロジェクト・サービスごとに1日5,000リクエストまで。課金アカウントは不要",
+      "管理者はエージェントのアクセス可否、人の確認を挟むルール、操作ログを管理コンソールで設定できる"
+    ],
+    "body": [
+      {
+        "heading": "何が使えるようになったか",
+        "paragraphs": [
+          "Googleは2026年11月24日、AIと外部サービスをつなぐ規格MCP（Model Context Protocol）に対応したWorkspace MCPサーバーと、公式CLI「gwscli」の一般提供を発表した。Gmail、ドライブ、ドキュメント、スプレッドシート、スライド、カレンダー、Chat、ToDoリストの8サービスが対象で、Keepは「近日対応」としている。",
+          "サーバーはGoogleがサービスごとに運用し、クラウドやWebで動くAIエージェントから接続できる。開発者向けガイドによると、Gmailの下書き作成やラベル管理、ドライブの検索・アップロード、カレンダーの予定作成、スプレッドシートの値の書き込みなどの操作が用意されている。"
+        ]
+      },
+      {
+        "heading": "料金と管理の仕組み",
+        "paragraphs": [
+          "無料の「Standard」枠は、プロジェクト・サービスごとに1日5,000リクエストが上限で、課金アカウントは要らない。上限を超えて使う「Scaled」枠は課金アカウントの紐付けが必要で、Gmail・カレンダー・ドライブのMCP利用への課金は2027年4月1日から始まる。",
+          "個人のGoogleアカウントでもCLIを使えるが、Chatへのメッセージ送信などはWorkspaceアカウントが必要。メッセージ送信、外部共有、削除などの操作には人の承認が必要になる。管理者は管理コンソールの「セキュリティ > APIの制御」で、エージェントのアクセス、人の確認を挟むルール、操作ログを設定できる。なお、MCPサーバーの設定ガイドには「Developer Preview」の表示が残っており、ブログの一般提供の記載との関係は未確認。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜社内データへのAIの入口が、公式に1本化される",
+        "paragraphs": [
+          "これは本誌の解釈だが、これまで各社が独自に作っていた「AIからGmailやドライブを触る仕組み」を、Googleが公式に用意した意味は大きい。無料枠も中小企業の試行には十分な量だ。",
+          "一方で、AIが送信や共有まで行えるようになるため、まずは下書き作成と検索だけを許可し、送信・共有・削除は人の承認を必須にする運用から始めることを勧めたい。"
+        ]
+      }
+    ],
+    "actions": [
+      "管理コンソールでエージェントのアクセス設定と操作ログの項目を確認する",
+      "Gmailの返信下書きとドライブ検索から、試す業務を1つ選ぶ",
+      "送信・外部共有・削除を誰が承認するかを決める"
+    ],
+    "service": "luna",
+    "pull": "AIに任せるのは下書きと検索から。送信は人が決める。",
+    "editorial_diagram": {
+      "kicker": "Google Workspace Updatesの発表 / Workspace MCPサーバー",
+      "title": "AIがWorkspaceを操作するまで",
+      "lead": "発表から、利用の流れを3段階で整理した。",
+      "examples": [
+        [
+          "つなぐ",
+          "AIエージェントがGoogle運用のMCPサーバーに接続する。8サービスにそれぞれ窓口がある。"
+        ],
+        [
+          "操作する",
+          "下書き作成、ファイル検索、予定作成など、用意済みの操作を呼び出す。"
+        ],
+        [
+          "管理する",
+          "管理者がアクセス可否と人の確認ルールを決め、操作ログで後から確かめる。"
+        ]
+      ],
+      "note": "Google Workspace Updatesの発表（2026年11月24日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://workspaceupdates.googleblog.com/2026/11/mcp-servers-cli-standardized-usage-tiers-now-available.html",
+      "wide": "/assets/illustrations/2026-11-26-story-1-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-11-26-story-1-diagram-mobile.webp",
+      "alt": "つなぐ：AIエージェントがGoogle運用のMCPサーバーに接続する。8サービスにそれぞれ窓口がある。、操作する：下書き作成、ファイル検索、予定作成など、用意済みの操作を呼び出す。、管理する：管理者がアクセス可否と人の確認ルールを決め、操作ログで後から確かめる。"
+    },
+    "hero_image": "/assets/illustrations/2026-11-26-story-1-cast.webp",
+    "hero_image_alt": "仕事用ツールがつながるパソコンに驚くラッコと、手を上げて尋ねる茶トラ猫、本を読むふりで横目を向けるアザラシ。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-11-26-story-1.png"
+  },
+  {
+    "updated_at": "2026-11-26",
+    "verified_at": "2026-11-26",
+    "article_kind": "news",
+    "title": "Anthropic、MCPサーバーから「使い方のスキル」も配れるように　ClaudeとClaude Codeでベータ提供、長時間の処理を裏で進める「Tasks」は一般提供",
+    "category": "ツール更新",
+    "source": "Anthropic",
+    "published_at": "2026-11-24",
+    "lede": "Anthropicは11月24日、MCPサーバーがツールと一緒に「スキル」（作業手順）を配れる「Skills over MCP」をClaudeとClaude Codeでパブリックベータとして提供開始した。長時間処理の「Tasks」と、途中で利用者に入力を求める「Elicitation」は一般提供となった。",
+    "links": [
+      "https://claude.com/ja/resources/articles/skills-over-mcp-tasks-and-more",
+      "https://modelcontextprotocol.io/extensions/skills/overview",
+      "https://blog.modelcontextprotocol.io/posts/mcp-turns-two/"
+    ],
+    "keypoints": [
+      "Skills over MCP：MCPサーバーがツールに加えてスキルを公開でき、Claudeは必要なときだけ読み込む（パブリックベータ）",
+      "Pro・Max・Ultraでは既定で有効。Teamは管理者が有効化、Enterpriseは近日対応",
+      "Tasks（裏で長時間処理）とElicitation（途中でフォーム等で入力を求める）は一般提供",
+      "ファイルをMCPサーバーへ送る「File Uploads」は近日提供予定"
+    ],
+    "body": [
+      {
+        "heading": "ツールに「使い方」を添えて配る",
+        "paragraphs": [
+          "Anthropicは2026年11月24日、MCP（Model Context Protocol）の新機能群をClaudeとClaude Codeで使えるようにしたと発表した。中心となる「Skills over MCP」は、MCPサーバーがツールと一緒にスキル（作業の手順書）を公開し、Claudeが必要なときだけ読み込む仕組みで、パブリックベータとして提供する。初期パートナーにはShopify、HubSpot、Atlassianが挙がり、Cartaは近日対応としている。",
+          "Pro・Max・Ultraプランでは既定で有効、Teamプランは管理者が有効にすれば使え、Enterpriseは近日対応。MCPの公式ブログと仕様ページによると、この拡張仕様はMCP側でもベータの扱いで、SDKや各アプリの対応はまだ進行中としている。"
+        ]
+      },
+      {
+        "heading": "長時間処理と途中確認も",
+        "paragraphs": [
+          "「Tasks」は、サーバー側で時間のかかる処理を裏で進め、その間もClaudeが他の作業を続けられる機能。「Elicitation」は、サーバーが処理の途中でフォームやリンクを示して利用者に入力を求める機能。いずれもPro・Max・Ultraで一般提供となり、TeamとEnterpriseへ順次展開する。",
+          "PDFや表計算、画像などのファイルをMCPサーバーへ送れる「File Uploads」は近日提供予定で、発表時点ではまだ使えない。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜「つなぐ」から「正しく使わせる」へ",
+        "paragraphs": [
+          "これは本誌の解釈だが、AIに社内ツールをつないでも、使い方を毎回説明する手間が残っていた。ツールの提供側が手順まで一緒に配れるようになれば、利用者ごとの使い方のばらつきを減らしやすい。",
+          "ただし仕様上、スキルの中身は信頼できない入力として扱われる。社外のMCPサーバーを使う場合は、どのサーバーのスキルを許可するかを決めておきたい。"
+        ]
+      }
+    ],
+    "actions": [
+      "利用中のMCPサーバーがスキル配信に対応しているか確認する",
+      "Teamプランの場合、管理者がSkills over MCPを有効にするか判断する",
+      "許可するMCPサーバーの一覧を作る"
+    ],
+    "service": "fde",
+    "pull": "ツールと一緒に、手順書も届く。",
+    "editorial_diagram": {
+      "kicker": "Anthropicの発表 / Skills over MCP",
+      "title": "MCPで届く3つの新機能",
+      "lead": "発表から、提供状況の異なる機能を3つに分けて整理した。",
+      "examples": [
+        [
+          "スキル",
+          "MCPサーバーがツールと一緒に作業手順を配る。Claudeは必要なときだけ読み込む（ベータ）。"
+        ],
+        [
+          "Tasks",
+          "時間のかかる処理をサーバー側で裏で進め、Claudeは他の作業を続ける（一般提供）。"
+        ],
+        [
+          "Elicitation",
+          "処理の途中でフォームやリンクを出し、利用者に入力を求める（一般提供）。"
+        ]
+      ],
+      "note": "Anthropicの発表（2026年11月24日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://claude.com/ja/resources/articles/skills-over-mcp-tasks-and-more",
+      "wide": "/assets/illustrations/2026-11-26-story-2-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-11-26-story-2-diagram-mobile.webp",
+      "alt": "スキル：MCPサーバーがツールと一緒に作業手順を配る。Claudeは必要なときだけ読み込む（ベータ）。、Tasks：時間のかかる処理をサーバー側で裏で進め、Claudeは他の作業を続ける（一般提供）。、Elicitation：処理の途中でフォームやリンクを出し、利用者に入力を求める（一般提供）。"
+    },
+    "hero_image": "/assets/illustrations/2026-11-26-story-2-cast.webp",
+    "hero_image_alt": "作業手順の冊子と処理中の画面に驚くラッコ、指を差して尋ねる茶トラ猫、読書のふりで横目を向けるアザラシ。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-11-26-story-2.png"
+  },
+  {
+    "updated_at": "2026-11-26",
+    "verified_at": "2026-11-26",
+    "article_kind": "news",
+    "title": "Claude、作った「アーティファクト」をMacやWindowsのアプリとして入れられる機能をベータ提供　全プランで順次、権限は3段階",
+    "category": "ツール更新",
+    "source": "Anthropic",
+    "published_at": "2026-11-24",
+    "lede": "Anthropicは11月24日、Claudeで作ったアーティファクト（画面付きの成果物）を、MacやWindowsのデスクトップアプリとしてインストールできる「Install as app」を全プランでベータとして順次提供すると発表した。",
+    "links": [
+      "https://claude.com/ja/resources/articles/install-as-app"
+    ],
+    "keypoints": [
+      "アーティファクトの共有メニューから「Install as app」を選ぶと、独自のアイコンと専用ウィンドウを持つアプリになる",
+      "元のアーティファクトを編集すると自動で更新。Claudeへの問い合わせはプランの利用枠を消費する",
+      "権限は「既定」「アプリ権限」「コンピューターへのフルアクセス」の3段階",
+      "Teamは既定で有効（フルアクセスはオフ）、Enterpriseはオーナーが有効化するまでオフ"
+    ],
+    "body": [
+      {
+        "heading": "成果物がそのままアプリに",
+        "paragraphs": [
+          "Anthropicは2026年11月24日、Claudeのアーティファクトをデスクトップアプリに変える「Install as app」を発表した。アーティファクトの共有メニューから選ぶと、独自のアイコンを持ち、Claudeの外の専用ウィンドウで開くアプリになる。パッケージ化や署名、APIキーは不要で、Claudeのアカウントで動く。",
+          "アプリはClaudeやコネクタを使え、元のアーティファクトを編集すると自動で更新される。他の人と共有することもできる。アプリからClaudeへの問い合わせは、プランの利用枠を消費する。"
+        ]
+      },
+      {
+        "heading": "権限と対象プラン",
+        "paragraphs": [
+          "権限は3段階で、「既定」はブラウザでできる範囲、「アプリ権限」は常に手前に表示、ショートカット、通知などを追加、「フルアクセス」はプログラムの実行やファイルの読み書き・削除を毎回確認なしで行える。フルアクセスは自分で作ったアプリ（Team・Enterpriseでは組織内の人が作ったアプリ）に限られる。",
+          "全プランでベータとして順次提供。Teamは既定で有効だがフルアクセスはオフ、Enterpriseはオーナーが有効にするまで使えない。HIPAA対応の組織などは対象外。起動にはオンラインでのサインインが必要で、Claude Docs、Slides、Sheetsはアプリ化できない。Anthropicはインストール前にアプリを審査しないとしている。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜社内ツールの「作って配る」が一気に短くなる",
+        "paragraphs": [
+          "これは本誌の解釈だが、Claudeで作った簡単な計算ツールや一覧表を、社員のPCにアプリとして配れるようになると、小さな業務ツールの内製がぐっと身近になる。",
+          "一方で、Anthropicは事前審査をしないと明記している。フルアクセスは原則オフのままにし、誰が作ったアプリを入れてよいかを社内で決めてから使うのが安全だ。"
+        ]
+      }
+    ],
+    "actions": [
+      "Claudeで作った社内向けアーティファクトのうち、アプリ化したいものを1つ選ぶ",
+      "Team・Enterpriseの管理者は、アプリ権限とフルアクセスの設定を確認する",
+      "社内で配ってよいアプリの作成者の範囲を決める"
+    ],
+    "service": "luna",
+    "pull": "作った画面が、そのまま社内アプリになる。",
+    "editorial_diagram": {
+      "kicker": "Anthropicの発表 / Install as app",
+      "title": "アプリの権限は3段階",
+      "lead": "発表から、インストールしたアプリに与える権限を3段階で整理した。",
+      "examples": [
+        [
+          "既定",
+          "ブラウザでできる範囲だけを使う。"
+        ],
+        [
+          "アプリ権限",
+          "常に手前に表示、ショートカット、通知、メニューバー表示などを加える。"
+        ],
+        [
+          "フルアクセス",
+          "プログラムの実行やファイルの読み書き・削除を確認なしで行う。自作または組織内のアプリに限る。"
+        ]
+      ],
+      "note": "Anthropicの発表（2026年11月24日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://claude.com/ja/resources/articles/install-as-app",
+      "wide": "/assets/illustrations/2026-11-26-story-3-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-11-26-story-3-diagram-mobile.webp",
+      "alt": "既定：ブラウザでできる範囲だけを使う。、アプリ権限：常に手前に表示、ショートカット、通知、メニューバー表示などを加える。、フルアクセス：プログラムの実行やファイルの読み書き・削除を確認なしで行う。自作または組織内のアプリに限る。"
+    },
+    "hero_image": "/assets/illustrations/2026-11-26-story-3-cast.webp",
+    "hero_image_alt": "アプリ化と三段階の権限を示すパソコンに驚くラッコ、首をかしげて指す猫、本を読みながら横目でうかがうアザラシ。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-11-26-story-3.png"
+  },
+  {
+    "updated_at": "2026-11-26",
+    "verified_at": "2026-11-26",
+    "article_kind": "news",
+    "title": "Sakana AI、300億パラメータの思考モデル「Sakana Namazu Small」を発表　Web検索や長い文書の読解に強く、オンプレミス提供の詳細は12月前半",
+    "category": "新モデル発表",
+    "source": "Sakana AI",
+    "published_at": "2026-11-25",
+    "lede": "Sakana AIは11月25日、NVIDIAのオープンモデル「Nemotron 3 Nano」の事前学習済みモデルを土台に、自社で追加学習した300億パラメータの思考モデル「Sakana Namazu Small」を発表した。",
+    "links": [
+      "https://sakana.ai/namazu-small/"
+    ],
+    "keypoints": [
+      "300億パラメータ。Nemotron 3 Nanoを土台に、継続事前学習と事後学習をSakana AIが実施",
+      "Web検索を使った調査や、長い文書を根拠付きで読み解く用途を想定。顧客の自社環境で動かせる規模",
+      "25種のベンチマーク平均で、同規模のNemotron 3 Nanoと約4倍規模のNemotron 3 Superを上回ったと説明",
+      "オンプレミス提供は予定で、詳細は2026年12月前半に公表予定。ライセンスや重み公開の有無は未確認"
+    ],
+    "body": [
+      {
+        "heading": "どんなモデルか",
+        "paragraphs": [
+          "Sakana AIは2026年11月25日、思考モデル「Sakana Namazu Small」を発表した。NVIDIAのオープンモデル「Nemotron 3 Nano」の事前学習済みモデルを土台に、継続事前学習と事後学習を自社で行った300億パラメータのモデルで、オープンモデルをもとに自社の追加学習で仕上げる「Sakana Namazu」シリーズの1つ。経済産業省とNEDOの「GENIAC」の成果を用いている。",
+          "想定する用途は、社内文書や報告書をもとに出典付きで答える調査と、Web検索を使ったニュースや業界動向の調査。顧客の自社環境で動かせる規模にしたとしている。"
+        ]
+      },
+      {
+        "heading": "性能と提供時期",
+        "paragraphs": [
+          "同社の評価では、25種のベンチマークの平均で、同規模のNemotron 3 Nanoと約4倍規模のNemotron 3 Superを上回った。たとえばWeb検索を伴う調査の指標BrowseCompでは73.5（Nanoは29.3、Superは36.1）だった。一方、検索を使わない知識問題では伸びが小さく、日本語SimpleQAは8.0とSuper（24.9）を下回るなど、項目による差もある。評価条件の詳細は公表されていない。",
+          "オンプレミスでの提供を予定しており、詳細は2026年12月前半に知らせるとしている。APIや価格、ライセンス、重みの公開の有無は発表に記載がなく、未確認。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜「社内に置ける調査役」の選択肢",
+        "paragraphs": [
+          "これは本誌の解釈だが、社外にデータを出しにくい企業にとって、自社環境で動く調査向けモデルは現実的な選択肢になる。特に検索と長文読解に絞って強化した点は、社内文書の検索・要約用途と相性がよい。",
+          "ただし知識単体の問題では弱い項目もある。導入を検討する場合は、自社の文書で正答率を試してから判断したい。"
+        ]
+      }
+    ],
+    "actions": [
+      "社外に出せない文書を使った調査・要約業務を洗い出す",
+      "12月前半に公表されるオンプレミス提供の条件を確認する",
+      "自社文書で試す評価用の質問を10問ほど用意する"
+    ],
+    "service": "fde",
+    "pull": "調べて、根拠を示す。社内に置ける思考モデル。",
+    "editorial_diagram": {
+      "kicker": "Sakana AIの発表 / Sakana Namazu Small",
+      "title": "強みが出る3つの場面",
+      "lead": "発表のベンチマーク表から、得意・不得意を3つに分けて整理した。",
+      "examples": [
+        [
+          "Web検索の調査",
+          "BrowseCompで73.5。Nemotron 3 Superの36.1を大きく上回る。"
+        ],
+        [
+          "長い文書の読解",
+          "出典付きで答える指標LongBench-Citeで80.2と、比較対象より高い。"
+        ],
+        [
+          "知識だけの問題",
+          "検索を使わない問題では伸びが小さく、日本語SimpleQAは8.0にとどまる。"
+        ]
+      ],
+      "note": "Sakana AIの発表（2026年11月25日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://sakana.ai/namazu-small/",
+      "wide": "/assets/illustrations/2026-11-26-story-4-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-11-26-story-4-diagram-mobile.webp",
+      "alt": "Web検索の調査：BrowseCompで73.5。Nemotron 3 Superの36.1を大きく上回る。、長い文書の読解：出典付きで答える指標LongBench-Citeで80.2と、比較対象より高い。、知識だけの問題：検索を使わない問題では伸びが小さく、日本語SimpleQAは8.0にとどまる。"
+    },
+    "hero_image": "/assets/illustrations/2026-11-26-story-4-cast.webp",
+    "hero_image_alt": "小型コンピューターと長い資料を前に驚くラッコ、指さして尋ねる茶トラ猫、読書しながら横目でうかがうアザラシ。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-11-26-story-4.png"
+  },
+  {
+    "updated_at": "2026-11-26",
+    "verified_at": "2026-11-26",
+    "article_kind": "news",
+    "title": "Google DeepMind、質量分析のデータから分子を特定する「Mass Spec Skills」を公開　専用の手順を与えると正答が約97%に、Antigravityで利用可能",
+    "category": "研究",
+    "source": "Google DeepMind",
+    "published_at": "2026-11-25",
+    "lede": "Google DeepMindは11月25日、質量分析（MS/MS）のスペクトルから分子の構造を割り出すスキル群「Mass Spec Skills」を、エージェント開発環境「Google Antigravity」向けに公開した。",
+    "links": [
+      "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/"
+    ],
+    "keypoints": [
+      "Geminiの化学的な推論と、既存の質量分析ツールや公開化学データベースの検索を組み合わせる",
+      "100化合物の評価で、ネット接続もスキルもない場合の正答は4%未満、スキルありでは約97%",
+      "軽量モデルGemini 3.8 Flashでも、スキルを使うと上位モデルと同等の結果に",
+      "研究者1万人に、Antigravityの最上位利用枠を6か月無料で提供（審査あり）"
+    ],
+    "body": [
+      {
+        "heading": "何をするスキルか",
+        "paragraphs": [
+          "Google DeepMindは2026年11月25日、質量分析のデータから分子を特定する「Mass Spec Skills」を発表した。Geminiの化学的な推論に、matchms、SIRIUS、RDKitなど公開されている解析ツールの実行と、GNPS、MoNA、PubChemなど公開データベースの検索を組み合わせる。ノイズ除去、ライブラリ検索、分子式の推定、候補構造の比較までを1つの指示で通して行い、根拠をまとめて化学者に示す。",
+          "Google Antigravityで当日から使え、アプリに「Mass Spec plugin」を入れて利用する。企業利用はGoogle Cloudの資格情報で行える。"
+        ]
+      },
+      {
+        "heading": "評価結果と限界",
+        "paragraphs": [
+          "MoNAに収録された100化合物で評価したところ、ネット接続もスキルもない場合は3つのモデルとも正答が4%未満だった。スキルとネット接続を使うと、Gemini 3.8 Flash、Gemini 4 Argon、Gemini 4 Carbonのいずれも約97%で分子を特定・検証できた。1時間の制限時間を超えた試行は0%として数えている。",
+          "一方、データベースにない新しい分子は単独では確定できず、鏡像の関係にある分子など一部の異性体は質量分析だけでは区別できないとしている。科学的な判断は化学者が行う前提だ。研究者1万人を対象に、Antigravityの最上位利用枠を6か月無料で提供する募集も行っている（審査あり）。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜専門の「手順」を与えると、小さいモデルでも届く",
+        "paragraphs": [
+          "これは本誌の解釈だが、同じモデルでも専門ツールと手順を与えるかどうかで正答率が4%未満から約97%まで変わった点は、業務へのAI導入全般に通じる。モデル選びより、業務の手順を整えて渡すほうが効く場面は多い。",
+          "化学分野以外の企業でも、社内の専門作業を「手順書＋使うツール」として整理しておくことが、AI活用の土台になる。"
+        ]
+      }
+    ],
+    "actions": [
+      "社内の専門作業のうち、手順とツールが決まっているものを1つ選ぶ",
+      "その手順を、AIに渡せる手順書の形で書き出す",
+      "研究開発部門があれば、無料枠の募集条件を確認する"
+    ],
+    "service": "fde",
+    "pull": "手順を渡すと、正答は4%未満から約97%へ。",
+    "editorial_diagram": {
+      "kicker": "Google DeepMindの発表 / Mass Spec Skills",
+      "title": "スペクトルから分子へ",
+      "lead": "発表から、分子を特定する流れを3段階で整理した。",
+      "examples": [
+        [
+          "整える",
+          "測定データのノイズを除き、元になるイオンの質量を確かめる。"
+        ],
+        [
+          "絞り込む",
+          "公開ライブラリを検索し、分子式を推定して候補の構造を集める。"
+        ],
+        [
+          "確かめる",
+          "壊れ方の分析で候補を比べ、根拠をまとめて化学者に示す。"
+        ]
+      ],
+      "note": "Google DeepMindの発表（2026年11月25日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/",
+      "wide": "/assets/illustrations/2026-11-26-story-5-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-11-26-story-5-diagram-mobile.webp",
+      "alt": "整える：測定データのノイズを除き、元になるイオンの質量を確かめる。、絞り込む：公開ライブラリを検索し、分子式を推定して候補の構造を集める。、確かめる：壊れ方の分析で候補を比べ、根拠をまとめて化学者に示す。"
+    },
+    "hero_image": "/assets/illustrations/2026-11-26-story-5-cast.webp",
+    "hero_image_alt": "分子解析の画面に驚く眼鏡のラッコと首をかしげて指さす茶トラ猫を、本を読むアザラシが横目でうかがう。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-11-26-story-5.png"
+  },
+  {
+    "updated_at": "2026-11-26",
+    "verified_at": "2026-11-26",
+    "article_kind": "news",
+    "title": "Sakana AI、現実の複雑なシステムをAIで解く「Applied Research Lab」を設立　第1弾は金融・経済、成果は顧客へ",
+    "category": "業界動向",
+    "source": "Sakana AI",
+    "published_at": "2026-11-24",
+    "lede": "Sakana AIは11月24日、自社の研究を市場や経済などの複雑な現実のシステムに応用し、成果を顧客に届ける社内組織「Sakana AI Applied Research Lab」を設立したと発表した。最初の取り組みは金融・経済分野となる。",
+    "links": [
+      "https://sakana.ai/applied-research-lab/"
+    ],
+    "keypoints": [
+      "研究成果を大規模で複雑な現実のシステムに応用し、Sakana AIの顧客に届ける社内研究組織",
+      "第1弾は金融・経済の「Computational Finance and Economics（COFE）」プログラム",
+      "AIエージェントで大量のモデルを実装・検証し、どの問いが重要かは人の専門家が判断する",
+      "拠点は東京。インターンと客員研究員の制度で人材を募集"
+    ],
+    "body": [
+      {
+        "heading": "何を始めるのか",
+        "paragraphs": [
+          "Sakana AIは2026年11月24日、「Sakana AI Applied Research Lab」の設立を発表した。市場や経済のような複雑なシステムを、構成要素とそのつながりとして捉えてモデル化し、AIエージェントによる大規模な実装・検証と、人の専門家の判断を組み合わせて研究する。",
+          "最初のプログラムは金融・経済を扱う「COFE（Computational Finance and Economics）」で、資産価格と実体経済の関係を、企業や取引の単位で調べる。まずはエージェントベースのモデル化から始めるとしている。"
+        ]
+      },
+      {
+        "heading": "これまでの土台",
+        "paragraphs": [
+          "同社はこれまで、日本企業の10年分の有価証券報告書を使う評価基盤「EDINET-Bench」や、国内の金融系資格試験6種を扱う「JFinBench」、LLMエージェントが90日間事業を運営できるかを試す「CoffeeBench」（有限責任あずさ監査法人と開発）などを公開してきた。",
+          "研究所の責任者名や提携先は発表に記載がなく、未確認。機関、投資家、政策担当者、企業との連携を呼びかけている。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜研究組織が「顧客の現場」に近づく",
+        "paragraphs": [
+          "これは本誌の解釈だが、国内のAI研究企業が、研究成果を特定の産業の課題解決へ直接つなぐ組織を作る動きは、AIの価値が「モデルの性能」から「現場の課題をどう解くか」へ移っていることを示している。",
+          "金融以外の企業にとっても、自社の業界データをどう整えれば研究機関と組めるかを考えておく価値がある。"
+        ]
+      }
+    ],
+    "actions": [
+      "自社の業界で、AIで分析したい複雑な仕組み（需要、価格、取引など）を書き出す",
+      "そのために必要な社内データが揃っているか確認する"
+    ],
+    "service": "fde",
+    "pull": "AIの研究を、市場と経済の現場へ。",
+    "editorial_diagram": {
+      "kicker": "Sakana AIの発表 / Applied Research Lab",
+      "title": "研究から顧客への道筋",
+      "lead": "発表から、研究所の進め方を3段階で整理した。",
+      "examples": [
+        [
+          "モデル化する",
+          "市場や経済を、構成要素とそのつながりとして捉える。"
+        ],
+        [
+          "AIで試す",
+          "AIエージェントが多数のモデルを実装し、大規模に検証する。"
+        ],
+        [
+          "人が選ぶ",
+          "どの問いが重要かを専門家が判断し、成果を顧客に届ける。"
+        ]
+      ],
+      "note": "Sakana AIの発表（2026年11月24日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://sakana.ai/applied-research-lab/",
+      "wide": "/assets/illustrations/2026-11-26-story-6-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-11-26-story-6-diagram-mobile.webp",
+      "alt": "モデル化する：市場や経済を、構成要素とそのつながりとして捉える。、AIで試す：AIエージェントが多数のモデルを実装し、大規模に検証する。、人が選ぶ：どの問いが重要かを専門家が判断し、成果を顧客に届ける。"
+    },
+    "hero_image": "/assets/illustrations/2026-11-26-story-6-cast.webp",
+    "hero_image_alt": "金融とAIの図に驚く眼鏡のラッコに猫が問いかけ、アザラシは読書のふりで横目を向ける。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-11-26-story-6.png"
+  },
+  {
+    "updated_at": "2026-11-26",
+    "verified_at": "2026-11-26",
+    "article_kind": "news",
+    "title": "軽井沢・プリンスショッピングプラザ、スマホで持ち歩ける4言語の「AI案内」を実証　12月1日から4か月、西武グループとkiwami",
+    "category": "業界動向",
+    "source": "西武不動産プロパティマネジメント",
+    "published_at": "2026-11-25",
+    "lede": "西武不動産プロパティマネジメント、西武ホールディングス、kiwamiの3社は11月25日、軽井沢・プリンスショッピングプラザで、アバターとAIを使った案内サービスの実証実験を12月1日から始めると発表した。",
+    "links": [
+      "https://www.seiburealestate-pm.co.jp/news/detail/news314.html"
+    ],
+    "keypoints": [
+      "インフォメーションセンターにアバターが案内するタッチパネル端末を設置",
+      "館内の二次元コードを読み取ると、スマホのチャット画面で自由に質問できる「持ち歩けるAI案内」",
+      "日本語・英語・中国語・韓国語の4言語に対応",
+      "期間は2026年12月1日から2027年3月31日まで。人手不足への備えと満足度向上の効果を検証"
+    ],
+    "body": [
+      {
+        "heading": "どんな案内か",
+        "paragraphs": [
+          "西武不動産プロパティマネジメント、西武ホールディングス、kiwamiは2026年11月25日、長野県軽井沢町のリゾート型ショッピングモール「軽井沢・プリンスショッピングプラザ」で、AIによる案内サービスの実証実験を行うと発表した。インフォメーションセンターにはアバターが案内するタッチパネル端末を置き、店舗、施設・サービス、周辺の観光情報を調べられる。",
+          "加えて、館内に掲示した二次元コードをスマホで読み取ると、チャット画面で自由に質問できる「持ち歩けるAI案内」を用意した。買い物や散策の途中でも使える。対応言語は日本語、英語、中国語、韓国語の4つ。"
+        ]
+      },
+      {
+        "heading": "期間と狙い",
+        "paragraphs": [
+          "実証期間は2026年12月1日から2027年3月31日までの4か月。将来の人手不足に備え、AIで運営の効率と来館者の満足度を高められるかを確かめる。西武グループでは、西武鉄道が2026年1月から4駅で「アバター駅員」の実証を行っており、今回が2例目になる。",
+          "西武ホールディングスは、グループの他事業への展開も検討するとしている。使用するAIの具体的な仕組みは、発表のWebページには記載がなく未確認。"
+        ]
+      }
+    ],
+    "analysis": [
+      {
+        "heading": "Lakkanの視点｜案内所を「持ち歩ける」発想",
+        "paragraphs": [
+          "これは本誌の解釈だが、案内カウンターに人を置き続けるのが難しい施設は多い。固定端末だけでなく、来館者のスマホをそのまま案内窓口にする設計は、費用を抑えつつ多言語対応を広げやすい。",
+          "店舗や観光施設で取り入れる場合は、AIが答えられない質問を人に引き継ぐ導線と、回答内容を更新する担当を先に決めておきたい。"
+        ]
+      }
+    ],
+    "actions": [
+      "自店・自施設でよく聞かれる質問を20件書き出す",
+      "外国語での問い合わせがどれくらいあるか確認する",
+      "AIが答えられない時に人へつなぐ方法を決める"
+    ],
+    "service": "crm",
+    "pull": "案内所が、来館者のスマホに入る。",
+    "editorial_diagram": {
+      "kicker": "西武不動産プロパティマネジメントの発表 / AI案内の実証",
+      "title": "2つの入口で案内する",
+      "lead": "発表から、来館者がAI案内を使う流れを3つに分けて整理した。",
+      "examples": [
+        [
+          "館内の端末",
+          "インフォメーションセンターのタッチパネルで、アバターが店舗や観光情報を案内する。"
+        ],
+        [
+          "手元のスマホ",
+          "館内の二次元コードを読み取り、チャットで自由に質問する。"
+        ],
+        [
+          "4言語で",
+          "日本語・英語・中国語・韓国語で答え、運営の効率と満足度を検証する。"
+        ]
+      ],
+      "note": "西武不動産プロパティマネジメントの発表（2026年11月25日）から編集部が図にしたもの。図は模式表現です。",
+      "source_url": "https://www.seiburealestate-pm.co.jp/news/detail/news314.html",
+      "wide": "/assets/illustrations/2026-11-26-story-7-diagram-wide.webp",
+      "mobile": "/assets/illustrations/2026-11-26-story-7-diagram-mobile.webp",
+      "alt": "館内の端末：インフォメーションセンターのタッチパネルで、アバターが店舗や観光情報を案内する。、手元のスマホ：館内の二次元コードを読み取り、チャットで自由に質問する。、4言語で：日本語・英語・中国語・韓国語で答え、運営の効率と満足度を検証する。"
+    },
+    "hero_image": "/assets/illustrations/2026-11-26-story-7-cast.webp",
+    "hero_image_alt": "スマホの多言語AI案内に驚くラッコと指をさす茶トラ猫の隣で、アザラシが読書のふりをして横目で見ている。",
+    "hero_image_credit": "編集イメージ / AI生成（Racco・むちむち猫・アザラシ）",
+    "social_image": "/assets/og/2026-11-26-story-7.png"
+  }
+]
