@@ -7,6 +7,48 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。公開済みのAIニュースと実務への示唆をお届けします。</description>
   <language>ja</language>
   <item>
+    <title>Anthropic、裏で作業を続けるエージェント「Claude Duet」の研究プレビューを日本にも拡大　Pro・Max・Ultraが対象、未使用の上限リセットは12月15日に失効</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-27/story-1/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-27/story-1/</guid>
+    <description>Anthropicは、裏で作業を続けるエージェント「Claude Duet」の研究プレビューの提供地域を広げ、米国に加えて日本、インド、インドネシア、ブラジルを対象にした。対象はPro・Max・Ultraプランで、ウェイトリストの登録者に順番に招待を送る。</description>
+  </item>
+  <item>
+    <title>DeepL、音声翻訳モデル「Aure v2」を発表　翻訳遅延の中央値を半減、日本語など6言語で会議向け製品に自動適用</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-27/story-2/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-27/story-2/</guid>
+    <description>DeepLは11月26日、東京で開いた初の「Unmute Summit」で、音声翻訳モデル「Aure v2」を発表した。翻訳遅延の中央値を前モデル「Aure」から50％減らし、日本語を含む6言語で同社の音声翻訳製品に自動で適用する。</description>
+  </item>
+  <item>
+    <title>アマダと日立、AIエージェントで工場運営と保守を支える実証で効果を確認　次はフィジカルAIで設備やロボットの自律制御をめざす</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-27/story-3/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-27/story-3/</guid>
+    <description>アマダと日立製作所は11月26日、AIエージェントによる生産計画の調整支援や設備トラブル対応の概念実証（PoC）で効果を確認したと発表した。今後はモデルユーザーの工場で実用化を進め、フィジカルAIで設備やロボットを制御する段階もめざす。</description>
+  </item>
+  <item>
+    <title>ソフトバンク、会話をレンズに文字で映すスマートグラスを聴覚障がいのある従業員132人に導入　文字起こしは端末内で完結、アプリは約2カ月で自社開発</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-27/story-4/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-27/story-4/</guid>
+    <description>ソフトバンクは11月26日、会話の内容をリアルタイムでレンズに表示するスマートグラスを、聴覚障がいのある従業員の情報保障として導入したと発表した。音声の文字起こしはスマートフォン内で完結し、外部のサーバーにデータを送らない。</description>
+  </item>
+  <item>
+    <title>Cloudflare、AIエージェント向けのサイト内検索「Search for Agents」を全顧客に提供　自社ドメインに検索窓口を置き、回答ではなく本文をMarkdownで返す</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-27/story-5/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-27/story-5/</guid>
+    <description>Cloudflareは11月25日、AIエージェントがWebサイトの中を検索できる窓口を自社ドメイン上に用意する「Search for Agents」を発表し、全顧客に提供を始めた。生成した回答ではなく、サイトの該当部分をMarkdown形式で返す。</description>
+  </item>
+  <item>
+    <title>ソニーネットワークコミュニケーションズ、GPUクラウドに参入　NVIDIA B300とAMD MI350Xをボード単位で無償トライアル、正式提供は2027年3月予定</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-27/story-6/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-27/story-6/</guid>
+    <description>ソニーネットワークコミュニケーションズは11月26日、GPUクラウド市場に参入すると発表し、GPUをボード単位で一定期間無償で使えるトライアルの受け付けを始めた。正式なサービス提供は2027年3月の予定。</description>
+  </item>
+  <item>
+    <title>Sakana AI、調査AI「Sakana Marlin」に新モード「Twilight 2.0」「Midnight 2.0」　参照する情報源は最大約7倍、スライド出力も刷新</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-27/story-7/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-27/story-7/</guid>
+    <description>Sakana AIは11月26日、調査レポートを作るAI「Sakana Marlin」を更新し、新しい調査モード「Twilight 2.0」と「Midnight 2.0」を追加した。PowerPointのスライド出力も作り直した。</description>
+  </item>
+  <item>
     <title>Google、GmailやドライブをAIから操作する「Workspace MCPサーバー」と公式CLIを一般提供　8サービス対応、1日5,000リクエストまでの無料枠も</title>
     <link>https://nowonair.vercel.app/articles/2026-11-26/story-1/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-26/story-1/</guid>
@@ -113,48 +155,6 @@
     <link>https://nowonair.vercel.app/articles/2026-11-23/story-5/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-23/story-5/</guid>
     <description>Hugging Faceは11月20日、AIエージェントを動かす作業環境（ハーネス）ごとに、オープンモデルを小さな追加学習で合わせる「ハーネスアダプター」を公開した。Qwen3.8-27Bに対し、3種類のハーネス向けにそれぞれLoRAを学習させ、正答率と使うトークン量の両方が改善したと報告している。</description>
-  </item>
-  <item>
-    <title>Baseten、判断や予測に強いオープンモデル「bison-1」「groundhog-1」を公開　Gemma 4ベースで重みも公開、100万トークン0.10ドルから</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-23/story-6/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-23/story-6/</guid>
-    <description>AIの推論基盤を提供する米Basetenは11月20日、判断や予測の課題向けに調整したオープンモデル「bison-1」と「groundhog-1」を公開した。bison-1は、Artificial Analysisの「Decision Index v2.1」で19モデル中1位になったとしている。</description>
-  </item>
-  <item>
-    <title>AWS、複数リージョンのAI推論を1つの窓口にまとめる「SageMaker HyperPod Global Inference Gateway」を発表　障害時は自動で切り替え、東京を含む13リージョン</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-23/story-7/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-23/story-7/</guid>
-    <description>AWSは11月20日（米国時間）、Amazon SageMaker HyperPodで動かすAIモデルの推論を、複数のリージョンやクラスターにまたがって1つのエンドポイントで受け付ける「Global Inference Gateway」を発表した。混み具合や距離をもとに振り分け先を選び、障害時は別のクラスターに自動で切り替える。</description>
-  </item>
-  <item>
-    <title>Vercel、AIマネジメントシステムの国際規格「ISO/IEC 42001」の認証を取得　v0やAI Gatewayなど主要AI製品が対象</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-23/story-8/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-23/story-8/</guid>
-    <description>Webアプリの開発・公開基盤を提供する米Vercelは11月20日、AIを責任をもって開発・運用するための国際規格「ISO/IEC 42001:2023」の認証を取得したと発表した。基盤インフラに加え、v0やAI Gateway、Vercel Agentなど主要なAI製品が対象になる。</description>
-  </item>
-  <item>
-    <title>AWS、AIの仕事場「AWS Quick」を更新　会話で業務フローを作成、複数エージェントの同時作業や日本語対応も</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-22/story-1/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-22/story-1/</guid>
-    <description>AWSは11月20日（米国時間）、業務向けAIワークスペース「AWS Quick」の更新を発表した。チャットで説明するだけで業務フローを組み立てられるようにし、複数のエージェントが1つの依頼を同時に分担する機能や、日本語を含む言語対応を加えた。</description>
-  </item>
-  <item>
-    <title>AWS、書類から欲しい項目を言葉で指定して抜き出す「Amazon Textract Insights」を正式提供　値ごとに確信度と根拠ページ</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-22/story-2/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-22/story-2/</guid>
-    <description>AWSは11月20日（米国時間）、書類から取り出したい項目を自然な言葉で指定すると、構造化したデータで返す生成AI機能「Amazon Textract Insights」の一般提供を始めた。値ごとに確信度と、どのページから取ったかの根拠が付く。</description>
-  </item>
-  <item>
-    <title>慶應大・東海大・NECなど、1回の採血でがんを早期に見つけるAI検査法を開発　卵巣がんで特異度99.5%・感度65%、6種類のがんで臨床試験</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-22/story-3/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-22/story-3/</guid>
-    <description>慶應義塾大学医学部、東海大学、湘南医療大学、NECの共同研究チームは11月20日、血液中の「糖ペプチド」と腫瘍マーカーをAIで解析してがんを早期に見つける検査技術「CSGSA法」を開発したと発表した。卵巣がんでは、内部検証で従来の単一マーカーを上回る結果を示した。</description>
-  </item>
-  <item>
-    <title>Amazon Polly、数分の録音から本人の声を再現する「音声クローン」を提供開始　7言語対応、作成のたびに本人同意を確認</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-22/story-4/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-22/story-4/</guid>
-    <description>AWSは11月19日（米国時間）、音声合成サービス「Amazon Polly」で、話者の数分の録音からその人の声で読み上げる音声を作る「音声クローン」の一般提供を始めた。利用は申請制で、声を作るたびに話者の同意を得ていることの確認を求める。</description>
   </item>
 </channel>
 </rss>
