@@ -7,6 +7,66 @@
   <description>AIに詳しくない日本のビジネスパーソンへ。公開済みのAIニュースと実務への示唆をお届けします。</description>
   <language>ja</language>
   <item>
+    <title>Google、AIエージェントによるWorkspaceの直接API利用を2027年2月から制限　GmailやドライブへはMCPサーバーかCLI経由に、従来型アプリは対象外</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-28/story-1/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-28/story-1/</guid>
+    <description>Googleは、新しい「Workspace AI Tools Addendum」で、AIエージェントがGmailやドライブなどのデータに触れる経路を、Workspace MCPサーバーと公式CLIに限ると発表した。技術的な強制は2027年2月1日に始まり、既存のREST APIを直接呼ぶエージェントは移行が必要になる。</description>
+  </item>
+  <item>
+    <title>SB OAI Japan、OpenAIの技術で外から侵入できるかを確かめる「侵入可否診断」を提供開始　公開中のWebアプリやVPN装置が対象、10営業日以内に報告</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-28/story-2/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-28/story-2/</guid>
+    <description>ソフトバンクグループとOpenAIの合弁会社SB OAI Japanは11月25日、インターネットに公開している資産に外部から初期侵入できるかを検証する「侵入可否診断」の提供を始めた。OpenAIのサイバーセキュリティ技術を使って侵入経路を検討する。</description>
+  </item>
+  <item>
+    <title>富士フイルムBI、ロボットで電子化した大量の紙文書をMicrosoft Copilotで検索・要約　2027年1月から提供、根拠のファイル名と場所も示す</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-28/story-3/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-28/story-3/</guid>
+    <description>富士フイルムビジネスイノベーションは11月25日、子会社がロボティクスとAIで電子化・構造化した紙文書を、Microsoft Copilotで検索・要約できるようにすると発表した。2027年1月から提供を始め、2030年度までに新規導入300件をめざす。</description>
+  </item>
+  <item>
+    <title>DeNA、音声対話向けに追加学習した日本語音声認識3モデルを公開　相づちの取りこぼしと雑音での「幻聴」を減らす、一部の指標は悪化も</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-28/story-4/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-28/story-4/</guid>
+    <description>DeNAは11月26日、音声対話の入口となる日本語音声認識（ASR）について、追加学習を施した3つのモデルをHugging Faceで公開した。短い相づちの取りこぼしや、雑音だけの音声から言葉を書き起こしてしまう「幻聴」を減らした。</description>
+  </item>
+  <item>
+    <title>京セラ、5年で設備投資9,000億円の経営計画　AI周辺ネットワーク用部品の売上高を3,100億円へ、約3.6倍をめざす</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-28/story-5/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-28/story-5/</guid>
+    <description>京セラは11月26日の事業戦略説明会で、2031年3月期までの経営計画を示した。5年間で設備投資9,000億円、研究開発費6,500億円を投じ、AIデータセンターなどに使う「AI周辺ネットワーク用部品」の売上高を860億円から3,100億円に伸ばす計画だ。</description>
+  </item>
+  <item>
+    <title>KDDI、圏外の山間部でAIカメラがクマを識別し、常設ドローンが約15分で現場へ　北海道2町で実証、2027年度の提供開始をめざす</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-28/story-6/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-28/story-6/</guid>
+    <description>KDDIとKDDIスマートドローンは11月27日、衛星通信とAI画像判定、常設ドローンを組み合わせたクマ対策の実証結果を発表した。携帯電波の届かない北海道の山間部で、AIがクマを識別して自治体に通知し、ドローンが約15分で現場に着いた。</description>
+  </item>
+  <item>
+    <title>ecbeing、EC運営業務をAIが支援・代行する「ecbeing CommerceOS」を発表　12月から接客・問い合わせ・コンテンツの3つのAIを提供</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-28/story-7/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-28/story-7/</guid>
+    <description>ECサイト構築のecbeingは11月26日、EC運営の業務をAIが支援・代行する新基盤「ecbeing CommerceOS」を発表した。共通基盤と業務別の6つのAIで構成し、2026年12月から一部の提供を始める。</description>
+  </item>
+  <item>
+    <title>モニタス、約3,600万人のモニター網をAIインタビュー「Spark Research」と連携　数百人規模の定性調査を最短即日で</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-28/story-8/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-28/story-8/</guid>
+    <description>マクロミルグループのモニタスは11月26日、約3,600万人のアンケートモニター網を、スパークリサーチのAIインタビューサービス「Spark Research」と連携させたと発表した。AIが聞き手となり、数百人規模の定性調査を最短即日で終えられるとしている。</description>
+  </item>
+  <item>
+    <title>SmartHRの開発チーム、AIで会議を減らし開発時間は週69時間から93時間に　ただし時間あたりの完了量は横ばい、「速くなったとは言い切れない」</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-28/story-9/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-28/story-9/</guid>
+    <description>SmartHRの開発チームは11月25日、Claude CodeとAIコードレビューを使って開発プロセスを見直した結果を技術ブログで公開した。チームの開発に使える時間は週約69時間から約93時間に増えたが、時間あたりの完了量は変わらなかった。</description>
+  </item>
+  <item>
+    <title>AI・生成AIリスクの監査を「実施済み」は5.7％　アビタスが内部監査担当者158人に調査、専門人材の不足は72.2％</title>
+    <link>https://nowonair.vercel.app/articles/2026-11-28/story-10/</link>
+    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-28/story-10/</guid>
+    <description>資格講座のアビタスは11月25日、企業の内部監査・内部統制の担当者を対象にした調査結果を公表した。AI・生成AIのリスクを監査で取り上げたのは5.7％にとどまり、AI監査の専門人材が足りないという回答は72.2％だった。</description>
+  </item>
+  <item>
     <title>Anthropic、裏で作業を続けるエージェント「Claude Duet」の研究プレビューを日本にも拡大　Pro・Max・Ultraが対象、未使用の上限リセットは12月15日に失効</title>
     <link>https://nowonair.vercel.app/articles/2026-11-27/story-1/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-27/story-1/</guid>
@@ -95,66 +155,6 @@
     <link>https://nowonair.vercel.app/articles/2026-11-25/story-1/</link>
     <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-25/story-1/</guid>
     <description>Anthropicは11月23日、GitHub上のコード変更をレビューから取り込みまで支援する「Claude Ship」を発表した。一般提供済みのCode Reviewに、修正を手伝う「PR Steward」と承認を手伝う「Claude Approvals」（いずれもベータ）を組み合わせる。</description>
-  </item>
-  <item>
-    <title>OpenAIとCisco、AIが作る「盾」で稼働中のLinuxを守る「Shirudo」を公開　再起動せずに攻撃を遮断、オープンソースで提供</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-25/story-2/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-25/story-2/</guid>
-    <description>OpenAIとCiscoは11月23日、AIエージェントが作る小さな遮断用プログラム（shield）で、稼働中のLinuxシステムを守るオープンソースのランタイム「Shirudo」を公開した。</description>
-  </item>
-  <item>
-    <title>Google検索のAI Mode、Google Walletとつないで支出を踏まえた回答に　オプトインで提供開始、DriveとGeminiアプリの接続は数週間内</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-25/story-3/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-25/story-3/</guid>
-    <description>Googleは11月23日、検索のAI Modeで使う「Personal Intelligence」にGoogle Walletを接続できる機能の提供を始めた。利用者が自分で接続を選ぶオプトイン方式で、Google DriveとGeminiアプリの接続は今後数週間で提供するとしている。</description>
-  </item>
-  <item>
-    <title>Google DeepMind、Gemini 4のエージェント群で量子アルゴリズムを改良　証明支援系Leanで正しさを確認、核融合の計算コストを11.8分の1に</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-25/story-4/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-25/story-4/</guid>
-    <description>Google DeepMindとGoogle Quantum AIは11月23日、Gemini 4のエージェントのチームが既存の量子アルゴリズムを改良し、その正しさを証明支援系Leanで確認したと発表した。検証用のライブラリと結果はGitHubで公開した。</description>
-  </item>
-  <item>
-    <title>キヤノンITS、マネージドSOCサービスにAI相関分析と初動の自動化を追加　関連アラートを1件にまとめ、端末隔離やアカウント無効化まで</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-25/story-5/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-25/story-5/</guid>
-    <description>キヤノンITソリューションズは11月24日、マネージドSOCサービスを強化し、AIで関連するアラートをまとめる相関分析と、端末の隔離などの初動対応の自動化を同日から提供すると発表した。</description>
-  </item>
-  <item>
-    <title>MIT、小さな言語モデルでアナログ回路を設計する手法「SLIC」を開発　ノートPCで動く規模で大型モデルに迫る、設計データを社外に出さずに使える</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-25/story-6/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-25/story-6/</guid>
-    <description>MITの研究者は11月23日、数十億パラメータの小さな言語モデルを強化学習で鍛え、アナログ集積回路の設計を大型モデルと同等以上にこなせるようにする手法「SLIC」を発表した。</description>
-  </item>
-  <item>
-    <title>数学者アルペゲ氏、Claudeと共同で「リーマン予想」を証明したと発表　Leanコミュニティが形式証明の正しさを認める共同声明</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-23/story-1/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-23/story-1/</guid>
-    <description>数学者のレヴェント・アルペゲ（Levent Alpöge）氏が、AI「Claude」と共同で数学の最難問の一つ「リーマン予想」を証明したとする4ページのノートと、定理証明支援系Leanによる形式証明を公開した。Lean/Mathlibコミュニティは11月21日、証明が正しいと確信しているとの共同声明を出した。</description>
-  </item>
-  <item>
-    <title>OpenAIのチーフサイエンティスト、開発各社に「越えない上限」の共通化を提案　予測の正確さを示す指標を物差しに、自社の測定値も公開</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-23/story-2/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-23/story-2/</guid>
-    <description>OpenAIのチーフサイエンティスト、ヤクブ・パホツキ（Jakub Pachocki）氏は11月22日、公式サイトで、AIモデルの賢さを測る共通の物差しとして「パープレキシティ」を使い、開発各社が越えないと約束する上限を決めることを提案した。自社モデルの内部測定値もあわせて公開した。</description>
-  </item>
-  <item>
-    <title>Signal、OSに組み込まれたAIエージェントによる画面の読み取りを制限　iOSでは「Block Siri AI」、Androidは検知時に画面保護を自動でオン</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-23/story-3/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-23/story-3/</guid>
-    <description>暗号化メッセージアプリのSignalは11月20日（米国時間）、OSに組み込まれたAIエージェントがアプリの画面を読み取ることへの対策を発表した。プレジデントのメレディス・ウィテカー氏は、こうしたエージェントを「Signalにとって存亡に関わる脅威」と表現し、OS各社に仕組みの整備を求めた。</description>
-  </item>
-  <item>
-    <title>METR、AI研究開発に関わるモデルの能力が急速に伸び「測るのが難しくなっている」と報告　最新モデルの作業時間の目安は約40時間</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-23/story-4/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-23/story-4/</guid>
-    <description>AIの能力評価を行う米非営利団体METRは11月20日、AI研究開発に関わるモデルの能力が急速に伸び、測定が難しくなっているとする2026年第4四半期の報告を公開した。これまで危険度の上限を見積もるのに使ってきた評価の一部が、役に立たなくなりつつあるとしている。</description>
-  </item>
-  <item>
-    <title>Hugging Face、AIエージェントの「作業環境」ごとにモデルを合わせる「ハーネスアダプター」を公開　少ないトークンで正答率を改善</title>
-    <link>https://nowonair.vercel.app/articles/2026-11-23/story-5/</link>
-    <guid isPermaLink="true">https://nowonair.vercel.app/articles/2026-11-23/story-5/</guid>
-    <description>Hugging Faceは11月20日、AIエージェントを動かす作業環境（ハーネス）ごとに、オープンモデルを小さな追加学習で合わせる「ハーネスアダプター」を公開した。Qwen3.8-27Bに対し、3種類のハーネス向けにそれぞれLoRAを学習させ、正答率と使うトークン量の両方が改善したと報告している。</description>
   </item>
 </channel>
 </rss>
